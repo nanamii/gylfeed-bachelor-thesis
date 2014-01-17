@@ -189,7 +189,19 @@ htmlhelp_basename = 'htmlhelpoutput'
 ADDITIONAL_PREAMBLE = """
 \input{preamble._tex}
 \usepackage{sphinx}
+
+% Extra packages
 \usepackage[utf8]{inputenc}
+\usepackage[linewidth=1pt]{mdframed}
+
+\\mdfdefinestyle{codeblockbox_style}{%
+    outerlinewidth=5,%
+    roundcorner=100pt,%
+    leftmargin=40,%
+    rightmargin=40,%
+    innertopmargin=\\topskip,%
+    splittopskip=\\topskip
+}
 """
 
 ADDITIONAL_FOOTER = """

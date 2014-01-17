@@ -21,9 +21,9 @@
 %\RequirePackage{makeidx}
 \RequirePackage{framed}
 \RequirePackage{ifthen}
-%\RequirePackage{color}
+\RequirePackage{color}
 % For highlighted code.
-%\RequirePackage{fancyvrb}
+\RequirePackage{fancyvrb}
 % For table captions.
 \RequirePackage{threeparttable}
 % Handle footnotes in tables.
@@ -43,8 +43,8 @@
 % \definecolor{OuterLinkColor}{rgb}{0.216,0.439,0.388}
 % % Redefine these colors to something not white if you want to have colored
 % % background and border for code examples.
-% \definecolor{VerbatimColor}{rgb}{1,1,1}
-% \definecolor{VerbatimBorderColor}{rgb}{1,1,1}
+\definecolor{VerbatimColor}{rgb}{1,1,1}
+\definecolor{VerbatimBorderColor}{rgb}{1,1,1}
 
 % for PDF output, use colors and maximal compression
 %\newif\ifsphinxpdfoutput\sphinxpdfoutputfalse
@@ -126,46 +126,46 @@
 
 % % Redefine the Verbatim environment to allow border and background colors.
 % % The original environment is still used for verbatims within tables.
-% \let\OriginalVerbatim=\Verbatim
-% \let\endOriginalVerbatim=\endVerbatim
+\let\OriginalVerbatim=\Verbatim
+\let\endOriginalVerbatim=\endVerbatim
 
 % Play with vspace to be able to keep the indentation.
-% \newlength\distancetoright
-% \def\mycolorbox#1{%
-%   \setlength\distancetoright{\linewidth}%
-%   \advance\distancetoright -\@totalleftmargin %
-%   \fcolorbox{VerbatimBorderColor}{VerbatimColor}{%
-%   \begin{minipage}{\distancetoright}%
-%     #1
-%   \end{minipage}%
-%   }%
-% }
-% \def\FrameCommand{\mycolorbox}
-% 
-% \renewcommand{\Verbatim}[1][1]{%
-%   % list starts new par, but we don't want it to be set apart vertically
-%   \bgroup\parskip=0pt%
-%   \smallskip%
-%   % The list environement is needed to control perfectly the vertical
-%   % space.
-%   \list{}{%
-%   \setlength\parskip{0pt}%
-%   \setlength\itemsep{0ex}%
-%   \setlength\topsep{0ex}%
-%   \setlength\partopsep{0pt}%
-%   \setlength\leftmargin{0pt}%
-%   }%
-%   \item\MakeFramed {\FrameRestore}%
-%      \small%
-%     \OriginalVerbatim[#1]%
-% }
-% \renewcommand{\endVerbatim}{%
-%     \endOriginalVerbatim%
-%   \endMakeFramed%
-%   \endlist%
-%   % close group to restore \parskip
-%   \egroup%
-% }
+\newlength\distancetoright
+\def\mycolorbox#1{%
+  \setlength\distancetoright{\linewidth}%
+  \advance\distancetoright -\@totalleftmargin %
+  \fcolorbox{VerbatimBorderColor}{VerbatimColor}{%
+  \begin{minipage}{\distancetoright}%
+    #1
+  \end{minipage}%
+  }%
+}
+\def\FrameCommand{\mycolorbox}
+
+\renewcommand{\Verbatim}[1][1]{%
+  % list starts new par, but we don't want it to be set apart vertically
+  \bgroup\parskip=0pt%
+  \smallskip%
+  % The list environement is needed to control perfectly the vertical
+  % space.
+  \list{}{%
+  \setlength\parskip{0pt}%
+  \setlength\itemsep{0ex}%
+  \setlength\topsep{0ex}%
+  \setlength\partopsep{0pt}%
+  \setlength\leftmargin{0pt}%
+  }%
+  \item\MakeFramed {\FrameRestore}%
+     \small%
+    \OriginalVerbatim[#1]%
+}
+\renewcommand{\endVerbatim}{%
+    \endOriginalVerbatim%
+  \endMakeFramed%
+  \endlist%
+  % close group to restore \parskip
+  \egroup%
+}
 
 
 % \moduleauthor{name}{email}
