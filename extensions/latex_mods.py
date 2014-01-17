@@ -107,12 +107,8 @@ class DocTranslator(BaseTranslator):
             self.body.append('\\\\\n')
         self.table.rowcount += 1
 
-    def depart_literal_block(self, node):
-        code = self.verbatim.rstrip('\n')
-        print(code)
-        self.body.append("\\begin{mdframed}[style=codeblockbox_style]")
-        BaseTranslator.depart_literal_block(self, node)
-        self.body.append("\\end{mdframed}")
+    #def depart_literal_block(self, node):
+    #    code = self.verbatim.rstrip('\n')
     #    lang = self.hlsettingstack[-1][0]
     #    linenos = code.count('\n') >= self.hlsettingstack[-1][1] - 1
     #    highlight_args = node.get('highlight_args', {})
