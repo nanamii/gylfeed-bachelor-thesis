@@ -27,6 +27,7 @@ sphinxtr: |br| The Sphinx Thesis Resource
 .. toctree::
 
     bibliography
+    glossary
 
 License
 -------
@@ -34,6 +35,6 @@ License
 This work is licensed under a `Creative Commons Attribution 3.0 United States
 License <http://creativecommons.org/licenses/by/3.0/us/deed.en_US>`_.
 
-.. image:: img/ccicon88x31.png
+.. image:: static/ccicon88x31.png
     :align: center
     :alt: Creative Commons License

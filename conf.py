@@ -40,9 +40,9 @@ source_suffix = '.rst'
 source_encoding = 'utf-8-sig'
 
 # General information about the project.
-project = u'The Sphinx Thesis Resource (sphinxtr)'
-author = u'Jeff Terrace'
-copyright = u'by %s, 2012.' % author
+project = u'Projektarbeit'
+author = u'Christopher Pahl'
+copyright = u'by %s, 2013-2014.' % author
 version = '0.1'
 release = '0.1'
 
@@ -108,7 +108,7 @@ html_theme = 'sphinxdoc'
 html_title = "%s" % project
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
-html_short_title = "Someone's PhD Thesis"
+html_short_title = "Projektarbeit - libmunin: a music recommendation system"
 
 # The name of an image file (relative to this directory) to place at the top
 # of the sidebar.
@@ -122,7 +122,7 @@ html_short_title = "Someone's PhD Thesis"
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
-html_static_path = ['static']
+html_static_path = ['rst/static']
 
 # If not '', a 'Last updated on:' timestamp is inserted at every page bottom,
 # using the given strftime format.
