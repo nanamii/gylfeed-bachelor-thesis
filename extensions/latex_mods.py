@@ -203,11 +203,12 @@ class CustomLaTeXBuilder(sphinx.builders.latex.LaTeXBuilder):
         # output these as include files
         for docname in ['abstract', 'dedication', 'acknowledgements']:
             destination = FileOutput(
-                    destination_path=os.path.join(self.outdir, '%s.inc' % docname),
-                    encoding='utf-8')
+                destination_path=os.path.join(self.outdir, '%s.inc' % docname),
+                encoding='utf-8'
+            )
 
             docwriter = LaTeXWriter(self)
-            doctree = self.env.get_doctree(docname)
+            doctree = self.env.get_doctree(os.path.join('rst', docname))
 
             docsettings = OptionParser(
                 defaults=self.env.settings,

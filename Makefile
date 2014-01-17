@@ -44,7 +44,7 @@ clean:
 	-rm -rf $(BUILDDIR)/*
 
 html:
-	touch bibliography.rst && $(SPHINXBUILD) -a -b html $(ALLSPHINXOPTS) $(BUILDDIR)/html
+	touch rst/bibliography.rst && $(SPHINXBUILD) -a -b html $(ALLSPHINXOPTS) $(BUILDDIR)/html
 	@echo
 	@echo "Build finished. The HTML pages are in $(BUILDDIR)/html."
 
@@ -54,7 +54,7 @@ dirhtml:
 	@echo "Build finished. The HTML pages are in $(BUILDDIR)/dirhtml."
 
 singlehtml:
-	touch bibliography.rst && $(SPHINXBUILD) -t singlehtml -a -b singlehtml $(ALLSPHINXOPTS) $(BUILDDIR)/singlehtml
+	touch rst/bibliography.rst && $(SPHINXBUILD) -t singlehtml -a -b singlehtml $(ALLSPHINXOPTS) $(BUILDDIR)/singlehtml
 	@echo
 	@echo "Build finished. The HTML page is in $(BUILDDIR)/singlehtml."
 

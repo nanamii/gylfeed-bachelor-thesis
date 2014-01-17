@@ -6,6 +6,6 @@
 sphinxtr: |br| The Sphinx Thesis Resource
 #########################################
 
-.. include:: toc.txt
+.. include:: toc.rst
 
 .. cite:refs::

@@ -1,9 +1,13 @@
-import sys, os
+import os
+import sys
 
 # directory relative to this conf file
 CURDIR = os.path.abspath(os.path.dirname(__file__))
+
 # add custom extensions directory to python path
-sys.path.append(os.path.join(os.path.abspath(os.path.dirname(__file__)), 'extensions'))
+sys.path.append(
+    os.path.join(os.path.abspath(os.path.dirname(__file__)), 'extensions')
+)
 
 # import the custom html and latex builders/translators/writers
 import html_mods
@@ -14,17 +18,17 @@ import latex_mods
 
 # import order is important here
 extensions = [
-              'fix_equation_ref',
-              'sphinx.ext.mathjax',
-              'sphinx.ext.ifconfig',
-              'subfig',
-              'numfig',
-              'numsec',
-              'natbib',
-              'figtable',
-              'singlehtml_toc',
-              'singletext',
-              ]
+    'fix_equation_ref',
+    'sphinx.ext.mathjax',
+    'sphinx.ext.ifconfig',
+    'subfig',
+    'numfig',
+    'numsec',
+    'natbib',
+    'figtable',
+    'singlehtml_toc',
+    'singletext',
+]
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['templates']
@@ -58,25 +62,28 @@ natbib = {
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 exclude_patterns = [
-                    '_build',
-                    'tex',
-                    'epilog.rst',
-                    'README.rst',
-                    ]
+    '_build',
+    'tex',
+    'rst/epilog.rst',
+    'rst/toc.rst',
+    '*venv*',
+    'README.rst',
+]
 
 # The master toctree document.
 # Ideally, we wouldn't have to do this, but sphinx seems to have trouble with
 # directives inside only directives
 if tags.has('latex'):
-    master_doc = 'index_tex'
-    exclude_patterns.append('index.rst')
+    master_doc = 'rst/index_tex'
+    exclude_patterns.append('rst/index.rst')
 else:
-    master_doc = 'index'
-    exclude_patterns.append('index_tex.rst')
+    master_doc = 'rst/index'
+    exclude_patterns.append('rst/index_tex.rst')
 
 # A string of reStructuredText that will be included at the end of
 # every source file that is read.
-rst_epilog = open(os.path.join(CURDIR, 'epilog.rst'),'r').read().decode('utf8')
+with open(os.path.join(CURDIR, 'rst/epilog.rst'), 'r') as f:
+    rst_epilog = f.read().decode('utf8')
 
 # The name of the Pygments (syntax highlighting) style to use.
 pygments_style = 'sphinx'
@@ -130,6 +137,7 @@ template_files = ['localtoc.html', 'relations.html', 'sourcelink.html']
 if not tags.has('singlehtml'):
     # only include search box for regular html, not single page html
     template_files.append('searchbox.html')
+
 html_sidebars = {
    '**': template_files,
 }
@@ -148,7 +156,7 @@ html_use_index = False
 #html_split_index = False
 
 # If true, links to the reST sources are added to the pages.
-#html_show_sourcelink = True
+html_show_sourcelink = True
 
 # If true, "Created using Sphinx" is shown in the HTML footer. Default is True.
 #html_show_sphinx = True
@@ -176,13 +184,12 @@ htmlhelp_basename = 'htmlhelpoutput'
 # mathjax_path = 'MathJax/MathJax.js?config=TeX-AMS-MML_HTMLorMML'
 
 
-
-
 # -- Options for LaTeX output --------------------------------------------------
 
 ADDITIONAL_PREAMBLE = """
 \input{preamble._tex}
 \usepackage{sphinx}
+\usepackage[utf8]{inputenc}
 """
 
 ADDITIONAL_FOOTER = """
@@ -192,7 +199,7 @@ ADDITIONAL_FOOTER = """
 latex_elements = {
     # The paper size ('letterpaper' or 'a4paper').
     'papersize': 'letterpaper',
-    
+
     # * gets passed to \documentclass
     # * default options are single sided, double spaced
     #   you can change them with these options:
@@ -201,44 +208,47 @@ latex_elements = {
     # * you might want to omit the list of tables (lot)
     #   if you use figtable without the :nofig: option
     'classoptions': ',english,lof,lot',
-    
+
     # The font size ('10pt', '11pt' or '12pt').
     'pointsize': '12pt',
-    
+
     # Additional stuff for the LaTeX preamble.
     'preamble': ADDITIONAL_PREAMBLE,
-    
+
     # Additional footer
     'footer': ADDITIONAL_FOOTER,
-    
+
     # disable font inclusion
     'fontpkg': '',
     'fontenc': '',
-    
+
     # disable fancychp
     'fncychap': '',
-    
+
     # get rid of the sphinx wrapper class file
     'wrapperclass': 'puthesis',
-    
+
+    # Use ,,Kapitel'' instead of chapter
+    'babel': '\usepackage[german, ngerman]{babel}',
+
     # override maketitle
     'maketitle': '\makefrontmatter',
     'tableofcontents': '',
-    
+
     # disable index printing
     'printindex': '',
 }
 
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
-latex_documents = [
-    ('index_tex',
-     'thesis.tex',
-     project,
-     author,
-     'manual',
-     True),
-]
+latex_documents = [(
+    'rst/index_tex',
+    'thesis.tex',
+    project,
+    author,
+    'manual',
+    True,
+)]
 
 latex_docclass = {
     'manual': 'puthesis',

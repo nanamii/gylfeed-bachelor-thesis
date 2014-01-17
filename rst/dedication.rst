@@ -5,4 +5,4 @@
     Dedication
     ----------
 
-To my parents.
+To my cats.

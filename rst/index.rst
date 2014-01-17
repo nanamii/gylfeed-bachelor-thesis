@@ -22,7 +22,7 @@ sphinxtr: |br| The Sphinx Thesis Resource
     Table of Contents
     -----------------
 
-.. include:: toc.txt
+.. include:: toc.rst
 
 .. toctree::
 
