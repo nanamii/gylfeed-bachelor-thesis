@@ -1,4 +1,5 @@
 #!/bin/sh
+# This is probably very prone to fail.
 
 make html singlehtml && cp _build/*html /tmp -r;
 git checkout gh-pages
