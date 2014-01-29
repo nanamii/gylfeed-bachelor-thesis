@@ -1,7 +1,7 @@
 #!/bin/sh
 # This is probably very prone to fail.
 git checkout $1
-make html singlehtml && cp _build/*html /tmp -r;
+make clean html singlehtml && cp _build/*html /tmp -r;
 git checkout gh-pages
 rm *html -rf && cp /tmp/*html . -r
 git add *html
