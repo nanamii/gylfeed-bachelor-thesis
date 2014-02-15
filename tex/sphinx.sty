@@ -94,17 +94,23 @@
 \renewcommand{\chaptermark}[1]{%
 \markboth{\ #1}{}}
 
+\newcommand{\udot}[1]{%
+    \tikz[baseline=(todotted.base)]{%
+        \node[inner sep=4pt,outer sep=0pt] (todotted) {#1};
+        \draw[dotted, thick, opacity=0.75] (todotted.south west) -- (todotted.south east);
+    }%
+}%
+
 \setlength{\headheight}{24pt} 
 \fancyfoot[C]{%
     % EasterEgg
     \ifthenelse{\value{page}=42}
-        {\scshape{\reflectbox{$\overline{\mbox{\thepage\vphantom{\"A}}}$}}}
-        {\scshape{$\overline{\mbox{\thepage\vphantom{\"A}}}$}}
+        {\scshape{\reflectbox{\udot{~~\thepage~~~}}}}
+        {\scshape{\udot{~~\thepage~~~}}}
 }%
 \fancyhead[LO]{{\nouppercase{\slshape{\leftmark}}}}
 \fancyhead[RO]{{\nouppercase{\scshape{\rightmark}}}}
 \renewcommand{\headrule}{\vbox to 0pt{\hbox to \headwidth{\dotfill}\vss}}
-% \renewcommand{\footrule}{\hrule{0.4pt}{10pt}}
 
 
 % Some custom font markup commands.
@@ -168,10 +174,6 @@
 %             {\py@TitleColor\thesection}{0.5em}{\py@TitleColor}{\py@NormalColor}
 % \titleformat{\subsection}{\large\py@HeaderFamily}%
 %             {\py@TitleColor\thesubsection}{0.5em}{\py@TitleColor}{\py@NormalColor}
-% \titleformat{\subsubsection}{\py@HeaderFamily}%
-%             {\py@TitleColor\thesubsubsection}{0.5em}{\py@TitleColor}{\py@NormalColor}
-% \titleformat{\paragraph}{\small\py@HeaderFamily}%
-%             {\py@TitleColor}{0em}{\py@TitleColor}{\py@NormalColor}
 
 % {fulllineitems} is the main environment for object descriptions.
 %
@@ -224,7 +226,7 @@
   \setlength{\py@noticelength}{\linewidth}
   \addtolength{\py@noticelength}{-2\fboxsep}
   \addtolength{\py@noticelength}{-2\fboxrule}
-  %\setlength{\shadowsize}{3pt}
+  \setlength{\shadowsize}{3pt}
   \Sbox
   \minipage{\py@noticelength}
 }
@@ -246,8 +248,8 @@
   }}
 
 % Some are quite plain:
-\newcommand{\py@noticestart@note}{\py@lightbox}
-\newcommand{\py@noticeend@note}{\py@endlightbox}
+\newcommand{\py@noticestart@note}{\py@heavybox}
+\newcommand{\py@noticeend@note}{\py@endheavybox}
 \newcommand{\py@noticestart@hint}{\py@lightbox}
 \newcommand{\py@noticeend@hint}{\py@endlightbox}
 \newcommand{\py@noticestart@important}{\py@lightbox}
