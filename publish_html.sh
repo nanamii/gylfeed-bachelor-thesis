@@ -15,7 +15,7 @@ function copy {
     rm ${1} -rf && 
     mkdir -p ${1} 
     cp ${BUILD_PATH}/*html $1 -r &&
-    git add . && 
+    git add $1 && 
     git commit -am 'Automated update.' &&
     git checkout master
 }
