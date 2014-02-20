@@ -201,16 +201,15 @@ ADDITIONAL_PREAMBLE = """
 \\usepackage{lettrine}
 \\usepackage{tikz}
 
-% Use Garamond as main font
-\\renewcommand{\\rmdefault}{ugm}
-\\renewcommand{\\sfdefault}{uop}
-
-% But it's too thin for things like code examples
-%\\renewcommand{\\ttdefault}{pcr}
+% Use Garamond as main font and Inconsolata for Code
+\\usepackage{inconsolata}
+\\usepackage{garamondx}% scaled to 95%, my oldstyle
 
 \\usepackage{titlesec}
-\\definecolor{gray75}{gray}{0.6}
-\\newcommand{\\hsp}{\hspace{20pt}}
+\\assignpagestyle{\chapter}{plain}
+
+\\definecolor{gray75}{gray}{0.55}
+\\newcommand{\\hsp}{\\hspace{20pt}}
 \\setcounter{secnumdepth}{3}
 
 \\titleformat{\\chapter}      % Command 2
@@ -221,7 +220,7 @@ ADDITIONAL_PREAMBLE = """
 
 \\titleformat{\\section}
     {\\color{black}\\normalfont\\Large\\bfseries}
-    {\\color{gray75}\\thesection}{1em}{}
+    {\\selectfont\\color{gray75}\\thesection}{1em}{}
 
 \\titleformat{\\subsection}
     {\\color{black}\\normalfont\\large\\bfseries}
@@ -229,7 +228,7 @@ ADDITIONAL_PREAMBLE = """
 
 \\titleformat{\\subsubsection}
     {\\color{black}\\normalfont\\bfseries}
-    {\\color{gray75}\\thesubsubsection}{0.5em}{}
+    {\\color{gray75}\\thesubsubsection}{1em}{}
 """
 
 ADDITIONAL_FOOTER = """
