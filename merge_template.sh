@@ -1,10 +1,10 @@
 #!/bin/sh
 git commit -am "Template change: $1"
 
-git checkout projekt
+git checkout pa
 git merge master
 
-git checkout bachelor
+git checkout ba
 git merge master
 
 git checkout master
