@@ -47,7 +47,7 @@ source_encoding = 'utf-8'
 
 # General information about the project.
 project = u'Projektarbeit'
-author = u'Christopher Pahl'
+author = u'Christoph Piechula'
 copyright = u'by %s, 2013-2014.' % author
 version = '0.1'
 release = '0.1'

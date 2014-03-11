@@ -1,14 +1,15 @@
 \newcommand{\theauthor}{%
-    Christopher Pahl
+    Christoph Piechula
 }%
 
 \copyrightyear{2014}
 \adviser{Prof. Dr. Günther Köhler}
-\worktitle{Design und Implementierung eines Musikempfehlungssystems}
-\worksubtitle{basierend auf Datamining--Algorithmen}
+\worktitle{Design und Implementierung eines Film--Metadaten Such-- und
+Analysesystems}
+\worksubtitle{}
 
-\authorstreet{Lorenz Summa Str. 4}
-\authorcity{95126 Schwarzenbach\ a.\ d.\ Saale}
+\authorstreet{Breslaustr. 4}
+\authorcity{95028 Hof }
 
 \adviserstreet{Alfons-Goppel-Platz 1}
 \advisercity{95028 Hof }
