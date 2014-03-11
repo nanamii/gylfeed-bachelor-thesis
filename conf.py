@@ -108,7 +108,7 @@ html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 html_title = "%s" % project
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
-html_short_title = "Projektarbeit - libmunin: a music recommendation system"
+html_short_title = "Projektarbeit - libhugin: a movie search and analysis system"
 
 # The name of an image file (relative to this directory) to place at the top
 # of the sidebar.

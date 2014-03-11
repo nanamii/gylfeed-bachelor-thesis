@@ -1,4 +1,4 @@
-.. |nbsp| unicode:: 0xA0 
+.. |nbsp| unicode:: 0xA0
    :trim:
 
 .. |eg| replace:: e.g.,

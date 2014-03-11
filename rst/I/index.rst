@@ -5,7 +5,7 @@ Einleitung
 Motivation
 ==========
 
-Keine.
+Keine. :cite:`XAJ`.
 
 Ziele
 =====
