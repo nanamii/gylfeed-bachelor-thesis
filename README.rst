@@ -1,4 +1,4 @@
-Bachelor Thesis for libmunin
+Bachelor Thesis for libhunin
 ============================
 
 Based on a (quite heavily) modified version of *sphinxtr*:
@@ -7,21 +7,6 @@ Based on a (quite heavily) modified version of *sphinxtr*:
 
 More details there.
 
-Output
-======
-
-Projektarbeit
--------------
-
-HTML
-~~~~
-
-http://sahib.github.com/libmunin-thesis/projekt/html/rst/index.html
-
-PDF
-~~~
-
-https://dl.dropboxusercontent.com/u/12859833/projektarbeit.pdf
 
 Installation
 ============
