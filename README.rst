@@ -33,3 +33,12 @@ For configuring name, title and stuff, look into these files:
 - ``conf.py`` (Projectname, Author, Language (currently ``ngerman``))
 - ``rst/index.rst`` (HTML Entydocument)
 - ``rst/index_tex.rst`` (LaTeX Entrydocument)
+
+Autobuild
+=========
+
+To do a autobuild on every save just run the convenience script:
+
+.. code-block:: bash
+
+   $ ./autobuild.sh
