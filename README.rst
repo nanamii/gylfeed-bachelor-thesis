@@ -1,4 +1,4 @@
-Bachelor Thesis for libhunin
+Bachelor Thesis for libhugin
 ============================
 
 Based on a (quite heavily) modified version of *sphinxtr*:
