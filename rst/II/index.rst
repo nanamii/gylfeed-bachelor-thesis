@@ -1,6 +1,9 @@
-********
-Einstieg
-********
+.. _ch-refs:
+
+************************
+References and Citations
+************************
+
 
 .. epigraph::
 
@@ -9,17 +12,34 @@ Einstieg
 
    -- *Douglas Adams, ,,Last Chance to See''*
 
-Warum überhaupt?
-================
+You can reference a section by its label. This chapter is
+Chapter |nbsp| :ref:`ch-refs`.
 
-TestTestTestTestTestTest......
+.. _sec-refs-sub1:
 
-Alternativen
-============
+Subsection
+==========
 
-Test.
+This subsection is Section |nbsp| :ref:`sec-refs-sub1`.
 
-Übersicht
+Citations
 =========
 
-Schaubild
+COLLADA |nbsp| :cite:`collada` is a cool 3D file format. I wrote a paper about
+3D stuff |nbsp| :cite:`icmepaper`. The website we built is running |nbsp|
+:cite:`open3dhub`. The bibliography is in bibtex format.
+
+Footnotes
+=========
+
+Reference a footnote |nbsp| [#foot-something]_.
+
+External Links
+==============
+
+You can link to a `website <http://google.com/>`_.
+
+.. rubric:: Footnotes
+
+.. [#foot-something] This is a footnote at the end of the page or document.
+
