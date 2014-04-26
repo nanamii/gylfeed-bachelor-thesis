@@ -19,16 +19,17 @@
     }%
 
 .. figtable::
-    :spec: >{\raggedleft\arraybackslash}p{0.25\linewidth} p{0.65\linewidth}
+    :spec: >{\raggedleft\arraybackslash}p{0,25\linewidth} p{0,65\linewidth}
 
     =======================  ==================================
     Abkürzung                Bedeutung
     =======================  ==================================
     API                      *Application Programming Interface*
-    GUI                      *Graphical User Interface*
-    LoC                      *Lines of Code*
-    ID                       *Identifier*
-    UID                      *Unique Identifier*
+    BPM                      *Beats per Minute*
+    FAQ                      *Frequently Asked Questions*
+    URL                      *Uniform Resource Locator*
+    MP3                      *MPEG-2 Audio Layer III*
+    FLAC                     *Free Lossless Audio Codec*
     =======================  ==================================
 
 .. raw:: latex

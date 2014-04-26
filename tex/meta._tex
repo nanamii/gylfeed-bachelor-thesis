@@ -2,10 +2,13 @@
     Christopher Pahl
 }%
 
+
 \copyrightyear{2014}
+\worktype{Bachelorarbeit}
 \adviser{Prof. Dr. Günther Köhler}
-\worktitle{Design und Implementierung eines Musikempfehlungssystems}
-\worksubtitle{basierend auf Datamining--Algorithmen}
+\worktitle{Algorithmik und Evaluation des Musikempfehlungssystems libmunin}
+\university{an der Hochschule für Angewandte Wissenschaften Hof}
+\worksubtitle{}
 
 \authorstreet{Lorenz--Summa--Str. 4}
 \authorcity{95126 Schwarzenbach\ a.\ d.\ Saale}

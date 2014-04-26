@@ -2,9 +2,9 @@
 
 .. _doc-title:
 
-############################
-libmunin: |br| Projektarbeit
-############################
+#############################
+libmunin: |br| Bachelorarbeit
+#############################
 
 .. only:: not singlehtml
 
@@ -26,6 +26,7 @@ libmunin: |br| Projektarbeit
 
 .. include:: abbrevs.rst
 
+
 .. toctree::
 
     appendix
@@ -34,10 +35,10 @@ libmunin: |br| Projektarbeit
 Lizenz
 ------
 
-Diese Arbeit ist unter den Bedingungen der *Creative Commons Attribution-3.0*
+Diese Arbeit ist unter den Bedingungen der *Creative Commons Attribution-3,0*
 lizensiert:
 
-    http://creativecommons.org/licenses/by/3.0/de/
+    http://creativecommons.org/licenses/by/3,0/de/
 
 .. image:: _static/cclogo.svg
     :align: center
