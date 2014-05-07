@@ -6,6 +6,8 @@
 \RequirePackage[utf8]{inputenc}
 
 \def\copyrightyear#1{\gdef\@copyrightyear{#1}}
+\def\university#1{\gdef\@university{#1}}
+\def\worktype#1{\gdef\@worktype{#1}}
 \def\worktitle#1{\gdef\@worktitle{#1}}
 \def\worksubtitle#1{\gdef\@worksubtitle{#1}}
 \def\adviserstreet#1{\gdef\@adviserstreet{#1}}
@@ -30,9 +32,7 @@
   \else
   \fi
 
-  \titlespacing{\chapter}{0pt}{0.0em}{0.5em}
   \tableofcontents
-  \titlespacing{\chapter}{0pt}{0.0em}{2em}
   \clearpage
 }%
 
@@ -56,12 +56,14 @@
 %%   However, that is not compatible with package 'hyperref'. \tableofcontents needs
 %%   to be declared from within the document itself. 
 \newcommand*{\makefrontmatter}{%
+    \titlespacing{\chapter}{0pt}{0.0em}{0.2em}
     \bodyspacing
     \frontmatter\maketitlepage\makecopyrightpage\makeabstract
-    \makeacknowledgements\maketoc
+    \maketoc
     \makelot\clearpage\makelof\clearpage\makelos
     \clearpage\mainmatter
-}%
+    \titlespacing{\chapter}{0pt}{0.0em}{2em}
+}% 
 
 \long\def\acknowledgements#1{\gdef\@acknowledgements{#1}}
 
@@ -72,7 +74,7 @@
   \end{center}
   \vspace{.6in}
   \extravspace{.6in}
-  \sc
+  \normalfont\scshape
   \vspace*{0in}
   \begin{center}
     \LARGE \@worktitle \\
@@ -84,8 +86,8 @@
   \vspace{.6in}
   \extravspace{.6in}
   \begin{center}
-    \Large Projektarbeit\\
-    \large an der Hochschule für Angewandte Wissenschaften Hof \\
+    \Large \@worktype\\
+    \large \@university \\
   \end{center}
   \vspace{.6in}
   \extravspace{.6in}
@@ -132,27 +134,16 @@
   \end{center}
   \thispagestyle{empty}
   \@abstract
-  \clearpage
+
+  \addcontentsline{toc}{section}{Danksagung}
+  \begin{center}
+    \Large \textbf{Danksagung}
+  \end{center}
+  \thispagestyle{empty}
+  \@acknowledgements
 }%
 
-\def\makeacknowledgements{
-  \ifx\@acknowledgements\undefined
-  \else
-    \ifdefined\phantomsection
-     % makes hyperref recognize this section properly for pdf links
-     \phantomsection
-    \else
-    \fi
 
-    \addcontentsline{toc}{section}{Danksagung}
-    \begin{center}
-      \Large \textbf{Danksagung}
-    \end{center}
-    \thispagestyle{empty}
-    \@acknowledgements
-    \clearpage
-  \fi
-  }
 \def\makededication{
   \ifx\@dedication\undefined
   \else

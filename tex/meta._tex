@@ -2,10 +2,12 @@
     Christoph Piechula
 }%
 
+
 \copyrightyear{2014}
+\worktype{Bachelorarbeit}
 \adviser{Prof. Dr. Günther Köhler}
-\worktitle{Design und Implementierung eines Film--Metadaten Such-- und
-Analysesystems}
+\worktitle{Algorithmik und Evaluation des Musikempfehlungssystems libmunin}
+\university{an der Hochschule für Angewandte Wissenschaften Hof}
 \worksubtitle{}
 
 \authorstreet{Breslaustr. 4}
