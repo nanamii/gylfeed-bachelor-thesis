@@ -1,8 +1,8 @@
 .. _ch-refs:
 
-***************************
+=============================
 Grundlegendes zu RSS und Atom
-***************************
+=============================
 
 
 .. epigraph::
@@ -18,7 +18,7 @@ Newsfeeds bedienen sich verschiedener Formate, um ihre Daten zu veröffentlichen
 
 
 Funktionsweise und Einsatzzwecke von Feeds
-=========================================
+******************************************
 
 
 

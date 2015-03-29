@@ -120,3 +120,6 @@ angeboten.
 
 **Responsive Design:** Werden Aktionen ausgeführt, die zur Änderung anderer
 Komponenten führen, oder einen Hinweis erfordern wird sich die GUI anpassen.
+
+
+
