@@ -28,6 +28,7 @@ class DocTranslator(BaseTranslator):
     def __init__(self, *args, **kwargs):
         BaseTranslator.__init__(self, *args, **kwargs)
         self.verbatim = None
+        self.previous_spanning_row = None
 
     def visit_caption(self, node):
         caption_idx = node.parent.index(node)

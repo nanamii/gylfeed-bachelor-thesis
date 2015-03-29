@@ -1,17 +1,17 @@
 \newcommand{\theauthor}{%
-    Christoph Piechula
+    Susanne Kießling
 }%
 
 
-\copyrightyear{2014}
-\worktype{Bachelorarbeit}
-\adviser{Prof. Dr. Günther Köhler}
-\worktitle{Algorithmik und Evaluation des Musikempfehlungssystems libmunin}
+\copyrightyear{2015}
+\worktype{Projektarbeit}
+\adviser{Prof. Dr. Martin Thost}
+\worktitle{Design und Implementierung eines RSS-Feedreaders}
 \university{an der Hochschule für Angewandte Wissenschaften Hof}
 \worksubtitle{}
 
-\authorstreet{Breslaustr. 4}
-\authorcity{95028 Hof }
+\authorstreet{Holzbachstraße 35}
+\authorcity{86152 Augsburg}
 
 \adviserstreet{Alfons--Goppel--Platz 1}
 \advisercity{95028 Hof }

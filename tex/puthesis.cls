@@ -100,7 +100,7 @@
   \vspace{.9in}
   \extravspace{.9in}
   \begin{center}
-    Hof, \today
+    Augsburg, \today
   \end{center}
   \clearpage
 }}%
@@ -109,7 +109,7 @@
   \thispagestyle{empty}
   \vspace*{0in}
   \begin{center}
-    {\Large\reflectbox{\huge$_\copyright$}}\ Copyleft by \@author, \@copyrightyear. \\
+    {\Large\reflectbox{\huge$_\copyright$}}\ Copyright by \@author, \@copyrightyear. \\
     Some rights reserved. \\
     \vspace{1in}
     \begin{minipage}[c]{0.2\linewidth}

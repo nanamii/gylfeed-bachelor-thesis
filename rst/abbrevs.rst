@@ -1,5 +1,3 @@
-:orphan:
-
 .. One big hack.
 
 .. only:: html or singlehtml or singletext
@@ -25,11 +23,10 @@
     Abkürzung                Bedeutung
     =======================  ==================================
     API                      *Application Programming Interface*
-    BPM                      *Beats per Minute*
-    FAQ                      *Frequently Asked Questions*
+    GUI                      *Graphical User Interface*
+    RSS                      *Really Simple Syndication*
     URL                      *Uniform Resource Locator*
-    MP3                      *MPEG-2 Audio Layer III*
-    FLAC                     *Free Lossless Audio Codec*
+    GTK                      *Gnome Toolkit*
     =======================  ==================================
 
 .. raw:: latex

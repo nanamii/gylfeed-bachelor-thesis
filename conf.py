@@ -46,9 +46,9 @@ source_suffix = '.rst'
 source_encoding = 'utf-8'
 
 # General information about the project.
-project = u'Bachelorarbeit'
-author = u'Christoph Piechula'
-copyright = u'by %s, 2013-2014.' % author
+project = u'Projektarbeit'
+author = u'Susanne Kießling'
+copyright = u'by %s, 2015.' % author
 version = '0.1'
 release = '0.1'
 
@@ -231,7 +231,7 @@ latex_elements = {
     'wrapperclass': 'puthesis',
 
     # Input encoding, eXtended.
-    'inputenc': '\\usepackage[utf8]{inputenc}',
+    'inputenc': '\\usepackage[utf8]{inputenc} \\usepackage{float}',
 
     # Use ,,Kapitel'' instead of chapter
     'babel': '\\usepackage[ngerman]{babel}',
