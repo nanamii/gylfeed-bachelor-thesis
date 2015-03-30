@@ -3,24 +3,23 @@ Einleitung
 **********
 
 Ein privater Blog, eine Nachrichten-Webseite, oder ein Themenforum -- haben eine
-Gemeinsamkeit. Sie veröffentlichen in variablen Abständen neue Inhalte. Um
-diese Änderungen auf der jeweiligen Webseite mitzubekommen, muss der Nutzer im
+Gemeinsamkeit. Sie veröffentlichen in variablen Abständen neue Inhalte. Um diese
+Änderungen auf der jeweiligen Webseite mitzubekommen, muss der Nutzer im
 Normalfall die Webseite aufsuchen. Bei einer großen Anzahl an Webseiten, zu der
 ein Nutzer auf dem aktuellen Stand sein möchte, bedeuted dies einen großen
 Zeitaufwand. Zudem aktualisieren manche Webseiten ihren Inhalt nur selten. Dem
-Nutzer müsste die Möglichkeit gegeben werden, sich über die Aktualisierung
-einer bestimmten Webseite automatisch informieren lassen zu können. Diese Möglichkeit
-bietet sich durch das sogenannte Abonnieren von Feeds. Die jeweilige
-Webseite muss diesen Service anbieten. Im Normalfall hinterlegt der Nutzer dazu eine
-zum Feed gehörende URL in einer Software, die den Nutzer über Änderungen
-informiert, einen sogenannten Feedreader.
+Nutzer müsste die Möglichkeit gegeben werden, sich über die Aktualisierung einer
+bestimmten Webseite automatisch informieren lassen zu können. Diese Möglichkeit
+bietet sich durch das sogenannte Abonnieren von Feeds. Die jeweilige Webseite
+muss diesen Service anbieten. Im Normalfall hinterlegt der Nutzer dazu eine zum
+Feed gehörende URL in einer Software, die den Nutzer über Änderungen informiert,
+einen sogenannten Feedreader.
 
 Die Planung und der Entwurf einer eben solchen Software ist Gegenstand dieser
 Projektarbeit. Der Feedreader soll minimalistisch im Aufbau und intuitiv in der
-Bedienung sein. Das Bedienkonzept wird von bisherigen Feedreadern abheben.
-Das Projekt wird als Open-Source-Projekt durchgeführt. Als Zielgruppe der
-Software sind alle diejenigen zu Nennen, die den Dienst von Feeds nutzen
-möchten.
+Bedienung sein. Das Bedienkonzept wird von bisherigen Feedreadern abheben.  Das
+Projekt wird als Open-Source-Projekt durchgeführt. Als Zielgruppe der Software
+sind alle diejenigen zu Nennen, die den Dienst von Feeds nutzen möchten.
 
 Die Projektarbeit beschäftigt sich im Folgenden mit dem Entwurf und der
 Implementierung des Feedreaders. Anfangs wird die Funktionsweise von RSS
