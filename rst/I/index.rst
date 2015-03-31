@@ -58,4 +58,4 @@ Für den Schriftzug wird die Schriftart *Portal* mit angepasstem Kerning verwend
 Eule wurde als Vektorgrafik erstellt. Skalieren auf die passende Größe, je nach
 Verwendungszweck innerhalb der Software ist somit problemlos möglich. Die
 Platzierung der Eule wurde bewusst gewählt, um zwischen Schriftzug und Eule
-Spannung zu erzeugen. Hier wurde das Stilmittel des Goldenen Schnitts angewendet (siehe :cite:`GS` - eine mathematische Herleitung)
+eine Verbinung und Harmonie zu erzeugen. Hier wurde das Stilmittel des Goldenen Schnitts angewendet (siehe :cite:`GS` - eine mathematische Herleitung)
