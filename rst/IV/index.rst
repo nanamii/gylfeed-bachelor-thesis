@@ -1,13 +1,14 @@
-********************************************
-Anforderungen an die Software      *gylfeed*
-********************************************
-
+***************************************
+Anforderungen an die Software *gylfeed* 
+***************************************
 
 
 Allgemeine Anforderungen
 ========================
 
-Entwicklung unter der GPL Lizenz....
+Die Entwicklung erfolgt unter der GNU General Public License in der Version 3.0
+(siehe :cite:`GNUGPL` - offizielle Seite von GNU GPL)
+
 Mit *gylfeed* soll ein leichtgewichtiger Feedreader entwickelt werden, an den
 folgende allgemeine Anforderungen gestellt werden:
 
@@ -56,23 +57,26 @@ aktualisiert werden.
 **Automatisches Update von Feeds:** Feeds werden im gewählten Intervall
 automatisch aktualisiert.
 
-**Der Update-Vorgang soll andere Abläufe nicht blockieren:**
+**Der Update-Vorgang soll andere Abläufe nicht blockieren:** Grundsätzlich ist
+gefordert, dass der Update-Vorgang wenig Bandbreite beansprucht und andere
+Vorgänge, wie beispielsweise die Bedienung der Grafischen Oberfläche, nicht
+behindert.
 
 
 Suche
 -----
 
 **Suche innerhalb Feeds:** Ein Feed innerhalb der Gesamtheit der Feeds ist
-suchbar.
+suchbar. Die Ergebnisse werden angezeigt.
 
 **Suche innerhalb Entries nach Titel:** Ein Entry innerhalb der Gesamtheit der
-Entries ist suchbar.
+Entries ist suchbar. Die Ergebnisse werden angezeigt.
 
 
-Anzeige von Daten
------------------
+Bereitstellung von Daten
+------------------------
 
-Folgende Daten werden angezeigt:
+Folgende Daten werden zur Verfügung gestellt:
 
  * Anzahl der Feeds 
  * Anzahl neuer Entries
@@ -86,40 +90,53 @@ Anzeige einzelner Feeds
 Sortierte Darstellung der Entries
 Darstellung des Inhalts des Entries
 
-Browserfunktion innerhalb des Feedreaders
+Browserfunktion
+---------------
+
+Innerhalb des Feedreaders gibt es eine Funktionalität, die den Inhalt von Links,
+darstellen.
 Aufruf von Links zum Entry
 
 
 Bedienkonzept
 -------------
-**Navigation mit Tastatur:** Effiziente Bedienung mit der Tastatur.
+**Navigation mit Tastatur:** Effiziente Bedienung mit der Tastatur. Darunter ist
+das Navigieren zwischen den verschiedenen Ansichten und innerhalb der einzelnen
+Ansicht zu verstehen.
 
 **Einbindung von Shortcuts:** Shortcuts für häufig genutzte Funktionen.
 **Navigation mit Maus:** Neben der Bedienung mit der Tastatur ist es auch
 möglich, mit einer Computermaus zu navigieren.
 
 
+Performance
+-----------
+Sowohl das Starten der Software als auch das Verhalten während der Laufzeit soll
+für den Benutzer angemessen zügig ablaufen.
 
 
 Anforderungen an die Grafische Oberfläche
 =========================================
 
 **Entwicklung nach Gnome Design-Richtlinien:** Grundsätzlich soll nach den
-GNOME Human Interface Guidelines entwickelt werden :cite:`GIG`.
+GNOME Human Interface Guidelines entwickelt werden :cite:`GIG`. Zur Umsetzung
+der Grafischen Oberfläche wird das Gnome Toolkit (Gtk) verwendet.
 
-**Minimalistisches Design:** Die GUI soll nicht überladen wirken, es soll nur
+**Minimalistisches Design:** Die GUI soll klar strukturiert sein, es soll nur
 das wesentliche dargestellt werden.
 
-**Kompaktheit der GUI:** 
+**Kompaktheit der GUI:** Es soll kein an einen Mailclient angelehnter Aufbau der
+Benutzeroberfläche entwickelt werden. Hier ist ein neues Konzept zu entwickeln.
 
 **Einfachheit der Bedienung:** Es wird in der Regel ein Weg angeboten, dieser sollte der
 geeigneste sein.
 
 **Innovatives Navigationskonzept:** Es wird eine komfortable Navigation
-angeboten.
+angeboten. Die Benutzeroberfläche muss neben der Navigation per Maus, 
+vorallem die Navigation per Tasten umsetzen.
 
 **Responsive Design:** Werden Aktionen ausgeführt, die zur Änderung anderer
-Komponenten führen, oder einen Hinweis erfordern wird sich die GUI anpassen.
+Komponenten führen, oder einen Hinweis erfordern, wird sich die GUI anpassen.
 
 
 

@@ -41,6 +41,18 @@ dass sie zumeist ansprechender in der Darstellung der Inhalte ist. Außerdem ist
 es dem Benutzer beispielsweise möglich, Inhalte zu speichern und dadurch im
 Offline-Modus zu lesen. Auch die Suche innerhalb der gespeicherten Inhalte ist möglich.
 
+
+.. _rsslogo:
+
+.. figure:: ./figs/rss_logo.png
+    :alt: Icon für Feeds.
+    :width: 10%
+    :align: center
+    
+    Das Icon für Feeds, ursprünglich für RSS-Feeds.
+
+
+
 In Abbildung :num:`funktionsweise` ist die grundlegende Funktionsweise von Feeds
 dargestellt. Erstellt der Weblog neue Inhalte, werden die Inhalte der XML-Datei
 hinzugefügt und über einen Link bereitgestellt. Das Erstellen der XML-Datei
@@ -55,26 +67,12 @@ Der Client fragt aktiv beim Webserver nach.
 
 .. _funktionsweise:
 
-.. figure:: Feed_prinzip.png
+.. figure:: ./figs/Feed_prinzip.png
     :alt: Die Funktionsweise von Feeds.
     :width: 100%
     :align: center
     
     Die Funktionsweise von Feeds.
-
-
-.. _rsslogo:
-
-.. figure:: rss_logo.png
-    :alt: Icon für Feeds.
-    :width: 10%
-    :align: center
-    
-    Das Icon für Feeds, ursprünglich für RSS-Feeds.
-
-
-
-
 
 
 Die XML-Datei enthält reines XML ohne jegliche Zusätze, wie z.B. Layoutangaben.
@@ -243,8 +241,7 @@ zu nennen:
  * Ein Entry kann auch andere Inhaltstypen als reinen Text beinhalten. Im
    Beispiel wäre dies das Element *content*, das XHTML-Elemente enthält.
  * Sowohl *feed* als auch *entry* können mehrere Links enthalten, die unterschiedliche Aufgaben haben.
-
-
+ 
 
 Fazit für die Entwicklung von gylfeed
 =====================================

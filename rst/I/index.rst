@@ -47,7 +47,7 @@ und gemein als Logo für die Software benutzt.
 
 .. _gylfeedlogo:
 
-.. figure:: gylfeed_logo.png
+.. figure:: ./figs/gylfeed_logo.png
     :alt: Logo von gylfeed
     :width: 40%
     :align: center
