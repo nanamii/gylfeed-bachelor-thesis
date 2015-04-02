@@ -86,7 +86,7 @@ anzeigen.
 *FeedView*. *FeedView* selbst hat eine Listenansicht. Eine Zeile dieser Liste
 entspricht einer *FeedRow*.
 
-**Label:**
+**IndicatorLabel:**
 
 **EntryListView:** *EntryListView* leitet von der Oberklasse *View* ab und
 beinhaltet selbst n *EntryRows*. Diese spezialisierte View wird die vorhandenen
@@ -99,15 +99,28 @@ Liste entspricht einer *EntryRow*.
 **EntryDetailsView:** *EntryDetailsView* leitet von der Oberklasse *View* ab und
 zeigt die Details eines einzelnen Entry an.
 
-**FeedOptionsView:** *FeedOptionsView* leitet von der Oberklasse *View ab und
+**FeedOptionsView:** *FeedOptionsView* leitet von der Oberklasse *View* ab und
 beinhaltet sämtliche Optionen, die für einen Feed gesetzt werden können.
 
 
+Entwurf der Benutzerobefläche
+=============================
+
+Das Konzept der Benutzeroberfläche wird sich von bisherigen Feedreader abheben.
+Im Folgenden wurden Mockups erstellt, um einen ersten Eindruck von der geplanten
+Oberfläche zu erhalten.
+
+Abbildung :num:`scratchFeedView` zeigt den Entwurf der Ansicht *FeedView*
 
 
 
+.. _scratchFeedView:
 
+.. figure:: ./figs/scratchFeedView.png
+    :alt: Mockup der Ansicht *Feedview*
+    :width: 80%
+    :align: center
+    
+    Mockup der Ansicht *Feedview*.
 
-Design der Benutzerobefläche
-============================
 
