@@ -31,7 +31,6 @@ Feeds ein Lösungsansatz.
 **Benutzeroberfläche:** Für die Benutzerobefläche ist ein neues Konzept
 gefordert. Hierzu werden Entwürfe erstellt.
 
-Im Folgenden ist das Grundkonzept von *gylfeed* dargestellt.
 
 .. _klassendiagramm:
 
@@ -103,24 +102,16 @@ zeigt die Details eines einzelnen Entry an.
 beinhaltet sämtliche Optionen, die für einen Feed gesetzt werden können.
 
 
-Entwurf der Benutzerobefläche
-=============================
+Da die einzelnen Klassen nun bekannt sind, wird in Abbildung :num:`funktionsprinzip`
+das Grundkonzept von *gylfeed* dargestellt.
 
-Das Konzept der Benutzeroberfläche wird sich von bisherigen Feedreader abheben.
-Im Folgenden wurden Mockups erstellt, um einen ersten Eindruck von der geplanten
-Oberfläche zu erhalten.
+.. _funktionsprinzip:
 
-Abbildung :num:`scratchFeedView` zeigt den Entwurf der Ansicht *FeedView*
-
-
-
-.. _scratchFeedView:
-
-.. figure:: ./figs/scratchFeedView.png
-    :alt: Mockup der Ansicht *Feedview*
-    :width: 80%
+.. figure:: ./figs/funktionsprinzip.png
+    :alt: Das Grundkonzept von *gylfeed*.
+    :width: 100%
     :align: center
     
-    Mockup der Ansicht *Feedview*.
+    Das Grundkonzept von *gylfeed*.
 
 

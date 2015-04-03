@@ -72,7 +72,7 @@ Der Client fragt aktiv beim Webserver nach.
     :width: 100%
     :align: center
     
-    Die Funktionsweise von Feeds.
+    Die Funktionsweise von Feeds, eigene Darstellung.
 
 
 Die XML-Datei enthält reines XML ohne jegliche Zusätze, wie z.B. Layoutangaben.

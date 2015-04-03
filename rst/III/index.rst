@@ -39,11 +39,11 @@ C. Die Projektseite selbst (siehe :cite:`PSL`) gibt den Umfang des Codes mit ca.
 .. _liferea:
 
 .. figure:: ./figs/liferea_screenshot.png
-    :alt: Der Feedreader liferea.
+    :alt: Der Feedreader *Liferea*.
     :width: 85%
     :align: center
     
-    Der Feedreader liferea.
+    Der Feedreader *Liferea*.
 
 
 Grundfunktionalitäten
