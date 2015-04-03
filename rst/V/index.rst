@@ -42,6 +42,9 @@ gefordert. Hierzu werden Entwürfe erstellt.
     Übersicht der Klassen von *gylfeed*.
 
 
+Übersicht der Klassen
+=====================
+
 Abbildung :num:`klassendiagramm` zeigt die Klassen, die von *gylfeed* verwendet
 werden. Jede Klasse soll kurz vorgestellt werden.
 
@@ -102,8 +105,25 @@ zeigt die Details eines einzelnen Entry an.
 beinhaltet sämtliche Optionen, die für einen Feed gesetzt werden können.
 
 
-Da die einzelnen Klassen nun bekannt sind, wird in Abbildung :num:`funktionsprinzip`
-das Grundkonzept von *gylfeed* dargestellt.
+Erläuterung des Grundkonzepts von *gylfeed*
+===========================================
+
+Da die einzelnen Klassen nun bekannt sind, wird das in Abbildung 
+:num:`funktionsprinzip` dargestellte Grundkonzept von *gylfeed* erläutert.
+Die Darstellung zeigt die grundsätzliche Funktionsweise von *gylfeed*. Die
+Akteure sind bereits aus dem Klassendiagramm bekannt.
+
+Die Nummerierungen der Aktionen dienen zur Orientierung und werden an dieser
+Stelle verwendet, um mit der Beschreibung des Diagramms zu beginnen.
+
+Es wird angenommen, im Objekt Feed wird gefordert ein Update durchzuführen (1).
+Dieser Auftrag wird an den Downloader weitergegeben. Dieser lädt die angefragten
+Daten über das Web herunter (2). An dieser Stelle ist anzumerken, dass hier nicht
+grundsätzlich die kompletten Daten des Feeds heruntergeladen werden. Lässt es
+die Struktur des betreffenden Feeds zu, wird nur dann ein kompletter Download
+der Daten des Feeds durchgeführt, wenn sich dieser tatsächlich geändert hat.
+Hier gibt es verschiedene Möglichkeiten festzustellen, ob eine Änderung vorliegt,
+worauf zu einem späteren Zeitpunkt eingegangen wird.
 
 .. _funktionsprinzip:
 
@@ -113,5 +133,60 @@ das Grundkonzept von *gylfeed* dargestellt.
     :align: center
     
     Das Grundkonzept von *gylfeed*.
+
+
+Im nächsten Schritt empfängt der Downloader die Daten aus dem Web (3). Die Instanz
+Document wird dazu verwendet, einen asynchronen Download der Daten zu
+ermöglichen ????????? (4). Die Instanz des Documents wird an den Feed zur weiteren
+Verarbeitung gegeben (5). Das Weiterverarbeiten im Feed wird dadurch ausgelöst,
+indem sich der Feed auf ein Signal von der Instanz Document registriert. Sobald
+das Document komplett heruntergeladen ist, wird das entsprechende Signal
+ausgelöst und die im Document enthaltenen Daten werden im Feed geparst (6).
+
+Der Feed kommuniziert an den Feedhandler, dass er sich aktualisiert hat. Der
+Feedhandler reicht das Signal an die Benutzeroberfläche weiter. Die Änderungen
+werden graphisch dargestellt.
+
+Im Feedhandler werden Updates ausgelöst, die manuell vom Benutzer angefordert
+werden. Da dies für alle Feeds geschieht, ist es die Aufgabe des Feedhandlers, der
+als Verwalter der Feeds funktioniert. Er lässt für jeden Feed eine
+Aktualisierung durchführen. Die Aktualisierung im Feed selbst entspricht dem
+Ablauf von den genannten (1) bis (6) Schritten. Eine weitere Aufgabe des
+Feedhandlers ist die persistente Speicherung der Daten, sowie das Laden dieser
+Daten beim Start der Software.
+
+Die Benutzeroberfläche kommuniziert Eingaben des Benutzers unter der Verwendung von
+Signalen an die jeweilige logische Einheit. An dieser Stelle wird zum besseren
+Verständnis das Konzept von Signalen innerhalb Gtk kurz erläutert. Eine genaue
+Betrachtung und Einzelheiten zu Signalen sind Bestandteil der Bachelorarbeit.
+
+Als erstes sei erwähnt, dass GTK eventbasiert ist. GTK wartet solange, bis ein
+Event ausgelöst wird, beispielsweise durch einen Klick auf einen Button. GTK gibt dieses Event an das
+betreffende Widget weiter, hier der Button. Der Button löst in diesem Fall das
+Signal *clicked* aus. Dass dieses Auslösen des Signals etwas bewirken kann, musste der Button 
+bereits vorher mit diesem Signal verknüpft und eine entsprechende Callback-Funktion
+zugewiesen werden. Die Callback-Funktion enthält den gewünschten Code, der ausgeführt
+werden soll, wenn genau dieser Button angeklickt wird. Folgendes kurze
+Codebeispiel soll das erläuterte Prinzip nochmals anschaulich darstellen.
+
+
+.. code-block:: python
+
+    from gi.repository import Gtk
+
+    #Callback-Funktion  
+    def print_hello(button):
+        print("Hello")
+
+    button = Gtk.Button("Print Hello")          # Erstellen eines Buttons
+    button.connect('clicked', print_hello)      # Verknüpfen mit Signal 'clicked'
+                                                # und Angabe der Callback-Funktion
+
+    window = Gtk.Window()                       # Erstellen eines Fensters
+    window.add(button)                          # Hinzufügen von Button zu Fenster
+    window.show_all()                           # Alle Bestandteile von window anzeigen
+
+    Gtk.main()                                  # Gtk Main-Loop
+
 
 

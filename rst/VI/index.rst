@@ -44,6 +44,37 @@ Abbildung :num:`scratchOptions` zeigt den Entwurf der Ansicht Optionen.
     Mockup der Ansicht Optionen.
 
 
+Suche innerhalb der Feedansicht
+-------------------------------
+
+Abbildung :num:`scratchSearch` zeigt den Entwurf der Feedansicht mit aktivierter
+Suchfunktion.
+
+.. _scratchSearch:
+
+.. figure:: ./figs/scratchSearch.png
+    :alt: Mockup der Ansicht Feeds mit aktivierter Suchfunktion.
+    :width: 80%
+    :align: center
+    
+    Mockup der Ansicht Feeds mit aktivierter Suchfunktion.
+
+
+Ansicht von Entries
+-------------------
+
+Abbildung :num:`scratchEntries` zeigt den Entwurf der Ansicht von Entries.
+
+.. _scratchEntries:
+
+.. figure:: ./figs/scratchEntries.png
+    :alt: Mockup der Ansicht von Entries.
+    :width: 80%
+    :align: center
+    
+    Mockup der Ansicht von Entries.
+
+
 Detailansicht eines Entry
 -------------------------
 
