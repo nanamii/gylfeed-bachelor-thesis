@@ -189,4 +189,17 @@ Codebeispiel soll das erläuterte Prinzip nochmals anschaulich darstellen.
     Gtk.main()                                  # Gtk Main-Loop
 
 
+Beschreibung der Schnittstellen
+===============================
+
+Das Grundkonzept von *gylfeed* ist vorgestellt und die Klassen sind bekannt. Nun
+werden die öffentlich angebotenen Schnittstellen der Klassen vorgestellt.
+
+**EntryListView:**
+
+**def clear_listbox():** Leert die Ansicht, um neu dargestellt werden zu können.
+
+**def update_entryview():** Callback-Funktion
+
+**def show_entries():** Lässt die Entries eines Feeds darstellen.
 
