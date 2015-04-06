@@ -194,12 +194,121 @@ Beschreibung der Schnittstellen
 
 Das Grundkonzept von *gylfeed* ist vorgestellt und die Klassen sind bekannt. Nun
 werden die öffentlich angebotenen Schnittstellen der Klassen vorgestellt.
+Bietet eine Klasse eigene Signale an, werden diese aufgeführt.
+
+**MainApplication:**
+``__init__()``: Aufruf des Konstruktors der Oberklasse Gtk.Application.
+
+**Feedhandler**:
+``__init__()``: Aufruf des Konstruktors der Oberklasse GObject. GObject
+ermöglicht in diesem Fall das Anbieten eigener Signale.
+
+``create_feed(init_data)``: Erstellt ein Feedobjekt. Der Parameter init_data
+stellt ein Dictionary dar, das Schlüssel/Wert-Paare enthält. Diese sind URL,
+Name des Feeds und alle weiteren Optionen, die für den Feed hinterlegt werden
+können. Die Funktion verknüpft den Feed abschließend mit dem Signal 'created'
+und übergibt als Callback-Funktion die interne Funktion 
+_create_feed_deferred().
+
+``update_all_feeds()``: Anhand der im Feedhandler geführten Liste *feeds*
+wird ein Update für jeden Feed ausgelöst.
+
+``delete_feed(feed)``: Löscht den im Funktionsaufruf übergebenen *Feed*.
+
+``delete_old_entries()``: Ruft für jeden im Feedhandler geführten *Feed* 
+deren Funktion delete_old_entries() auf.
+
+``save_to_disk()``: Speichert die zu serialisierenden Daten auf Festplatte.
+Hierzu wird die Hilfsfunktion get_serializable_data() herangezogen.
+
+``load_from_disk()``: Lädt gespeicherte Daten von der Festplatte.
+
+
+
+
+**Feed:**
+``__init__(init_data, args)``: Der Konstruktor der Klasse *Feed* erwartet 
+das Dictionary init_data. Darin enthalten sind alle Daten, die beim 
+Hinzufügen des Feeds generiert wurden. Dazu gehören URL, Name des Feeds 
+und alle weiteren Feed-Optionen. Neben init_data kann ein Flag für 
+ein Icon, eine Referenz auf Feedhandler und der Typ des Feeds übergeben 
+werden. Für diese Argumente - hier als args zusammengefasst - sind Default-Werte gesetzt, d.h. diese Argumente
+müsssen nicht zwingend übergeben werden. 
+
+``add_updater(update_interval=None)``: 
+
+``update()``: Veranlasst für den Feed ein Update.
+
+``delete_old_entries(day_range=None)``: Durchläuft die Entries eines Feeds 
+und markiert diejenigen Entries als gelöscht, die der angegebenen day_range
+entsprechen. Wird die day_range nicht explizit gesetzt, wird ein Standardwert
+von 30 Tagen angenommen.
+
+**SumFeed:**
+``__init__(feedhandler)``: Der Konstruktor der Klasse *SumFeed* erwartet eine
+Instanz der Klasse *Feedhandler*. Innerhalb dessen wird der Konstruktor der
+Oberklasse *Feed* aufgerufen.
+
+Ansonsten überschreibt *SumFeed* die Methoden von *Feed* in der Weise, dass
+Daten aller Feeds in Summe abgefragt werden können. Dazu zählen die
+Funktionen get_entries(), get_num_of_entries(), get_num_of_new_entries(),
+get_num_of_unread(), get_num_of_counted() und get_name().
+
+
+**Downloader:**
+``__init__()``: Der Konstruktor der Klasse *Downloader* erwartet keine
+Übergabeparameter. Innerhalb des Konstruktors wird eine Instanz von
+Soup.Session erstellt. ........
+
+``download(url, check_if_needed=True)``: Lädt Daten unter Verwendung der
+angegebenen URL herunter. Der Flag *check_if_needed* wird dazu verwendet, um
+entscheiden zu können, ob eine Vorprüfung stattfinden soll. Diese Vorprüfung
+lädt vorerst den Header herunter und prüft, ob eine Änderung vorliegt. Dies
+geschieht anhand der Parameter *etag* und *lastmodified*. Wurde eine Änderung
+festgestellt, oder ist weder *etag* noch *lastmodified* vorhanden, wird eine
+interne Funktion von *Downloader* aufgerufen, die einen Download der 
+kompletten Daten durchführt.
+
+**Document:**
+``__init__()``: Die Klasse *Document* ruft im Konstruktor den Konstruktur
+von GObject auf. GObject ermöglicht in diesem Fall das Anbieten eigener
+Signale.
+
+**MainWindow:**
+``__init__(app, feedhandler)``: Der Konstruktor der Klasse *MainWindow*
+erwartet eine Instanz der Klasse *MainApplication*, hier app und eine Instanz
+der Klasse *Feedhandler*. Innerhalb des Konstruktors wird der Konstruktor der
+Oberklasse, Gtk.ApplicationWindow, aufgerufen. : 
+
+**ViewSwitcher:**
+
+**View:**
+
+**FeedView:**
+
+**FeedRow:**
+
+**IndicatorLabel:**
+
+
+
+
+
+
 
 **EntryListView:**
 
-**def clear_listbox():** Leert die Ansicht, um neu dargestellt werden zu können.
+``def clear_listbox():`` Leert die Ansicht, um neu dargestellt werden zu 
+können.
 
 **def update_entryview():** Callback-Funktion
 
 **def show_entries():** Lässt die Entries eines Feeds darstellen.
+
+**EntryRow:**
+
+**EntryDetailsView:**
+
+**FeedOptionsView:**
+
 
