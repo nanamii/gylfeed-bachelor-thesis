@@ -281,31 +281,109 @@ der Klasse *Feedhandler*. Innerhalb des Konstruktors wird der Konstruktor der
 Oberklasse, Gtk.ApplicationWindow, aufgerufen. : 
 
 **ViewSwitcher:**
+``__init__(stack)``: Der Konstruktor der Klasse *ViewSwitcher* bekommt den
+Stack, der alle Views enthalten wird, zur Verwaltung übergeben. Da 
+*ViewSwitcher* von Gtk.Box ableitet, erfolgt der Aufruf des Konstruktors 
+von Gtk.Box.
+
+``add_view(view, name)``: Fügt eine View in Verbindung mit dem übergebenen
+Namen dem Stack hinzu.
+
+``switch(name)``: Setzt anhand des übergebenen Namens die aktuell sichtbare
+View. Hierbei werden alle notwendigen Aktionen ausgelöst, um die jeweilige View
+und ihre Abhängikeiten korrekt darzustellen.
 
 **View:**
+``__init__(app, sub_title=None)``: Der Konstruktor der Klasse *View* bekommt
+eine Instanz der Klasse *MainApplication* übergeben. Es ist möglich einen
+Untertitel anzugeben. Hierfür ist der Standardwert *None* gesetzt. Innerhalb
+des Konstruktors wird der Konstruktor der Oberklasse Gtk.Grid aufgerufen.
+
+``add(widget)``: Nimmt ein *Widget* entgegen und fügt sie der jeweiligen
+Instanz von Gtk.ScrolledWindow
+hinzu. Hier erfolgt eine Überschreibung der add-Funktion von Gtk.Grid.
+
+``invalidate_filter(searchentry)``: Ruft die Funktion invalidate_filter()
+der Unterklasse auf.
+
+``on_view_enter()``: Schnittstelle für alle Unterklassen, um Eigenschaften
+beim Aufruf der jeweiligen Ansicht zu setzen. Ruft Funktion on_view_enter()
+der Unterklassen auf.
+
+``on_view_leave()``: Schnittstelle für alle Unterklassen, um Eigenschaften 
+beim Verlassen der jeweiligen Ansicht zu setzen. Ruft Funktion on_view_leave
+() der Unterklassen auf.
+
+``manage_searchbar()``: Steuert das Verhalten der Suchleiste.
 
 **FeedView:**
+``__init__(app)``: Der Konstruktor der Klasse *FeedView* bekommt eine Instanz
+der Klasse *MainApplication* übergeben. Innerhalb des Konstruktors wird der
+Konstruktor der Oberklasse *View* aufgerufen.
+
+``new_listbox_row(logo, feed)``: Erstellt eine Instanz der Klasse *FeedRow*
+und fügt diese der Listbox innerhalb der *FeedView* hinzu. Als
+Übergabeparameter sind das zu verwendente Logo und die Instanz des Feeds, der
+hinzugefügt werden soll, erforderlich.
+
+``on_view_enter()``: Führt alle Aktionen aus, die beim Aufruf von
+*FeedView* notwendig sind. Beispielsweise die Aktualisierung der Labels, die
+anzeigen, wieviele neue/ungelesene/komplette Nachrichten ein Feed hat.
+
+``on_view_leave()``: Führt alle Aktionen aus, die beim Verlassen von
+*FeedView* notwendig sind.
+
+``remove_feedrow(feed)``: Unter Angabe des Feeds, der gelöscht werden soll,
+wird die *FeedRow* aus der Listbox von *FeedView* gelöscht.
+
+``show_feedview(feedlist)``: Initiale Darstellung von *FeedView*
+beim Start der Software. Erwartet wird eine Liste mit Feeds, die dargestellt
+werden sollen.
 
 **FeedRow:**
+``__init__(logo, feed)``: Der Konstruktor der Klasse *FeedRow* erwartet ein
+Logo und eine Instanz der Klasse *Feed*. Innerhalb des Konstruktors wird der
+Konstruktor von Gtk.ListBoxRow aufgerufen, da *FeedRow* von Gtk.ListBoxRow
+ableitet. 
+
+``redraw_labels(sum_row)``: Aktualisiert die Labels, die anzeigen, wieviele
+neue/ungelesene/komplette Nachrichten ein Feed hat. Der Übergabeparameter
+*sum_row* repräsentiert die *FeedRow*, in der die Zusammenfassung aller Feed
+s dargestellt wird.
+
 
 **IndicatorLabel:**
+``__init__(*args)``: Der Konstruktor der Klasse *IndicatorLabel* kann mehrere
+Argumente übergeben bekommen, hierzu wird \*args verwendet. Innerhalb des
+Konstruktors wird der Konstruktor der Oberklasse Gtk.Label aufgerufen.
 
-
-
-
-
+``set_color(state)``: Setzt die Farbe des Labels anhand des Parameters state.
+Dazu wird intern CSS verwendet.
 
 
 **EntryListView:**
 
-``def clear_listbox():`` Leert die Ansicht, um neu dargestellt werden zu 
+``clear_listbox():`` Leert die Ansicht, um neu dargestellt werden zu 
 können.
 
-**def update_entryview():** Callback-Funktion
+``on_view_enter()``: Führt alle Aktionen aus, die beim Aufruf von
+*EntryListView* notwendig sind. Beispielsweise das Markieren von gelesenen
+Entries.
 
-**def show_entries():** Lässt die Entries eines Feeds darstellen.
+``show_entries(listbox, row):`` Lässt die Entries eines Feeds darstellen. Als
+Übergabeparameter wird die Listbox der *FeedView* erwartet und die darin
+ausgewählte *Row*. Die Funktion *show_entries()* ruft weitere interne
+Funktionen auf.
 
 **EntryRow:**
+``__init__(*args)``: Der Konstruktor der Klasse *EntryRow* erwartet mehrere
+Argumente, hierzu wird \*args verwendet. Beispielsweise sind dies Titel,
+Zeitstempel und Plot des Feeds. Zusammenfassend alle Daten, die in einer
+*EntryRow* dargestellt werden sollen. Innerhalb des Konstruktors wird der
+Konstruktor der Oberklasse *Gtk.ListBowRow* aufgerufen.
+
+Neben dem Konstruktor bietet die Klasse *EntryRow* Getter-Funktionen für Plot
+, Titel, Zeitstempel, Entry-ID, Feed und dem Attribut updated-parsed.
 
 **EntryDetailsView:**
 
