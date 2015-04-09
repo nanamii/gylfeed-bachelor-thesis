@@ -39,6 +39,18 @@ ausreichend Feedback zu den ausgeführten Aktionen. Treten beispielsweise beim
 Hinzufügen eines Feeds Fehler auf, wird der Benutzer mit einem Hinweis darauf
 aufmerksam gemacht.
 
+.. _scratchMainWindow:
+
+.. figure:: ./figs/scratchMainWindow.png
+    :alt: Mockup des *MainWindows*.
+    :width: 70%
+    :align: center
+    
+    Mockup des *MainWindows*.
+
+Das Grundkonzept der Benutzeroberfläche beruht auf dem in Abbildung :num:`scratchMainWindow` dargestellten *MainWindos*. Das *MainWindow* 
+verwaltet den Stack, der die verschiedenen Ansichten darstellt.
+
 
 Die Ansichten
 =============
@@ -50,8 +62,6 @@ erläutert.
 
 Anzeige der Feeds - *Feedview*
 ------------------------------
-
-test
 
 .. _scratchFeedView:
 
@@ -94,7 +104,7 @@ angezeigten Feeds nach unten und schafft Platz für die Suchleiste.
 
 .. figure:: ./figs/scratchSearch.png
     :alt: Mockup der Ansicht Feeds mit aktivierter Suchfunktion.
-    :width: 80%
+    :width: 70%
     :align: center
     
     Mockup der Ansicht Feeds mit aktivierter Suchfunktion.
@@ -119,7 +129,7 @@ Nachrichten gelöscht werden (Regler in Tagen) und Notifications (ja/nein).
 
 .. figure:: ./figs/scratchOptions.png
     :alt: Mockup der Ansicht Optionen.
-    :width: 80%
+    :width: 70%
     :align: center
     
     Mockup der Ansicht Settings.
@@ -139,7 +149,7 @@ Titel der Name des Feeds angezeigt. Die Ansicht ist scrollbar.
 
 .. figure:: ./figs/scratchEntries.png
     :alt: Mockup der Ansicht von Entries.
-    :width: 80%
+    :width: 70%
     :align: center
     
     Mockup der Ansicht von Entries.
@@ -159,7 +169,7 @@ innerhalb dieser Ansicht angezeigt werden.
 
 .. figure:: ./figs/scratchDetails.png
     :alt: Mockup der Ansicht Details eines Entry.
-    :width: 80%
+    :width: 70%
     :align: center
     
     Mockup der Ansicht Details eines Entry.
@@ -182,7 +192,7 @@ sind.
 
 .. figure:: ./figs/scratchMenue.png
     :alt: Mockup der Feedansicht mit geöffnetem Menue.
-    :width: 80%
+    :width: 70%
     :align: center
     
     Mockup der Feedansicht mit geöffnetem Menue.
@@ -194,7 +204,8 @@ Navigationskonzept
 Der Inhalt der einzelnen Ansichten wurde vorgestellt. Ergänzend soll nun in
 Abbildung :num:`navikonzept` die
 Navigation zwischen den einzelnen Ansichten dargestellt werden. Im Zuge
-dessen wird das Konzept der Navigation verdeutlicht.
+dessen wird das Konzept der Interaktion, d.h. auf welche Weise navigiert 
+werden kann, verdeutlicht.
 
 .. _navikonzept:
 
@@ -204,6 +215,17 @@ dessen wird das Konzept der Navigation verdeutlicht.
     :align: center
     
     Navigationskonzept von *gylfeed*.
+
+Zwischen *FeedView*, *EntryListView* und *EntryDetailsView* ist die
+Navigation mit Pfeiltasten oder alternativ über den ViewSwitcher in der 
+Header Bar möglich (blau dargestellt). Zur *FeedOptionsView* kann zentral über den Menu-Button
+in der Header Bar navigiert werden. Durch die Auswahl von *add Feed* wird
+die *FeedOptionsView* augerufen (grüner Pfeil mit Beschriftung "add Feed"). Der Aufruf der *FeedOptionsView* über
+den Settings-Button innerhalb der *FeedView* zeigt die Daten und
+Einstellungen eines Feeds an (grüner Pfeil mit Beschriftung "Settings"). 
+Innerhalb von *FeedView* und *EntryListView* ist der Wechsel zwischen den
+einzelnen Rows über die Pfeiltasten möglich (rot dargestellt).
+
 
 
 

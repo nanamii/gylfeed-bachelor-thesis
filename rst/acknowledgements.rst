@@ -5,8 +5,5 @@
     Danksagung
     ==========
 
-Danke an folgende Personen und Dinge: Katzen, Vögel aller Art, Teehersteller
-aller Länder, Herrn Prof. Dr. Jörg Scheidt (für die Zelle), Herrn Prof. Dr.
-Günter Köhler (für die Freiheit) und meiner Familie. 
-
-Ihr wisst schon warum.
+Mein Dank gilt folgenden Personen: Prof. Dr. Martin Thost, für die Betreuung der
+Projektarbeit. Katzen und Elchen für die mentale und fachliche Unterstützung.

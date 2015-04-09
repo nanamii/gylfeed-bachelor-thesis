@@ -2,6 +2,7 @@
     :numbered:
 
     abbrevs
+    glossar
     I/index
     II/index
     III/index

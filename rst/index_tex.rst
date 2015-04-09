@@ -3,7 +3,7 @@
 .. _doc-title:
 
 ############################
-libmunin: |br| Projektarbeit
+gylfeed: |br| Projektarbeit
 ############################
 
 .. raw:: latex

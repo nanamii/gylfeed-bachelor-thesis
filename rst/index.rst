@@ -3,7 +3,7 @@
 .. _doc-title:
 
 #############################
-libmunin: |br| Bachelorarbeit
+gylfeed: |br| Projektarbeit
 #############################
 
 .. only:: not singlehtml
