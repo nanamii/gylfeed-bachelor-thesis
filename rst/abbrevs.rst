@@ -23,10 +23,10 @@
     Abkürzung                Bedeutung
     =======================  ==================================
     API                      *Application Programming Interface*
+    GTK                      *GIMP Toolkit*
     GUI                      *Graphical User Interface*
     RSS                      *Really Simple Syndication*
     URL                      *Uniform Resource Locator*
-    GTK                      *Gnome Toolkit*
     =======================  ==================================
 
 .. raw:: latex

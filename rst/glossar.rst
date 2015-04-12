@@ -16,19 +16,35 @@
         \vspace{1em}
     }%
 
+. 
 
-.. figtable::
-    :spec: >{\raggedleft\arraybackslash}p{0,25\linewidth} p{0,65\linewidth}
+.. glossary::
 
-    =======================  ==================================
-    Begriff                  Bedeutung
-    =======================  ==================================
-    Feed                      *Application Programming Interface*
-    Entry                     *Graphical User Interface*
-    Header Bar                *Really Simple Syndication*
-    TRALALA                   *Uniform Resource Locator*
-    GTK                       *Gnome Toolkit*
-    =======================  ==================================
+    
+    Feed
+
+     Ein Feed Tralalala.
+    
+    Entry
+
+     Ein auf PC--Komponenten basierendes Gerät zur Wiedergabe multimedialer
+     Inhalte. Dieser wird oft mit sogenannter Media--Center--Software wie dem
+     XBMC betrieben.
+
+    Listbox
+
+
+
+    XML
+
+     Extensible Markup Language, eine Auszeichnungssprache zur baumartig
+     strukturierten Darstellung von Daten in Form von Textdateien.
+
+    JSON
+
+     JavaScript--Object--Notation, eine Auszeichnungssprache ähnlich wie *XML*
+     mit dem Ziel, von Mensch und Maschine einfacher lesbar zu sein als *XML*.
+
 
 .. raw:: latex
 

@@ -26,9 +26,11 @@ Desktop-Feedreadern, die an den Aufbau eines Mailclients angelehnt sind.
 
 
 
+.. _dict:
 
-Anhang B
-========
+Struktur des Feedparser-Objekts
+===============================
+
 
 Struktur des Feedparser-Objekts, Rückgabewert der Funktion *parse*
 des *Universal Feedparsers*.

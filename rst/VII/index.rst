@@ -67,8 +67,31 @@ Die Tabelle :num:`table-libs` listet alle verwendeten externen Abhängigkeiten
 für die *libhugin*--Bibliothek.
 
 
+Implementierte Anforderungen
+============================
+
+Die Anforderungen aus Kapitel XX wurden in vollem Umfang implementiert. Es
+wurde in der Weise entwickelt, dass zur Abgabe der Projektarbeit eine
+lauffähige Software vorliegt. Selbstverständlich sind noch weitere
+Funktionalitäten denkbar, die innerhalb des beschränkten Projektzeitraums
+nicht umgesetzt werden konnten. Auf Erweiterungen, die noch denkbar sind,
+wird in der Zusammenfassung eingegangen.
+
+
+Einblick in die Implementierung
+===============================
+
+Im Folgenden wird ein Einblick in die Implementierung von *gylfeed* gegeben.
+
+
+Implementierung der Klassen
+---------------------------
+
+Die Klassen wurden anhand des Klassendiagramms XX implementiert. Folgend sind
+die Klassen, die mit Python implementiert wurden, aufgeführt.
+
 Download mit *libsoup*
-======================
+----------------------
 
 Der Download der Daten wird mit der Bibliothek *libsoup* umgesetzt. 
 *libsoup* ist eine client-/serverseitige HTTP-Bibliothek und ermöglicht
@@ -84,7 +107,7 @@ eine Trennung zwischen Download und Parsen der Daten. Der Download erfolgt mit
 
 
 Einbindung der Bibliothek *Universal Feedparser*
-================================================
+------------------------------------------------
 
 Zum Parsen der heruntergeladenen Daten wird die externe Bibliothek *Universal
 Feedparser* in der Version 5.1.3 verwendet. Die Bibliothek ermöglicht das
@@ -109,7 +132,7 @@ handelt sich um ein Dictionary mit den geparsten Feed-Daten.
 
 Folgendes Code-Beispiel einer bpython-Sitzung soll die Grundfunktionaliät 
 *parse* demonstrieren.
-  
+
 
 .. code-block:: python
 
@@ -126,16 +149,71 @@ Folgendes Code-Beispiel einer bpython-Sitzung soll die Grundfunktionaliät
     'Alle Artikel - Nachrichten aus Politik, Wirtschaft und Sport' 
 
 
-In Anhang XX ist die komplette Struktur des Dictionary zu sehen. Innerhalb
+In Anhang :ref:`dict` ist die komplette Struktur des Dictionary zu sehen. Innerhalb
 *gylfeed* ist dieses Dictionary Teil eines jeden Feedobjekts.
 
+
+Eingebetteter Browser mit *Webkit*
+----------------------------------
+
+Innerhalb von *gylfeed* ist es möglich, Webseiten darzustellen. Umgesetzt
+wird dies mit der HTML-Rendering Engine *WebKit* (siehe :cite:`WebKit`). Die aktuelle Version von
+*gylfeed* ermöglicht innerhalb der *EntryDetailsView* die Darstellung von
+Webinhalten. Der Benutzer kann den originalen
+Artikel zur jeweiligen Feed-Nachricht aufrufen. An dieser Stelle bieten sich
+für *gylfeed* auch zukünftige Erweiterungen, die durch die Verwendung von
+*WebKit* möglich sind.
+
+
 Kommunikation durch Signale
-===========================
+---------------------------
 Zum Benachrichtigen von anderen Instanzen, werden Signale eingesetzt ...
 
 
-Design der Benutzeroberfläche
-=============================
+Umsetzung der grafischen Benutzeroberfläche
+===========================================
+
+Im Folgenden wird die Umsetzung der grafischen Benutzeroberfläche vorgestellt
+. Im Grunde wurden die Entwürfe aus Kapitel XX mit GTK umgesetzt. Für Feeds,
+die kein Icon liefern, wurde ein Standardicon entworfen, dass sich an das RSS
+-Logo anlehnt. Auch für die Listbox Row *All Feeds* wurde ein Icon entworfen.
+Entsprechende Details werden anhand der Ansichten erläutert.
+
+
+.. _feedview:
+
+.. figure:: ./figs/feedview.png
+    :alt: Implementierte Ansicht *FeedView*.
+    :width: 70%
+    :align: center
+    
+    Implementierte Ansicht *Feedview*.
+
+
+.. _entrylistview:
+
+.. figure:: ./figs/entrylistview.png
+    :alt: Implementierte Ansicht *EntryListView*.
+    :width: 70%
+    :align: center
+    
+    Implementierte Ansicht *EntryListView*.
+
+
+.. _feedoptionsview:
+
+.. figure:: ./figs/feedoptionsview.png
+    :alt: Implementierte Ansicht *FeedOptionsView*.
+    :width: 70%
+    :align: center
+    
+    Implementierte Ansicht *FeedOptionsView*.
+
+
+Testumgebung
+============
+Zum Testen .....
+
 
 
 
