@@ -10,61 +10,74 @@ Grundsätzliches
 ===============
 
 Bevor auf Details der Implementierung eingegangen wird, soll kurz erläutert
-werden, welche Programmiersprache für das Projekt gewählt wurde. Ebenso die
-Werkzeuge für die Erstellung der Benutzeroberfläche und die
-Entwicklungsumgebung.
+werden, welche Programmiersprache für das Projekt gewählt wurde. Ebenso 
+werden sämtliche Werkzeuge, die zur Umsetzung der Projektarbeit verwendet
+wurden, vorgestellt. 
 
 **Programmiersprache:** Das Projekt wird mit der Programmiersprache Python in
 der Version 3.3 umgesetzt. Einerseits, weil Python zahlreiche Vorteile - 
 vorallem bei relativ kurzem Entwicklungszeitraum - bietet und andererseits, weil sich 
-hiermit die Möglichkeit bietet, eine weitere Programmiersprache zu erlernen.
-Die Vorteile von Python zusammengefasst:
+hiermit im Zuge der Projektarbeit die Möglichkeit ergibt, eine weitere Programmiersprache zu erlernen.
+Die wichtigsten Vorteile von Python, u.a. erwähnt in *Learning Python* 
+von Mark Lutz :cite:`LutzLearningPython`, zusammengefasst:
 
 .. aufzeahlung python vorteile
+   
+:Umfangreiche Standardbibliothek:
+     Python bietet eine umfangreiche Standardbibliothek. Aufgrund des
+     begrenzten Projektzeitraums ist dies ein großer Vorteil. Neben der 
+     Standardbibliothek verfügt Python über zahlreiche Erweiterungen von
+     Drittanbietern.
 
-:Plattformübergreifend:
-    
-:Umfangreiche Standardbibliothek:    
+:Kompatibel mit GTK:
+     Python erlaubt es, die grafische Benutzeroberfläche mit GTK umzusetzen,
+     dies ist eine Anforderung an *gylfeed*.
 
-:Relativ schnell erlernbar:
+:Qualität der Software:
+     Python erleichtert es, leicht lesbaren und wartbaren Quellcode zu
+     erstellen.
 
-:Open Source Sprache:
+:Produktivität:
+     Mit Python ist nur etwa ein Drittel bis ein Fünftel des Quellcode-
+     Umfangs von C, C++, oder Java nötig, um vergleichbare Ergebnisse
+     zu erzielen.
 
+:Portabilität:
+     Für *gylfeed* ist somit bereits die Grundlage geschaffen, zukünftig
+     neben Linux auf andere Plattformen verfügbar zu sein.
+ 
 **Tool für die Erstellung der GUI:**
 
 Für die Erstellung der grafischen Benutzeroberfläche wird GTK, das GIMP
 Toolkit, in der Version 3.14 verwendet. GTK ist plattformunabhängig, dies
 bietet den Vorteil, dass *gylfeed* zu einem späteren Zeitpunkt für andere
 Plattformen, außerhalb Linux, angeboten werden kann. GTK bietet eine leicht
-anzuwendente, jedoch mächtige API. Für die Umsetzung innerhalb der
+anwendbare, jedoch mächtige API. Für die Umsetzung innerhalb der
 Projektarbeit wurde auf den Einsatz eines GUI-Builders verzichtet, um GTK
 von Grund auf zu erlernen und anzuwenden.
 
    
 **Entwicklungssytem:**
 Die Software *gylfeed* wird unter der Linux Distribution *Fedora 21* entwickelt. Für die Entwicklung wird der
-Editor *gVim* mit entsprechenden Python--Plugins zur Validierung der Python
-PEP--Stilrichtlinien (siehe :cite:`pep`) verwendet. Als weiteres Werkzeug
-wird die interaktive Python Shell *IPython* eingesetzt. Das erlaubt das 
+Editor *gVim* verwendet. Zusätzlich werden Python--Plugins zur Validierung 
+der Python PEP--Stilrichtlinien (siehe :cite:`PEP`) verwendet. 
+Als weiteres Werkzeug
+wird die interaktive Python Shell *bpython* eingesetzt 
+(siehe :cite:`bpython`). Das erlaubt das 
 Testen von Funktionalitäten außerhalb des eigentlichen Quelltextes.
 
 **Quellcodeverwaltung:**
 Zur Verwaltung des Quellcodes wird *git*, ein Versionsverwaltungssystem,
 eingesetzt. Der Quellcode selbst wird auf dem Hosting--Dienst für
 Software--Entwicklungsprojekte *GitHub* (siehe :cite:`github`) gelagert. Das
-Projekt ist über folgenden Link zur GitHub-Seite erreichbar:
+Projekt ist über folgenden Link zur GitHub-Webseite erreichbar:
 
-    * https://github.com/nanamii/gylfeed 
-/
+    * https://github.com/nanamii/gylfeed/ 
+
 **Projektumfang:**
-Der Projektumfang beträgt ca. 3500 *lines of code*,  hinzu kommt noch
+Der Projektumfang beträgt ca. 2000 *Lines of Code*,  hinzu kommt noch
 die Onlinedokumentation. Eine Statistik zum Projekt, welche mit dem Tool
 *cloc* erstellt wurde, ist im Anhang unter :ref:`ref-cloc` zu finden.
-
-
-**Externe Bibliotheken:**
-Die Tabelle :num:`table-libs` listet alle verwendeten externen Abhängigkeiten
-für die *libhugin*--Bibliothek.
 
 
 Implementierte Anforderungen
@@ -78,17 +91,13 @@ nicht umgesetzt werden konnten. Auf Erweiterungen, die noch denkbar sind,
 wird in der Zusammenfassung eingegangen.
 
 
-Einblick in die Implementierung
-===============================
-
-Im Folgenden wird ein Einblick in die Implementierung von *gylfeed* gegeben.
-
-
 Implementierung der Klassen
 ---------------------------
 
-Die Klassen wurden anhand des Klassendiagramms XX implementiert. Folgend sind
-die Klassen, die mit Python implementiert wurden, aufgeführt.
+Die Klassen wurden anhand des Klassendiagramms in Abbildung 
+:num:`klassendiagramm` implementiert. Der Quellcode ist unter der bereits
+genannten GitHub-Webseite abrufbar.
+
 
 Download mit *libsoup*
 ----------------------
@@ -106,8 +115,8 @@ eine Trennung zwischen Download und Parsen der Daten. Der Download erfolgt mit
 *libsoup*, das Parsen mit *Universal Feedparser*.
 
 
-Einbindung der Bibliothek *Universal Feedparser*
-------------------------------------------------
+Parsen mit *Universal Feedparser*
+---------------------------------
 
 Zum Parsen der heruntergeladenen Daten wird die externe Bibliothek *Universal
 Feedparser* in der Version 5.1.3 verwendet. Die Bibliothek ermöglicht das
@@ -174,7 +183,8 @@ Umsetzung der grafischen Benutzeroberfläche
 ===========================================
 
 Im Folgenden wird die Umsetzung der grafischen Benutzeroberfläche vorgestellt
-. Im Grunde wurden die Entwürfe aus Kapitel XX mit GTK umgesetzt. Für Feeds,
+. Im Grunde wurden die Entwürfe aus Kapitel :ref:`entwurfGUI` 
+(Entwurf der Benutzeroberfläche) mit GTK umgesetzt. Für Feeds,
 die kein Icon liefern, wurde ein Standardicon entworfen, dass sich an das RSS
 -Logo anlehnt. Auch für die Listbox Row *All Feeds* wurde ein Icon entworfen.
 Entsprechende Details werden anhand der Ansichten erläutert.

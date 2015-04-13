@@ -25,6 +25,7 @@
     API                      *Application Programming Interface*
     GTK                      *GIMP Toolkit*
     GUI                      *Graphical User Interface*
+    PEP                      *Python Enhancement Proposals*
     RSS                      *Really Simple Syndication*
     URL                      *Uniform Resource Locator*
     =======================  ==================================

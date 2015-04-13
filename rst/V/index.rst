@@ -63,11 +63,12 @@ Aktualisierung in Intervallen durchgeführt, die für jeden Feed individuell sin
 
 **SumFeed:** SumFeed leitet von *Feed* ab und stellt die Gesamtheit der Feeds
 dar. Kann aufgrund der Ableitung von *Feed* aber wie ein *Feed* agieren.
+Eingesetzt wird diese Klasse für die Darstellung aller vorhanderen Feeds.
 
 **Downloader:** Die Klasse *Download* beschafft die von den Klassen *Feed* und
 *Feedhandler* angefragten Daten. Hierzu verwendet sie die Klasse *Document*.
 
-**Document:** 
+**Document:** Ermöglicht den asynchronen Download der Feed-Daten. 
 
 **MainWindow:** Eine Instanz der Klasse *MainWindow* wird durch die Klasse *MainApplication*
 erstellt. *MainWindow* beinhaltet die Unteransichten *FeedView*,
@@ -88,7 +89,10 @@ anzeigen.
 *FeedView*. *FeedView* selbst hat eine Listenansicht. Eine Zeile dieser Liste
 entspricht einer *FeedRow*.
 
-**IndicatorLabel:**
+**IndicatorLabel:** Ermöglicht individualisierte Darstellung von Labels.
+Innerhalb *gylfeed* werden die Labels für neue/ungelesene/alle Nachrichten
+damit umgesetzt. Die Klasse *IndicatorLabel* ist eine Spezialisierung von 
+*Gtk.Label*
 
 **EntryListView:** *EntryListView* leitet von der Oberklasse *View* ab und
 beinhaltet selbst n *EntryRows*. Diese spezialisierte View wird die vorhandenen

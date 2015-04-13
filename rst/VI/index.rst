@@ -1,3 +1,5 @@
+.. _entwurfGUI:
+
 ******************************
 Entwurf der Benutzeroberfläche
 ******************************
@@ -48,7 +50,8 @@ aufmerksam gemacht.
     
     Mockup des *MainWindows*.
 
-Das Grundkonzept der Benutzeroberfläche beruht auf dem in Abbildung :num:`scratchMainWindow` dargestellten *MainWindos*. Das *MainWindow* 
+Das Grundkonzept der Benutzeroberfläche beruht auf dem in Abbildung 
+:num:`scratchMainWindow` dargestellten *MainWindows*. Das *MainWindow* 
 verwaltet den Stack, der die verschiedenen Ansichten darstellt.
 
 
