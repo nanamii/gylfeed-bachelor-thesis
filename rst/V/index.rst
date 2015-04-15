@@ -3,9 +3,10 @@ Architekturentwurf
 ******************
 
 In diesem Kapitel wird die Architektur der Software *gylfeed* vorgestellt.
-Hierzu werden die Anforderungen aus Kapitel XX herangezogen. Eine
-detaillierte Beschreibungen der einzelnen Klassen, tiefergehende Erläuterungen
-zur Algorithmik und aufgetretene Schwierigkeiten sind Bestandteil der
+Hierzu werden die Anforderungen aus Kapitel :ref:`anforderungen` - Anforderungen
+an die Software *gylfeed* herangezogen. Eine
+detaillierte Beschreibungen der internen Abläufe, tiefergehende Erläuterungen
+zur Algorithmik und Problemstellungen sind Bestandteil der
 Bachelorarbeit.
 
 
@@ -16,8 +17,8 @@ Nun gilt es, für die gestellten Anforderungen Lösungsansätze zu entwickeln.
 Hierzu sollen vorerst grundlegende Bestandteile der Software geklärt werden.
 
 **Beschaffung der Daten:** Die Daten der Feeds müssen beschafft, also
-heruntergeladen und verarbeitet, also geparst werden. Hier liefern die
-Bibliotheken von Python mögliche Ansätze.
+heruntergeladen und verarbeitet, also geparst werden. Hier liefern verschiedene
+Bibliotheken mögliche Ansätze.
 
 **Verwaltung der Daten:** Die Daten, die eindeutig einem Feed zugeordnet werden
 können, werden innerhalb eines Feedobjekts gekapselt. Dem übergeordnet ist eine
@@ -127,7 +128,7 @@ grundsätzlich die kompletten Daten des Feeds heruntergeladen werden. Lässt es
 die Struktur des betreffenden Feeds zu, wird nur dann ein kompletter Download
 der Daten des Feeds durchgeführt, wenn sich dieser tatsächlich geändert hat.
 Hier gibt es verschiedene Möglichkeiten festzustellen, ob eine Änderung vorliegt,
-worauf zu einem späteren Zeitpunkt eingegangen wird.
+dies wird innerhalb der Bachelorarbeit betrachtet.
 
 .. _funktionsprinzip:
 
@@ -141,7 +142,7 @@ worauf zu einem späteren Zeitpunkt eingegangen wird.
 
 Im nächsten Schritt empfängt der Downloader die Daten aus dem Web (3). Die Instanz
 Document wird dazu verwendet, einen asynchronen Download der Daten zu
-ermöglichen ????????? (4). Die Instanz des Documents wird an den Feed zur weiteren
+ermöglichen (4). Die Instanz des Documents wird an den Feed zur weiteren
 Verarbeitung gegeben (5). Das Weiterverarbeiten im Feed wird dadurch ausgelöst,
 indem sich der Feed auf ein Signal von der Instanz Document registriert. Sobald
 das Document komplett heruntergeladen ist, wird das entsprechende Signal
@@ -198,7 +199,6 @@ Beschreibung der Schnittstellen
 
 Das Grundkonzept von *gylfeed* ist vorgestellt und die Klassen sind bekannt. Nun
 werden die öffentlich angebotenen Schnittstellen der Klassen vorgestellt.
-Bietet eine Klasse eigene Signale an, werden diese aufgeführt.
 
 **MainApplication:**
 
@@ -238,7 +238,7 @@ wird ein Update für jeden Feed ausgelöst.
 ``delete_feed(feed)``: Löscht den im Funktionsaufruf übergebenen *Feed*.
 
 ``delete_old_entries()``: Ruft für jeden im Feedhandler geführten *Feed* 
-deren Funktion ``delete_old_entries()`` auf.
+deren Funktion delete_old_entries() auf.
 
 ``save_to_disk()``: Speichert die zu serialisierenden Daten auf Festplatte.
 Hierzu wird die Hilfsfunktion ``get_serializable_data()`` herangezogen.
@@ -274,13 +274,6 @@ geparst.
 Außerdem ist die Funktion ``compare_entries(new_raw_feed)`` enthalten. 
 Diese Funktion vergleicht die neu heruntergeladenen Daten mit den bereits 
 vorhandenen Daten im Feed und fügt die Differenz hinzu.
-
-*Feed* bietet folgende Getter-Funktionen: ``get_entries(), 
-get_num_of_entries(), get_num_of_new_entries(), get_num_of_unread(), 
-get_num_of_counted(),get_name(), get_url(), get_serializable_data()``.
-
-*Feed* bietet folgende Setter-Funktionen: ``set_is_clicked(clicked), 
-set_read_tag(feed), set_delete_tag(feed), set_entry_is_read(entry_id)``.
 
 **SumFeed:**
 

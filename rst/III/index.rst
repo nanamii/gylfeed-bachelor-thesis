@@ -23,7 +23,8 @@ deshalb, weil er wie es *gylfeed* sein wird:
  * Den Anspruch erhebt, leicht bedienbar zu sein.
 
 Weitere Desktop-Feedreader, die vergleichbar im Aufbau sind, wären beispielsweise *RSSOwl*,
-*Vienna* oder *QuietRSS* 
+*Vienna* oder *QuiteRSS*. Zu *RSSOwl* und *QuiteRSS* sind im Anhang A-
+:ref:`feedreader` Screenshots zu sehen. 
 
 
 Der Feedreader *Liferea*

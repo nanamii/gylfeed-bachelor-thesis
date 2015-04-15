@@ -2,9 +2,13 @@
 
    \appendix
 
-Anhang A
-========
-Die Feedparser *QuiteRSS* und *RSSOwl* als weitere Beispiele von 
+
+.. _feedreader:
+
+Feedreader *QuiteRSS* und *RSSOwl*
+==================================
+
+Die Feedreader *QuiteRSS* und *RSSOwl* als weitere Beispiele von 
 Desktop-Feedreadern, die an den Aufbau eines Mailclients angelehnt sind.
 
 .. _quiterss:
@@ -119,6 +123,8 @@ des *Universal Feedparsers*.
     }
 
 
-Anhang C
-========
+Projektstatistik
+================
+
+Mit *cloc* erstellte Statistik des Projekts.
 

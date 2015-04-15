@@ -50,9 +50,10 @@ aufmerksam gemacht.
     
     Mockup des *MainWindows*.
 
-Das Grundkonzept der Benutzeroberfläche beruht auf dem in Abbildung 
-:num:`scratchMainWindow` dargestellten *MainWindows*. Das *MainWindow* 
-verwaltet den Stack, der die verschiedenen Ansichten darstellt.
+Das Grundkonzept der Benutzeroberfläche beruht auf dem in Abbildung :num:`scratchMainWindow` dargestellten *MainWindows*. Das *MainWindow* 
+verwaltet den Stack, der die verschiedenen Ansichten darstellt. Die
+Ausmaße des Fensters betragen beim Start von *gylfeed* standardmäßig 
+800x600 Pixel. Eine individuelle Anpassung der Fenstergröße ist möglich.
 
 
 Die Ansichten
@@ -80,11 +81,11 @@ Abbildung :num:`scratchFeedView` zeigt den Entwurf der Ansicht *FeedView*
 Mit der *Feedview* soll nicht nur die erste Ansicht, sondern der Grundaufbau
 der kompletten GUI näher betrachtet werden. In der Header Bar sind global
 zugängliche Funktionaliäten enthalten. Der View Switcher, Such-Button,
-Menu-Button und Exit-Button. Mit dem View Switcher ist das Navigieren
+Menü-Button und Exit-Button. Mit dem View Switcher ist das Navigieren
 zwischen den Ansichten mit Maus möglich. Der Search-Button öffnet einen
 Revealer innerhalb der jeweiligen Ansicht und ermöglicht die Suche innerhalb
-dieser Ansicht. Der Menu-Button öffnet ein Menu mit weiteren
-Auswahlmöglichkeiten, die in Abbildung XX näher betrachtet werden. Der
+dieser Ansicht. Der Menü-Button öffnet ein Menü mit weiteren
+Auswahlmöglichkeiten, die in Abbildung :num:`scratchMenue` näher betrachtet werden. Der
 Exit-Button schließt das Programm. In der Mitte der Header Bar kann ein Titel
 dargestellt werden. Dieser wird an die jeweilige Ansicht angepasst. Wird
 aktuell die *Feedview* dargestellt, wird die Anzahl der Feeds angezeigt.
@@ -178,27 +179,27 @@ innerhalb dieser Ansicht angezeigt werden.
     Mockup der Ansicht Details eines Entry.
 
 
-Inhalt des Menus
+Inhalt des Menüs
 ----------------
 
 Abbildung :num:`scratchMenue` zeigt den Entwurf der Feedansicht mit 
-geöffnetem Menu. Im Menu können die Aktionen *update*, *add Feed*, 
+geöffnetem Menü. Im Menü können die Aktionen *update*, *add Feed*, 
 *about gylfeed* oder *Close Window* ausgeführt werden. Das sind Aktionen,
 die von jeder Ansicht aus ausgeführt werden können sollen und deshalb
 global zugänglich in der Header Bar angeboten werden. Sollten während
 der Entwicklung von *gylfeed* weitere globale Aktionen hinzukommen, ist
-die Erweiterung des Menus problemlos möglich. Für diese Aktionen werden
+die Erweiterung des Menüs problemlos möglich. Für diese Aktionen werden
 Shortcuts angeboten, die in der Abbildung bereits beispielhaft dargestellt
 sind.
 
 .. _scratchMenue:
 
 .. figure:: ./figs/scratchMenue.png
-    :alt: Mockup der Feedansicht mit geöffnetem Menue.
+    :alt: Mockup der Feedansicht mit geöffnetem Menü.
     :width: 70%
     :align: center
     
-    Mockup der Feedansicht mit geöffnetem Menue.
+    Mockup der Feedansicht mit geöffnetem Menü.
 
  
 Navigationskonzept
@@ -221,7 +222,7 @@ werden kann, verdeutlicht.
 
 Zwischen *FeedView*, *EntryListView* und *EntryDetailsView* ist die
 Navigation mit Pfeiltasten oder alternativ über den ViewSwitcher in der 
-Header Bar möglich (blau dargestellt). Zur *FeedOptionsView* kann zentral über den Menu-Button
+Header Bar möglich (blau dargestellt). Zur *FeedOptionsView* kann zentral über den Menü-Button
 in der Header Bar navigiert werden. Durch die Auswahl von *add Feed* wird
 die *FeedOptionsView* augerufen (grüner Pfeil mit Beschriftung "add Feed"). Der Aufruf der *FeedOptionsView* über
 den Settings-Button innerhalb der *FeedView* zeigt die Daten und

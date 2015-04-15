@@ -243,6 +243,8 @@ zu nennen:
  * Sowohl *feed* als auch *entry* können mehrere Links enthalten, die unterschiedliche Aufgaben haben.
  
 
+.. _FazitKapitel2:
+   
 Fazit für die Entwicklung von gylfeed
 =====================================
 

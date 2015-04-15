@@ -83,7 +83,7 @@ die Onlinedokumentation. Eine Statistik zum Projekt, welche mit dem Tool
 Implementierte Anforderungen
 ============================
 
-Die Anforderungen aus Kapitel XX wurden in vollem Umfang implementiert. Es
+Die Anforderungen aus Kapitel :ref:`anforderungen` wurden in vollem Umfang implementiert. Es
 wurde in der Weise entwickelt, dass zur Abgabe der Projektarbeit eine
 lauffähige Software vorliegt. Selbstverständlich sind noch weitere
 Funktionalitäten denkbar, die innerhalb des beschränkten Projektzeitraums
@@ -104,7 +104,8 @@ Download mit *libsoup*
 
 Der Download der Daten wird mit der Bibliothek *libsoup* umgesetzt. 
 *libsoup* ist eine client-/serverseitige HTTP-Bibliothek und ermöglicht
-innerhalb *gylfeed* das asynchrone Herunterladen der Feed-Daten.  
+innerhalb *gylfeed* das asynchrone Herunterladen der Feed-Daten (siehe 
+:cite:`libsoup`).  
 
 Die im Folgenden aufgeführte Bibliothek *Universal Feedparser* ermöglicht zwar
 das direkte Herunterladen und anschließende Parsen eines Feeds, jedoch nur
@@ -159,7 +160,20 @@ Folgendes Code-Beispiel einer bpython-Sitzung soll die Grundfunktionaliät
 
 
 In Anhang :ref:`dict` ist die komplette Struktur des Dictionary zu sehen. Innerhalb
-*gylfeed* ist dieses Dictionary Teil eines jeden Feedobjekts.
+*gylfeed* ist dieses Dictionary Teil eines jeden Feedobjekts. Grundsätzlich
+handelt es sich um ein Dictionary, d.h. eine Datenstruktur aus Schlüssel-
+Wert-Paaren. Der Wert *entries* innerhalb dieses Dictionaries enthält als 
+Schlüssel wiederum eine Liste aus
+Dictionaries. Ein solches Dictionary repräsentiert einen *Entry*. Auch der
+Schlüssel *feed* hat als Wert ein Dictionary. Darin sind die Daten zum *Feed*
+enhalten.
+
+Durch den Einsatz des *Universal Feedparsers* wird das in Kapitel
+:ref:`FazitKapitel2` erwähnte Problem der individuellen Behandlung von
+verschiedenen Feed-Formaten teilweise gelöst. Der *Universal Feedparser* stellt die
+Daten unabhängig vom ausgehenden Feedformat einheitlich zur Verfügung.
+Dies bedeutet nicht, dass für jedes Feedformat die gleichen Daten vorliegen.
+Es erleichtert lediglich den Zugriff auf die Daten.
 
 
 Eingebetteter Browser mit *Webkit*
@@ -172,11 +186,6 @@ Webinhalten. Der Benutzer kann den originalen
 Artikel zur jeweiligen Feed-Nachricht aufrufen. An dieser Stelle bieten sich
 für *gylfeed* auch zukünftige Erweiterungen, die durch die Verwendung von
 *WebKit* möglich sind.
-
-
-Kommunikation durch Signale
----------------------------
-Zum Benachrichtigen von anderen Instanzen, werden Signale eingesetzt ...
 
 
 
@@ -261,8 +270,36 @@ und minimalistisch umgesetzt. Die ersten drei Entries in der Abbildung
 zeigen die Darstellung von ungelesenen Entries.
 
 
-Ansicht FeedOptionsView
------------------------
+Ansicht *EntryDetailsView*
+--------------------------
+
+.. _entrydetailsview:
+
+.. figure:: ./figs/entrydetailsview.png
+    :alt: Implementierte Ansicht EntryDetailsView.
+    :width: 70%
+    :align: center
+    
+    Implementierte Ansicht *EntryDetailsView*.
+
+Die Auswahl eines Entries führt zur Anzeige der *EntryDetailsView*, die in 
+Abbildung :num:`entrydetailsview` zu sehen ist. Die *EntryDetailsView* zeigt
+die Details eines Entries an. Im abgebildeten Beispiel wird der *Titel*, 
+der Zeitstempel und der *Plot* des Entry angezeigt. Zusätzlich liefert hier 
+der Feed *Sueddeutsche Zeitung* ein Bild. Für die Anzeige des Titels wurde
+eine serifenlose Schrift gewählt. Der Plot wird standardmäßig in der 
+Schriftart *Vollkorn* dargestellt. Zusätzlich sind Fallback-Schriftarten 
+definiert. In der linken unteren Ecke wird für jeden Entry ein Button
+angeboten, der zum ursprünglichen Artikel führt. Die dazugehörige Webseite
+wird direkt innerhalb *gylfeed* geladen. Beim Berühren des Buttons mit der 
+Maus, erhält der Button einen Rahmen.
+
+Das Design dieser Ansicht ist klar strukturiert und minimalistisch gehalten.
+Die Schrift ist gut lesbar. Insgesamt eine abgerundete Darstellung des
+Inhalts eines Entry.
+
+Ansicht *FeedOptionsView*
+-------------------------
 
 Abbildung :num:`feedoptionsview` zeigt die implementierte Ansicht
 *FeedOptionsView*. Diese Ansicht wird sowohl für das Hinzufügen von Feeds,
@@ -297,11 +334,71 @@ hinzugefügt.
     Implementierte Ansicht *FeedOptionsView*.
 
 
+Darstellung der Systemnachricht
+-------------------------------
+
+Die Funktionalen Anforderungen sehen unter 4.2.2 - Optionen für Feeds, 
+Notifications vor. Die Anzeige dieser Systemnachrichten betreffen zwar nicht
+die Benutzeroberfläche von *gylfeed* selbst, werden dem Benutzer jedoch 
+dargestellt und sollen deshalb kurz erläutert werden. Hat ein Feed neue
+Nachrichten, wird dem Benutzer über einen Popup der betreffende Feed und die
+Anzahl der neuen Nachrichten mitgeteilt. Hierzu wird die Bibliothek
+*libnotify* verwendet. Das Popup einer solchen Nachricht ist in Abbildung 
+XX zu sehen. 
 
 
-Testumgebung
-============
-Zum Testen .....
+Tests
+=====
+
+Während der Entwicklung von *gylfeed* wurde mit zahlreichen Feeds,
+die angeboten werden, getestet. Zusätzlich wurde ein Testserver
+implementiert, der automatisch generierte Nachrichten sendet. Unittest sind
+zum aktuellen Zeitpunkt der Abgabe der Projektarbeit noch in Entwicklung.
+Die Umsetzung ist geplant und wird anschließend beispielhaft dargestellt.
+
+
+Testserver
+----------
+
+Zum Testen wurde ein Testserver implementiert, der über http://127.0.0.1:5000
+erreichbar ist und Test-Feeds erstellt. Je Update, das in *gylfeed*
+ausgeführt wird, werden neue Nachrichten generiert. Das ermöglicht das zügige
+Testen von Funktionalitäten. Man ist weniger abhängig von den realen Feeds
+und deren Veröffentlichung von Nachrichten. Für die Implementierung des
+Testservers wurde ... eingesetzt.
+
+
+Unittests
+---------
+
+
+Für das systematische Testen der Software soll das Python 
+Unittest--Framework verwendet werden.
+
+Folgendes Beispiel zeigt die grundlegende Funktionsweise:
+
+.. code-block:: python
+
+   def add(a, b): return a + b
+
+   if __name__ == '__main__':
+       import unittest
+
+       class SimpleTest(unittest.TestCase):
+           def test_add_func(self):
+               result = add(21, 21)
+               self.assertTrue(result == 42)
+
+       unittest.main()
+
+
+Das Ausführen des Beispielcodes würde folgende Ausgabe produzieren:
+
+.. code-block:: bash
+
+    Ran 1 test in 0.000s
+
+    OK
 
 
 Installation
