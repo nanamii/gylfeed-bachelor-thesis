@@ -1,9 +1,9 @@
 
 .. _anforderungen:
 
-***************************************
-Anforderungen an die Software *gylfeed* 
-***************************************
+*****************************
+Anforderungen an die Software 
+*****************************
 
 Im Folgenden werden die Anforderungen, die an die Software *gylfeed* 
 gestellt werden, definiert. Die Aufteilung erfolgt in Allgemeine Anforderungen,
@@ -14,16 +14,18 @@ Allgemeine Anforderungen
 ========================
 
 Die Entwicklung erfolgt unter der GNU General Public License in der Version 3.0
-(siehe :cite:`GNUGPL` - offizielle Seite von GNU GPL).
+(vgl. :cite:`GNUGPL` - offizielle Seite von GNU GPL).
 
 Mit *gylfeed* soll ein leichtgewichtiger Feedreader entwickelt werden, an den
 folgende allgemeine Anforderungen gestellt werden:
 
 * Entwicklung unter Linux
-* Entwicklung als OpenSource-Projekt
+* Entwicklung als Open-Source-Projekt
 * Neues Konzept hinsichtlich der Grafischen Oberfläche
 * Komfortable Bedienung
 
+
+.. _funkAnf:
 
 Funktionale Anforderungen
 =========================
@@ -71,7 +73,7 @@ automatisch aktualisiert.
 
 **Der Update-Vorgang soll andere Abläufe nicht blockieren:** Grundsätzlich ist
 gefordert, dass der Update-Vorgang wenig Bandbreite beansprucht und andere
-Vorgänge, wie beispielsweise die Bedienung der Grafischen Oberfläche, nicht
+Vorgänge, wie beispielsweise die Bedienung der grafischen Oberfläche, nicht
 behindert.
 
 
@@ -101,7 +103,8 @@ Browserfunktion
 ---------------
 
 Innerhalb des Feedreaders gibt es eine Funktionalität, die den Inhalt von Links,
-darstellt.
+darstellt. Es soll möglich sein, innerhalb *gylfeed* den ursprünglichen Artikel,
+zu dem der Entry erstellt wurde, anzuzeigen.
 
 Bedienkonzept
 -------------
@@ -121,12 +124,12 @@ Sowohl das Starten der Software als auch das Verhalten während der Laufzeit sol
 für den Benutzer angemessen zügig ablaufen.
 
 
-Anforderungen an die Grafische Benutzeroberfläche
-=================================================
+Anforderungen an die Benutzeroberfläche
+=======================================
 
 **Entwicklung nach Gnome Design-Richtlinien:** Grundsätzlich soll nach den
-GNOME Human Interface Guidelines entwickelt werden :cite:`GIG`. Zur Umsetzung
-der Grafischen Oberfläche wird das Gimp Toolkit (GTK) verwendet.
+GNOME Human Interface Guidelines entwickelt werden (vgl. :cite:`GIG`). Zur Umsetzung
+der grafischen Benutzeroberfläche wird das Gimp Toolkit (GTK) verwendet.
 
 **Minimalistisches Design:** Die GUI soll klar strukturiert sein, es soll nur
 das wesentliche dargestellt werden.
@@ -135,7 +138,7 @@ das wesentliche dargestellt werden.
 Benutzeroberfläche entwickelt werden. Hier ist ein neues Konzept zu entwickeln.
 
 **Einfachheit der Bedienung:** Es wird in der Regel ein Weg angeboten, dieser sollte der
-geeigneste sein.
+geeigneste sein. 
 
 **Innovatives Navigationskonzept:** Es wird eine komfortable Navigation
 angeboten. Die Benutzeroberfläche muss neben der Navigation per Maus, 
@@ -144,8 +147,8 @@ vorallem die Navigation per Tasten umsetzen.
 **Responsive Design:** Werden Aktionen ausgeführt, die zur Änderung anderer
 Komponenten führen, oder einen Hinweis erfordern, wird sich die GUI anpassen.
 
-**Darstellung der geforderten Funktionalitäten** Die GUI muss alle geforderten
-Funktonalitäten darstellen können.
+**Darstellung der geforderten Funktionalitäten:** Die GUI muss alle geforderten
+Funktonalitäten unter :ref:`funkAnf` (Funktionale Anforderungen) darstellen können.
 
 
 

@@ -31,7 +31,6 @@
      \pdfbookmark[1]{\contentsname}{Contents}
   \else
   \fi
-
   \tableofcontents
   \clearpage
 }%
@@ -56,7 +55,7 @@
 %%   However, that is not compatible with package 'hyperref'. \tableofcontents needs
 %%   to be declared from within the document itself. 
 \newcommand*{\makefrontmatter}{%
-    \titlespacing{\chapter}{0pt}{0.0em}{0.2em}
+    \titlespacing{\chapter}{0pt}{-6.5em}{0.4em}
     \bodyspacing
     \frontmatter\maketitlepage\makecopyrightpage\makeabstract
     \maketoc

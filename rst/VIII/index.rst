@@ -32,7 +32,30 @@ aufgeführt.
 Optimierungsmöglichkeiten
 =========================
 
-**Ausnahmebehandlung**: 
+**Beta-Version**: Grundsätzlich ist *gylfeed* lauffähig, aber befindet 
+sich noch im Entwicklungszustand. Die implementierten Funktionalitäten erfordern noch
+umfangreicher Tests.
+
+**Feed-Formate**: Es ist nicht auszuschließen, dass es Feeds gibt, die aufgrund
+ihrer Beschaffenheit oder teilweise Nichteinhaltung von Mindestanforderungen,
+innerhalb *gylfeeds* Fehler auslösen. Hier ist noch eine umfangreichere
+Behandlung von fehlenden Attributen innerhalb des Feeds wünschenswert.
+
+**Ausnahmebehandlung**: Die Ausnahmebehandlung innerhalb *gylfeed* ist zum
+Zeitpunkt der Abgabe der Projektarbeit noch verbesserungswürdig. Beim Hinzufügen
+eines Feeds werden aktuell folgende Fälle betrachtet. Ein Feed ist bereits
+vorhanden, die Anfrage für einen Feed ist negativ, der Name des Feeds ist
+bereits vorhanden. Hier ist zukünftig eine grundlegende Betrachtung aller möglichen
+Ausnahmen notwendig.
+
+**GNOME Human Interface Guidelines**: Der Großteil von *gylfeed* ist nach
+den Human Interface Guidelines von GNOME entwickelt. Vernachlässigt wurde
+bisher die Umsetzung von Richtlinien bezüglich Einsatz von Farben in Icons.
+
+**Tests mit anderen Distributionen**: *gylfeed* wurde bisher ausschließlich mit
+der Linux-Distribution Fedora 21 getestet. Innerhalb jeder anderen Distribution, die python3
+und GTK3 unterstützen, sollte *gylfeed* lauffähig sein. Hier wären Tests
+wünschenswert.
 
 
 

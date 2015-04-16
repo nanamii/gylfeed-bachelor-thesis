@@ -196,18 +196,7 @@
 
 % Configure footer and header
 \fancyfoot[C]{%
-    % EasterEgg
-    \ifthenelse{\value{page}=42}{%
-        % Horizontal and vertical flip
-        \reflectbox{\scalebox{1}[-1]{\prettypage}}
-    }{%
-        \ifthenelse{\value{page}=23}{%
-            % Horizontal flip
-            \reflectbox{\prettypage}
-        }{%
-            \prettypage
-        }%
-    }%
+    \prettypage
 }%
 \setlength{\footskip}{25pt}
 
@@ -220,7 +209,7 @@
 % \setlength{\headheight}{24pt} 
 
 % Comment out for normal twoside:
-% \newcommand{\ONESIDEFAKE}
+\newcommand{\ONESIDEFAKE}
 
 \ifdefined\ONESIDEFAKE
     \fancyhead[L]{{\nouppercase{\slshape{\leftmark}}}}
@@ -358,7 +347,7 @@
     pdfauthor={\theauthor},
     pdftitle={\@worktitle \@worksubtitle},
     pdfsubject={\@worktitle \@worksubtitle},
-    pdfkeywords={Music Recommendation, Music Information Retrieval, MIR, Data Mining, Graph Theory},
+    pdfkeywords={Feed Reader, RSS, ATOM, gylfeed, Thesis, FH Hof},
     pdfproducer={LaTeX with hyperref},
     pdfcreator={pdflatex},
     bookmarks=true,     % show or hide the bookmarks bar when displaying the document
@@ -511,4 +500,4 @@
   \setlength{\itemsep}{0pt plus 0.5ex}
 }%
 % Hack
-\addto\captionsngerman{\renewcommand{\bibname}{\textcolor{gray75}{D~|~}Literaturverzeichnis}}
+\addto\captionsngerman{\renewcommand{\bibname}{\textcolor{gray75}{E~|~}Literaturverzeichnis}}

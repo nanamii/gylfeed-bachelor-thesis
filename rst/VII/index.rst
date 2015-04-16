@@ -47,7 +47,6 @@ von Mark Lutz :cite:`LutzLearningPython`, zusammengefasst:
      neben Linux auf andere Plattformen verfügbar zu sein.
  
 **Tool für die Erstellung der GUI:**
-
 Für die Erstellung der grafischen Benutzeroberfläche wird GTK, das GIMP
 Toolkit, in der Version 3.14 verwendet. GTK ist plattformunabhängig, dies
 bietet den Vorteil, dass *gylfeed* zu einem späteren Zeitpunkt für andere
@@ -60,30 +59,30 @@ von Grund auf zu erlernen und anzuwenden.
 **Entwicklungssytem:**
 Die Software *gylfeed* wird unter der Linux Distribution *Fedora 21* entwickelt. Für die Entwicklung wird der
 Editor *gVim* verwendet. Zusätzlich werden Python--Plugins zur Validierung 
-der Python PEP--Stilrichtlinien (siehe :cite:`PEP`) verwendet. 
+der Python PEP--Stilrichtlinien (vgl. :cite:`PEP`) verwendet. 
 Als weiteres Werkzeug
 wird die interaktive Python Shell *bpython* eingesetzt 
-(siehe :cite:`bpython`). Das erlaubt das 
+(vgl. :cite:`bpython`). Das erlaubt das 
 Testen von Funktionalitäten außerhalb des eigentlichen Quelltextes.
 
 **Quellcodeverwaltung:**
 Zur Verwaltung des Quellcodes wird *git*, ein Versionsverwaltungssystem,
 eingesetzt. Der Quellcode selbst wird auf dem Hosting--Dienst für
-Software--Entwicklungsprojekte *GitHub* (siehe :cite:`github`) gelagert. Das
+Software--Entwicklungsprojekte *GitHub* (vgl. :cite:`github`) gelagert. Das
 Projekt ist über folgenden Link zur GitHub-Webseite erreichbar:
 
     * https://github.com/nanamii/gylfeed/ 
 
 **Projektumfang:**
-Der Projektumfang beträgt ca. 2000 *Lines of Code*,  hinzu kommt noch
-die Onlinedokumentation. Eine Statistik zum Projekt, welche mit dem Tool
-*cloc* erstellt wurde, ist im Anhang unter :ref:`ref-cloc` zu finden.
+Der Projektumfang beträgt ca. 2000 *Lines of Code*. Eine Statistik zum Projekt, welche mit dem Tool
+*cloc* erstellt wurde, ist im Anhang D (:ref:`cloc`) zu finden.
 
 
 Implementierte Anforderungen
 ============================
 
-Die Anforderungen aus Kapitel :ref:`anforderungen` wurden in vollem Umfang implementiert. Es
+Die Anforderungen aus Kapitel :ref:`anforderungen` (Anforderungen an die Software *gylfeed*) 
+wurden in vollem Umfang implementiert. Es
 wurde in der Weise entwickelt, dass zur Abgabe der Projektarbeit eine
 lauffähige Software vorliegt. Selbstverständlich sind noch weitere
 Funktionalitäten denkbar, die innerhalb des beschränkten Projektzeitraums
@@ -94,8 +93,8 @@ wird in der Zusammenfassung eingegangen.
 Implementierung der Klassen
 ---------------------------
 
-Die Klassen wurden anhand des Klassendiagramms in Abbildung 
-:num:`klassendiagramm` implementiert. Der Quellcode ist unter der bereits
+Die Klassen wurden anhand des Klassendiagramms in Abbildung :num:`klassendiagramm` 
+implementiert. Der Quellcode ist unter der bereits
 genannten GitHub-Webseite abrufbar.
 
 
@@ -104,7 +103,7 @@ Download mit *libsoup*
 
 Der Download der Daten wird mit der Bibliothek *libsoup* umgesetzt. 
 *libsoup* ist eine client-/serverseitige HTTP-Bibliothek und ermöglicht
-innerhalb *gylfeed* das asynchrone Herunterladen der Feed-Daten (siehe 
+innerhalb *gylfeed* das asynchrone Herunterladen der Feed-Daten (vgl.  
 :cite:`libsoup`).  
 
 Die im Folgenden aufgeführte Bibliothek *Universal Feedparser* ermöglicht zwar
@@ -124,11 +123,12 @@ Feedparser* in der Version 5.1.3 verwendet. Die Bibliothek ermöglicht das
 Parsen folgender Formate: RSS 0.90, 0.91, 0.92, 0.93, 0.94, 1.0, 2.0; 
 Atom 0.3 und 1.0; CDF (Common Data Format). 
 
-In *Developing Feeds with RSS and Atom* (siehe :cite:`DFRA`) erwähnt Ben
+In *Developing Feeds with RSS and Atom* (vgl. :cite:`DFRA`) erwähnt Ben
 Hammersley den *Universal Feedparser* als 
 hervorragend umgesetzten und großartig dokumentierten Feedparser. Tatsächlich
 kann beim Benutzen des *Universal Feedparser* festgestellt werden, dass eine
-ordentliche Dokumentation vorliegt (siehe :cite:`FPD` - Online Dokumentation).
+ordentliche Dokumentation vorliegt (vgl. :cite:`FPD` - Online Dokumentation
+*Universal Feedparser*).
 
 Der *Universal Feedparser* ermöglicht das Parsen eines Feeds auf folgende
 drei Arten:
@@ -159,7 +159,7 @@ Folgendes Code-Beispiel einer bpython-Sitzung soll die Grundfunktionaliät
     'Alle Artikel - Nachrichten aus Politik, Wirtschaft und Sport' 
 
 
-In Anhang :ref:`dict` ist die komplette Struktur des Dictionary zu sehen. Innerhalb
+In Anhang B (:ref:`dict`) ist die komplette Struktur des Dictionary zu sehen. Innerhalb
 *gylfeed* ist dieses Dictionary Teil eines jeden Feedobjekts. Grundsätzlich
 handelt es sich um ein Dictionary, d.h. eine Datenstruktur aus Schlüssel-
 Wert-Paaren. Der Wert *entries* innerhalb dieses Dictionaries enthält als 
@@ -180,7 +180,7 @@ Eingebetteter Browser mit *Webkit*
 ----------------------------------
 
 Innerhalb von *gylfeed* ist es möglich, Webseiten darzustellen. Umgesetzt
-wird dies mit der HTML-Rendering Engine *WebKit* (siehe :cite:`WebKit`). Die aktuelle Version von
+wird dies mit der HTML-Rendering Engine *WebKit* (vgl. :cite:`WebKit`). Die aktuelle Version von
 *gylfeed* ermöglicht innerhalb der *EntryDetailsView* die Darstellung von
 Webinhalten. Der Benutzer kann den originalen
 Artikel zur jeweiligen Feed-Nachricht aufrufen. An dieser Stelle bieten sich
@@ -203,7 +203,7 @@ Entsprechende Details werden anhand der Ansichten erläutert.
 Ansicht *Feedview*
 ------------------
 
-Abbildung :num:`feedview` zeigt die implementierte Ansicht *Feedview*. Hier
+Abbildung :num:`feedview` zeigt die implementierte Ansicht *FeedView*. Hier
 werden die Feeds aufgelistet. Die erste *Listbox Row* ist für die
 Zusammenfassung aller Feeds vorgesehen. Auch die Labels in dieser Row zeigen
 die Daten der Feeds in Summe an. Es gibt pro Row drei verschiedene Labels:
@@ -223,11 +223,11 @@ Focus auf der Row liegt.
 .. _feedview:
 
 .. figure:: ./figs/feedview.png
-    :alt: Implementierte Ansicht *FeedView*.
+    :alt: Implementierte Ansicht FeedView.
     :width: 70%
     :align: center
     
-    Implementierte Ansicht *Feedview*.
+    Implementierte Ansicht *FeedView*.
 
 
 
@@ -251,7 +251,7 @@ Ansicht *EntryListView*
 .. _entrylistview:
 
 .. figure:: ./figs/entrylistview.png
-    :alt: Implementierte Ansicht *EntryListView*.
+    :alt: Implementierte Ansicht EntryListView.
     :width: 70%
     :align: center
     
@@ -327,7 +327,7 @@ hinzugefügt.
 .. _feedoptionsview:
 
 .. figure:: ./figs/feedoptionsview.png
-    :alt: Implementierte Ansicht *FeedOptionsView*.
+    :alt: Implementierte Ansicht FeedOptionsView.
     :width: 70%
     :align: center
     
@@ -347,8 +347,8 @@ Anzahl der neuen Nachrichten mitgeteilt. Hierzu wird die Bibliothek
 XX zu sehen. 
 
 
-Tests
-=====
+Testverfahren
+=============
 
 Während der Entwicklung von *gylfeed* wurde mit zahlreichen Feeds,
 die angeboten werden, getestet. Zusätzlich wurde ein Testserver
@@ -379,12 +379,13 @@ Folgendes Beispiel zeigt die grundlegende Funktionsweise:
 
 .. code-block:: python
 
-   def add(a, b): return a + b
+   def add(a, b): 
+       return a + b
 
    if __name__ == '__main__':
        import unittest
 
-       class SimpleTest(unittest.TestCase):
+       class SampleTest(unittest.TestCase):
            def test_add_func(self):
                result = add(21, 21)
                self.assertTrue(result == 42)

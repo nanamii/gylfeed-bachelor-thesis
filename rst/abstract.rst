@@ -5,11 +5,9 @@
     Abstract
     ========
 
-This paper shows a way to build a music recommendation system based on
-datamining algorithms and a neighbor graph. A extensible python library
-is developed, using a variety of inputs differing from music metadata like
-lyrics or the genre to the analysis of the associated audio data. In order to
-demonstrate and verify the results, a Gtk+--based MPD client is developed that can
-be used either as debugging tool or normal media player. Various techniques are
-shown to compare all possible attributes of a song with each other in an
-efficient way.
+Die vorliegende Projektarbeit zeigt die Entwicklung und Implementierung
+eines Feedreaders als Desktoplösung. Der Feedreader strebt vorallem in der
+Umsetzung der grafischen Benutzeroberfläche eine Alternative zu bestehenden 
+Feedreadern an. Es wird als Open-Source-Projekt mit der Programmiersprache 
+Python umgesetzt. GTK+ wird für die Umsetzung der grafischen 
+Benutzeroberfläche verwendet.

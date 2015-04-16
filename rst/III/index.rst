@@ -9,8 +9,8 @@ Analyse der einzelnen Funktionalitäten, die von den Feedreadern bereitgestellt
 werden und weiterführende Vergleiche, sind Bestandteil der Bachelorarbeit.
 
 
-Konzept aktueller Feedreader
-============================
+Konzepte aktueller Feedreader
+=============================
 Der Großteil der vorhandenen Feedreader, in diesem Fall speziell Feedreader, die
 als eigenständige Desktopsoftware funktionieren, sind an den Aufbau eines
 Mailclients angelehnt.
@@ -18,13 +18,13 @@ Als Veranschaulichung wird der Feedreader *Liferea* herangezogen. *Liferea*
 deshalb, weil er wie es *gylfeed* sein wird:
 
  * Für Linux entwickelt ist.
- * Gtk als Oberflächentechnik verwendet.
+ * GTK als Oberflächentechnik verwendet.
  * Unter GNU GPL lizenziert ist.
  * Den Anspruch erhebt, leicht bedienbar zu sein.
 
 Weitere Desktop-Feedreader, die vergleichbar im Aufbau sind, wären beispielsweise *RSSOwl*,
-*Vienna* oder *QuiteRSS*. Zu *RSSOwl* und *QuiteRSS* sind im Anhang A-
-:ref:`feedreader` Screenshots zu sehen. 
+*Vienna* oder *QuiteRSS*. Zu *RSSOwl* und *QuiteRSS* sind in Anhang A
+(:ref:`feedreader`) Screenshots zu sehen. 
 
 
 Der Feedreader *Liferea*
@@ -33,14 +33,14 @@ Der Feedreader *Liferea*
 *Liferea* steht für *Linux Feed Reader* und wird seit 2003 stetig
 weiterentwickelt. Die Benutzeroberfläche hat den Aufbau eines klassischen
 Mailclients. Entwickelt wurde *Liferea* hauptsächlich in der Programmiersprache
-C. Die Projektseite selbst (siehe :cite:`PSL`) gibt den Umfang des Codes mit ca.
+C. Die Projektseite selbst (vgl. :cite:`PSL`) gibt den Umfang des Codes mit ca.
 27.000 Zeilen an.
 
 
 .. _liferea:
 
 .. figure:: ./figs/liferea_screenshot.png
-    :alt: Der Feedreader *Liferea*.
+    :alt: Der Feedreader Liferea.
     :width: 85%
     :align: center
     

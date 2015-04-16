@@ -14,16 +14,16 @@ Desktop-Feedreadern, die an den Aufbau eines Mailclients angelehnt sind.
 .. _quiterss:
 
 .. figure:: ./figs/quite_rss.png
-    :alt: Benutzeroberfläche des Feedreaders *QuiteRSS*
-    :width: 70%
+    :alt: Benutzeroberfläche des Feedreaders QuiteRSS.
+    :width: 100%
     :align: center
     
     Benutzeroberfläche des Feedreaders *QuiteRSS*.
 
 
 .. figure:: ./figs/rss_owl.jpg
-    :alt: Benutzeroberfläche des Feedreaders *RSSOwl*
-    :width: 70%
+    :alt: Benutzeroberfläche des Feedreaders RSSOwl.
+    :width: 100%
     :align: center
     
     Benutzeroberfläche des Feedreaders *RSSOwl*, Quelle: http://www.heise.de/.
@@ -123,8 +123,23 @@ des *Universal Feedparsers*.
     }
 
 
+.. _cloc:
+
 Projektstatistik
 ================
 
 Mit *cloc* erstellte Statistik des Projekts.
+
+.. figure:: ./figs/cloc.png
+    :alt: Mit dem Tool cloc erstellte Projektstatistik.
+    :width: 100%
+    :align: center
+    
+    Mit dem Tool *cloc* erstellte Projektstatistik.
+
+
+.. _server:
+
+Implementierung des Testservers
+===============================
 

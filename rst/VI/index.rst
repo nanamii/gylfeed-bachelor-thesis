@@ -44,7 +44,7 @@ aufmerksam gemacht.
 .. _scratchMainWindow:
 
 .. figure:: ./figs/scratchMainWindow.png
-    :alt: Mockup des *MainWindows*.
+    :alt: Mockup des MainWindows.
     :width: 70%
     :align: center
     
@@ -70,11 +70,11 @@ Anzeige der Feeds - *Feedview*
 .. _scratchFeedView:
 
 .. figure:: ./figs/scratchFeedview.png
-    :alt: Mockup der Ansicht *Feedview*
+    :alt: Mockup der Ansicht FeedView.
     :width: 80%
     :align: center
     
-    Mockup der Ansicht *Feedview*.
+    Mockup der Ansicht *FeedView*.
 
 Abbildung :num:`scratchFeedView` zeigt den Entwurf der Ansicht *FeedView*
 
@@ -107,11 +107,11 @@ angezeigten Feeds nach unten und schafft Platz für die Suchleiste.
 .. _scratchSearch:
 
 .. figure:: ./figs/scratchSearch.png
-    :alt: Mockup der Ansicht Feeds mit aktivierter Suchfunktion.
+    :alt: Mockup der Ansicht FeedView mit aktivierter Suchfunktion.
     :width: 70%
     :align: center
     
-    Mockup der Ansicht Feeds mit aktivierter Suchfunktion.
+    Mockup der Ansicht *FeedView* mit aktivierter Suchfunktion.
 
 
    
@@ -132,11 +132,11 @@ Nachrichten gelöscht werden (Regler in Tagen) und Notifications (ja/nein).
 .. _scratchOptions:
 
 .. figure:: ./figs/scratchOptions.png
-    :alt: Mockup der Ansicht Optionen.
+    :alt: Mockup der Ansicht FeedOptionsView.
     :width: 70%
     :align: center
     
-    Mockup der Ansicht Settings.
+    Mockup der Ansicht *FeedOptionsView*.
 
 
 
@@ -152,11 +152,11 @@ Titel der Name des Feeds angezeigt. Die Ansicht ist scrollbar.
 .. _scratchEntries:
 
 .. figure:: ./figs/scratchEntries.png
-    :alt: Mockup der Ansicht von Entries.
+    :alt: Mockup der Ansicht EntryListView.
     :width: 70%
     :align: center
     
-    Mockup der Ansicht von Entries.
+    Mockup der Ansicht *EntryListView*.
 
 
 Detailansicht eines Entry - *EntryDetailsView*
@@ -172,11 +172,11 @@ innerhalb dieser Ansicht angezeigt werden.
 .. _scratchDetails:
 
 .. figure:: ./figs/scratchDetails.png
-    :alt: Mockup der Ansicht Details eines Entry.
+    :alt: Mockup der Ansicht EntryDetailsView.
     :width: 70%
     :align: center
     
-    Mockup der Ansicht Details eines Entry.
+    Mockup der Ansicht *EntryDetailsView*.
 
 
 Inhalt des Menüs
@@ -195,11 +195,11 @@ sind.
 .. _scratchMenue:
 
 .. figure:: ./figs/scratchMenue.png
-    :alt: Mockup der Feedansicht mit geöffnetem Menü.
+    :alt: Mockup der FeedView mit geöffnetem Menü.
     :width: 70%
     :align: center
     
-    Mockup der Feedansicht mit geöffnetem Menü.
+    Mockup der *FeedView* mit geöffnetem Menü.
 
  
 Navigationskonzept
@@ -214,7 +214,7 @@ werden kann, verdeutlicht.
 .. _navikonzept:
 
 .. figure:: ./figs/navikonzept.png
-    :alt: Navigationskonzept von *gylfeed*.
+    :alt: Navigationskonzept von gylfeed.
     :width: 100%
     :align: center
     

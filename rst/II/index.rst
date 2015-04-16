@@ -15,7 +15,7 @@ Stelle soll lediglich ein kurzer Überblick gegeben werden.
 Funktionsweise und Einsatzzwecke von Feeds
 ==========================================
 
-Heinz Wittenbrink schreibt in *Newsfeeds mit RSS und Atom* (siehe :cite:`newsfeeds` ),
+Heinz Wittenbrink schreibt in *Newsfeeds mit RSS und Atom* (vgl. :cite:`newsfeeds` ),
 Newsfeeds, oder auch Feeds genannt, sind Dokumente, die in den Formaten RSS
 oder Atom erstellt werden. Wittenbrink nennt vier Einsatzszenarien: 
  
@@ -25,7 +25,7 @@ oder Atom erstellt werden. Wittenbrink nennt vier Einsatzszenarien:
  * Asynchrones Broadcasting
 
 Anzumerken ist, dass neben RSS und Atom weitere Formate, wie z.B. Scripting
-News, OPML oder NewsML entwickelt wurden (siehe :cite:`FU` - Übersicht Formate).
+News, OPML oder NewsML entwickelt wurden (vgl. :cite:`FU` - Übersicht Formate).
 Im Weiteren wird das Hauptaugenmerk auf den Formaten RSS und Atom liegen.
 
 Bevor auf die Formate näher eingegangen wird, soll nun die Funktionsweise von
@@ -125,22 +125,17 @@ erforderliche und optionale Elemente. Auf diese Thematik wird im Verlauf noch
 eingegangen.
 
 
-Ziele:
-
-Vorteile:
-
-
 Formate zur *Content Syndication*
 =================================
 
 Neben RSS, als meistegenutzes Format bei Feeds, hat sich das Format Atom
 etabliert. Bevor diese beiden Formate näher betrachtet werden, soll der Begriff
 *Content Syndication* erklärt werden. Heinz Wittenbrink definiert *Content
-Syndication* in *Newsfeeds mit RSS und Atom* (siehe :cite:`newsfeeds`) als Fachausdruck 
+Syndication* in *Newsfeeds mit RSS und Atom* (vgl. :cite:`newsfeeds`) als Fachausdruck 
 für den regelmäßigen Austausch aktueller Informationen zwischen Webseiten. Er
-weisst außerdem darauf hin, dass die Spezifikation von RSS 2.0 (siehe :cite:`2.0SPEC`) Syndikation als das 
-"online Zugänglichmachen von Daten für weitere Übertragung, Aggregierung und Online-Publikation"
-definiert.
+weisst außerdem darauf hin, dass die Spezifikation von RSS 2.0 (vgl. :cite:`2.0SPEC`) Syndikation als das 
+online Zugänglichmachen von Daten für weitere Übertragung, Aggregierung 
+und Online-Publikation definiert.
 
 
 Das Format RSS
@@ -149,7 +144,7 @@ Die erste Version von RSS, RSS 0.90, wurde 1997 von Netscape entwickelt.
 Zu dieser Zeit trug RSS die Bedeutung *Rich Side Summary*. Es
 folgten die Versionen 0.91, 0.92, 0.93 und 1.0. Im Jahr 2003 wurde von Harvard
 die Version 2.0 veröffentlicht. Die Version 2.0 basiert nicht, wie zu vermuten
-wäre, auf der Version 1.0, sondern auf der Version 0.92 (siehe :cite:`HU` - Versionsübersicht von Harvard).
+wäre, auf der Version 1.0, sondern auf der Version 0.92 (vgl. :cite:`HU` - Versionsübersicht von Harvard).
 Im Laufe dieser Entwicklungen wurde *Really Simple Syndication* als Bedeutung für der Abkürzung RSS eingeführt.
 Die einzelnen Versionen unterscheiden sich darin, dass Attribute neu
 hinzugefügt, oder auch in späteren Versionen wieder entfernt wurden. Mit den
@@ -175,8 +170,8 @@ Das Format Atom
 ---------------
 
 Atom ist ebenso wie RSS ein plattformunabhängiger XML-Standard zum Austausch von
-Informationen (siehe :cite:`WIA`). Entwickelt wurde es 2005 von Mark Nottingham
-und Richard Sayre. Es liegt aktuell in der Version 1.0 vor (siehe
+Informationen (vgl. :cite:`WIA`). Entwickelt wurde es 2005 von Mark Nottingham
+und Richard Sayre. Es liegt aktuell in der Version 1.0 vor (vgl.
 :cite:`ASP` - Spezifikation von Atom). Die Spezifikation von Atom erwähnt als
 primäre Verwendung des Formats den Austausch von Webinhalten, wie z.B. Weblogs 
 und Nachrichten, innerhalb des Webs und an den Endanwender. Ziel von Atom war
@@ -245,8 +240,8 @@ zu nennen:
 
 .. _FazitKapitel2:
    
-Fazit für die Entwicklung von gylfeed
-=====================================
+Fazit für die Entwicklung von *gylfeed*
+=======================================
 
 An dieser Stelle wird bereits deutlich, dass die Vielzahl an unterschiedlichen
 Versionen, allein bei RSS, für die Planung und Entwicklung von *gylfeed* von

@@ -3,8 +3,8 @@ Architekturentwurf
 ******************
 
 In diesem Kapitel wird die Architektur der Software *gylfeed* vorgestellt.
-Hierzu werden die Anforderungen aus Kapitel :ref:`anforderungen` - Anforderungen
-an die Software *gylfeed* herangezogen. Eine
+Hierzu werden die Anforderungen aus Kapitel :ref:`anforderungen` (Anforderungen
+an die Software *gylfeed*) herangezogen. Eine
 detaillierte Beschreibungen der internen Abläufe, tiefergehende Erläuterungen
 zur Algorithmik und Problemstellungen sind Bestandteil der
 Bachelorarbeit.
@@ -36,7 +36,7 @@ gefordert. Hierzu werden Entwürfe erstellt.
 .. _klassendiagramm:
 
 .. figure:: ./figs/klassendiagramm.png
-    :alt: Übersicht der Klassen von *gylfeed*
+    :alt: Übersicht der Klassen von gylfeed.
     :width: 100%
     :align: center
     
@@ -55,7 +55,7 @@ initialisiert. Hier erfolgt der Start des Programms.
 **Feedhandler:** In der *MainApplication* wird eine Instanz der Klasse
 *Feedhandler* erstellt. Der Feedhandler hält die Instanzen aller erstellten
 Feeds. Außerdem benutzt der Feedhandler die Klasse *Downloader* zum
-herunterladen der Feed-Daten.
+Herunterladen der Feed-Daten.
 
 **Feed:** Die Klasse *Feed* repräsentiert ein Abonnement eines Feeds. Von dieser
 Klasse wird die Klasse *SumFeed* abgeleitet. *Feed* benutzt selbst auch die
@@ -133,7 +133,7 @@ dies wird innerhalb der Bachelorarbeit betrachtet.
 .. _funktionsprinzip:
 
 .. figure:: ./figs/funktionsprinzip.png
-    :alt: Das Grundkonzept von *gylfeed*.
+    :alt: Das Grundkonzept von gylfeed.
     :width: 100%
     :align: center
     
@@ -150,7 +150,7 @@ ausgelöst und die im Document enthaltenen Daten werden im Feed geparst (6).
 
 Der Feed kommuniziert an den Feedhandler, dass er sich aktualisiert hat. Der
 Feedhandler reicht das Signal an die Benutzeroberfläche weiter. Die Änderungen
-werden graphisch dargestellt.
+werden grafisch dargestellt.
 
 Im Feedhandler werden Updates ausgelöst, die manuell vom Benutzer angefordert
 werden. Da dies für alle Feeds geschieht, ist es die Aufgabe des Feedhandlers, der
@@ -162,7 +162,7 @@ Daten beim Start der Software.
 
 Die Benutzeroberfläche kommuniziert Eingaben des Benutzers unter der Verwendung von
 Signalen an die jeweilige logische Einheit. An dieser Stelle wird zum besseren
-Verständnis das Konzept von Signalen innerhalb Gtk kurz erläutert. Eine genaue
+Verständnis das Konzept von Signalen innerhalb GTK kurz erläutert. Eine genaue
 Betrachtung und Einzelheiten zu Signalen sind Bestandteil der Bachelorarbeit.
 
 Als erstes sei erwähnt, dass GTK eventbasiert ist. GTK wartet solange, bis ein
