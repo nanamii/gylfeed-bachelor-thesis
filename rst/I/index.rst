@@ -61,8 +61,9 @@ soll gleichermaßen die Funktionaliät der Software wiederspiegeln, als auch
 sympathisch klingen. Einerseits, um beim Nutzer besser im Gedächtnis zu bleiben 
 und andererseits leicht Sympathie dafür entwickeln zu können, als wär es ein bloßer technischer
 Name. Auf diese Weise ist der Name *gylfeed* entstanden. Dies setzt sich aus dem
-Namen einer Figur der Buchreihe "Die Legende der Wächter" (vgl. :cite:`DLW`) -- *gylfie* und *Feed*
-zusammen. Für die Außendarstellung wurde ergänzend ein Logo entwickelt (siehe Abbildung :num:`gylfeedlogo` ). Dieses
+Namen einer Figur der Buchreihe "Die Legende der Wächter"-- *gylfie* und *Feed*
+zusammen  (vgl. :cite:`DLW` - Eine Portrait der Figur *gylfie*). 
+Für die Außendarstellung wurde ergänzend ein Logo entwickelt (siehe Abbildung :num:`gylfeedlogo` ). Dieses
 Logo stellt eine Eule der Gattung Elfenkauz dar, wie es die Figur *gylfie* ist. Das Logo wird als Icon
 und gemein als Logo für die Software benutzt.
 
@@ -79,4 +80,4 @@ Für den Schriftzug wird die Schriftart *Portal* mit angepasstem Kerning verwend
 Eule wurde als Vektorgrafik erstellt. Skalieren auf die passende Größe, je nach
 Verwendungszweck innerhalb der Software ist somit problemlos möglich. Die
 Platzierung der Eule wurde bewusst gewählt, um zwischen Schriftzug und Eule
-eine Verbinung und Harmonie zu erzeugen. Hier wurde das Stilmittel des Goldenen Schnitts angewendet (vgl. :cite:`GS` - eine mathematische Herleitung)
+eine Verbinung und Harmonie zu erzeugen. Hier wurde das Stilmittel des Goldenen Schnitts angewendet (vgl. :cite:`GS` - eine mathematische Herleitung des goldenen Schnitts.)

@@ -343,8 +343,7 @@ die Benutzeroberfläche von *gylfeed* selbst, werden dem Benutzer jedoch
 dargestellt und sollen deshalb kurz erläutert werden. Hat ein Feed neue
 Nachrichten, wird dem Benutzer über einen Popup der betreffende Feed und die
 Anzahl der neuen Nachrichten mitgeteilt. Hierzu wird die Bibliothek
-*libnotify* verwendet. Das Popup einer solchen Nachricht ist in Abbildung 
-XX zu sehen. 
+*libnotify* verwendet (vgl. :cite:`libnotify` - API der Bibliothek *libnotify*). 
 
 
 Testverfahren
@@ -364,8 +363,8 @@ Zum Testen wurde ein Testserver implementiert, der über http://127.0.0.1:5000
 erreichbar ist und Test-Feeds erstellt. Je Update, das in *gylfeed*
 ausgeführt wird, werden neue Nachrichten generiert. Das ermöglicht das zügige
 Testen von Funktionalitäten. Man ist weniger abhängig von den realen Feeds
-und deren Veröffentlichung von Nachrichten. Für die Implementierung des
-Testservers wurde ... eingesetzt.
+und deren Veröffentlichung von Nachrichten. Die Implementierung des
+Testservers ist in Anhang D (:ref:`testserver`) zu finden.
 
 
 Unittests

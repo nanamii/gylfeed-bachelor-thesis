@@ -128,12 +128,12 @@ eingegangen.
 Formate zur *Content Syndication*
 =================================
 
-Neben RSS, als meistegenutzes Format bei Feeds, hat sich das Format Atom
+Neben RSS, als meistgenutzes Format bei Feeds, hat sich das Format Atom
 etabliert. Bevor diese beiden Formate näher betrachtet werden, soll der Begriff
 *Content Syndication* erklärt werden. Heinz Wittenbrink definiert *Content
 Syndication* in *Newsfeeds mit RSS und Atom* (vgl. :cite:`newsfeeds`) als Fachausdruck 
 für den regelmäßigen Austausch aktueller Informationen zwischen Webseiten. Er
-weisst außerdem darauf hin, dass die Spezifikation von RSS 2.0 (vgl. :cite:`2.0SPEC`) Syndikation als das 
+weist außerdem darauf hin, dass die Spezifikation von RSS 2.0 (vgl. :cite:`2.0SPEC`) Syndikation als das 
 online Zugänglichmachen von Daten für weitere Übertragung, Aggregierung 
 und Online-Publikation definiert.
 

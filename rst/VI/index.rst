@@ -25,7 +25,8 @@ Das Ausmaß der GUI wird exakt einer Ansicht entsprechen und dadurch die
 geforderte Kompaktheit erfüllen. Es wird immer genau ein Thema dargestellt.
 Keine Verschachtelung verschiedener Fenster. Das bietet einerseits den Vorteil, 
 leicht die Übersicht zu behalten und andererseits kann diese GUI leicht in einen
-Tiling-Window-Manager integriert werden.
+Tiling-Window-Manager integriert werden (vgl. :cite:`i3` - i3 als Beispiel eines
+Tiling-Window-Managers).
 
 Die Einfachheit der Bedienung wird beispielsweise dadurch erreicht, dass dem Benutzer
 bekannte Shortcuts zur Verfügung gestellt werden. Grundsätzlich wird die
@@ -224,7 +225,7 @@ Zwischen *FeedView*, *EntryListView* und *EntryDetailsView* ist die
 Navigation mit Pfeiltasten oder alternativ über den ViewSwitcher in der 
 Header Bar möglich (blau dargestellt). Zur *FeedOptionsView* kann zentral über den Menü-Button
 in der Header Bar navigiert werden. Durch die Auswahl von *add Feed* wird
-die *FeedOptionsView* augerufen (grüner Pfeil mit Beschriftung "add Feed"). Der Aufruf der *FeedOptionsView* über
+die *FeedOptionsView* augerufen (grüner Pfeil mit Beschriftung "Add Feed"). Der Aufruf der *FeedOptionsView* über
 den Settings-Button innerhalb der *FeedView* zeigt die Daten und
 Einstellungen eines Feeds an (grüner Pfeil mit Beschriftung "Settings"). 
 Innerhalb von *FeedView* und *EntryListView* ist der Wechsel zwischen den

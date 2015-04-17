@@ -138,8 +138,54 @@ Mit *cloc* erstellte Statistik des Projekts.
     Mit dem Tool *cloc* erstellte Projektstatistik.
 
 
-.. _server:
+.. _testserver:
 
 Implementierung des Testservers
 ===============================
 
+Die Python-Code der Implementierung des Testservers.
+
+
+.. code-block:: python
+ 
+    from flask import Flask, request
+    from werkzeug.contrib.atom import AtomFeed
+    from urllib.parse import urljoin
+    from faker import Factory
+    import datetime
+
+    app = Flask(__name__)
+    faker = Factory.create('de_DE')
+
+    class Article:
+        def __init__(self):
+
+            self.title = faker.sentence(nb_words=3, variable_nb_words=True)
+            self.url = faker.uri()
+            self.rendered_text= faker.text()
+            self.author = faker.name()
+            self.last_update =  datetime.datetime.now()
+            self.published = datetime.datetime.now()
+
+    def make_external(url):
+        return urljoin(request.url_root, url)
+
+    ARTICLES = [Article()]
+
+    @app.route('/')
+    def recent_feed():
+        feed = AtomFeed('Recent ARTICLES',
+                        feed_url=request.url, url=request.url_root)
+    ARTICLES.append(Article())
+    for article in ARTICLES:
+       feed.add(article.title, article.rendered_text,
+                content_type='html',
+                author=article.author,
+                url=make_external(article.url),
+                updated=article.last_update,
+                published=article.published)
+    return feed.get_response()
+
+
+    if __name__ == '__main__':
+       app.run(debug=True)
