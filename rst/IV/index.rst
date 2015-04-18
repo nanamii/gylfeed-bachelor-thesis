@@ -6,8 +6,8 @@ Anforderungen an die Software
 *****************************
 
 Im Folgenden werden die Anforderungen, die an die Software *gylfeed* 
-gestellt werden, definiert. Die Aufteilung erfolgt in Allgemeine Anforderungen,
-Funktionale Anforderungen und Anforderungen an die Grafische Benutzeroberfläche.
+gestellt werden, definiert. Die Aufteilung erfolgt in allgemeine Anforderungen,
+funktionale Anforderungen und Anforderungen an die grafische Benutzeroberfläche.
 
 
 Allgemeine Anforderungen
@@ -21,7 +21,7 @@ folgende allgemeine Anforderungen gestellt werden:
 
 * Entwicklung unter Linux
 * Entwicklung als Open-Source-Projekt
-* Neues Konzept hinsichtlich der Grafischen Oberfläche
+* Neues Konzept hinsichtlich der grafischen Oberfläche
 * Komfortable Bedienung
 
 
@@ -30,7 +30,7 @@ folgende allgemeine Anforderungen gestellt werden:
 Funktionale Anforderungen
 =========================
 
-Die Funktionalen Anforderungen, die an die Software *gylfeed* gestellt werden, 
+Die funktionalen Anforderungen, die an die Software *gylfeed* gestellt werden, 
 sind im Folgenden aufgeführt.
 
 
@@ -56,7 +56,7 @@ zusätzlich eingestellt werden, in welchem Intervall dies geschehen soll.
 **Notifications:** Sind neue Nachrichten vorhanden, wird eine Systemnachricht gesendet.
 
 **Automatisches Löschen von Entries nach X Tagen:** Entries, die größer als der
-angegebene Zeitraum sind, werden gelöscht.
+angegebene Wert sind, werden gelöscht.
 
 **Optionen im Nachhinein ändern:** Alle genannten Optionen können im Nachhinein
 geändert werden.
@@ -72,7 +72,7 @@ aktualisiert werden.
 automatisch aktualisiert.
 
 **Der Update-Vorgang soll andere Abläufe nicht blockieren:** Grundsätzlich ist
-gefordert, dass der Update-Vorgang wenig Bandbreite beansprucht und andere
+gefordert, dass der Update-Vorgang wenig Ressourcen beansprucht und andere
 Vorgänge, wie beispielsweise die Bedienung der grafischen Oberfläche, nicht
 behindert.
 
@@ -80,10 +80,10 @@ behindert.
 Suche
 -----
 
-**Suche innerhalb Feeds:** Ein Feed innerhalb der Gesamtheit der Feeds ist
+**Suche innerhalb von Feeds:** Ein Feed innerhalb der Gesamtheit der Feeds ist
 suchbar. Die Ergebnisse werden angezeigt.
 
-**Suche innerhalb Entries nach Titel:** Ein Entry innerhalb der Gesamtheit der
+**Suche innerhalb von Entries nach Titel:** Ein Entry innerhalb der Gesamtheit der
 Entries ist suchbar. Die Ergebnisse werden angezeigt.
 
 
@@ -127,24 +127,24 @@ für den Benutzer angemessen zügig ablaufen.
 Anforderungen an die Benutzeroberfläche
 =======================================
 
-**Entwicklung nach Gnome Design-Richtlinien:** Grundsätzlich soll nach den
-GNOME Human Interface Guidelines entwickelt werden (vgl. :cite:`GIG`). Zur Umsetzung
+**Entwicklung nach Gnome Design-Richtlinien:** Grundsätzlich soll sich an den
+GNOME Human Interface Guidelines orientiert werden (vgl. :cite:`GIG`). Zur Umsetzung
 der grafischen Benutzeroberfläche wird das Gimp Toolkit (GTK) verwendet.
 
 **Minimalistisches Design:** Die GUI soll klar strukturiert sein, es soll nur
-das wesentliche dargestellt werden.
+das Wesentliche dargestellt werden.
 
 **Kompaktheit der GUI:** Es soll kein an einen Mailclient angelehnter Aufbau der
 Benutzeroberfläche entwickelt werden. Hier ist ein neues Konzept zu entwickeln.
 
-**Einfachheit der Bedienung:** Es wird in der Regel ein Weg angeboten, dieser sollte der
+**Einfachheit der Bedienung:** Es wird in der Regel nur ein Weg angeboten, dieser sollte der
 geeigneste sein. 
 
 **Innovatives Navigationskonzept:** Es wird eine komfortable Navigation
 angeboten. Die Benutzeroberfläche muss neben der Navigation per Maus, 
 vorallem die Navigation per Tasten umsetzen.
 
-**Responsive Design:** Werden Aktionen ausgeführt, die zur Änderung anderer
+**Ausreichend Feedback geben:** Werden Aktionen ausgeführt, die zur Änderung anderer
 Komponenten führen, oder einen Hinweis erfordern, wird sich die GUI anpassen.
 
 **Darstellung der geforderten Funktionalitäten:** Die GUI muss alle geforderten

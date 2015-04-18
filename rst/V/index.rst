@@ -4,7 +4,7 @@ Architekturentwurf
 
 In diesem Kapitel wird die Architektur der Software *gylfeed* vorgestellt.
 Hierzu werden die Anforderungen aus Kapitel :ref:`anforderungen` (Anforderungen
-an die Software *gylfeed*) herangezogen. Eine
+an die Software) herangezogen. Eine
 detaillierte Beschreibungen der internen Abläufe, tiefergehende Erläuterungen
 zur Algorithmik und Problemstellungen sind Bestandteil der
 Bachelorarbeit.
@@ -23,10 +23,10 @@ Bibliotheken mögliche Ansätze.
 **Verwaltung der Daten:** Die Daten, die eindeutig einem Feed zugeordnet werden
 können, werden innerhalb eines Feedobjekts gekapselt. Dem übergeordnet ist eine
 Instanz, die jene Feedobjekte aufnimmt: der Feedhandler. Dieser ist auch dafür
-zuständig, die konsistent zu speichernden Daten zu speichern und zu laden.
+zuständig, Daten konsistent zu speichern und zu laden.
 
 **Updates:** Die Spezifiktion stellt die Anforderung, dass Updates andere
-Prozesse nicht beeinträchtigen dürfen. Hier ist das asynchrone Aktualisieren der
+Abläufe nicht beeinträchtigen dürfen. Hier ist das asynchrone Aktualisieren der
 Feeds ein Lösungsansatz.
 
 **Benutzeroberfläche:** Für die Benutzerobefläche ist ein neues Konzept
@@ -63,10 +63,10 @@ Klasse *Downloader*. Anders als bei der Klasse *Feedhandler* wird hier die
 Aktualisierung in Intervallen durchgeführt, die für jeden Feed individuell sind.
 
 **SumFeed:** SumFeed leitet von *Feed* ab und stellt die Gesamtheit der Feeds
-dar. Kann aufgrund der Ableitung von *Feed* aber wie ein *Feed* agieren.
-Eingesetzt wird diese Klasse für die Darstellung aller vorhanderen Feeds.
+dar. SumFeed kann aufgrund der Ableitung von *Feed* aber wie ein *Feed* agieren.
+Eingesetzt wird diese Klasse für die Darstellung aller vorhandener Feeds.
 
-**Downloader:** Die Klasse *Download* beschafft die von den Klassen *Feed* und
+**Downloader:** Die Klasse *Downloader* beschafft die von den Klassen *Feed* und
 *Feedhandler* angefragten Daten. Hierzu verwendet sie die Klasse *Document*.
 
 **Document:** Ermöglicht den asynchronen Download der Feed-Daten. 
@@ -79,10 +79,10 @@ mit einem Stack, für dessen Verwaltung die Klasse *ViewSwitcher* benutzt wird.
 **ViewSwitcher:** Die Klasse *MainWindow* instanziiert einen *ViewSwitcher*.
 Dieser ist für die Verwaltung der einzelnen Views zuständig.
 
-**View:** View ist die Oberklasse von *FeedView*, *EntryListView*,
+**View:** View ist die abstrakte Oberklasse von *FeedView*, *EntryListView*,
 *EntryDetailsView* und *FeedOptionsView*.
 
-**FeedView:** *Feedview* leitet von der Oberklasse *View* ab und beihnaltet
+**FeedView:** *FeedView* leitet von der Oberklasse *View* ab und beihnaltet
 selbst n *FeedRows*. Diese spezialisierte View wird die vorhandenen Feeds
 anzeigen.
 
@@ -91,16 +91,17 @@ anzeigen.
 entspricht einer *FeedRow*.
 
 **IndicatorLabel:** Ermöglicht individualisierte Darstellung von Labels.
-Innerhalb *gylfeed* werden die Labels für neue/ungelesene/alle Nachrichten
-damit umgesetzt. Die Klasse *IndicatorLabel* ist eine Spezialisierung von 
-*Gtk.Label*
+Innerhalb *gylfeed* werden die Labels für die Darstellung der Anzahl an 
+neuen, ungelesenen und aller Nachrichten verwendet.
+Die Klasse *IndicatorLabel* ist eine Spezialisierung von 
+*Gtk.Label*.
 
 **EntryListView:** *EntryListView* leitet von der Oberklasse *View* ab und
 beinhaltet selbst n *EntryRows*. Diese spezialisierte View wird die vorhandenen
 Entries anzeigen.
 
 **EntryRow:** Eine Instanz der Klasse *EntryRow* ist Bestandteil der Klasse
-*EntryListView*. *EntryListView selbst hat eine Listenansicht. Eine Zeile dieser
+*EntryListView*. *EntryListView* selbst hat eine Listenansicht. Eine Zeile dieser
 Liste entspricht einer *EntryRow*.
 
 **EntryDetailsView:** *EntryDetailsView* leitet von der Oberklasse *View* ab und
@@ -124,11 +125,11 @@ Stelle verwendet, um mit der Beschreibung des Diagramms zu beginnen.
 Es wird angenommen, im Objekt Feed wird gefordert ein Update durchzuführen (1).
 Dieser Auftrag wird an den Downloader weitergegeben. Dieser lädt die angefragten
 Daten über das Web herunter (2). An dieser Stelle ist anzumerken, dass hier nicht
-grundsätzlich die kompletten Daten des Feeds heruntergeladen werden. Lässt es
+immer die kompletten Daten des Feeds heruntergeladen werden. Lässt es
 die Struktur des betreffenden Feeds zu, wird nur dann ein kompletter Download
 der Daten des Feeds durchgeführt, wenn sich dieser tatsächlich geändert hat.
 Hier gibt es verschiedene Möglichkeiten festzustellen, ob eine Änderung vorliegt,
-dies wird innerhalb der Bachelorarbeit betrachtet.
+dies wird innerhalb der Bachelorarbeit näher betrachtet.
 
 .. _funktionsprinzip:
 
@@ -156,7 +157,7 @@ Im Feedhandler werden Updates ausgelöst, die manuell vom Benutzer angefordert
 werden. Da dies für alle Feeds geschieht, ist es die Aufgabe des Feedhandlers, der
 als Verwalter der Feeds funktioniert. Er lässt für jeden Feed eine
 Aktualisierung durchführen. Die Aktualisierung im Feed selbst entspricht dem
-Ablauf von den genannten (1) bis (6) Schritten. Eine weitere Aufgabe des
+Ablauf von den genannten Schritten (1) bis (6). Eine weitere Aufgabe des
 Feedhandlers ist die persistente Speicherung der Daten, sowie das Laden dieser
 Daten beim Start der Software.
 
@@ -165,10 +166,10 @@ Signalen an die jeweilige logische Einheit. An dieser Stelle wird zum besseren
 Verständnis das Konzept von Signalen innerhalb GTK kurz erläutert. Eine genaue
 Betrachtung und Einzelheiten zu Signalen sind Bestandteil der Bachelorarbeit.
 
-Als erstes sei erwähnt, dass GTK eventbasiert ist. GTK wartet solange, bis ein
-Event ausgelöst wird, beispielsweise durch einen Klick auf einen Button. GTK gibt dieses Event an das
+Als erstes sei erwähnt, dass GTK ereignisbasiert ist. GTK wartet solange, bis ein
+Ereignis ausgelöst wird, beispielsweise durch einen Klick auf einen Button. GTK gibt dieses Ereignis an das
 betreffende Widget weiter, hier der Button. Der Button löst in diesem Fall das
-Signal *clicked* aus. Dass dieses Auslösen des Signals etwas bewirken kann, musste der Button 
+Signal *clicked* aus. Damit das Auslösen des Signals etwas bewirken kann, musste der Button 
 bereits vorher mit diesem Signal verknüpft und eine entsprechende Callback-Funktion
 zugewiesen werden. Die Callback-Funktion enthält den gewünschten Code, der ausgeführt
 werden soll, wenn genau dieser Button angeklickt wird. Folgendes kurze
@@ -210,11 +211,11 @@ Standard-Ansicht der Anwendung an. In diesem Fall zeigt es das MainWindow,
 das wiederum alle weiteren Ansichten beinhaltet, an.
 
 ``do_startup()``: Enthält die initialen Aktionen der Software. Es wird die
-Klasse *Feedhandler* instanziiert, Daten von Festplatte geladen und eine
+Klasse *Feedhandler* instanziiert, die Daten von der Festplatte geladen und eine
 Instanz der Klasse *MainWindow* erstellt.
 
 Die Funktionen ``do_activate()`` und ``do_startup()`` sind grundsätzlich
-vorgegeben für eine Instanz, die von Gtk.Application ableitet. Wird
+für eine Instanz, die von Gtk.Application ableitet, vorgegeben. Wird
 Gtk.Application verwendet, ist es sinnvoll Gtk.ApplicationWindow als
 Gegenstück zu verwenden. Dies setzt die Klasse *MainWindow* mit der Ableitung
 von Gtk.ApplicationWindow um.
@@ -222,13 +223,13 @@ von Gtk.ApplicationWindow um.
 
 **Feedhandler**:
 
-``__init__()``: Aufruf des Konstruktors der Oberklasse GObject.GObject
+``__init__()``: Aufruf des Konstruktors der Oberklasse GObject.Object
 ermöglicht in diesem Fall das Anbieten eigener Signale.
 
-``create_feed(init_data)``: Erstellt ein Feedobjekt. Der Parameter init_data
+``create_feed(init_data)``: Erstellt ein Feedobjekt. Der Parameter ``init_data``
 stellt ein Dictionary dar, das Schlüssel/Wert-Paare enthält. Diese sind URL,
 Name des Feeds und alle weiteren Optionen, die für den Feed hinterlegt werden
-können. Die Funktion verknüpft den Feed abschließend mit dem Signal 'created'
+können. Die Funktion verknüpft den Feed abschließend mit dem Signal *created*
 und übergibt als Callback-Funktion die interne Funktion 
 ``_create_feed_deferred()``.
 
@@ -259,7 +260,7 @@ müsssen nicht zwingend übergeben werden.
 ``add_updater(update_interval=None)``: Fügt dem Feed unter Angabe des
 Update-Intervalls ein Timeout für ein automatisches Update hinzu. 
 
-``update()``: Veranlasst für den aufrufenden Feed ein Update. Hierzu wird die
+``update()``: Veranlasst für den aufgerufenen Feed ein Update. Hierzu wird die
 Funktionalität der Klasse *Downloader* verwendet.
 
 ``delete_old_entries(day_range=None)``: Durchläuft die Entries eines Feeds 
@@ -278,8 +279,8 @@ vorhandenen Daten im Feed und fügt die Differenz hinzu.
 **SumFeed:**
 
 ``__init__(feedhandler)``: Der Konstruktor der Klasse *SumFeed* erwartet eine
-Instanz der Klasse *Feedhandler*. Innerhalb dessen wird der Konstruktor der
-Oberklasse *Feed* aufgerufen.
+Instanz der Klasse *Feedhandler*. Innerhalb des Konstruktors wird der
+Konstruktor der Oberklasse *Feed* aufgerufen.
 
 Ansonsten überschreibt *SumFeed* die Methoden von *Feed* in der Weise, dass
 Daten aller Feeds in Summe abgefragt werden können. Dazu zählen die
@@ -294,10 +295,10 @@ Parameter. Innerhalb des Konstruktors wird ein Standardwert für die
 Paketgröße definiert, die zum Einlesen des Bytestreams verwendet wird.
 
 ``download(url, check_if_needed=True)``: Lädt Daten unter Verwendung der
-angegebenen URL herunter. Der Flag *check_if_needed* wird dazu verwendet, um
+angegebenen URL herunter. Das Flag *check_if_needed* wird dazu verwendet, um
 entscheiden zu können, ob eine Vorprüfung stattfinden soll. Diese Vorprüfung
 lädt vorerst den Header herunter und prüft, ob eine Änderung vorliegt. Dies
-geschieht anhand der Parameter *etag* und *lastmodified*. Wurde eine Änderung
+geschieht anhand der Parameter *etag* und *lastmodified* des HTTP-Headers. Wurde eine Änderung
 festgestellt, oder ist weder *etag* noch *lastmodified* vorhanden, wird eine
 interne Funktion von *Downloader* aufgerufen, die einen Download der 
 kompletten Daten durchführt.
@@ -305,7 +306,7 @@ kompletten Daten durchführt.
 
 **Document:**
 
-``__init__()``: Die Klasse *Document* ruft im Konstruktor den Konstruktur
+``__init__()``: Die Klasse *Document* ruft im Konstruktor den Konstruktor
 von GObject auf. GObject ermöglicht in diesem Fall das Anbieten eigener
 Signale.
 
@@ -321,7 +322,7 @@ Instanzen von *Feed* die Funktion ``parse()`` aufgerufen.
 **MainWindow:**
 
 ``__init__(app, feedhandler)``: Der Konstruktor der Klasse *MainWindow*
-erwartet eine Instanz der Klasse *MainApplication*, hier app und eine Instanz
+erwartet eine Instanz der Klasse *MainApplication* -- hier app -- und eine Instanz
 der Klasse *Feedhandler*. Innerhalb des Konstruktors wird der Konstruktor der
 Oberklasse, Gtk.ApplicationWindow, aufgerufen. 
 
@@ -358,7 +359,7 @@ eine Instanz der Klasse *MainApplication* übergeben. Es ist möglich einen
 Untertitel anzugeben. Hierfür ist der Standardwert *None* gesetzt. Innerhalb
 des Konstruktors wird der Konstruktor der Oberklasse Gtk.Grid aufgerufen.
 
-``add(widget)``: Nimmt ein *Widget* entgegen und fügt sie der jeweiligen
+``add(widget)``: Nimmt ein *Widget* entgegen und fügt es der jeweiligen
 Instanz von Gtk.ScrolledWindow
 hinzu. Hier erfolgt eine Überschreibung der add-Funktion von Gtk.Grid.
 
@@ -366,12 +367,12 @@ hinzu. Hier erfolgt eine Überschreibung der add-Funktion von Gtk.Grid.
 der Unterklasse auf.
 
 ``on_view_enter()``: Schnittstelle für alle Unterklassen, um Eigenschaften
-beim Aufruf der jeweiligen Ansicht zu setzen. Ruft Funktion 
-``on_view_enter()`` der Unterklassen auf.
+beim Aufruf der jeweiligen Ansicht zu setzen. Ruft die Funktion 
+``on_view_enter()`` der jeweiligen Unterklasse auf.
 
 ``on_view_leave()``: Schnittstelle für alle Unterklassen, um Eigenschaften 
-beim Verlassen der jeweiligen Ansicht zu setzen. Ruft Funktion 
-``on_view_leave()`` der Unterklassen auf.
+beim Verlassen der jeweiligen Ansicht zu setzen. Ruft die Funktion 
+``on_view_leave()`` der jeweiligen Unterklasse auf.
 
 ``manage_searchbar()``: Steuert das Verhalten der Suchleiste.
 
@@ -384,12 +385,12 @@ Konstruktor der Oberklasse *View* aufgerufen.
 
 ``new_listbox_row(logo, feed)``: Erstellt eine Instanz der Klasse *FeedRow*
 und fügt diese der Listbox innerhalb der *FeedView* hinzu. Als
-Übergabeparameter sind das zu verwendente Logo und die Instanz des Feeds, der
+Übergabeparameter sind das zu verwendende Logo und die Instanz des Feeds, der
 hinzugefügt werden soll, erforderlich.
 
 ``on_view_enter()``: Führt alle Aktionen aus, die beim Aufruf von
 *FeedView* notwendig sind. Beispielsweise die Aktualisierung der Labels, die
-anzeigen, wieviele neue/ungelesene/komplette Nachrichten ein Feed hat.
+anzeigen, wieviele neue, ungelesene und gesamte Nachrichten ein Feed hat.
 
 ``on_view_leave()``: Führt alle Aktionen aus, die beim Verlassen von
 *FeedView* notwendig sind.
@@ -409,7 +410,7 @@ Konstruktor von Gtk.ListBoxRow aufgerufen, da *FeedRow* von Gtk.ListBoxRow
 ableitet. 
 
 ``redraw_labels(sum_row)``: Aktualisiert die Labels, die anzeigen, wieviele
-neue/ungelesene/komplette Nachrichten ein Feed hat. Der Übergabeparameter
+neue, ungelesene und gesamte Nachrichten ein Feed hat. Der Übergabeparameter
 *sum_row* repräsentiert die *FeedRow*, in der die Zusammenfassung aller 
 Feeds dargestellt wird.
 
@@ -464,8 +465,8 @@ Button-Switcher in der Headerbar.
 ``on_view_leave()``: Führt alle Aktionen aus, die beim Verlassen von
 *EntryDetailsView* notwendig sind.
 
-``show_entry_details(listbox, row)``: Lässt den ausgewählten Entry darstellen
-. Als Übergabeparameter wird die Listbox der *EntryListView* erwartet und die
+``show_entry_details(listbox, row)``: Lässt den ausgewählten Entry darstellen.
+Als Übergabeparameter wird die Listbox der *EntryListView* erwartet und die
 darin ausgwählte *Row*. Innerhalb der Funktion ``show_entry_details()`` werden
 weitere interne Funktionen aufgerufen, die für die Darstellung des einzelnen
 Entry notwendig sind.
@@ -481,16 +482,15 @@ Konstruktors wird der Konstruktor der Oberklasse *View* aufgerufen.
 *FeedOptionsView* notwendig sind. Beispielsweise werden in dieser Ansicht in
 der Headerbar Buttons für zustimmende Aktionen und ablehnende Aktionen
 angeboten. Dies wird je nach vorher gewählter Funktion passend dargestellt.
-Das Hinzufügen eines Feeds erfordert andere Button-Beschriftungen, wie der
+Das Hinzufügen eines Feeds erfordert andere Button-Beschriftungen, als der
 Aufruf der Einstellungen eines bestehenden Feeds.
 
 ``on_view_leave()``: Führt alle Aktionen aus, die beim Verlassen von
 *FeedOptionsView* notwendig sind. Beispielsweise das Entfernen von Buttons
 aus der Headerbar.
 
-``show_options_filled(feedview, feed)``: Zeigt die Einstellungen eines Feeds
-an. Als Übergabeparameter wird die *FeedView* und der gewählte *Feed* 
-erwartet. Innerhalb der Funktion ``show_options_filled()`` werden die
-gespeicherten Einstellungen des Feeds in der *FeedOptionsView* gesetzt.
+``show_options_filled(feedview, feed)``: Zeigt die gespeicherten Einstellungen 
+eines Feeds an. Als Übergabeparameter wird die *FeedView* und der gewählte *Feed* 
+erwartet.
 
 

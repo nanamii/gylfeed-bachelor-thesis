@@ -7,10 +7,7 @@ Grundlegendes zu Feeds
 Newsfeeds bedienen sich verschiedener Formate, um ihre Daten zu veröffentlichen.
 Im Folgenden sollen die verschiedenen Formate aufgezeigt und kurz erläutert
 werden. Weiterhin soll ein Grundverständnis für die Funktionsweise von Feeds
-geschaffen werden. Tierfergehende Informationen über die Entwicklung der
-einzelnen Formate seit Einführung ist Bestandteil der Bachelorarbeit. An dieser
-Stelle soll lediglich ein kurzer Überblick gegeben werden.
-
+geschaffen werden.
 
 Funktionsweise und Einsatzzwecke von Feeds
 ==========================================
@@ -25,7 +22,7 @@ oder Atom erstellt werden. Wittenbrink nennt vier Einsatzszenarien:
  * Asynchrones Broadcasting
 
 Anzumerken ist, dass neben RSS und Atom weitere Formate, wie z.B. Scripting
-News, OPML oder NewsML entwickelt wurden (vgl. :cite:`FU` - Übersicht Formate).
+News, OPML oder NewsML entwickelt wurden (vgl. :cite:`FU` -- Übersicht Formate).
 Im Weiteren wird das Hauptaugenmerk auf den Formaten RSS und Atom liegen.
 
 Bevor auf die Formate näher eingegangen wird, soll nun die Funktionsweise von
@@ -33,10 +30,10 @@ Feeds näher erläutert werden. Als Beispiel soll das Abonnieren eines Feeds,
 der von einem Weblog veröffentlicht wird, dienen. Hierzu bietet der Weblog eine
 XML-Datei an, die über eine URL abrufbar ist. Auf die Möglichkeit, dass dieser
 Weblog das Abonnieren eines Feeds anbietet, wird der Benutzer meist
-durch einen Button mit Feed-Icon (siehe Abbildung :num:`rsslogo`) oder einen gesonderte Link
-hingewiesen. Die URL kann anschließend entweder in einen Feedreader eingetragen 
-oder direkt durch den Browser dargestellt werden. Bei einem Feedreader handelt
-es sich um eine Desktop-Anwendung, die den Vorteil gegenüber Browsern bietet,
+durch einen Button mit Feed-Icon (siehe Abbildung :num:`rsslogo`) oder einen gesonderten Link
+hingewiesen. Die URL kann anschließend entweder in einen Desktop-Feedreader eingetragen 
+oder direkt durch den Browser dargestellt werden. Bei einem Desktop-Feedreader handelt
+es sich um eine Anwendung, die den Vorteil gegenüber Browsern bietet,
 dass sie zumeist ansprechender in der Darstellung der Inhalte ist. Außerdem ist
 es dem Benutzer beispielsweise möglich, Inhalte zu speichern und dadurch im
 Offline-Modus zu lesen. Auch die Suche innerhalb der gespeicherten Inhalte ist möglich.
@@ -62,7 +59,6 @@ Der Feedreader auf einem Client-PC fragt in regelmäßigen
 Abständen beim Webserver an und holt sich die aktualisierte XML-Datei.
 Anschließend verarbeitet der Feedreader die XML-Datei und zeigt dem Benutzer die
 Inhalte an. Hier wird nochmals deutlich, dass die Initiative vom Client ausgeht.
-Der Client fragt aktiv beim Webserver nach.
 
 
 .. _funktionsweise:
@@ -113,12 +109,12 @@ Im Folgenden ist eine solche XML-Datei für die RSS-Version 2.0 abgebildet.
 
 Der RSS-Block enthält verschiedene Einträge. Zum einen das Element *<channel>*,
 dass die kompletten Informationen über Feed und dessen einzelnen Einträge
-beinhaltet. Darauf folgen die Elemente *<title>*, *<link>*, *<description>*,
+beinhaltet. Darin enthalten sind die Elemente *<title>*, *<link>*, *<description>*,
 *<language>*, *<copyright>*, *<pubDate>* und *<image>*. Diese Elemente
-beschreiben den Feed, sozusagen den Herausgeber. Im Anschluss sind die einzelnen *items* aufgeführt. Ein
+beschreiben den Feed, sozusagen den Herausgeber. Auch enthalten sind die einzelnen *items*. Ein
 *item* steht für einen Eintrag auf der eigentlichen Webseite. Ein *channel* kann
 mehrere *item*-Blöcke enthalten. Das *item* im dargestellten Fall hat die Elemente *<title>*,
-*<description>*, *<link>*, *<author>*, *<guid>*, und *<pubDate>*. Diese Elemente
+*<description>*, *<link>*, *<author>*, *<guid>* und *<pubDate>*. Diese Elemente
 beschreiben das einzelne *item*. Nicht alle dieser Elemente sind zwingend
 erforderlich um eine valide RSS-Datei zu generieren. Es gibt zwingend
 erforderliche und optionale Elemente. Auf diese Thematik wird im Verlauf noch
@@ -133,9 +129,9 @@ etabliert. Bevor diese beiden Formate näher betrachtet werden, soll der Begriff
 *Content Syndication* erklärt werden. Heinz Wittenbrink definiert *Content
 Syndication* in *Newsfeeds mit RSS und Atom* (vgl. :cite:`newsfeeds`) als Fachausdruck 
 für den regelmäßigen Austausch aktueller Informationen zwischen Webseiten. Er
-weist außerdem darauf hin, dass die Spezifikation von RSS 2.0 (vgl. :cite:`2.0SPEC`) Syndikation als das 
-online Zugänglichmachen von Daten für weitere Übertragung, Aggregierung 
-und Online-Publikation definiert.
+weist außerdem darauf hin, dass die Spezifikation von RSS 2.0 (vgl. :cite:`2.0SPEC`) 
+unter Syndikation das online Zugänglichmachen von Daten versteht. Die Daten können anschließend
+übertragung, aggregiert und online publiziert werden.
 
 
 Das Format RSS
@@ -145,10 +141,9 @@ Zu dieser Zeit trug RSS die Bedeutung *Rich Side Summary*. Es
 folgten die Versionen 0.91, 0.92, 0.93 und 1.0. Im Jahr 2003 wurde von Harvard
 die Version 2.0 veröffentlicht. Die Version 2.0 basiert nicht, wie zu vermuten
 wäre, auf der Version 1.0, sondern auf der Version 0.92 (vgl. :cite:`HU` - Versionsübersicht von Harvard).
-Im Laufe dieser Entwicklungen wurde *Really Simple Syndication* als Bedeutung für der Abkürzung RSS eingeführt.
+Im Laufe dieser Entwicklungen wurde *Really Simple Syndication* als Bedeutung für die Abkürzung RSS eingeführt.
 Die einzelnen Versionen unterscheiden sich darin, dass Attribute neu
-hinzugefügt, oder auch in späteren Versionen wieder entfernt wurden. Mit den
-detaillierten Unterschieden wird sich die Bachelorarbeit beschäftigen.
+hinzugefügt, oder auch in späteren Versionen wieder entfernt wurden.
 
 
 RSS basiert auf XML und muss deshalb konform mit den XML 1.0 Richtlinien sein.
@@ -159,11 +154,11 @@ das:
  * *link*
  * *description*
  
-Alle anderen Attribute, wie beispielsweise *language* oder *pubdate* sind
+Alle anderen Attribute, wie beispielsweise *language* oder *pubDate* sind
 optional.
 
 Für das Attribut *item* gibt es keine Mindestanforderungen, es sollte aber
-mindestens *title* oder *discription* vorhanden sein.
+mindestens *title* oder *description* vorhanden sein.
 
 
 Das Format Atom
@@ -172,7 +167,7 @@ Das Format Atom
 Atom ist ebenso wie RSS ein plattformunabhängiger XML-Standard zum Austausch von
 Informationen (vgl. :cite:`WIA`). Entwickelt wurde es 2005 von Mark Nottingham
 und Richard Sayre. Es liegt aktuell in der Version 1.0 vor (vgl.
-:cite:`ASP` - Spezifikation von Atom). Die Spezifikation von Atom erwähnt als
+:cite:`ASP` -- Spezifikation von Atom). Die Spezifikation von Atom erwähnt als
 primäre Verwendung des Formats den Austausch von Webinhalten, wie z.B. Weblogs 
 und Nachrichten, innerhalb des Webs und an den Endanwender. Ziel von Atom war
 es, die Vorteile der verschiedenen RSS-Versionen zu vereinen und dazu ergänzende

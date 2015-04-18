@@ -143,7 +143,7 @@ Mit *cloc* erstellte Statistik des Projekts.
 Implementierung des Testservers
 ===============================
 
-Die Python-Code der Implementierung des Testservers.
+Der Python-Code der Implementierung des Testservers.
 
 
 .. code-block:: python

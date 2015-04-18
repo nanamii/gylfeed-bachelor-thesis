@@ -4,10 +4,7 @@ Vorhandene Feedreader
 
 Um einen Eindruck von bereits vorhandenen Feedreadern zu erhalten und
 anschließende Designentscheidungen bei *gylfeed* besser nachvollziehen zu
-können, wird das Grundkonzept dieser Feedreader kurz vorgestellt. Eine genaue
-Analyse der einzelnen Funktionalitäten, die von den Feedreadern bereitgestellt
-werden und weiterführende Vergleiche, sind Bestandteil der Bachelorarbeit.
-
+können, wird das Grundkonzept dieser Feedreader kurz vorgestellt. 
 
 Konzepte aktueller Feedreader
 =============================
@@ -23,7 +20,7 @@ deshalb, weil er wie es *gylfeed* sein wird:
  * Den Anspruch erhebt, leicht bedienbar zu sein.
 
 Weitere Desktop-Feedreader, die vergleichbar im Aufbau sind, wären beispielsweise *RSSOwl*,
-*Vienna* oder *QuiteRSS*. Zu *RSSOwl* und *QuiteRSS* sind in Anhang A
+*Vienna* oder *QuiteRSS*. Zu *RSSOwl* und *QuiteRSS* sind im Anhang A
 (:ref:`feedreader`) Screenshots zu sehen. 
 
 
@@ -70,12 +67,12 @@ Anordnung dieser beiden Fenster gibt es zusätzlich Einstellmöglichkeiten.
 Im Grunde liegt hier tatsächlich der Aufbau eines klassischen Mailclients vor.
 
 Neben den genannten Funktionalitäten kann über einen separaten
-Einstellungsdialog beispielsweise der Updateintervall oder Optionen für Ordner
+Einstellungsdialog beispielsweise das Updateintervall oder Optionen für Ordner
 gesetzt werden. 
 
 Es können die Formate RSS, Atom, CDF(Common Data Format), OCS(Open Collaboration Services) 
 und OPML(Outline Processor Markup Language) gelesen werden. *Liferea* bietet außerdem einen 
-eingebetteten Browser an. Zusätzlich können Links außerhalb von *Liferea* in gewünschten 
+eingebetteten Browser an. Zusätzlich können Links in externen 
 Browsern geöffnet werden.
 
 
@@ -93,7 +90,7 @@ ist, hängt von den Präferenzen des jeweiligen Benutzers ab.
 Negative, verbesserungswürdige Eigenschaften
 --------------------------------------------
 
-*Liferea* legt viel Bedeutung auf verschiedenste Einstellungen. Zu wenig
+*Liferea* legt viel Wert auf verschiedenste Einstellungen. Zu wenig
 Beachtung wurde dabei auf den eigentlichen Inhalt der Nachrichten gelegt. Dieser
 wird relativ lieblos dargestellt. Es entsteht der Eindruck, dass mehr Wert auf
 die äußeren Bedingungen, als den Inhalt der Nachrichten selbst, gelegt wird.
@@ -113,7 +110,7 @@ gelöscht. Dieses Konzept ist zu hinterfragen. Liefert ein Feed relativ viele
 Nachrichten und dies nicht immer regelmäßig, würden bei einer Einstellung von
 100 zu speichernden Nachrichten, möglicherweiße Nachrichten gelöscht, die erst
 aktuell veröffentlicht wurden. Es liegt hier also am Benutzer, für jeden Feed
-eine Feinjustierung vorzunehmen. Ein Anderer Ansatz wäre, Nachrichten anhand
+eine Feinjustierung vorzunehmen. Ein anderer Ansatz wäre, Nachrichten anhand
 eines Zeitintervalls zu löschen.
 
 Die bereits häufig angesprochene Darstellung der Benutzeroberfläche angelehnt an

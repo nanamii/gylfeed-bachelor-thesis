@@ -11,12 +11,12 @@ Grundsätzliches
 
 Bevor auf Details der Implementierung eingegangen wird, soll kurz erläutert
 werden, welche Programmiersprache für das Projekt gewählt wurde. Ebenso 
-werden sämtliche Werkzeuge, die zur Umsetzung der Projektarbeit verwendet
+werden Werkzeuge, die zur Umsetzung der Projektarbeit verwendet
 wurden, vorgestellt. 
 
 **Programmiersprache:** Das Projekt wird mit der Programmiersprache Python in
-der Version 3.3 umgesetzt. Einerseits, weil Python zahlreiche Vorteile - 
-vorallem bei relativ kurzem Entwicklungszeitraum - bietet und andererseits, weil sich 
+der Version 3.3 umgesetzt. Einerseits, weil Python zahlreiche Vorteile -- 
+vorallem bei relativ kurzem Entwicklungszeitraum -- bietet und andererseits, weil sich 
 hiermit im Zuge der Projektarbeit die Möglichkeit ergibt, eine weitere Programmiersprache zu erlernen.
 Die wichtigsten Vorteile von Python, u.a. erwähnt in *Learning Python* 
 von Mark Lutz :cite:`LutzLearningPython`, zusammengefasst:
@@ -38,13 +38,14 @@ von Mark Lutz :cite:`LutzLearningPython`, zusammengefasst:
      erstellen.
 
 :Produktivität:
-     Mit Python ist nur etwa ein Drittel bis ein Fünftel des Quellcode-
-     Umfangs von C, C++, oder Java nötig, um vergleichbare Ergebnisse
+     Mit Python ist nur etwa ein Drittel bis ein Fünftel des 
+     Quellcode-Umfangs von C, C++, oder Java nötig, um vergleichbare Ergebnisse
      zu erzielen.
 
 :Portabilität:
      Für *gylfeed* ist somit bereits die Grundlage geschaffen, zukünftig
-     neben Linux auf andere Plattformen verfügbar zu sein.
+     neben Linux-Distributionen auf andere Plattformen portiert werden zu
+     können.
  
 **Tool für die Erstellung der GUI:**
 Für die Erstellung der grafischen Benutzeroberfläche wird GTK, das GIMP
@@ -81,7 +82,7 @@ Der Projektumfang beträgt ca. 2000 *Lines of Code*. Eine Statistik zum Projekt,
 Implementierte Anforderungen
 ============================
 
-Die Anforderungen aus Kapitel :ref:`anforderungen` (Anforderungen an die Software *gylfeed*) 
+Die Anforderungen aus Kapitel :ref:`anforderungen` (Anforderungen an die Software) 
 wurden in vollem Umfang implementiert. Es
 wurde in der Weise entwickelt, dass zur Abgabe der Projektarbeit eine
 lauffähige Software vorliegt. Selbstverständlich sind noch weitere
@@ -102,14 +103,14 @@ Download mit *libsoup*
 ----------------------
 
 Der Download der Daten wird mit der Bibliothek *libsoup* umgesetzt. 
-*libsoup* ist eine client-/serverseitige HTTP-Bibliothek und ermöglicht
+*libsoup* ist eine HTTP-Bibliothek und ermöglicht
 innerhalb *gylfeed* das asynchrone Herunterladen der Feed-Daten (vgl.  
 :cite:`libsoup`).  
 
 Die im Folgenden aufgeführte Bibliothek *Universal Feedparser* ermöglicht zwar
 das direkte Herunterladen und anschließende Parsen eines Feeds, jedoch nur
 synchron. Eine Anforderung an *gylfeed* ist, dass das Herunterladen der Daten
-andere Prozesse nicht behindert. Werden die Daten synchron heruntergeladen,
+andere Abläufe nicht behindert. Werden die Daten synchron heruntergeladen,
 blockt dies solange, bis der Download abgeschlossen ist. Aus diesem Grund erfolgt
 eine Trennung zwischen Download und Parsen der Daten. Der Download erfolgt mit
 *libsoup*, das Parsen mit *Universal Feedparser*.
@@ -140,7 +141,7 @@ drei Arten:
 Alle drei Wege liefern ein Objekt vom Typ feedparser.FeedParserDict. Es
 handelt sich um ein Dictionary mit den geparsten Feed-Daten.
 
-Folgendes Code-Beispiel einer bpython-Sitzung soll die Grundfunktionaliät 
+Folgendes Code-Beispiel einer bpython-Sitzung soll die Grundfunktionalität 
 *parse* demonstrieren.
 
 
@@ -161,12 +162,12 @@ Folgendes Code-Beispiel einer bpython-Sitzung soll die Grundfunktionaliät
 
 In Anhang B (:ref:`dict`) ist die komplette Struktur des Dictionary zu sehen. Innerhalb
 *gylfeed* ist dieses Dictionary Teil eines jeden Feedobjekts. Grundsätzlich
-handelt es sich um ein Dictionary, d.h. eine Datenstruktur aus Schlüssel-
-Wert-Paaren. Der Wert *entries* innerhalb dieses Dictionaries enthält als 
+handelt es sich um ein Dictionary, d.h. eine Datenstruktur aus Schlüssel-Wert-Paaren. 
+Der Wert *entries* innerhalb dieses Dictionaries enthält als 
 Schlüssel wiederum eine Liste aus
 Dictionaries. Ein solches Dictionary repräsentiert einen *Entry*. Auch der
-Schlüssel *feed* hat als Wert ein Dictionary. Darin sind die Daten zum *Feed*
-enhalten.
+Schlüssel *feed* hat als Wert ein Dictionary. Darin sind die Metadaten zum *Feed*
+enthalten.
 
 Durch den Einsatz des *Universal Feedparsers* wird das in Kapitel
 :ref:`FazitKapitel2` erwähnte Problem der individuellen Behandlung von
@@ -184,7 +185,7 @@ wird dies mit der HTML-Rendering Engine *WebKit* (vgl. :cite:`WebKit`). Die aktu
 *gylfeed* ermöglicht innerhalb der *EntryDetailsView* die Darstellung von
 Webinhalten. Der Benutzer kann den originalen
 Artikel zur jeweiligen Feed-Nachricht aufrufen. An dieser Stelle bieten sich
-für *gylfeed* auch zukünftige Erweiterungen, die durch die Verwendung von
+für *gylfeed* auch zukünftige Erweiterung an, die durch die Verwendung von
 *WebKit* möglich sind.
 
 
@@ -291,7 +292,7 @@ eine serifenlose Schrift gewählt. Der Plot wird standardmäßig in der
 Schriftart *Vollkorn* dargestellt. Zusätzlich sind Fallback-Schriftarten 
 definiert. In der linken unteren Ecke wird für jeden Entry ein Button
 angeboten, der zum ursprünglichen Artikel führt. Die dazugehörige Webseite
-wird direkt innerhalb *gylfeed* geladen. Beim Berühren des Buttons mit der 
+wird direkt innerhalb von *gylfeed* geladen. Beim Berühren des Buttons mit der 
 Maus, erhält der Button einen Rahmen.
 
 Das Design dieser Ansicht ist klar strukturiert und minimalistisch gehalten.
@@ -306,7 +307,7 @@ Abbildung :num:`feedoptionsview` zeigt die implementierte Ansicht
 als auch für die Änderung von Einstellungen eines Feeds eingesetzt.
 Die Ansicht enthält Eingabefelder für die URL des Feeds und den Namen des
 Feeds. Neben diesen grundlegenden Daten zum Feed, können weitere
-Einstellungen vorgenommen werden. Für den automatischen Update wird ein
+Einstellungen vorgenommen werden. Für das automatische Update wird ein
 Switcher angeboten, der auf *An* oder *Aus* gestellt werden kann. Ist
 der Switcher in der Stellung *An*, kann zusätzlich ein Update-Intervall in
 Minuten gewählt werden. Dies kann stufenlos zwischen einer bis sechzig
@@ -337,11 +338,11 @@ hinzugefügt.
 Darstellung der Systemnachricht
 -------------------------------
 
-Die Funktionalen Anforderungen sehen unter 4.2.2 - Optionen für Feeds, 
+Die funktionalen Anforderungen sehen unter 4.2.2 - Optionen für Feeds, 
 Notifications vor. Die Anzeige dieser Systemnachrichten betreffen zwar nicht
 die Benutzeroberfläche von *gylfeed* selbst, werden dem Benutzer jedoch 
 dargestellt und sollen deshalb kurz erläutert werden. Hat ein Feed neue
-Nachrichten, wird dem Benutzer über einen Popup der betreffende Feed und die
+Nachrichten, wird dem Benutzer über ein Popup der betreffende Feed und die
 Anzahl der neuen Nachrichten mitgeteilt. Hierzu wird die Bibliothek
 *libnotify* verwendet (vgl. :cite:`libnotify` - API der Bibliothek *libnotify*). 
 
@@ -351,9 +352,9 @@ Testverfahren
 
 Während der Entwicklung von *gylfeed* wurde mit zahlreichen Feeds,
 die angeboten werden, getestet. Zusätzlich wurde ein Testserver
-implementiert, der automatisch generierte Nachrichten sendet. Unittest sind
+implementiert, der automatisch generierte Nachrichten sendet. Unittests sind
 zum aktuellen Zeitpunkt der Abgabe der Projektarbeit noch in Entwicklung.
-Die Umsetzung ist geplant und wird anschließend beispielhaft dargestellt.
+Die Umsetzung wird anschließend beispielhaft dargestellt.
 
 
 Testserver
@@ -409,12 +410,12 @@ Kommandozeile:
 
 .. code-block:: python
 
-   git clone "https://github.com/nanamii/gylfeed.git" target
+   git clone "https://github.com/nanamii/gylfeed.git"
 
 Wie bereits erwähnt liegt der Quellcode von *gylfeed* beim 
 Code-Hosting-Service *GitHub*. Mit *git clone* wird das Repository mit
-dem Namen *gylfeed* über den angegebenen Link in das Zielverzeichnis 
-*target* gespeichert.
+dem Namen *gylfeed* über den angegebenen Link in das aktuelle Arbeitsverzeichnis 
+gespeichert.
 
 
 
