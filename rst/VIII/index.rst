@@ -14,15 +14,16 @@ Aktueller Stand des Projekts
 Die gestellten Anforderungen wurden in vollem Umfang umgesetzt.
 Zusammengefasst sind dies folgende Bereiche:
 
- * Verwaltung von Feeds
- * Optionen für Feeds
- * Update von Feeds
- * Suche
- * Bereitstellung von Daten
- * Browserfunktion
- * Bedienkonzept
- * Performance
- * Anforderungen an die grafische Benutzeroberfläche
+ * Verwaltung von Feeds (vgl. :ref:`verwaltung`)
+ * Optionen für Feeds (vgl. :ref:`optionen`)
+ * Update von Feeds (vgl. :ref:`update`)
+ * Suche (vgl. :ref:`suche`)
+ * Bereitstellung von Daten (vgl. :ref:`bereitstellung`)
+ * Browserfunktion (vgl. :ref:`browserfunktion`)
+ * Bedienkonzept (vgl. :ref:`bedienkonzept`)
+ * Performance (vgl. :ref:`performance`)
+ * Anforderungen an die grafische Benutzeroberfläche (vgl.
+   :ref:`anforderungengui`)
 
 Für Teile dieser umgesetzten Anforderungen gibt es Verbesserungspotential. 
 Optimierungen, die sinnvoll erscheinen, werden im folgenden Abschnitt
@@ -43,8 +44,8 @@ Behandlung von fehlenden Attributen innerhalb des Feeds wünschenswert.
 
 **Ausnahmebehandlung**: Die Ausnahmebehandlung innerhalb *gylfeed* ist zum
 Zeitpunkt der Abgabe der Projektarbeit noch verbesserungswürdig. Beim Hinzufügen
-eines Feeds werden aktuell folgende Fälle betrachtet. Ein Feed ist bereits
-vorhanden, die Anfrage für einen Feed ist negativ, der Name des Feeds ist
+eines Feeds werden aktuell folgende Fälle betrachtet: Ein Feed ist bereits
+vorhanden, die Download-Anfrage für einen Feed ist negativ, der Name des Feeds ist
 bereits vorhanden. Hier ist zukünftig eine grundlegende Betrachtung aller möglichen
 Ausnahmen notwendig.
 

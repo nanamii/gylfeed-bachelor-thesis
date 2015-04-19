@@ -33,6 +33,8 @@ Die funktionalen Anforderungen, die an die Software *gylfeed* gestellt werden,
 sind im Folgenden aufgeführt.
 
 
+.. _verwaltung:
+
 Verwaltung von Feeds
 --------------------
 
@@ -43,6 +45,8 @@ bereits vorhanden ist. Kommt es zu einem Fehler, wird dieser mitgeteilt.
 **Feed löschen:** Durch die Auswahl eines Feeds besteht die Möglichkeit diesen zu
 löschen. 
 
+
+.. _optionen:
 
 Optionen für Feeds
 ------------------
@@ -61,6 +65,8 @@ angegebene Wert sind, werden gelöscht.
 geändert werden.
 
 
+.. _update:
+
 Update von Feeds
 ----------------
 
@@ -75,6 +81,7 @@ gefordert, dass der Update-Vorgang wenig Ressourcen beansprucht und andere
 Vorgänge, wie beispielsweise die Bedienung der grafischen Oberfläche, nicht
 behindert.
 
+.. _suche:
 
 Suche
 -----
@@ -85,6 +92,8 @@ suchbar. Die Ergebnisse werden angezeigt.
 **Suche innerhalb von Entries nach Titel:** Ein Entry innerhalb der Liste von
 Entries ist suchbar. Die Ergebnisse werden angezeigt.
 
+
+.. _bereitstellung:
 
 Bereitstellung von Daten
 ------------------------
@@ -97,6 +106,7 @@ Folgende Daten werden zur Verfügung gestellt:
  * Anzahl aller Entries
  * Inhalt der Entries
 
+.. _browserfunktion:
 
 Browserfunktion
 ---------------
@@ -104,6 +114,8 @@ Browserfunktion
 Innerhalb des Feedreaders gibt es eine Funktionalität, die den Inhalt von Links,
 darstellt. Es soll möglich sein, innerhalb *gylfeed* den ursprünglichen Artikel,
 zu dem der Entry erstellt wurde, anzuzeigen.
+
+.. _bedienkonzept:
 
 Bedienkonzept
 -------------
@@ -117,11 +129,15 @@ Ansicht zu verstehen.
 möglich, mit einer Computermaus zu navigieren.
 
 
+.. _performance:
+
 Performance
 -----------
 Sowohl das Starten der Software als auch das Verhalten während der Laufzeit soll
 für den Benutzer angemessen zügig ablaufen.
 
+
+.. _anforderungengui:
 
 Anforderungen an die Benutzeroberfläche
 =======================================

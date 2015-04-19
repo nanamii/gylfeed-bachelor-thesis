@@ -21,9 +21,9 @@ Ein minimalistisches Design soll dadurch erreicht werden, dass lediglich die
 wichtigen Bestandteile dargestellt werden. Auf unnötige Spielereien wird
 verzichtet. Es wird eine klare, übersichlich strukturierte Oberfläche entworfen.
 
-Das Ausmaß der GUI wird exakt einer Ansicht entsprechen und dadurch die
-geforderte Kompaktheit erfüllen. Es wird immer genau ein Thema dargestellt.
-Keine Verschachtelung verschiedener Fenster. Das bietet einerseits den Vorteil, 
+Die GUI wird immer exakt ein Thema darstellen und dadurch die
+geforderte Kompaktheit erfüllen.
+Es wird keine Verschachtelung verschiedener Fenster geben. Das bietet einerseits den Vorteil, 
 leicht die Übersicht zu behalten und andererseits kann diese GUI leicht in einen
 Tiling-Window-Manager integriert werden (vgl. :cite:`i3` -- i3 als Beispiel eines
 Tiling-Window-Managers).
@@ -119,10 +119,10 @@ angezeigten Feeds nach unten und schafft Platz für die Suchleiste.
 
 
    
-Ansicht der Settings - *FeedOptionsView*
+Ansicht der Optionen - *FeedOptionsView*
 ----------------------------------------
 
-Abbildung :num:`options` zeigt den Entwurf der Ansicht Settings.
+Abbildung :num:`options` zeigt den Entwurf der Ansicht *FeedOptionsView*.
 Diese Ansicht wird verwendet, um neue Feeds hinzuzufügen, oder die
 Einstellungen eines bereits vorhandenen Feeds anzuzeigen und Änderungen
 vorzunehmen. Für diese Ansicht wird in der Header Bar ein zustimmender und

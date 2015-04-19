@@ -1,3 +1,5 @@
+.. _architekturentwurf:
+
 ******************
 Architekturentwurf
 ******************
@@ -330,8 +332,8 @@ kompletten Daten durchführt.
 von GObject auf. GObject ermöglicht in diesem Fall das Anbieten eigener
 Signale.
 
-Die Klasse *Document* ermöglicht mit seinen internen Funktionen einen
-asynchronen Download. Die Funktion ``_append(chunk)`` wird von der Klasse
+Die Klasse *Document* ist eine Future-Klasse für den *Downloader*.
+Die enthaltene Funktion ``_append(chunk)`` wird von der Klasse
 *Downloader* solange aufgerufen, bis der eingehende Bytestream vollständig
 gelesen ist. An dieser Stelle kommt die Funktion ``_finish()`` zum Einsatz.
 Ist der Bytestream vollständig gelesen, löst die Funktion ``_finish()`` das
@@ -438,11 +440,14 @@ Feeds dargestellt wird.
 **IndicatorLabel:**
 
 ``__init__(*args)``: Der Konstruktor der Klasse *IndicatorLabel* kann mehrere
-Argumente übergeben bekommen, hierzu wird \*args verwendet. Innerhalb des
+Argumente übergeben bekommen, hierzu wird die Funktionalität ``*args`` der Python Sprachdefinition genutzt. 
+Das erlaubt das Übergeben einer variablen Anzahl an Argumenten.
+Innerhalb des
 Konstruktors wird der Konstruktor der Oberklasse Gtk.Label aufgerufen.
 
-``set_color(state)``: Setzt die Farbe des Labels anhand des Parameters state.
-Dazu wird intern CSS verwendet.
+``set_color(state)``: Setzt die Farbe des Labels anhand des Parameters *state*.
+Dazu wird intern CSS verwendet. Möglich macht dies die Funktion ``set_markup()``
+der Oberklasse Gtk.Label.
 
 
 **EntryListView:**
@@ -456,20 +461,15 @@ Entries.
 
 ``show_entries(listbox, row):`` Lässt die Entries eines Feeds darstellen. Als
 Übergabeparameter wird die Listbox der *FeedView* erwartet und die darin
-ausgewählte *Row*. Die Funktion ``show_entries()`` ruft weitere interne
-Funktionen auf.
-
+ausgewählte *Row*.
 
 **EntryRow:**
 
 ``__init__(*args)``: Der Konstruktor der Klasse *EntryRow* erwartet mehrere
-Argumente, hierzu wird \*args verwendet. Beispielsweise sind dies Titel,
+Argumente, hierzu wird ``*args`` verwendet. Beispielsweise sind dies Titel,
 Zeitstempel und Plot des Feeds. Zusammenfassend alle Daten, die in einer
 *EntryRow* dargestellt werden sollen. Innerhalb des Konstruktors wird der
 Konstruktor der Oberklasse *Gtk.ListBowRow* aufgerufen.
-
-Neben dem Konstruktor bietet die Klasse *EntryRow* Getter-Funktionen für Plot
-, Titel, Zeitstempel, Entry-ID, Feed und dem Attribut updated-parsed.
 
 
 **EntryDetailsView:**

@@ -8,17 +8,8 @@
 Feedreader *QuiteRSS* und *RSSOwl*
 ==================================
 
-Die Feedreader *QuiteRSS* und *RSSOwl* als weitere Beispiele von 
+Die Feedreader *RSSOwl* und *QuiteRSS* als weitere Beispiele von 
 Desktop-Feedreadern, die an den Aufbau eines Mailclients angelehnt sind.
-
-.. _quiterss:
-
-.. figure:: ./figs/quite_rss.png
-    :alt: Benutzeroberfläche des Feedreaders QuiteRSS.
-    :width: 100%
-    :align: center
-    
-    Benutzeroberfläche des Feedreaders *QuiteRSS*.
 
 
 .. figure:: ./figs/rss_owl.jpg
@@ -28,6 +19,14 @@ Desktop-Feedreadern, die an den Aufbau eines Mailclients angelehnt sind.
     
     Benutzeroberfläche des Feedreaders *RSSOwl*, Quelle: http://www.heise.de/.
 
+.. _quiterss:
+
+.. figure:: ./figs/quite_rss.png
+    :alt: Benutzeroberfläche des Feedreaders QuiteRSS.
+    :width: 80%
+    :align: center
+    
+    Benutzeroberfläche des Feedreaders *QuiteRSS*.
 
 
 .. _dict:
@@ -159,7 +158,6 @@ Der Python-Code der Implementierung des Testservers.
 
     class Article:
         def __init__(self):
-
             self.title = faker.sentence(nb_words=3, variable_nb_words=True)
             self.url = faker.uri()
             self.rendered_text= faker.text()
@@ -185,7 +183,6 @@ Der Python-Code der Implementierung des Testservers.
                 updated=article.last_update,
                 published=article.published)
     return feed.get_response()
-
 
     if __name__ == '__main__':
        app.run(debug=True)

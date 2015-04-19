@@ -59,18 +59,19 @@ von Grund auf zu erlernen und anzuwenden.
    
 **Entwicklungssytem:**
 Die Software *gylfeed* wird unter der Linux Distribution *Fedora 21* entwickelt. Für die Entwicklung wird der
-Editor *gVim* verwendet. Zusätzlich werden Python--Plugins zur Validierung 
-der Python PEP--Stilrichtlinien (vgl. :cite:`PEP`) verwendet. 
+Editor *gVim* verwendet. Zusätzlich werden Python-Plugins zur Validierung 
+der Python PEP8 Stilrichtlinien (vgl. :cite:`PEP` -- PEP8 Stilrichtlinien für
+Python) verwendet. 
 Als weiteres Werkzeug
 wird die interaktive Python Shell *bpython* eingesetzt 
-(vgl. :cite:`bpython`). Das erlaubt das 
+(vgl. :cite:`bpython` -- Offizielle Webseite von *bpython*). *bpython* erlaubt das 
 Testen von Funktionalitäten außerhalb des eigentlichen Quelltextes.
 
 **Quellcodeverwaltung:**
 Zur Verwaltung des Quellcodes wird *git*, ein Versionsverwaltungssystem,
-eingesetzt. Der Quellcode selbst wird auf dem Hosting--Dienst für
-Software--Entwicklungsprojekte *GitHub* (vgl. :cite:`github`) gelagert. Das
-Projekt ist über folgenden Link zur GitHub-Webseite erreichbar:
+eingesetzt. Gelagert wird der Quellcode auf *GitHub*, einem Hosting-Dienst für
+Software-Entwicklungsprojekte (vgl. :cite:`github` -- Offizielle Webseite von
+*GitHub*). Folgender Link führt zur *GitHub*-Webseite des Projekts:
 
     * https://github.com/nanamii/gylfeed/ 
 
@@ -94,7 +95,8 @@ wird in der Zusammenfassung eingegangen.
 Implementierung der Klassen
 ---------------------------
 
-Die Klassen wurden anhand des Klassendiagramms in Abbildung :num:`klassendiagramm` 
+Die Klassen wurden anhand des Klassendiagramms in Kapitel
+:ref:`architekturentwurf` (Architekturentwurf) 
 implementiert. Der Quellcode ist unter der bereits
 genannten GitHub-Webseite abrufbar.
 
@@ -105,7 +107,7 @@ Download mit *libsoup*
 Der Download der Daten wird mit der Bibliothek *libsoup* umgesetzt. 
 *libsoup* ist eine HTTP-Bibliothek und ermöglicht
 innerhalb *gylfeed* das asynchrone Herunterladen der Feed-Daten (vgl.  
-:cite:`libsoup`).  
+:cite:`libsoup` -- Projektseite von *libsoup*).  
 
 Die im Folgenden aufgeführte Bibliothek *Universal Feedparser* ermöglicht zwar
 das direkte Herunterladen und anschließende Parsen eines Feeds, jedoch nur
@@ -147,7 +149,7 @@ Folgendes Code-Beispiel einer bpython-Sitzung soll die Grundfunktionalität
 
 .. code-block:: python
 
-    import feedparser
+    >>> import feedparser
 
     # Der Funktion *parse* wird die URL vom Feed der 
     # Sueddeutschen Zeitung übergeben und der Variable *feed_dict* zugewiesen
@@ -177,11 +179,11 @@ Dies bedeutet nicht, dass für jedes Feedformat die gleichen Daten vorliegen.
 Es erleichtert lediglich den Zugriff auf die Daten.
 
 
-Eingebetteter Browser mit *Webkit*
+Eingebetteter Browser mit *WebKit*
 ----------------------------------
 
 Innerhalb von *gylfeed* ist es möglich, Webseiten darzustellen. Umgesetzt
-wird dies mit der HTML-Rendering Engine *WebKit* (vgl. :cite:`WebKit`). Die aktuelle Version von
+wird dies mit der HTML-Rendering Engine *WebKit* (vgl. :cite:`WebKit` -- Offizielle Webseite von WebKit). Die aktuelle Version von
 *gylfeed* ermöglicht innerhalb der *EntryDetailsView* die Darstellung von
 Webinhalten. Der Benutzer kann den originalen
 Artikel zur jeweiligen Feed-Nachricht aufrufen. An dieser Stelle bieten sich
@@ -233,8 +235,8 @@ Focus auf der Row liegt.
 
 
 Jede Listbox Row enthält neben den Labels, den Namen des Feeds, das Icon des
-Feeds und einen Button für weitere Optionen, rechts zu sehen. In der 
-Abbildung hat bis auf den Feed *Golem-Atom* kein Feed ein Icon geliefert.
+Feeds und einen Button für weitere Optionen, rechts zu sehen. In Abbildung 
+:num:`feedview` hat bis auf den Feed *Golem-Atom* kein Feed ein Icon geliefert.
 Deshalb wird für die restlichen drei Feeds das selbst erstellte Standardicon
 angezeigt. Hier ist auch zu erkennen, dass Golem über das Format RSS kein
 Icon liefert, über das Format Atom hingegen schon.
@@ -310,9 +312,9 @@ Feeds. Neben diesen grundlegenden Daten zum Feed, können weitere
 Einstellungen vorgenommen werden. Für das automatische Update wird ein
 Switcher angeboten, der auf *An* oder *Aus* gestellt werden kann. Ist
 der Switcher in der Stellung *An*, kann zusätzlich ein Update-Intervall in
-Minuten gewählt werden. Dies kann stufenlos zwischen einer bis sechzig
+Minuten gewählt werden. Dies kann stufenlos zwischen einer bis 120
 Minuten eingestellt werden. Die Anzahl der Tage, nach denen Entries gelöscht
-werden, können zwischen X und X eingestellt werden. Die letzte Einstellung,
+werden, können zwischen einem und 360 Tagen eingestellt werden. Die letzte Einstellung,
 die für einen Feed gesetzt werden kann, ist die Anzeige von 
 System-Benachrichtigungen. Dafür wird ein Switcher angeboten.
 
@@ -338,7 +340,7 @@ hinzugefügt.
 Darstellung der Systemnachricht
 -------------------------------
 
-Die funktionalen Anforderungen sehen unter 4.2.2 - Optionen für Feeds, 
+Die funktionalen Anforderungen sehen unter :ref:`optionen` (Optionen für Feeds), 
 Notifications vor. Die Anzeige dieser Systemnachrichten betreffen zwar nicht
 die Benutzeroberfläche von *gylfeed* selbst, werden dem Benutzer jedoch 
 dargestellt und sollen deshalb kurz erläutert werden. Hat ein Feed neue
@@ -373,33 +375,38 @@ Unittests
 
 
 Für das systematische Testen der Software soll das Python 
-Unittest--Framework verwendet werden.
+Unittest-Framework verwendet werden.
 
 Folgendes Beispiel zeigt die grundlegende Funktionsweise:
 
 .. code-block:: python
 
-   def add(a, b): 
-       return a + b
+   def add(x, y): 
+       return x + y
 
    if __name__ == '__main__':
        import unittest
 
-       class SampleTest(unittest.TestCase):
+       class SimpleTest(unittest.TestCase):
            def test_add_func(self):
-               result = add(21, 21)
-               self.assertTrue(result == 42)
+               result = add(1, 99)
+               assertTrue(result == 100)
 
        unittest.main()
 
 
-Das Ausführen des Beispielcodes würde folgende Ausgabe produzieren:
+Das Ausführen des Beispielcodes würde folgende Ausgabe erzeugen:
 
 .. code-block:: bash
 
     Ran 1 test in 0.000s
 
     OK
+
+
+Wie im obigen Beispiel zu sehen ist, werden unter Python die Testfälle direkt in der Main-Methode definiert.
+Durch das Ausführen der jeweiligen Python-Datei wird die Main und somit die
+Testsuite gestartet.
 
 
 Installation
