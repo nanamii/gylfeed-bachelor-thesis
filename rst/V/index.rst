@@ -67,20 +67,28 @@ dar. SumFeed kann aufgrund der Ableitung von *Feed* aber wie ein *Feed* agieren.
 Eingesetzt wird diese Klasse für die Darstellung aller vorhandener Feeds.
 
 **Downloader:** Die Klasse *Downloader* beschafft die von den Klassen *Feed* und
-*Feedhandler* angefragten Daten. Hierzu verwendet sie die Klasse *Document*.
+*Feedhandler* angefragten Daten. Sie verwendet die Klasse *Document*.
 
-**Document:** Ermöglicht den asynchronen Download der Feed-Daten. 
+**Document:** Die Klasse *Document* ist eine Future-Klasse und wird von der Klasse *Downloader*
+verwendet. 
 
 **MainWindow:** Eine Instanz der Klasse *MainWindow* wird durch die Klasse *MainApplication*
 erstellt. *MainWindow* beinhaltet die Unteransichten *FeedView*,
 *EntryListView*, *EntryDetailsView* und *FeedOptionsView*. *MainWindow* arbeitet
 mit einem Stack, für dessen Verwaltung die Klasse *ViewSwitcher* benutzt wird.
+Bei einem Stack handelt es sich in diesem Zusammenhang um einen Container zur
+Verwaltung der verschiedenen Ansichten -- ein Objekt der Klasse Gtk.Stack.
 
 **ViewSwitcher:** Die Klasse *MainWindow* instanziiert einen *ViewSwitcher*.
 Dieser ist für die Verwaltung der einzelnen Views zuständig.
 
-**View:** View ist die abstrakte Oberklasse von *FeedView*, *EntryListView*,
-*EntryDetailsView* und *FeedOptionsView*.
+**View:** *View* ist die abstrakte Oberklasse von *FeedView*, *EntryListView*,
+*EntryDetailsView* und *FeedOptionsView*. *View* stellt für die Unterklassen
+eine standardisierte Implementierung für eine Ansicht zur Verfügung. Innerhalb von *View* wird
+die Suchleiste implementiert und verwaltet, die von den Unterklassen individuell
+benutzt wird. *View* selbst erbt von Gtk.Grid und beinhaltet ein
+Gtk.ScrolledWindow -- ein scrollbares Fenster -- das von den Unterklassen
+benutzt wird, um Inhalte darzustellen.
 
 **FeedView:** *FeedView* leitet von der Oberklasse *View* ab und beihnaltet
 selbst n *FeedRows*. Diese spezialisierte View wird die vorhandenen Feeds
@@ -91,8 +99,8 @@ anzeigen.
 entspricht einer *FeedRow*.
 
 **IndicatorLabel:** Ermöglicht individualisierte Darstellung von Labels.
-Innerhalb *gylfeed* werden die Labels für die Darstellung der Anzahl an 
-neuen, ungelesenen und aller Nachrichten verwendet.
+Innerhalb *gylfeed* werden die Labels für die Darstellung der Anzahl 
+neuer, ungelesener und aller Nachrichten verwendet.
 Die Klasse *IndicatorLabel* ist eine Spezialisierung von 
 *Gtk.Label*.
 
@@ -141,13 +149,14 @@ dies wird innerhalb der Bachelorarbeit näher betrachtet.
     Das Grundkonzept von *gylfeed*.
 
 
-Im nächsten Schritt empfängt der Downloader die Daten aus dem Web (3). Die Instanz
-Document wird dazu verwendet, einen asynchronen Download der Daten zu
-ermöglichen (4). Die Instanz des Documents wird an den Feed zur weiteren
+Im nächsten Schritt empfängt der Downloader die Daten aus dem Web (3). 
+Document wird vom Downloader als Future-Klasse verwendet (4).
+Die Instanz des Documents wird an den Feed zur weiteren
 Verarbeitung gegeben (5). Das Weiterverarbeiten im Feed wird dadurch ausgelöst,
 indem sich der Feed auf ein Signal von der Instanz Document registriert. Sobald
 das Document komplett heruntergeladen ist, wird das entsprechende Signal
 ausgelöst und die im Document enthaltenen Daten werden im Feed geparst (6).
+Signale werden im Anschluss an die Beschreibung der Abbildung näher erläutert.
 
 Der Feed kommuniziert an den Feedhandler, dass er sich aktualisiert hat. Der
 Feedhandler reicht das Signal an die Benutzeroberfläche weiter. Die Änderungen
@@ -194,6 +203,17 @@ Codebeispiel soll das erläuterte Prinzip nochmals anschaulich darstellen.
 
     Gtk.main()                                  # Gtk Main-Loop
 
+Es können nicht nur bereits vorhandene Signale verwendet werden, sondern eigene
+Signale definiert werden. Hierzu ist es notwendig, dass die Instanz, die ein
+Signal anbieten möchte, von GObject.Object erbt. Innerhalb der Projektarbeit 
+bietet beispielsweise die Klasse *Document* das Signal *finished* an. Die Klasse
+Feed, die dieses Signal nutzen möchte verknüpft sich mit dem Signal. Feed ist
+daran interessiert, benachrichtigt zu werden, sobald dieses Signal ausgelöst
+wird. Beim Verknüpfen mit dem Signal ist ebenso wie in obigem Codeblock die
+Angabe einer Callback-Funktion notwendig. Nun sind die Voraussetzungen
+geschaffen, um im Quellcode bei Bedarf das Signal auszulösen. Beispielsweise
+wird das Signal *finished* ausgelöst, wenn der asynchrone Download beendet ist.
+
 
 Beschreibung der Schnittstellen
 ===============================
@@ -239,7 +259,7 @@ wird ein Update für jeden Feed ausgelöst.
 ``delete_feed(feed)``: Löscht den im Funktionsaufruf übergebenen *Feed*.
 
 ``delete_old_entries()``: Ruft für jeden im Feedhandler geführten *Feed* 
-deren Funktion delete_old_entries() auf.
+deren Funktion delete_old_entries(max_days) auf.
 
 ``save_to_disk()``: Speichert die zu serialisierenden Daten auf Festplatte.
 Hierzu wird die Hilfsfunktion ``get_serializable_data()`` herangezogen.
@@ -258,15 +278,15 @@ werden. Für diese Argumente - hier als args zusammengefasst - sind Default-Wert
 müsssen nicht zwingend übergeben werden. 
 
 ``add_updater(update_interval=None)``: Fügt dem Feed unter Angabe des
-Update-Intervalls ein Timeout für ein automatisches Update hinzu. 
+Update-Intervalls in Minuten ein Timeout für das automatische Update hinzu. 
 
 ``update()``: Veranlasst für den aufgerufenen Feed ein Update. Hierzu wird die
 Funktionalität der Klasse *Downloader* verwendet.
 
-``delete_old_entries(day_range=None)``: Durchläuft die Entries eines Feeds 
-und markiert diejenigen Entries als gelöscht, die der angegebenen day_range
-entsprechen. Wird die day_range nicht explizit gesetzt, wird ein Standardwert
-von 30 Tagen angenommen.
+``delete_old_entries()``: Durchläuft die Entries eines Feeds 
+und markiert diejenigen Entries als gelöscht, die dem Wert entsprechen, der in den
+Einstellungen des Feeds gesetzt ist. Dieser Wert entspricht standardmäßig 30 Tagen
+und kann durch den Benutzer geändert werden.
 
 Die Klasse *Feed* bietet noch zahlreiche interne Funktionen. Ausgehend vom
 Aufruf der Funktion ``update()`` wird beispielsweise intern die Funktion
@@ -327,11 +347,11 @@ der Klasse *Feedhandler*. Innerhalb des Konstruktors wird der Konstruktor der
 Oberklasse, Gtk.ApplicationWindow, aufgerufen. 
 
 ``add_widget_to_headerbar(widget, start_or_end)``: Fügt das übergebene
-Widget der Headerbar hinzu. Mit start_or_end kann durch Übergabe eines 
+Widget der Header Bar hinzu. Mit start_or_end kann durch Übergabe eines 
 Strings die Position des Widgets bestimmt werden.
 
 ``remove_widget_from_headerbar(widget)``: Entfernt das an die Funktion
-übergebene Widget aus der Headerbar.
+übergebene Widget aus der Header Bar.
 
 Neben diesen öffentlich angebotenen Schnittstellen hat *MainWindow*
 zahlreiche interne Funktionen.
@@ -460,7 +480,7 @@ Konstruktors wird der Konstruktor der Oberklasse *View* aufgerufen.
 
 ``on_view_enter()``: Führt alle Aktionen aus, die beim Aufruf von
 *EntryDetailsView* notwendig sind. Beispielsweise Einstellungen für den
-Button-Switcher in der Headerbar.
+View Switcher in der Header Bar.
 
 ``on_view_leave()``: Führt alle Aktionen aus, die beim Verlassen von
 *EntryDetailsView* notwendig sind.
@@ -480,14 +500,14 @@ Konstruktors wird der Konstruktor der Oberklasse *View* aufgerufen.
 
 ``on_view_enter()``: Führt alle Aktionen aus, die beim Aufruf von
 *FeedOptionsView* notwendig sind. Beispielsweise werden in dieser Ansicht in
-der Headerbar Buttons für zustimmende Aktionen und ablehnende Aktionen
+der Header Bar Buttons für zustimmende Aktionen und ablehnende Aktionen
 angeboten. Dies wird je nach vorher gewählter Funktion passend dargestellt.
 Das Hinzufügen eines Feeds erfordert andere Button-Beschriftungen, als der
 Aufruf der Einstellungen eines bestehenden Feeds.
 
 ``on_view_leave()``: Führt alle Aktionen aus, die beim Verlassen von
 *FeedOptionsView* notwendig sind. Beispielsweise das Entfernen von Buttons
-aus der Headerbar.
+aus der Header Bar.
 
 ``show_options_filled(feedview, feed)``: Zeigt die gespeicherten Einstellungen 
 eines Feeds an. Als Übergabeparameter wird die *FeedView* und der gewählte *Feed* 

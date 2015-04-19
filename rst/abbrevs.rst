@@ -23,6 +23,7 @@
     Abkürzung                Bedeutung
     =======================  ==================================
     API                      *Application Programming Interface*
+    CSS                      *Cascading Style Sheets*
     GTK                      *GIMP Toolkit*
     GUI                      *Graphical User Interface*
     PEP                      *Python Enhancement Proposals*

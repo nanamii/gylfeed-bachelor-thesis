@@ -13,13 +13,12 @@ funktionale Anforderungen und Anforderungen an die grafische Benutzeroberfläche
 Allgemeine Anforderungen
 ========================
 
-Die Entwicklung erfolgt unter der GNU General Public License in der Version 3.0
-(vgl. :cite:`GNUGPL` - offizielle Seite von GNU GPL).
-
 Mit *gylfeed* soll ein leichtgewichtiger Feedreader entwickelt werden, an den
 folgende allgemeine Anforderungen gestellt werden:
 
-* Entwicklung unter Linux
+* Die Entwicklung erfolgt unter der GNU General Public License in der Version
+  3.0 (vgl. :cite:`GNUGPL` -- offizielle Seite von GNU GPL).
+* Entwicklung für Linux-Distributionen
 * Entwicklung als Open-Source-Projekt
 * Neues Konzept hinsichtlich der grafischen Oberfläche
 * Komfortable Bedienung
@@ -50,7 +49,7 @@ Optionen für Feeds
 **Automatisches Update:** Für jeden Feed kann entschieden werden, ob dieser
 automatisch aktualisiert werden soll.
 
-**Updateintervall:** Wurde die Einstellung *Automatisches Update* gewählt, kann
+**Update-Intervall:** Wurde die Einstellung *Automatisches Update* gewählt, kann
 zusätzlich eingestellt werden, in welchem Intervall dies geschehen soll.
 
 **Notifications:** Sind neue Nachrichten vorhanden, wird eine Systemnachricht gesendet.
@@ -80,10 +79,10 @@ behindert.
 Suche
 -----
 
-**Suche innerhalb von Feeds:** Ein Feed innerhalb der Gesamtheit der Feeds ist
+**Suche innerhalb von Feeds:** Ein Feed innerhalb der Liste von Feeds ist
 suchbar. Die Ergebnisse werden angezeigt.
 
-**Suche innerhalb von Entries nach Titel:** Ein Entry innerhalb der Gesamtheit der
+**Suche innerhalb von Entries nach Titel:** Ein Entry innerhalb der Liste von
 Entries ist suchbar. Die Ergebnisse werden angezeigt.
 
 

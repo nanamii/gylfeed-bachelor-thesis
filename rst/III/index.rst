@@ -12,15 +12,17 @@ Der Großteil der vorhandenen Feedreader, in diesem Fall speziell Feedreader, di
 als eigenständige Desktopsoftware funktionieren, sind an den Aufbau eines
 Mailclients angelehnt.
 Als Veranschaulichung wird der Feedreader *Liferea* herangezogen. *Liferea*
-deshalb, weil er wie es *gylfeed* sein wird:
+wurde deshalb ausgewählt, weil er die folgenden Eigenschaften besitzt, die auch
+für *gylfeed* vorgesehen sind:
 
- * Für Linux entwickelt ist.
- * GTK als Oberflächentechnik verwendet.
- * Unter GNU GPL lizenziert ist.
- * Den Anspruch erhebt, leicht bedienbar zu sein.
+ * Entwickelt für Linux-Distributionen.
+ * Verwendung von GTK als Oberflächentechnik.
+ * Lizenzierung unter GNU GPL.
+ * Leichte Bedienbarkeit.
 
-Weitere Desktop-Feedreader, die vergleichbar im Aufbau sind, wären beispielsweise *RSSOwl*,
-*Vienna* oder *QuiteRSS*. Zu *RSSOwl* und *QuiteRSS* sind im Anhang A
+Weitere Desktop-Feedreader, die vergleichbar im Aufbau sind, wären beispielsweise *RSSOwl*
+(:cite:`RSSOwl`),
+*Vienna* (:cite:`Vienna`) oder *QuiteRSS* (:cite:`QRSS`). Zu *RSSOwl* und *QuiteRSS* sind im Anhang A
 (:ref:`feedreader`) Screenshots zu sehen. 
 
 
@@ -67,7 +69,7 @@ Anordnung dieser beiden Fenster gibt es zusätzlich Einstellmöglichkeiten.
 Im Grunde liegt hier tatsächlich der Aufbau eines klassischen Mailclients vor.
 
 Neben den genannten Funktionalitäten kann über einen separaten
-Einstellungsdialog beispielsweise das Updateintervall oder Optionen für Ordner
+Einstellungsdialog beispielsweise das Update-Intervall oder Optionen für Ordner
 gesetzt werden. 
 
 Es können die Formate RSS, Atom, CDF(Common Data Format), OCS(Open Collaboration Services) 

@@ -22,7 +22,8 @@ oder Atom erstellt werden. Wittenbrink nennt vier Einsatzszenarien:
  * Asynchrones Broadcasting
 
 Anzumerken ist, dass neben RSS und Atom weitere Formate, wie z.B. Scripting
-News, OPML oder NewsML entwickelt wurden (vgl. :cite:`FU` -- Übersicht Formate).
+News, OPML(Outline Processor Markup Language) oder NewsML entwickelt wurden 
+(vgl. :cite:`FU` -- Übersicht Formate).
 Im Weiteren wird das Hauptaugenmerk auf den Formaten RSS und Atom liegen.
 
 Bevor auf die Formate näher eingegangen wird, soll nun die Funktionsweise von
@@ -138,9 +139,9 @@ Das Format RSS
 ---------------
 Die erste Version von RSS, RSS 0.90, wurde 1997 von Netscape entwickelt. 
 Zu dieser Zeit trug RSS die Bedeutung *Rich Side Summary*. Es
-folgten die Versionen 0.91, 0.92, 0.93 und 1.0. Im Jahr 2003 wurde von Harvard
-die Version 2.0 veröffentlicht. Die Version 2.0 basiert nicht, wie zu vermuten
-wäre, auf der Version 1.0, sondern auf der Version 0.92 (vgl. :cite:`HU` - Versionsübersicht von Harvard).
+folgten die Versionen 0.91, 0.92, 0.93 und 1.0. Im Jahr 2002 entwickelte Dave
+Winer die Version 2.0, die von Harvard-Law 2003 veröffentlicht wurde. Die Version 2.0 basiert nicht, wie zu vermuten
+wäre, auf der Version 1.0, sondern auf der Version 0.92 (vgl. :cite:`HU` - Versionsübersicht von Harvard-Law).
 Im Laufe dieser Entwicklungen wurde *Really Simple Syndication* als Bedeutung für die Abkürzung RSS eingeführt.
 Die einzelnen Versionen unterscheiden sich darin, dass Attribute neu
 hinzugefügt, oder auch in späteren Versionen wieder entfernt wurden.
@@ -192,31 +193,31 @@ können, soll das XML von einem beispielhaften Atom-Feed betrachtet werden:
             <generator uri="http://www.example.com/" version="1.0">
             Example Toolkit
             </generator>
-        <entry>
-            <title>Title of Entry</title>
-            <summary> Summary of Entry</summary>
-            <link rel="alternate" type="text/html"
-            href="http://example.org/2005/04/02/atom"/>
-            <link rel="enclosure" type="audio/mpeg" length="1337"
-            href="http://example.org/audio/ph34r_my_podcast.mp3"/>
-            <id>tag:example.org,2003:3.2397</id>
-            <updated>2005-07-31T12:29:29Z</updated>
-            <published>2003-12-13T08:29:29-04:00</published>
-            <author>
-                <name>Name of Author</name>
-                <uri>http://example.org/</uri>
-                <email>author@example.com</email>
-            </author>
-            <contributor>
-                <name>Name of Contributor</name>
-            </contributor>
-            <content type="xhtml" xml:lang="en"
-            xml:base="http://example.org/">
-            <div xmlns="http://www.w3.org/1999/xhtml">
-            <p><i>[Update: The Atom draft is finished.]</i></p>
-            </div>
-           </content>
-        </entry>
+            <entry>
+                <title>Title of Entry</title>
+                <summary> Summary of Entry</summary>
+                <link rel="alternate" type="text/html"
+                href="http://example.org/2005/04/02/atom"/>
+                <link rel="enclosure" type="audio/mpeg" length="1337"
+                href="http://example.org/audio/ph34r_my_podcast.mp3"/>
+                <id>tag:example.org,2003:3.2397</id>
+                <updated>2005-07-31T12:29:29Z</updated>
+                <published>2003-12-13T08:29:29-04:00</published>
+                <author>
+                    <name>Name of Author</name>
+                    <uri>http://example.org/</uri>
+                    <email>author@example.com</email>
+                </author>
+                <contributor>
+                    <name>Name of Contributor</name>
+                </contributor>
+                <content type="xhtml" xml:lang="en"
+                xml:base="http://example.org/">
+                <div xmlns="http://www.w3.org/1999/xhtml">
+                <p><i>[Update: The Atom draft is finished.]</i></p>
+                </div>
+               </content>
+            </entry>
         </feed>
 
 
