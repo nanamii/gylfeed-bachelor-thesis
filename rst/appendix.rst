@@ -134,15 +134,13 @@ Mit *cloc* erstellte Statistik des Projekts.
     :width: 100%
     :align: center
     
-    Mit dem Tool *cloc* erstellte Projektstatistik.
+    Mit dem Tool cloc erstellte Projektstatistik. [h!]
 
 
 .. _testserver:
 
 Implementierung des Testservers
 ===============================
-
-Der Python-Code der Implementierung des Testservers.
 
 
 .. code-block:: python
@@ -177,8 +175,7 @@ Der Python-Code der Implementierung des Testservers.
     ARTICLES.append(Article())
     for article in ARTICLES:
        feed.add(article.title, article.rendered_text,
-                content_type='html',
-                author=article.author,
+                content_type='html', author=article.author,
                 url=make_external(article.url),
                 updated=article.last_update,
                 published=article.published)

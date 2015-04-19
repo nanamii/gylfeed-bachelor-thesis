@@ -146,6 +146,10 @@ Im Laufe dieser Entwicklungen wurde *Really Simple Syndication* als Bedeutung f�
 Die einzelnen Versionen unterscheiden sich darin, dass Attribute neu
 hinzugefügt, oder auch in späteren Versionen wieder entfernt wurden.
 
+.. raw:: latex
+
+   \newpage
+
 
 RSS basiert auf XML und muss deshalb konform mit den XML 1.0 Richtlinien sein.
 Für RSS selbst gibt es Mindestanforderungen. Für das *channel* Attribut sind

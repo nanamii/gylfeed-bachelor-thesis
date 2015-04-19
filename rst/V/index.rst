@@ -71,8 +71,8 @@ Eingesetzt wird diese Klasse für die Darstellung aller vorhandener Feeds.
 **Downloader:** Die Klasse *Downloader* beschafft die von den Klassen *Feed* und
 *Feedhandler* angefragten Daten. Sie verwendet die Klasse *Document*.
 
-**Document:** Die Klasse *Document* ist eine Future-Klasse und wird von der Klasse *Downloader*
-verwendet. 
+**Document:** Die Klasse *Document* liefert ein Future-Objekt zurück und wird
+von der Klasse *Downloader* verwendet. 
 
 **MainWindow:** Eine Instanz der Klasse *MainWindow* wird durch die Klasse *MainApplication*
 erstellt. *MainWindow* beinhaltet die Unteransichten *FeedView*,
@@ -152,7 +152,7 @@ dies wird innerhalb der Bachelorarbeit näher betrachtet.
 
 
 Im nächsten Schritt empfängt der Downloader die Daten aus dem Web (3). 
-Document wird vom Downloader als Future-Klasse verwendet (4).
+Document wird vom Downloader als Future-Objekt verwendet (4).
 Die Instanz des Documents wird an den Feed zur weiteren
 Verarbeitung gegeben (5). Das Weiterverarbeiten im Feed wird dadurch ausgelöst,
 indem sich der Feed auf ein Signal von der Instanz Document registriert. Sobald
@@ -183,8 +183,14 @@ betreffende Widget weiter, hier der Button. Der Button löst in diesem Fall das
 Signal *clicked* aus. Damit das Auslösen des Signals etwas bewirken kann, musste der Button 
 bereits vorher mit diesem Signal verknüpft und eine entsprechende Callback-Funktion
 zugewiesen werden. Die Callback-Funktion enthält den gewünschten Code, der ausgeführt
-werden soll, wenn genau dieser Button angeklickt wird. Folgendes kurze
-Codebeispiel soll das erläuterte Prinzip nochmals anschaulich darstellen.
+werden soll, wenn genau dieser Button angeklickt wird. 
+
+.. raw:: latex
+
+   \newpage
+
+Folgendes kurze Codebeispiel soll das erläuterte Prinzip nochmals anschaulich
+darstellen.
 
 
 .. code-block:: python
@@ -332,7 +338,7 @@ kompletten Daten durchführt.
 von GObject auf. GObject ermöglicht in diesem Fall das Anbieten eigener
 Signale.
 
-Die Klasse *Document* ist eine Future-Klasse für den *Downloader*.
+Die Klasse *Document* ist ein Future-Objekt für den *Downloader*.
 Die enthaltene Funktion ``_append(chunk)`` wird von der Klasse
 *Downloader* solange aufgerufen, bis der eingehende Bytestream vollständig
 gelesen ist. An dieser Stelle kommt die Funktion ``_finish()`` zum Einsatz.
@@ -340,6 +346,9 @@ Ist der Bytestream vollständig gelesen, löst die Funktion ``_finish()`` das
 Signal *finish* aus. Anhand dieses Signals wird bespielsweise in den 
 Instanzen von *Feed* die Funktion ``parse()`` aufgerufen.
 
+.. raw:: latex
+
+   \newpage
 
 **MainWindow:**
 

@@ -23,40 +23,43 @@
     
     Feed
 
-     Ein Feed bezeichnet im Kontext der Projektarbeit allgemein den Anbieter
-     von Änderungen auf Webseiten in standardisierten Formaten. Als Beispiel
-     soll die Sueddeutsche Zeitung als Anbieter genannt werden, der
-     Änderungen im RSS-Format mitteilt. Hier spricht man vom *Feed* der
-     Sueddeutschen Zeitung.
+     Ein Feed ist ein strukturiertes Datenformat welches von Webseiten verwendet
+     wird um Änderungen mitzuteilen. Als Beispiel soll die Sueddeutsche Zeitung
+     als Anbieter eines Feeds genannt werden, der Änderungen im RSS-Format
+     mitteilt. Hier spricht man vom *Feed* der Sueddeutschen Zeitung.
 
-     Zusätzlich ist innerhalb *gylfeed* ein Feed eine Repräsentation des
-     ursprünglichen Feeds.
+     Bezogen auf die Projektarbeit repräsentiert innerhalb *gylfeed* ein Feed
+     die Daten des ursprünglichen Feeds eines Anbieters.
     
     Entry
 
-     Ein Entry ist innerhalb *gylfeed* ein Teil eines Feeds. Ein Feed kann
-     mehrere Entries enthalten. Es handelt sich um die einzelne
-     Nachricht, die ein Feed veröffentlicht. Ein Entry enthält beispielsweise
-     einen Titel, ein Bild, einen Zeitstempel und einen Plot.
+     Ein Entry bezeichnet einen Eintrag eines Feeds. Ein Feed kann mehrere
+     Entries besitzen. Es handelt sich jeweils um die einzelne Nachricht, die
+     ein Feed veröffentlicht. Ein Entry enthält beispielsweise einen Titel, ein
+     Bild, einen Zeitstempel und einen Plot. Ein Entry ist auch innerhalb
+     *gylfeed* ein Teil eines Feeds. 
    
-    
-    Listbox
 
-     Eine Listbox ist innerhalb *gylfeed* eine Instanz von Gtk.Listbox.
-     Es handelt sich um einen Container, der mehrere Listbox Rows enthalten 
-     kann.
+    GTK
 
-    Listbox Row
+     Das GIMP Toolkit ist eine Bibliothek zur Erstellung grafischer Oberflächen.
+     GTK findet vorwiegend im unixoiden Bereich Anwendung.
+     
+    Stack
 
-     Eine Listbox Row ist Bestandteil einer Listbox und enthält selbst Daten,
-     die auf der grafischen Benutzeroberfläche angezeigt werden. Innerhalb
-     *gylfeed* werden Listbox Rows für die Anzeige von Feeds und die Anzeige
-     von Entries in Listenform eingesetzt.
+     Im Kontext der Projektarbeit ist ein Stack (dt. Stapel) eine Funktionalität
+     von GTK welche es ermöglicht mit Animationen zwischen den einzelnen Ansichten zu wechseln.
 
      
+    Future Objekt
+
+     Ein Future Objekt wird in der Softwareentwicklung als ,,Platzhalter" für
+     ein ausstehendes Resultat verwendet. Über dieses Objekt kann das
+     Ergebnis eines asynchronen Aufrufs abgefragt werden.
+
     XML
 
-     Extensible Markup Language ist eine Auszeichnungssprache zur baumartig
+     Extensible Markup Language, ist eine Auszeichnungssprache zur baumartig
      strukturierten Darstellung von Daten in Form von Textdateien.
 
 

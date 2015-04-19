@@ -76,7 +76,7 @@ Anzeige der Feeds - *FeedView*
 
 .. figure:: ./figs/scratchFeedview.png
     :alt: Mockup der Ansicht FeedView.
-    :width: 80%
+    :width: 90%
     :align: center
     
     Mockup der Ansicht *FeedView*.
@@ -100,7 +100,6 @@ Labels für die Anzahl der neuen, ungelesenen, gesamten Nachrichten angezeigt
 . Jede Listbox Row enthält einen Settings-Button. Dieser öffnet die Ansicht
 *FeedOptionsView*. Die Ansicht ist scrollbar.
 
-
 Suche innerhalb einer Ansicht
 -----------------------------
 
@@ -116,7 +115,6 @@ angezeigten Feeds nach unten und schafft Platz für die Suchleiste.
     :align: center
     
     Mockup der Ansicht *FeedView* mit aktivierter Suchfunktion.
-
 
    
 Ansicht der Optionen - *FeedOptionsView*
@@ -205,7 +203,10 @@ sind.
     
     Mockup der *FeedView* mit geöffnetem Menü.
 
- 
+.. raw:: latex
+
+   \newpage
+
 Navigationskonzept
 ==================
 

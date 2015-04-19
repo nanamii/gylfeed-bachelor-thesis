@@ -26,9 +26,12 @@
     CSS                      *Cascading Style Sheets*
     GTK                      *GIMP Toolkit*
     GUI                      *Graphical User Interface*
+    HTML                     *Hypertext Markup Language*
+    HTTP                     *Hypertext Transfer Protocol*
     PEP                      *Python Enhancement Proposals*
     RSS                      *Really Simple Syndication*
     URL                      *Uniform Resource Locator*
+    XML                      *Extensible Markup Language*   
     =======================  ==================================
 
 .. raw:: latex

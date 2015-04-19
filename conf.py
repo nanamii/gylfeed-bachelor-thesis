@@ -188,6 +188,7 @@ htmlhelp_basename = 'htmlhelpoutput'
 
 ADDITIONAL_PREAMBLE = """
 \\usepackage{sphinx}
+\\usepackage{url}
 
 \\makeatletter
 \\makeatother

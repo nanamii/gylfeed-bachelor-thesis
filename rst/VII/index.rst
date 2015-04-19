@@ -415,22 +415,18 @@ Installation
 Folgender Befehlsaufruf zeigt das Herunterladen von *gylfeed* über die
 Kommandozeile:
 
-.. code-block:: python
+.. code-block:: bash
 
-   git clone "https://github.com/nanamii/gylfeed.git"
+   $ git clone https://github.com/nanamii/gylfeed.git
 
 Wie bereits erwähnt liegt der Quellcode von *gylfeed* beim 
 Code-Hosting-Service *GitHub*. Mit *git clone* wird das Repository mit
 dem Namen *gylfeed* über den angegebenen Link in das aktuelle Arbeitsverzeichnis 
-gespeichert.
+gespeichert. Mit folgendem Befehl kann *gylfeed* ausgeführt werden:
 
+.. code-block:: bash
 
-
-Mit folgendem Befehl kann *gylfeed* ausgeführt werden:
-
-.. code-block:: python
-
-   python3 gylfeed.py
+   $ python3 gylfeed.py
 
 Die Ausführung des Befehls muss innerhalb des Zielverzeichnisses geschehen,
 indem die Datei gylfeed.py liegt.
