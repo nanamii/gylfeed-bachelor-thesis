@@ -3,7 +3,7 @@
 .. _doc-title:
 
 #############################
-gylfeed: |br| Projektarbeit
+gylfeed: |br| Bachelorarbeit
 #############################
 
 .. only:: not singlehtml

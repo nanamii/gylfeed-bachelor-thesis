@@ -112,7 +112,7 @@ Wissen und Erfahrung gebracht hat. Es ist geplant, die Entwicklung von
 *gylfeed* weiterzuführen und die genannten Verbesserungen umzusetzen.
 
 
-
-
-
+Um einen zusammenfassenden Einblick in die Funktionalitäten und Eigenschaften 
+von *gylfeed* zu erhalten, wurde ein Video erstellt. Das Video ist unter
+dem Link https://vimeo.com/125457385 abrufbar.
 

@@ -49,7 +49,7 @@ C. Die Projektseite selbst (vgl. :cite:`PSL`) gibt den Umfang des Codes mit ca.
 Grundfunktionalitäten
 ---------------------
 
-Die Grundfunktionalitäten von *Liferea* werden anhand der Benutzerobefläche (siehe Abbildung :num:`liferea`) erläutert.
+Die Grundfunktionalitäten von *Liferea* werden anhand der Benutzeroberfläche (siehe Abbildung :num:`liferea`) erläutert.
 In der Werkzeugleiste sind folgende Funktionalitäten zu finden:
 
  * Feed hinzufügen

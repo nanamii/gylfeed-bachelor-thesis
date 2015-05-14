@@ -1,8 +1,8 @@
 .. _ch-refs:
 
-================================
-Überblick zum Feedreader gylfeed
-================================
+======================
+Grundlegendes zu Feeds
+======================
 
 Newsfeeds bedienen sich verschiedener Formate, um ihre Daten zu veröffentlichen.
 Im Folgenden sollen die verschiedenen Formate aufgezeigt und kurz erläutert

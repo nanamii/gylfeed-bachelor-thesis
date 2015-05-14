@@ -96,8 +96,8 @@ aktuell die *FeedView* dargestellt, wird als Titel die Anzahl der Feeds angezeig
 
 Innerhalb der *FeedView* selbst ist eine Listbox enthalten, die wiederum
 Listbox Rows enthält. In einer Listbox Row wird der Titel des Feeds und 
-Labels für die Anzahl der neuen, ungelesenen, gesamten Nachrichten angezeigt
-. Jede Listbox Row enthält einen Settings-Button. Dieser öffnet die Ansicht
+Labels für die Anzahl der neuen, ungelesenen, gesamten Nachrichten angezeigt.
+Jede Listbox Row enthält einen Settings-Button. Dieser öffnet die Ansicht
 *FeedOptionsView*. Die Ansicht ist scrollbar.
 
 Suche innerhalb einer Ansicht

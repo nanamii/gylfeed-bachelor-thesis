@@ -73,7 +73,17 @@ eingesetzt. Gelagert wird der Quellcode auf *GitHub*, einem Hosting-Dienst für
 Software-Entwicklungsprojekte (vgl. :cite:`github` -- Offizielle Webseite von
 *GitHub*). Folgender Link führt zur *GitHub*-Webseite des Projekts:
 
-    * https://github.com/nanamii/gylfeed/ 
+    * https://github.com/nanamii/gylfeed/
+
+
+**Dokumentation:** Die Projektarbeit enthält lediglich Erläuterungen zum
+Grundaufbau und den Schnittstellen der Software. Eine ausführliche
+API-Dokumentation kann nach dem Prinzip der literalen Programmierung, wie von
+Donald E. Knuth empfohlen (vgl. :cite:`knuth`), umgesetzt werden. In diesem Fall
+liegen Quellcode und Dokumentation des Programms in der gleichen Datei. Unter
+Python kann so anschließend die Dokumentation automatisiert mit Hilfe des
+Dokumentationswerkzeugs *Sphinx* generiert werden. Diese Dokumentation ist zum
+Zeitpunkt der Abgabe der Projektarbeit noch in Bearbeitung. 
 
 **Projektumfang:**
 Der Projektumfang beträgt ca. 2000 *Lines of Code*. Eine Statistik zum Projekt, welche mit dem Tool
@@ -203,7 +213,7 @@ die kein Icon liefern, wurde ein Standardicon entworfen, dass sich an das RSS
 Entsprechende Details werden anhand der Ansichten erläutert.
 
 
-Ansicht *Feedview*
+Ansicht *FeedView*
 ------------------
 
 Abbildung :num:`feedview` zeigt die implementierte Ansicht *FeedView*. Hier

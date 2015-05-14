@@ -8,7 +8,7 @@
 Feedreader *QuiteRSS* und *RSSOwl*
 ==================================
 
-Die Feedreader *RSSOwl* und *QuiteRSS* als weitere Beispiele von 
+Screenshots der Feedreader *RSSOwl* (Quelle: http://www.heise.de/) und *QuiteRSS* als weitere Beispiele von 
 Desktop-Feedreadern, die an den Aufbau eines Mailclients angelehnt sind.
 
 
@@ -17,7 +17,7 @@ Desktop-Feedreadern, die an den Aufbau eines Mailclients angelehnt sind.
     :width: 100%
     :align: center
     
-    Benutzeroberfläche des Feedreaders *RSSOwl*, Quelle: http://www.heise.de/.
+    Benutzeroberfläche des Feedreaders RSSOwl. [h!]
 
 .. _quiterss:
 
@@ -26,7 +26,7 @@ Desktop-Feedreadern, die an den Aufbau eines Mailclients angelehnt sind.
     :width: 80%
     :align: center
     
-    Benutzeroberfläche des Feedreaders *QuiteRSS*.
+    Benutzeroberfläche des Feedreaders QuiteRSS.
 
 
 .. _dict:

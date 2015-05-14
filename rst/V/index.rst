@@ -92,7 +92,7 @@ benutzt wird. *View* selbst erbt von Gtk.Grid und beinhaltet ein
 Gtk.ScrolledWindow -- ein scrollbares Fenster -- das von den Unterklassen
 benutzt wird, um Inhalte darzustellen.
 
-**FeedView:** *FeedView* leitet von der Oberklasse *View* ab und beihnaltet
+**FeedView:** *FeedView* leitet von der Oberklasse *View* ab und beinhaltet
 selbst n *FeedRows*. Diese spezialisierte View wird die vorhandenen Feeds
 anzeigen.
 
@@ -251,8 +251,8 @@ von Gtk.ApplicationWindow um.
 
 **Feedhandler**:
 
-``__init__()``: Aufruf des Konstruktors der Oberklasse GObject.Object
-ermöglicht in diesem Fall das Anbieten eigener Signale.
+``__init__()``: Aufruf des Konstruktors der Oberklasse GObject.Object.
+Das ermöglicht in diesem Fall das Anbieten eigener Signale.
 
 ``create_feed(init_data)``: Erstellt ein Feedobjekt. Der Parameter ``init_data``
 stellt ein Dictionary dar, das Schlüssel/Wert-Paare enthält. Diese sind URL,
@@ -267,7 +267,7 @@ wird ein Update für jeden Feed ausgelöst.
 ``delete_feed(feed)``: Löscht den im Funktionsaufruf übergebenen *Feed*.
 
 ``delete_old_entries()``: Ruft für jeden im Feedhandler geführten *Feed* 
-deren Funktion delete_old_entries(max_days) auf.
+deren Funktion delete_old_entries() auf.
 
 ``save_to_disk()``: Speichert die zu serialisierenden Daten auf Festplatte.
 Hierzu wird die Hilfsfunktion ``get_serializable_data()`` herangezogen.
@@ -282,7 +282,7 @@ das Dictionary init_data. Darin enthalten sind alle Daten, die beim
 Hinzufügen des Feeds generiert wurden. Dazu gehören URL, Name des Feeds 
 und alle weiteren Feed-Optionen. Neben init_data kann ein Flag für 
 ein Icon, eine Referenz auf Feedhandler und der Typ des Feeds übergeben 
-werden. Für diese Argumente - hier als args zusammengefasst - sind Default-Werte gesetzt, d.h. diese Argumente
+werden. Für diese Argumente - hier als ``args`` zusammengefasst - sind Default-Werte gesetzt, d.h. diese Argumente
 müsssen nicht zwingend übergeben werden. 
 
 ``add_updater(update_interval=None)``: Fügt dem Feed unter Angabe des
@@ -335,7 +335,7 @@ kompletten Daten durchführt.
 **Document:**
 
 ``__init__()``: Die Klasse *Document* ruft im Konstruktor den Konstruktor
-von GObject auf. GObject ermöglicht in diesem Fall das Anbieten eigener
+von GObject.Object auf. GObject ermöglicht in diesem Fall das Anbieten eigener
 Signale.
 
 Die Klasse *Document* ist ein Future-Objekt für den *Downloader*.
@@ -343,7 +343,7 @@ Die enthaltene Funktion ``_append(chunk)`` wird von der Klasse
 *Downloader* solange aufgerufen, bis der eingehende Bytestream vollständig
 gelesen ist. An dieser Stelle kommt die Funktion ``_finish()`` zum Einsatz.
 Ist der Bytestream vollständig gelesen, löst die Funktion ``_finish()`` das
-Signal *finish* aus. Anhand dieses Signals wird bespielsweise in den 
+Signal *finished* aus. Anhand dieses Signals wird bespielsweise in den 
 Instanzen von *Feed* die Funktion ``parse()`` aufgerufen.
 
 .. raw:: latex
@@ -353,7 +353,7 @@ Instanzen von *Feed* die Funktion ``parse()`` aufgerufen.
 **MainWindow:**
 
 ``__init__(app, feedhandler)``: Der Konstruktor der Klasse *MainWindow*
-erwartet eine Instanz der Klasse *MainApplication* -- hier app -- und eine Instanz
+erwartet eine Instanz der Klasse *MainApplication* -- hier ``app`` -- und eine Instanz
 der Klasse *Feedhandler*. Innerhalb des Konstruktors wird der Konstruktor der
 Oberklasse, Gtk.ApplicationWindow, aufgerufen. 
 

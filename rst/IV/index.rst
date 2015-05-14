@@ -142,9 +142,9 @@ für den Benutzer angemessen zügig ablaufen.
 Anforderungen an die Benutzeroberfläche
 =======================================
 
-**Entwicklung nach Gnome Design-Richtlinien:** Grundsätzlich soll sich an den
+**Entwicklung nach GNOME Design-Richtlinien:** Grundsätzlich soll sich an den
 GNOME Human Interface Guidelines orientiert werden (vgl. :cite:`GIG`). Zur Umsetzung
-der grafischen Benutzeroberfläche wird das Gimp Toolkit (GTK) verwendet.
+der grafischen Benutzeroberfläche wird das Gimp Toolkit (GTK vgl. :cite:`GTK` -- Online Dokumentation von GTK) verwendet.
 
 **Minimalistisches Design:** Die GUI soll klar strukturiert sein, es soll nur
 das Wesentliche dargestellt werden.
@@ -153,7 +153,7 @@ das Wesentliche dargestellt werden.
 Benutzeroberfläche entwickelt werden. Hier ist ein neues Konzept zu entwickeln.
 
 **Einfachheit der Bedienung:** Es wird in der Regel nur ein Weg angeboten, dieser sollte der
-geeigneste sein. 
+geeignetste sein. 
 
 **Innovatives Navigationskonzept:** Es wird eine komfortable Navigation
 angeboten. Die Benutzeroberfläche muss neben der Navigation per Maus, 
