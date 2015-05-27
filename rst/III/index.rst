@@ -1,6 +1,6 @@
-***********************
-Verwendung von Signalen
-***********************
+**************************
+Kommunikation über Signale
+**************************
 
 Signale werden innerhalb von *gylfeed* verwendet, um ...
 An dieser Stelle sollen die Hintergründe und theoretischen Grundlagen zu

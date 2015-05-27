@@ -1,34 +1,23 @@
 .. _architekturentwurf:
 
-***********************************
-Asynchroner vs. Synchroner Download
-***********************************
+***************************
+Verarbeitung der Feed-Daten
+***************************
 
 
 
-Ablauf
-======
+Problemstellungen
+=================
 
-Asynchroner Download
---------------------
+Feedformate
+-----------
 
-
-Synchroner Download
--------------------
-
-
-Performance 
-===========
-
-Asynchroner Download
---------------------
-
-Synchroner Download
--------------------
+Fehlende Attribute
+------------------
 
 
-Vorteile des asynchronen Verfahrens
-===================================
+Lösungsansätze
+==============
 
 
 Umsetzung innerhalb von *gylfeed*

@@ -64,7 +64,7 @@ Die Umsetzung von *gylfeed* erfolgte mit der Programmiersprache Python in der
 Version 3.3. Die grafische Benutzeroberfläche wurde mit GTK3, dem Gimp Toolkit,
 umgesetzt.
 
-Es wurden die in Abbildung :cite:`klassendiagramm` dargestellten Klassen
+Es wurden die in Abbildung :num:`klassendiagramm` dargestellten Klassen
 implementiert.
 
 .. _klassendiagramm:
@@ -134,5 +134,50 @@ Signalen an die jeweilige logische Einheit. Die Theoretischen Grundlagen zu
 Signalen und die Verwendung von Signalen innerhalb *gylfeed* wird in Kapitel XX
 betrachtet. 
 
+
+Die grafische Benutzeroberfläche
+================================
+
+Ein großer Anteil der Entwicklung von *gylfeed* betraf den Entwurf und die
+Implementierung der grafischen Benutzeroberfläche. Die verschiedenen Ansichten
+sind zusammengefasst in der Abbildung :num:`guioverview` zu sehen.
+
+Die Funktionalitäten der einzelnen Ansichten zusammengefasst:
+
+**FeedView**: Die FeedView beinhaltet alle bisher abonnierten Feeds. Es ist
+möglich über den Button *Settings* Einstellungen für den Feed vorzunehmen oder
+den Feed zu löschen. Für jeden Feed wird angezeigt, wieviele neue, ungelesene,
+gesamten Nachrichten der Feed hat.
+
+**EntryListView**: In der EntryListView werden alle Nachrichten eines
+ausgewählten Feeds in Listenform angezeigt.
+
+**EntryDetailsView**: Die EntryDetailsView zeigt eine bestimmte Nachricht im
+Detail an. Es wird der Titel, Zeitstempel der Nachricht und der Plot der
+Nachricht angezeigt. Falls die Nachricht Bildmaterial enthält, wird dieses
+ebenfalls dargestellt. Innerhalb dieser Ansicht ist es möglich, die
+Ursprungsmeldung der jeweiligen Nachricht in einem eingebetteten Browser
+anzeigen zu lassen.
+
+**FeedOptionsView**: Diese Ansicht enthält neben den Daten zum Feed sämtliche
+Einstellungen, die gesetzt werden können. Die Daten sind die URL und der Name
+des Feeds. Mögliche Einstellungen sind:
+
+ * Automatisches Update
+ * Update-Intervall
+ * Löschen von Nachrichten nach X Tagen
+ * Notifications bei neuen Nachrichten
+
+
+.. _guioverview:
+
+.. figure:: ./figs/guioverview.png
+    :alt: Grafische Benutzeroberfläche von gylfeed.
+    :width: 100%
+    :align: center
+    
+    Grafische Benutzeroberfläche von *gylfeed*. Beginnend mit der Ansicht
+    FeedView, gefolgt von den Ansichten EntryListView, EntryDetailsView und
+    FeedOptionsView.
 
 
