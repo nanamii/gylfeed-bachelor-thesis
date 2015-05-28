@@ -82,8 +82,8 @@ Grundkonzept von *gylfeed*
 ==========================
 
 In Abbildung :num:`funktionsprinzip` ist das Funktionsprinzip von *gylfeed*
-dargestellt. Anhand dieser Darstellung soll ein Grundverständnis für den 
-Aufbau und die Abläufe innerhalb des Feedreaders geschaffen werden.
+dargestellt. Anhand dieser Darstellung soll der 
+Aufbau und die Abläufe innerhalb des Feedreaders erläutert werden.
 
 .. _funktionsprinzip:
 
@@ -94,9 +94,15 @@ Aufbau und die Abläufe innerhalb des Feedreaders geschaffen werden.
     
     Funktionsprinzip von *gylfeed*.
 
+Das Konzept ist in die Bereiche Beschaffung der Daten (Collecting Data),
+Verarbeitung der Daten (Processing Data) und Darstellung der Daten (Presenting
+Data) aufgeteilt. Die Bachelorarbeit wird in den folgenden Kapiteln auf
+Einzelheiten dieser Bereiche eingehen.
 
-Die Nummerierungen der Aktionen dienen zur Orientierung und werden an dieser
-Stelle verwendet, um mit der Beschreibung des Diagramms zu beginnen.
+
+An dieser Stelle soll der Grobablauf des Feedreaders erläutert werden.
+Die Nummerierungen der Aktionen dienen zur Orientierung und werden dazu
+verwendet, um mit der Beschreibung des Diagramms zu beginnen.
 
 Es wird angenommen, im Objekt Feed wird gefordert ein Update durchzuführen (1).
 Dieser Auftrag wird an den Downloader weitergegeben. Dieser lädt die angefragten
@@ -104,8 +110,7 @@ Daten über das Web herunter (2). An dieser Stelle ist anzumerken, dass hier nic
 immer die kompletten Daten des Feeds heruntergeladen werden. Lässt es
 die Struktur des betreffenden Feeds zu, wird nur dann ein kompletter Download
 der Daten des Feeds durchgeführt, wenn sich dieser tatsächlich geändert hat.
-Hier gibt es verschiedene Möglichkeiten festzustellen, ob eine Änderung vorliegt,
-dies wird innerhalb des Kapitels XX!!!!! näher betrachtet.
+Näheres hierzu wird in Kapitel XX betrachtet.
 
 
 Im nächsten Schritt empfängt der Downloader die Daten aus dem Web (3). 

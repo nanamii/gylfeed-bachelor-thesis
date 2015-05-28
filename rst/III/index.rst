@@ -2,13 +2,24 @@
 Kommunikation über Signale
 **************************
 
-Signale werden innerhalb von *gylfeed* verwendet, um ...
-An dieser Stelle sollen die Hintergründe und theoretischen Grundlagen zu
-Signalen näher betrachtet werden.
+Signale werden innerhalb von *gylfeed* einerseits verwendet, um Interaktionen vom Benutzer
+zu erkennen und weiterzuleiten. Andererseits werden Signale für interne Abläufe
+verwendet. An dieser Stelle sollen die Hintergründe und theoretischen Grundlagen zu
+Signalen näher betrachtet und die Anwendung innerhalb von *gylfeed* erläutert
+werden.
 
 
-Hintergründe zu Signalen
-========================
+GTK+ im Überblick
+=================
+
+GTK+, das GIMP Toolkit bietet die Grundlage für die Verwendung von Signalen.
+GTK+
+wurde ursprünglich für das GNU Image Manipulation Programm (GIMP) entwickelt
+(vgl. :cite:`gimp` -- offizielle Webseite von GIMP).
+Dieser Ursprung blieb im Namen von GTK+ enthalten. Zwischenzeitlich wurde die
+dritte Version von GTK+ entwickelt. GTK+ ist plattformübergreifend und unter der 
+LGPL (GNU Lesser General Public License) lizenziert (vgl. :cite:`lgpl`).
+
 
 Als erstes sei erwähnt, dass GTK ereignisbasiert ist. GTK wartet solange, bis ein
 Ereignis ausgelöst wird, beispielsweise durch einen Klick auf einen Button. GTK gibt dieses Ereignis an das
