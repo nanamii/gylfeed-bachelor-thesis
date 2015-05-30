@@ -99,30 +99,24 @@ Signale verwenden
 =================
 
 Im Folgenden wird die Verwendung von Signalen anhand von Beispielen näher
-betrachet. Einerseits ist es möglich, Widgets mit deren bereits vorhandener
-Signale zu verbinden, oder eigene Signale zu definieren.
+betrachet. 
 
-Built-In Signale
-----------------
+Widgets wie beispielsweise *Gtk.Button* bieten bereits Signale an, mit denen das
+jeweilige Widget verbunden werden kann. Außerdem bietet GTK+ die Möglichkeit,
+eigene Signale zu definieren. Beide Varianten werden nun näher betrachtet.
 
-Eigene Signale
---------------
 
-Als erstes sei erwähnt, dass GTK ereignisbasiert ist. GTK wartet solange, bis ein
-Ereignis ausgelöst wird, beispielsweise durch einen Klick auf einen Button. GTK gibt dieses Ereignis an das
-betreffende Widget weiter, hier der Button. Der Button löst in diesem Fall das
-Signal *clicked* aus. Damit das Auslösen des Signals etwas bewirken kann, musste der Button 
-bereits vorher mit diesem Signal verknüpft und eine entsprechende Callback-Funktion
-zugewiesen werden. Die Callback-Funktion enthält den gewünschten Code, der ausgeführt
-werden soll, wenn genau dieser Button angeklickt wird. 
+Widgets und Signale
+-------------------
 
-.. raw:: latex
+Als Beispiel soll weiterhin der *Gtk.Button* dienen. Für den *Gtk.Button* werden
+under anderem folgende Signale angeboten:
 
-   \newpage
+ * *activate*
+ * *clicked*
 
-Folgendes kurze Codebeispiel soll das erläuterte Prinzip nochmals anschaulich
-darstellen.
-
+Folgendes Codebeispiel zeigt das Verbinden mit dem Signal *clicked* und die
+Hinterlegung der Callback-Funktion:
 
 .. code-block:: python
 
@@ -142,9 +136,53 @@ darstellen.
 
     Gtk.main()                                  # Gtk Main-Loop
 
-Es können nicht nur bereits vorhandene Signale verwendet werden, sondern eigene
-Signale definiert werden. Hierzu ist es notwendig, dass die Instanz, die ein
-Signal anbieten möchte, von GObject.Object erbt. Innerhalb der Projektarbeit 
+
+
+Eigene Signale
+--------------
+
+
+Wie bereits erwähnt können nicht nur bereits vorhandene Signale verwendet werden. 
+Die Definition eigener Signale ist möglich. Hierzu ist es notwendig, dass die Instanz, die ein
+Signal anbieten möchte, von GObject.Object ableitet. Im Falle des *Gtk.Button*
+ist dies bereits aufgrund der vorliegenden Hierarchie gegeben (siehe Abbildung
+:num:`widgethierarchie`). Für die Definition von eigenen Signalen muss die
+Ableitung von GObject.GObject nachgeholt werden.
+
+
+Ein neues Signal kann folgendermaßen definiert werden:
+
+.. code-block:: python
+
+    __gsignals__ = {
+                'new_signal': (GObject.SIGNAL_RUN_FIRST, None,
+                (int,))
+            }
+
+
+Es wird ein Dictionary mit dem Signalnamen *new-signal* als Schlüssel angelegt. Dem
+zugeordnet sind die Werte für den Zeitpunkt der Ausführung des Objekt-Handlers,
+ein möglicher Rückgabewert und die Übergabeparameter. Im Codebeispiel ist als
+Zeitpunkt *GObject.SIGNAL_RUN_FIRST* angegeben, dies bedeutet, dass die
+Callback-Funktion in der ersten ??Runde?? ausgeführt wird. Als Rückgabewert ist
+*None* angegeben, d.h. die Callback-Funktion hat keinen Rückgabewert. Als
+Übergabeparameter ist *int* angegeben, d.h. die Callback-Funktion erwartet einen
+Integer-Wert. Die Auflistung der Übergabeparameter muss mit einem Komma
+abgeschlossen werden.
+
+
+
+Vorteile von Signalen
+---------------------
+
+Vergleich mit anderen Konzepten???
+==================================
+
+
+Signale innerhalb von *gylfeed*
+===============================
+
+Innerhalb der Projektarbeit 
 bietet beispielsweise die Klasse *Document* das Signal *finished* an. Die Klasse
 Feed, die dieses Signal nutzen möchte verknüpft sich mit dem Signal. Feed ist
 daran interessiert, benachrichtigt zu werden, sobald dieses Signal ausgelöst
@@ -153,19 +191,6 @@ Angabe einer Callback-Funktion notwendig. Nun sind die Voraussetzungen
 geschaffen, um im Quellcode bei Bedarf das Signal auszulösen. Beispielsweise
 wird das Signal *finished* ausgelöst, wenn der asynchrone Download beendet ist.
 
-
-
-
-Vorteile von Signalen
----------------------
-
-
-Vergleich mit Observer-Pattern
-------------------------------
-
-
-Signale innerhalb *gylfeed*
-===========================
 
 In Abbildung ... ist die Verwendung von Signalen innerhalb *glyfeed*
 dargestellt.
