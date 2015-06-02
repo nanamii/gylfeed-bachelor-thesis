@@ -154,15 +154,14 @@ Ein neues Signal kann folgendermaßen definiert werden:
 
 .. code-block:: python
 
-    __gsignals__ = {
-                'new_signal': (GObject.SIGNAL_RUN_FIRST, None,
-                (int,))
-            }
-
+        __gsignals__ = {
+                    'new-signal': (GObject.SIGNAL_RUN_FIRST, None,
+                    (int,))
+                }
 
 Es wird ein Dictionary mit dem Signalnamen *new-signal* als Schlüssel angelegt. Dem
-zugeordnet sind die Werte für den Zeitpunkt der Ausführung des Objekt-Handlers,
-ein möglicher Rückgabewert und die Übergabeparameter. Im Codebeispiel ist als
+zugeordnet sind folgende Werte: Der Zeitpunkt der Ausführung des Objekt-Handlers,
+ein möglicher Rückgabewert und Übergabeparameter. Im Codebeispiel ist als
 Zeitpunkt *GObject.SIGNAL_RUN_FIRST* angegeben, dies bedeutet, dass die
 Callback-Funktion in der ersten ??Runde?? ausgeführt wird. Als Rückgabewert ist
 *None* angegeben, d.h. die Callback-Funktion hat keinen Rückgabewert. Als
@@ -170,6 +169,47 @@ Callback-Funktion in der ersten ??Runde?? ausgeführt wird. Als Rückgabewert is
 Integer-Wert. Die Auflistung der Übergabeparameter muss mit einem Komma
 abgeschlossen werden.
 
+Der gesamte Code mit Ableitung der Instanz, für die ein neues Signal erstellt
+wird und Definition der Callback-Funktion sieht folgendermaßen aus:
+
+
+.. code-block:: python
+ 
+   class NewObject(GObject.GObject):
+        __gsignals__ = {
+                'new-signal': (GObject.SIGNAL_RUN_FIRST, None,
+                (int,))
+            }
+
+        def __init__(self):
+            Gobject.GObject.__init__(self)
+
+            self.sum = 0
+
+    def update_sum(self, num):
+        self.sum += num
+        
+
+Im Codebeispiel ist die Klasse *NewObject* definiert, die von GObject.GObject
+ableitet. Zusätzlich wurde die Callback-Funktion *update_sum* definiert.
+
+
+Das neu erstellte Signal kann folgendermaßen genutzt werden:
+
+.. code-block:: python
+
+   new_object.connect('new-signal', update_sum)
+
+
+Nachdem sich die Instanz *new_object* der Klasse *NewObject* mit dem Signal
+*new-signal* verbunden hat, kann dieses Signal ausgelöst (emittiert) werden.
+Das Auslösen des Signals innerhalb einer Funktion ist im folgenden Codebeispiel zu sehen:
+
+.. code-block:: python
+ 
+   def calc_num():
+       num = calcrandom()
+       new_object.emit('new-signal', num)
 
 
 Vorteile von Signalen
@@ -182,7 +222,71 @@ Vergleich mit anderen Konzepten???
 Signale innerhalb von *gylfeed*
 ===============================
 
-Innerhalb der Projektarbeit 
+Innerhalb des Feedreaders *gylfeed* werden sowohl vorhandene Signale von
+Widgets, als auch eigens neu definierte Signale verwendet.
+
+Abbildung ... zeigt die Übersicht der eigens erstellten Signale, die innerhalb von *gylfeed*
+eingesetzt werden. Für folgende Klassen wurden eigene Signale definiert
+
+**Feed**: Die Klasse *Feed* bietet die Signale *created* und *updated* an.
+Der Feedhandler registriert sich auf diese Signale, um seinerseits weitere
+Aktionen auszuführen.
+
+ * *created*: wird emittiert, sobald eine Instanz von Feed erstellt wurde.
+    Callback-Funktionen: self_create_feed_deferred() -- in Feedhandler 
+ * *updated*: wird emittiert, sobald ein Update abgeschlossen ist
+   Calback-Funktionen: self.sig_feed_updated() -- in Feedhandler
+                       self.redraw_num_labels() -- in FeedView
+
+
+**Feedhandler**: Die Klasse *Feedhandler* bietet die Signale *feed-created*,
+*feed-updated* und *feed-add-exception* an. Es wird sich innerhalb der Klasse
+*MainWindow*, *EntryListView* und *FeedOptionsView* auf die Signale registriert.
+
+ * *feed-created*: wird emittiert, sobald alle Prüfungen auf Ausnahmen
+    bezüglich der Erstellung eines Feed-Objekts abgeschlossen sind.
+    Callback-Funktionen: self.on_feed_created() -- in MainWindow
+
+ * *feed-updated*: wird emittiert, sobald das Update abgeschlossen ist.
+    Callback-Funktionen: self.update_entryview() -- in EntryListView
+
+ * *feed-add-exception*: wird emittiert, sobald bei der Erstellung
+    eines Feed-Objekts eine Ausnahme erkannt wurde. Beim Auslösen des
+    Signals wird der Hinweistext, der dem Benutzer angezeigt wird, übergeben.
+   Callback-Funktionen: self.exception_handling() -- in FeedOptionsView
+
+**FeedView**: Die Klasse *FeedView* bietet die Signale
+*preferences-clicked* und *ok-delete-clicked* an. Es wird sich innerhalb der
+Klasse *MainWindow* auf die Signale registriert.
+
+ * *preferences-clicked*: wird emittiert, sobald vom Benutzer die Optionen
+    für einen bestimmten Feed abgefragt werden.
+    Callback-Funktionen: feed_options.show_options_filled()...zeigt die Ansicht
+    *FeedOptionsView* befüllt mit den Daten des jeweiligen Feeds...
+
+ * *ok-delete-clicked*: wird emittiert, sobald der Benutzer das Löschen eines
+   Feeds bestätigt hat.
+   Callback-Funktioenen: self.delete_feed_actions() -- in MainWindow
+
+
+**View**: Die Klasse *View* bietet die Signale *view-enter* und *view-leave* an.
+
+ * *view-enter*: wird emittiert, sobald eine Ansicht angezeigt wird.
+   Callback-Funktionen: self._on_view_enter() -- in View, ruft on_view_enter()
+   der Unterklassen auf.
+ 
+ * *view-leave*: wird emittiert, sobald eine Ansicht verlassen wird.
+   Callback-Funktioenen: self._on_view_leave() -- in View, ruft on_view_leave()
+   der Unterklassen auf.
+
+**Document**: Die Klasse *Document* bietet das Signal *finish* an.
+
+
+                       
+Vorallem bei der asynchronen Programmierung bieten Signale Vorteile. Der
+Gebrauch von Signalen bei der Umsetzung des asynchronen Downloads der Feed-Daten
+wird in Kapitel XXXX näher betrachtet.
+
 bietet beispielsweise die Klasse *Document* das Signal *finished* an. Die Klasse
 Feed, die dieses Signal nutzen möchte verknüpft sich mit dem Signal. Feed ist
 daran interessiert, benachrichtigt zu werden, sobald dieses Signal ausgelöst
@@ -190,12 +294,4 @@ wird. Beim Verknüpfen mit dem Signal ist ebenso wie in obigem Codeblock die
 Angabe einer Callback-Funktion notwendig. Nun sind die Voraussetzungen
 geschaffen, um im Quellcode bei Bedarf das Signal auszulösen. Beispielsweise
 wird das Signal *finished* ausgelöst, wenn der asynchrone Download beendet ist.
-
-
-In Abbildung ... ist die Verwendung von Signalen innerhalb *glyfeed*
-dargestellt.
-
-
-
-
 
