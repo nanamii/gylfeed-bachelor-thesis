@@ -212,30 +212,33 @@ Das Auslösen des Signals innerhalb einer Funktion ist im folgenden Codebeispiel
        new_object.emit('new-signal', num)
 
 
-Vorteile von Signalen
----------------------
-
-Vergleich mit anderen Konzepten???
-==================================
-
-
 Signale innerhalb von *gylfeed*
 ===============================
 
 Innerhalb des Feedreaders *gylfeed* werden sowohl vorhandene Signale von
 Widgets, als auch eigens neu definierte Signale verwendet.
 
-Abbildung ... zeigt die Übersicht der eigens erstellten Signale, die innerhalb von *gylfeed*
+Abbildung :num:`signale` zeigt die Übersicht der eigens erstellten Signale, die innerhalb von *gylfeed*
 eingesetzt werden. Für folgende Klassen wurden eigene Signale definiert
+
+.. _signale:
+
+.. figure:: ./figs/signale.png
+    :alt: Übersicht der eigens definierten Signale.
+    :width: 100%
+    :align: center
+    
+    Übersicht der eigens definierten Signale.
+
 
 **Feed**: Die Klasse *Feed* bietet die Signale *created* und *updated* an.
 Der Feedhandler registriert sich auf diese Signale, um seinerseits weitere
 Aktionen auszuführen.
 
- * *created*: wird emittiert, sobald eine Instanz von Feed erstellt wurde.
+ +  **created:** Wird emittiert, sobald eine Instanz von Feed erstellt wurde.
     Callback-Funktionen: self_create_feed_deferred() -- in Feedhandler 
- * *updated*: wird emittiert, sobald ein Update abgeschlossen ist
-   Calback-Funktionen: self.sig_feed_updated() -- in Feedhandler
+ +  **updated:** Wird emittiert, sobald ein Update abgeschlossen ist.
+    Calback-Funktionen: self.sig_feed_updated() -- in Feedhandler
                        self.redraw_num_labels() -- in FeedView
 
 
@@ -243,55 +246,55 @@ Aktionen auszuführen.
 *feed-updated* und *feed-add-exception* an. Es wird sich innerhalb der Klasse
 *MainWindow*, *EntryListView* und *FeedOptionsView* auf die Signale registriert.
 
- * *feed-created*: wird emittiert, sobald alle Prüfungen auf Ausnahmen
+ +  **feed-created:** Wird emittiert, sobald alle Prüfungen auf Ausnahmen
     bezüglich der Erstellung eines Feed-Objekts abgeschlossen sind.
     Callback-Funktionen: self.on_feed_created() -- in MainWindow
 
- * *feed-updated*: wird emittiert, sobald das Update abgeschlossen ist.
+ +  **feed-updated:** Wird emittiert, sobald das Update abgeschlossen ist.
     Callback-Funktionen: self.update_entryview() -- in EntryListView
 
- * *feed-add-exception*: wird emittiert, sobald bei der Erstellung
+ +  **feed-add-exception:** Wird emittiert, sobald bei der Erstellung
     eines Feed-Objekts eine Ausnahme erkannt wurde. Beim Auslösen des
     Signals wird der Hinweistext, der dem Benutzer angezeigt wird, übergeben.
-   Callback-Funktionen: self.exception_handling() -- in FeedOptionsView
+    Callback-Funktionen: self.exception_handling() -- in FeedOptionsView
 
 **FeedView**: Die Klasse *FeedView* bietet die Signale
 *preferences-clicked* und *ok-delete-clicked* an. Es wird sich innerhalb der
 Klasse *MainWindow* auf die Signale registriert.
 
- * *preferences-clicked*: wird emittiert, sobald vom Benutzer die Optionen
+ +  **preferences-clicked:** Wird emittiert, sobald vom Benutzer die Optionen
     für einen bestimmten Feed abgefragt werden.
     Callback-Funktionen: feed_options.show_options_filled()...zeigt die Ansicht
     *FeedOptionsView* befüllt mit den Daten des jeweiligen Feeds...
 
- * *ok-delete-clicked*: wird emittiert, sobald der Benutzer das Löschen eines
-   Feeds bestätigt hat.
-   Callback-Funktioenen: self.delete_feed_actions() -- in MainWindow
+ +  **ok-delete-clicked:** Wird emittiert, sobald der Benutzer das Löschen eines
+    Feeds bestätigt hat.
+    Callback-Funktioenen: self.delete_feed_actions() -- in MainWindow
 
 
 **View**: Die Klasse *View* bietet die Signale *view-enter* und *view-leave* an.
 
- * *view-enter*: wird emittiert, sobald eine Ansicht angezeigt wird.
-   Callback-Funktionen: self._on_view_enter() -- in View, ruft on_view_enter()
-   der Unterklassen auf.
+ +  **view-enter:** Wird emittiert, sobald eine Ansicht angezeigt wird.
+    Callback-Funktionen: self._on_view_enter() -- in View, ruft on_view_enter()
+    der Unterklassen auf.
  
- * *view-leave*: wird emittiert, sobald eine Ansicht verlassen wird.
-   Callback-Funktioenen: self._on_view_leave() -- in View, ruft on_view_leave()
-   der Unterklassen auf.
+ +  **view-leave:** Wird emittiert, sobald eine Ansicht verlassen wird.
+    Callback-Funktioenen: self._on_view_leave() -- in View, ruft on_view_leave()
+    der Unterklassen auf.
 
 **Document**: Die Klasse *Document* bietet das Signal *finish* an.
+Es wird sich innerhalb der Klasse Feed auf das Signal registriert. Das Signal
+wird emittiert, sobald der asynchrone Download beendet ist. Eine detaillierte
+Betrachtung vom Ablauf des asynchronen Downloads wird in Kapitel XX!!
+durchgeführt. Callback-Funktionen sind self._load_icon_deferred(), self._parse()
+und self._parse_update().
 
 
-                       
-Vorallem bei der asynchronen Programmierung bieten Signale Vorteile. Der
-Gebrauch von Signalen bei der Umsetzung des asynchronen Downloads der Feed-Daten
-wird in Kapitel XXXX näher betrachtet.
+Chancen und Risiken
+===================
 
-bietet beispielsweise die Klasse *Document* das Signal *finished* an. Die Klasse
-Feed, die dieses Signal nutzen möchte verknüpft sich mit dem Signal. Feed ist
-daran interessiert, benachrichtigt zu werden, sobald dieses Signal ausgelöst
-wird. Beim Verknüpfen mit dem Signal ist ebenso wie in obigem Codeblock die
-Angabe einer Callback-Funktion notwendig. Nun sind die Voraussetzungen
-geschaffen, um im Quellcode bei Bedarf das Signal auszulösen. Beispielsweise
-wird das Signal *finished* ausgelöst, wenn der asynchrone Download beendet ist.
-
+Signale sind eine elegante Lösung, um auf eintretende Events individuell
+reagieren zu können. Ein Risiko besteht jedoch darin, dass bei einer Vielzahl an
+definierten Signalen die Übersicht verloren geht. Außerdem ist es anzuraten,
+selbsterklärende Signalnamen zu wählen.
+                      
