@@ -43,12 +43,40 @@ Anschließend verarbeitet der Feedreader die XML-Datei und zeigt dem Benutzer di
 Bei der Beschaffung der Feed-Daten ergeben sich folgende Problemstellungen:
 
 
-Performance
------------
+Performance der Anwendung
+-------------------------
 
-Ab einer bestimmten Anzahl an Feeds, für die eine Beschaffung der Daten erfolgen soll,
-treten Schwierigkeiten bei der Download-Performance auf. Dies ist vorallem dann
-der Fall, wenn sich für eine synchrone Umsetzung des Downloads entschieden wird.
+Der Main-Event-Loop, der in Kapitel :ref:`signale` vorgestellt wurde,
+verarbeitet Aufgaben grundsätzlich synchron. Bei einer synchronen Verarbeitung,
+wird gewartet, bis eine Aufgabe abgeschlossen ist, erst dann wird mit der
+Verarbeitung der nächsten Aufgabe begonnen. Bei einer großen Anzahl an Feeds,
+für die ein Download der Daten erfolgen soll, kann während der Beschaffung
+nichts anderes ausgeführt werden. Die Anwendung ist in diesem Moment
+aussschließlich mit dem Download der Feed-Daten beschäftigt. Das bedeutet, dass
+sich in dieser Zeit weder die grafische Benutzeroberfläche aktualisieren kann,
+noch Benutzereingaben vorgenommen werden können. Für den Benutzer der Anwendung
+ist das wenig erfreulich, er bekommt den Eindruck, dass die Anwendung nicht
+ausreichend flüssig läuft.
+
+
+Bandbreite des Downloads
+------------------------
+
+Werden bei jeder Aktualisierung, die vom Client angestossen wird, alle Feed-Daten
+der Feeds
+heruntergeladen, obwohl bei Teilen der Feeds keine Änderung vorliegt, 
+benötigt dies unnötige Download-Bandbreite. Auf Seiten des
+Clients würde festgestellt, dass keine Aktualisierungen vorliegen. Diese Prüfung
+beansprucht zusätzlich unnötige Rechenkapazität.
+
+
+Fehlerbehandlung
+----------------
+
+Beim Download der Feed-Daten können verschiedenste Fehler auftreten. Beispielsweise
+ist die URL nicht erreichbar oder der Download wird unterbrochen.
+
+
 
 
 Lösungsansätze
