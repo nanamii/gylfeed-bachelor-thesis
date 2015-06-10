@@ -170,9 +170,60 @@ der Quelle. Dieser sogenannte Header enthält die Attribute *etag* und
 *lastmodified*. Anhand dieser Attribute kann festgestellt werden, ob sich der Inhalt der Quelle
 aktualisiert hat.
 
-- Beispiel eines Headers, mit lastmodified bzw. etag.
-- Etag, lastmodified erklären
+Beispiel eines HTTP-Headers -- der Atom-Feed von *Golem*:
 
+
+.. code-block:: python
+
+    ({'status': '200', 
+    'x-upstream': 'www3.golem.de', 
+    'keep-alive': 'timeout=3', 
+    'date': 'Tue,09 Jun 2015 12:16:34 GMT', 
+    'content-disposition': 'inline; filename=feed_full-ATOM1.0.xml',
+    'connection': 'keep-alive', 
+    'content-type': 'application/atom+xml; charset=utf-8', 
+    'last-modified': 'Tue, 09 Jun 2015 12:07:37 GMT', 
+    'etag': 'RSS-27c545389b8b11f6598ac6d188fc5683',
+    'content-location': 'http://rss.golem.de/rss.php?feed=ATOM1.0', 
+    'server': 'nginx', 
+    'cache-control': 'private'}, 
+    b'')
+
+Der Header beginnt mit dem Status-Code 200. d.h. die Anfrage war erfolgreich.
+Neben Attributen, wie *date* und *content-type* enthält dieser Header auch die
+bereits erwähnten Attribute *last-modified* und *etag*.
+
+**last-modified**: Gourley und Totty beschreiben in *HTTP -- The definite Guide* 
+*last-modified* als Attribut, das angibt, zu welchem Zeitpunkt die Entität das letzte Mal geändert wurde.
+Im Kontext von Feeds, ist unter Entität die XML-Datei auf dem Webserver zu
+verstehen. Bei einer erneuten Anfrage kann das Datum der letzten Änderung dazu
+verwendet werden, um beim Server nachzufragen, ob sich dieses Attribut bereits geändert hat
+und neue Daten verfügbar sind. Das geschieht mit dem Anfrage-Attribut
+*If-Modified-Since* und der Angabe des Datums der letzten Änderung. Liefert der
+Server den Status-Code 304, liegt keine Änderung der Daten vor.
+
+
+**ETag**: Der *Entity Tag* ist ein eindeutiger Validator einer bestimmten
+Instanz einer Entität. So beschreiben Gourley und Totty das Attribut *ETag*.
+Hinter dem ETag verbirgt sich ein Hashwert, der vom Server beliebig bestimmt
+werden kann. Ändern sich die Daten der Entität, muss ein anderer Hashwert
+bestimmt werden. Vergleichbar mit dem Vorgehen beim Attribut *last-modified*
+wird bei einer Anfrage an den Server der ETag mit dem Attribut *If-None-Match*
+der Anfrage angehängt. Liefert der Server den Status-Code 304, gilt auch hier,
+dass keine Änderung der Daten vorliegt.
+
+Beide Attribute stellen eine valide Möglichkeit dar, festzustellen, ob die Daten
+eines Feeds aktualisiert wurden. Sendet der Server auf eine Anfrage den Status-Code 304,
+ist für diesen Feed klar, dass keine Änderung vorliegt und deshalb kein Download
+erfolgen muss.
+
+Nicht jeder Server liefert die Attribute *last-modified* oder *ETag*. Ist keines
+der beiden vorhanden, müssen die Feed-Daten heruntergeladen werden.
+
+- Nicht alle Feeds liefern beide Attribute, deshalb auf beide prüfen...
+- last-modified ist schwächeres Attribut ...
+- Beides Möglichkeiten, um zu vermeiden, dass Feed-Daten heruntergeladen werden,
+  obwohl keine Änderung der Daten vorliegt.
 
 
 Umsetzung in *gylfeed*
