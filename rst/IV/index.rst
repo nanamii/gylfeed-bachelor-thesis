@@ -146,9 +146,28 @@ werden können. Wie in der Abbildung zu sehen ist, nutzt der asynchrone Ansatz
 mögliche Wartezeiten beim Download, um Belange der grafischen Benutzeroberfläche
 abzuarbeiten.
 
-Um den Vorteil des asynchronen Ansatzes bei der Performance zu untermauern,
-wurden ....
+Um den Vorteil des asynchronen Ansatzes in der Praxis zu testen, wurde für
+beide Ansätze ein Performancetest durchgeführt. Für eine steigende Menge an
+URLs (5, 10, 20, 30, 40, 50) wurde der Inhalt heruntergeladen. Um statistische
+Ausreißer abzumildern, wurde der Durchschnitt aus 10 Durchläufen gebildet.
+Die Messungen haben ergeben, dass der asynchrone Ansatz dem synchronen
+Ansatz bezüglich der Dauer des Downloads klar überlegen ist. 
+In Abbildung :num:`plot` ist das Ergebnis der Messung grafisch dargestellt.
+Beide Ansätze verzeichnen einen Anstieg der Downloaddauer bei steigender Anzahl
+an URLs. Beim asynchronen Ansatz fällt die Steigerung jedoch deutlich weniger
+stark aus.
 
+
+.. _plot:
+
+.. figure:: ./figs/plot.png
+    :alt: Vergleich der Performance von synchronem und asynchronem Download.
+    :width: 80%
+    :align: center
+    
+    Vergleich der Downloadgeschwindigkeit von synchroner und asynchroner
+    Ausführung. Gemessen für 5, 10, 20, 30, 40 und 50 URLs. Durchschnitt aus
+    jeweils 10 Durchfläufen gebildet.
 
 
 Prüfung auf Änderungen der Feed-Daten 
@@ -215,15 +234,72 @@ dass keine Änderung der Daten vorliegt.
 Beide Attribute stellen eine valide Möglichkeit dar, festzustellen, ob die Daten
 eines Feeds aktualisiert wurden. Sendet der Server auf eine Anfrage den Status-Code 304,
 ist für diesen Feed klar, dass keine Änderung vorliegt und deshalb kein Download
-erfolgen muss.
+erfolgen muss. Nicht jeder Server liefert die Attribute *last-modified* oder *ETag*. Ist keines
+der beiden vorhanden, müssen die Feed-Daten trotzdem heruntergeladen werden.
 
-Nicht jeder Server liefert die Attribute *last-modified* oder *ETag*. Ist keines
-der beiden vorhanden, müssen die Feed-Daten heruntergeladen werden.
+**Stickproben-Test**:
 
-- Nicht alle Feeds liefern beide Attribute, deshalb auf beide prüfen...
-- last-modified ist schwächeres Attribut ...
-- Beides Möglichkeiten, um zu vermeiden, dass Feed-Daten heruntergeladen werden,
-  obwohl keine Änderung der Daten vorliegt.
+Um eine Aussage treffen zu können, wie groß der Anteil der Feeds ist, die
+mindestens eines
+der beiden Attribute liefern, wurde eine Testmenge an Feeds einer Prüfung auf
+diese Attribute unterzogen. Die Testmenge umfasst nach Entfernung der Feeds, die
+keinen validen Statuscode geliefert haben, 3.512 Feeds. Grundlage dafür
+sind 10 Feedlisten des Online-Anbieters für Feedlisten, *feedshare.net* (vgl.
+:cite:`feedshare`).
+Es wurde eine relativ große Testmenge gewählt, um ein aussagekräftiges Ergebnis
+zu erhalten. Für die 3.512 Feeds wurde jeweils der HTTP-Header angefordert und
+eine Prüfung auf die Attribute *last-modified* und *ETag* durchgeführt.Das
+dafür verwendete Skript ist in Anhang XXXX zu finden. Folgende Tabelle enhält
+das Ergebnis des Tests.
+
+
+
+.. figtable::
+    :label: attribute-statistics
+    :caption: Testergebnisse der Prüfung auf die Attribute ETag und
+              last-modified bei 3.512 Feeds mit Status-Code 200. Für 83,88 % der
+              3.512 Feeds wird eines der beiden Attribute geliefert.
+    :alt: Anzahl der vergebenen Genres pro Film.
+    :spec: l l l
+
+    ============================================ ============  ==========
+      **Attribut/Vorkommen**                      **absolut**   **in %** 
+    ============================================ ============  ==========
+     **last-modified**                            2.813         80,10    
+     **ETag**                                     874           24,87    
+     **last-modified und ETag**                   741           21,10    
+     **mind. ein Attribut**                       2.946         83,88    
+     **ohne Attribut**                            566           16,12    
+     |hline| **valide Feeds** (status code 200)   3.512         100,00
+    ============================================ ============  ==========
+
+Die Ergebnisse beziehen sich auf 3.512 Feeds, deren Server eine valide Antwort
+(Status Code 200) geliefert hat. Es ist zu erkennen, dass der Anteil an Feeds, 
+die das Attribut *last-modified* liefern (80,10%) deutlich größer ist, als der Anteil, 
+der das Attribut *ETag* liefert (24,87%). Beide Attribute wurden von 741 (21,10%) geliefert.
+Von 566 Feeds (16,12%) wurde keines der Attribute geliefert. Der bedeutenste
+Wert ist der Anteil der Feeds, die mindestens eines der beiden Attribute
+liefert (83,88%). Da es bei der Prüfung auf Änderung der Feed-Daten ausreichend
+ist, durch eines der Attribute validieren zu können, ob eine Änderung
+stattgefunden hat, ist dieser Wert entscheident.
+    
+Zusammenfassend hat der Test ergeben, dass ein Großteil der Webserver, auf denen die Feed-Daten lagern,
+mindestens eines der Attribute *last-modified* oder *ETag* liefern. Das spricht für das bereits beschriebene 
+Vorgehen, beim Download der Feed-Daten vorerst die Prüfung auf eine Änderung durchzuführen. Lediglich für 16,12 %
+der 3.512 Feeds müssten die kompletten Feed-Daten heruntergeladen werden, um zu
+prüfen, ob eine Änderung der Daten vorliegt.
+
+.. _plot:
+
+.. figure:: ./figs/piechart.png
+    :alt: Anteil von Feeds mit mindestens einem Attribut.
+    :width: 80%
+    :align: center
+    
+    Der Anteil der Feeds, die mindestens eines der Attribute *last-modified* oder
+    *ETag* liefern beträgt 83,88% von 3.512 getesteten Feeds. 
+
+
 
 
 Umsetzung in *gylfeed*

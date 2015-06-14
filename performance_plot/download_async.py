@@ -75,7 +75,8 @@ class Downloader():
 
     def do_counter(self, document):
         self.counter += 1
-        if self.counter == 5:
+        print("counter: ", self.counter)
+        if self.counter == 40:
             self.loop.quit()
 
 

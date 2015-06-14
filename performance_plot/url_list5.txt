@@ -28,3 +28,13 @@ http://www.cinemaxx.de/
 http://www.zdf.de/
 http://www.tu-berlin.de/
 http://www.deutsches-museum.de/
+http://www.dpa.de/
+http://www.sportprogesundheit.de/
+https://www.fes.de/de/
+https://docs.python.org/3.4/library/
+http://www.ruderverband.ch/
+https://www.tierschutzbund.de/
+http://www.ard.de/home/ard/ARD_Startseite/21920/index.html
+https://www.stanford.edu/
+https://stallman.org/
+http://www.heise.de/

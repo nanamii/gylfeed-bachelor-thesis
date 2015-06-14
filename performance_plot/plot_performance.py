@@ -19,8 +19,11 @@ if __name__ == '__main__':
     sync_data = read_data('sync_data.txt')
     async_data = read_data('async_data.txt')
 
-    chart = pygal.XY(fill=True, style=LightGreenStyle)
-    chart.title = "Download Performance"
+    chart = pygal.XY(fill=True, style=LightGreenStyle,
+                     x_title='Anzahl der Downloads',
+                     y_title='Dauer in Sekunden',
+                     dots_size= 6)
+    chart.title = "Vergleich der Performance von synchronem und asynchronem Download"
     chart.add('Synchron', sync_data)
     chart.add('Asynchron', async_data)
     chart.render_to_file('chart.svg')

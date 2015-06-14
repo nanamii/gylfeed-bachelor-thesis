@@ -39,7 +39,6 @@ if __name__ == '__main__':
     url_list = read_urllist(sys.argv[2])
 
     loader = Downloader()
-    #start = int(round(time.time() * 1000))
     result_list = []
     for x in range(int(sys.argv[1])):
         run_sum = 0
@@ -47,6 +46,7 @@ if __name__ == '__main__':
             t = timeit.Timer("loader.download_data('{}')".format(url), "from __main__ import Downloader; loader = Downloader()")
             run_sum += t.timeit(number=1)
         result_list.append(run_sum)
+        print(run_sum)
     print(result_list)
 
 
@@ -58,15 +58,3 @@ if __name__ == '__main__':
     average = sum/(len(result_list))
     print(average)
     save_to_disk(average, len(url_list))
-
-    chart = pygal.Bar()
-    chart.title = "Download Performance"
-    #chart.x_labels = map(str, range(4))
-    chart.add('Synchron', [1,2,3,4,5,6])
-    #chart.add('Asynchron', [0,2,3])
-    chart.render_to_file('chart.svg')
-
-
-    #t = timeit.Timer("download_sync.Downloader.download_data(download_sync.Downloader, download_sync.test_url)", setup)
-    #end = int(round(time.time() * 1000))
-    #print(end - start)
