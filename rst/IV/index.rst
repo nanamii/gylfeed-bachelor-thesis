@@ -39,6 +39,9 @@ Anschließend verarbeitet der Feedreader die XML-Datei und zeigt dem Benutzer di
 Bei der Beschaffung der Feed-Daten ergeben sich folgende Problemstellungen:
 
 
+
+.. _performance:
+
 Performance der Anwendung
 -------------------------
 
@@ -146,6 +149,8 @@ werden können. Wie in der Abbildung zu sehen ist, nutzt der asynchrone Ansatz
 mögliche Wartezeiten beim Download, um Belange der grafischen Benutzeroberfläche
 abzuarbeiten.
 
+
+**Performance-Test**:
 Um den Vorteil des asynchronen Ansatzes in der Praxis zu testen, wurde für
 beide Ansätze ein Performancetest durchgeführt. Für eine steigende Menge an
 URLs (5, 10, 20, 30, 40, 50) wurde der Inhalt heruntergeladen. Um statistische
@@ -157,6 +162,8 @@ Beide Ansätze verzeichnen einen Anstieg der Downloaddauer bei steigender Anzahl
 an URLs. Beim asynchronen Ansatz fällt die Steigerung jedoch deutlich weniger
 stark aus.
 
+Das Ergebnis des Performance-Tests belegt den Vorteil des asynchronen
+Ansatzes...
 
 .. _plot:
 
@@ -248,8 +255,8 @@ sind 10 Feedlisten des Online-Anbieters für Feedlisten, *feedshare.net* (vgl.
 :cite:`feedshare`).
 Es wurde eine relativ große Testmenge gewählt, um ein aussagekräftiges Ergebnis
 zu erhalten. Für die 3.512 Feeds wurde jeweils der HTTP-Header angefordert und
-eine Prüfung auf die Attribute *last-modified* und *ETag* durchgeführt.Das
-dafür verwendete Skript ist in Anhang XXXX zu finden. Folgende Tabelle enhält
+eine Prüfung auf die Attribute *last-modified* und *ETag* durchgeführt. Das
+dafür verwendete Skript ist in Anhang XXXX zu finden. Folgende Tabelle enthält
 das Ergebnis des Tests.
 
 
@@ -305,5 +312,130 @@ prüfen, ob eine Änderung der Daten vorliegt.
 Umsetzung in *gylfeed*
 ======================
 
+Die Herausforderungen, die sich bei der Beschaffung der Feed-Daten ergeben, wurden
+erläutert und mögliche Lösungsansätze vorgestellt. Nun wird betrachtet, wie die
+Beschaffung der Feed-Daten in *gylfeed* umgestezt wurde.
+
+
+- vorerst wurde der Download der Feed-Daten mit Universal-Feedparser
+  durchgeführt. Später aus bereits genannten Gründen auf asynchrone Variante
+  umgestiegen. Für libsoup entschieden
+
+- Eigenschaften von libsoup, was spricht für die Benutzung
+
+- Vorstellung der Umsetzung der Beschaffung von Feed-Daten in gylfeed.
+
+- Future-Object Document
+
+- aktuelle Benutzung von lastmodified und etag
+
 Asynchroner Download mit libsoup
 --------------------------------
+
+In *gylfeed* wird der Download der Feed-Daten mit der HTTP-Bibliothek *libsoup*
+(vgl. :cite:`libsoup`)
+umgesetzt. Zu Beginn der Entwicklung wurde der Download mit dem
+*Universal Feedparser* (vgl. :cite:`FPD`) durchgeführt. Dieser ist für die spätere Verarbeitung der Daten zuständig,
+bietet jedoch nur einen synchronen Download an. Da es mit dem *Universal Feedparser* zu den in Abschnitt :ref:`performance`
+erläuterten Performance-Problemen kam, wurde der Download asynchron umgetzt.
+Die Bibliothek *libsoup* wurde aufgrund folgender Eigenschaften gewählt:
+
+ * bietet asynchrone API
+ * zugeschnitten auf GNOME Anwendungen
+   Passend für *gylfeed*...
+ * nutzt GObject und Glib-Main-Loop:
+   Basierend auf dem Glib-Main-Loop und der Verwendung von Callback-Methoden
+
+
+Ablauf des Downloads
+--------------------
+
+In Abbildung :num:`download` ist der Teil von *gylfeed* dargestellt, der für die
+Beschaffung der Daten zuständig ist. Bevor auf den Ablauf näher eingegangen
+wird, werden die beteiligten Instanzen vorgestellt.
+
+.. _download:
+
+.. figure:: ./figs/download.png
+    :alt: Grundkonzept der Datenbeschaffung.
+    :width: 60%
+    :align: center
+    
+    Grundkonzept der Datenbeschaffung innerhalb von *gylfeed*. 
+
+**Feed:** Die Klasse *Feed* beauftragt den Download und erwartet nach Beendigung
+des Downloads ein *Document*. Dieses *Document* enthält die Feed-Daten, die
+innerhalb der Instanz *Feed* verarbeitet werden.
+
+**Downloader:** Der *Downloader* verwaltet den kompletten asynchronen Downloadvorgang.
+Es wird eine sogenannte *Session* erstellt, die zum Versenden der Anfragen
+verwendet wird. 
+
+**Document:** Eine Instanz der Klasse *Document* wird als sogenanntes
+*Future-Objekt* eingesetzt. Dieses *Future-Objekt* wird von der Klasse
+*Downloader* als Platzhalter für das zu erwartende Ergebnis des asynchronen Downloads
+eingesetzt.
+
+**Web:** Das *Web* respräsentiert im vorliegenden Fall sämtliche Webserver, die
+eine Anfrage erhalten und daraufhin eine Antwort senden.
+
+.. _downloadsequenz:
+
+.. figure:: ./figs/downloadsequenz.png
+    :alt: Ablauf des Downloadvorgangs.
+    :width: 80%
+    :align: center
+    
+    Ablauf des Downloadvorgangs.
+
+Eine detailliertere Beschreibung des Downloadvorgangs soll anhand der Abbildung
+:num:`downloadsequenz` erfolgen. Das Objekt *Feed* startet den Vorgang mit dem Aufruf der Methode
+*download()* des Objekts *Downloader*. Hierzu übergibt der *Feed* als Parameter
+die URL des Feeds, für den der Download erfolgen soll. Innerhalb der Methode *download()* wird
+entschieden, ob ein Download der kompletten Feed-Daten notwendig ist. Hierzu
+werden die bereits erwähnten Attribute *last-modified* und *ETag* verwendet.
+Liefert der Webserver, auf dem die entsprechenden Feed-Daten lagern den
+Status-Code 304, gibt die Methode *download()* *None* zurück und der Vorgang ist
+abgeschlossen. Ergibt die Prüfung auf Aktualisierung der Feed-Daten jedoch, dass
+ein Download der Feed-Daten erfolgen muss, wird die Methode *get_data()*
+aufgerufen. 
+
+**get_data():** Innerhalb dieser Methode wird eine Nachricht des Typs *Soup.Message*
+der Bibliothek *libsoup* erstellt. Hier wird die HTTP-Methode *GET* und die URL
+übergeben. Anschließend wird eine Instanz der Klasse *Document* erstellt, die, 
+wie bereits erwähnt, als Platzhalter für das zu erwartende Ergebnis des
+asynchronen Downloads eingesetzt wird. Bevor die Instanz des *Documents* an den
+Aufrufen, d.h. den *Feed* zurückgegeben wird, erfolgt der asynchrone Aufruf der
+Methode *send_async()* der Bibliothek *libsoup*. Hierdurch wird die Verbindung
+zum Webserver aufgebaut. Steht die Verbindung, wird die der Methode
+*send_async()* übergebene Callback-Methode *read_stream()* aufgerufen.
+
+Das Feedobjekt, das eine Instanz von *Document* erhalten hat, registriert sich
+auf dessen Signal *finish*. Auf diese Weise wird das Feedobjekt informiert,
+sobald der asynchrone Download abgeschlossen ist und mit der Verarbeitung der
+Daten begonnen werden kann.
+
+**read_stream():** Innerhalb dieser Methode wird das Lesen des
+Inputstreams durch *read_bytes_async()* veranlasst. Als Callback-Methode wird *fill_document()*
+übergeben.
+
+**fill_document():** Diese Methode liest den Input-Stream solange, bis keine
+Daten mehr vorhanden sind. Bei jeder Interation werden die Daten, die von der
+Instanz *Document* gesammelt werden, um die neuen Daten erweitert. Sind alle
+Daten gelesen, wird das Signal *finish* ausgelöst.
+
+
+
+Anwendung der Prüfung auf Aktualisierung
+----------------------------------------
+
+Die im Ablauf des Downloads erwähnte Prüfung auf Aktualisierung der Feed-Daten
+wird an dieser Stelle separat betrachtet. Es wird kurz auf die Anwendung
+eingegangen und die entsprechende Antwort des Webservers gezeigt.
+
+
+
+
+
+
+
