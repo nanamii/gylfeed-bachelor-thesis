@@ -36,8 +36,8 @@ Anschließend verarbeitet der Feedreader die XML-Datei und zeigt dem Benutzer di
     Funktionsprinzip eines Newsfeeds.
 
     
-Bei der Beschaffung der Feed-Daten ergeben sich folgende Problemstellungen:
-
+Bei der Beschaffung der Feed-Daten ergeben sich Problemstellungen, die im
+Folgenden näher betrachtet werden.
 
 
 .. _performance:
@@ -49,7 +49,8 @@ Der Main-Event-Loop, der in Kapitel :ref:`signale` vorgestellt wurde,
 verarbeitet Aufgaben grundsätzlich synchron. Bei einer synchronen Verarbeitung,
 wird gewartet, bis eine Aufgabe abgeschlossen ist, erst dann wird mit der
 Verarbeitung der nächsten Aufgabe begonnen. Bei einer großen Anzahl an Feeds,
-für die ein Download der Daten erfolgen soll, kann während der Beschaffung
+für die ein Download der Daten erfolgen soll, kann während der Beschaffung der
+Daten
 nichts anderes ausgeführt werden. Die Anwendung ist in diesem Moment
 aussschließlich mit dem Download der Feed-Daten beschäftigt. Das bedeutet, dass
 sich in dieser Zeit weder die grafische Benutzeroberfläche aktualisieren kann,
@@ -65,7 +66,7 @@ Werden bei jeder Aktualisierung, die vom Client angestossen wird, alle Feed-Date
 der Feeds
 heruntergeladen, obwohl bei Teilen der Feeds keine Änderung vorliegt, 
 benötigt dies unnötige Download-Bandbreite. Auf Seiten des
-Clients würde festgestellt, dass keine Aktualisierungen vorliegen. Diese Prüfung
+Clients würde eventuell festgestellt, dass keine Aktualisierung vorliegt. Diese Prüfung
 beansprucht zusätzlich unnötige Rechenkapazität.
 
 
@@ -88,10 +89,8 @@ diskutiert.
 Synchroner im Vergleich mit asynchronem Ansatz
 ----------------------------------------------
 
-möglich mit Universal Feedparser, ...
-
 Eine Alternative zum synchronen Download der Daten ist der asynchrone Ansatz.
-In Abbildung :num:`syncasync` ist der Ablauf beider Varianten zu sehen. Mit
+In Abbildung :num:`syncasync` ist der zeitliche Ablauf beider Varianten zu sehen. Mit
 Hilfe der Abbildung werden beide Varianten vorgestellt und mögliche Vorzüge des
 asynchronen Ansatzes erläutert.
 
@@ -131,7 +130,7 @@ entsprechend angegebenen Größe abgearbeitet. Darauf folgt die Abarbeitung der
 Anliegen der grafischen Benutzeroberfläche. Dieser Wechsel zwischen Download und
 grafischer Benutzeroberfläche wird bis zum Abschluss des Downloads durchgeführt.
 Auf diese Weise kann der Nachteil des klassischen synchronen Ansatzes umgangen
-werden. Die grafische Benutzeroberfläche hat immer wieder Gelegenheit
+werden. Die grafische Benutzeroberfläche hat immer wieder Gelegenheit,
 Aktualisierungen durchzuführen und Benutzereingaben entgegenzunehmen. Bei dieser
 Herangehensweise kommt jedoch ein anderer Nachteil hinzu. In der Abbildung wird
 bereits deutlich, dass dieser Ansatz, im Vergleich zum klassischen synchronen
@@ -192,11 +191,11 @@ eine Antwort. Mit der Methode *GET* stellt der Client die Anfrage, die hinter
 der Quelle befindlichen Daten zu senden. Will man lediglich Informationen
 zur Quelle und nicht sofort die dazugehörigen Daten mitgeliefert bekommen, ist
 die Methode *HEAD* zu verwenden. In diesem Fall liefert der Server den *Header*
-der Quelle. Dieser sogenannte Header enthält die Attribute *etag* und
-*lastmodified*. Anhand dieser Attribute kann festgestellt werden, ob sich der Inhalt der Quelle
+der Quelle. Dieser sogenannte *Header* enthält die Attribute *etag* und
+*last-modified*. Anhand dieser Attribute kann festgestellt werden, ob sich der Inhalt der Quelle
 aktualisiert hat.
 
-Beispiel eines HTTP-Headers -- der Atom-Feed von *Golem*:
+Beispiel eines HTTP-Headers -- der Atom-Feed von *golem*:
 
 
 .. code-block:: python
@@ -317,18 +316,6 @@ erläutert und mögliche Lösungsansätze vorgestellt. Nun wird betrachtet, wie 
 Beschaffung der Feed-Daten in *gylfeed* umgestezt wurde.
 
 
-- vorerst wurde der Download der Feed-Daten mit Universal-Feedparser
-  durchgeführt. Später aus bereits genannten Gründen auf asynchrone Variante
-  umgestiegen. Für libsoup entschieden
-
-- Eigenschaften von libsoup, was spricht für die Benutzung
-
-- Vorstellung der Umsetzung der Beschaffung von Feed-Daten in gylfeed.
-
-- Future-Object Document
-
-- aktuelle Benutzung von lastmodified und etag
-
 Asynchroner Download mit libsoup
 --------------------------------
 
@@ -337,7 +324,7 @@ In *gylfeed* wird der Download der Feed-Daten mit der HTTP-Bibliothek *libsoup*
 umgesetzt. Zu Beginn der Entwicklung wurde der Download mit dem
 *Universal Feedparser* (vgl. :cite:`FPD`) durchgeführt. Dieser ist für die spätere Verarbeitung der Daten zuständig,
 bietet jedoch nur einen synchronen Download an. Da es mit dem *Universal Feedparser* zu den in Abschnitt :ref:`performance`
-erläuterten Performance-Problemen kam, wurde der Download asynchron umgetzt.
+erläuterten Performance-Problemen kam, wurde der Download daraufhin asynchron umgetzt.
 Die Bibliothek *libsoup* wurde aufgrund folgender Eigenschaften gewählt:
 
  * bietet asynchrone API
@@ -363,13 +350,11 @@ wird, werden die beteiligten Instanzen vorgestellt.
     
     Grundkonzept der Datenbeschaffung innerhalb von *gylfeed*. 
 
-**Feed:** Die Klasse *Feed* beauftragt den Download und erwartet nach Beendigung
-des Downloads ein *Document*. Dieses *Document* enthält die Feed-Daten, die
+**Feed:** Die Klasse *Feed* beauftragt den Download und erwartet eine Instanz
+der Klasse *Document*. Dieses *Document* enthält die Feed-Daten, die
 innerhalb der Instanz *Feed* verarbeitet werden.
 
 **Downloader:** Der *Downloader* verwaltet den kompletten asynchronen Downloadvorgang.
-Es wird eine sogenannte *Session* erstellt, die zum Versenden der Anfragen
-verwendet wird. 
 
 **Document:** Eine Instanz der Klasse *Document* wird als sogenanntes
 *Future-Objekt* eingesetzt. Dieses *Future-Objekt* wird von der Klasse
@@ -388,14 +373,14 @@ eine Anfrage erhalten und daraufhin eine Antwort senden.
     
     Ablauf des Downloadvorgangs.
 
-Eine detailliertere Beschreibung des Downloadvorgangs soll anhand der Abbildung
+Eine detaillierte Beschreibung des Downloadvorgangs soll anhand der Abbildung
 :num:`downloadsequenz` erfolgen. Das Objekt *Feed* startet den Vorgang mit dem Aufruf der Methode
 *download()* des Objekts *Downloader*. Hierzu übergibt der *Feed* als Parameter
 die URL des Feeds, für den der Download erfolgen soll. Innerhalb der Methode *download()* wird
 entschieden, ob ein Download der kompletten Feed-Daten notwendig ist. Hierzu
 werden die bereits erwähnten Attribute *last-modified* und *ETag* verwendet.
 Liefert der Webserver, auf dem die entsprechenden Feed-Daten lagern den
-Status-Code 304, gibt die Methode *download()* *None* zurück und der Vorgang ist
+Status-Code 304, gibt die Methode *download()* ein *None* zurück und der Vorgang ist
 abgeschlossen. Ergibt die Prüfung auf Aktualisierung der Feed-Daten jedoch, dass
 ein Download der Feed-Daten erfolgen muss, wird die Methode *get_data()*
 aufgerufen. 
@@ -405,7 +390,7 @@ der Bibliothek *libsoup* erstellt. Hier wird die HTTP-Methode *GET* und die URL
 übergeben. Anschließend wird eine Instanz der Klasse *Document* erstellt, die, 
 wie bereits erwähnt, als Platzhalter für das zu erwartende Ergebnis des
 asynchronen Downloads eingesetzt wird. Bevor die Instanz des *Documents* an den
-Aufrufen, d.h. den *Feed* zurückgegeben wird, erfolgt der asynchrone Aufruf der
+Aufrufer, d.h. den *Feed* zurückgegeben wird, erfolgt der asynchrone Aufruf der
 Methode *send_async()* der Bibliothek *libsoup*. Hierdurch wird die Verbindung
 zum Webserver aufgebaut. Steht die Verbindung, wird die der Methode
 *send_async()* übergebene Callback-Methode *read_stream()* aufgerufen.
@@ -433,7 +418,59 @@ Die im Ablauf des Downloads erwähnte Prüfung auf Aktualisierung der Feed-Daten
 wird an dieser Stelle separat betrachtet. Es wird kurz auf die Anwendung
 eingegangen und die entsprechende Antwort des Webservers gezeigt.
 
+Zur Demonstration wird eine Anfrage an den Servers des Atom-Feeds von *golem*
+gestellt. Folgendes Code-Snippet zeigt die Prüfung auf das Attribut
+*last-modified*:
 
+
+
+.. code-block:: python
+    
+    URL = "http://rss.golem.de/rss.php?feed=ATOM1.0"
+    DATE = "Mon, 15 Jun 2015 19:37:27 GMT"
+    session = Soup.Session() 
+
+    message = Soup.Message.new("GET", URL)
+    message.request_headers.append("if-modified-since", DATE)
+    session.send_message(message)
+    new_date = message.response_headers.get("last-modified")
+    print("Status Code:", message.status_code, "; Date:", new_date)
+    >>> Status Code: 200; Date: Wed, 17 Jun 2015 15:11:36 GMT
+    
+    message = Soup.Message.new("GET", URL)
+    message.request_headers.append("if-modified-since", new_date)
+    session.send_message(message)
+    date = message.response_headers.get("last-modified")
+    print("Status-Code:", message.status_code, "; Date:", date)
+    >>> Status-Code: 304; Date: Wed, 17 Jun 2015 15:11:36 GMT
+
+
+Es wird mit Hilfe der Bibliothek libsoup eine Session erstellt. Anschließend
+wird eine sogenannte *Message* erstellt. Diese enthält die anzuwendende
+HTTP-Methode und die anzufragende URL. In diesem Fall wird *GET* als
+HTTP-Methode verwendet, weil bei der Übergabe des *if-modified-since* Attributs
+der Inhalt der Antwort nur gesendet wird, wenn tatsätlich eine Änderung seitens
+des Servers vorliegt. Im nächsten Schritt wird der *Message* ein Anfrage-Header
+angehängt, der das Attribut *if-modified-since* und den dazugehörigen Wert, ein
+*last-modified*, enthält. Zuletzt wird die Nachricht versendet. Im ersten
+Durchlauf antwortet der Server mit dem Status-Code 200 und sendet den *body*,
+d.h. den Inhalt der Antwort mit.
+
+Der einzige Unterschied der nächsten Anfrage ist,
+dass als *last-modified*-Wert der beim ersten Durchlauf vom Server gelieferte
+*last-modified*-Wert eingesetzt wird. Jetzt antwortet der Server mit dem Status-Code 304, d.h.
+es liegt keine Änderung vor. In diesem Fall wird kein Inhalt gesendet.
+
+Für das Attribut *ETag* erfolgt der Vorgang in der gleichen Weise, mit dem
+Unterschied, dass der Anfrage-Header aus dem Attribut *if-none-match* und dem
+*ETag* als Wert besteht. Ein Beispiel für die Anwendung des Attributs *ETag* ist
+im Anhang XXXXXXXXX zu finden.
+
+In der aktuellen Version von *gylfeed* wird die Prüfung auf Änderung der
+Feed-Daten auf der Client-Seite ausgeführt. Für die entsprechende URL wird der
+Header heruntergeladen und es wird eine Prüfung auf Übereinstimmung des bisher
+gespeicherten *last-modified* bzw. *ETag*-Wertes durchgeführt. Die Umstellung auf die
+komfortablere Variante, die Prüfung auf Seiten des Servers durchführen zu lassen, ist geplant.
 
 
 
