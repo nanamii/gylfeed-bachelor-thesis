@@ -24,7 +24,7 @@ Feedformate tendenziell häufiger als andere verwendet werden.
 
 Um einen Eindruck von der historischen Entwicklung der Feedformate zu bekommen,
 wurden die Formate in Abbildung XXXX hinsichtlich ihres Entstehungsdatums und 
-Umfang an Attributen erfasst.
+Umfang an Attributen erfasst. 
 
 
 Fehlende Attribute
