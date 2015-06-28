@@ -1,0 +1,7 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 19:39:02 GMT
+Server: Apache
+Location: http://cyber.law.harvard.edu/news/feed
+Vary: Accept-Encoding
+Content-Type: text/html; charset=iso-8859-1
+

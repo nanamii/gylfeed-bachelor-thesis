@@ -1,0 +1,12 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 18:08:47 GMT
+Server: Apache/2.2.22
+X-Powered-By: PHP/5.3.29
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Set-Cookie: PHPSESSID=fd6b3281e6428b108eb2ae3adb573cc0; path=/
+Location: http://fiftyfootshadows.net/feed/
+Vary: User-Agent,Accept-Encoding
+Content-Type: text/html
+

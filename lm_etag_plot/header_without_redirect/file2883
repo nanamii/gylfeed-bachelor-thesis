@@ -1,0 +1,7 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 19:07:14 GMT
+Server: Apache/2.2.3 (Red Hat)
+Location: http://www.foreffectivegov.org/taxonomy/storyterm/all/feed
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+

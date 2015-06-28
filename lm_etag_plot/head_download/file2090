@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:16:47 GMT
+Server: Apache/2.2.22 (Unix) PHP/5.2.17 with Suhosin-Patch mod_ssl/2.2.22 OpenSSL/1.0.1h mod_apreq2-20051231/2.6.0 mod_perl/2.0.5 Perl/v5.8.9
+Last-Modified: Sat, 27 Jun 2015 15:59:38 GMT
+ETag: "18955da-20f8-51981f1936e80"
+Accept-Ranges: bytes
+Content-Length: 8440
+Vary: User-Agent
+Content-Type: application/xml
+

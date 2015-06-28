@@ -1,0 +1,7 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 19:40:57 GMT
+Server: Apache/2.2.27 (Unix) mod_ssl/2.2.27 OpenSSL/1.0.1j FrontPage/5.0.2.2635
+Location: http://pigpog.com/feed/
+Vary: Accept-Encoding
+Content-Type: text/html; charset=iso-8859-1
+

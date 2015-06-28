@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 20:25:30 GMT
+Server: Apache/2.2.27 (Unix) mod_ssl/2.2.27 OpenSSL/1.0.1e-fips mod_bwlimited/1.4 PHP/5.3.28
+X-Powered-By: PHP/5.3.28
+Vary: Cookie,Accept-Encoding,User-Agent
+X-Pingback: http://www.cottagesmallholder.com/xmlrpc.php
+ETag: "f84b6c5682e057574cbf80b690a818ce"
+WP-Super-Cache: Served legacy cache file
+Content-Type: text/xml; charset=UTF-8
+

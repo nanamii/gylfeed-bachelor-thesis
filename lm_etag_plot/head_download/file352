@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 18:39:26 GMT
+Server: Apache
+Expires: Sat, 20 Jun 2015 18:39:26 GMT
+Cache-Control: no-cache, must-revalidate, max-age=0
+Pragma: no-cache
+X-Pingback: http://www.bit-101.com/blog/xmlrpc.php
+ETag: "85814642b3b709f44909c8b53de24e63"
+Last-Modified: Sat, 02 Aug 2014 17:28:42 GMT
+Vary: Accept-Encoding
+Content-Type: text/html
+

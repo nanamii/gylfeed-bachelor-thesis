@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Server: Apache/2.2.22 (Ubuntu)
+Cache-Control: max-age=600, public
+Vary: Accept-Encoding
+Content-Type: text/html
+Age: 6348143
+Date: Fri, 26 Jun 2015 19:23:59 GMT
+Expires: Tue, 14 Apr 2015 08:11:36 GMT
+Content-Length: 0
+Connection: keep-alive
+

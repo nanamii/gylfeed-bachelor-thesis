@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:21:49 GMT
+Server: Apache/2.2.22
+X-Powered-By: PHP/5.3.29
+Vary: Cookie,User-Agent,Accept-Encoding
+X-Pingback: http://blog.grubhub.com/xmlrpc.php
+ETag: "d5258be24109afd1a296fc74bb75f984"
+WP-Super-Cache: Served legacy cache file
+Content-Type: text/xml; charset=UTF-8
+

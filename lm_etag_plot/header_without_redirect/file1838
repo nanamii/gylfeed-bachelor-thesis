@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 18:51:52 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+Set-Cookie: __cfduid=db449bd2198b8adcc86ae96f13161b5651435344712; expires=Sat, 25-Jun-16 18:51:52 GMT; path=/; domain=.time4writing.com; HttpOnly
+X-Powered-By: PHP/5.4.38
+Set-Cookie: wordpress_test_cookie=WP+Cookie+check; path=/
+X-Pingback: http://www.time4writing.com/xmlrpc.php
+Last-Modified: Fri, 26 Jun 2015 16:38:04 GMT
+ETag: "156572a008452f355a57a9563b42013e"
+Server: cloudflare-nginx
+CF-RAY: 1fcb1b24415e0f81-FRA
+

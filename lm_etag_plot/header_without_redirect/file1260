@@ -1,0 +1,17 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 18:19:53 GMT
+Content-Type: text/html
+Connection: keep-alive
+Set-Cookie: __cfduid=da9c3f6b5dc225def5f0978c89d98331c1435342793; expires=Sat, 25-Jun-16 18:19:53 GMT; path=/; domain=.socialmediatoday.com; HttpOnly
+X-Drupal-Cache: HIT
+Etag: W/"1435339412-1"
+Location: http://www.socialmediatoday.com/rss?gid=SMC&type=14
+X-Redirect-ID: 150181
+Cache-Control: public, max-age=21600
+Last-Modified: Fri, 26 Jun 2015 17:23:32 GMT
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Vary: Cookie
+Vary: Accept-Encoding
+Server: cloudflare-nginx
+CF-RAY: 1fcaec49d601231e-FRA
+

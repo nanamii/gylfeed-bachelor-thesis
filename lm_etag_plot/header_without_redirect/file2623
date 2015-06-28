@@ -1,0 +1,10 @@
+HTTP/1.1 301 Moved Permanently
+Server: Apache
+Location: http://www.npr.org/rss/rss.php?id=1001
+Content-Length: 246
+Content-Type: text/html; charset=iso-8859-1
+Cache-Control: max-age=0
+Expires: Fri, 26 Jun 2015 19:02:04 GMT
+Date: Fri, 26 Jun 2015 19:02:04 GMT
+Connection: keep-alive
+

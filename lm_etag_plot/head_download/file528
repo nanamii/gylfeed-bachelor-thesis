@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 18:41:30 GMT
+Server: Apache/2.4.7 (Ubuntu)
+X-Powered-By: PHP/5.5.9-1ubuntu4
+X-Pingback: http://sparksheet.com/xmlrpc.php
+Last-Modified: Wed, 17 Jun 2015 15:14:12 GMT
+ETag: "179e0bb4a327e2e15b6f38129e2fe024"
+X-Robots-Tag: noindex,follow
+Content-Type: text/html
+

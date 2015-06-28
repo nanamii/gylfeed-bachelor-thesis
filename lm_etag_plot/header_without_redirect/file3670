@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 26 Jun 2015 19:21:57 GMT
+Content-Type: application/xml
+Content-Length: 6118
+Connection: keep-alive
+Last-Modified: Wed, 24 Jun 2015 15:34:19 GMT
+X-PBS-appsvrname: wgbh-nova-web-app
+X-PBS-appsvrip: 10.235.57.22
+X-PBS-fwsrvname: fwcacheproxy #390
+X-PBS-fwsrvip: (null)
+X-Cache-FS-Status: HIT
+X-PBS-fwsrvname: fwcacheproxy_390
+Accept-Ranges: bytes
+

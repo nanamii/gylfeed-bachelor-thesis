@@ -1,0 +1,14 @@
+HTTP/1.1 301 Moved Permanently
+Server: Apache
+X-Powered-By: PHP/5.4.41
+Set-Cookie: _wp_session=6c961be902ca19085a44d5f1ed121299%7C%7C1437938086%7C%7C1437938086; expires=Sun, 26-Jul-2015 19:14:46 GMT; path=/
+X-Safe-Redirect-Manager: true
+Location: /feed
+Vary: Accept-Encoding
+Content-Type: text/html; charset=UTF-8
+Date: Fri, 26 Jun 2015 19:14:46 GMT
+X-Varnish: 714679613
+Age: 0
+Via: 1.1 varnish
+Connection: keep-alive
+

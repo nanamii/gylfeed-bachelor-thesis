@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sat, 27 Jun 2015 19:23:41 GMT
+Content-Type: text/html
+Connection: keep-alive
+X-Powered-By: PHP/5.3.3-7+squeeze25
+X-Pingback: http://bikyamasr.com/xmlrpc.php
+ETag: "0b270b62aef90cb9b2b769558eae4510"
+X-Robots-Tag: noindex,follow
+Last-Modified: Fri, 26 Jun 2015 21:13:05 GMT
+Vary: Accept-Encoding
+

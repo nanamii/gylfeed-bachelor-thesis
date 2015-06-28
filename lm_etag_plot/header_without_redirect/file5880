@@ -1,0 +1,8 @@
+HTTP/1.1 302 Moved Temporarily
+Server: nginx/1.0.15
+Date: Fri, 26 Jun 2015 20:24:45 GMT
+Content-Type: text/html
+Connection: keep-alive
+Content-Length: 154
+Location: http://learntoduck.net
+

@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 20:14:21 GMT
+Server: Apache
+Last-Modified: Fri, 26 Jun 2015 14:58:45 GMT
+ETag: "15d8147-1bbc-5196cf9ffb340"
+Accept-Ranges: bytes
+Content-Length: 7100
+Content-Type: application/rdf+xml
+

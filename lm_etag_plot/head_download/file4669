@@ -1,0 +1,21 @@
+HTTP/1.1 200 OK
+Server: Apache
+Last-Modified: Thu, 25 Jun 2015 19:07:40 GMT
+ETag: "d94dcb9085deca3e59e0805de9e2d092"
+Link: <http://nyti.ms/1fGvRSB>; rel=shortlink
+Link: <http://bittman.blogs.nytimes.com/json>; rel="https://github.com/WP-API/WP-API"
+Keep-Alive: timeout=60, max=1000
+Content-Type: text/xml; charset=UTF-8
+Content-Length: 14141
+Accept-Ranges: bytes
+Date: Sat, 27 Jun 2015 21:05:11 GMT
+X-Varnish: 705613995 705613529
+Age: 36
+Via: 1.1 varnish
+X-Cache: HIT
+X-API-Version: 5-5b
+X-PageType: blog2
+Connection: close
+X-Frame-Options: DENY
+Set-Cookie: RMID=007f01012b1b558f1007000d;Path=/; Domain=.nytimes.com;Expires=Sun, 26 Jun 2016 21:05:11 UTC
+

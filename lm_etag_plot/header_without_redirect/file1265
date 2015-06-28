@@ -1,0 +1,20 @@
+HTTP/1.1 404 Not Found
+Content-Type: text/html; charset=utf-8
+ETag: W/"10434-4195060467"
+Last-Modified: Fri, 26 Jun 2015 18:12:42 GMT
+Server: nginx
+X-Response-Time: 79.158ms
+x-rid: 1cub2kx
+Via: 1.1 varnish
+Content-Length: 66612
+Accept-Ranges: bytes
+Date: Fri, 26 Jun 2015 18:19:56 GMT
+Via: 1.1 varnish
+Connection: keep-alive
+X-Served-By: cache-iad2150-IAD, cache-ams4143-AMS
+X-Cache: HIT, MISS
+X-Cache-Hits: 1, 0
+X-Timer: S1435342796.133102,VS0,VE95
+Vary: Accept-Encoding
+Cache-Control: max-age=0
+

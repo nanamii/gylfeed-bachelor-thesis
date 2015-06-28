@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 18:18:42 GMT
+Content-Type: text/xml; charset=UTF-8
+Connection: keep-alive
+Set-Cookie: __cfduid=d00a949c811d6a51a2fddf91cc0a8d15c1435342721; expires=Sat, 25-Jun-16 18:18:41 GMT; path=/; domain=.troydean.com.au; HttpOnly
+Vary: Accept-Encoding
+X-Pingback: http://troydean.com.au/xmlrpc.php
+ETag: W/"8c36008b57f93f303a46ebbeacf65eff"
+X-Robots-Tag: noindex,follow
+Last-Modified: Tue, 16 Jun 2015 07:47:52 GMT
+Host-Header: 192fc2e7e50945beb8231a492d6a8024
+X-Proxy-Cache: MISS
+Server: cloudflare-nginx
+CF-RAY: 1fcaea89cc5c2318-FRA
+

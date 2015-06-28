@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 20:12:40 GMT
+Server: Apache
+X-Powered-By: PHP/5.2.17
+Vary: Cookie
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+X-Pingback: http://www.journerdism.com/xmlrpc.php
+ETag: "89b5009599ede04b885b8511748526c3"
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+WP-Super-Cache: Served legacy cache file
+Content-Type: text/xml; charset=UTF-8
+

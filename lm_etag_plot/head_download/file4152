@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 20:24:59 GMT
+Server: Apache
+Vary: Cookie
+X-Pingback: http://www.supercolossal.ch/xmlrpc.php
+WP-Super-Cache: Served legacy cache file
+ETag: "122d452ef2dd4c765d2bd27de37b3ec8"
+Content-Type: text/xml; charset=UTF-8
+

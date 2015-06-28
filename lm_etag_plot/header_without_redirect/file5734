@@ -1,0 +1,11 @@
+HTTP/1.1 307 Temporary Redirect
+Date: Fri, 26 Jun 2015 20:21:19 GMT
+Server: Apache/2.2.22
+X-Powered-By: PHP/5.3.29
+X-Pingback: http://www.edho.com/xmlrpc.php
+ETag: "c40c5abb1495a3223a2ecd77a4832459"
+Last-Modified: Tue, 18 Sep 2012 04:45:03 GMT
+Location: http://feeds.feedburner.com/edho
+Vary: User-Agent,Accept-Encoding
+Content-Type: text/html
+

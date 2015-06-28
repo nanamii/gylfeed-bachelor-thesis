@@ -1,0 +1,21 @@
+HTTP/1.1 200 OK
+Set-Cookie: TENACIOUS=R1235138411; path=/
+Server: AtyponWS/7.2
+Cache-Control: no-cache
+Pragma: no-cache
+X-Webstats-RespID: 6a23ce8c9003e4ae46ea37996a2a5bc3
+Last-Modified: Mon, 22 Jun 2015 22:41:16 GMT
+Set-Cookie: JSESSIONID=aaa9T0jmRA1uzb71WIX4u; domain=.www.jstor.org; path=/
+Content-Type: application/xml; charset=UTF-8
+X-JSTOR-Restarts: 0
+Transfer-Encoding: chunked
+Accept-Ranges: bytes
+Date: Fri, 26 Jun 2015 20:43:27 GMT
+Via: 1.1 varnish
+Age: 0
+Connection: keep-alive
+X-Served-By: cache-fra1220-FRA
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1435351407.042584,VS0,VE189
+

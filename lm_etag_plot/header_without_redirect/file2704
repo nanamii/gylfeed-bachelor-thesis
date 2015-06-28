@@ -1,0 +1,6 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 19:05:34 GMT
+Server: Apache/2.4.7 (Ubuntu) SVN/1.8.8 OpenSSL/1.0.1f
+Location: http://www.thelocal.de/feeds/rss.php
+Content-Type: text/html; charset=iso-8859-1
+

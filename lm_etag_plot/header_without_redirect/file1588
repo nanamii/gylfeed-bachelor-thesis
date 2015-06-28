@@ -1,0 +1,13 @@
+HTTP/1.1 307 Temporary Redirect
+Date: Fri, 26 Jun 2015 18:43:08 GMT
+Server: Apache
+X-Powered-By: PHP/5.2.17
+Set-Cookie: SESS5b12488ef28be016c2cd5a1852b477a7=5fb3a54cdfa24b391a44c964f4acf86d; expires=Sun, 19-Jul-2015 22:16:28 GMT; path=/; domain=.43folders.com
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Last-Modified: Fri, 26 Jun 2015 18:43:08 GMT
+Cache-Control: store, no-cache, must-revalidate
+Cache-Control: post-check=0, pre-check=0
+Location: http://feeds.feedburner.com/43folders
+Connection: close
+Content-Type: text/html; charset=utf-8
+

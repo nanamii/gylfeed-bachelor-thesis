@@ -1,0 +1,10 @@
+HTTP/1.1 404 Not Found
+Server: Apache
+X-Pingback: http://www.characterblog.com/nbcupress/xmlrpc.php
+Pragma: no-cache
+Content-Type: text/html; charset=UTF-8
+Cache-Control: no-cache, must-revalidate
+Expires: Fri, 26 Jun 2015 19:46:06 GMT
+Date: Fri, 26 Jun 2015 19:46:06 GMT
+Connection: keep-alive
+

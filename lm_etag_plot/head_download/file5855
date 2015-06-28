@@ -1,0 +1,19 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 21:34:39 GMT
+X-ServedBy: ny1-prod6-web005
+Set-Cookie: JSESSIONID=hk8yidIf3rIAev4d-UahUBFPkS2Zgjoeh6toSaBfwpsBvy1JsYfC_g;Path=/;HttpOnly
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Set-Cookie: crumb=777da1da29;Path=/
+Set-Cookie: SS_MID=e34eeb27-fc1e-4bc7-9598-d51e54ef45f9ibfkfr8o;Path=/;Domain=.speirs.org;Expires=Tue, 24-Jun-2025 21:34:39 GMT
+Set-Cookie: ss_cid=d07be0b6-1dd4-482d-bd2e-a2dfe938cb11;Path=/;Domain=.speirs.org;Expires=Mon, 26-Jun-2017 21:34:39 GMT
+Set-Cookie: ss_cvisit=1435440879533;Path=/;Domain=.speirs.org;Expires=Sat, 27-Jun-2015 22:04:39 GMT
+Accept-Ranges: bytes
+Content-Type: application/rss+xml; charset=UTF-8
+X-PC-Date: Sat, 27 Jun 2015 06:57:57 GMT
+X-PC-Host: 10.100.101.18
+ETag: W/"f2ae27f6b1f46926c1155a7c2f4f9ab6"
+X-PC-Key: qYu_W1DKIiaCnTLNzCLchZWdPxs-fraser-speirs
+X-PC-Hit: true
+X-ContextId: it9mOuJf/plJZkL3O
+X-Via: 1.1 ny1-prod-echo005
+

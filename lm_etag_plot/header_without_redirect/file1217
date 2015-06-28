@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 18:19:27 GMT
+Content-Type: application/rss+xml
+Content-Length: 69019
+Connection: keep-alive
+Set-Cookie: __cfduid=d53f47553f86604760b7e60d293e41bcd1435342767; expires=Sat, 25-Jun-16 18:19:27 GMT; path=/; domain=.mindtools.com; HttpOnly
+Last-Modified: Fri, 26 Jun 2015 12:04:02 GMT
+ETag: "10d9b-5196a892de8d7"
+Accept-Ranges: bytes
+Server: cloudflare-nginx
+CF-RAY: 1fcaebab080408ab-FRA
+

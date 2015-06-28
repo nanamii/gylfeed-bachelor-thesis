@@ -1,0 +1,19 @@
+HTTP/1.1 200 OK
+Age: 0
+Cache-Control: must-revalidate
+Content-Type: application/rss+xml; charset=utf-8
+Date: Sat, 27 Jun 2015 21:24:40 GMT
+ETag: "19a8c1617f65634d515b46d38de45467"
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Last-Modified: Sat, 27 Jun 2015 21:03:25 GMT
+Server: nginx
+Set-Cookie: SESSb32fe1a64842b5f365abb97975488a2c=4p15c33m16sfjk0ta4h4ucpkn6; expires=Tue, 21-Jul-2015 00:58:00 GMT; path=/; domain=.ctc.org.uk
+Via: 1.1 varnish
+X-AH-Environment: prod
+X-Cache: MISS
+X-Content-Type-Options: nosniff
+X-Frame-Options: SameOrigin
+X-Request-ID: v-ebb53590-1d12-11e5-91f1-22000a22a668
+X-Varnish: 432878986
+Connection: keep-alive
+

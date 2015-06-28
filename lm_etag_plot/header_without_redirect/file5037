@@ -1,0 +1,9 @@
+HTTP/1.1 302 Temporary Redirect
+Date: Fri, 26 Jun 2015 19:51:31 GMT
+Server: Apache
+X-Pingback: http://www.averagebetty.com/wordpress/xmlrpc.php
+Last-Modified: Fri, 26 Jun 2015 18:30:55 GMT
+ETag: "a9389a771e4d7ef3118eec58d78605d8"
+Location: http://feeds.feedburner.com/averagebetty
+Content-Type: text/html
+

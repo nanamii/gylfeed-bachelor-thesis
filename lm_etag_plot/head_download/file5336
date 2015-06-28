@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Content-Type: application/xml
+Content-Length: 730918
+Connection: keep-alive
+Date: Sat, 27 Jun 2015 17:45:34 GMT
+Cache-Control: max-age=300
+Last-Modified: Wed, 17 Jun 2015 07:10:30 GMT
+ETag: "3e22bc13952094e53d0b974c8f1ea858"
+Server: AmazonS3
+X-Cache: RefreshHit from cloudfront
+Via: 1.1 e24fef4a7b03bd84e1e8d57f2471a84d.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: oM7x4UdPKue-6CJTt-wj6dqg-RSXOLZNCiZyFVSzvhhuJTeCevlWMA==
+

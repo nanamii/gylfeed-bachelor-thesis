@@ -1,0 +1,14 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 18:08:09 GMT
+Content-Type: text/html
+Connection: keep-alive
+Set-Cookie: __cfduid=d90c24bc95b5195f77faaecea6d0ab12d1435342088; expires=Sat, 25-Jun-16 18:08:08 GMT; path=/; domain=.calikartel.com; HttpOnly
+X-Powered-By: PHP/5.3.29
+X-Pingback: http://calikartel.com/xmlrpc.php
+ETag: W/"ca73c5f6446550b41ff9d00671390d4d"
+Last-Modified: Mon, 02 Mar 2015 23:55:32 GMT
+Location: http://calikartel.com/feed/
+Vary: User-Agent,Accept-Encoding
+Server: cloudflare-nginx
+CF-RAY: 1fcadb13e3c50f5d-FRA
+

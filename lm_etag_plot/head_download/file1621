@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sat, 27 Jun 2015 19:20:56 GMT
+Content-Type: text/html
+Connection: keep-alive
+X-Robots-Tag: noindex,follow
+Cache-Control: max-age=3600, public
+Pragma: public
+Vary: Accept-Encoding
+

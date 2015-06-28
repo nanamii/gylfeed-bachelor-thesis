@@ -1,0 +1,14 @@
+HTTP/1.1 301 Moved Permanently
+Content-Type: text/html
+Location: http://www.realestateappraisalsaustin.com/atom.xml
+Server:  - Web acceleration by http://www.unixy.net/advanced-hosting/varnish-litespeed-cpanel/ 
+X-Cacheable: YES
+Content-Length: 1147
+Accept-Ranges: bytes
+Date: Fri, 26 Jun 2015 18:55:42 GMT
+X-Varnish: 204426157
+Via: 1.1 varnish
+Connection: keep-alive
+age: 0
+X-Cache: MISS
+

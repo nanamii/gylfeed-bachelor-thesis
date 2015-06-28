@@ -1,0 +1,8 @@
+HTTP/1.1 302 Moved Temporarily
+Server: AkamaiGHost
+Content-Length: 0
+Location: /
+Date: Fri, 26 Jun 2015 19:26:41 GMT
+Connection: keep-alive
+Cache-Control: private
+

@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sat, 27 Jun 2015 19:47:29 GMT
+Content-Type: text/xml; charset=UTF-8
+Connection: keep-alive
+Keep-Alive: timeout=20
+X-Pingback: http://webfoundation.org/xmlrpc.php
+Last-Modified: Fri, 26 Jun 2015 14:12:23 GMT
+ETag: "772e86e7e6bc58fe90c9da1405bb8152-gzip"
+X-Cacheable: CacheAlways: feed
+Cache-Control: max-age=600, must-revalidate
+X-Cache: HIT: 1
+X-Pass-Why: 
+X-Cache-Group: 
+X-Type: feed
+

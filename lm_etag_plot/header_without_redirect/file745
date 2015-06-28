@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+GeekInstance: ExtWEB1VPC
+Last-Modified: Fri, 26 Jun 2015 16:58:44 GMT
+Server: nginx
+X-Cache-Hits: 1
+X-Pingback: http://www.extremetech.com/xmlrpc.php
+X-Varnish: 660207452 660207368
+Cache-Control: no-cache
+Date: Fri, 26 Jun 2015 18:08:27 GMT
+Connection: keep-alive
+

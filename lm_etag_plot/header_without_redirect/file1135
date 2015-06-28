@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Server: nginx/1.8.0
+Date: Fri, 26 Jun 2015 18:18:05 GMT
+Content-Type: text/html
+Connection: keep-alive
+X-Pingback: http://ginaparris.com/winningatromance/xmlrpc.php
+ETag: "5081f6c797314342fc96a6a5c09fc527"
+Set-Cookie: wfvt_1103070520=558d975d662fd; expires=Fri, 26-Jun-2015 18:48:05 GMT; path=/
+Last-Modified: Fri, 24 Apr 2015 13:27:23 GMT
+

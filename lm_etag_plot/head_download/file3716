@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 20:11:02 GMT
+Server: Apache
+X-Pingback: http://www.listropolis.com/xmlrpc.php
+ETag: "0cb7d38473350c339704e933e33ba478"
+Set-Cookie: mode=grid; expires=Mon, 27-Jul-2015 20:11:02 GMT; path=/
+Last-Modified: Mon, 05 Dec 2011 14:34:54 GMT
+Content-Type: text/xml; charset=UTF-8
+

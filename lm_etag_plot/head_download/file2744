@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Cache-Control: public
+Content-Length: 284810
+Content-Type: text/xml; charset=utf-8
+Last-Modified: Thu, 18 Jun 2015 16:00:00 GMT
+ETag: 6/18/2015 9:00:00 AM
+Server: Microsoft-IIS/7.5
+X-FRAME-OPTIONS: SAMEORIGIN
+Telligent-Evolution: 7.1.12.36162
+X-Server: NWBARR02
+X-MsdnTechnet-Version: 7.1.507.6741
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+server: r02
+Date: Sat, 27 Jun 2015 19:43:34 GMT
+

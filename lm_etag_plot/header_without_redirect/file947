@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 18:15:32 GMT
+Server: Apache
+Vary: Cookie
+X-Pingback: http://reverttosaved.com/xmlrpc.php
+ETag: "6e5f0c4c100815f47ed223412ef767e8"
+WP-Super-Cache: Served legacy cache file
+Content-Type: text/xml; charset=UTF-8
+X-Pad: avoid browser bug
+

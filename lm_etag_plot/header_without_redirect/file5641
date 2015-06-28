@@ -1,0 +1,8 @@
+HTTP/1.1 301 Moved Permanently
+x-amz-id-2: bGYOMoylAcH0+5HYbE/x/JQVO5rmh5jlzwNewmf3EWZysqDYWSAllYbMw0tuscG+
+x-amz-request-id: 2536DAF08E2AF4BE
+Date: Fri, 26 Jun 2015 20:18:06 GMT
+Location: https://superfeedr-blog-feed.herokuapp.com/
+Content-Length: 0
+Server: AmazonS3
+

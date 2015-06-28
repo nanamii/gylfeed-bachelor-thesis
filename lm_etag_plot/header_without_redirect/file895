@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Server: nginx/1.8.0
+Date: Fri, 26 Jun 2015 18:13:56 GMT
+Content-Type: application/atom+xml; charset="UTF-8"
+Connection: keep-alive
+Vary: Cookie
+X-Pingback: http://www.emanueleferonato.com/xmlrpc.php
+ETag: "df3445f240c114351c616bb1c4616182"
+Last-Modified: Fri, 26 Jun 2015 13:59:27 GMT
+

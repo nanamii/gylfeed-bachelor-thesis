@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Server: Apache
+Cache-Control: max-age=0
+Expires: Sat, 27 Jun 2015 16:15:00 GMT
+P3P: CP="CAO DSP COR PSA PSD IVD CONi OUR IND" policyref="/w3c/p3p.xml"
+Last-Modified: Sat, 27 Jun 2015 16:12:00 GMT
+If-None-Match: 1435421560
+Content-Type: text/xml
+X-Media: ws1027-fe.tm.cbsig.net:30000
+nnCoection: close
+Date: Sat, 27 Jun 2015 19:48:48 GMT
+Connection: keep-alive
+

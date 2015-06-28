@@ -1,0 +1,15 @@
+HTTP/1.1 302 Found
+Date: Fri, 26 Jun 2015 19:41:59 GMT
+Content-Type: text/html; charset=iso-8859-1
+Connection: keep-alive
+Set-Cookie: __cfduid=d3ccd46b919d2fe5aaf211a9765a875f61435347719; expires=Sat, 25-Jun-16 19:41:59 GMT; path=/; domain=.ojr.org; HttpOnly
+Location: http://www.ojr.org/rss.xml
+X-Cacheable: YES
+X-Varnish: 893185991 892985267
+Age: 72394
+Via: 1.1 varnish
+X-Cache-Hits: 1802
+X-Varnish-Cache: HIT
+Server: cloudflare-nginx
+CF-RAY: 1fcb648cd6fa15a7-FRA
+

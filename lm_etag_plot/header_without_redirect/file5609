@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 20:17:44 GMT
+Server: Apache
+X-Pingback: http://blog.stevecheney.com/xmlrpc.php
+Last-Modified: Mon, 15 Jun 2015 02:41:28 GMT
+ETag: "93d2ae09fd2af2be9d063f5f5d0af30d"
+Cache-Control: max-age=3600
+Expires: Fri, 26 Jun 2015 21:17:44 GMT
+Content-Type: text/html
+

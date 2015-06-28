@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 20:26:33 GMT
+Server: Apache
+X-Pingback: http://www.serialbaker.com/xmlrpc.php
+ETag: "8dcf5069e26e48d709fa427896861660"
+Last-Modified: Thu, 04 Apr 2013 15:13:06 GMT
+Vary: Accept-Encoding
+Content-Type: text/html
+X-Pad: avoid browser bug
+

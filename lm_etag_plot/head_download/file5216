@@ -1,0 +1,18 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sat, 27 Jun 2015 21:15:12 GMT
+Content-Type: text/xml; charset=utf-8
+Connection: keep-alive
+X-AWS-Id: ws02
+Cache-Control: private, proxy-revalidate
+Content-MD5: NA5jVElebwQDrg6GIbnlHw
+Vary: Accept-Encoding,ETag
+Last-Modified: Sat, 06 Oct 2012 07:47:25 GMT
+X-Varnish: 1239955101 1235953749
+Age: 16507
+X-VWS-Id: bil1-varn24
+ETag: GgZzNA5jVElebwQDrg6GIbnlHw
+X-Gateway: bil1-swlb05
+X-Beta: http://varnish
+Set-Cookie: ljident=2902726060.20480.0000;domain=.livejournal.com; path=/
+

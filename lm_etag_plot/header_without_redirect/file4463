@@ -1,0 +1,7 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 19:42:52 GMT
+Server: Apache
+Vary: Cookie,Accept-Encoding
+Location: /atom.xml
+Content-Type: text/html; charset="UTF-8"
+

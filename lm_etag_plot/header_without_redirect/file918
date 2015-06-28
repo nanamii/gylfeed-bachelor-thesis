@@ -1,0 +1,17 @@
+HTTP/1.0 200 OK
+Server: Apache/2.2.22 (Unix)
+X-Web-Node: www202
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST, GET, OPTIONS
+Access-Control-Max-Age: 86400
+Cache-Control: max-age=3600
+Expires: Fri, 26 Jun 2015 19:14:48 GMT
+Content-Type: text/xml; charset=utf-8;
+Date: Fri, 26 Jun 2015 18:14:48 GMT
+X-Varnish: 1189060178
+Age: 0
+Via: 1.1 varnish
+Connection: close
+X-cms: 1
+X-varnish-host: varnish4
+

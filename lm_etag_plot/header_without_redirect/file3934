@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+Server: nginx/1.8.0
+Date: Fri, 26 Jun 2015 19:25:14 GMT
+Content-Type: text/xml; charset=UTF-8
+Connection: keep-alive
+X-Pingback: http://weblogg-ed.com/xmlrpc.php
+ETag: "4e0805c634677cb67ee54defd58228f8"
+Last-Modified: Mon, 20 Jun 2011 19:06:04 GMT
+

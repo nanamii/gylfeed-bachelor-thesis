@@ -1,0 +1,8 @@
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/rss+xml; charset=utf-8
+X-UA-Compatible: IE=edge,chrome=1
+Date: Fri, 26 Jun 2015 19:06:52 GMT
+Connection: keep-alive
+Set-Cookie: _AVESTA_ENVIRONMENT=prod; path=/
+

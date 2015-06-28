@@ -1,0 +1,14 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 19:01:11 GMT
+Server: Apache
+Last-Modified: Fri, 26 Jun 2015 19:01:11 GMT
+Location: http://www.katu.com/news/?fin=xml&type=default&c=y
+Cache-Control: no-store, no-cache, max-age=300
+Expires: Fri, 26 Jun 2015 19:06:11 GMT
+Vary: Accept-Encoding
+X-Server-Name: la-c1-r3-u18-b2
+Content-Type: application/rss+xml
+Via: 1.1 la-c1-r3-u26-b1:3128 (squid)
+Connection: keep-alive
+Set-Cookie: __llnwmob=0
+

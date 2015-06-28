@@ -1,0 +1,14 @@
+HTTP/1.1 301 Moved Permanently
+Content-Type: text/html; charset=iso-8859-1
+Location: http://www.newyorker.com/feed/everything
+Server: Apache
+Varnish-X-Cache: HIT
+Varnish-X-Cache-Hits: 18723
+X-Cacheable: YES
+X-Varnish: 186490987 185589167
+Content-Length: 248
+Cache-Control: max-age=1609
+Expires: Fri, 26 Jun 2015 19:41:16 GMT
+Date: Fri, 26 Jun 2015 19:14:27 GMT
+Connection: keep-alive
+

@@ -1,0 +1,9 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 20:21:25 GMT
+Server: Apache
+X-Powered-By: PHP/5.5.19
+Connection: close
+Location: http://ma.tt/feed/
+Vary: User-Agent
+Content-Type: text/html
+

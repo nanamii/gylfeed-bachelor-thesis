@@ -1,0 +1,16 @@
+HTTP/1.1 401 Unauthorized
+Date: Fri, 26 Jun 2015 19:34:25 GMT
+Server: Server
+Content-Type: text/html; charset=utf-8
+Status: 401 Unauthorized
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Request-Id: 19QVFQCY569NMYKXKD78
+Cache-Control: no-cache
+X-Runtime: 0.031578
+Set-Cookie: csid=BAhJIhgyMzktNDg1OTgzMy0xOTkyNTI4BjoGRVQ%3D--2751bb3ce82046fe36a4d717f9278ffdf9fdf61c; path=/; expires=Tue, 26 Jun 2035 19:34:25 -0000
+Set-Cookie: locale=de; path=/
+Set-Cookie: _session_id2=fff1ef807d77ba99d4b6d9fc97268ec9; path=/; expires=Sat, 27 Jun 2015 01:34:25 -0000; HttpOnly
+Vary: User-Agent
+

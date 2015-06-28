@@ -1,0 +1,20 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sat, 27 Jun 2015 20:11:37 GMT
+Content-Type: text/html; charset=utf-8
+Connection: keep-alive
+X-Drupal-Cache: HIT
+Etag: "1435433795-1"
+Content-Language: en
+X-Generator: Drupal 7 (http://drupal.org)
+Link: <https://www.eff.org/files/2015/03/02/eff-og-2.png>; rel="image_src",<https://www.eff.org/deeplinks/index.xml>; rel="canonical",<https://www.eff.org/deeplinks/index.xml>; rel="shortlink",<https://www.eff.org/>; rel="publisher"
+Cache-Control: public, max-age=1800
+Last-Modified: Sat, 27 Jun 2015 19:36:35 GMT
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Vary: Cookie,Accept-Encoding
+X-Varnish: 2136553487 2136541640
+Age: 228
+Via: 1.1 varnish
+Strict-Transport-Security: max-age=31536000; includeSubdomains
+X-Frame-Options: SAMEORIGIN
+

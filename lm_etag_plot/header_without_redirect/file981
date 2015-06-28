@@ -1,0 +1,14 @@
+HTTP/1.1 302 Moved Temporarily
+Date: Fri, 26 Jun 2015 18:15:52 GMT
+Server: Apache
+X-Pingback: http://www.koozai.com/blog/xmlrpc.php
+X-Powered-By: W3 Total Cache/0.9.4
+Set-Cookie: bb2_screener_=1435342552+92.194.59.39; path=/
+Last-Modified: Fri, 26 Jun 2015 10:48:39 GMT
+ETag: "545798a1ee4d4cc6b930b0288289360a"
+Location: http://feeds.feedburner.com/co/wqDW
+Cache-Control: private, no-cache, no-store, proxy-revalidate, no-transform
+Expires: Fri, 26 Jun 2015 18:15:52 GMT
+Vary: User-Agent
+Content-Type: text/html
+

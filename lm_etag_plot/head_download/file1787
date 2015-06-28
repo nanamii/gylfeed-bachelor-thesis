@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:23:03 GMT
+Server: Apache/2.2.29
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+X-Pingback: http://sharpbrains.com/xmlrpc.php
+ETag: "45a6a6c01043285389cd9a00c55ee14c"
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+WP-Super-Cache: Served legacy cache file
+Content-Type: text/xml; charset=UTF-8
+

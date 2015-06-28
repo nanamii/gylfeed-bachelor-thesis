@@ -1,0 +1,12 @@
+HTTP/1.1 301 Moved Permanently
+Content-Length: 185
+Content-Type: text/html; charset=UTF-8
+Location: https://www.aan.com/news/?event=deliver.rss&newsStand_id=1
+Server: Microsoft-IIS/7.5
+X-Powered-By: ASP.NET
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: Content-Type
+Access-Control-Allow-Methods: GET
+Date: Fri, 26 Jun 2015 18:58:03 GMT
+Set-Cookie: loadmaster=658227804.1.2933030168.258177184; path=/
+

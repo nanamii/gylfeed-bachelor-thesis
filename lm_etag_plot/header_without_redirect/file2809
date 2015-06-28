@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Server: nginx/1.8.0
+Date: Fri, 26 Jun 2015 19:07:18 GMT
+Content-Type: text/xml; charset=UTF-8
+Connection: keep-alive
+Vary: Cookie
+X-Pingback: http://solotravelerblog.com/xmlrpc.php
+ETag: "0478986606843034fd544cf966722f82"
+WP-Super-Cache: Served legacy cache file
+

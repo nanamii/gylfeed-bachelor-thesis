@@ -1,0 +1,17 @@
+HTTP/1.1 200 OK
+Content-Type: application/xml
+Content-Length: 0
+Connection: keep-alive
+Cache-Control: public,max-age=900
+Date: Sat, 27 Jun 2015 19:15:37 GMT
+Via: 1.1 varnish, 1.1 f0ef92e52918ab5129ebd66f2f633cbb.cloudfront.net (CloudFront)
+X-Backend: storifywebapp22
+X-Cache-Server: vf-storifywebapp3.prod.livefyre.com
+x-frame-options: DENY
+x-powered-by: Express
+X-Varnish: 601608044 601603815
+Age: 724
+Vary: Accept-Language
+X-Cache: Hit from cloudfront
+X-Amz-Cf-Id: RIIspS0MGDwqTVG3xbS-4LZsjEzjb9Hb_xl3aHIKS0mmHc7Lhl1BAA==
+

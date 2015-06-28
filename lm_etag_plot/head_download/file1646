@@ -1,0 +1,19 @@
+HTTP/1.1 200 OK
+Age: 18950
+Cache-Control: public, max-age=21600
+Cache-control: no-cache="set-cookie"
+Content-Language: en
+Content-Type: application/rss+xml; charset=utf-8
+Date: Sat, 27 Jun 2015 19:21:18 GMT
+ETag: "1435413929-0"
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Last-Modified: Sat, 27 Jun 2015 14:05:29 +0000
+Server: Apache/2.2.29 (Amazon)
+Set-Cookie: AWSELB=F5B759EB1A2024F60524A843F67A8941D493031B466497E93ED4DA2D063ED2D5ECC76CE85010A583FB3629127E6B7517142A3381FDBEFF556051A456067CD5E46692C00888;PATH=/;MAX-AGE=4000
+Vary: Cookie,Accept-Encoding
+Via: 1.1 varnish
+X-Drupal-Cache: MISS
+X-Powered-By: PHP/5.3.29
+X-Varnish: 1688046893 1687975356
+Connection: keep-alive
+

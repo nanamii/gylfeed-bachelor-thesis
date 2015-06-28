@@ -1,0 +1,22 @@
+HTTP/1.1 200 OK
+Server: Apache
+X-Powered-By: PHP/5.3.28
+X-Drupal-Cache: MISS
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Last-Modified: Tue, 19 May 2015 02:40:06 GMT
+Cache-Control: public, max-age=0
+ETag: "1432003206-1"
+Content-Language: en
+Vary: Cookie,Accept-Encoding
+Content-Type: application/rss+xml; charset=utf-8
+X-Cookie-Debug: Request cookie: 
+Date: Sat, 27 Jun 2015 19:22:53 GMT
+X-Varnish: 986299268 843617309
+Age: 3429767
+Via: 1.1 varnish
+Connection: keep-alive
+X-Varnish-Cache: HIT
+X-Varnish-Server: cache1
+X-Varnish-Debug-Hits: 177203
+X-Varnish-Debug-Age: 3429767
+

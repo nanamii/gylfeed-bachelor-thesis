@@ -1,0 +1,11 @@
+HTTP/1.1 302 Temporary Redirect
+Date: Fri, 26 Jun 2015 18:43:14 GMT
+Server: Apache
+X-Pingback: http://socialstrand.com/xmlrpc.php
+ETag: "bf2b68dc5179a2341f206596e0290560"
+Set-Cookie: wfvt_3131354685=558d9d42990da; expires=Fri, 26-Jun-2015 19:13:14 GMT; path=/; httponly
+Last-Modified: Wed, 24 Jun 2015 15:12:32 GMT
+Location: http://socialstrand.com/blog
+Vary: Accept-Encoding
+Content-Type: text/html
+

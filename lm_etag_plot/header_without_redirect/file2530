@@ -1,0 +1,11 @@
+HTTP/1.1 301 Moved Permanently
+Content-Length: 0
+Location: http://www.jpost.com/Headlines
+Server: Microsoft-IIS/8.5
+X-Powered-By: ASP.NET
+Cache-Control: max-age=120
+Expires: Fri, 26 Jun 2015 19:03:10 GMT
+Date: Fri, 26 Jun 2015 19:01:10 GMT
+Connection: keep-alive
+Set-Cookie: BIGipServerjpost-jpost.com_80.app~jpost-jpost.com_80_pool=236234944.20480.0000; path=/
+

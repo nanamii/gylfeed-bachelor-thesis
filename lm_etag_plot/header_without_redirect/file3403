@@ -1,0 +1,15 @@
+HTTP/1.1 302 Moved Temporarily
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: TWiT.tv
+X-Xss-Protection: 1; mode=block
+X-Frame-Options: SAMEORIGIN
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+Location: https://twit.tv/node/4544/feed
+Vary: Accept, Accept-Encoding
+Content-Type: text/plain; charset=utf-8
+Content-Length: 64
+Date: Fri, 26 Jun 2015 19:18:52 GMT
+Via: 1.1 vegur
+

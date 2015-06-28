@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Server: nginx/1.8.0
+Date: Fri, 26 Jun 2015 18:18:14 GMT
+Content-Type: text/xml; charset=UTF-8
+Connection: keep-alive
+X-Powered-By: PHP/5.3.3
+Vary: Cookie
+X-Pingback: http://www.marismith.com/xmlrpc.php
+ETag: "8a4028ec3a5a817e154e55865d27a438"
+WP-Super-Cache: Served legacy cache file
+

@@ -1,0 +1,7 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 18:50:52 GMT
+Server: Apache
+Location: http://www.techmeme.com/feed.xml
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+

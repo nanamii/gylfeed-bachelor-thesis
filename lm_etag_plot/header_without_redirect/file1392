@@ -1,0 +1,29 @@
+HTTP/1.1 301 Moved Permanently
+Accept-Ranges: bytes
+age: 0
+Cache-Control: max-age = 600
+Content-Length: 0
+Content-Type: text/html; charset=utf-8
+Date: Fri, 26 Jun 2015 18:24:03 GMT
+Last-Modified: Fri, 26 Jun 2015 18:19:09 GMT
+Location: http://www.economist.com/feeds/print-sections/80/science-and-technology.xml
+Server: Economist Web Server
+Vary: Cookie
+Via: 1.1 varnish
+X-Cache-Hits: 31
+x-ip: 92.194.59.39
+X-Powered-By: Dynamic Cache
+X-Varnish: 735447228 735430015
+X-Varnish-Cache: HIT
+xff: 92.194.59.39
+Connection: keep-alive
+Set-Cookie: visid_incap_121505=8epksn2JT1e+9XgoGqwFU8KYjVUAAAAAQUIPAAAAAADjPA79nF6WYBhvMHVo8Qbz; expires=Sun, 25 Jun 2017 09:55:46 GMT; path=/; Domain=.economist.com
+Set-Cookie: nlbi_121505=BPzLc4/a7Q3CzzLXA0pflAAAAAAWOj0BRpeN9UAoxMG3NVMb; path=/; Domain=.economist.com
+Set-Cookie: incap_ses_108_121505=MMu0X/YwZWIqrtaJgrF/AcKYjVUAAAAA+AiUK+iCcbZmKPtHFTHdAg==; path=/; Domain=.economist.com
+Set-Cookie: ___utmvmlcuZKyc=nsiezzsztoQ; path=/; Max-Age=900
+Set-Cookie: ___utmvalcuZKyc=DNFNrrY; path=/; Max-Age=900
+Set-Cookie: ___utmvblcuZKyc=NZZ
+    XtiOIalZ: UtB; path=/; Max-Age=900
+X-Iinfo: 8-145162462-145154855 PNNY RT(1435343042739 2) q(0 0 0 0) r(1 1) U5
+X-CDN: Incapsula
+

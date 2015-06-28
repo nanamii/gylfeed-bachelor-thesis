@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:55:07 GMT
+Server: Apache
+Set-Cookie: SESSa826ce3437bb3993de7c1a226a6b4dcf=d7t5kbpchv0uiqb5euu2nr9ie3; expires=Mon, 20-Jul-2015 23:28:27 GMT; path=/; domain=.worldwatch.org
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Last-Modified: Sat, 27 Jun 2015 19:55:07 GMT
+Cache-Control: store, no-cache, must-revalidate
+Cache-Control: post-check=0, pre-check=0
+Vary: Accept-Encoding
+Connection: close
+Content-Type: application/rss+xml; charset=utf-8
+

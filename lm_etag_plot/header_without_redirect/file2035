@@ -1,0 +1,10 @@
+HTTP/1.1 302 Temporary Redirect
+Date: Fri, 26 Jun 2015 18:55:35 GMT
+Server: Apache
+X-Pingback: http://bydanielvictor.com/xmlrpc.php
+ETag: "e6efdbc82ec67979fe85c97ede86eff1"
+Last-Modified: Mon, 26 Jan 2015 01:14:46 GMT
+Location: http://feeds.feedburner.com/ByDanielVictor
+Vary: Accept-Encoding
+Content-Type: text/html
+

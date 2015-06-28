@@ -1,0 +1,8 @@
+HTTP/1.1 301 Found
+Server: nginx/1.5.0
+Date: Fri, 26 Jun 2015 20:07:16 GMT
+Content-Type: text/html
+Connection: keep-alive
+X-Powered-By: PHP/5.4.29
+Location: http://www.dcortesi.com/feed/
+

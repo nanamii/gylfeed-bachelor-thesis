@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:29:51 GMT
+Server: Apache
+X-Powered-By: PHP/5.4.26
+Expires: Mon, 22 Jun 2015 19:29:51 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: private
+Last-Modified: Sat, 27 Jun 2015 19:24:51 GMT
+Content-Type: text/xml;charset=cp1256
+

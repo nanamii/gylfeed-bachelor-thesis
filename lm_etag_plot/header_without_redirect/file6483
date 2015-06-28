@@ -1,0 +1,10 @@
+HTTP/1.1 301 Moved Permanently
+Cache-control: no-cache="set-cookie"
+Content-Type: text/html; charset=iso-8859-1
+Date: Fri, 26 Jun 2015 20:38:04 GMT
+Location: https://mojang.com/feed/
+Server: Apache/2.2.22 (Ubuntu)
+Set-Cookie: AWSELB=EFDB35C31413C9E73B5DB619B24F14A81F8CBB9EC77BB5431BE79EA8B8AEEB2C07EBFD3599D52CC6FFC3ED2F3BA74105F9EFA3DEDA0ABEBC4D51EAEE12C072B2BB49B619FD;PATH=/;MAX-AGE=3600
+Vary: Accept-Encoding
+Connection: keep-alive
+

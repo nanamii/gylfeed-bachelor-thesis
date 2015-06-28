@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+Server: Apache/2.2.15 (CentOS)
+X-Pingback: http://www.celebuzz.com/wp/xmlrpc.php
+Last-Modified: Sat, 27 Jun 2015 17:00:37 GMT
+ETag: "15543b469588594b8f137f241ba06524"
+Content-Type: text/html; charset=UTF-8
+Date: Sat, 27 Jun 2015 19:56:52 GMT
+Connection: keep-alive
+

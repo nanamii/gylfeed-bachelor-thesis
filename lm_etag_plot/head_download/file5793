@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Server: Apache
+X-Pingback: http://www.robot-hugs.com/xmlrpc.php
+ETag: "33092cb3a8f87797db6c4003ecd1d74a"
+Last-Modified: Thu, 25 Jun 2015 04:01:00 GMT
+Vary: Accept-Encoding
+Content-Type: text/xml; charset=UTF-8
+X-Cacheable: YES:Forced
+Date: Sat, 27 Jun 2015 21:31:08 GMT
+X-Varnish: 2094062957 2094062710
+Age: 211
+Via: 1.1 varnish
+Connection: keep-alive
+

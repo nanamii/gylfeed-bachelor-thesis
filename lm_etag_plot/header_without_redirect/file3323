@@ -1,0 +1,10 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Content-Type: text/html
+Date: Fri, 26 Jun 2015 19:18:21 GMT
+Keep-Alive: timeout=20
+Location: http://securelist.com/en/rss/allupdates
+Connection: keep-alive
+Set-Cookie: X-Mapping-fjhppofk=E999C373FA484CDEC75409A4A0621B68; path=/
+Content-Length: 178
+

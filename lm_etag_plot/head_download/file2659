@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Server: Apache/2.2.15 (CentOS)
+X-Powered-By: PHP/5.3.3
+X-Pingback: http://blogs.barrons.com/techtraderdaily/xmlrpc.php
+Last-Modified: Fri, 26 Jun 2015 20:34:00 GMT
+ETag: "be1bb1b63d59abeac37e07960691a1eb"
+P3P: CP=CAO DSP COR CURa ADMa DEVi TAIo PSAa PSDa IVDi CONi OTPi OUR OTRi BUS PHY ONL UNI PUR COM NAV INT DEM CNT STA OTC
+Content-Type: text/xml; charset=UTF-8
+Date: Sat, 27 Jun 2015 19:42:21 GMT
+Connection: keep-alive
+

@@ -1,0 +1,18 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sat, 27 Jun 2015 19:55:11 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+Vary: Accept-Encoding
+X-Powered-By: W3 Total Cache/0.8.5.1
+Pragma: public
+Expires: Sat, 27 Jun 2015 19:55:42 GMT
+Cache-Control: max-age=31, public, must-revalidate, public
+Vary: Cookie,Accept-Encoding
+X-PBS-appsvrname: wnetwp-prod-app
+X-PBS-appsvrip: 10.38.67.207
+X-PBS-fwsrvname: fwcacheproxy #377
+X-PBS-fwsrvip: 127.0.0.1
+X-Cache-FS-Status: EXPIRED
+X-PBS-fwsrvname: fwcacheproxy_377
+

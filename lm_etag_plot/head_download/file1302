@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sat, 27 Jun 2015 19:14:24 GMT
+Content-Type: text/xml; charset=UTF-8
+Connection: keep-alive
+Keep-Alive: timeout=20
+X-Pingback: http://tommarch.com/xmlrpc.php
+Last-Modified: Wed, 23 Apr 2014 19:52:20 GMT
+ETag: "cab280ad0e4bc1bf3c702af71fca3df3-gzip"
+X-Cacheable: CacheAlways: feed
+Cache-Control: max-age=600, must-revalidate
+X-Cache: MISS
+X-Pass-Why: 
+X-Cache-Group: 
+X-Type: feed
+

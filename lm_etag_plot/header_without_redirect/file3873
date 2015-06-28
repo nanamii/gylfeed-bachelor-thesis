@@ -1,0 +1,16 @@
+HTTP/1.1 301 Moved Permanently
+Location: http://www.doityourself.com/rss/
+Cache-Control: max-age=2592000
+Expires: Sun, 26 Jul 2015 19:22:54 GMT
+Content-Type: text/html; charset=iso-8859-1
+Content-Length: 310
+Accept-Ranges: bytes
+Date: Fri, 26 Jun 2015 19:24:22 GMT
+X-Varnish: 1857524709 1857517618
+Age: 88
+Via: 1.1 varnish
+Connection: keep-alive
+X-Cache: HIT
+X-Cache-nHIT: 3
+Set-Cookie: BIGipServerdiy-varnish_POOL=2810974218.52514.0000; path=/
+

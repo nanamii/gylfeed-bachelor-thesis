@@ -1,0 +1,17 @@
+HTTP/1.1 301 Moved Permanently
+Accept-Ranges: bytes
+Content-Length: 335
+Content-Type: text/html; charset=iso-8859-1
+Location: http://www.walesonline.co.uk/news/health/
+Server: nginx
+X-ProcessESI: yes
+X-RemovedCookies: YES
+X-Served-By: reg-cache1a.tm-aws.com
+X-Varnish: 956324228
+Cache-Control: max-age=600
+Expires: Fri, 26 Jun 2015 19:09:06 GMT
+Date: Fri, 26 Jun 2015 18:59:06 GMT
+Connection: keep-alive
+Set-Cookie: stop_mobi=true; path=/
+Vary: User-Agent
+

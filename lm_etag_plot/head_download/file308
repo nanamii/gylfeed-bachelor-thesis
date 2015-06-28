@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 18:38:11 GMT
+Server: Apache/2.2.22
+X-Powered-By: PHP/5.3.29
+X-Pingback: http://blog.inspirit.ru/xmlrpc.php
+ETag: "4597515b87dbaa79676747818af353c6"
+Last-Modified: Tue, 11 Sep 2012 10:20:43 GMT
+Vary: User-Agent,Accept-Encoding
+Content-Type: text/html
+

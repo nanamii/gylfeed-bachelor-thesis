@@ -1,0 +1,22 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 19:09:24 GMT
+Content-Type: text/html
+Connection: keep-alive
+Set-Cookie: __cfduid=d1b88e1e1cdeece558862939363c405b41435345764; expires=Sat, 25-Jun-16 19:09:24 GMT; path=/; domain=.adbusters.org; HttpOnly
+Location: https://www.adbusters.org/rss.xml
+X-Pantheon-Endpoint: 09087634-8592-435d-85fc-5b4c5b4e552b
+X-Pantheon-Styx-Hostname: styxe3d2930f
+X-Powered-By: PHP/5.3.29
+X-Styx-Build-Date: Wed Apr 29 20:43:17 UTC 2015
+X-Styx-Build-Num: 946
+X-Styx-Build-Sha: 39667cea44763e7df6d81c544b0d294bf223876f
+X-Styx-Req-Id: styx-e62ffe73fc78f9fcba3ca3ce15294ed0
+X-Styx-Version: StyxGo
+Cache-Control: public, max-age=86400
+X-Varnish: 457710503 456839104
+Age: 516
+Via: 1.1 varnish
+Vary: , Cookie
+Server: cloudflare-nginx
+CF-RAY: 1fcb34d0f96a089f-FRA
+

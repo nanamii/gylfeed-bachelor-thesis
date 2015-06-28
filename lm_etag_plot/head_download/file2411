@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Server: nginx/1.1.19
+Vary: Accept-Encoding
+cache-control: no-cache
+Content-Type: text/html; charset=UTF-8
+date: Sat, 27 Jun 2015 19:34:19 GMT
+Transfer-Encoding: chunked
+Connection: Keep-Alive
+Set-Cookie: X-Mapping-fjhppofk=45D2E60653C6327992C0006F041A7905; path=/
+Set-Cookie: PHPSESSID=eia0lq1moh13dc44gt3khnvmo0; path=/; HttpOnly
+X-Powered-By: PHP/5.4.28-1+deb.sury.org~precise+1
+

@@ -1,0 +1,28 @@
+HTTP/1.1 200 OK
+Server: nginx/0.7.67
+Date: Sat, 27 Jun 2015 21:46:48 GMT
+Content-Type: text/xml
+Connection: keep-alive
+X-Highwire-SessionId: dJBmm@WfEZenCeilp4dLhg
+X-Highwire-RequestId: VY8ZyKtCeY0AADIICNkAAAG0
+X-Firenze-Processing-Time: 15.789
+Last-Modified: Sat, 27 Jun 2015 01:49:49 GMT
+ETag: "3424a4-b87e-558e013d"
+X-Firenze-Processing-Times: detect-robot: 0.076
+X-Firenze-Processing-Times: add-external-dependencies-info: 0.042
+X-Firenze-Processing-Times: retrieve-ads: 10.337
+X-Firenze-Processing-Times: log-builder: 1.287
+X-Firenze-Processing-Times: servlet: 8.091
+X-Firenze-Processing-Time: 22.945
+Vary: Accept-Encoding
+X-HighWire-Preview-Mode: reject:empty
+X-SmartBan-URL: /rss/current.xml
+X-SmartBan-Host: jsh.oxfordjournals.org
+Accept-Ranges: bytes
+X-Varnish: 1419605912
+Age: 0
+Via: 1.1 varnish
+X-Varnish-Hostname: varnish1.HighWire.ORG
+X-Varnish-Cache: miss
+Content-Length: 47230
+

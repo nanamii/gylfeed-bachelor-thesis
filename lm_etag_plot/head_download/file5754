@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sat, 27 Jun 2015 21:30:32 GMT
+Content-Type: application/xml
+Content-Length: 1960
+Connection: keep-alive
+Keep-Alive: timeout=15
+Vary: Accept-Encoding
+Last-Modified: Tue, 10 Dec 2013 01:10:36 GMT
+Expires: Sat, 04 Jul 2015 21:30:32 GMT
+Cache-Control: max-age=604800
+ngpass_ngstatic: 1
+Accept-Ranges: bytes
+

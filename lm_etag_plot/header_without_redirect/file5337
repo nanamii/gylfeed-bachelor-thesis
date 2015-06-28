@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 20:14:56 GMT
+Server: Apache/2.2.22
+X-Powered-By: PHP/5.3.29
+Vary: Accept-Encoding,Cookie,User-Agent
+Cache-Control: max-age=3, must-revalidate
+WP-Super-Cache: Served supercache file from PHP
+Content-Type: text/html; charset=UTF-8
+

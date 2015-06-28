@@ -1,0 +1,15 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Content-Type: text/html
+Location: https://www.scribd.com/feeds/rss
+Content-Length: 178
+Accept-Ranges: bytes
+Date: Fri, 26 Jun 2015 19:25:03 GMT
+Via: 1.1 varnish
+Age: 0
+Connection: keep-alive
+X-Served-By: cache-ams4130-AMS
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1435346703.100876,VS0,VE236
+

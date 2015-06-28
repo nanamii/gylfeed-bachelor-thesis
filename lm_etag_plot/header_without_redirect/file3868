@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+ETag: "1203d2-0-502045b2ca6c5"
+X-MI-In-Market: 0
+MI-Cache-Age: 0
+MI-Cache: MISS
+Server: MI
+MI: 1827904826
+Last-Modified: Wed, 25 Feb 2015 18:41:28 GMT
+Content-Type: application/rss+xml
+Cache-Control: max-age=21082162
+Date: Fri, 26 Jun 2015 19:24:17 GMT
+Connection: keep-alive
+

@@ -1,0 +1,12 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 18:41:43 GMT
+Server: Apache/2.2.22 (Ubuntu)
+X-Powered-By: PHP/5.3.10-1ubuntu3.6
+Set-Cookie: PHPSESSID=1fsfml7n5c3n0vh5f4nvv3thg4; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Location: http://www.wayvs.com
+Vary: Accept-Encoding
+Content-Type: text/html
+

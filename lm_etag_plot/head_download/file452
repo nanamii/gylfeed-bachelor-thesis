@@ -1,0 +1,18 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sat, 27 Jun 2015 18:40:36 GMT
+Content-Type: text/xml; charset=UTF-8
+Connection: keep-alive
+Keep-Alive: timeout=20
+X-Pingback: http://pointblankseo.com/xmlrpc.php
+Last-Modified: Mon, 08 Jun 2015 17:58:53 GMT
+ETag: "15650a29d58a951cbde6f52bcb063212-gzip"
+X-Robots-Tag: noindex,follow
+Expires: Fri, 10 Jul 2015 05:05:29 GMT
+X-Cacheable: CacheAlways: feed
+Cache-Control: max-age=1209600, must-revalidate
+X-Cache: HIT: 2847
+X-Pass-Why: 
+X-Cache-Group: 
+X-Type: feed
+

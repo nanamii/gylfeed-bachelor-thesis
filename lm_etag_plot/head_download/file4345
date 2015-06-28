@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 20:28:00 GMT
+Content-Type: text/html
+Connection: keep-alive
+Set-Cookie: __cfduid=da78beeef0defdeb880b1db5bd5fb8f811435436880; expires=Sun, 26-Jun-16 20:28:00 GMT; path=/; domain=.ezrss.it; HttpOnly
+X-Powered-By: PHP/5.3.3
+Vary: Accept-Encoding
+Server: cloudflare-nginx
+CF-RAY: 1fd3e5577314088d-FRA
+

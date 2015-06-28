@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 18:38:39 GMT
+Server: Apache/2.2.22
+X-Powered-By: PHP/5.3.29
+X-Pingback: http://helloenjoy.com/wordpress/xmlrpc.php
+Link: <http://wp.me/P1dGUq-lH>; rel=shortlink
+Vary: User-Agent,Accept-Encoding
+Content-Type: text/html; charset=UTF-8
+

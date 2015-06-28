@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 20:13:41 GMT
+Server: Apache
+X-Pingback: http://www.artistsgarden.co.uk/xmlrpc.php
+ETag: "383be3a8f87fb731a95e7326d33c41fd"
+Last-Modified: Tue, 04 Nov 2014 12:37:55 GMT
+Connection: close
+Content-Type: text/html
+X-Pad: avoid browser bug
+

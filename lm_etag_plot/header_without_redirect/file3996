@@ -1,0 +1,16 @@
+HTTP/1.1 302 Temporary Redirect
+Server: nginx/1.6.2
+Date: Fri, 26 Jun 2015 19:26:07 GMT
+Content-Type: text/html
+Connection: keep-alive
+Keep-Alive: timeout=20
+X-Powered-By: PHP/5.4.29
+X-Pingback: http://designyoutrust.com/xmlrpc.php
+Cache-Control: no-cache, must-revalidate
+Pragma: no-cache
+Expires: Sat, 26 Jul 1997 05:00:00 GMT
+Vary: Accept-Encoding,User-Agent
+Last-Modified: Fri, 26 Jun 2015 12:17:41 GMT
+ETag: "1b2d00aefae5f38376a2fb3ff3fe2b55"
+Location: http://feeds.feedburner.com/dyt
+

@@ -1,0 +1,9 @@
+HTTP/1.1 301 Moved Permanently
+Server: Apache/2.2
+Content-Type: text/html; charset=iso-8859-1
+Date: Fri, 26 Jun 2015 19:38:18 GMT
+Location: http://www.rajeshsetty.com/blog/feed/
+Transfer-Encoding: chunked
+Connection: Keep-Alive
+Set-Cookie: X-Mapping-nfchjghl=E307247452DA3AEF746FC282AC94FD07; path=/
+

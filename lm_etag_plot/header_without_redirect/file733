@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Server: Apache/2.2.22 (Debian)
+X-Powered-By: PHP/5.4.4-14+deb7u14
+Last-Modified: Fri, 26 Jun 2015 16:38:04 GMT
+X-Pingback: http://blogs.unity3d.com/xmlrpc.php
+Vary: Accept-Encoding
+Content-Type: text/xml; charset=UTF-8
+Accept-Ranges: bytes
+Date: Fri, 26 Jun 2015 18:08:12 GMT
+X-Varnish: 1656052183
+Age: 0
+Via: 1.1 varnish
+Set-Cookie: SERVERID=varnish01; path=/
+Cache-control: private
+

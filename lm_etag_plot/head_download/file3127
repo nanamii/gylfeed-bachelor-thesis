@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+Server: WebServer/1.0
+Date: Sat, 27 Jun 2015 19:52:11 GMT
+Content-type: text/xml
+Last-modified: Sat, 27 Jun 2015 19:03:00 GMT
+Content-length: 14778
+Etag: "39ba-558ef364"
+Accept-ranges: bytes
+

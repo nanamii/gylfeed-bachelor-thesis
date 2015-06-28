@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Cache-Control: max-age=86400
+Content-Length: 4694
+Content-Type: text/xml
+Last-Modified: Fri, 26 Jun 2015 17:50:06 GMT
+Accept-Ranges: bytes
+ETag: "922b668938b0d01:3948"
+Server: Microsoft-IIS/6.0
+X-Powered-By: ASP.NET
+Date: Fri, 26 Jun 2015 19:25:43 GMT
+

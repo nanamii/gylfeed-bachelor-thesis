@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 18:43:12 GMT
+Content-Type: application/atom+xml
+Content-Length: 47405
+Connection: keep-alive
+Server: Apache/2.2.22 (Debian)
+Last-Modified: Fri, 26 Jun 2015 18:02:50 GMT
+ETag: "b92d-5196f8c550680"
+Accept-Ranges: bytes
+Cache-Control: max-age=1800
+Expires: Fri, 26 Jun 2015 19:13:12 GMT
+Vary: Accept-Encoding
+X-Reg-BOFH: pfy
+X-Clacks-Overhead: GNU Terry Pratchett
+

@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Set-Cookie: JSESSIONID=D40FE2782C54E897BFFE9F13BF25985B.ny1-prod5-web002; Path=/; HttpOnly
+Content-Type: text/xml;charset=UTF-8
+Content-Length: 97329
+Date: Sat, 27 Jun 2015 19:14:18 GMT
+Server: SSWS
+X-ContextId: Nk23ihzZ/L3MnJasB
+X-Via: 1.1 ny1-prod-echo018
+X-ServedBy: ny1-prod5-web002
+

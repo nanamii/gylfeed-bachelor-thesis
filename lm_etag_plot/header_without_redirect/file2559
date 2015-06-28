@@ -1,0 +1,11 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx/1.2.7
+Content-Type: text/html; charset=utf-8
+Location: http://archive.militarytimes.com/rss_news.php
+Content-Length: 0
+Expires: Fri, 26 Jun 2015 19:01:21 GMT
+Cache-Control: max-age=0, no-cache
+Pragma: no-cache
+Date: Fri, 26 Jun 2015 19:01:21 GMT
+Connection: keep-alive
+

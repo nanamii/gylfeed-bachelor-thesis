@@ -1,0 +1,9 @@
+HTTP/1.1 302 Temporary Redirect
+Date: Fri, 26 Jun 2015 18:50:58 GMT
+Server: Apache
+X-Pingback: http://maximumcustomerexperience.com/xmlrpc.php
+ETag: "20f82401ad4883ddb982e4faadbe0b7d"
+Last-Modified: Tue, 08 Nov 2011 11:16:30 GMT
+Location: http://feeds.feedburner.com/MaximumCustomerExperienceBlog
+Content-Type: text/html
+

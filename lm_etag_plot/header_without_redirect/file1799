@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 18:51:28 GMT
+Content-Type: text/xml; charset=UTF-8
+Connection: keep-alive
+Set-Cookie: __cfduid=db2702df40d8830c06952d8fd811fbb891435344688; expires=Sat, 25-Jun-16 18:51:28 GMT; path=/; domain=.edublogs.org; HttpOnly
+Vary: Cookie
+X-Pingback: http://paulhami.edublogs.org/xmlrpc.php
+Last-Modified: Fri, 26 Jun 2015 18:30:59 +0000
+Cache-Control: max-age=600, must-revalidate
+X-Varnish: 1776077959 1776065261
+Age: 1229
+Via: 1.1 varnish
+Set-Cookie: xid=Qocx4lWNnzBuSBATGw79Ag==; expires=Sun, 26-Jul-15 18:51:28 GMT; path=/
+Server: cloudflare-nginx
+CF-RAY: 1fcb1a9007ee0f45-FRA
+

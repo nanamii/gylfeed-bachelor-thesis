@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 18:18:41 GMT
+Server: Apache
+X-Pingback: http://wpengineer.com/xmlrpc.php
+Cache-Control: max-age=60
+Expires: Fri, 26 Jun 2015 18:19:41 GMT
+Vary: Accept-Encoding,User-Agent
+Content-Type: text/html; charset=UTF-8
+X-Pad: avoid browser bug
+

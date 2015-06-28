@@ -1,0 +1,9 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 19:42:34 GMT
+Server: Apache
+X-Pingback: http://theyarden.com/xmlrpc.php
+Last-Modified: Tue, 28 Apr 2015 00:58:14 GMT
+ETag: "93ac2a2cee556330b5c39afa60177d9b"
+Location: http://theyarden.com/feed/
+Content-Type: text/html
+

@@ -1,0 +1,15 @@
+HTTP/1.1 301 Moved Permanently
+Server: Apache
+Location: http://cironline.org/view/allnewcontent/feed
+Cache-Control: max-age=1209600
+Expires: Fri, 10 Jul 2015 18:59:55 GMT
+Content-Type: text/html; charset=iso-8859-1
+Content-Length: 252
+Accept-Ranges: bytes
+Date: Fri, 26 Jun 2015 19:00:45 GMT
+X-Varnish: 1487679808 1487679685
+Age: 50
+Via: 1.1 varnish
+Connection: keep-alive
+X-Varnish-Cache: HIT
+

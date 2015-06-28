@@ -1,0 +1,12 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Fri, 26 Jun 2015 19:46:24 GMT
+Content-Type: text/html
+Connection: keep-alive
+X-Pingback: http://www.spoonforkbacon.com/wordpress/xmlrpc.php
+ETag: "9c13237a5f3e44384a94fdaadcad22f3"
+Last-Modified: Wed, 24 Jun 2015 14:58:08 GMT
+Location: http://www.spoonforkbacon.com/feed/
+X-Powered-By: PleskLin
+MS-Author-Via: DAV
+

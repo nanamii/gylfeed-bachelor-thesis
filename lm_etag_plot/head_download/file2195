@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:38:42 GMT
+Server: Apache
+Set-Cookie: PHPSESSID=1elho3ma1ls1fdfk03lfmiq5q0; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+X-Clacks-Overhead: GNU Terry Pratchett
+Vary: Accept-Encoding
+Content-Type: application/rss+xml
+

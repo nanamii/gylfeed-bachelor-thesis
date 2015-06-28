@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:34:11 GMT
+Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.1e-fips mod_fcgid/2.3.9 PHP/5.4.16
+X-Powered-By: PHP/5.4.16
+Vary: Cookie
+X-Pingback: http://www.dumblittleman.com/xmlrpc.php
+ETag: "876ed4d1b80c393f1fbb5ff54ab3c256"
+WP-Super-Cache: Served legacy cache file
+Content-Type: application/atom+xml; charset=UTF-8
+

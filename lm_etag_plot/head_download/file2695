@@ -1,0 +1,17 @@
+HTTP/1.1 200 OK
+Pragma: no-cache
+Cache-Control: private, no-cache, no-store, must-revalidate
+Expires: Sat, 01 Jan 2000 00:00:00 GMT
+P3P: CP="Facebook does not have a P3P policy. Learn why here: http://fb.me/p3p"
+Strict-Transport-Security: max-age=15552000; preload
+X-Frame-Options: DENY
+X-XSS-Protection: 0
+X-Content-Type-Options: nosniff
+Set-Cookie: reg_fb_ref=https%3A%2F%2Fwww.facebook.com%2Flogin.php%3Fnext%3Dhttps%253A%252F%252Fdevelopers.facebook.com%252Fnews.php%253Fblog%253D1%2526format%253Dxml; path=/; domain=.facebook.com; httponly
+Set-Cookie: reg_fb_gate=https%3A%2F%2Fwww.facebook.com%2Flogin.php%3Fnext%3Dhttps%253A%252F%252Fdevelopers.facebook.com%252Fnews.php%253Fblog%253D1%2526format%253Dxml; path=/; domain=.facebook.com; httponly
+Vary: Accept-Encoding
+Content-Type: text/html
+X-FB-Debug: i5n/jVttoOJtqrq+HCHiiKjxdza/O1YT2IXmpC3UOyxKLQluRBrM2RiJqGKX1wustmt69eTpnBq9+bi+4WKacg==
+Date: Sat, 27 Jun 2015 19:42:42 GMT
+Connection: keep-alive
+

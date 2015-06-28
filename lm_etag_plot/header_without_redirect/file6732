@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 20:43:32 GMT
+Server: Apache
+X-Pingback: http://chronicle.com/blogs/profhacker/xmlrpc.php
+Last-Modified: Fri, 26 Jun 2015 19:00:23 GMT
+ETag: "103e4c3ca6118d5865ce0cdc6dd7a9ba"
+Vary: Accept-Encoding
+Connection: close
+Content-Type: text/html; charset=UTF-8
+

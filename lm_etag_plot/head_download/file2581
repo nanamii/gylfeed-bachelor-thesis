@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Server: nginx/1.8.0
+Date: Sat, 27 Jun 2015 19:38:43 GMT
+Content-Type: text/html
+Connection: keep-alive
+X-Pingback: http://dailyhaggis.com/xmlrpc.php
+ETag: "1173e583f1e7ef18fd4c7a5d24539532"
+Link: <http://pubsubhubbub.appspot.com>; rel="hub", <http://pubsubhubbub.superfeedr.com>; rel="hub", <http://dailyhaggis.com/feed/>; rel="self"
+Last-Modified: Sun, 26 Jan 2014 01:47:52 GMT
+

@@ -1,0 +1,13 @@
+HTTP/1.1 302 Moved Temporarily
+Date: Fri, 26 Jun 2015 19:15:22 GMT
+Server: Apache
+X-Pingback: http://www.technapex.com/xmlrpc.php
+ETag: "841b5b2afdea274640213d8c884d62bc"
+Set-Cookie: wordpress_f9d50118af6636cc460f268d8e9cdcf3=%7C1436555723%7C8834bffd9bc7956c787f7d12a65f86e1; expires=Fri, 10-Jul-2015 19:15:23 GMT; path=/wp-content/plugins; httponly
+Set-Cookie: wordpress_f9d50118af6636cc460f268d8e9cdcf3=%7C1436555723%7C8834bffd9bc7956c787f7d12a65f86e1; expires=Fri, 10-Jul-2015 19:15:23 GMT; path=/wp-admin; httponly
+Set-Cookie: wordpress_logged_in_f9d50118af6636cc460f268d8e9cdcf3=%7C1436555723%7Cdec572e6b4d1c89875fe6fb0980e6a9b; expires=Fri, 10-Jul-2015 19:15:23 GMT; path=/; httponly
+Last-Modified: Sun, 30 Nov 2014 04:14:13 GMT
+Location: http://feeds.feedburner.com/technapex
+Vary: Accept-Encoding
+Content-Type: text/html
+

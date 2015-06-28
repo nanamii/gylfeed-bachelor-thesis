@@ -1,0 +1,8 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 18:51:51 GMT
+Server: Apache
+Location: https://itunes.apple.com/us/itunes-u/twenty-minutes-for-tech-podcast/id430839942?feed=rss2
+Vary: Accept-Encoding
+Content-Type: text/html; charset=iso-8859-1
+X-Pad: avoid browser bug
+

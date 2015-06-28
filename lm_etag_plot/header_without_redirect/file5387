@@ -1,0 +1,11 @@
+HTTP/1.1 404 Not Found
+Date: Fri, 26 Jun 2015 20:15:29 GMT
+Server: Ning HTTP Server 2.0
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Set-Cookie: xn_visitor=56d3558e-b5b7-440a-89f7-10c5bae4128d;Path=/;Domain=.ning.com;Expires=Mon, 23-Jun-25 20:15:29 GMT
+Set-Cookie: ning_session=sZ5+gp4C7StWQpmaORTGmEAe7KzdMjo1ps4dGAIX/UTE3Mys3RXoiK0rsUCZudgEznVxVzgKAik=;Path=/;Domain=.ning.com;Expires=Fri, 26-Jun-15 21:15:29 GMT
+X-XN-Trace-Token: a9c1c15a-af1b-4ecd-9e0e-be9949be1d90
+CACHE-CONTROL: max-age=0
+Content-Length: 1256
+CACHE-CONTROL: no-cache="Set-Cookie"
+

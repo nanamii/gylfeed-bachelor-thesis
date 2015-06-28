@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 26 Jun 2015 18:48:25 GMT
+Content-Type: text/xml; charset=UTF-8
+Connection: keep-alive
+Vary: Accept-Encoding
+Last-Modified: Fri, 26 Jun 2015 14:00:24 GMT
+Expires: Fri, 26 Jun 2015 19:01:04 GMT
+Pragma: public
+Cache-Control: max-age=759, public, must-revalidate, proxy-revalidate
+Etag: 44673a282b0ff1c6486d2ab4fda05e09
+X-Powered-By: W3 Total Cache/0.9.4.1
+X-Pingback: http://zenhabits.net/xmlrpc.php
+

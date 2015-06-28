@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 19:24:33 GMT
+Server: Apache
+X-Powered-By: PHP/5.3.3
+X-Pingback: http://blogs.ei.columbia.edu/xmlrpc.php
+Last-Modified: Fri, 26 Jun 2015 15:29:59 GMT
+ETag: "2a8bb003a07f1c5d80b3d2296715d610"
+Connection: close
+Content-Type: text/html; charset=UTF-8
+

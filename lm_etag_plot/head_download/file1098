@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:07:43 GMT
+Set-Cookie: mad4=c; Domain=.cnet.com; Path=/;
+RUM_MAD_SESSION: c
+X-CNET-NEW-RELIC-TRANSACTION-NAME: /2547
+Expires: Sat, 27 Jun 2015 19:13:43 GMT
+Edge-Control: max-age=360
+Content-Type: text/xml
+Age: 2
+P3P: CP="CAO DSP COR CURa ADMa DEVa PSAa PSDa IVAi IVDi CONi OUR OTRi IND PHY ONL UNI FIN COM NAV INT DEM STA"
+Cache-Control: max-age=360
+

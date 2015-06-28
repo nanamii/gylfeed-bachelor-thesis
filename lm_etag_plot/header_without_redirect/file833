@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Content-Length: 0
+Content-Type: text/xml; chartset=utf-8;charset=UTF-8
+Last-Modified: Mon, 25 Oct 2010 17:33:00 -0500
+ETag: A8249E825AD49D3551320326165AD8D7
+Server: Microsoft-IIS/8.5
+Set-Cookie: CFID=199373; Expires=Sun, 18-Jun-2045 18:12:00 GMT; Path=/; HttpOnly
+Set-Cookie: CFTOKEN=a31d6cfba6234fac-EAB0590A-0BB8-3FF4-B6A6D9B01397D9BB; Expires=Sun, 18-Jun-2045 18:12:00 GMT; Path=/; HttpOnly
+X-Powered-By: ASP.NET
+Date: Fri, 26 Jun 2015 18:11:59 GMT
+

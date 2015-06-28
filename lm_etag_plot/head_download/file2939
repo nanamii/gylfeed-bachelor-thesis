@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Server: nginx/1.6.2
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+Vary: Accept-Encoding
+X-Powered-By: PHP/5.4.38
+Set-Cookie: PHPSESSID=cp3ilc031penr9fflj5n84r7a1; path=/; HttpOnly
+Pragma: no-cache
+Vary: Accept-Encoding,User-Agent
+Date: Sat, 27 Jun 2015 18:49:47 GMT
+X-Page-Speed: 1.9.32.3-4448
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate, post-check=0, pre-check=0
+

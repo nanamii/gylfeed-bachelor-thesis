@@ -1,0 +1,14 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 18:17:17 GMT
+Server: Apache
+X-Pingback: http://rebelbrown.com/xmlrpc.php
+X-UA-Compatible: IE=edge,chrome=1
+Expires: Wed, 11 Jan 1984 05:00:00 GMT
+Cache-Control: no-cache, must-revalidate, max-age=0
+Pragma: no-cache
+Set-Cookie: PHPSESSID=oavj00ar7p10iv32c2bd3nhvv1; path=/
+Set-Cookie: wassup=N2IyNzJiYzc0NWE5YjE4ZWE4NzA2NDg1NjczNTU0MmQ6OjE0MzUzNDUzMzg6Ojo6OTIuMTk0LjU5LjM5Ojpwb3J0LTkyLTE5NC01OS0zOS5keW5hbWljLnFzYy5kZTo6; expires=Fri, 26-Jun-2015 19:07:18 GMT; path=/
+Location: http://rebelbrown.com/rebelations/atom.xml
+Vary: Accept-Encoding
+Content-Type: text/html; charset=UTF-8
+

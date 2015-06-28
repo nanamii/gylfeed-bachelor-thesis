@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 19:09:59 GMT
+Server: Apache/2.2.26 (Unix) mod_ssl/2.2.26 OpenSSL/1.0.1e-fips mod_auth_passthrough/2.1 mod_bwlimited/1.4
+Vary: Cookie
+X-Pingback: http://www.eclectablog.com/xmlrpc.php
+ETag: "860d027a25c1cb320feffd12f9a72c8b"
+WP-Super-Cache: Served legacy cache file
+Connection: close
+Content-Type: text/xml; charset=UTF-8
+

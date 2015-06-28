@@ -1,0 +1,11 @@
+HTTP/1.1 301 winsupersite.com
+Location: http://winsupersite.com/Default.aspx?rss=ArticlesAndBlogs
+Content-Type: text/html; charset=utf-8
+Content-Length: 1736
+Accept-Ranges: bytes
+Date: Fri, 26 Jun 2015 19:18:07 GMT
+Age: 0
+Connection: close
+Vary: Cookie
+X-Cache: Fresh
+

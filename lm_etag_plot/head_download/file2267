@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Content-Length: 0
+Content-Type: text/html; charset=UTF-8
+Server: Microsoft-IIS/8.0
+X-Powered-By: PHP/5.4.42
+X-Pingback: http://blogs.bing.com/xmlrpc.php
+X-Powered-By: ASP.NET
+Arr-Disable-Session-Affinity: true
+Date: Sat, 27 Jun 2015 19:32:25 GMT
+

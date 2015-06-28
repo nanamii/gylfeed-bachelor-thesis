@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sat, 27 Jun 2015 20:11:45 GMT
+Content-Type: text/xml; charset=UTF-8
+Connection: keep-alive
+Keep-Alive: timeout=15
+Vary: Accept-Encoding
+Vary: Cookie
+X-Pingback: http://patthorntonfiles.com/blog/xmlrpc.php
+ETag: "41fb105cf6afa2f78055ea7fd9e82fe3"
+WP-Super-Cache: Served legacy cache file
+ngpass_ngall: 1
+

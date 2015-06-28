@@ -1,0 +1,13 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 18:17:35 GMT
+Server: Apache
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+X-Pingback: http://brandingforresults.com/xmlrpc.php
+ETag: "ea1ed2c284fcd14fbb33e9dbaa719a37"
+Set-Cookie: PHPSESSID=b7cf131319c1e39e0d60921442c9d424; path=/
+Last-Modified: Mon, 22 Jun 2015 01:10:22 GMT
+Location: http://brandingforresults.com/feed/
+Content-Type: text/html
+

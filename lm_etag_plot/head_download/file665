@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Server: Apache/2.2.3 (Red Hat)
+X-Powered-By: PHP/5.2.12
+X-Gen-Mode: full
+X-Block-Status: stale
+Content-Type: text/xml; charset=utf-8
+Expires: Sat, 27 Jun 2015 18:46:09 GMT
+Cache-Control: max-age=0, no-cache
+Pragma: no-cache
+Date: Sat, 27 Jun 2015 18:46:09 GMT
+Connection: keep-alive
+Set-Cookie: SSLB=0; path=/; domain=.sfgate.com
+

@@ -1,0 +1,9 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 19:23:47 GMT
+Content-Type: text/html; charset=iso-8859-1
+Connection: keep-alive
+Set-Cookie: __cfduid=df8adcb4cb99cd3d5699a9698bfb055e11435346626; expires=Sat, 25-Jun-16 19:23:46 GMT; path=/; domain=.ouramazingplanet.com; HttpOnly
+Location: http://www.livescience.com/home/feed/ouramazingplanet.xml
+Server: cloudflare-nginx
+CF-RAY: 1fcb49e10bf21ac9-DUS
+

@@ -1,0 +1,8 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 18:10:21 GMT
+Server: Apache/2.4.7 (Ubuntu)
+X-Powered-By: PHP/5.5.9-1ubuntu4.9
+Set-Cookie: _icl_current_language=de; expires=Sat, 27-Jun-2015 18:10:21 GMT; Max-Age=86400; path=/
+Location: /de/blog/
+Content-Type: text/html
+

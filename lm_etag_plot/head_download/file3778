@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Server: Apache
+Set-Cookie: ADAGESESS=d9eb93d6228d86822c478d7e0eed7dbf; path=/; domain=.creativity-online.com
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Vary: Accept-Encoding,User-Agent
+Content-Type: text/html; charset=UTF-8
+Accept-Ranges: bytes
+Date: Sat, 27 Jun 2015 20:13:05 GMT
+X-Varnish: 1614211682
+Age: 0
+Via: 1.1 varnish
+Connection: keep-alive
+

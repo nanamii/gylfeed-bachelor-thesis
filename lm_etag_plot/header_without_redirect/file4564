@@ -1,0 +1,9 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 19:43:40 GMT
+Server: Apache/2.4.12
+X-Pingback: http://www.chuckchat.com/technorama/xmlrpc.php
+Last-Modified: Wed, 24 Jun 2015 03:00:14 GMT
+ETag: "14baf697686bb337dc599655f6c20d09"
+Location: http://www.chuckchat.com/technorama/feed/
+Content-Type: text/html
+

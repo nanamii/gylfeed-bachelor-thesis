@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Age: 0
+Content-Type: text/xml; charset=UTF-8
+Date: Sat, 27 Jun 2015 19:22:14 GMT
+ETag: "f902d41b1b2d85e2a14b79a9de8f9cb4"
+Last-Modified: Wed, 24 Jun 2015 18:36:41 GMT
+Server: Apache/2.2.15 (CentOS)
+Via: 1.1 varnish-v4
+X-Cache: MISS
+X-Pingback: http://usodep.blogs.govdelivery.com/xmlrpc.php
+X-Powered-By: PHP/5.3.3
+X-Server: v2
+X-Varnish: 1868783
+Connection: keep-alive
+

@@ -1,0 +1,10 @@
+HTTP/1.1 301 Moved Permanently
+Location: http://www.phantomleap.com/?feed=rss2
+Date: Fri, 26 Jun 2015 20:25:39 GMT
+Content-Type: text/html; charset=UTF-8
+Server: ghs
+Content-Length: 234
+X-XSS-Protection: 1; mode=block
+X-Frame-Options: SAMEORIGIN
+Alternate-Protocol: 80:quic,p=0
+

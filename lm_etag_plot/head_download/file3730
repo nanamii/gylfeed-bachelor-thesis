@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Content-Length: 182212
+Content-Type: text/html; charset=iso-8859-1
+Prxy: PROXY02-New
+SvrName: MVC2
+X-Varnish: 283655243
+Cache-Control: max-age=900
+Date: Sat, 27 Jun 2015 20:11:59 GMT
+Connection: keep-alive
+

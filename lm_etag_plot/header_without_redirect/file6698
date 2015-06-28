@@ -1,0 +1,9 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 20:43:12 GMT
+Content-Type: text/html
+Connection: keep-alive
+Set-Cookie: __cfduid=d3189e60fcc77afb9c5fd668dcba445751435351392; expires=Sat, 25-Jun-16 20:43:12 GMT; path=/; domain=.jacobinmag.com; HttpOnly
+Location: https://www.jacobinmag.com/category/blogs/feed/
+Server: cloudflare-nginx
+CF-RAY: 1fcbbe3cc4da08b7-FRA
+

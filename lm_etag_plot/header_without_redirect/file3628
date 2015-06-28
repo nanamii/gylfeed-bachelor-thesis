@@ -1,0 +1,11 @@
+HTTP/1.1 301 Moved Permanently
+Age: 297
+Content-Length: 327
+Content-Type: text/html
+Date: Fri, 26 Jun 2015 19:16:31 GMT
+Expires: Fri, 26 Jun 2015 19:26:31 GMT
+Location: http://www.discovery.com/news/xml/top-stories.xml
+P3P: CP="ALL DSP COR CUR ADMo DEVo TAIo PSAo PSDo IVAo CONi OTPi OUR NOR UNI"
+Server: Apache
+Connection: keep-alive
+

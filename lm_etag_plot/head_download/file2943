@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:47:04 GMT
+P3P: policyref="http://info.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+X-Yahoo-Request-Id: e42opstaotvdo
+X-Frame-Options: SAMEORIGIN
+Cache-Control: max-age=300, public
+Expires: Sat, 27 Jun 2015 19:52:04 GMT
+Content-Type: text/xml;charset=utf-8
+Vary: Accept-Encoding,X-Ssl
+Age: 133
+Content-Length: 103809
+Via: http/1.1 yts276.global.media.ir2.yahoo.com (ApacheTrafficServer [cHs f ]), http/1.1 r08.ycpi.dea.yahoo.net (ApacheTrafficServer [cSsSfD])
+Server: ATS
+Connection: keep-alive
+

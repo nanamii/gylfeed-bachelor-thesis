@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Server: Microsoft-IIS/7.5
+Pragma: akamai-x-cache-on, akamai-x-cache-remote-on, akamai-x-check-cacheable, akamai-x-get-cache-key, akamai-x-get-extracted-values, akamai-x-get-nonces, akamai-x-get-ssl-client-session-id, akamai-x-get-true-cache-key, akamai-x-serial-no, akamai-x-get-request-id
+Content-Type: text/xml
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Cache-Control: private, no-cache, no-store
+Expires: Sat, 27 Jun 2015 19:42:05 GMT
+Date: Sat, 27 Jun 2015 19:42:05 GMT
+Connection: keep-alive
+Set-Cookie: ASP.NET_SessionId=n5kvnz2gbsetdk1oedxveh3j; path=/; HttpOnly
+Set-Cookie: ZNPCQ003-32383500=5d4008b0; Path=/; Domain=.cpsc.gov
+

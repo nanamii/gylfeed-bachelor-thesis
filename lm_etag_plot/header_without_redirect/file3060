@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+X-Powered-By: PHP/5.2.13-0.dotdeb.1
+X-Trace: 1B049ED36908B81029E4B2557905A16B364FF01B76328DFE6414EB9BAC
+Vary: Cookie
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Content-Type: text/xml; charset=UTF-8
+X-Pingback: http://www.passiveaggressivenotes.com/xmlrpc.php
+ETag: "064aa839b50ca1af70fe04e1bb3dca33"
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+WP-Super-Cache: Served legacy cache file
+Date: Fri, 26 Jun 2015 19:13:25 GMT
+Server: lighttpd/1.4.30
+

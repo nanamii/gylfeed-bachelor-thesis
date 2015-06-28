@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Server: Apache
+X-Drupal-Cache: MISS
+Last-Modified: Sat, 27 Jun 2015 19:29:44 GMT
+ETag: "1435433384"
+X-Content-Type-Options: nosniff
+X-Frame-Options: SameOrigin
+Content-Length: 5169
+Content-Type: application/rss+xml; charset=utf-8
+Cache-Control: no-cache, must-revalidate, post-check=0, pre-check=0
+Expires: Sat, 27 Jun 2015 19:32:31 GMT
+Date: Sat, 27 Jun 2015 19:32:31 GMT
+Connection: keep-alive
+

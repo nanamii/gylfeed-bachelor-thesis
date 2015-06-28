@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 18:05:15 GMT
+Server: LiteSpeed
+Connection: close
+X-Powered-By: PHP/5.4.22
+X-Pingback: http://inspiredology.com/xmlrpc.php
+Last-Modified: Wed, 09 Jul 2014 02:10:10 GMT
+ETag: "3b4ece2e43cb1cc336be1917d5fdf6c2"
+Content-Type: text/html
+

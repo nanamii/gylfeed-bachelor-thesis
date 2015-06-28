@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Server: Apache
+Vary: Accept-Encoding,User-Agent
+Content-Type: text/xml; charset=utf-8;
+X-Cacheable: Y1
+Date: Sat, 27 Jun 2015 19:49:07 GMT
+X-Varnish: 2734399836
+Age: 0
+Via: 1.1 varnish
+Connection: keep-alive
+

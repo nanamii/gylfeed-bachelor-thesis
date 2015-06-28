@@ -1,0 +1,10 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Content-Type: text/html
+Date: Fri, 26 Jun 2015 19:39:11 GMT
+Keep-Alive: timeout=20
+Location: http://current.org/atom/atom.xml
+Connection: keep-alive
+Set-Cookie: X-Mapping-fjhppofk=8B3ABE452BC26DDA179543279FFA10D2; path=/
+Content-Length: 178
+

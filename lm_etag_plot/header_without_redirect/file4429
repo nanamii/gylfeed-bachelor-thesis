@@ -1,0 +1,11 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 19:42:19 GMT
+Server: Apache/2.2.29
+Vary: Cookie
+X-Pingback: http://leahpeah.com/wordpress/xmlrpc.php
+ETag: "015198ec2ef86670526d0ddc8e2e2d6f"
+X-UA-Compatible: IE=edge,chrome=1
+Last-Modified: Sun, 22 Mar 2015 19:17:49 GMT
+Location: http://leahpeah.com/blog/feed
+Content-Type: application/rss+xml; charset="UTF-8"
+

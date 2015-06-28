@@ -1,0 +1,12 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 18:17:45 GMT
+Server: Apache/2.2.27 (Unix) mod_ssl/2.2.27 OpenSSL/1.0.1e-fips mod_bwlimited/1.4
+X-Powered-By: PHP/5.4.30
+Vary: Cookie
+ETag: "edfe0e81673b7ca653b4d6e1d648f64a"
+Set-Cookie: wlmdebug=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT
+Last-Modified: Wed, 24 Jun 2015 21:35:14 GMT
+Location: http://wecai.org/feed
+Connection: close
+Content-Type: application/rss+xml; charset="UTF-8"
+

@@ -1,0 +1,16 @@
+HTTP/1.1 302 Found
+Date: Fri, 26 Jun 2015 20:17:20 GMT
+Content-Type: application/rdf+xml
+Connection: keep-alive
+Set-Cookie: __cfduid=de7e201703301267f9e62fef156e3b7031435349840; expires=Sat, 25-Jun-16 20:17:20 GMT; path=/; domain=.typepad.com; HttpOnly
+X-PhApp: oak-tp-web045
+X-Webserver: oak-tp-web045
+Location: http://feeds.feedburner.com/Innovationnet
+Vary: cookie
+Expires: Fri, 26 Jun 2015 19:59:54 GMT
+X-Varnish: 1658132426 1657327027
+Age: 1946
+Via: 1.1 varnish
+Server: cloudflare-nginx
+CF-RAY: 1fcb985730672324-FRA
+

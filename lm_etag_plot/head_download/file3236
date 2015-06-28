@@ -1,0 +1,18 @@
+HTTP/1.1 200 OK
+Cache-Control: max-age=600
+Content-Encoding: gzip
+Content-Length: 31524
+Content-Type: application/xml; charset=utf-8
+Date: Sat, 27 Jun 2015 19:53:38 GMT
+ETag: "32278db11f53a75070b83ba4a4616df5-gzip"
+Expires: Sat, 27 Jun 2015 20:03:38 GMT
+Server: nginx/1.4.6 (Ubuntu)
+Status: 200 OK
+Vary: Accept-Encoding
+X-Cache: HIT
+X-Frame-Options: ALLOWALL
+X-Powered-By: Phusion Passenger 4.0.10
+X-Request-Id: 2bbaad60-25cd-4ca3-a9ff-ec2e17da7705
+X-Runtime: 0.270285
+Connection: keep-alive
+

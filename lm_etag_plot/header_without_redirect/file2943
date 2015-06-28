@@ -1,0 +1,10 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 19:09:51 GMT
+Server: Apache
+Location: http://designmom.com/feed
+Cache-Control: max-age=3600
+Expires: Fri, 26 Jun 2015 20:09:51 GMT
+Vary: Accept-Encoding
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+

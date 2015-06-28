@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 21:10:02 GMT
+Server: Apache
+X-Powered-By: PHP/5.4.42
+X-Pingback: http://mobilemind.net/wp/xmlrpc.php
+WP-Super-Cache: Served legacy cache file
+ETag: "32635633e1da281e739fb2e76a49b73d"
+Cache-Control: max-age=2592000
+Expires: Mon, 27 Jul 2015 21:10:02 GMT
+Content-Security-Policy: default-src 'none' ; img-src * ; media-src 'self' ; object-src 'self' ; font-src 'self' data: https://*.wp.com https://*.duosecurity.com ; frame-src 'self' https://*.duosecurity.com widgets.wp.com https://apis.google.com https://accounts.google.com ; style-src 'unsafe-inline' mobilemind.net *.wp.com https://*.duosecurity.com https://secure.gravatar.com *.gravatar.com ; connect-src mobilemind.net https://*.duosecurity.com https://secure.gravatar.com https://public-api.wordpress.com https://apis.google.com https://*.wp.com ; script-src 'unsafe-inline' 'unsafe-eval' mobilemind.net cdn.api.twitter.com edge.quantserve.com *.wp.com stats.wordpress.com s.gravatar.com www.linkedin.com https://api.facebook.com https://apis.google.com https://mobilemind.net https://public-api.wordpress.com https://secure.gravatar.com https://secure.quantserve.com 
+Content-Type: text/xml; charset=UTF-8
+

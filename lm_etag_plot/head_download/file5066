@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 21:19:23 GMT
+Server: Apache
+Set-Cookie: bb2_screener_=1435439963+92.194.59.39; path=/
+X-Pingback: http://blog.tivo.com/xmlrpc.php
+Last-Modified: Thu, 18 Jun 2015 19:41:22 GMT
+ETag: "24cdfb633fed2d7c96db13c33b6ab1ff"
+Connection: close
+Content-Type: text/html; charset=UTF-8
+

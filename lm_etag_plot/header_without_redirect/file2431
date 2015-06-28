@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Last-Modified: Wed, 11 Feb 2015 14:26:47 GMT
+Content-Type: application/rss+xml
+ETag: W/"c17e7-0-50ed0cb200644"
+X-Varnish: 62989610, 193267351
+X-MI-In-Market: 0
+Server: MI
+MI-Cache-Age: 0
+Cache-Control: max-age=30341461
+Date: Fri, 26 Jun 2015 19:00:20 GMT
+Connection: keep-alive
+

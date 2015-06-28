@@ -1,0 +1,10 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 19:44:58 GMT
+Server: Apache
+Vary: Cookie
+X-Pingback: http://www.supercolossal.ch/xmlrpc.php
+Last-Modified: Tue, 12 Feb 2013 04:15:19 GMT
+ETag: "122d452ef2dd4c765d2bd27de37b3ec8"
+Location: http://supercolossal.ch/feed/
+Content-Type: application/rss+xml; charset="UTF-8"
+

@@ -1,0 +1,19 @@
+HTTP/1.1 200 OK
+Server: nginx
+X-Cacheable: CacheAlways: feed
+Cache-Control: max-age=600, must-revalidate
+X-Cache: HIT: 2
+Content-Type: text/xml; charset=UTF-8
+X-Cache-Group: 
+Date: Fri, 26 Jun 2015 20:36:48 GMT
+X-Pingback: http://www.apptamin.com/xmlrpc.php
+Keep-Alive: timeout=20
+X-Type: feed
+Transfer-Encoding: chunked
+ETag: "7051a1bf4e1d078701f4936dc3b1a9f5"
+Connection: Keep-Alive
+X-Pass-Why: 
+Set-Cookie: X-Mapping-fjhppofk=510C6FC0C0A7B03935B6017D60C15DFF; path=/
+X-Robots-Tag: noindex,follow
+Last-Modified: Fri, 26 Jun 2015 08:52:33 GMT
+

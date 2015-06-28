@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+x-amz-id-2: tQ6A7Rn/QsWhFAZbo6N1Rdrak2McmF6Oyj81Ge7GpNnzNgHY9Ir/lJfCFVJzeGzj5/nvZys/qMw=
+x-amz-request-id: 0ACB6CED16E27D1E
+Date: Sat, 27 Jun 2015 18:33:08 GMT
+Content-Encoding: gzip
+x-amz-meta-s3cmd-attrs: uid:501/gname:staff/uname:nate/gid:20/mode:33188/mtime:1435250755/atime:1435250341/md5:eca57310258cb73910abbea153eab2d7/ctime:1435250756
+Last-Modified: Thu, 25 Jun 2015 16:46:06 GMT
+ETag: "eca57310258cb73910abbea153eab2d7"
+Content-Type: application/xml
+Content-Length: 131272
+Server: AmazonS3
+

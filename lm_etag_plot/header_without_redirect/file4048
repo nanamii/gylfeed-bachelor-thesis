@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Content-Type: application/rss+xml; charset=utf-8
+Last-Modified: Fri, 26 Jun 2015 18:57:00 GMT
+Date: Fri, 26 Jun 2015 19:29:44 GMT
+X-Varnish: 2486551795 2486551567
+Age: 4
+Via: 1.1 varnish
+Connection: keep-alive
+X-F: 1
+

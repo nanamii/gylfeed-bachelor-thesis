@@ -1,0 +1,13 @@
+HTTP/1.1 301 www.guardian.co.uk gets redirected
+Server: Varnish
+Retry-After: 0
+Content-Length: 0
+Location: http://www.theguardian.com/technology/askjack/rss
+Accept-Ranges: bytes
+Date: Fri, 26 Jun 2015 18:20:33 GMT
+Via: 1.1 varnish
+Connection: close
+X-Served-By: cache-fra1227-FRA
+X-Cache: MISS
+X-Cache-Hits: 0
+

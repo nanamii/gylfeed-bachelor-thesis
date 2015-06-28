@@ -1,0 +1,7 @@
+HTTP/1.1 302 Found
+Date: Fri, 26 Jun 2015 19:18:42 GMT
+Server: Apache
+Location: https://blog.torproject.org/blog/feed
+Vary: Accept-Encoding
+Content-Type: text/html; charset=iso-8859-1
+

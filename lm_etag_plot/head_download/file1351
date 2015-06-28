@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:14:55 GMT
+Server: Apache
+X-Pingback: http://chronicle.com/blogs/wiredcampus/xmlrpc.php
+Last-Modified: Tue, 23 Jun 2015 19:17:13 GMT
+ETag: "9bc7742a6fb29ab1c41f1c625604fc9b"
+Vary: Accept-Encoding
+Connection: close
+Content-Type: text/html; charset=UTF-8
+

@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 18:20:10 GMT
+Server: Apache
+X-Pingback: http://blog.whatfettle.com/xmlrpc.php
+ETag: "6295c6cb0581613a9aa5208d8779bf11"
+Last-Modified: Wed, 03 Dec 2014 10:34:46 GMT
+Vary: Accept-Encoding
+Content-Type: text/html
+X-Pad: avoid browser bug
+

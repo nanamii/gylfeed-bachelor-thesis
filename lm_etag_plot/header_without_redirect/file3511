@@ -1,0 +1,19 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 19:20:02 GMT
+Content-Type: text/html; charset=UTF-8
+Set-Cookie: PHPSESSID=8qu2d5m3hj3qgej4mpv9dmkfp5; path=/
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+X-Pingback: http://aphotoeditor.com/xmlrpc.php
+Last-Modified: Fri, 26 Jun 2015 13:47:00 GMT
+ETag: "ab25548a0064fbf9430d6de73a1d69a2"
+Location: http://aphotoeditor.com/feed/
+X-FW-Hash: g9ykenz7qa
+Server: Flywheel/3.1.18
+X-Cache: MISS
+X-FW-Static: NO
+X-FW-Serve: TRUE
+X-FW-Type: VISIT
+Content-Length: 0
+Connection: keep-alive
+

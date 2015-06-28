@@ -1,0 +1,16 @@
+HTTP/1.1 302 Found
+Date: Fri, 26 Jun 2015 19:49:13 GMT
+Content-Type: application/atom+xml
+Connection: keep-alive
+Set-Cookie: __cfduid=d8d94e83d9ab76e46e5f3fdb6b4357b951435348153; expires=Sat, 25-Jun-16 19:49:13 GMT; path=/; domain=.typepad.com; HttpOnly
+X-PhApp: oak-tp-web013
+X-Webserver: oak-tp-web013
+Location: http://feeds.feedburner.com/typepad/BKyP
+Vary: cookie
+Expires: Fri, 26 Jun 2015 20:04:13 GMT
+X-Varnish: 2391935410
+Age: 0
+Via: 1.1 varnish
+Server: cloudflare-nginx
+CF-RAY: 1fcb6f278b431589-FRA
+

@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 20:36:35 GMT
+Server: Apache/2.2.29 (Unix) mod_ssl/2.2.29 OpenSSL/1.0.1e-fips mod_bwlimited/1.4
+X-Powered-By: PHP/5.4.41
+Vary: Cookie
+X-Pingback: http://vigilantcitizen.com/xmlrpc.php
+ETag: "ade83c6523f6f6bb597b9bb738f0792a"
+WP-Super-Cache: Served legacy cache file
+Connection: close
+Content-Type: text/xml; charset=UTF-8
+

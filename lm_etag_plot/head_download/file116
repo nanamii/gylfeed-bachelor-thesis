@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 18:33:24 GMT
+Content-Type: text/xml; charset=UTF-8
+Connection: keep-alive
+Set-Cookie: __cfduid=d11db66af385a9027f9ae0ebfe945094a1435430004; expires=Sun, 26-Jun-16 18:33:24 GMT; path=/; domain=.cartoonbrew.com; HttpOnly
+Vary: Cookie,Accept-Encoding
+X-Pingback: http://www.cartoonbrew.com/xmlrpc.php
+ETag: W/"b28cb97f1eb1ba3c860e60214bc957fc"
+WP-Super-Cache: Served legacy cache file
+Server: cloudflare-nginx
+CF-RAY: 1fd33d7675dc0f51-FRA
+

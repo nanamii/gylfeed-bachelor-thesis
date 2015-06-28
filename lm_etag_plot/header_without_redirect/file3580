@@ -1,0 +1,12 @@
+HTTP/1.1 404 Not Found
+Server: Apache
+Vary: Accept-Encoding
+Content-Type: text/html; charset=iso-8859-1
+Content-Length: 205
+Date: Fri, 26 Jun 2015 19:20:47 GMT
+X-Varnish: 1623283195 1623283183
+Via: 1.1 varnish
+Connection: keep-alive
+X-Varnish-Cache: HIT Varnish (2)
+Age: 0
+

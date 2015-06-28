@@ -1,0 +1,7 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 20:35:51 GMT
+Server: Apache
+X-Pingback: http://blog.innosight.com/xmlrpc.php
+Vary: Accept-Encoding
+Content-Type: text/html; charset=UTF-8
+

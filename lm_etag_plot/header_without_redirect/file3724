@@ -1,0 +1,16 @@
+HTTP/1.1 302 Found
+Date: Fri, 26 Jun 2015 19:22:33 GMT
+Content-Type: application/rss+xml
+Connection: keep-alive
+Set-Cookie: __cfduid=d31c3030d49392b050f3a71dace9f3b6c1435346553; expires=Sat, 25-Jun-16 19:22:33 GMT; path=/; domain=.dailygalaxy.com; HttpOnly
+X-PhApp: oak-tp-web019
+X-Webserver: oak-tp-web019
+Location: http://feeds.feedburner.com/TheDailyGalaxyNewsFromPlanetEarthBeyond
+Vary: cookie
+Expires: Fri, 26 Jun 2015 19:37:33 GMT, Fri, 26 Jun 2015 19:37:33 GMT
+X-Varnish: 845368857
+Age: 0
+Via: 1.1 varnish
+Server: cloudflare-nginx
+CF-RAY: 1fcb4817ba2b08b1-FRA
+

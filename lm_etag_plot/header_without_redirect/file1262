@@ -1,0 +1,24 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 18:19:55 GMT
+Content-Type: text/xml; charset=UTF-8
+Connection: keep-alive
+Set-Cookie: __cfduid=d9f70eca5123e9e079ee35992268bcbfe1435342793; expires=Sat, 25-Jun-16 18:19:53 GMT; path=/; domain=.ducttapemarketing.com; HttpOnly
+Vary: Accept-Encoding
+P3P: CP="IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT"
+Set-Cookie: ptimesa78694e1b6584451d763278ea219f5e4=0; expires=Tue, 01-Jul-2014 18:19:54 GMT; Max-Age=-31104000; path=/blog/
+Set-Cookie: ip_cookiea78694e1b6584451d763278ea219f5e4=1435947594; expires=Mon, 20-Jun-2016 18:19:54 GMT; Max-Age=31104000; path=/blog/
+Set-Cookie: ftimesa78694e1b6584451d763278ea219f5e4=0; expires=Tue, 01-Jul-2014 18:19:54 GMT; Max-Age=-31104000; path=/blog/
+Set-Cookie: if_cookiea78694e1b6584451d763278ea219f5e4=1435947594; expires=Mon, 20-Jun-2016 18:19:54 GMT; Max-Age=31104000; path=/blog/
+Set-Cookie: btimesa78694e1b6584451d763278ea219f5e4=0; expires=Tue, 01-Jul-2014 18:19:54 GMT; Max-Age=-31104000; path=/blog/
+Set-Cookie: ib_cookiea78694e1b6584451d763278ea219f5e4=1435947594; expires=Mon, 20-Jun-2016 18:19:54 GMT; Max-Age=31104000; path=/blog/
+Set-Cookie: etimesa78694e1b6584451d763278ea219f5e4=0; expires=Tue, 01-Jul-2014 18:19:54 GMT; Max-Age=-31104000; path=/blog/
+Set-Cookie: ie_cookiea78694e1b6584451d763278ea219f5e4=1435947594; expires=Mon, 20-Jun-2016 18:19:54 GMT; Max-Age=31104000; path=/blog/
+Set-Cookie: ttimesa78694e1b6584451d763278ea219f5e4=0; expires=Tue, 01-Jul-2014 18:19:54 GMT; Max-Age=-31104000; path=/blog/
+Set-Cookie: ite_cookiea78694e1b6584451d763278ea219f5e4=1435947594; expires=Mon, 20-Jun-2016 18:19:54 GMT; Max-Age=31104000; path=/blog/
+X-Pingback: http://www.ducttapemarketing.com/blog/xmlrpc.php
+Last-Modified: Fri, 26 Jun 2015 15:30:30 GMT
+ETag: W/"0896962f45a912efdffedb509930d250"
+X-Robots-Tag: noindex,follow
+Server: cloudflare-nginx
+CF-RAY: 1fcaec4e7af415a7-FRA
+

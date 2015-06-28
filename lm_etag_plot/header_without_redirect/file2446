@@ -1,0 +1,11 @@
+HTTP/1.1 301 Moved Permanently
+Accept-Ranges: bytes
+Content-Length: 178
+Content-Type: text/html
+Location: http://www.dnaindia.com/feeds/latest.xml
+X-Varnish: 2999754803 2999726609
+Server: server
+Cache-Control: max-age=1
+Date: Fri, 26 Jun 2015 19:00:27 GMT
+Connection: keep-alive
+

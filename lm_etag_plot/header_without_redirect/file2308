@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Content-Length: 0
+Content-Type: text/xml; charset=UTF-8
+Last-Modified: Fri, 26 Jun 2015 16:34:50 GMT
+ETag: "1ba5e713a165149ba51d170027d561b9"
+Server: Microsoft-IIS/8.5
+X-Powered-By: PHP/5.3.6
+X-Pingback: http://theness.com/neurologicablog/xmlrpc.php
+X-Powered-By: ASP.NET
+Date: Fri, 26 Jun 2015 18:59:15 GMT
+

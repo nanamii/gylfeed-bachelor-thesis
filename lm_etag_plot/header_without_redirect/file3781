@@ -1,0 +1,11 @@
+HTTP/1.1 302 Found
+Cache-Control: max-age=600
+Content-Length: 220
+Content-Type: text/html; charset=iso-8859-1
+Date: Fri, 26 Jun 2015 19:23:14 GMT
+Expires: Fri, 26 Jun 2015 19:33:14 GMT
+Location: http://climate.nasa.gov/blog/rss.xml
+Server: nginx/1.4.6 (Ubuntu)
+X-Cache: MISS
+Connection: keep-alive
+

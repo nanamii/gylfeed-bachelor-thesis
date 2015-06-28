@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 20:34:12 GMT
+Server: Apache
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+X-Pingback: http://www.paulcarr.com/xmlrpc.php
+ETag: "0134cfa9e6b1565a4ab817772f87fbbc"
+Set-Cookie: PHPSESSID=UPwcTqX0Ixw6kvDXq7s420; path=/
+Last-Modified: Mon, 22 Jun 2015 04:38:16 GMT
+Vary: Accept-Encoding
+Content-Type: text/html
+

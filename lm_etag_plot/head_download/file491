@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sat, 27 Jun 2015 18:41:01 GMT
+Content-Type: text/html
+Connection: keep-alive
+Vary: Accept-Encoding
+X-Pingback: http://ownermag.com/xmlrpc.php
+Last-Modified: Wed, 24 Jun 2015 20:43:28 GMT
+ETag: "8f42c0a836166c1dbc8d55fbab37e597"
+X-Robots-Tag: noindex,follow
+

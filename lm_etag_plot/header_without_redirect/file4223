@@ -1,0 +1,16 @@
+HTTP/1.1 302 Found
+Date: Fri, 26 Jun 2015 19:37:08 GMT
+Content-Type: application/atom+xml
+Connection: keep-alive
+Set-Cookie: __cfduid=d61a55d64ac3e48fae066d53e78aed19d1435347428; expires=Sat, 25-Jun-16 19:37:08 GMT; path=/; domain=.typepad.com; HttpOnly
+X-PhApp: oak-tp-web037
+X-Webserver: oak-tp-web037
+Location: http://feeds.feedburner.com/Logicemotion
+Vary: cookie
+Expires: Fri, 26 Jun 2015 19:50:02 GMT
+X-Varnish: 1657129396 1657076243
+Age: 126
+Via: 1.1 varnish
+Server: cloudflare-nginx
+CF-RAY: 1fcb5d744af12354-FRA
+

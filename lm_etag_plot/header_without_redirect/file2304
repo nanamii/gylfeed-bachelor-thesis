@@ -1,0 +1,28 @@
+HTTP/1.1 301 Moved Permanently
+Accept-Ranges: bytes
+Age: 0
+Cache-Control: max-age=1209600
+Content-Length: 325
+Content-Type: text/html; charset=iso-8859-1
+Date: Fri, 26 Jun 2015 18:58:56 GMT
+Expires: Fri, 10 Jul 2015 18:56:47 GMT
+Location: http://www.medicaldaily.com/rss
+Server: Apache/2.2.15 (CentOS)
+Vary: User-Agent
+Via: 1.1 varnish
+X-GeoIP: DE
+X-Origin: web1
+X-UA-Device: pc
+X-Varnish: 2024453551
+X-Varnish-Cache: MISS
+Connection: keep-alive
+Set-Cookie: visid_incap_233226=IyrkmHHRQ7yC7H+9ROemo9ugjVUAAAAAQUIPAAAAAAA+6NjMx2S+7JDwm6x2W1cR; expires=Sun, 25 Jun 2017 18:41:08 GMT; path=/; Domain=.medicaldaily.com
+Set-Cookie: nlbi_233226=MWb+PfEQFQ61Ngh9iTPsXwAAAAB0qS/tJLT0PlzuG4cvHP4U; path=/; Domain=.medicaldaily.com
+Set-Cookie: incap_ses_287_233226=Ei0rb2tkhmhLOx9NKaH7A9ugjVUAAAAAeWondSmLkS84lW8X/7bZAg==; path=/; Domain=.medicaldaily.com
+Set-Cookie: ___utmvmLwuNzcV=LYdcDYokZMp; path=/; Max-Age=900
+Set-Cookie: ___utmvaLwuNzcV=TdOGsaO; path=/; Max-Age=900
+Set-Cookie: ___utmvbLwuNzcV=HZg
+    XkBOaalC: ktt; path=/; Max-Age=900
+X-Iinfo: 7-8949300-8949301 NNNN CT(103 -1 0) RT(1435345115408 1) q(0 0 1 0) r(2 2) U6
+X-CDN: Incapsula
+

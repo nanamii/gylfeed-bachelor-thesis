@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 18:57:05 GMT
+Server: Apache/2.2.29 (Unix) mod_ssl/2.2.29 OpenSSL/0.9.8e-fips-rhel5 mod_bwlimited/1.4
+X-Pingback: http://www.davidlebovitz.com/xmlrpc.php
+X-Powered-By: W3 Total Cache/0.9.4.1
+X-Robots-Tag: noindex,follow
+Last-Modified: Fri, 26 Jun 2015 17:41:16 GMT
+Vary: User-Agent,Accept-Encoding
+Access-Control-Allow-Origin: *
+Connection: close
+Content-Type: text/html
+

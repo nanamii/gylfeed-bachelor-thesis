@@ -1,0 +1,7 @@
+HTTP/1.1 405 Not Allowed
+Content-Length: 1438
+Content-Type: text/html
+Date: Fri, 26 Jun 2015 19:09:52 GMT
+Server: nginx/1.1.19
+Connection: keep-alive
+

@@ -1,0 +1,8 @@
+HTTP/1.1 301 Moved Permanently
+Server: openresty
+Date: Fri, 26 Jun 2015 19:38:17 GMT
+Content-Type: text/html
+Content-Length: 178
+Connection: keep-alive
+Location: http://37signals.com/svn/index_full.rdf
+

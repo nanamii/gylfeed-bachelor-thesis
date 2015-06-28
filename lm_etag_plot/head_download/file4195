@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 20:25:39 GMT
+Server: Apache
+Set-Cookie: is_mobile=0; path=/; domain=web.randi.org
+Set-Cookie: language=en; expires=Sat, 11-Jul-2015 20:25:39 GMT; Max-Age=1209600; path=/
+Cache-Control: private
+ETag: W/"e07d3abd0b69fbcb147ac0da43a83a97"
+X-Host: app-64-9.intern.weebly.net
+X-UA-Compatible: IE=edge,chrome=1
+Content-Type: text/html; charset=UTF-8
+X-W-DC: SFO
+

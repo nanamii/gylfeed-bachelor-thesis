@@ -1,0 +1,10 @@
+HTTP/1.1 302 Found
+Server: Apache/2.2
+Content-Type: text/html; charset=UTF-8
+Date: Fri, 26 Jun 2015 19:39:13 GMT
+Location: http://onlinemediacultist.com/feed/
+Transfer-Encoding: chunked
+Connection: Keep-Alive
+Set-Cookie: X-Mapping-eihaoojk=1D32762202F2FA0F75D8930173BA3419; path=/
+Set-Cookie: sukaadmin=eblan; expires=Sat, 01-Jan-2022 00:00:00 GMT; path=/; domain=.onlinemediacultist.com
+

@@ -1,0 +1,13 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 19:44:21 GMT
+Server: Apache/2.2.22
+X-Powered-By: PHP/5.3.29
+X-Pingback: http://www.handsongourmet.com/xmlrpc.php
+ETag: "5bb98ffc44755cd7c8d7750dc0450ed0"
+Expires: Wed, 11 Jan 1984 05:00:00 GMT
+Cache-Control: no-cache, must-revalidate, max-age=0
+Pragma: no-cache
+Location: http://www.handsongourmet.com/blog/feed/
+Vary: User-Agent,Accept-Encoding
+Content-Type: text/html
+

@@ -1,0 +1,25 @@
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Content-Type: application/rss+xml
+Keep-Alive: timeout=20
+X-Content-Length: 796
+Expires: Fri, 26 Jun 2015 19:28:35 GMT
+Last-Modified: Fri, 26 Jun 2015 19:13:35 GMT
+Cache-Control: max-age=900
+Set-Cookie: organicRef=othr; Path=/
+Set-Cookie: tzs=4784486|1435346015; expires=Mon, 23-Jun-25 19:13:35 GMT; Path=/
+Set-Cookie: isMarketing=; expires=Thu, 01-Jan-1970 00:00:00 GMT; Max-Age=0; Path=/
+Set-Cookie: pzs=jBbrzSNCoXu; expires=Mon, 23-Jun-25 19:13:35 GMT; Path=/
+Transfer-Encoding: chunked
+Accept-Ranges: bytes
+Date: Fri, 26 Jun 2015 19:13:35 GMT
+Via: 1.1 varnish
+Age: 0
+Connection: keep-alive
+X-Served-By: cache-ams4145-AMS
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1435346015.278654,VS0,VE150
+Vary: Cookie
+X-Response-Time: 150420
+

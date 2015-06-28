@@ -1,0 +1,9 @@
+HTTP/1.1 301 Moved Permanently
+Content-Length: 166
+Content-Type: text/html; charset=UTF-8
+Location: http://www.newsmax.com/rss/Newsfront/16.xml
+Server: Microsoft-IIS/7.5
+X-Powered-By: ASP.NET
+X-UA-Compatible: IE=Edge
+Date: Fri, 26 Jun 2015 19:01:49 GMT
+

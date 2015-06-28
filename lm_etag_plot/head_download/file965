@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:06:33 GMT
+Server: Apache
+X-Pingback: http://eliasbizannes.com/blog/xmlrpc.php
+Set-Cookie: wfvt_-295057054=558ef4395aa91; expires=Sat, 27-Jun-2015 19:36:33 GMT; path=/; httponly
+Last-Modified: Mon, 30 Mar 2015 16:57:19 GMT
+ETag: "6f81c6fbd968de4f379e79d7cafad2c9"
+Cache-Control: max-age=3600
+Expires: Sat, 27 Jun 2015 20:06:33 GMT
+Content-Type: text/html
+

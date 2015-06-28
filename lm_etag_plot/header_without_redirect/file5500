@@ -1,0 +1,13 @@
+HTTP/1.1 302 Moved Temporarily
+Date: Fri, 26 Jun 2015 20:16:45 GMT
+Server: Apache
+X-Powered-By: PHP/5.5.19
+X-Pingback: http://www.veggiegardeningtips.com/xmlrpc.php
+ETag: "4fca7b8e73d1cb27f1a4a32972470a6b"
+Set-Cookie: bb2_screener_=1435349805+92.194.59.39; path=/
+Last-Modified: Fri, 19 Jun 2015 12:37:02 GMT
+Location: http://feeds.feedburner.com/veggie
+Vary: Accept-Encoding
+Connection: close
+Content-Type: text/html
+

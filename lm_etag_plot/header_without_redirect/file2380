@@ -1,0 +1,9 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 18:59:35 GMT
+Content-Length: 191
+Content-Type: text/html; charset=UTF-8
+Location: http://www.aljazeera.com/Services/Rss/?PostingId=2007731105943979989
+Server: Microsoft-IIS/8.0
+X-Powered-By: ASP.NET
+Connection: keep-alive
+

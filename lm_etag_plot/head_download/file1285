@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Content-Type: application/atom+xml
+Connection: keep-alive
+Date: Sat, 27 Jun 2015 19:14:12 GMT
+X-PhApp: oak-tp-web035
+X-Webserver: oak-tp-web035
+Last-Modified: Fri, 26 Jun 2015 11:33:31 GMT
+X-Varnish: 2420200985 2420007762
+Age: 583
+Server: cloudflare-nginx
+CF-RAY: 1fd3793a46ca1ae1-DUS
+Vary: cookie
+X-Cache: Miss from cloudfront
+Via: 1.1 528e932a968fec7dcc37ac386f863bf3.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: YG_qvKP7_Mc876RmpTRf8kTj4m74jObce6544H6rnhA9KlkN7nuhkw==
+

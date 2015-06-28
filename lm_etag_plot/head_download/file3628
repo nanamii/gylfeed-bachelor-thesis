@@ -1,0 +1,27 @@
+HTTP/1.1 200 OK
+Cache-Control: public, max-age=120
+Content-Language: en
+Content-Type: application/rss+xml; charset=utf-8
+Expires: Sat, 27 Jun 2015 20:07:42 GMT
+Server: nginx
+Vary: X-Is-Mobile
+X-Frame-Options: SAMEORIGIN
+X-Is-Mobile: false
+X-Pantheon-Endpoint: ac2870ad-1724-49bf-903b-8374427d2fc2
+X-Pantheon-Styx-Hostname: styxf9257755
+X-Powered-By: Patch
+X-Server: endpointac2870ad.chios.panth.io
+X-Styx-Build-Date: Wed Apr 29 20:43:17 UTC 2015
+X-Styx-Build-Num: 946
+X-Styx-Build-Sha: 39667cea44763e7df6d81c544b0d294bf223876f
+X-Styx-Req-Id: styx-e9bc872c9e46e806c273d4751bfefefc
+X-Styx-Version: StyxGo
+X-Version: 4.97
+Content-Length: 14437
+Accept-Ranges: bytes
+Date: Sat, 27 Jun 2015 20:06:21 GMT
+X-Varnish: 756003959 755987417
+Age: 39
+Via: 1.1 varnish
+Connection: keep-alive
+

@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Server: Apache
+ETag: "08137fb4ec096945d29967ae2f7fc71e"
+X-Powered-By: W3 Total Cache/0.9.4.1
+Vary: Accept-Encoding,User-Agent
+Last-Modified: Fri, 26 Jun 2015 08:04:09 GMT
+Cache-Control: max-age=3600
+Expires: Sat, 27 Jun 2015 19:41:05 GMT
+Content-Type: text/xml; charset=UTF-8
+X-Cacheable: YES
+Date: Sat, 27 Jun 2015 18:41:06 GMT
+X-Varnish: 269680593
+Age: 0
+Via: 1.1 varnish
+Connection: keep-alive
+

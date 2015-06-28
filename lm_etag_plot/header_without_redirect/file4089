@@ -1,0 +1,13 @@
+HTTP/1.1 301 Moved Permanently
+Server: Apache
+Location: http://rss.upi.com/news/odd_news_rss
+Content-Type: text/html; charset=iso-8859-1
+X-Cacheable: Y1
+Content-Length: 244
+Accept-Ranges: bytes
+Date: Fri, 26 Jun 2015 19:27:08 GMT
+X-Varnish: 3003694112 3003682509
+Age: 117
+Via: 1.1 varnish
+Connection: keep-alive
+

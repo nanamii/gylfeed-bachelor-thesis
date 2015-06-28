@@ -1,0 +1,12 @@
+HTTP/1.1 301 Moved Permanently
+Server: Apache
+Location: http://rss.dw.com/rdf/rss-en-all
+Content-Type: text/html; charset=iso-8859-1
+Content-Length: 240
+Accept-Ranges: bytes
+Date: Fri, 26 Jun 2015 19:00:31 GMT
+X-Varnish: 2327858701 2327849890
+Age: 51
+Via: 1.1 varnish
+Connection: close
+

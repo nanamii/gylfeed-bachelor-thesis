@@ -1,0 +1,11 @@
+HTTP/1.1 301 Moved Permanently
+Server: Apache/2.2.3 (Red Hat)
+Location: http://www.sfgate.com/rss/feed/Tech-News-449.php
+Content-Type: text/html; charset=iso-8859-1
+Expires: Fri, 26 Jun 2015 18:19:00 GMT
+Cache-Control: max-age=0, no-cache
+Pragma: no-cache
+Date: Fri, 26 Jun 2015 18:19:00 GMT
+Connection: keep-alive
+Set-Cookie: SSLB=0; path=/; domain=.sfgate.com
+

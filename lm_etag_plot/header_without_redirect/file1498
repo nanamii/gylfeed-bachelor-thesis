@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Server: nginx/1.8.0
+Date: Fri, 26 Jun 2015 18:42:13 GMT
+Content-Type: text/xml; charset=UTF-8
+Connection: keep-alive
+Vary: Cookie
+X-Pingback: http://blog.iqmatrix.com/xmlrpc.php
+ETag: "8c5f9611cea039a558c47a13c42ec7e3"
+WP-Super-Cache: Served legacy cache file
+

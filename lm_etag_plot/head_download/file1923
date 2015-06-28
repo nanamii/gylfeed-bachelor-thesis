@@ -1,0 +1,18 @@
+HTTP/1.1 200 OK
+Server: nginx/1.9.2
+Date: Sat, 27 Jun 2015 19:24:19 GMT
+Content-Type: application/xml; charset=UTF-8
+Connection: keep-alive
+X-Powered-By: HHVM/3.6.1
+X-Content-Type-Options: nosniff
+Vary: Accept-Encoding,X-Forwarded-Proto,Cookie
+X-Varnish: 925232466, 1428415341 1428224534, 4254918375 4252764661
+Via: 1.1 varnish, 1.1 varnish, 1.1 varnish
+Age: 752
+X-Cache: cp1055 miss (0), cp3013 hit (2), cp3030 frontend hit (1)
+Strict-Transport-Security: max-age=15768000
+Cache-Control: private, s-maxage=0, max-age=0, must-revalidate
+Set-Cookie: GeoIP=DE:02:Bad_T_lz:47.7547:11.5678:v4; Path=/; Domain=.wikinews.org
+X-Analytics: https=1
+Set-Cookie: WMF-Last-Access=27-Jun-2015;Path=/;HttpOnly;Expires=Wed, 29 Jul 2015 12:00:00 GMT
+

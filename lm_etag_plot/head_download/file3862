@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Server: nginx/1.8.0
+Date: Sat, 27 Jun 2015 20:24:08 GMT
+Content-Type: text/xml; charset=UTF-8
+Connection: keep-alive
+X-Powered-By: PHP/5.3.3-7+squeeze19
+Vary: Cookie,Accept-Encoding,User-Agent
+X-Pingback: http://www.latartinegourmande.com/xmlrpc.php
+ETag: "d4333f602fa38d51cdd07af95b078696"
+WP-Super-Cache: Served legacy cache file
+

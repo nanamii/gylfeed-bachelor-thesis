@@ -1,0 +1,18 @@
+HTTP/1.1 200 OK
+Content-Type: application/rss+xml; charset=utf-8
+Connection: keep-alive
+Accept-Ranges: bytes
+Date: Fri, 26 Jun 2015 05:28:38 GMT
+grace: full
+Last-Modified: Thu, 25 Jun 2015 20:15:10 GMT
+Server: nginx/1.4.6 (Ubuntu)
+X-Backend-Name: default
+X-Backend-Status: 200
+X-Backend-TTL: 120.000
+X-Varnish: 12650072 12583038
+Vary: Accept-Encoding
+Age: 54098
+X-Cache: Hit from cloudfront
+Via: 1.1 25f8b93391575ff3688faf5430dd669c.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: 0xtnIqWO2l33evxkHxmpjKVzQP_hGYO9xMtBTm9y4_Kh-X4jU7f6fg==
+

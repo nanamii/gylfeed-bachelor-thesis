@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Server: Apache/2.2.18 (Unix) mod_ssl/2.2.18 OpenSSL/0.9.8r-fips PHP/5.3.16
+X-Powered-By: PHP/5.3.16
+X-Pingback: http://newsroom.mtv.com/xmlrpc.php
+Last-Modified: Tue, 17 Jun 2014 20:37:36 GMT
+ETag: "58903ffd036e0ae536cb2b1f3d22cac3"
+X-Cache-Term: short
+X-PageCached: true
+Content-Type: text/html
+Cache-Control: max-age=600
+Date: Fri, 26 Jun 2015 19:26:58 GMT
+Connection: keep-alive
+

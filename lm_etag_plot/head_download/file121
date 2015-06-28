@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 18:33:28 GMT
+Server: Apache
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+X-Pingback: http://www.elendil.es/blog/xmlrpc.php
+ETag: "a482ba52119a2c7c4aee177e9b185b4c"
+Set-Cookie: PHPSESSID=c6372tqnrmcgadcsu5lt1bbbe1; path=/
+Set-Cookie: easy_eu_cookie_law=show; path=/
+Last-Modified: Wed, 24 Jun 2015 10:29:52 GMT
+X-Powered-By: PleskLin
+Connection: close
+Content-Type: text/html
+

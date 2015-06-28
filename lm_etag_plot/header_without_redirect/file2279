@@ -1,0 +1,14 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 18:58:07 GMT
+Server: Apache/2.2.3 (CentOS) mod_ssl/2.2.3 OpenSSL/0.9.8e-fips-rhel5 PHP/5.3.24
+Set-Cookie: isMobile=false_1.2; path=/; domain=.bu.edu
+Set-Cookie: wantsMobile=false_1.2_default; path=/; domain=.bu.edu
+X-Powered-By: PHP/5.3.24
+Vary: Cookie
+Location: http://www.bu.edu/cte/feed/
+Content-Type: text/html; charset=UTF-8
+Via: 1.1 www.bu.edu
+X-BU-Main-Uniqueid: VY2gvwrxHDYAAAjUxXsAAACa
+X-BU-Duration: D=114436
+X-BU-Backend: niscms http://ist-wp-app-prod03.bu.edu
+

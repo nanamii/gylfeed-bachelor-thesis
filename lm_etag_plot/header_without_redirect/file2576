@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Set-Cookie: akronpolopoly=R3207608272; path=/
+Server: Apache-Coyote/1.1
+Cache-Control: public, max-age=300, s-maxage=300
+Expires: Fri, 26 Jun 2015 19:05:05 GMT
+Content-Type: text/xml;charset=UTF-8
+Date: Fri, 26 Jun 2015 19:00:04 GMT
+Age: 88
+X-Cache: HIT from prod-proxy1.akron.atex.cniweb.net
+Via: 1.1 prod-proxy1.akron.atex.cniweb.net (squid)
+Connection: keep-alive
+

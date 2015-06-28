@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:53:19 GMT
+Server: Apache
+X-Powered-By: PHP/4.4.9
+P3P: CP="NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM"
+Set-Cookie: CAKEPHP=61c87616ab261d38b995e7ce8f7d20d7; path=/
+Connection: close
+Content-Type: text/xml
+

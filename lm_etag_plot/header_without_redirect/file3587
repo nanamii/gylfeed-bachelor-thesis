@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 19:20:54 GMT
+Server: Apache/2.2.15 (Red Hat)
+X-Powered-By: PHP/5.4.21
+X-Pingback: http://scottkelby.com/xmlrpc.php
+Last-Modified: Thu, 25 Jun 2015 04:01:30 GMT
+ETag: "f3b1fa3c8dfa53642710f4ce564cacb4"
+Vary: Accept-Encoding
+Connection: close
+Content-Type: text/xml; charset=UTF-8
+

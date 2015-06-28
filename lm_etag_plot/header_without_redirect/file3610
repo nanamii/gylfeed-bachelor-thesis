@@ -1,0 +1,8 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 19:21:14 GMT
+Server: Apache
+X-Pingback: http://blog.nasm.si.edu/xmlrpc.php
+Last-Modified: Thu, 25 Jun 2015 13:00:00 GMT
+Vary: Accept-Encoding,User-Agent
+Content-Type: text/html
+

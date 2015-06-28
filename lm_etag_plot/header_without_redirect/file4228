@@ -1,0 +1,16 @@
+HTTP/1.1 302 Found
+Date: Fri, 26 Jun 2015 19:38:11 GMT
+Content-Type: application/rdf+xml
+Connection: keep-alive
+Set-Cookie: __cfduid=dee049a7abf523d5bdc8fffbb111a77c91435347490; expires=Sat, 25-Jun-16 19:38:10 GMT; path=/; domain=.typepad.com; HttpOnly
+X-PhApp: oak-tp-web041
+X-Webserver: oak-tp-web041
+Location: http://feeds.feedburner.com/ChurchOfTheCustomer
+Vary: cookie
+Expires: Fri, 26 Jun 2015 19:53:11 GMT, Fri, 26 Jun 2015 19:53:11 GMT
+X-Varnish: 1657156090
+Age: 0
+Via: 1.1 varnish
+Server: cloudflare-nginx
+CF-RAY: 1fcb5ef9efe915b9-FRA
+

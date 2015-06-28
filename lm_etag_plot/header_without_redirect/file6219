@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 20:33:41 GMT
+Server: Apache
+X-Powered-By: PHP/5.2.6
+Vary: Cookie,User-Agent,Accept-Encoding
+X-Pingback: http://fieldnotesbrand.com/xmlrpc.php
+ETag: "b18ec9a4505fe5dd9cc6fa77bfdc8fd4"
+WP-Super-Cache: Served legacy cache file
+Content-Type: text/xml; charset=UTF-8
+

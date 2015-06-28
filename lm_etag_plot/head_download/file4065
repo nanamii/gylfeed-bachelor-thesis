@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+Set-Cookie: JSESSIONID=60B81953A306A535BC2985C865AA92E9.ny1-prod5-web005; Path=/; HttpOnly
+X-ServedBy: ny1-prod5-web005.int.peer1.squarespace.net
+Content-Type: text/xml;charset=UTF-8
+Content-Length: 28746
+Date: Sat, 27 Jun 2015 20:23:35 GMT
+Server: SSWS
+Set-Cookie: WebPersCookie=!y4W08LZRGQ2hv+SwAe6XvaV9bNe9F05/Ppg1D+oFUaFQe9Ry2woNuovinPXLZi571/DjuFu3hjsc2gQ=; path=/
+

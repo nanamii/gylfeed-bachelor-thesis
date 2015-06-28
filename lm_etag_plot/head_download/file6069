@@ -1,0 +1,23 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 21:43:04 GMT
+Content-Type: text/xml; charset=ISO-8859-1
+Content-Length: 7525
+Connection: keep-alive
+Set-Cookie: __cfduid=d8abca46f0f100f89fa3bc3705d9854911435441384; expires=Sun, 26-Jun-16 21:43:04 GMT; path=/; domain=.micechat.com; HttpOnly
+X-Powered-By: PHP/5.3.21
+Set-Cookie: bb_lastvisit=1435441335; expires=Sun, 26-Jun-2016 21:42:15 GMT; path=/; domain=.micechat.com
+Set-Cookie: bb_lastactivity=0; expires=Sun, 26-Jun-2016 21:42:15 GMT; path=/; domain=.micechat.com
+Pragma: 
+Cache-control: max-age=1435442306
+Last-Modified: Sat, 27 Jun 2015 20:58:26 GMT
+ETag: "5f948a9131574a2ae46419e11506a728"
+X-Cacheable: YES
+Accept-Ranges: bytes
+X-Varnish: 814144661 814144483
+Via: 1.1 varnish
+age: 0
+X-Cache: HIT
+X-Cache-Hits: 1
+Server: cloudflare-nginx
+CF-RAY: 1fd4534ca4391583-FRA
+

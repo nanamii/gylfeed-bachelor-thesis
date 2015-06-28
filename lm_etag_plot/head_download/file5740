@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 21:30:21 GMT
+Server: Apache/2.2.22
+X-Powered-By: PHP/5.3.29
+X-Pingback: http://blog.imaginaryfoundation.com/xmlrpc.php
+ETag: "bc29f9ce46237c412845b25f41b54f74"
+Last-Modified: Fri, 26 Jun 2015 19:17:59 GMT
+Vary: User-Agent,Accept-Encoding
+Content-Type: text/xml; charset=UTF-8
+

@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 19:46:34 GMT
+Server: Apache/2.2.15 (Unix) mod_ssl/2.2.15 OpenSSL/0.9.8e-fips-rhel5 mod_auth_passthrough/2.1 mod_bwlimited/1.4 PHP/5.2.13
+X-Powered-By: PHP/5.2.13
+Vary: Cookie
+X-Pingback: http://www.cityfarmer.info/xmlrpc.php
+ETag: "61f9dd03d394b928a0f28a41aa0440c3"
+WP-Super-Cache: Served legacy cache file
+Content-Type: text/xml; charset=UTF-8
+

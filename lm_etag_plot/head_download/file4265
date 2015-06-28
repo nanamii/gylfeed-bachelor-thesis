@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 20:26:43 GMT
+Server: Apache/2.4.12 (Unix) OpenSSL/1.0.1e-fips mod_bwlimited/1.4
+X-Powered-By: PHP/5.4.41
+X-Pingback: http://www.elearnspace.org/blog/xmlrpc.php
+Last-Modified: Thu, 11 Jun 2015 12:23:51 GMT
+ETag: "b7f40428302fd99c1e784f2c2ba4913d"
+Content-Type: text/xml; charset=UTF-8
+

@@ -1,0 +1,20 @@
+HTTP/1.1 302 Moved Temporarily
+Content-Type: text/plain; charset=UTF-8
+Last-Modified: Fri, 26 Jun 2015 17:59:30 GMT
+Location: http://feeds.feedburner.com/fastcocreate/feed
+Server: nginx
+X-Response-Time: 135.169ms
+x-rid: 7p8b07
+Via: 1.1 varnish
+Content-Length: 79
+Accept-Ranges: bytes
+Date: Fri, 26 Jun 2015 18:15:29 GMT
+Via: 1.1 varnish
+Connection: keep-alive
+X-Served-By: cache-iad2150-IAD, cache-fra1222-FRA
+X-Cache: HIT, MISS
+X-Cache-Hits: 2, 0
+X-Timer: S1435342529.792664,VS0,VE93
+Vary: Accept
+Cache-Control: max-age=0
+

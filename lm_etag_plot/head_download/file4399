@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 20:28:58 GMT
+Server: LiteSpeed
+Connection: close
+X-Powered-By: PHP/5.5.21
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Set-Cookie: PHPSESSID=169352108f7c89e7ce400f39dd918254; path=/
+Set-Cookie: edd_items_in_cart=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0; path=/
+X-Pingback: http://wefunction.com/wordpress/xmlrpc.php
+Last-Modified: Tue, 26 May 2015 17:23:06 GMT
+ETag: "e05c59e1b28a9d932ce209cc9716bf12"
+Content-Type: text/html
+

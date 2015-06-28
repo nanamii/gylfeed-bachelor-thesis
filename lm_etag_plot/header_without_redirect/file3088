@@ -1,0 +1,6 @@
+HTTP/1.1 302 Found
+Date: Fri, 26 Jun 2015 19:13:37 GMT
+Server: Apache
+Location: https://www.stallman.org/rss/rss.xml
+Content-Type: text/html; charset=iso-8859-1
+

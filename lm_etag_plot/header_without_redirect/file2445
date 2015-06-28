@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 19:00:26 GMT
+Content-Type: text/xml;charset=UTF-8
+Connection: keep-alive
+Set-Cookie: __cfduid=da2a6b7b899c2129b3ad2bcb41e2354ec1435345226; expires=Sat, 25-Jun-16 19:00:26 GMT; path=/; domain=.nation.co.ke; HttpOnly
+Set-Cookie: JSESSIONID=76EA8B6235B7F08990B123ECE58D35CC.cm6-live-1; Path=/nationmedia/; HttpOnly
+Cache-Control: max-age=3600
+Expires: Fri, 26 Jun 2015 20:00:27 GMT
+Content-Language: en-GB
+Vary: Accept-Encoding,User-Agent
+Set-Cookie: NSC_WT-fwb3300082-IUUQ=ffffffff50efd5a545525d5f4f58455e445a4a423660;expires=Fri, 26-Jun-2015 19:02:26 GMT;path=/;httponly
+Server: cloudflare-nginx
+CF-RAY: 1fcb27b3a8152330-FRA
+

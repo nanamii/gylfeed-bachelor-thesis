@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 18:42:17 GMT
+Server: Apache
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+X-Pingback: http://brandingforresults.com/xmlrpc.php
+ETag: "ea1ed2c284fcd14fbb33e9dbaa719a37"
+X-Robots-Tag: noindex,follow
+Set-Cookie: PHPSESSID=c29b96d79d3805a4819416f7a3ae0bcb; path=/
+Last-Modified: Mon, 22 Jun 2015 01:10:22 GMT
+Content-Type: text/html
+

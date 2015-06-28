@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Cache-Control: max-age=0, private, must-revalidate
+Cache-control: no-cache="set-cookie"
+Content-Type: application/atom+xml; charset=utf-8
+Date: Sat, 27 Jun 2015 21:30:57 GMT
+ETag: W/"f98907b3bc46a29fa89f4806c691469e"
+Server: nginx
+Set-Cookie: AWSELB=3593FF0B1CB388B7F293DCD2DA549D1C55B776CFC42560104EE4956F18CC56F67C333CA47B6FFD4776CCF7BA9B64EA8245A59BF7612FD588D61F8E1A4202FA1F8ABC78F781;PATH=/
+Status: 200 OK
+X-Acme: BYPASS
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Request-Id: 684d9731-ee5d-48ff-bfd7-04e9243ac264
+X-XSS-Protection: 1; mode=block
+Connection: keep-alive
+

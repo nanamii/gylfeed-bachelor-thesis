@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Server: Apache
+Last-Modified: Fri, 26 Jun 2015 20:26:32 GMT
+Primary-Control: 60s
+Content-Type: text/xml
+F: 3
+Strict-Transport-Security: max-age=15778800
+X-Varnish: 656614349 656614178
+Cache-Control: public, max-age=29
+Date: Fri, 26 Jun 2015 20:27:18 GMT
+Connection: keep-alive
+

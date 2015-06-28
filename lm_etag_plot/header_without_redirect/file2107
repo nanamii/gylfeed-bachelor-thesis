@@ -1,0 +1,6 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 18:57:29 GMT
+Server: Apache/2.4.10 (Ubuntu) PHP/5.5.17-1+deb.sury.org~precise+1 OpenSSL/1.0.1
+Location: http://www.lsainsider.com/feed/
+Content-Type: text/html; charset=iso-8859-1
+

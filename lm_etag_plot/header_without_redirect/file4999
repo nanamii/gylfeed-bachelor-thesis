@@ -1,0 +1,16 @@
+HTTP/1.1 302 Found
+Date: Fri, 26 Jun 2015 19:47:58 GMT
+Content-Type: application/atom+xml
+Connection: keep-alive
+Set-Cookie: __cfduid=d939ecab85c0e26a91119d3f7b27a45401435348078; expires=Sat, 25-Jun-16 19:47:58 GMT; path=/; domain=.typepad.com; HttpOnly
+X-PhApp: oak-tp-web019
+X-Webserver: oak-tp-web019
+Location: http://feeds.feedblitz.com/TheBittenWord
+Vary: cookie
+Expires: Fri, 26 Jun 2015 20:02:58 GMT
+X-Varnish: 1651665724
+Age: 0
+Via: 1.1 varnish
+Server: cloudflare-nginx
+CF-RAY: 1fcb6d51023c064a-FRA
+

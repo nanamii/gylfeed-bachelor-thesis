@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 19:14:47 GMT
+Server: Apache/2.2.29 (CentOS)
+X-Powered-By: PHP/5.4.40
+Set-Cookie: PHPSESSID=15qvkvk68ov11lfkf1ni4fnsb6; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+X-Pingback: http://wearechangetv.us/xmlrpc.php
+Last-Modified: Wed, 29 Apr 2015 04:27:03 GMT
+ETag: "1cdf09e9e922c3bc522da75717be2d64"
+Content-Type: text/html
+Content-Language: en
+

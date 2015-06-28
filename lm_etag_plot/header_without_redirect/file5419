@@ -1,0 +1,15 @@
+HTTP/1.1 302 Found
+Date: Fri, 26 Jun 2015 20:15:57 GMT
+Server: LiteSpeed
+Connection: close
+Cache-Control: no-cache, no-store, must-revalidate, max-age=0
+Set-Cookie: PHPSESSID=bc938703575bb95cf4dc9280a2419699; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+X-Pingback: http://www.endlesssimmer.com/xmlrpc.php
+Last-Modified: Thu, 25 Jun 2015 14:04:18 GMT
+ETag: "acef41715b45e001e9b775c38490c293"
+Location: http://feeds.feedburner.com/endlesssimmer/FGKD
+Content-Type: text/html
+

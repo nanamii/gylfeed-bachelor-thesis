@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:58:06 GMT
+Server: Apache/2.2.15 (Red Hat)
+X-Powered-By: PHP/5.3.3
+X-Pingback: http://bigideas.berkeley.edu/xmlrpc.php
+Last-Modified: Tue, 02 Jun 2015 18:47:13 GMT
+ETag: "df8e445985fb771522c6c6b990d0d92a"
+Connection: close
+Content-Type: text/xml; charset=UTF-8
+

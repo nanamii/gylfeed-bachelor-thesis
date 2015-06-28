@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 19:20:38 GMT
+Server: Apache/2.2.11 (Unix) mod_ssl/2.2.11 OpenSSL/0.9.8i DAV/2 mod_auth_passthrough/2.1 mod_bwlimited/1.4
+Last-Modified: Fri, 26 Jun 2015 16:50:08 GMT
+ETag: "c12504-5371-5196e89d3a840"
+Accept-Ranges: bytes
+Content-Length: 21361
+Content-Type: application/xml
+

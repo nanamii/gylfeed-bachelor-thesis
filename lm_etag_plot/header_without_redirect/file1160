@@ -1,0 +1,10 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx/1.8.0
+Date: Fri, 26 Jun 2015 18:18:37 GMT
+Content-Type: text/html
+Connection: keep-alive
+X-Pingback: http://personalmasteryblog.com/xmlrpc.php
+ETag: "728c56a35020e1a208e9a573127a4d11"
+Last-Modified: Mon, 19 Mar 2012 23:20:40 GMT
+Location: http://personalmasteryblog.com/feed/
+

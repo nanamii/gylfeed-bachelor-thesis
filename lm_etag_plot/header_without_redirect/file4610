@@ -1,0 +1,15 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 19:44:06 GMT
+Content-Type: text/html
+Content-Length: 0
+Connection: keep-alive
+Set-Cookie: JSESSIONID=2250E25AA848EA89815E9EC7B5B6644F.ny1-prod5-web007; Path=/; HttpOnly
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Location: http://rohdesign.com/weblog/rss.xml
+X-ContextId: pufq3i6f/Jf4Grii4
+X-Via: 1.1 ny1-prod-echo019
+X-Zephyr: ny1-prod-zephyr008.int.peer1.squarespace.net
+X-Cache-Status: BYPASS
+Vary: Accept-Encoding
+X-Loc: page-cache
+

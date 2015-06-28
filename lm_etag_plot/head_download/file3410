@@ -1,0 +1,8 @@
+HTTP/1.1 200 OK
+Server: nginx/0.7.65
+Date: Sat, 27 Jun 2015 19:56:21 GMT
+Content-Type: application/rss+xml
+Connection: keep-alive
+Vary: Cookie, Accept-Language
+Content-Language: nl
+

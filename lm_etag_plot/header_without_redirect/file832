@@ -1,0 +1,7 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 18:12:02 GMT
+Server: Apache/2.2.22
+Location: http://blog.gskinner.com//index.xml
+Vary: Accept-Encoding
+Content-Type: text/html; charset=iso-8859-1
+

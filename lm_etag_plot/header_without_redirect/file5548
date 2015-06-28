@@ -1,0 +1,10 @@
+HTTP/1.1 302 Moved Temporarily
+Server: Apache
+Location: http://feeds.feedburner.com/ThisOldHouseLatest
+Content-Type: text/html; charset=iso-8859-1
+Accept-Ranges: bytes
+X-Varnish: 653544844
+Date: Fri, 26 Jun 2015 20:17:11 GMT
+Connection: keep-alive
+X-N: S
+

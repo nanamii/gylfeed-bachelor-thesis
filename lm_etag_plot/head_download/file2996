@@ -1,0 +1,18 @@
+HTTP/1.1 200 OK
+X-HashTwo: /NikonUSA/Learn-And-Explore/Tip-of-the-Day/rss.page
+Content-Type: text/xml;charset=UTF-8
+Vary: Accept-Encoding
+Access-Control-Allow-Origin: *
+X-Nikon-Host: nikrhls23
+X-Nikon-Domain: www.nikonusa.com
+X-UA-Compatible: IE=edge
+cache-control: max-age=3600
+Date: Sat, 27 Jun 2015 19:50:06 GMT
+X-Varnish: 1247395833 1247288373
+Via: 1.1 varnish
+Connection: keep-alive
+age: 0
+X-Cache-Host: nikcache21
+X-Cache: HIT
+Set-Cookie: NSC_OjlpoVTB-QSE-Dbdif-Iuuq=ffffffff0903c20045525d5f4f58455e445a4a423660;path=/;httponly
+

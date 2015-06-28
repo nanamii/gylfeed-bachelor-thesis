@@ -1,0 +1,11 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 19:44:23 GMT
+Connection: close
+Set-Cookie: bb2_screener_=1435347863+92.194.59.39; path=/
+X-Pingback: http://jarche.com/xmlrpc.php
+Last-Modified: Fri, 26 Jun 2015 17:17:20 GMT
+ETag: "664b1f0a2da1cdce00be90cb5000a8c0"
+Location: http://jarche.com/feed/
+Content-Type: text/html
+X-Powered-By: PleskLin
+

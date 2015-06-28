@@ -1,0 +1,7 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 19:15:03 GMT
+Server: Apache
+Location: http://www.adweek.com/socialtimes/rss/?red=at
+Content-Type: text/html; charset=iso-8859-1
+Set-Cookie: ax-sess-retired.blogs.mb.com=AGAOAEAK; Expires=Fri, 26-Jun-2015 21:15:02 GMT; Path=/
+

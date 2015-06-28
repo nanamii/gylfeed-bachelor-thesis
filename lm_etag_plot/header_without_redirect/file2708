@@ -1,0 +1,13 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 19:04:08 GMT
+Server: Apache
+X-Powered-By: PHP/5.4.39
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+X-Pingback: http://santiagotimes.cl/xmlrpc.php
+Set-Cookie: PHPSESSID=e2a1c9c50015e754e56bc8a078c1673e; path=/
+Location: http://santiagotimes.cl/?format=feed&type=rss
+Connection: close
+Content-Type: text/html; charset=UTF-8
+

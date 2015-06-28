@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 26 Jun 2015 18:15:31 GMT
+Content-Type: text/xml; charset=UTF-8
+Connection: keep-alive
+Keep-Alive: timeout=20
+X-Pingback: http://stratechery.com/xmlrpc.php
+Last-Modified: Thu, 25 Jun 2015 11:28:46 GMT
+ETag: "a070c4cfd6eb3436990a7a2692c0ec48"
+X-Robots-Tag: noindex,follow
+X-Cacheable: CacheAlways: feed
+Cache-Control: max-age=600, must-revalidate
+X-Cache: HIT: 78
+X-Type: feed
+

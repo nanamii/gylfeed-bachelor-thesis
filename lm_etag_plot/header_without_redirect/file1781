@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 18:51:17 GMT
+Server: LiteSpeed
+Connection: close
+X-Powered-By: PHP/5.4.29
+Set-Cookie: wfvt_970733223=558d9f2547b83; expires=Fri, 26-Jun-2015 19:21:17 GMT; path=/; httponly
+X-Pingback: http://dennissnowblog.com/xmlrpc.php
+Last-Modified: Wed, 08 Apr 2015 18:32:56 GMT
+ETag: "89bfdcbec649d46751bae1b9f194bc66"
+X-UA-Compatible: IE=edge,chrome=1
+Content-Type: text/html
+

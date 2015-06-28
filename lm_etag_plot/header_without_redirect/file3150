@@ -1,0 +1,17 @@
+HTTP/1.1 404 Not Found
+Server: nginx/1.4.6 (Ubuntu)
+Content-Type: text/html; charset=UTF-8
+X-Pingback: http://wordpress.thebrowser.com/xmlrpc.php
+X-Powered-By: W3 Total Cache/0.9.4.1
+Expires: Wed, 11 Jan 1984 05:00:00 GMT
+Cache-Control: no-cache, must-revalidate, max-age=0
+Pragma: no-cache
+Link: <https://thebrowser.comwp-json>; rel="https://github.com/WP-API/WP-API"
+Accept-Ranges: bytes
+Date: Fri, 26 Jun 2015 19:14:41 GMT
+X-Varnish: 313732257
+Age: 0
+Via: 1.1 varnish
+Connection: keep-alive
+X-Varnish-Cache: MISS
+

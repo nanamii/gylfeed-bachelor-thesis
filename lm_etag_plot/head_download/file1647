@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:21:20 GMT
+Content-Type: text/html
+Connection: keep-alive
+Set-Cookie: __cfduid=dd09b909c70f6ec245e152680483419611435432879; expires=Sun, 26-Jun-16 19:21:19 GMT; path=/; domain=.foodmayhem.com; HttpOnly
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+X-Pingback: http://www.foodmayhem.com/xmlrpc.php
+ETag: W/"9d603f481011b382b85f907abf3419b3"
+Set-Cookie: PHPSESSID=8bb23122e72412656df13fd607c5e01c; path=/
+Last-Modified: Tue, 02 Dec 2014 14:33:32 GMT
+Vary: Accept-Encoding
+Server: cloudflare-nginx
+CF-RAY: 1fd383a96504232a-FRA
+

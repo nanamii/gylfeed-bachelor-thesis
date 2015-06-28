@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 26 Jun 2015 20:24:58 GMT
+Content-Type: text/html
+Connection: keep-alive
+X-Pingback: http://www.web-strategist.com/blog/xmlrpc.php
+ETag: "a58cc1d7e4aa8806677436383b9431b8"
+Last-Modified: Wed, 24 Jun 2015 00:26:03 GMT
+X-Powered-By: PleskLin
+MS-Author-Via: DAV
+

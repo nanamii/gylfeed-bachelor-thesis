@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 19:43:28 GMT
+Server: Apache
+Vary: Cookie,Accept-Encoding
+Expires: Wed, 11 Jan 1984 05:00:00 GMT
+X-Pingback: http://www.woohome.com/xmlrpc.php
+ETag: "7954c5096710e3496e152aaf8f93b9ea"
+Cache-Control: no-cache, must-revalidate, max-age=0
+Pragma: no-cache
+WP-Super-Cache: Served legacy cache file
+Content-Type: text/html; charset=utf-8
+

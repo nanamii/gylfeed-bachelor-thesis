@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 19:47:22 GMT
+Content-Type: text/html
+Connection: keep-alive
+Set-Cookie: __cfduid=d85a0740d196706c1d026ead934c491e81435348041; expires=Sat, 25-Jun-16 19:47:21 GMT; path=/; domain=.centsationalgirl.com; HttpOnly
+X-Powered-By: PHP/5.4.20
+X-CF-Powered-By: WP 1.3.18
+X-Pingback: http://www.centsationalgirl.com/xmlrpc.php
+ETag: "150caab22bdb41f972fa5d9cb585c5da"
+X-Robots-Tag: noindex,follow
+Last-Modified: Thu, 25 Jun 2015 12:00:00 GMT
+Server: cloudflare-nginx
+CF-RAY: 1fcb6c6cc26b0f63-FRA
+

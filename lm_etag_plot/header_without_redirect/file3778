@@ -1,0 +1,13 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 19:23:13 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+Set-Cookie: __cfduid=d602f3802ae3b90c1a5c094defbaa56a91435346592; expires=Sat, 25-Jun-16 19:23:12 GMT; path=/; domain=.foodandwaterwatch.org; HttpOnly
+X-Pingback: http://www.foodandwaterwatch.org/xmlrpc.php
+Location: http://www.foodandwaterwatch.org/feed/
+ETag: "1596199b011dbc4762b71286904986d9"
+Set-Cookie: wfvt_1991544244=558da6ff6052b; expires=Fri, 26-Jun-2015 19:54:47 GMT; path=/; httponly
+Last-Modified: Fri, 26 Jun 2015 13:59:04 GMT
+Server: cloudflare-nginx
+CF-RAY: 1fcb490ca1cf064a-FRA
+

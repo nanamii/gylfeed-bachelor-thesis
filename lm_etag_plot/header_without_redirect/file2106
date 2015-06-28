@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 26 Jun 2015 18:56:27 GMT
+Content-Type: text/xml; charset=utf-8
+Content-Length: 0
+Connection: keep-alive
+X-Runtime: 0.02014
+Cache-Control: private, max-age=0, must-revalidate
+Set-Cookie: _smasher_session=13a1bf13c3c5f915ad3d4e8260b1174c; domain=diigo.com; path=/
+ETag: "31f92348d39b4b1881521898e29e0937"
+

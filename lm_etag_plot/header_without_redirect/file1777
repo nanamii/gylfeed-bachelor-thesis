@@ -1,0 +1,15 @@
+HTTP/1.1 301 Moved Permanently
+X-Pingback: http://socialcustomer.com/xmlrpc.php
+Expires: Wed, 11 Jan 1984 05:00:00 GMT
+Cache-Control: no-cache, must-revalidate, max-age=0
+Pragma: no-cache
+Content-Type: text/html; charset=UTF-8
+X-Port: port_10967
+X-Cacheable: YES
+Location: http://socialcustomer.com/atom.xml
+Date: Fri, 26 Jun 2015 18:51:14 GMT
+Age: 48827
+X-Cache: cached
+X-Cache-Hit: HIT
+X-Backend: wpaas_web_034
+

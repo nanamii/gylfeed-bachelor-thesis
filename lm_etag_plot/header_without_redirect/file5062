@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 19:51:47 GMT
+Server: Apache
+Vary: Cookie,Accept-Encoding
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+X-Pingback: http://eatlikeagirl.com/xmlrpc.php
+ETag: "07bcc65b77c785bc7859f01425bdb839"
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+WP-Super-Cache: Served legacy cache file
+Content-Type: text/xml; charset=UTF-8
+

@@ -1,0 +1,10 @@
+HTTP/1.1 302 Moved Temporarily
+Cache-Control: max-age=300, must-revalidate
+Content-Type: text/html
+Date: Fri, 26 Jun 2015 20:27:49 GMT
+Expires: Fri, 26 Jun 2015 20:31:07 GMT
+Location: http://thump.vice.com/en_us/rss
+Pragma: public
+Server: nginx
+Connection: keep-alive
+

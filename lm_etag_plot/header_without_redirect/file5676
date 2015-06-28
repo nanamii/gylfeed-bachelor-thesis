@@ -1,0 +1,15 @@
+HTTP/1.1 302 Moved Temporarily
+Date: Fri, 26 Jun 2015 20:20:46 GMT
+Server: Apache/2.2.22
+X-Powered-By: PHP/5.3.29
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+X-Pingback: http://www.paulallen.net/xmlrpc.php
+ETag: "91e7b736895552ed1bbf6206fd5c1203"
+Set-Cookie: PHPSESSID=f5df0a4cf73d67fd30817c5bd127b613; path=/
+Last-Modified: Sat, 09 May 2015 23:22:54 GMT
+Location: http://feeds.feedburner.com/PaulAllentheLesser
+Vary: User-Agent,Accept-Encoding
+Content-Type: text/html
+

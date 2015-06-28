@@ -1,0 +1,14 @@
+HTTP/1.1 302 Found
+ETag: W/"6ad706a2-4161-4c9a-9625-35021ba260fe"
+Date: Fri, 26 Jun 2015 19:47:49 GMT
+Content-Type: text/html
+Server: blogger-renderd
+Expires: Fri, 26 Jun 2015 19:47:50 GMT
+Cache-Control: public, must-revalidate, proxy-revalidate, max-age=1
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Location: http://feeds.feedburner.com/TomatoesOnTheVine
+X-Frame-Options: SAMEORIGIN
+Alternate-Protocol: 80:quic,p=0
+Transfer-Encoding: chunked
+

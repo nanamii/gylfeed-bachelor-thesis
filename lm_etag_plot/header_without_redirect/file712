@@ -1,0 +1,16 @@
+HTTP/1.1 302 Found
+Date: Fri, 26 Jun 2015 18:07:51 GMT
+Content-Type: application/atom+xml
+Connection: keep-alive
+Set-Cookie: __cfduid=dce30b5797572cfa4adf2f9cddadaa5cd1435342070; expires=Sat, 25-Jun-16 18:07:50 GMT; path=/; domain=.typepad.com; HttpOnly
+X-PhApp: oak-tp-web041
+X-Webserver: oak-tp-web041
+Location: http://feeds.feedburner.com/GeniusSteals
+Vary: cookie
+Expires: Fri, 26 Jun 2015 18:22:51 GMT
+X-Varnish: 843638690
+Age: 0
+Via: 1.1 varnish
+Server: cloudflare-nginx
+CF-RAY: 1fcadaa68e531595-FRA
+

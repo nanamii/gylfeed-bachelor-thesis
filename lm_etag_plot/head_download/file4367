@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 20:28:33 GMT
+Server: Apache/2.2.3 (Red Hat)
+Last-Modified: Tue, 23 Jun 2015 20:51:47 GMT
+ETag: "1e48670-120a4-8f053ec0"
+Accept-Ranges: bytes
+Content-Length: 73892
+Connection: close
+Content-Type: text/xml
+

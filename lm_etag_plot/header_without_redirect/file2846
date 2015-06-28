@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+X-Static: vpapp4/p
+Date: Fri, 26 Jun 2015 19:09:07 GMT
+Server: Apache
+Set-Cookie: SESS33d69424342c2a524fddfca38d2d7b41=bn7lkikdoglnpecgh3pae9p1e2; expires=Sun, 26 Jul 2015 19:09:07 GMT; path=/; domain=.hamptonroads.com
+Last-Modified: Fri, 26 Jun 2015 19:09:07 GMT
+Cache-Control: max age=300, must-revalidate, proxy-revalidate
+Expires: Fri, 26 Jun 2015 19:10:07 GMT
+Vary: Accept-Encoding,User-Agent
+IMAPP: vpapp4
+Content-Type: application/xml
+Connection: close
+

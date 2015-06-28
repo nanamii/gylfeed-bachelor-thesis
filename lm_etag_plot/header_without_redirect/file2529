@@ -1,0 +1,13 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 19:01:09 GMT
+Server: Apache
+X-Powered-By: PHP/5.4.32
+X-Pingback: http://jis.gov.jm/xmlrpc.php
+Expires: Wed, 11 Jan 1984 05:00:00 GMT
+Cache-Control: no-cache, must-revalidate, max-age=0
+Pragma: no-cache
+Set-Cookie: wfvt_649595968=558da175ec32a; expires=Fri, 26-Jun-2015 19:31:09 GMT; path=/; httponly
+Location: http://jis.gov.jm/feeds.rss
+Cache-Control: max-age=0, no-store
+Content-Type: text/html; charset=UTF-8
+

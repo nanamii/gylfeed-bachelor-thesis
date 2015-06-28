@@ -1,0 +1,16 @@
+HTTP/1.1 302 Found
+Date: Fri, 26 Jun 2015 18:55:39 GMT
+Content-Type: application/atom+xml
+Connection: keep-alive
+Set-Cookie: __cfduid=d0a2b161ec7658c49691cfe3797bacb071435344938; expires=Sat, 25-Jun-16 18:55:38 GMT; path=/; domain=.typepad.com; HttpOnly
+X-PhApp: oak-tp-web033
+X-Webserver: oak-tp-web033
+Location: http://feeds.feedburner.com/typepad/Njos
+Vary: cookie
+Expires: Fri, 26 Jun 2015 19:10:38 GMT
+X-Varnish: 1656111910
+Age: 0
+Via: 1.1 varnish
+Server: cloudflare-nginx
+CF-RAY: 1fcb20aac7fc2330-FRA
+

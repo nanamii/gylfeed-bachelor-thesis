@@ -1,0 +1,9 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 19:44:38 GMT
+Server: Apache
+X-Pingback: http://tideandthyme.com/xmlrpc.php
+ETag: "391b6144e748e8691038fd5e6df75728"
+Last-Modified: Tue, 23 Jun 2015 14:58:30 GMT
+Location: http://tideandthyme.com/feed/
+Content-Type: text/html
+

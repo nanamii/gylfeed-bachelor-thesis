@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 19:18:30 GMT
+Server: Apache/2.2.22 (Ubuntu)
+X-Powered-By: PHP/5.4.9-4ubuntu2.2
+Set-Cookie: PHPSESSID=h9vep79ugdqvasq2dn7nu8m9g1; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+X-Pingback: http://techcitynews.com/xmlrpc.php
+Last-Modified: Fri, 26 Jun 2015 15:15:43 GMT
+X-Robots-Tag: noindex,follow
+Vary: Accept-Encoding
+Content-Type: text/html
+

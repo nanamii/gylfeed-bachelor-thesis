@@ -1,0 +1,10 @@
+HTTP/1.1 302 Moved Temporarily
+Server: nginx/1.8.0
+Date: Fri, 26 Jun 2015 19:46:14 GMT
+Content-Type: text/html
+Connection: keep-alive
+X-Pingback: http://fromharvesttotable.com/xmlrpc.php
+ETag: "21e4c18b4f884d60f15d793e0996824a"
+Last-Modified: Mon, 17 Mar 2014 23:37:04 GMT
+Location: http://feeds.feedburner.com/FromHarvestToTable
+

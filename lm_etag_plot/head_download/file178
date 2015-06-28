@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Server: nginx/1.6.2
+Date: Sat, 27 Jun 2015 18:36:27 GMT
+Content-Type: application/atom+xml
+Connection: keep-alive
+X-Powered-By: PHP/5.5.21-1~dotdeb.1
+Set-Cookie: PHPSESSID=0ttmauj7guu2cjjss13k5o4im0; expires=Sun, 26-Jul-2015 18:36:26 GMT; Max-Age=2505600; path=/; domain=.sparkfun.com; secure; HttpOnly
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+X-UA-Compatible: chrome=1
+X-Dinosaur-Says: RAWR
+Strict-Transport-Security: max-age=31536000
+

@@ -1,0 +1,12 @@
+HTTP/1.1 301 Moved Permanently
+Location: http://www.artpointfrance.info/rss
+Vary: Accept-Encoding
+Content-Type: text/html; charset=iso-8859-1
+Date: Fri, 26 Jun 2015 19:29:58 GMT
+X-Varnish: 1118959704
+Age: 0
+Connection: keep-alive
+fhost: 
+server: EsclaveHTTP
+X-URL: /rss-articles.xml
+

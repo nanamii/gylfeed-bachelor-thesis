@@ -1,0 +1,9 @@
+HTTP/1.1 302 Found
+Date: Fri, 26 Jun 2015 20:22:02 GMT
+Content-Type: text/html; charset=iso-8859-1
+Connection: keep-alive
+Set-Cookie: __cfduid=d396ce61a46d33f450bc21a6dcb12c71d1435350121; expires=Sat, 25-Jun-16 20:22:01 GMT; path=/; domain=.thinkoutsidein.com; HttpOnly
+Location: http://www.thinkoutsidein.com/cgi-sys/suspendedpage.cgi
+Server: cloudflare-nginx
+CF-RAY: 1fcb9f3442eb0f8d-FRA
+

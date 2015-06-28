@@ -1,0 +1,11 @@
+HTTP/1.1 302 Temporary Redirect
+Date: Fri, 26 Jun 2015 18:43:05 GMT
+Server: Apache
+Vary: Cookie
+X-Pingback: http://blog.digsby.com/xmlrpc.php
+Last-Modified: Mon, 25 Apr 2011 18:59:11 GMT
+ETag: "6fff0866e276e30c5dd439c5f9bcc8fa"
+Location: http://feeds.feedburner.com/Digsby
+Connection: close
+Content-Type: text/html; charset=UTF-8
+

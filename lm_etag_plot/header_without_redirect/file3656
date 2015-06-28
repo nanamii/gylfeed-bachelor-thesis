@@ -1,0 +1,12 @@
+HTTP/1.1 301 Moved Permanently
+Server: Apache
+Location: https://www.sciencenews.org/view/feed/name/all.rss
+Vary: Accept-Encoding
+Content-Type: text/html; charset=iso-8859-1
+Accept-Ranges: bytes
+Date: Fri, 26 Jun 2015 19:21:46 GMT
+X-Varnish: 817929968
+Age: 0
+Via: 1.1 varnish
+Connection: keep-alive
+

@@ -1,0 +1,19 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 26 Jun 2015 20:27:28 GMT
+Content-Type: text/xml; charset=UTF-8
+Connection: keep-alive
+Keep-Alive: timeout=20
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Pragma: no-cache
+X-Pingback: http://digitalcowboys.com/xmlrpc.php
+Last-Modified: Tue, 09 Jun 2015 12:00:02 GMT
+ETag: "0d92fbc7434fe903165b4e9154de9472-gzip"
+X-Robots-Tag: noindex,follow
+X-Cacheable: CacheAlways: feed
+Cache-Control: max-age=600, must-revalidate
+X-Cache: MISS
+X-Pass-Why: 
+X-Cache-Group: 
+X-Type: feed
+

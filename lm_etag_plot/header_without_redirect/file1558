@@ -1,0 +1,16 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 18:42:51 GMT
+Content-Type: text/html
+Connection: keep-alive
+Set-Cookie: __cfduid=d50580ce81f8494f8c2639d6d9fdab5af1435344169; expires=Sat, 25-Jun-16 18:42:49 GMT; path=/; domain=.socialnomics.net; HttpOnly
+X-Pingback: http://www.socialnomics.net/xmlrpc.php
+X-Powered-By: W3 Total Cache/0.9.2.11
+Set-Cookie: PHPSESSID=f2c0b2ee4839806a9c2faf526fc68f84; path=/
+Vary: Accept-Encoding,User-Agent
+Last-Modified: Fri, 26 Jun 2015 18:00:27 GMT
+Location: http://www.socialnomics.net/feed/
+X-Powered-By: PleskLin
+X-Hosted-By: vsrm
+Server: cloudflare-nginx
+CF-RAY: 1fcb0de2fdc008a5-FRA
+

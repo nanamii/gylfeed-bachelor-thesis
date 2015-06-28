@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+x-amz-id-2: WdjIKGPI69nMPSMiAelcE+4DNgk+H+mPe2DSrjifrA1JzUflSeG3LkktODvUpdAHUU3RpreT+fI=
+x-amz-request-id: 0390FF7624638064
+Date: Sat, 27 Jun 2015 21:30:57 GMT
+x-amz-meta-s3cmd-attrs: uid:501/gname:staff/uname:jon/gid:20/mode:33188/mtime:1374623827/atime:1374623834/ctime:1374623827
+Last-Modified: Tue, 23 Jul 2013 23:57:14 GMT
+ETag: "0a9fe230a5e526a89f0a5595b0f80ef0"
+Content-Type: application/xml
+Content-Length: 19497
+Server: AmazonS3
+

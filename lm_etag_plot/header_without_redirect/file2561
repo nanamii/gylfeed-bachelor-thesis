@@ -1,0 +1,17 @@
+HTTP/1.1 301 Moved Permanently
+Accept-Ranges: bytes
+Access-Control-Allow-Origin: *
+Content-Length: 0
+Location: http://www.mirror.co.uk/news/uk-news/
+Server: nginx
+X-Cache-Hits: 1
+X-RemovedCookies: YES
+X-Served-By: nat-cache1a.tm-aws.com
+X-Varnish: 1234631512 1234622203
+Cache-Control: max-age=600
+Expires: Fri, 26 Jun 2015 19:11:22 GMT
+Date: Fri, 26 Jun 2015 19:01:22 GMT
+Connection: keep-alive
+Set-Cookie: stop_mobi=true; path=/
+Vary: User-Agent
+

@@ -1,0 +1,16 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 19:42:17 GMT
+Server: Apache/2.2.29
+Vary: Cookie
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+X-Pingback: http://artlung.com/blog/xmlrpc.php
+ETag: "d34be66e19fcc151a122c7edf8ccfab5"
+Link: <http://artlung.com/blog/?webmention=endpoint>; rel="http://webmention.org/", <http://artlung.com/blog/?webmention=endpoint>; rel="webmention"
+Set-Cookie: bb2_screener_=1435347738+92.194.59.39; path=/blog/
+Set-Cookie: PHPSESSID=28f069b38e9649907f11243c13e21e34; path=/
+Last-Modified: Fri, 26 Jun 2015 16:40:19 GMT
+Location: http://artlung.com/blog/feed/
+Content-Type: application/rss+xml; charset="UTF-8"
+

@@ -1,0 +1,19 @@
+HTTP/1.1 301 Moved Permanently
+Access-Control-Allow-Origin: *
+Cache-Control: max-age=600
+Content-Type: text/html
+Expires: Fri, 26 Jun 2015 15:10:26 GMT
+Location: http://feeds.epicurious.com/newrecipes
+Server: nginx/1.6.3
+Via: 1.1 varnish
+Content-Length: 184
+Accept-Ranges: bytes
+Date: Fri, 26 Jun 2015 18:57:08 GMT
+Via: 1.1 varnish
+Age: 14202
+Connection: keep-alive
+X-Served-By: cache-iad2132-IAD, cache-lcy1128-LCY
+X-Cache: HIT, MISS
+X-Cache-Hits: 1, 0
+X-Timer: S1435345028.533035,VS0,VE81
+

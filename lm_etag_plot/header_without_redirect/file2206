@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 18:57:25 GMT
+Server: Apache
+Last-Modified: Fri, 19 Jun 2015 16:30:17 GMT
+ETag: "cc7f-518e170755840"
+Accept-Ranges: bytes
+Content-Length: 52351
+Connection: close
+Content-Type: application/xml
+

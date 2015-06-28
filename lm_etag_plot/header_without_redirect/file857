@@ -1,0 +1,11 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 18:12:49 GMT
+Server: Apache/2.2.16
+X-Powered-By: PHP/5.3.3-7+squeeze19
+Vary: Cookie
+X-Pingback: http://fdt.powerflasher.com/xmlrpc.php
+Last-Modified: Fri, 12 Jun 2015 20:33:39 GMT
+ETag: "170cd9027e47351568f0cbb780f515e8"
+Location: http://fdt.powerflasher.com/blog/feed/
+Content-Type: text/html; charset=UTF-8
+

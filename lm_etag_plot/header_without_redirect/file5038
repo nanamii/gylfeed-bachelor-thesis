@@ -1,0 +1,14 @@
+HTTP/1.1 302 Found
+ETag: W/"ab95216a-b1cb-4b7e-9e39-9b4f75f42f24"
+Date: Fri, 26 Jun 2015 19:51:32 GMT
+Content-Type: text/html
+Server: blogger-renderd
+Expires: Fri, 26 Jun 2015 19:51:33 GMT
+Cache-Control: public, must-revalidate, proxy-revalidate, max-age=1
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Location: http://www.facebook.com/SmokyMtCafe?ref=hl
+X-Frame-Options: SAMEORIGIN
+Alternate-Protocol: 80:quic,p=0
+Transfer-Encoding: chunked
+

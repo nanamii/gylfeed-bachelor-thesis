@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 18:59:32 GMT
+Content-Type: text/xml
+Connection: keep-alive
+Set-Cookie: __cfduid=d6e35aa94143afa83e79858ff648c7caa1435345157; expires=Sat, 25-Jun-16 18:59:17 GMT; path=/; domain=.abs-cbnnews.com; HttpOnly
+Cache-Control: public, max-age=1800
+Last-Modified: Fri, 26 Jun 2015 13:47:26 GMT
+ETag: W/"959c25a316b0d01:0"
+Vary: Accept-Encoding
+X-Powered-By: ASP.NET
+Access-Control-Allow-Origin: http://lgtvapp.abs-cbnnews.com
+CF-Cache-Status: STALE
+Expires: Fri, 26 Jun 2015 19:29:32 GMT
+Server: cloudflare-nginx
+CF-RAY: 1fcb26035fea238a-FRA
+

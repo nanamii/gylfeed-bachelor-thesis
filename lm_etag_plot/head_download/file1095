@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:07:43 GMT
+Server: Apache
+X-Powered-By: PHP/5.4.42
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+X-Pingback: http://www.rockyourday.com/xmlrpc.php
+Set-Cookie: PHPSESSID=1ed4de576f58aab88f24a8939e917927; path=/
+Last-Modified: Mon, 28 Apr 2014 01:21:27 GMT
+ETag: "2e037faeda70cdf1273d0811156b66a6"
+Content-Type: text/xml; charset=UTF-8
+

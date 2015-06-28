@@ -1,0 +1,11 @@
+HTTP/1.1 302 Temporary Redirect
+Date: Fri, 26 Jun 2015 18:56:20 GMT
+Server: Apache
+X-Powered-By: PHP/5.4.42
+Vary: Cookie
+X-Pingback: http://copywriterscrucible.com/xmlrpc.php
+ETag: "4441df833edc77763a3ff9d854f67177"
+Last-Modified: Thu, 11 Jun 2015 13:38:25 GMT
+Location: http://feeds.feedburner.com/TheCopywritersCrucible
+Content-Type: application/rss+xml; charset="UTF-8"
+

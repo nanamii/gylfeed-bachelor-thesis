@@ -1,0 +1,16 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Content-Type: text/html; charset=iso-8859-1
+Location: http://www.hastac.org/content/feed
+Cache-Control: max-age=1209600
+Expires: Wed, 01 Jul 2015 23:30:02 GMT
+X-Request-ID: v-c72ad5bc-1548-11e5-a83b-12313d30246a
+Vary: Accept-Encoding
+Date: Fri, 26 Jun 2015 19:10:06 GMT
+X-Varnish: 845492490 772415973
+Age: 762004
+Via: 1.1 varnish
+Connection: keep-alive
+X-Cache: HIT
+X-Cache-Hits: 12941
+

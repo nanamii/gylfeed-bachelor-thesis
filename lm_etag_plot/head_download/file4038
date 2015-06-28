@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 20:23:10 GMT
+Server: Apache
+Vary: Cookie,Accept-Encoding
+X-Pingback: http://evilhrlady.org/xmlrpc.php
+ETag: "3eb4d95eb08069032489445ca6f583b4"
+WP-Super-Cache: Served legacy cache file
+Content-Type: text/xml; charset=UTF-8
+

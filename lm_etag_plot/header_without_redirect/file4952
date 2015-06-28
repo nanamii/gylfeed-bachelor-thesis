@@ -1,0 +1,13 @@
+HTTP/1.1 404 Not Found
+Server: nginx/1.6.2
+Date: Fri, 26 Jun 2015 19:47:34 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+X-Powered-By: PHP/5.4.16
+Set-Cookie: PHPSESSID=88u9mdq4pitfg8mcdu6qelehq5; path=/
+X-Pingback: http://www.blogitalia.it/xmlrpc.php
+Expires: Wed, 11 Jan 1984 05:00:00 GMT
+Last-Modified: Fri, 26 Jun 2015 19:47:34 GMT
+Cache-Control: no-cache, must-revalidate, max-age=0
+Pragma: no-cache
+

@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Server: nginx/0.7.65
+Content-Type: text/xml; charset=UTF-8
+X-Powered-By: PHP/5.3.8
+X-Pingback: http://blogs.baltimoreravens.com/xmlrpc.php
+Last-Modified: Tue, 21 Aug 2012 13:30:16 GMT
+ETag: "1529414467234bd4e4a322fce7451d91"
+Date: Sat, 27 Jun 2015 19:47:51 GMT
+Content-Length: 0
+Connection: keep-alive
+

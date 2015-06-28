@@ -1,0 +1,10 @@
+HTTP/1.1 301 http://mentalfloss.com
+Location: http://mentalfloss.com/blogs/feed
+Accept-Ranges: bytes
+Date: Fri, 26 Jun 2015 19:10:38 GMT
+X-Varnish: 1793500800
+Age: 0
+Via: 1.1 varnish
+Connection: close
+x-Cache: uncached
+

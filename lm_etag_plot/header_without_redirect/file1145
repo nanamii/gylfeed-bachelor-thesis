@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Server: nginx/1.8.0
+Date: Fri, 26 Jun 2015 18:18:20 GMT
+Content-Type: text/xml; charset=UTF-8
+Connection: keep-alive
+X-Pingback: http://magicalmarketingmakeover.com/xmlrpc.php
+ETag: "b1ff1361bbad96d58887a1d3affb700e"
+Set-Cookie: wpgb_visit_last_php-default=1435342700; expires=Sat, 25-Jun-2016 18:18:20 GMT; path=/
+Last-Modified: Mon, 04 Jun 2012 01:55:37 GMT
+

@@ -1,0 +1,19 @@
+HTTP/1.1 200 OK
+Cache-Control: public, max-age=300
+Expires: Fri, 26 Jun 2015 12:04:48 GMT
+Content-Type: application/xml
+ETag: "466057777"
+Last-Modified: Fri, 26 Jun 2015 11:58:49 GMT
+Server: lighttpd/1.4.28
+Content-Length: 2240
+Accept-Ranges: bytes
+Date: Fri, 26 Jun 2015 20:33:11 GMT
+Via: 1.1 varnish
+Age: 0
+Connection: keep-alive
+X-Served-By: cache-fra1244-FRA
+X-Cache: HIT
+X-Cache-Hits: 2
+X-Timer: S1435350790.894053,VS0,VE173
+Vary: Accept-Encoding
+

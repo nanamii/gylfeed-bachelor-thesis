@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:12:47 GMT
+Content-Type: text/html
+Connection: keep-alive
+Set-Cookie: __cfduid=d05bf164ae2b07d7cd4db2f0f092cbb151435432367; expires=Sun, 26-Jun-16 19:12:47 GMT; path=/; domain=.mysocialagency.com; HttpOnly
+Cache-Control: max-age=0, no-cache
+Vary: User-Agent
+Server: cloudflare-nginx
+CF-RAY: 1fd377271d94237e-FRA
+

@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Server: nginx/1.2.1
+Date: Sat, 27 Jun 2015 19:25:03 GMT
+Content-Type: application/rss+xml; charset=utf-8
+Connection: keep-alive
+P3P: CP="NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM"
+Expires: Mon, 1 Jan 2001 00:00:00 GMT
+Pragma: no-cache
+Set-Cookie: 37c5f57f1bbd15de50fc89687600f392=ikohnpg8nrdj99oj0dqhc401l2; path=/; HttpOnly
+Last-Modified: Sat, 27 Jun 2015 19:20:23 GMT
+cache-control: max-age = 86400
+X-Varnish: 328695467 328694473
+Age: 280
+Via: 1.1 varnish
+

@@ -1,0 +1,22 @@
+HTTP/1.1 200 OK
+Server: nginx
+X-Varnish: 2794242271 2794091488
+Vary: Accept-Encoding
+Cache-Control: public, max-age=600
+Content-Type: text/xml; charset=UTF-8
+X-Styx-Build-Sha: 39667cea44763e7df6d81c544b0d294bf223876f
+X-Pantheon-Styx-Hostname: styx4f38fad2
+X-Styx-Version: StyxGo
+X-Pingback: http://www.jta.org/xmlrpc.php
+Date: Sat, 27 Jun 2015 19:24:59 GMT
+X-Styx-Req-Id: styx-9995dba3137d79da02d4ca25bbccd6d1
+Transfer-Encoding: chunked
+X-Pantheon-Endpoint: 36a5913a-5ec5-4495-a4a9-5cacbd861446
+Via: 1.1 varnish
+Connection: Keep-Alive
+Last-Modified: Fri, 13 Mar 2015 03:03:57 GMT
+X-Styx-Build-Date: Wed Apr 29 20:43:17 UTC 2015
+X-Powered-By: PHP/5.5.24
+X-Styx-Build-Num: 946
+Age: 261
+

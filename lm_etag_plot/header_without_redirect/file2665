@@ -1,0 +1,10 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 19:04:40 GMT
+Server: Apache/2.2.3 (Red Hat)
+Location: http://www.seattlepi.com/rss/local_2.rss
+Cache-Control: max-age=60
+Expires: Fri, 26 Jun 2015 19:05:40 GMT
+Vary: Accept-Encoding
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+

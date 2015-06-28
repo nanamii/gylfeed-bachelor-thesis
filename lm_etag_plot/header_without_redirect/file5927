@@ -1,0 +1,15 @@
+HTTP/1.1 302 Temporary Redirect
+Date: Fri, 26 Jun 2015 20:25:19 GMT
+Server: Apache/2.2.29 (Unix) mod_ssl/2.2.29 OpenSSL/1.0.1e-fips mod_bwlimited/1.4 PHP/5.3.29
+X-Powered-By: PHP/5.3.29
+Set-Cookie: bb2_screener_=1435350319+92.194.59.39; path=/
+Set-Cookie: PHPSESSID=4f8fd3511b4f41a3cb11d26be518b12a; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+X-Pingback: http://www.sharingatwork.com/xmlrpc.php
+Last-Modified: Sat, 02 Nov 2013 04:23:11 GMT
+ETag: "afe1e5035b7518e14f4814a60424f5f5"
+Location: http://feeds2.feedburner.com/sharingatwork
+Content-Type: text/html
+

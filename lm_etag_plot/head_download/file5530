@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+Cache-Control: max-age=300, must-revalidate
+Content-Type: rss+xml; charset=utf-8
+Date: Sat, 27 Jun 2015 21:23:47 GMT
+Expires: Sat, 27 Jun 2015 21:25:50 GMT
+Pragma: public
+Server: nginx
+Connection: keep-alive
+

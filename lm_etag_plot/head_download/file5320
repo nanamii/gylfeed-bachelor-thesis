@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 21:18:42 GMT
+Server: Apache
+X-Powered-By: PHP/5.3.29
+X-Pingback: http://rich-page.com/xmlrpc.php
+ETag: "a3086b0b71ee2c0c80a7dca22539b320"
+Set-Cookie: wwsgd_visits=1; expires=Sun, 26-Jun-2016 21:18:43 GMT; path=/
+Last-Modified: Wed, 24 Jun 2015 15:55:25 GMT
+Cache-Control: max-age=3600
+Expires: Sat, 27 Jun 2015 22:18:42 GMT
+Vary: User-Agent,Accept-Encoding
+Content-Type: text/html
+

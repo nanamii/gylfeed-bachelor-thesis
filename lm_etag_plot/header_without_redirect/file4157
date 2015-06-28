@@ -1,0 +1,7 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 19:29:58 GMT
+Server: Apache/2.2.15 (Red Hat)
+Location: https://www.nationalgalleries.org/rss/works
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+

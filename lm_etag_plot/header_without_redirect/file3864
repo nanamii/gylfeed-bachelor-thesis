@@ -1,0 +1,17 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 19:24:16 GMT
+Content-Type: text/html; charset=utf-8
+Connection: keep-alive
+Keep-Alive: timeout=30
+Server: Apache/2
+X-Powered-By: PHP/5.3.29
+Set-Cookie: PHPSESSID=9591ce0d0f519d117541ec5d41b11c59; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Set-Cookie: wfvt_383684596=558da6e072d65; expires=Fri, 26-Jun-2015 19:54:16 GMT; path=/; httponly
+X-Pingback: http://www.bodhipaksa.com/blog/xmlrpc.php
+Last-Modified: Wed, 24 Jun 2015 00:22:30 GMT
+ETag: "bd7418a4bbbc2ac583856852f964a120"
+Vary: Accept-Encoding,Cookie
+

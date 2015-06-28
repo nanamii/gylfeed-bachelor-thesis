@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:14:38 GMT
+Content-Type: text/xml; charset=UTF-8
+Connection: keep-alive
+Set-Cookie: __cfduid=d77221442bb4b80cd0dd161879eecffd01435432478; expires=Sun, 26-Jun-16 19:14:38 GMT; path=/; domain=.edublogs.org; HttpOnly
+Vary: Cookie
+X-Pingback: http://bethstill.edublogs.org/xmlrpc.php
+Last-Modified: Sat, 27 Jun 2015 18:54:35 +0000
+Cache-Control: max-age=600, must-revalidate
+X-Varnish: 1777062240 1777048761
+Age: 1203
+Via: 1.1 varnish
+Set-Cookie: xid=Qocx4lWO9h5uSBATHjwsAg==; expires=Mon, 27-Jul-15 19:14:38 GMT; path=/
+Server: cloudflare-nginx
+CF-RAY: 1fd379dc6d6c0887-FRA
+

@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Content-Type: text/xml
+Last-Modified: Mon, 09 Apr 2012 20:56:47 GMT
+ETag: "6f84fe469316cd1:0"
+Server: Microsoft-IIS/8.0
+P3P: CP="ALL IND DSP COR ADM CONo CUR CUSo IVAo IVDo PSA PSD TAI TELo OUR SAMo CNT COM INT NAV ONL PHY PRE PUR UNI"
+VTag: 438145257100000000
+X-Powered-By: ASP.NET
+X-Powered-By: ARR/2.5
+X-Powered-By: ASP.NET
+Cache-Control: max-age=900
+Date: Sat, 27 Jun 2015 19:13:03 GMT
+Connection: keep-alive
+X-CCC: NL
+X-CID: 2
+

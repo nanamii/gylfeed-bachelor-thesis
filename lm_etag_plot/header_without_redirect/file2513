@@ -1,0 +1,7 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 19:01:00 GMT
+Server: Apache/2.2.29 (Amazon)
+Location: http://digital.dailypress.com/forums/external.php?type=RSS2
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+

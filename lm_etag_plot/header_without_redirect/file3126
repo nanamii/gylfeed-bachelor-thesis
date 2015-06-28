@@ -1,0 +1,10 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx/1.8.0
+Date: Fri, 26 Jun 2015 19:14:19 GMT
+Content-Type: text/html
+Connection: keep-alive
+X-Pingback: http://dailyhaggis.com/xmlrpc.php
+ETag: "1173e583f1e7ef18fd4c7a5d24539532"
+Last-Modified: Sun, 26 Jan 2014 01:47:52 GMT
+Location: http://dailyhaggis.com/feed/
+

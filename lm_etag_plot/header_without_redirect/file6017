@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Content-Length: 2360
+Content-Type: text/xml
+Last-Modified: Fri, 26 Jun 2015 19:03:23 GMT
+Accept-Ranges: bytes
+ETag: "ac3b6ec642b0d01:42f"
+Server: Microsoft-IIS/6.0
+X-Powered-By: ASP.NET
+Date: Fri, 26 Jun 2015 20:27:21 GMT
+

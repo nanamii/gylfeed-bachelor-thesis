@@ -1,0 +1,9 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Fri, 26 Jun 2015 18:19:38 GMT
+Content-Type: text/html
+Content-Length: 178
+Connection: keep-alive
+Location: http://mindhacks.com/atom.xml
+X-ac: 3.fra _sat
+

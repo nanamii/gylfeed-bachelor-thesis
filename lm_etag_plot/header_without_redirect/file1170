@@ -1,0 +1,10 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 18:18:43 GMT
+Content-Type: text/html
+Connection: keep-alive
+Set-Cookie: __cfduid=d4eeee06a7690375f9cff70834b4947961435342723; expires=Sat, 25-Jun-16 18:18:43 GMT; path=/; domain=.poststat.us; HttpOnly
+Cf-Railgun: 905a5ad26a stream 0.000000 0200 5f99
+Location: https://poststatus.com/feed/
+Server: cloudflare-nginx
+CF-RAY: 1fcaea92a7120f93-FRA
+

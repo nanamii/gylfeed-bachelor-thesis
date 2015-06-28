@@ -1,0 +1,13 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx/1.2.1
+Date: Fri, 26 Jun 2015 19:01:13 GMT
+Content-Type: text/html; charset=utf-8
+Connection: keep-alive
+Set-Cookie: 37c5f57f1bbd15de50fc89687600f392=2plk91d81icvoasi6jv52i52j3; path=/; HttpOnly
+Location: http://www.rapidtvnews.com/feed/rss.html?format=feed
+Vary: Accept-Encoding
+cache-control: max-age = 86400
+X-Varnish: 328373164 328371976
+Age: 263
+Via: 1.1 varnish
+

@@ -1,0 +1,12 @@
+HTTP/1.1 302 Found
+Content-Type: text/html; charset=utf-8
+Connection: close
+Status: 302
+X-Powered-By: Phusion Passenger (mod_rails/mod_rack) 2.2.5
+Cache-Control: no-cache
+Location: http://faevoterra.blogspot.com/podcast.xml
+X-Runtime: 5
+Content-Length: 108
+Server: nginx/0.7.65 + Phusion Passenger 2.2.5 (mod_rails/mod_rack)
+P3P: CP="IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT"
+

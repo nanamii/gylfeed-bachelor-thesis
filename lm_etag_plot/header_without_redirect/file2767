@@ -1,0 +1,8 @@
+HTTP/1.1 302 Moved Temporarily
+Content-Length: 0
+Location: https://www.whitehouse.gov/feed/media/video-audio
+Date: Fri, 26 Jun 2015 19:06:52 GMT
+Connection: keep-alive
+Server: White House
+P3P: CP="NON DSP COR ADM DEV IVA OTPi OUR LEG"
+

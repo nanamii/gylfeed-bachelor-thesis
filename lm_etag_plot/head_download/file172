@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Server: nginx/1.2.1
+Date: Sat, 27 Jun 2015 18:36:19 GMT
+Content-Type: text/xml; charset=UTF-8
+Connection: keep-alive
+X-Powered-By: PHP/5.5.24-1~dotdeb+wheezy.1
+Set-Cookie: PHPSESSID=13ro2ufmtul60v8rvfebbp9ck3; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+X-Pingback: https://blog.arduino.cc/xmlrpc.php
+Last-Modified: Thu, 25 Jun 2015 22:22:09 GMT
+X-Cache: HIT
+

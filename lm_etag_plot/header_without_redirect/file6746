@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 20:43:40 GMT
+Server: Apache/2.2.3 (CentOS)
+X-Powered-By: PHP/5.1.6
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Last-Modified: Fri, 26 Jun 2015 20:43:40 GMT
+Cache-Control: store, no-cache, must-revalidate
+Cache-Control: post-check=0, pre-check=0
+Content-Type: text/xml; charset=utf-8
+Set-Cookie: SESS3a53c5cf85a652ab3764fd26fbdc5135=nd3tf40ii6jf3bp206so2otb42; expires=Mon, 20 Jul 2015 00:17:00 GMT; path=/; domain=.call-for-papers.sas.upenn.edu
+

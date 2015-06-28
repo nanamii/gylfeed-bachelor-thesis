@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Content-Length: 31442
+Content-Type: text/xml; charset=utf-8
+X-HTTPModule: Scout Camelot v.1.6.1.310 (570 ms)
+MachineName: CAMWEB01
+Cache-Control: private, max-age=900
+Date: Fri, 26 Jun 2015 19:19:32 GMT
+Connection: keep-alive
+Akamai: True
+

@@ -1,0 +1,8 @@
+HTTP/1.1 302 Found
+Connection: Keep-Alive
+Content-Length: 239
+Date: Fri, 26 Jun 2015 19:21:29 GMT
+Location: http://www.dlr.de/desktopdefault.aspx?aspxerrorpath=/dlr/en/contentXXL/services/newsexport/service1.asmx/GetRSSNewsByTabId
+Server: Microsoft-IIS/7.5
+X-UA-Compatible: IE=Edge
+

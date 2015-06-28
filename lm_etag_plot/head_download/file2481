@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:35:01 GMT
+Content-Type: application/xml; charset=UTF-8
+Connection: keep-alive
+Set-Cookie: __cfduid=def03eb0179b79fa7beeef536dd3e47de1435433700; expires=Sun, 26-Jun-16 19:35:00 GMT; path=/; domain=.memritv.org; HttpOnly
+X-Powered-By: PHP/5.3.3
+Expires: 0
+Cache-Control: must-revalidate, post-check=0, pre-check=0
+Pragma: public
+Server: cloudflare-nginx
+CF-RAY: 1fd397b5b5960f5d-FRA
+

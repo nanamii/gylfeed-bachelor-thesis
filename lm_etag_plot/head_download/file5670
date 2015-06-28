@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 21:27:33 GMT
+Content-Type: application/atom+xml
+Connection: keep-alive
+Set-Cookie: __cfduid=d800fbec68dc9cef881f5848be6a4cc881435440453; expires=Sun, 26-Jun-16 21:27:33 GMT; path=/; domain=.jehsmith.com; HttpOnly
+X-PhApp: oak-tp-web042
+X-Webserver: oak-tp-web042
+Vary: cookie
+Last-Modified: Wed, 24 Jun 2015 16:26:59 GMT
+X-Varnish: 2422894174
+Age: 0
+Via: 1.1 varnish
+Server: cloudflare-nginx
+CF-RAY: 1fd43c904d880893-FRA
+

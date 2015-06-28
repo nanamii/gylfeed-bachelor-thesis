@@ -1,0 +1,13 @@
+HTTP/1.1 301 Moved Permanently
+Location: http://www.pewinternet.org/feed/
+Cache-Control: max-age=600
+Expires: Fri, 26 Jun 2015 18:26:23 GMT
+Vary: Accept-Encoding
+X-UA-Compatible: IE=edge,chrome=1
+Content-Type: text/html; charset=utf-8
+Date: Fri, 26 Jun 2015 18:16:23 GMT
+Age: 0
+Connection: keep-alive
+X-Served-By: pew-vp-ash01.siteworx.com
+X-Cache: MISS
+

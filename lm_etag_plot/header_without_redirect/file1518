@@ -1,0 +1,11 @@
+HTTP/1.1 404 Not Found
+Server: nginx/1.6.2
+Date: Fri, 26 Jun 2015 20:41:06 GMT
+Content-Type: text/html; charset=utf-8
+Connection: keep-alive
+Set-Cookie: CraftSessionId=06b4fdh68g5mkj93b2ch25kvf0; path=/; HttpOnly
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+charset: utf-8
+

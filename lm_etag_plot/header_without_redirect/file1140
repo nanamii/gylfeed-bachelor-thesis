@@ -1,0 +1,10 @@
+HTTP/1.1 302 Temporary Redirect
+Date: Fri, 26 Jun 2015 18:18:12 GMT
+Server: Apache
+X-Powered-By: PHP/5.5.24
+X-Pingback: http://chriscree.tv/xmlrpc.php
+Last-Modified: Fri, 24 Feb 2012 04:49:05 GMT
+ETag: "3a02b22133fa648ab5acd043cbb93e2b"
+Location: http://feeds2.feedburner.com/ChrisCreeTV
+Content-Type: text/html
+

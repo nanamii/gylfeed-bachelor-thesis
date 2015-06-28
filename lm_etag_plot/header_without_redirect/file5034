@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 19:51:29 GMT
+Content-Type: application/atom+xml; charset=UTF-8
+Server: blogger-renderd
+Expires: Fri, 26 Jun 2015 19:51:30 GMT
+Cache-Control: public, must-revalidate, proxy-revalidate, max-age=1
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Last-Modified: Tue, 07 Oct 2014 04:46:05 GMT
+X-Frame-Options: SAMEORIGIN
+Alternate-Protocol: 80:quic,p=0
+Transfer-Encoding: chunked
+Accept-Ranges: none
+Vary: Accept-Encoding
+

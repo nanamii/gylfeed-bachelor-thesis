@@ -1,0 +1,10 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 18:13:14 GMT
+Server: Apache
+X-Pingback: http://www.weberdesignlabs.com/xmlrpc.php
+Set-Cookie: gtm4wp_sessoionid=2f32bcebb0a081ddc7e5; expires=Sun, 25-Jun-2017 18:13:33 GMT
+Last-Modified: Thu, 18 Sep 2014 10:17:16 GMT
+Location: http://www.weberdesignlabs.com/blog/feed/
+Vary: User-Agent,Accept-Encoding
+Content-Type: text/html
+

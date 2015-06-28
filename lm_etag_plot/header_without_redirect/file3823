@@ -1,0 +1,8 @@
+HTTP/1.1 200 OK
+Server: IBM_HTTP_Server
+Content-Length: 698
+Content-Type: application/rss+xml
+Content-Language: en-US
+Date: Fri, 26 Jun 2015 19:23:41 GMT
+Connection: keep-alive
+

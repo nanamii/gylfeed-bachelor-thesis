@@ -1,0 +1,13 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 19:51:36 GMT
+Content-Type: application/rss+xml; charset="UTF-8"
+Connection: keep-alive
+Set-Cookie: __cfduid=db61296b8913459ed8b6d9903f191639e1435348294; expires=Sat, 25-Jun-16 19:51:34 GMT; path=/; domain=.cookiemadness.net; HttpOnly
+Vary: Cookie
+X-Pingback: http://www.cookiemadness.net/xmlrpc.php
+ETag: "48bf23c026a0048b7dabcca880ac277a"
+Last-Modified: Wed, 24 Jun 2015 14:23:25 GMT
+Location: http://www.cookiemadness.net/feed/
+Server: cloudflare-nginx
+CF-RAY: 1fcb729b6537157d-FRA
+

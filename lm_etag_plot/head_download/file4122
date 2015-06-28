@@ -1,0 +1,18 @@
+HTTP/1.1 200 OK
+Server: Microsoft-IIS/7.5
+LB: rhs-web-02
+X-AspNet-Version: 2.0.50727
+Cache-Control: public
+Content-Type: text/xml; charset=utf-8
+Date: Sat, 27 Jun 2015 20:23:56 GMT
+Accept-Ranges: bytes
+ETag: 03/04/2015 12:25:00
+CommunityServer: 3.1.30415.43
+Set-Cookie: CommunityServer-UserCookie2101=lv=Fri, 01 Jan 1999 00:00:00 GMT&mra=Sat, 27 Jun 2015 21:23:56 GMT; expires=Sun, 26-Jun-2016 20:23:56 GMT; path=/
+Set-Cookie: CommunityServer-LastVisitUpdated-2101=; path=/
+Set-Cookie: CommunityServer-UserCookie2101=lv=Fri, 01 Jan 1999 00:00:00 GMT&mra=Sat, 27 Jun 2015 21:23:56 GMT; expires=Sun, 26-Jun-2016 20:23:56 GMT; path=/
+Last-Modified: Fri, 03 Apr 2015 11:25:00 GMT
+X-Powered-By: ASP.NET
+X-Cache-Info: caching
+Content-Length: 810011
+

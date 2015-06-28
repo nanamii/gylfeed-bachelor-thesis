@@ -1,0 +1,16 @@
+HTTP/1.1 302 Found
+Date: Fri, 26 Jun 2015 20:24:45 GMT
+Content-Type: application/atom+xml
+Connection: keep-alive
+Set-Cookie: __cfduid=d33523f5c3081baba5056f02d98a8600b1435350284; expires=Sat, 25-Jun-16 20:24:44 GMT; path=/; domain=.typepad.com; HttpOnly
+X-PhApp: oak-tp-web003
+X-Webserver: oak-tp-web003
+Location: http://feeds.feedburner.com/TheNextBigThing
+Vary: cookie
+Expires: Fri, 26 Jun 2015 20:39:45 GMT
+X-Varnish: 1652520714
+Age: 0
+Via: 1.1 varnish
+Server: cloudflare-nginx
+CF-RAY: 1fcba33114852372-FRA
+

@@ -1,0 +1,23 @@
+HTTP/1.1 200 OK
+Server: nginx/0.8.55
+Date: Sat, 27 Jun 2015 19:24:47 GMT
+Content-Type: text/html; charset=utf-8
+Connection: keep-alive
+Vary: Accept-Encoding
+X-Powered-By: PHP/5.4.23
+Content-Language: en
+X-UA-Compatible: IE=edge,chrome=1
+X-Generator: Drupal 7 (http://drupal.org)
+Link: <http://thehill.com/>; rel="canonical",<http://thehill.com/>; rel="shortlink"
+X-User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.0.8) Gecko/2008091620 Firefox/3.0.2
+Content-Length: 203792
+Accept-Ranges: bytes
+X-Varnish: 826875699 826873544
+Age: 282
+Via: 1.1 varnish
+X-Device: pc
+Vary: User-Agent
+X-Cache-Hits: HIT (4)
+X-Cache: 038
+X-NX-Host: thehill.com
+

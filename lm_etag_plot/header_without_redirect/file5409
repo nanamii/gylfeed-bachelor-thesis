@@ -1,0 +1,18 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 20:15:45 GMT
+Content-Type: text/html; charset=UTF-8
+Content-Length: 0
+Connection: keep-alive
+Keep-Alive: timeout=30
+X-Pingback: http://careerrocketeer.com/xmlrpc.php
+X-UA-Compatible: IE=edge,chrome=1
+Expires: Wed, 11 Jan 1984 05:00:00 GMT
+Cache-Control: no-cache, must-revalidate, max-age=0
+Pragma: no-cache
+Location: http://careerrocketeer.com/feeds/posts/default
+Server: Pagely Gateway/1.4.6
+Vary: Accept-Encoding, X-User-Agent
+X-User-Agent: standard
+X-Cache-Config: 0 0  
+X-Cache-Status: MISS
+

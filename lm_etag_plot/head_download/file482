@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 18:40:52 GMT
+Server: LiteSpeed
+Connection: close
+X-Powered-By: PHP/5.4.40
+Vary: Cookie
+Set-Cookie: kshlsid=5baa451bcc191b28d942836b8070cd84; expires=Mon, 27-Jul-2015 18:40:52 GMT; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+X-Pingback: http://boostblogtraffic.com/xmlrpc.php
+Last-Modified: Fri, 26 Jun 2015 16:45:38 GMT
+ETag: "553ffa14e5f7d9b80d8de6bab1333450"
+X-Robots-Tag: noindex,follow
+Content-Type: application/rss+xml; charset="UTF-8"
+

@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+Server: nginx/1.8.0
+Date: Fri, 26 Jun 2015 18:18:25 GMT
+Content-Type: text/xml; charset=UTF-8
+Connection: keep-alive
+X-Pingback: http://trybean.com/xmlrpc.php
+ETag: "7fc16c44fdfbea64f164ffca2d8a1673"
+Last-Modified: Mon, 27 Jan 2014 05:15:43 GMT
+

@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Server: nginx/1.8.0
+Date: Sat, 27 Jun 2015 21:47:04 GMT
+Content-Type: text/xml; charset=UTF-8
+Connection: keep-alive
+X-Powered-By: PHP/5.5.9-1ubuntu4.9
+X-Pingback: https://lucian.uchicago.edu/blogs/dhcs/xmlrpc.php
+Last-Modified: Tue, 23 Jun 2015 14:51:12 GMT
+ETag: "1fce4b5d4b80bcc05cc808371e0d5686-gzip"
+Vary: Accept-Encoding
+X-Varnish: 649629498 649629421
+Age: 87
+Via: 1.1 varnish
+X-Varnish-Cache: HIT
+

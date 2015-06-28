@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Cache-Control: max-age=15, public, s-maxage=15
+powered-by: overblog
+ETag: "afb680c930b3b9fc8432f5841baae11090930672"
+Vary: Accept-Encoding
+Content-Type: text/xml; charset=UTF-8
+Date: Sat, 27 Jun 2015 20:01:48 GMT
+X-Varnish: 1124666931
+Age: 0
+Connection: keep-alive
+fhost: 
+server: EsclaveHTTP
+X-URL: /rss
+

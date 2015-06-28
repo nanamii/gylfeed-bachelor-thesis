@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Content-Length: 68253
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/7.5
+Access-Control-Allow-Origin: http://rssfeeds.webmd.com
+X-Server-ID: www18-web.con.iad1.webmd.com
+Cache-Control: private, max-age=300
+Date: Fri, 26 Jun 2015 18:59:06 GMT
+Connection: keep-alive
+

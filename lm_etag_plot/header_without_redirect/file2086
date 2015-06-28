@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 26 Jun 2015 18:56:14 GMT
+Content-Type: text/xml; charset=UTF-8
+Connection: keep-alive
+Vary: Accept-Encoding
+Vary: Accept-Encoding
+X-Pingback: http://www.mommypotamus.com/xmlrpc.php
+Last-Modified: Fri, 26 Jun 2015 18:55:08 GMT
+ETag: "5b406a8e21680200a833087f077599fd"
+X-Robots-Tag: noindex,follow
+

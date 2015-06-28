@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 21:30:19 GMT
+Server: Apache/2.2.22 (Ubuntu)
+X-Powered-By: PHP/5.3.10-1ubuntu3.4
+X-Pingback: https://highfidelity.com/blog/xmlrpc.php
+Last-Modified: Sat, 13 Jun 2015 00:11:29 GMT
+ETag: "be82950aa55f81f629c6d44c7899eeb0"
+Vary: Accept-Encoding
+Content-Type: text/html
+

@@ -1,0 +1,7 @@
+HTTP/1.1 302 Moved Temporarily
+Content-Type: text/html
+Location: http://feeds.skynews.com/sky-news/rss/home/rss.xml
+Content-Length: 0
+Date: Fri, 26 Jun 2015 19:04:40 GMT
+Connection: keep-alive
+

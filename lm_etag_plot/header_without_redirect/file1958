@@ -1,0 +1,11 @@
+HTTP/1.1 400 Bad Request
+Server: Apache/2.0.52 (CentOS)
+X-ATG-Version: ATGPlatform/7.1p2 [ DASLicense/0 DPSLicense/0 DSSLicense/0 PortalLicense/0  ]
+Content-Type: text/html
+Expires: Fri, 26 Jun 2015 18:52:54 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Fri, 26 Jun 2015 18:52:54 GMT
+Connection: keep-alive
+Set-Cookie: JSESSIONID=LNNBUDLRCRHN4CUUCAPCFEY; path=/
+

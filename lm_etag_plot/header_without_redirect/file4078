@@ -1,0 +1,20 @@
+HTTP/1.1 200 OK
+Server: nginx/1.4.0
+Date: Fri, 26 Jun 2015 19:27:01 GMT
+Content-Type: text/xml
+Connection: keep-alive
+Vary: Accept-Encoding
+Display: staticcontent_sol
+Expires: Sun, 26 Jul 2015 19:27:01 UTC
+Response: 200
+Vary: Origin
+X-Middleton-Display: staticcontent_sol
+X-Middleton-Response: 200
+Set-Cookie: ezouid=778065706; Path=/; Domain=snopes.com; Expires=Thu, 15 Jun 2017 19:27:01 UTC
+Set-Cookie: ezovid=672929490; Path=/; Domain=snopes.com; Expires=Fri, 31 Dec 9999 23:59:59 UTC
+Set-Cookie: lp=http://www.snopes.com/info/whatsnew.xml; Path=/; Domain=snopes.com; Expires=Fri, 26 Jun 2015 21:27:01 UTC
+Set-Cookie: active_template::2883=orig_site; Path=/; Domain=snopes.com; Expires=Sun, 28 Jun 2015 19:27:01 UTC
+Etag: "4ec0e55042b0d01:b60"
+Last-Modified: Fri, 26 Jun 2015 19:00:06 GMT
+Cache-Control: max-age=2592000
+

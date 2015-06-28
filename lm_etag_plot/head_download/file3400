@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Vary: Cookie,Accept-Encoding
+X-Pingback: http://www.anorak.co.uk/xmlrpc.php
+WP-Super-Cache: Served legacy cache file
+Content-Type: text/xml; charset=UTF-8
+Date: Sat, 27 Jun 2015 19:56:09 GMT
+Connection: keep-alive
+X-Age: 13
+Server: Apache/Varnish
+X-Varnish-Hits: Hit - 1
+

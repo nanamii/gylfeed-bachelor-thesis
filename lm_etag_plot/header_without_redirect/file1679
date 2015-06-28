@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 18:43:44 GMT
+Server: Apache
+X-Pingback: http://www.appsandhats.com/xmlrpc.php
+ETag: "f2c0ba442dfee4bab1be38230e926d77"
+Last-Modified: Thu, 05 Jul 2012 09:36:08 GMT
+Vary: Accept-Encoding
+Content-Type: text/xml; charset=UTF-8
+

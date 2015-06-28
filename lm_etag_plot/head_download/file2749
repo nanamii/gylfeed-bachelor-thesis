@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Content-Length: 0
+Content-Type: text/html
+Last-Modified: Wed, 10 Jun 2015 05:07:48 GMT
+ETag: "ddda20b22689346ab580cb58265d0c80"
+Server: Microsoft-IIS/7.5
+X-Pingback: http://msoftnews.com/xmlrpc.php
+X-Powered-By: ASP.NET
+Date: Sat, 27 Jun 2015 19:41:35 GMT
+

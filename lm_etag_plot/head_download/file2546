@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+Cache-Control: public, max-age=300, s-maxage=300
+Content-Type: text/html; charset=UTF-8
+Date: Sat, 27 Jun 2015 19:37:54 GMT
+Server: Apache/2.2.12 (Linux/SUSE)
+Vary: Accept-Encoding
+X-Powered-By: PHP/5.3.17
+Content-Length: 82700
+

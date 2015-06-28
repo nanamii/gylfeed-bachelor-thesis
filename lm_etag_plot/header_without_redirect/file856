@@ -1,0 +1,11 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 18:12:47 GMT
+Server: Apache/2.2.22
+X-Powered-By: PHP/5.3.29
+X-Pingback: http://blog.onebyonedesign.com/xmlrpc.php
+ETag: "53dfa59b580c77f7589605fee4566ec3"
+Last-Modified: Sun, 29 Mar 2015 17:42:17 GMT
+Location: http://blog.onebyonedesign.com/feed/
+Vary: User-Agent,Accept-Encoding
+Content-Type: text/html
+

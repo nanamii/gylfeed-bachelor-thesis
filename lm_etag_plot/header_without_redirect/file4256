@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 19:35:34 GMT
+Server: Apache/2.2.3 (CentOS)
+X-Powered-By: PHP/5.3.3
+Last-Modified: Thu, 25 Jun 2015 22:48:53 GMT
+Vary: Accept-Encoding,User-Agent
+Cache-Control: private, max-age=0, no-cache, no-transform
+X-Hyper-Cache: hit - plain
+Content-Length: 159125
+Connection: close
+Content-Type: text/html;charset=UTF-8
+

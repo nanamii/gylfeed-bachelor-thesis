@@ -1,0 +1,18 @@
+HTTP/1.1 200 OK
+Server: nginx
+X-Cacheable: CacheAlways: feed
+Cache-Control: max-age=600, must-revalidate
+X-Cache: HIT: 2
+Content-Type: text/xml; charset=UTF-8
+X-Cache-Group: 
+Date: Sat, 27 Jun 2015 20:01:34 GMT
+X-Pingback: http://www.theartblog.org/xmlrpc.php
+Keep-Alive: timeout=20
+X-Type: feed
+Transfer-Encoding: chunked
+ETag: "1ef1164493104e4029b01159dc95f9a4"
+Connection: Keep-Alive
+X-Pass-Why: 
+Set-Cookie: X-Mapping-fjhppofk=28BD1488881E515CF7D5DEE1CF9D74B7; path=/
+Last-Modified: Fri, 26 Jun 2015 13:23:10 GMT
+

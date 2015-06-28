@@ -1,0 +1,37 @@
+HTTP/1.1 200 OK
+Expires: Fri, 26 Jun 2015 19:05:27 GMT
+Cache-Control: max-age=90        ,must-revalidate
+Content-Type: Application/RSS+XML; charset=ISO-8859-1
+Last-Modified: Fri, 26 Jun 2015 18:53:43 GMT
+Server: Microsoft-IIS/7.5
+X-FORWARDED-FOR: 10.101.82.22, 10.101.82.22, 64.94.90.4
+X-Passed-To: GATOWEB025, URL Rewrite on site MI (2015-06-26 15:05:27:809)
+X-Handled-By: GATOWEB025, Rewrite on site MI
+X-Actual-URL: GATOWEB025, (/apps/pbcs.dll/section?Category=homepage&Template=RSS&MIME=Application%2FRSS%2BXML)
+X-Original-Request: /homepage/rss
+X-Passed-To-DLL: GATOWEB025, (2015-06-26 15:05:27:825)
+X-Passed-To-BeforeDispatch: GATOWEB025, on site MI (2015-06-26 15:05:27:840)
+X-Returned-From-BeforeDispatch: GATOWEB025, on site MI (2015-06-26 15:05:27:887)
+X-Passed-To-PostProcessResponse: GATOWEB025, on site MI (2015-06-26 15:05:27:903)
+X-Returned-From-PostProcessResponse: GATOWEB025, on site MI (2015-06-26 15:05:27:903)
+X-Returned-From-DLL: GATOWEB025 (2015-06-26 15:05:27:903)
+X-Returned-From: GATOWEB025(2015-06-26 15:05:27:903)
+ServedBy: GATOWEB025
+X-UA-Device: pc
+X-Varnish-beresp-ttl: 24.000
+X-Varnish-beresp-grace: 43200.000
+X-Varnish-beresp-status: 200
+Content-Length: 325
+Accept-Ranges: bytes
+Date: Fri, 26 Jun 2015 19:05:30 GMT
+X-Varnish: 2058792677 2058786568
+Age: 71
+Connection: close
+X-Served-By: gth-varnish2
+x-stale: true
+Vary: X-UA,User-Agent
+X-Cache: HIT-Varnish
+X-Cache-Hits: 1
+Set-Cookie: GATE=GATE-VAR2; path=/
+Cache-control: private
+

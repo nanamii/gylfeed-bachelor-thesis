@@ -1,0 +1,11 @@
+HTTP/1.1 404 Not Found
+Cache-Control: no-cache
+Content-Length: 6561
+Content-Type: text/html
+Date: Fri, 26 Jun 2015 19:10:25 GMT
+P3P: CP="CUR ADM OUR UNI CAO DSP NID"
+Server: nginx
+Set-Cookie: huid=CgQeTFWNo6G8ekvMBC+JAg==; expires=Thu, 31-Dec-37 23:55:55 GMT; domain=hubpages.com; path=/
+X-Powered-By: PHP/5.5.9-1ubuntu4.9
+Connection: keep-alive
+

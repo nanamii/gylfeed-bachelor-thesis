@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 20:27:25 GMT
+Content-Type: text/html
+Connection: keep-alive
+Set-Cookie: __cfduid=dac0d2ee8339254b86bb18cf8ac722e521435350444; expires=Sat, 25-Jun-16 20:27:24 GMT; path=/; domain=.20jazzfunkgreats.co.uk; HttpOnly
+X-Powered-By: W3 Total Cache/0.9.4.1
+Cache-Control: max-age=0, no-cache
+X-Pingback: http://www.20jazzfunkgreats.co.uk/wordpress/xmlrpc.php
+Etag: "da607cfd60a3bbeb2099c6d339893e2e"
+Vary: User-Agent,Accept-Encoding
+Cf-Railgun: 95d20a37ab 0000 normal 5360
+Server: cloudflare-nginx
+CF-RAY: 1fcba7154c8108ab-FRA
+

@@ -1,0 +1,10 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Fri, 26 Jun 2015 19:06:48 GMT
+Content-Type: text/html
+Content-Length: 178
+Connection: keep-alive
+Location: http://voxxi.com/feed/
+X-nc: HIT sat 93
+X-ac: 2.fra _sat
+

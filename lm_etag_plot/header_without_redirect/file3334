@@ -1,0 +1,6 @@
+HTTP/1.0 301 Moved Permanently
+Location: https://blogs.oracle.com/roller-ui/errors/404.jsp
+Server: BigIP
+Connection: close
+Content-Length: 0
+

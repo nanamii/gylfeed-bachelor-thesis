@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Age: 111
+Cache-Control: max-age=0, must-revalidate
+Content-Type: text/xml
+Date: Fri, 26 Jun 2015 19:18:43 GMT
+Last-Modified: Fri, 26 Jun 2015 19:11:07 GMT
+P3P: CP="CAO DSP COR CURa ADMa DEVa PSAa PSDa CONi OUR IND PHY ONL UNI COM NAV INT CNT STA"
+Server: nginx
+Vary: Accept-Encoding
+Vary: Accept-Encoding
+Via: 1.1 varnish-v4
+X-Varnish: 69591032 70428511
+Connection: keep-alive
+

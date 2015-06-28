@@ -1,0 +1,11 @@
+HTTP/1.1 502 Bad Gateway
+Server: nginx/1.0.15
+Date: Fri, 26 Jun 2015 19:46:02 GMT
+Content-Type: text/html
+Connection: keep-alive
+Content-Length: 1038
+Accept-Ranges: bytes
+X-Varnish: 1956380267
+Age: 0
+Via: 1.1 varnish
+

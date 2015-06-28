@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 21:14:20 GMT
+Server: Apache
+X-Pingback: http://jeffnolan.com/wp/xmlrpc.php
+ETag: "5522c2260ffb997be8eab9dd6b0169ca"
+Last-Modified: Fri, 24 Apr 2015 14:15:54 GMT
+Vary: Accept-Encoding
+Connection: close
+Content-Type: text/html
+

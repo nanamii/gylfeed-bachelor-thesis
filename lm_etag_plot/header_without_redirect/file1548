@@ -1,0 +1,11 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 18:42:43 GMT
+Server: Apache
+X-Pingback: http://changeforge.com/xmlrpc.php
+ETag: "ebb8a090d81094a9480347bd1ac24b18"
+Set-Cookie: wfvt_4066816216=558d9d241fe42; expires=Fri, 26-Jun-2015 19:12:44 GMT; path=/; httponly
+Last-Modified: Tue, 16 Jun 2015 00:14:37 GMT
+Location: http://changeforge.com/feed/
+Vary: Accept-Encoding
+Content-Type: text/html
+

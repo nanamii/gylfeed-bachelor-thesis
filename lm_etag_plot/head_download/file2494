@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:35:17 GMT
+Server: Apache
+X-Pingback: http://www.netrootsnation.org/xmlrpc.php
+Last-Modified: Fri, 26 Jun 2015 21:06:36 GMT
+ETag: "4e7a9c2564db395677ff3b41bb45faeb"
+Web-Head: vps155.advomatic.com
+Vary: Accept-Encoding
+Connection: close
+Content-Type: text/html
+

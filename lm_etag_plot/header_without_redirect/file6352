@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+x-amz-id-2: dXy4KlfOuv6RtooL7VjQ9Y3e9yWivXOc4cQR/hirsIDsZrahTUnNf4SkH1wITKRa5fAHdkMYiWY=
+x-amz-request-id: F25815FC37EBDB7B
+Date: Fri, 26 Jun 2015 20:34:59 GMT
+Content-Encoding:  identity
+Last-Modified: Thu, 18 Jun 2015 06:46:10 GMT
+ETag: "16af2565d8db6e6923e903c10f19488c"
+Content-Type: application/xml
+Content-Length: 94515
+Server: AmazonS3
+

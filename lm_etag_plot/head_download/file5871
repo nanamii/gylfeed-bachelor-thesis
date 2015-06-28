@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 21:35:11 GMT
+Server: Apache
+Vary: Cookie,Accept-Encoding
+X-Pingback: http://mjtsai.com/blog/xmlrpc.php
+ETag: "6c7df5776db75ce4d4ada04bdd9b2659"
+WP-Super-Cache: Served legacy cache file
+Content-Type: text/xml; charset=UTF-8
+

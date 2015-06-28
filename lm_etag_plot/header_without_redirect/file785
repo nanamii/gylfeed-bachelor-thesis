@@ -1,0 +1,9 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx/1.9.1
+Date: Fri, 26 Jun 2015 18:10:10 GMT
+Content-Type: text/html
+Content-Length: 184
+Connection: keep-alive
+Location: http://www.creativebloq.com/computer-arts-magazine
+X-Clacks-Overhead: GNU Terry Pratchett
+

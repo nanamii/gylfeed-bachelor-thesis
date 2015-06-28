@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Cache-Control: private
+Content-Length: 17354
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/7.5
+X-AspNet-Version: 4.0.30319
+Set-Cookie: dtusession=86a93585-57e3-4f07-b29e-5822e3967b5a; domain=.dailytech.com; expires=Wed, 01-Jan-2020 05:00:00 GMT; path=/
+Set-Cookie: DTLASTVISITED=6/26/2015 3:15:14 PM; domain=dailytech.com; expires=Fri, 26-Jun-2020 19:15:14 GMT; path=/
+Set-Cookie: DTLASTVISITEDSYS=1/1/1900 12:00:00 AM; domain=dailytech.com; path=/
+X-UA-Compatible: IE=EmulateIE7
+Date: Fri, 26 Jun 2015 19:15:14 GMT
+

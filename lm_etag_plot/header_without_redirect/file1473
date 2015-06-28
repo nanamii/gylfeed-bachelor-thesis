@@ -1,0 +1,15 @@
+HTTP/1.1 307 Temporary Redirect
+Server: nginx/1.8.0
+Date: Fri, 26 Jun 2015 18:41:37 GMT
+Content-Type: application/rss+xml; charset="UTF-8"
+Connection: keep-alive
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Vary: Cookie
+X-Pingback: http://www.didigetthingsdone.com/xmlrpc.php
+ETag: "4756b9eb3ef054e9053da9eb1f73e1a1"
+Set-Cookie: PHPSESSID=a7ac05c1e57550119f2f7d0fcd1d652a; path=/
+Last-Modified: Sun, 05 Feb 2012 19:26:15 GMT
+Location: http://feedproxy.google.com/DidIGetThingsDone
+

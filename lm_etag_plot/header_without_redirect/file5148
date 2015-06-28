@@ -1,0 +1,11 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 19:52:43 GMT
+Server: Apache
+X-Pingback: http://playinginthedirt.ca/xmlrpc.php
+ETag: "6aaedd2d7b890c4977c447a9b279c1a4"
+Set-Cookie: bb2_screener_=1435348363+92.194.59.39; path=/
+Last-Modified: Thu, 28 Jun 2012 18:57:10 GMT
+Location: http://playinginthedirt.ca/feed/
+Vary: Accept-Encoding
+Content-Type: text/html
+

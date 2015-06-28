@@ -1,0 +1,16 @@
+HTTP/1.1 302 Found
+Date: Fri, 26 Jun 2015 18:41:48 GMT
+Content-Type: application/atom+xml
+Connection: keep-alive
+Set-Cookie: __cfduid=dd292b10cf48715f084c3c34545911df81435344107; expires=Sat, 25-Jun-16 18:41:47 GMT; path=/; domain=.questiontechnology.org; HttpOnly
+X-PhApp: oak-tp-web002
+X-Webserver: oak-tp-web002
+Location: http://feeds.feedburner.com/questiontechnology/kPvZ
+Vary: cookie
+Expires: Fri, 26 Jun 2015 18:56:47 GMT
+X-Varnish: 844426805
+Age: 0
+Via: 1.1 varnish
+Server: cloudflare-nginx
+CF-RAY: 1fcb0c61703d0f57-FRA
+

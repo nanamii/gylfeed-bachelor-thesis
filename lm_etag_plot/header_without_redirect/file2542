@@ -1,0 +1,9 @@
+HTTP/1.1 301 Moved Permanently
+Content-Length: 0
+Location: http://www.hindustantimes.com/rssfeed/rsssubsectionpage.aspx
+X: 22
+X-N: S
+Cache-Control: private, max-age=414016
+Date: Fri, 26 Jun 2015 19:01:14 GMT
+Connection: keep-alive
+

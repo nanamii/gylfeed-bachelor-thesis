@@ -1,0 +1,12 @@
+HTTP/1.1 301 Moved Permanently
+Accept-Ranges: bytes
+Content-Type: text/html; charset=iso-8859-1
+Location: http://www.theroot.com/all.teaser.all.20.rss
+Server: Apache/2.2.29 (Amazon)
+X-Varnish: 1984841865
+Content-Length: 333
+Cache-Control: max-age=40
+Expires: Fri, 26 Jun 2015 19:15:18 GMT
+Date: Fri, 26 Jun 2015 19:14:38 GMT
+Connection: keep-alive
+

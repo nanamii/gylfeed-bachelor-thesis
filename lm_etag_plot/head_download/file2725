@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Server: nginx/1.0.15
+Date: Sat, 27 Jun 2015 19:43:09 GMT
+Content-Type: text/html
+Connection: keep-alive
+Vary: Accept-Encoding
+Cache-Control: private
+Content-Length: 139823
+Set-Cookie: informationweek_lastvisit=6/27/2015 3:41:49 PM; expires=Thu, 27-Jun-2030 19:41:49 GMT; path=/; HttpOnly
+Set-Cookie: informationweek%5Fvisits=1; expires=Thu, 27-Jun-2030 04:00:00 GMT; path=/
+X-Powered-By: ASP.NET
+X-Frame-Options: SAMEORIGIN
+

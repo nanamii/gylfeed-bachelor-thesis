@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:54:12 GMT
+Set-Cookie: amfID=; path=/;
+AMF-Ver: 4.03
+Last-Modified: Sat, 27 Jun 2015 17:17:11 GMT
+ETag: "908dcd-265-5198306ea93c0"
+Accept-Ranges: bytes
+Content-Length: 613
+Vary: Accept-Encoding
+Connection: close
+Content-Type: text/xml
+Set-Cookie: TS35f02b=c0d537f93651d68cba1ad5fb4b7d7a0ca72a6c68830df42b558eff64; Path=/
+

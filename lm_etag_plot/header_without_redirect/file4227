@@ -1,0 +1,12 @@
+HTTP/1.1 301 Moved Permanently
+Accept-Ranges: bytes
+Age: 0
+Content-Length: 234
+Content-Type: text/html; charset=iso-8859-1
+Date: Fri, 26 Jun 2015 19:38:10 GMT
+Location: http://laist.com/index.rdf
+Server: Apache/2.4.7 (Ubuntu)
+Via: 1.1 varnish
+X-Varnish: 1568308763
+Connection: keep-alive
+

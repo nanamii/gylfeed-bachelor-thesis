@@ -1,0 +1,10 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Content-Type: text/html
+Date: Fri, 26 Jun 2015 19:10:00 GMT
+Keep-Alive: timeout=20
+Location: http://www.politico.eu/Rss/6.xml
+Connection: keep-alive
+Set-Cookie: X-Mapping-fjhppofk=6298A26CE689272CA68F50EA2F1DDC8E; path=/
+Content-Length: 178
+

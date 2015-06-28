@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:19:05 GMT
+Server: Apache
+Set-Cookie: SESS6e17d865640dbc4075bea3f1813b367d=rbh5ckk1568d5o9k901so1e135; expires=Mon, 20-Jul-2015 22:52:25 GMT; path=/; domain=.ibethel.org
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Last-Modified: Sat, 27 Jun 2015 19:19:05 GMT
+Cache-Control: store, no-cache, must-revalidate
+Cache-Control: post-check=0, pre-check=0
+Vary: Accept-Encoding
+Content-Type: application/rss+xml; charset=utf-8
+

@@ -1,0 +1,17 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Fri, 26 Jun 2015 19:19:23 GMT
+Content-Type: text/html
+Connection: keep-alive
+X-Powered-By: PHP/5.5.26-1+deb.sury.org~precise+1
+Set-Cookie: s3fs=74c0acf1123d12537b3efe350a93e7bd; path=/
+Set-Cookie: PHPSESSID=t6nen24fbivdrj7h487pko7gk3; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+X-Pingback: http://sealfit.com/xmlrpc.php
+Last-Modified: Fri, 26 Jun 2015 17:05:25 GMT
+ETag: "3e59b677c5966a3b08a4ca0197109dc6"
+Location: http://sealfit.com/feed/
+rt-Fastcgi-Cache: MISS
+

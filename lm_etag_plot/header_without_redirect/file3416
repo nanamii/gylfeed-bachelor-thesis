@@ -1,0 +1,12 @@
+HTTP/1.1 302 Moved Temporarily
+Server: Apache
+Set-Cookie: SITE=RANDOM; Path=/
+Set-Cookie: SECTION=HOME; Path=/
+Location: http://hosted.ap.org/lineups/SPORTSHEADS.rss?SITE=SCAND&SECTION=HOME
+X-Server-Name: hosted.ap.org
+Content-Type: text/plain
+Content-Length: 0
+Cache-Control: max-age=112
+Date: Fri, 26 Jun 2015 19:19:05 GMT
+Connection: keep-alive
+

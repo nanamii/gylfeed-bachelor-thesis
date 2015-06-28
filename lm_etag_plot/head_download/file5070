@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 21:10:57 GMT
+Server: Apache
+Vary: Cookie,Accept-Encoding
+X-Pingback: http://yosefk.com/blog/xmlrpc.php
+ETag: "5e5b6329e574cc8c677a6e1a43c05cd5"
+WP-Super-Cache: Served legacy cache file
+Content-Type: text/xml; charset=UTF-8
+

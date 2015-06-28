@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Cache-Control: no-cache
+Content-Type: application/xml
+Date: Sat, 27 Jun 2015 19:35:22 GMT
+NYT-Topic-Main: App
+Server: nginx/1.4.1
+Vary: Accept-Encoding
+X-Powered-By: PHP/5.4.22
+Connection: keep-alive
+

@@ -1,0 +1,6 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 19:08:37 GMT
+Server: Apache
+Cache-Control: max-age=0, private, no-store, no-cache, must-revalidate
+Content-Type: application/xml
+

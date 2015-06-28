@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 26 Jun 2015 19:23:30 GMT
+Content-Type: text/html
+Connection: keep-alive
+Vary: Accept-Encoding
+X-Pingback: http://www.joelsartore.com/xmlrpc.php
+ETag: "c974fa8d6614998af46320580e11088c"
+X-Robots-Tag: noindex,follow
+Last-Modified: Thu, 18 Jun 2015 15:02:12 GMT
+

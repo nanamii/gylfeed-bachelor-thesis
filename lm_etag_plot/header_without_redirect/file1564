@@ -1,0 +1,9 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 18:41:11 GMT
+Accept-Ranges: bytes
+Server: LiteSpeed
+Location: https://litemind.com/feed/
+Strict-Transport-Security: max-age=31536000
+Cache-Control: must-revalidate
+Vary: Accept-Encoding
+

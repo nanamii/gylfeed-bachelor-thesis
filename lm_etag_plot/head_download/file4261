@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Server: Apache/2.2.12 (Ubuntu)
+X-Pingback: http://www.freshnetworks.com/blog/xmlrpc.php
+Last-Modified: Tue, 08 Oct 2013 09:18:01 GMT
+ETag: "b2fb99ccebba7e3145bfd6763e3bbb81"
+X-Robots-Tag: noindex,follow
+Vary: Accept-Encoding
+Content-Type: text/xml; charset=UTF-8
+Content-Length: 27841
+Date: Sat, 27 Jun 2015 20:26:42 GMT
+X-Varnish: 1489638549 1489638523
+Age: 94
+Via: 1.1 varnish
+Connection: keep-alive
+X-Cache: HIT
+

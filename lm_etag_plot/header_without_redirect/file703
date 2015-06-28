@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Server: Apache/2.2.22 (Ubuntu)
+X-Pingback: http://www.computerhistory.org/atchm/xmlrpc.php
+Last-Modified: Mon, 22 Jun 2015 15:10:40 GMT
+Vary: Accept-Encoding
+Content-Type: text/xml; charset=UTF-8
+Date: Fri, 26 Jun 2015 18:05:34 GMT
+X-Varnish: 2102999394 2102999356
+Age: 28
+Via: 1.1 varnish
+Connection: close
+X-Cache: HIT
+X-Cache-Hits: 3
+Set-Cookie: atchm=atchm2; path=/
+

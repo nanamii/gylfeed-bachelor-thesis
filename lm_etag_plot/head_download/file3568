@@ -1,0 +1,18 @@
+HTTP/1.1 200 OK
+Cache-Control: no-cache
+Content-Type: application/rss+xml; charset=UTF-8
+Server: Apache
+Via: 1.1 varnish
+Content-Length: 33778
+Accept-Ranges: bytes
+Date: Sat, 27 Jun 2015 19:59:03 GMT
+Via: 1.1 varnish
+Age: 0
+Connection: keep-alive
+X-Served-By: cache-iad2135-IAD, cache-fra1222-FRA
+X-Cache: HIT, MISS
+X-Cache-Hits: 2, 0
+Vary: Accept-Encoding
+X-CacheRule: default
+X-TTL: 3600.094
+

@@ -1,0 +1,17 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 20:28:45 GMT
+Content-Type: application/rss+xml; charset=utf-8
+Connection: keep-alive
+Set-Cookie: __cfduid=d0bc8797703850b782218e73661be86891435436925; expires=Sun, 26-Jun-16 20:28:45 GMT; path=/; domain=.manmadediy.com; HttpOnly
+Status: 200 OK
+X-Ua-Compatible: IE=Edge,chrome=1
+Etag: "73b16b6563397979ca8cccdf5cbef122"
+Cache-Control: max-age=0, private, must-revalidate
+Set-Cookie: _manmadediy.com_session=BAh7B0kiD3Nlc3Npb25faWQGOgZFRkkiJWUxODZlMzdiYzBiNWI5OGY1NWY1YzExNzFmMjA0NTZkBjsAVEkiDnJldHVybl90bwY7AEZJIi1odHRwOi8vd3d3Lm1hbm1hZGVkaXkuY29tL3NpdGVfaW5kZXgucnNzBjsARg%3D%3D--2080e6ad069387c6c4be30a17c5df2ed315672cc; path=/; HttpOnly
+X-Request-Id: 1576401d-713d-41b7-8760-8faba977beaa
+X-Runtime: 0.229667
+X-Rack-Cache: miss
+Via: 1.1 vegur
+Server: cloudflare-nginx
+CF-RAY: 1fd3e66e3abd158f-FRA
+

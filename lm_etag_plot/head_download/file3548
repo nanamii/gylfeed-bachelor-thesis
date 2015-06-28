@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Cache-Control: post-check=0, pre-check=0
+Cache-control: no-cache="set-cookie"
+Content-Type: text/xml; charset=utf-8
+Date: Sat, 27 Jun 2015 19:58:45 GMT
+Expires: Sat, 27 Jun 2015 20:55:04 GMT
+Last-Modified: Sat, 27 Jun 2015 19:55:04 GMT
+Pragma: no-cache
+Server: Apache/2.2.15 (CentOS)
+Set-Cookie: AWSELB=972D3992B1760864BBC30074A1C84BC33C57BAF6A9A18B76522B082AEFC19DABA1AB3CB617CFB8BCF120F150531671ADF93A5DC8BA4F1368151A2179F341F04520C8D537;PATH=/;MAX-AGE=300
+Vary: Accept-Encoding
+X-Powered-By: PHP/5.3.3
+Connection: keep-alive
+

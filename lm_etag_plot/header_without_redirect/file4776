@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 19:45:57 GMT
+Content-Type: application/atom+xml
+Connection: keep-alive
+Set-Cookie: __cfduid=d5ff74d84cb3e912b4c7a4e1e9eaae6e31435347957; expires=Sat, 25-Jun-16 19:45:57 GMT; path=/; domain=.typepad.com; HttpOnly
+X-PhApp: oak-tp-web011
+X-Webserver: oak-tp-web011
+Vary: cookie
+Last-Modified: Sun, 08 Dec 2013 21:58:17 GMT
+X-Varnish: 1657353926
+Age: 0
+Via: 1.1 varnish
+Server: cloudflare-nginx
+CF-RAY: 1fcb6a5baddf0f93-FRA
+

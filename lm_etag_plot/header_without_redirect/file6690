@@ -1,0 +1,14 @@
+HTTP/1.1 301 Moved Permanently
+Content-Type: text/html; charset=iso-8859-1
+Location: http://www.newyorker.com/feed/books
+Server: Apache
+Varnish-X-Cache: HIT
+Varnish-X-Cache-Hits: 1288
+X-Cacheable: YES
+X-Varnish: 186202105 185971610
+Content-Length: 243
+Cache-Control: max-age=821
+Expires: Fri, 26 Jun 2015 20:56:49 GMT
+Date: Fri, 26 Jun 2015 20:43:08 GMT
+Connection: keep-alive
+

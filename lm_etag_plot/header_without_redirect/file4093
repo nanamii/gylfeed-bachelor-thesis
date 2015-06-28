@@ -1,0 +1,10 @@
+HTTP/1.1 301 Moved Permanently
+Cache-control: no-cache="set-cookie"
+Content-Type: text/html; charset=iso-8859-1
+Date: Fri, 26 Jun 2015 19:27:10 GMT
+Location: http://playbill.com/rss/news
+Server: Apache/2.2.15 (CentOS)
+Set-Cookie: AWSELB=972D3992B1760864BBC30074A1C84BC33C57BAF6A9A18B76522B082AEFC19DABA1AB3CB617CFB8BCF120F150531671ADF93A5DC80756BB278F1D7786EAA51C16B7CDFE26;PATH=/;MAX-AGE=300
+Vary: Accept-Encoding
+Connection: keep-alive
+

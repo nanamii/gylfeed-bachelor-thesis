@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Set-Cookie: TRACKID=0cece313fd4b07c17e8806ba54c017ad; Path=/; Version=1
+Set-Cookie: TRACKID=81fd3cf76e905c38e3a5b1c8a84e301b; Path=/; Version=1
+X-Powered-By: PHP/5.3.3
+Content-Type: application/xml; charset=ISO-8859-1; filename=feed.xml
+Content-Disposition: inline; filename=feed.xml
+Connection: close
+Date: Fri, 26 Jun 2015 19:29:43 GMT
+Server: lighttpd/1.4.35
+

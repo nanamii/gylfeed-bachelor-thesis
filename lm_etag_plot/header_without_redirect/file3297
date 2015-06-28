@@ -1,0 +1,10 @@
+HTTP/1.1 302 Temporary Redirect
+Date: Fri, 26 Jun 2015 19:18:00 GMT
+Server: Apache
+X-Powered-By: PHP/5.3.29
+X-Pingback: http://www.netbooknews.com/xmlrpc.php
+ETag: "1a499486d5064adbf03119a2d8aae13b"
+Last-Modified: Tue, 28 Aug 2012 21:48:32 GMT
+Location: http://feeds.feedburner.com/netbooknews/nbn
+Content-Type: text/html
+

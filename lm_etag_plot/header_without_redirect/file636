@@ -1,0 +1,8 @@
+HTTP/1.1 301 Moved Permanently
+x-amz-id-2: jToVEkSnNK2KbWwRUb5SdcByMi0YkzeaCQu8CgEM9ij8d7oU51Z1bY38+bLgAK8qILddBsI0a/M=
+x-amz-request-id: 2642BB3008BDC7BC
+Date: Fri, 26 Jun 2015 18:04:53 GMT
+Location: http://feed.ashfurrow.com/feed.rss.xml
+Content-Length: 0
+Server: AmazonS3
+

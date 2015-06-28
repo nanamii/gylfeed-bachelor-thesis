@@ -1,0 +1,14 @@
+HTTP/1.1 302 Found
+Location: http://feeds.feedburner.com/redferret/nDEQ
+Content-Type: text/html
+Date: Fri, 26 Jun 2015 19:32:16 GMT
+Server: LiteSpeed
+Vary: X-Device
+Content-Encoding: gzip
+Cache-Control: max-age=10
+Age: 276
+X-Cache: MISS
+X-FTW-STATUS: KTMO
+X-Powered-By: NYI FTW v2.624
+Content-Length: 25
+

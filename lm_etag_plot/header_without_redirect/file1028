@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 18:16:16 GMT
+Server: Apache
+X-Powered-By: PHP/5.5.26
+X-Pingback: http://blogcastfm.com/xmlrpc.php
+ETag: "99b889a9cd748e8b4eca0eb3758d138d"
+Last-Modified: Thu, 01 Jan 1970 00:00:00 GMT
+Content-Type: text/html
+X-Pad: avoid browser bug
+

@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 21:05:58 GMT
+Server: Apache
+Vary: Cookie,Accept-Encoding
+X-Pingback: http://welchwrite.com/career/xmlrpc.php
+ETag: "673d78d3a0245d3d396eb7b2d98c7337"
+WP-Super-Cache: Served legacy cache file
+Content-Type: text/xml; charset=UTF-8
+

@@ -1,0 +1,17 @@
+HTTP/1.1 200 OK
+Content-Encoding: gzip
+Accept-Ranges: bytes
+Cache-Control: max-age=0
+Content-Type: text/xml; charset=utf-8
+Date: Fri, 26 Jun 2015 19:19:29 GMT
+Edge-Control: max-age=300, s-maxage=300
+Expires: Fri, 26 Jun 2015 19:19:29 GMT
+Last-Modified: Fri, 26 Jun 2015 19:19:10 GMT
+Server: ECS (frf/8790)
+Via: 1.1 varnish
+X-Cache: HIT
+X-Generated: Fri, 26 Jun 2015 19:19:10 GMT
+X-Served-By: app3v-sdc.ao.prd.lax
+X-Varnish: 225595134
+Content-Length: 9119
+

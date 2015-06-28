@@ -1,0 +1,11 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 18:17:23 GMT
+Server: Apache
+Set-Cookie: PHPSESSID=0b6fa43c26207011f6a5c373ac6b0260; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Location: http://feeds.feedburner.com/baldhiker/eBkb
+Vary: User-Agent,Accept-Encoding
+Content-Type: text/html
+

@@ -1,0 +1,12 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx/1.8.0
+Date: Fri, 26 Jun 2015 19:23:46 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+X-Pingback: http://easy-green-living.org/xmlrpc.php
+Expires: Wed, 11 Jan 1984 05:00:00 GMT
+Cache-Control: no-cache, must-revalidate, max-age=0
+Pragma: no-cache
+Set-Cookie: wfvt_3517270809=558da6c237672; expires=Fri, 26-Jun-2015 19:53:46 GMT; path=/; httponly
+Location: http://easy-green-living.org/green-living.xml
+

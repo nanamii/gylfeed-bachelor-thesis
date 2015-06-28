@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 26 Jun 2015 18:13:42 GMT
+Content-Type: application/atom+xml; charset=UTF-8
+Connection: keep-alive
+X-Pingback: http://www.neuroproductions.be/xmlrpc.php
+Last-Modified: Tue, 28 Oct 2014 15:22:26 GMT
+ETag: "4a7610a8c90f084f7ef36c1a42e3d63f"
+X-Powered-By: PleskLin
+

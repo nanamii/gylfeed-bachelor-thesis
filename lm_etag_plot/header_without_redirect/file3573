@@ -1,0 +1,10 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 19:20:42 GMT
+Server: Apache/2.4.12 (Unix) OpenSSL/1.0.1e-fips mod_bwlimited/1.4
+X-Powered-By: PHP/5.4.40
+X-Pingback: http://phototalkplus.com/xmlrpc.php
+Last-Modified: Wed, 22 Apr 2015 10:56:27 GMT
+ETag: "737a1413500ad4164cf17098c956bd26"
+Location: http://phototalkplus.com/feed/
+Content-Type: text/html
+

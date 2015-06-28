@@ -1,0 +1,23 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:18:59 GMT
+Content-Type: text/html; charset=UTF-8
+Vary: Accept-Encoding
+Set-Cookie: PHPSESSID=en8rfnqj5oli66k1a2oplkmiq2; path=/
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Set-Cookie: edd_items_in_cart=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0; path=/
+X-Pingback: http://localu.org/xmlrpc.php
+Last-Modified: Sat, 27 Jun 2015 19:10:01 GMT
+ETag: "b817c4bb2987ed3fb38aa201e9b35676"
+Set-Cookie: incomment_referrer=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0; path=/
+X-Robots-Tag: noindex,follow
+X-FW-Hash: gayvklne2a
+Server: Flywheel/3.1.18
+X-Cacheable: NO:Not Cacheable
+X-Cache: MISS
+X-FW-Static: NO
+X-FW-Serve: TRUE
+X-FW-Type: VISIT
+Content-Length: 0
+Connection: keep-alive
+

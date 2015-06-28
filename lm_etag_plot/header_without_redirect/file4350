@@ -1,0 +1,16 @@
+HTTP/1.1 404 Not Found
+Server: Apache
+X-Powered-By: PHP/5.3.10-1ubuntu3.18
+X-Pingback: http://battellemedia.com/xmlrpc.php
+Expires: Wed, 11 Jan 1984 05:00:00 GMT
+Cache-Control: no-cache, must-revalidate, max-age=0
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Type: text/html; charset=UTF-8
+Accept-Ranges: bytes
+Date: Fri, 26 Jun 2015 19:39:25 GMT
+X-Varnish: 852322282
+Age: 0
+Via: 1.1 varnish
+Connection: keep-alive
+

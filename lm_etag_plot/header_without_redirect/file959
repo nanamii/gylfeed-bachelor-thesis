@@ -1,0 +1,17 @@
+HTTP/1.1 404 Not Found
+Server: nginx/1.7.9
+Date: Fri, 26 Jun 2015 18:15:29 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+Vary: Accept-Encoding
+X-Cache-Enabled: True
+X-Pingback: http://courtneyengle.com/xmlrpc.php
+Link: <http://courtneyengle.com/?webmention=endpoint>; rel="http://webmention.org/", <http://courtneyengle.com/?webmention=endpoint>; rel="webmention"
+Expires: Wed, 11 Jan 1984 05:00:00 GMT
+Cache-Control: no-cache, must-revalidate, max-age=0
+Pragma: no-cache
+Vary: Accept-Encoding
+Set-Cookie: PHPSESSID=su5rstrsmc3s3uc1ubf43n93m4; path=/
+Set-Cookie: wpSGCacheBypass=0; expires=Fri, 26-Jun-2015 17:15:27 GMT; Max-Age=-3600; path=/
+Host-Header: 192fc2e7e50945beb8231a492d6a8024
+

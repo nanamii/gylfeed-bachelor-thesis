@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:25:18 GMT
+Server: Apache
+P3P: CP="NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM"
+Cache-Control: no-cache
+Pragma: no-cache
+Set-Cookie: f2cb29cfe7d88443e1c9332c31b56205=asci10pcco7l3spe3rpb6qd7c5; path=/
+Cache-Control: max-age=600
+Expires: Sat, 27 Jun 2015 19:35:18 GMT
+Vary: Accept-Encoding
+Content-Type: application/rss+xml; charset=utf-8
+

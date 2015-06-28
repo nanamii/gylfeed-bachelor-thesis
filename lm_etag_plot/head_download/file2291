@@ -1,0 +1,17 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:32:43 GMT
+Content-Type: text/xml; charset=UTF-8
+Connection: keep-alive
+Set-Cookie: __cfduid=d20e1e7dab44e5870c688cf0389854afe1435433562; expires=Sun, 26-Jun-16 19:32:42 GMT; path=/; domain=.flathatnews.com; HttpOnly
+Vary: Accept-Encoding,User-Agent
+Set-Cookie: PHPSESSID=409bd0ac4982ba80887ba59b25402b96; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+X-CF-Powered-By: WP 1.3.18
+X-Pingback: http://flathatnews.com/xmlrpc.php
+Last-Modified: Thu, 25 Jun 2015 02:36:45 GMT
+ngpass_ngall: 1
+Server: cloudflare-nginx
+CF-RAY: 1fd39458a0af1a93-DUS
+

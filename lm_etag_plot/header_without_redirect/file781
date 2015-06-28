@@ -1,0 +1,16 @@
+HTTP/1.1 302 Found
+Date: Fri, 26 Jun 2015 18:10:03 GMT
+Content-Type: application/atom+xml
+Connection: keep-alive
+Set-Cookie: __cfduid=df1a3541b461713967ee05894e03b64ed1435342203; expires=Sat, 25-Jun-16 18:10:03 GMT; path=/; domain=.typepad.com; HttpOnly
+X-PhApp: oak-tp-web011
+X-Webserver: oak-tp-web011
+Location: http://feeds.feedburner.com/Swissmiss
+Vary: cookie
+Expires: Fri, 26 Jun 2015 18:17:48 GMT, Fri, 26 Jun 2015 18:17:48 GMT
+X-Varnish: 1655019555 1654846255
+Age: 435
+Via: 1.1 varnish
+Server: cloudflare-nginx
+CF-RAY: 1fcadde3d45d0f45-FRA
+

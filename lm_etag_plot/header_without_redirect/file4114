@@ -1,0 +1,9 @@
+HTTP/1.1 301 Moved Permanently
+Server: Apache/2.2.3 (Red Hat)
+Location: http://www.seattlepi.com/ae/collectionRss/A-E-Heds-9147.php
+Content-Type: text/html; charset=iso-8859-1
+Cache-Control: max-age=300
+Expires: Fri, 26 Jun 2015 19:32:24 GMT
+Date: Fri, 26 Jun 2015 19:27:24 GMT
+Connection: keep-alive
+

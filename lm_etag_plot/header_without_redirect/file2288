@@ -1,0 +1,8 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 18:58:27 GMT
+Connection: keep-alive
+Set-Cookie: __cfduid=de816525844779b7531766ebe328d30681435345107; expires=Sat, 25-Jun-16 18:58:27 GMT; path=/; domain=.geo.tv; HttpOnly
+Location: http://www.geo.tv/data/rss/geo_Health.xml
+Server: cloudflare-nginx
+CF-RAY: 1fcb24cb4c8b088d-FRA
+

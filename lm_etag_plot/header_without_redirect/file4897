@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 19:47:03 GMT
+Server: Apache
+Vary: Cookie,Accept-Encoding
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+X-Pingback: http://www.myromanapartment.com/xmlrpc.php
+ETag: "bff5944dc12ee640d28347f9e963ce1b"
+X-UA-Compatible: IE=edge,chrome=1
+Set-Cookie: bb2_screener_=1435348023+92.194.59.39; path=/
+Set-Cookie: PHPSESSID=1c8u28qua9ffk0u99ft23262r7; path=/
+Last-Modified: Fri, 16 Jan 2015 06:29:42 GMT
+Content-Type: application/rss+xml; charset="UTF-8"
+

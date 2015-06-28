@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Cache-Control: public, max-age=300, s-maxage=300
+Content-Length: 0
+Content-Type: text/xml;charset=UTF-8
+Expires: Fri, 26 Jun 2015 19:05:27 GMT
+Server: Microsoft-IIS/7.5
+Set-Cookie: ARRAffinity=450f2c90c5749e5ead79f5f3389d0369674c71e046ba20f5151e80e68da4c908;Path=/;Domain=www.stripes.com
+X-Powered-By: ARR/2.5
+X-Powered-By: ASP.NET
+Date: Fri, 26 Jun 2015 19:00:27 GMT
+

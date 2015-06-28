@@ -1,0 +1,7 @@
+HTTP/1.1 302 Found
+Date: Fri, 26 Jun 2015 18:05:28 GMT
+Server: Apache
+Set-Cookie: com.xk72.webparts.csrf=HP6XUr7RjLJ3INUp; Path=/
+Location: http://feeds.feedburner.com/artofthetitle_rss
+Content-Language: en-US
+

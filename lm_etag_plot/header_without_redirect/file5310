@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 26 Jun 2015 20:14:44 GMT
+Content-Type: application/rss+xml;charset=UTF-8
+Content-Length: 80019
+Connection: keep-alive
+Cache-Control: max-age=5400, must-revalidate
+Pragma: no-cache
+Last-Modified: Fri, 26 Jun 2015 20:14:42 GMT
+P3P: CP="CAO DSP COR CURa ADMa DEVa PSAa PSDa IVAi IVDi CONi OUR OTRi IND PHY ONL UNI FIN COM NAV INT DEM STA"
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Set-Cookie: userId=9df8e159-f299-4c7d-97d0-a952c3fa5288;Path=/;Domain=.scoop.it;Expires=Mon, 23-Jun-2025 20:14:42 GMT
+

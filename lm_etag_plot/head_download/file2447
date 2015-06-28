@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sat, 27 Jun 2015 19:34:39 GMT
+Content-Type: text/xml; charset=UTF-8
+Connection: keep-alive
+Set-Cookie: bb2_screener_=1435433679+192.168.10.114+92.194.59.39; path=/idblog/
+X-Pingback: http://blogs.law.harvard.edu/idblog/xmlrpc.php
+Last-Modified: Tue, 10 Apr 2012 15:21:35 GMT
+ETag: "ab53b21d53b208a45923516de7a729f6"
+

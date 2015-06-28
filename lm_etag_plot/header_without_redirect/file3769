@@ -1,0 +1,13 @@
+HTTP/1.1 301 Moved Permanently
+Content-Length: 178
+Content-Type: text/html
+Location: http://magazine.good.is/rss/category/environment
+Server: nginx
+X-XSS-Protection: 1; mode=block
+Expires: Fri, 26 Jun 2015 19:23:08 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Fri, 26 Jun 2015 19:23:08 GMT
+Connection: keep-alive
+Set-Cookie: u=CiXDklWNpps5lQIqCEgtAg==; expires=Thu, 31-Dec-37 23:55:55 GMT; domain=good.is; path=/
+

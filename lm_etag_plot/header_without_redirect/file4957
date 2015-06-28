@@ -1,0 +1,10 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 19:47:38 GMT
+Server: Apache
+X-Pingback: http://www.studiogblog.com/xmlrpc.php
+ETag: "4e2ced4c9be3d9ef7be0ddad147280c3"
+Vary: Accept-Encoding
+Last-Modified: Thu, 18 Dec 2014 12:56:23 GMT
+Location: http://greayer.com/studiog/feed/
+Content-Type: text/html
+

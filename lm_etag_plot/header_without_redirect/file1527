@@ -1,0 +1,23 @@
+HTTP/1.1 404 Not Found
+Date: Fri, 26 Jun 2015 18:42:31 GMT
+Server: Apache/2.2.15 (CentOS)
+X-Powered-By: PHP/5.3.3
+Set-Cookie: bb2_screener_=1435344151+92.194.59.39+92.194.59.39; path=/
+X-Drupal-Cache: MISS
+Last-Modified: Fri, 26 Jun 2015 18:42:31 +0000
+Cache-Control: public, max-age=0
+ETag: "1435344151-0"
+Expires: Sun, 11 Mar 1984 12:00:00 GMT
+Vary: Cookie,Accept-Encoding
+X-PF-Uncompressing: 1
+Connection: close
+Content-Type: text/html; charset=utf-8
+Set-Cookie: visid_incap_436373=Eapf7K9/RQ+6vVMgqo4vexWdjVUAAAAAQUIPAAAAAACXc5EdQfFx1Tub5GYBHNJ5; expires=Sun, 25 Jun 2017 06:19:32 GMT; path=/; Domain=.forrester.com
+Set-Cookie: incap_ses_260_436373=UfmqdZrmjUltAj38YrWbAxadjVUAAAAAK+IYQgq2Kkq81EPanRpNQA==; path=/; Domain=.forrester.com
+Set-Cookie: ___utmvmIYuyFPl=INOZqWZeJYq; path=/; Max-Age=900
+Set-Cookie: ___utmvaIYuyFPl=ZrDsQpW; path=/; Max-Age=900
+Set-Cookie: ___utmvbIYuyFPl=WZg
+    XstOxalY: btR; path=/; Max-Age=900
+X-Iinfo: 10-190126860-190126861 NNNY CT(92 -1 0) RT(1435344149994 2) q(0 0 1 0) r(4 4) U5
+X-CDN: Incapsula
+

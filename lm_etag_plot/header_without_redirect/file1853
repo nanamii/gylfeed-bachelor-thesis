@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 18:52:05 GMT
+Server: Apache
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+X-Pingback: http://ideasandthoughts.org/xmlrpc.php
+ETag: "c6e56e4c819b3d5e738013f741aae7e4"
+Set-Cookie: PHPSESSID=lb9l6n7s5dpvckmgmqqs6ejfg7; path=/
+Last-Modified: Thu, 25 Jun 2015 04:25:14 GMT
+Vary: Accept-Encoding
+Connection: close
+Content-Type: text/html
+

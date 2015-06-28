@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sat, 27 Jun 2015 20:29:15 GMT
+Content-Type: text/xml; charset=UTF-8
+Connection: keep-alive
+Vary: Accept-Encoding
+X-hacker: If you're reading this, you should visit automattic.com/jobs and apply to join the fun, mention this header.
+X-Pingback: https://matronofhusbandry.wordpress.com/xmlrpc.php
+Last-Modified: Tue, 23 Jun 2015 20:31:11 GMT
+X-nc: HIT sat 132
+X-ac: 1.fra _sat
+

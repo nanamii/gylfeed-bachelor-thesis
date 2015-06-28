@@ -1,0 +1,7 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 19:20:47 GMT
+X-ServedBy: ny1-prod6-web025
+Location: /home?format=rss
+X-ContextId: 2dD74Yiy/qVrgHNCb
+X-Via: 1.1 ny1-prod-echo002
+

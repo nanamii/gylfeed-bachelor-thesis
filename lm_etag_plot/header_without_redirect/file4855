@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Server: nginx/1.8.0
+Date: Fri, 26 Jun 2015 19:46:38 GMT
+Content-Type: text/html
+Connection: keep-alive
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+X-Pingback: http://goodstuffathome.com/xmlrpc.php
+ETag: "bbb65025f0695b7cb5aa635007a687f6"
+Set-Cookie: PHPSESSID=077d9044efd2ab3911aef52ce21ad20c; path=/
+Last-Modified: Thu, 25 Jun 2015 11:19:16 GMT
+

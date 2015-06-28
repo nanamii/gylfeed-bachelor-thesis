@@ -1,0 +1,13 @@
+HTTP/1.1 301 Moved Permanently
+Server: Varnish
+Retry-After: 0
+Location: https://www.aclu.org/news/all/feed
+Content-Length: 0
+Accept-Ranges: bytes
+Date: Fri, 26 Jun 2015 19:01:13 GMT
+Via: 1.1 varnish
+Connection: close
+X-Served-By: cache-ams4125-AMS
+X-Cache: HIT
+X-Cache-Hits: 0
+

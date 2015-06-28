@@ -1,0 +1,7 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 19:23:31 GMT
+Server: Apache/2.2.22 (EL)
+X-Powered-By: PHP/5.2.17
+Connection: close
+Content-Type: application/xml; charset=utf-8
+

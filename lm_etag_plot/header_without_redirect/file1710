@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 18:48:23 GMT
+Server: Apache
+Vary: Cookie,Accept-Encoding
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+X-Pingback: http://www.reformingprojectmanagement.com/xmlrpc.php
+ETag: "dac5ca2162fdded13d1e226280c2dd65"
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+WP-Super-Cache: WP-Cache
+Content-Type: text/xml; charset=UTF-8
+

@@ -1,0 +1,11 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 18:51:55 GMT
+Server: Apache
+X-Pingback: http://secondaryworlds.com/xmlrpc.php
+ETag: "80abc9be29f4ce03cea673699adb6d05"
+Last-Modified: Fri, 19 Jun 2015 20:02:49 GMT
+Location: http://secondaryworlds.com/feed/
+Vary: Accept-Encoding
+Connection: close
+Content-Type: text/html
+

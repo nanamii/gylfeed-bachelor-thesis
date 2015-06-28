@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Server: AkamaiGHost
+Mime-Version: 1.0
+Content-Type: text/html
+Content-Length: 296
+Expires: Fri, 26 Jun 2015 19:00:58 GMT
+Date: Fri, 26 Jun 2015 19:00:58 GMT
+Connection: keep-alive
+Vary: User-Agent
+

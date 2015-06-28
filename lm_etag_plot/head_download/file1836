@@ -1,0 +1,19 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:23:27 GMT
+Content-Type: text/html; charset=utf-8
+Connection: keep-alive
+Set-Cookie: __cfduid=d2493ca56fe3f8696e61e260f67605dc71435433007; expires=Sun, 26-Jun-16 19:23:27 GMT; path=/; domain=.egyptindependent.com; HttpOnly
+X-Powered-By: PHP/5.3.3
+Cache-Control: public, max-age=300
+Last-Modified: Sat, 27 Jun 2015 19:22:54 +0000
+Expires: Sun, 11 Mar 1984 12:00:00 GMT
+ETag: "1435432974"
+Accept-Ranges: bytes
+X-Varnish: 1914014987 1914014870
+Age: 32
+Via: 1.1 varnish
+X-Varnish-Cache: HIT
+X-Cache-Hits: 9
+Server: cloudflare-nginx
+CF-RAY: 1fd386c6f152233c-FRA
+

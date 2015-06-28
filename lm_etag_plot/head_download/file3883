@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 20:19:03 GMT
+Server: Apache/2.2.29
+Vary: Cookie
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Set-Cookie: bb2_screener_=1435436343+92.194.59.39; path=/blog/
+Set-Cookie: PHPSESSID=cb0ecf5570ecb9a02e8f28560a2f0487; path=/
+Content-Type: text/html; charset="UTF-8"
+

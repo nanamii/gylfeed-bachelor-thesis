@@ -1,0 +1,16 @@
+HTTP/1.1 302 Found
+Date: Fri, 26 Jun 2015 19:46:39 GMT
+Content-Type: application/atom+xml
+Connection: keep-alive
+Set-Cookie: __cfduid=d0922559d3701294071c3fde0df1e195c1435347999; expires=Sat, 25-Jun-16 19:46:39 GMT; path=/; domain=.typepad.com; HttpOnly
+X-PhApp: oak-tp-web040
+X-Webserver: oak-tp-web040
+Location: http://feeds.feedburner.com/typepad/YEri
+Vary: cookie
+Expires: Fri, 26 Jun 2015 20:01:39 GMT
+X-Varnish: 1657371795
+Age: 0
+Via: 1.1 varnish
+Server: cloudflare-nginx
+CF-RAY: 1fcb6b63e66a159b-FRA
+

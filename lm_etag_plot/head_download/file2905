@@ -1,0 +1,21 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sat, 27 Jun 2015 19:48:39 GMT
+Content-Type: application/xml; charset=utf-8
+Content-Length: 40585
+Connection: keep-alive
+Status: 200 OK
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-UA-Compatible: chrome=1
+Cache-Control: max-age=0,must-revalidate
+ETag: "78b10d3fc72ab0f61fe046e7f7e743de"
+X-Request-Id: d2fd590a-cde9-4f66-b004-4c8d71bcbe14
+X-Runtime: 0.049176
+P3P: CP="CAO DSP COR CURa ADMa DEVa PSAa PSDa CONi OUR IND PHY ONL UNI COM NAV INT CNT STA"
+X-Varnish: 820395258 882066501
+Age: 307
+Via: 1.1 varnish-v4
+Accept-Ranges: bytes
+

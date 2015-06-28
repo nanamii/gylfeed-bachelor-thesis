@@ -1,0 +1,6 @@
+HTTP/1.1 200 OK
+Server: nginx/1.6.2
+Date: Sat, 27 Jun 2015 19:32:14 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: close
+

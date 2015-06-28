@@ -1,0 +1,12 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 19:09:33 GMT
+Server: www.lexisnexis.com  1180
+X-Powered-By: ASP.NET
+X-AspNet-Version: 2.0.50727
+CommunityServer: 4.1.31031.3054
+Location: http://www.lexisnexis.com/community/bankruptcylaw/rss.aspx?id=321
+Cache-Control: private
+Content-Length: 0
+X-RE-Ref: 1 2062692156
+P3P: CP="IDC DSP LAW ADM DEV TAI PSA PSD IVA IVD CON HIS TEL OUR DEL SAM OTR IND OTC"
+

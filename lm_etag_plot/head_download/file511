@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sat, 27 Jun 2015 18:41:19 GMT
+Content-Type: text/html
+Connection: keep-alive
+Vary: Cookie
+X-Pingback: http://agbeat.com/xmlrpc.php
+Last-Modified: Fri, 26 Jun 2015 18:03:36 GMT
+ETag: "68492f730068f9c6f60d331792bc0b94"
+X-Robots-Tag: noindex,follow
+Access-Control-Allow-Origin: *
+P-WS: hyperion-web-01
+Server: PressableWS
+P-LB: hyperion-lb-01.rax.iad.pressable.net
+

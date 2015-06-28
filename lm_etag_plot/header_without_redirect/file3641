@@ -1,0 +1,9 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 19:21:37 GMT
+Server: Apache
+Location: http://www.amnh.org/our-research/hayden-planetarium/blog/feed
+Cache-Control: max-age=1800
+Expires: Fri, 26 Jun 2015 19:51:37 GMT
+Vary: Accept-Encoding
+Content-Type: text/html; charset=iso-8859-1
+

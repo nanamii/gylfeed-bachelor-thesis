@@ -1,0 +1,15 @@
+HTTP/1.1 301 Moved Permanently
+Server: Apache
+Content-Location: rss-feed.php
+Vary: negotiate,Accept-Encoding,User-Agent
+TCN: choice
+Status: 301 Moved Permanently
+location: http://creativity-online.com/xml/rss-parent_sections.php?section_id=13
+Content-Type: text/html; charset=UTF-8
+Accept-Ranges: bytes
+Date: Fri, 26 Jun 2015 19:39:12 GMT
+X-Varnish: 1886002137
+Age: 0
+Via: 1.1 varnish
+Connection: keep-alive
+

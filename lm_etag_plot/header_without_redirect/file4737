@@ -1,0 +1,10 @@
+HTTP/1.1 301 Moved Permanently
+Content-Type: text/html; charset=UTF-8
+Location: http://www.monikakotus.com/feeds/posts/default
+Date: Fri, 26 Jun 2015 19:45:38 GMT
+Server: Blogger Render Server 1.0
+Content-Length: 228
+X-XSS-Protection: 1; mode=block
+X-Frame-Options: SAMEORIGIN
+Alternate-Protocol: 80:quic,p=0
+

@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 19:19:45 GMT
+Server: Apache
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+X-Pingback: http://crossfitvb.com/xmlrpc.php
+ETag: "f35b9433739a700f9c7b54de7893d283"
+Set-Cookie: PHPSESSID=caf12ijfjt82b20po5njkej917; path=/
+Last-Modified: Fri, 26 Jun 2015 10:59:20 GMT
+Vary: Accept-Encoding
+Content-Type: text/html
+

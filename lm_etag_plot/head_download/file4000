@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Content-Type: application/xml; charset=UTF-8
+Content-Length: 10331
+Date: Sat, 27 Jun 2015 20:22:22 GMT
+Expires: Sat, 27 Jun 2015 20:22:22 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Server: GSE
+Alternate-Protocol: 80:quic,p=0
+

@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 18:38:01 GMT
+Server: Apache/2.2.27 (Amazon)
+X-Powered-By: PHP/5.3.28
+Set-Cookie: PHPSESSID=2s1lkfumb46fv8cutqhin92215; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+X-Pingback: http://www.bigspaceship.com/bsscom2013/xmlrpc.php
+Last-Modified: Thu, 25 Jun 2015 15:16:26 GMT
+X-Robots-Tag: noindex,follow
+Vary: Accept-Encoding,User-Agent
+Connection: close
+Content-Type: text/html; charset=UTF-8
+

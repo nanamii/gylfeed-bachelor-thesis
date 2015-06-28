@@ -1,0 +1,16 @@
+HTTP/1.1 302 Moved Temporarily
+Content-Length: 188
+Content-Type: text/html; charset=utf-8
+Location: http://webfeeds.brookings.edu/BrookingsRSS/topfeeds/LatestFromBrookings
+Server: Microsoft-IIS/7.5
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Expires: Fri, 26 Jun 2015 19:00:12 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Fri, 26 Jun 2015 19:00:12 GMT
+Connection: keep-alive
+Set-Cookie: website#lang=en; path=/
+Set-Cookie: ASP.NET_SessionId=delib3wbp02yb24g0akvtmk0; path=/; HttpOnly
+Set-Cookie: SC_ANALYTICS_GLOBAL_COOKIE=0950019e88b14b42961d9a431a70317f|False; expires=Thu, 26-Jun-2025 19:00:12 GMT; path=/; HttpOnly
+

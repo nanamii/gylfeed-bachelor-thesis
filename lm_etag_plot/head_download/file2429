@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:34:31 GMT
+Server: Apache
+Vary: Cookie,Accept-Encoding
+X-Pingback: http://www.futuristspeaker.com/xmlrpc.php
+ETag: "a76affe12138dedfa44098e8af5b6874"
+WP-Super-Cache: Served legacy cache file
+X-Powered-By: PleskLin
+Connection: close
+Content-Type: text/xml; charset=UTF-8
+

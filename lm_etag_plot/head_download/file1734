@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:22:12 GMT
+Server: Apache/2.2.3 (CentOS) mod_ssl/2.2.3 OpenSSL/0.9.8e-fips-rhel5 PHP/5.3.24
+Set-Cookie: isMobile=false_1.2; path=/; domain=.bu.edu
+Set-Cookie: wantsMobile=false_1.2_default; path=/; domain=.bu.edu
+X-Powered-By: PHP/5.3.24
+Vary: Cookie
+X-Pingback: http://www.bu.edu/cte/xmlrpc.php
+Last-Modified: Wed, 24 Jun 2015 02:29:55 GMT
+ETag: "847c3122667df9b7071c4f54267449e1"
+Content-Type: text/html; charset=UTF-8
+Via: 1.1 www.bu.edu
+X-BU-Main-Uniqueid: VY735ArxHDYAABf9bJ4AAAAX
+X-BU-Duration: D=221000
+X-BU-Backend: niscms http://ist-wp-app-prod02.bu.edu
+

@@ -1,0 +1,30 @@
+HTTP/1.1 200 OK
+Server: Apache
+X-Origin: web1
+X-Powered-By: PHP/5.3.28
+X-Drupal-Cache: MISS
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Cache-Control: public, max-age=1800
+Content-Language: en
+Etag: "1435433648-0"
+Last-Modified: Sat, 27 Jun 2015 19:34:08 GMT
+Content-Type: application/rss+xml; charset=utf-8
+X-UA-Device: pc-player
+Content-Length: 8046
+Accept-Ranges: bytes
+Date: Sat, 27 Jun 2015 19:51:42 GMT
+X-Varnish: 1028089048 1028058682
+Age: 1053
+Via: 1.1 varnish
+X-Varnish-Cache: HIT
+Vary: Cookie, User-Agent
+X-GeoIP: DE
+Set-Cookie: visid_incap_229197=83p8D69KR2SsZ1gv/5ut1tH+jlUAAAAAQUIPAAAAAADyLqwEDeDQbQzRuu49bTSi; expires=Mon, 26 Jun 2017 06:19:34 GMT; path=/; Domain=.ibtimes.com
+Set-Cookie: incap_ses_260_229197=OaZgRz2xKBVyPF/9YrWbA9H+jlUAAAAAcR5Coh+cL/9lQDNWfzvP0w==; path=/; Domain=.ibtimes.com
+Set-Cookie: ___utmvmIYuEtMO=niKxPYFMdnj; path=/; Max-Age=900
+Set-Cookie: ___utmvaIYuEtMO=cFQSfQd; path=/; Max-Age=900
+Set-Cookie: ___utmvbIYuEtMO=OZu
+    XdlONalF: ltV; path=/; Max-Age=900
+X-Iinfo: 2-10800976-10800977 SNNY RT(1435434705090 194) q(0 0 0 -1) r(1 1) U5
+X-CDN: Incapsula
+

@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Server: Apache/2.2.3 (CentOS)
+X-Drupal-Cache: MISS
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Last-Modified: Sat, 27 Jun 2015 11:33:34 GMT
+Cache-Control: public, max-age=81400
+ETag: "1435404814-1"
+Content-Language: en
+Vary: Cookie,Accept-Encoding
+Content-Type: application/rss+xml; charset=utf-8
+Date: Sat, 27 Jun 2015 21:46:58 GMT
+X-Varnish: 603482049 603315210
+Age: 36802
+Via: 1.1 varnish
+Connection: keep-alive
+

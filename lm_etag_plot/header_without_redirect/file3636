@@ -1,0 +1,12 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 19:21:32 GMT
+Server: PWS/8.1.20.17
+X-Px: rf-ms h0-s1178.p11-fra ( h0-s1211.p11-fra), ht h0-s1211.p11-fra.cdngp.net
+Cache-Control: max-age=300
+Expires: Fri, 26 Jun 2015 19:23:00 GMT
+Age: 212
+Content-Length: 242
+Content-Type: text/html; charset=iso-8859-1
+Location: http://www.esa.int/rssfeed/TopNews
+Connection: keep-alive
+

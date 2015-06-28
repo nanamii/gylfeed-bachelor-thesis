@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:05:41 GMT
+Server: Apache
+Vary: Cookie
+X-Pingback: http://www.jeffbullas.com/xmlrpc.php
+ETag: "190c4eca78bec332b3cc36fda3200d67"
+WP-Super-Cache: Served legacy cache file
+Content-Type: text/xml; charset=UTF-8
+X-Pad: avoid browser bug
+

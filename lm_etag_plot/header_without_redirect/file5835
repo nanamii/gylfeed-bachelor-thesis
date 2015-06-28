@@ -1,0 +1,15 @@
+HTTP/1.1 302 Temporary Redirect
+Date: Fri, 26 Jun 2015 20:24:26 GMT
+Server: Apache/2.2.22
+X-Powered-By: PHP/5.3.29
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+X-Pingback: http://www.lastpodcast.net/xmlrpc.php
+ETag: "03d829688fef06d9f9c9e30ad8a2acb4"
+Set-Cookie: PHPSESSID=734de20ba95bf1ed67e24f76cfd43acd; path=/
+Last-Modified: Thu, 30 Jun 2011 15:16:11 GMT
+Location: http://feeds.feedburner.com/lastpodcastblog
+Vary: User-Agent,Accept-Encoding
+Content-Type: text/html
+

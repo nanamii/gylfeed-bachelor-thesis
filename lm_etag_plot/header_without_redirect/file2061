@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 18:55:57 GMT
+Server: Apache
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+X-Pingback: http://www.localseoguide.com/xmlrpc.php
+ETag: "042d38f91be8377e99ffbd9cd08eb56b"
+X-Robots-Tag: noindex,follow
+Set-Cookie: PHPSESSID=r6eZ%2CQZReWrWjD6cMFAiV3; path=/
+Last-Modified: Wed, 17 Jun 2015 02:21:44 GMT
+Vary: Accept-Encoding
+Content-Type: text/html
+

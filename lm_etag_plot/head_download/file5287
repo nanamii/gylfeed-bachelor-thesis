@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Server: nginx/1.6.1
+Date: Sat, 27 Jun 2015 21:18:17 GMT
+Content-Type: text/html
+Connection: keep-alive
+X-Powered-By: PHP/5.5.17
+X-Pingback: http://www.bitsandbuzz.com/xmlrpc.php
+Last-Modified: Sun, 28 Sep 2014 21:46:00 GMT
+ETag: "98d0e91f2e0cb671c82759ae772b5bfe"
+

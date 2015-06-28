@@ -1,0 +1,19 @@
+HTTP/1.1 302 Found
+Date: Fri, 26 Jun 2015 19:14:23 GMT
+Content-Type: text/html
+Connection: keep-alive
+Set-Cookie: __cfduid=d676399ff7b783a683f7d3f0b59bffb7a1435346063; expires=Sat, 25-Jun-16 19:14:23 GMT; path=/; domain=.loadoutroom.com; HttpOnly
+X-CF-Powered-By: WP 1.3.18
+X-Pingback: http://loadoutroom.com/xmlrpc.php
+Last-Modified: Fri, 26 Jun 2015 11:00:19 GMT
+ETag: "ae3ba315e1768bc289dc5df7935dcf2b"
+Location: http://feeds.feedburner.com/TheLoadoutRoom
+X-Cacheable: CacheAlways: feed
+Cache-Control: max-age=86400, must-revalidate
+X-Cache: MISS
+X-Pass-Why: 
+X-Cache-Group: 
+X-Type: feed
+Server: cloudflare-nginx
+CF-RAY: 1fcb3c1e99e915d1-FRA
+

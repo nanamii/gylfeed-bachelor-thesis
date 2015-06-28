@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Content-Type: text/html
+Expires: Wed, 11 Jan 1984 05:00:00 GMT
+Cache-Control: no-cache, must-revalidate, max-age=0
+Pragma: no-cache
+X-Pingback: http://www.totalprosports.com/xmlrpc.php
+Last-Modified: Fri, 26 Jun 2015 17:48:51 GMT
+X-Robots-Tag: noindex,follow
+Accept-Ranges: bytes
+Date: Sat, 27 Jun 2015 19:49:15 GMT
+Age: 0
+Connection: keep-alive
+x-Cache: uncached
+

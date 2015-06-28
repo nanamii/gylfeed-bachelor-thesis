@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sat, 27 Jun 2015 18:31:36 GMT
+Content-Type: text/xml; charset=UTF-8
+Connection: keep-alive
+Vary: Accept-Encoding
+Last-Modified: Fri, 26 Jun 2015 20:54:33 GMT
+X-Cache-Status: BYPASS
+X-Upstream-Time: 1435429896.324
+

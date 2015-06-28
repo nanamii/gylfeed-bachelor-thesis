@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:42:48 GMT
+Server: Apache/2.2.14 (Trisquel GNU/Linux)
+X-Powered-By: PHP/5.3.2-1ubuntu4.27
+X-Content-Type-Options: nosniff
+Vary: Accept-Encoding,Cookie
+Cache-Control: s-maxage=10, must-revalidate, max-age=0
+Last-Modified: Fri, 26 Jun 2015 18:34:10 GMT
+Content-Type: application/xml; charset=UTF-8
+

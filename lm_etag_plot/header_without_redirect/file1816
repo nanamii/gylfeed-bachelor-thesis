@@ -1,0 +1,20 @@
+HTTP/1.1 302 Temporary Redirect
+Date: Fri, 26 Jun 2015 18:51:41 GMT
+Content-Type: text/html
+Connection: keep-alive
+Set-Cookie: __cfduid=d1568d6534b8c1ceb15de6a0536c2c4be1435344701; expires=Sat, 25-Jun-16 18:51:41 GMT; path=/; domain=.edublogs.org; HttpOnly
+Vary: Cookie
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+X-Pingback: http://teacherrebootcamp.com/xmlrpc.php
+Last-Modified: Fri, 26 Jun 2015 13:37:17 GMT
+ETag: "01bafdb79811d85693e7fe8218c0df0f"
+Location: http://feeds.feedburner.com/TeacherBootCamp
+X-Varnish: 1776078163
+Age: 0
+Via: 1.1 varnish
+Set-Cookie: xid=Qocx4lWNnz1uNhAQGxrlAg==; expires=Sun, 26-Jul-15 18:51:41 GMT; path=/
+Server: cloudflare-nginx
+CF-RAY: 1fcb1ade527b2366-FRA
+

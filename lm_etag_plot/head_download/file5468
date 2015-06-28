@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Cache-Control: private, no-cache="Set-Cookie"
+Content-Length: 13987
+Content-Type: application/rss+xml; charset=utf-8
+p3p: CP="IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT"
+Set-Cookie: Region=DE; domain=.roadracingworld.com; expires=Mon, 27-Jul-2015 21:22:45 GMT; path=/; HttpOnly
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept
+Date: Sat, 27 Jun 2015 21:22:45 GMT
+Connection: close
+

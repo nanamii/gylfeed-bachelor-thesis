@@ -1,0 +1,8 @@
+HTTP/1.1 302 Found
+Date: Fri, 26 Jun 2015 18:55:47 GMT
+Server: Apache
+X-Powered-By: PHP/5.2.17
+X-Pingback: http://erinhalasz.com/xmlrpc.php
+Location: http://erinhalasz.com?password-protected=login&redirect_to=http%3A%2F%2Fwww.erinhalasz.com%2Ffeed%2F
+Content-Type: text/html; charset=UTF-8
+

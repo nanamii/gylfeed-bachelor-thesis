@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 18:47:34 GMT
+Server: Apache/2.4.12 (Unix) OpenSSL/0.9.8e-fips-rhel5 mod_bwlimited/1.4 mod_fcgid/2.3.9
+X-Powered-By: PHP/5.3.29
+X-Pingback: http://www.jackhumphrey.com/xmlrpc.php
+X-Robots-Tag: noindex,follow
+Last-Modified: Sat, 01 Nov 2014 19:14:38 GMT
+ETag: "14d09db3da63d2d22c15e67cb13bf373"
+Vary: User-Agent
+Content-Type: text/html
+

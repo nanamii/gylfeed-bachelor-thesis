@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Cache-Control: public, max-age=180
+Content-Length: 82683
+Content-Type: text/xml; charset=utf-8
+Expires: Fri, 26 Jun 2015 19:01:45 GMT
+Last-Modified: Fri, 26 Jun 2015 18:56:45 GMT
+Vary: *
+Server: Microsoft-IIS/7.5
+X-AspNetMvc-Version: 4.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Fri, 26 Jun 2015 18:58:44 GMT
+Set-Cookie: loadmaster=658227804.1.2933030168.258217248; path=/
+

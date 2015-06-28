@@ -1,0 +1,12 @@
+HTTP/1.1 307 Temporary Redirect
+Server: nginx
+Date: Fri, 26 Jun 2015 19:47:18 GMT
+Content-Type: application/rss+xml; charset="UTF-8"
+Connection: keep-alive
+Vary: Cookie
+X-Pingback: http://erincooks.com/xmlrpc.php
+ETag: "190a695754b043aa0c17fda8a3079f55"
+X-UA-Compatible: IE=edge,chrome=1
+Last-Modified: Mon, 05 May 2014 21:18:29 GMT
+Location: http://feeds.feedburner.com/ErinCooks
+

@@ -1,0 +1,8 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx/1.2.7
+Content-Type: text/html; charset=utf-8
+Location: http://usatoday30.usatoday.com/repurposing/NewslineRss.xml
+Content-Length: 0
+Date: Fri, 26 Jun 2015 19:06:45 GMT
+Connection: keep-alive
+

@@ -1,0 +1,10 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Fri, 26 Jun 2015 19:18:51 GMT
+Content-Type: text/html; charset=utf-8
+Connection: keep-alive
+X-hacker: If you're reading this, you should visit automattic.com/jobs and apply to join the fun, mention this header.
+Location: http://gigaom.com/collaboration/feed/
+X-nc: HIT sat 93
+X-ac: 1.fra _sat
+

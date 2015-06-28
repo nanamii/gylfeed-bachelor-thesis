@@ -1,0 +1,9 @@
+HTTP/1.1 301 Moved Permanently
+Location: http://blog.friendfeed.com/
+Vary: Accept-Encoding
+Content-Type: text/html
+X-FB-Debug: qAV5+jUWgArPqNmLmIj1ETe3AZdPSA9JrJcXEcLuOWTNyauy/1csNazxCMXN7rQvn3VCgMrBIvNuSFjBXHJ59w==
+Date: Fri, 26 Jun 2015 19:15:25 GMT
+Connection: keep-alive
+Content-Length: 5
+

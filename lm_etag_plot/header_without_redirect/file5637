@@ -1,0 +1,9 @@
+HTTP/1.1 301 Moved Permanently
+content-length: 0
+date: Fri, 26 Jun 2015 20:18:02 GMT
+location: https://engineering.twitter.com/feeds/posts/default
+server: tsa_f
+set-cookie: guest_id=v1%3A143534988237214730; Domain=.twitter.com; Path=/; Expires=Sun, 25-Jun-2017 20:18:02 UTC
+x-connection-hash: 4cd883a5cef6049f5e678f2b9d82c377
+x-response-time: 105
+

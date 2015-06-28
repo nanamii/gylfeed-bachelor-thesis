@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+X-Powered-By: PHP/5.2.4-2ubuntu5.18
+Vary: Cookie
+Content-Type: text/xml; charset=UTF-8
+X-Pingback: http://www.andrewlih.com/blog/xmlrpc.php
+ETag: "3feaba35f3673b47e34723acd7cdfb4c"
+WP-Super-Cache: Served legacy cache file
+Date: Sat, 27 Jun 2015 20:12:16 GMT
+Server: lighttpd/1.4.19
+

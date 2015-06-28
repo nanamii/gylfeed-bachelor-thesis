@@ -1,0 +1,9 @@
+HTTP/1.1 302 FOUND
+Server: nginx/0.7.65
+Date: Fri, 26 Jun 2015 19:25:25 GMT
+Content-Type: text/html; charset=utf-8
+Connection: keep-alive
+Vary: Accept-Language
+Location: http://arttube.boijmans.nl/nl/feeds/latest_videos/?lang=nl
+Content-Language: nl
+

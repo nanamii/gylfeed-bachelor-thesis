@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 18:36:39 GMT
+Content-Type: text/html
+Connection: keep-alive
+Set-Cookie: __cfduid=d2a20a43b8e31c6601fae532d1e4cdeec1435430199; expires=Sun, 26-Jun-16 18:36:39 GMT; path=/; domain=.chartgirl.com; HttpOnly
+X-Powered-By: PHP/5.3.10-1ubuntu3.14
+X-Pingback: http://chartgirl.com/wordpress/xmlrpc.php
+Last-Modified: Sat, 18 Jan 2014 14:24:54 GMT
+ETag: W/"9f8cb9917c0257d140c4789960f52f5a"
+Access-Control-Allow-Origin: *
+Vary: Accept-Encoding
+Server: cloudflare-nginx
+CF-RAY: 1fd34237ca611589-FRA
+

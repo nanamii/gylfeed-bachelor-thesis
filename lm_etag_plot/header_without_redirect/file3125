@@ -1,0 +1,11 @@
+HTTP/1.1 404 Not Found
+x-amz-error-code: NoSuchBucket
+x-amz-error-message: The specified bucket does not exist
+x-amz-error-detail-BucketName: www.tdbimg.com
+x-amz-request-id: A137B6BC4EAFC608
+x-amz-id-2: q9fcHTbUGM9bb8hVSM//Gaf06GP2KTFvm8FvAVEzQ4nq+F/8CKf2NVWYbzjUG9JQntDlgbaNsaA=
+Server: AmazonS3
+Content-Length: 1
+Date: Fri, 26 Jun 2015 19:14:18 GMT
+Connection: keep-alive
+

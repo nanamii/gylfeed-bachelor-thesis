@@ -1,0 +1,9 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 18:15:28 GMT
+Content-Type: text/html; charset=iso-8859-1
+Connection: keep-alive
+Set-Cookie: __cfduid=d55369958c2b57bd0e4572b779897e3a81435342527; expires=Sat, 25-Jun-16 18:15:27 GMT; path=/; domain=.dailyinfographic.com; HttpOnly
+Location: http://www.dailyinfographic.com/feed
+Server: cloudflare-nginx
+CF-RAY: 1fcae5cedf490899-FRA
+

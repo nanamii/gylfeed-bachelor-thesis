@@ -1,0 +1,10 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 19:26:24 GMT
+Server: Apache
+Set-Cookie: landing=ok; expires=Sat, 27-Jun-2015 19:26:24 GMT; path=/; domain=.filmschoolrejects.com
+X-Pingback: http://filmschoolrejects.com/xmlrpc.php
+Last-Modified: Fri, 26 Jun 2015 19:04:10 GMT
+Location: http://filmschoolrejects.com/feed
+X-Hostname: mce050-node2.nexcess.net
+Content-Type: text/html
+

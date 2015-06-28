@@ -1,0 +1,12 @@
+HTTP/1.1 302 Moved Temporarily
+Server: nginx
+Date: Fri, 26 Jun 2015 19:19:24 GMT
+Content-Type: text/html
+Content-Length: 154
+Connection: keep-alive
+Location: http://feedproxy.google.com/sportsblogs/mmamania.xml
+P3P: CP="CAO DSP COR CURa ADMa DEVa PSAa PSDa CONi OUR IND PHY ONL UNI COM NAV INT CNT STA"
+X-Varnish: 439005230 449190214
+Age: 91
+Via: 1.1 varnish-v4
+

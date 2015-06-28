@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sat, 27 Jun 2015 19:39:32 GMT
+Content-Type: text/html
+Connection: keep-alive
+Vary: Accept-Encoding
+X-Pingback: http://calacanis.com/xmlrpc.php
+Last-Modified: Thu, 18 Jun 2015 19:28:00 GMT
+ETag: "b6c20a145351983a3a7eb0a2780df289"
+

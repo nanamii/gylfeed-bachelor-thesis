@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 19:41:50 GMT
+Content-Type: application/rdf+xml
+Connection: keep-alive
+Set-Cookie: __cfduid=d1e6dbc076433de4369608451eeef49b31435347710; expires=Sat, 25-Jun-16 19:41:50 GMT; path=/; domain=.typepad.com; HttpOnly
+X-PhApp: oak-tp-web045
+X-Webserver: oak-tp-web045
+Vary: cookie
+Last-Modified: Sun, 10 May 2015 08:24:23 GMT
+X-Varnish: 845818906
+Age: 0
+Via: 1.1 varnish
+Server: cloudflare-nginx
+CF-RAY: 1fcb6453f4de08bd-FRA
+

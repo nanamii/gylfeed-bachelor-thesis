@@ -1,0 +1,10 @@
+HTTP/1.1 302 Found
+Date: Fri, 26 Jun 2015 18:43:24 GMT
+Content-Type: text/html; charset=iso-8859-1
+Connection: keep-alive
+Set-Cookie: __cfduid=d9cb1fc9fea1b9b0210b5f5a7cacd29ce1435344204; expires=Sat, 25-Jun-16 18:43:24 GMT; path=/; domain=.makezine.com; HttpOnly
+Location: http://makezine.com/blog/index.xml
+Vary: Accept-Encoding
+Server: cloudflare-nginx
+CF-RAY: 1fcb0ebd98440899-FRA
+

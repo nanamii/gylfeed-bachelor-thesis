@@ -1,0 +1,19 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 20:34:45 GMT
+X-ServedBy: ny1-prod6-web039
+Set-Cookie: JSESSIONID=fZx9pRKd4T60zM-SSnEkgdQjORkThanRxwABmSNYJuM65m_KolENxg;Path=/;HttpOnly
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Set-Cookie: crumb=26b2d76f0f;Path=/
+Set-Cookie: SS_MID=540ca1b5-f7e3-4469-a60b-5fea7cc1ad32ibe2uvku;Path=/;Domain=.jonmitchell.net;Expires=Mon, 23-Jun-2025 20:34:45 GMT
+Set-Cookie: ss_cid=2a25476a-aafd-4cdc-9106-2f99cd004295;Path=/;Domain=.jonmitchell.net;Expires=Sun, 25-Jun-2017 20:34:45 GMT
+Set-Cookie: ss_cvisit=1435350885739;Path=/;Domain=.jonmitchell.net;Expires=Fri, 26-Jun-2015 21:04:45 GMT
+Accept-Ranges: bytes
+Content-Type: application/rss+xml; charset=UTF-8
+X-PC-Date: Fri, 26 Jun 2015 16:35:06 GMT
+X-PC-Host: 10.100.101.104
+ETag: W/"866bdf6f32f6c982b71db85730486e1c"
+X-PC-Key: pILN4lV12OOZ6GaHIc3mgfSfsZo-jon-mitchell
+X-PC-Hit: true
+X-ContextId: ShXetPQP/n00SvEpy
+X-Via: 1.1 ny1-prod-echo002
+

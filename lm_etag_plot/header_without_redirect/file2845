@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 19:09:00 GMT
+Server: Apache
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+X-Pingback: http://www.vagentlemen.com/xmlrpc.php
+ETag: "dc08ca0d239fd46bc5adce246c81e355"
+Set-Cookie: PHPSESSID=trlg65c7cb545tj41j9cjfff25; path=/
+Set-Cookie: wpsc_customer_cookie_029a66231c6f1121d4b76634332fe5e4=6104%7C1435518544%7Cd0a576262389697cb31050cea0d44c5d; expires=Sun, 28-Jun-2015 19:09:04 GMT; path=/
+Last-Modified: Fri, 26 Jun 2015 13:50:20 GMT
+Vary: Accept-Encoding
+Content-Type: text/html
+

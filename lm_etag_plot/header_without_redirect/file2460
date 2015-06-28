@@ -1,0 +1,8 @@
+HTTP/1.1 302 Moved Temporarily
+Content-Length: 161
+Content-Type: text/html
+Date: Fri, 26 Jun 2015 19:00:32 GMT
+Location: http://digg.com/
+Server: nginx/1.1.19
+Connection: keep-alive
+

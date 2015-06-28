@@ -1,0 +1,24 @@
+HTTP/1.1 200 OK
+Server: Apache/2.2
+X-Powered-By: PHP/5.4.40
+Set-Cookie: PHPSESSID=c3p1fppq0tg1tsl4dguhi999k4; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+X-Pingback: http://boingboing.net/xmlrpc.php
+Last-Modified: Fri, 26 Jun 2015 20:19:15 GMT
+X-Server: app2.boingboing.net
+Content-Type: text/xml; charset=UTF-8
+Transfer-Encoding: chunked
+Accept-Ranges: bytes
+Date: Fri, 26 Jun 2015 20:34:09 GMT
+Via: 1.1 varnish
+Age: 0
+Connection: keep-alive
+X-Served-By: cache-fra1235-FRA
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1435350848.595943,VS0,VE601
+Vary: Cookie, Accept-Encoding
+Access-Control-Allow-Origin: http://media.boingboing.nethttp://media.boingboing.net
+

@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:24:56 GMT
+Server: Apache/2.2.22 (EL)
+X-Powered-By: PHP/5.2.17
+Set-Cookie: SESS3d7a4b733b13d033b02e1cffb1c3538e=e75icqn00te7e9b4utpben04t4; expires=Mon, 20-Jul-2015 22:58:16 GMT; path=/; domain=.jewishtimes-sj.com
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Last-Modified: Sat, 27 Jun 2015 19:24:56 GMT
+Cache-Control: store, no-cache, must-revalidate
+Cache-Control: post-check=0, pre-check=0
+Connection: close
+Content-Type: text/xml; charset=utf-8
+

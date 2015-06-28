@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Server: Apache/2.2.22 (Debian) PHP/5.4.41-0+deb7u1
+X-Powered-By: PHP/5.4.41-0+deb7u1
+Vary: Cookie
+X-Pingback: http://www.badscience.net/xmlrpc.php
+ETag: "6a45c0edce8f062984fc10b5d57575f1"
+WP-Super-Cache: Served legacy cache file
+Content-Type: text/xml; charset=UTF-8
+Accept-Ranges: bytes
+Date: Sat, 27 Jun 2015 19:51:18 GMT
+X-Varnish: 717909806
+Age: 0
+Via: 1.1 varnish
+Connection: keep-alive
+

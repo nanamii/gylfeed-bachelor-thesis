@@ -1,0 +1,9 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Fri, 26 Jun 2015 18:41:07 GMT
+Content-Type: text/html; charset=utf-8
+Connection: keep-alive
+Location: http://basilpuglisi.wordpress.com/feed/
+X-nc: HIT sat 132
+X-ac: 3.fra _sat
+

@@ -1,0 +1,11 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 18:04:31 GMT
+Server: Apache/2.2.22
+X-Powered-By: PHP/5.3.29
+X-Pingback: http://www.heavy-backpack.com/xmlrpc.php
+ETag: "22aef75d4990ed026539df28b1b79426"
+Last-Modified: Sat, 19 Jul 2014 05:37:58 GMT
+Location: http://www.heavy-backpack.com/feed
+Vary: User-Agent,Accept-Encoding
+Content-Type: text/html
+

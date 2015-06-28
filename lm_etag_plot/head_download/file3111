@@ -1,0 +1,20 @@
+HTTP/1.1 200 OK
+Server: Apache
+X-Powered-By: PHP/5.3.28
+P3P: CP="CAO PSA OUR"
+X-Drupal-Cache: HIT
+Etag: "1435397073-1"
+Content-Language: en
+X-Generator: Drupal 7 (http://drupal.org)
+Link: <https://www.sciencenews.org/search>; rel="canonical",<https://www.sciencenews.org/search>; rel="shortlink"
+Cache-Control: public, max-age=300
+Last-Modified: Sat, 27 Jun 2015 09:24:33 GMT
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Vary: Cookie,Accept-Encoding
+Content-Type: text/html; charset=utf-8
+Date: Sat, 27 Jun 2015 19:52:04 GMT
+X-Varnish: 819850572
+Age: 0
+Via: 1.1 varnish
+Connection: keep-alive
+

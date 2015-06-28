@@ -1,0 +1,17 @@
+HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Age: 467
+Cache-Control: max-age=900, private, must-revalidate
+Content-Length: 42264
+Content-Type: text/xml;charset=UTF-8
+Date: Fri, 26 Jun 2015 19:13:44 GMT
+ETag: W/"4ebe38-a518-519706e0e0f40"
+Expires: Fri, 26 Jun 2015 19:20:57 GMT
+Last-Modified: Fri, 26 Jun 2015 19:05:57 GMT
+Server: Apache/2.2.29 (Amazon)
+Via: 1.1 varnish
+Via: 1.1 varnish
+X-Varnish: 1984851717
+X-Varnish: 735836867 735835375
+Connection: keep-alive
+

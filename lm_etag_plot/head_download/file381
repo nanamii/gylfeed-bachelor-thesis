@@ -1,0 +1,27 @@
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Cache-Control: max-age=180
+Content-Type: text/xml; charset=UTF-8
+ETag: W/"99b889a9cd748e8b4eca0eb3758d138d-gzip"
+J-Cacheable: YES
+Last-Modified: GMT
+Link: <http://www.wired.com/wp-json>; rel="https://github.com/WP-API/WP-API"
+Server: Apache
+Varnish-X-Cache-Hits: 1
+Via: 1.1 varnish-v4
+X-Pingback: http://www.wired.com/xmlrpc.php
+X-Powered-By: PHP/5.6.8
+X-Robots-Tag: noindex,follow
+Via: 1.1 varnish
+Content-Length: 354
+Accept-Ranges: bytes
+Date: Sat, 27 Jun 2015 18:39:48 GMT
+Via: 1.1 varnish
+Age: 0
+Connection: keep-alive
+X-Served-By: cache-jfk1028-JFK, cache-fra1224-FRA
+X-Cache: HIT, MISS, MISS
+X-Cache-Hits: 0, 0
+X-Timer: S1435430388.079007,VS0,VE104
+Vary: Accept-Encoding
+

@@ -1,0 +1,16 @@
+HTTP/1.1 302 Found
+Date: Fri, 26 Jun 2015 20:17:30 GMT
+Content-Type: application/atom+xml
+Connection: keep-alive
+Set-Cookie: __cfduid=dbab590849afd30ffdb17ae8accce7ab71435349850; expires=Sat, 25-Jun-16 20:17:30 GMT; path=/; domain=.sporkorfoon.com; HttpOnly
+X-PhApp: oak-tp-web011
+X-Webserver: oak-tp-web011
+Location: http://feeds2.feedburner.com/sporkorfoon
+Vary: cookie
+Expires: Fri, 26 Jun 2015 20:32:30 GMT
+X-Varnish: 1658135892
+Age: 0
+Via: 1.1 varnish
+Server: cloudflare-nginx
+CF-RAY: 1fcb9892cb1808b7-FRA
+

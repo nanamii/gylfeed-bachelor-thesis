@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:32:29 GMT
+Content-Type: text/xml; charset=UTF-8
+Connection: keep-alive
+Set-Cookie: __cfduid=dcdb0a942be078d8003c477893d902a971435433549; expires=Sun, 26-Jun-16 19:32:29 GMT; path=/; domain=.wild-about-travel.com; HttpOnly
+Pragma: public
+Cache-Control: max-age=2568, public, must-revalidate, proxy-revalidate
+Vary: Accept-Encoding,User-Agent
+X-Pingback: http://wild-about-travel.com/xmlrpc.php
+Last-Modified: Fri, 26 Jun 2015 11:52:22 GMT
+Cache-Control: max-age=3600
+Expires: Sat, 27 Jun 2015 20:32:16 GMT
+Server: cloudflare-nginx
+CF-RAY: 1fd39401509a0479-FRA
+

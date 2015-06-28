@@ -1,0 +1,9 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 18:16:55 GMT
+Via: http/1.1 yts260.global.media.ir2.yahoo.com (ApacheTrafficServer [c s f ]), http/1.1 r01.ycpi.loa.yahoo.net (ApacheTrafficServer [cMsSf ])
+Server: ATS
+Strict-Transport-Security: max-age=172800
+Location: https://shine.yahoo.com/rss/blog/user/a5jXOrhi4W8ScGM3RcGsG0UPeUNB3XngGK1GI/
+Age: 0
+Connection: keep-alive
+

@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:47:46 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+Set-Cookie: __cfduid=d461a3df5055c6365b4806843bc77654a1435434466; expires=Sun, 26-Jun-16 19:47:46 GMT; path=/; domain=.mmanews.com; HttpOnly
+X-Powered-By: PHP/5.3.28
+Vary: Cookie
+Set-Cookie: PHPSESSID=ulllohk66ah4kmihp4o0up7a42; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+X-Pingback: http://www.mmanews.com/xmlrpc.php
+Server: cloudflare-nginx
+CF-RAY: 1fd3aa64e7b9089f-FRA
+

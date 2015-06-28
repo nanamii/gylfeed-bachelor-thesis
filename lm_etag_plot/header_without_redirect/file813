@@ -1,0 +1,9 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 18:11:23 GMT
+Server: Apache
+X-Pingback: http://melissaeastondesign.com/blog/xmlrpc.php
+Last-Modified: Tue, 14 Apr 2015 17:27:16 GMT
+ETag: "20c72b83f88ff28ae9775c6387896581"
+Location: http://melissaeastondesign.com/blog/?feed=rss2
+Content-Type: text/html
+

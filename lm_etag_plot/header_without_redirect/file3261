@@ -1,0 +1,9 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 19:15:08 GMT
+Server: Apache/2.2.22 (Ubuntu)
+Location: http://www.vlogg.com/feed/
+Cache-Control: max-age=13600
+Expires: Fri, 26 Jun 2015 23:01:48 GMT
+Vary: Accept-Encoding
+Content-Type: text/html; charset=iso-8859-1
+

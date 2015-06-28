@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Server: Apache
+ETag: "3ff1790cdcfd62181761d153ef7e75da:1435343524"
+Last-Modified: Fri, 26 Jun 2015 18:32:04 GMT
+Accept-Ranges: bytes
+Content-Length: 46309
+Content-Type: application/xml
+Expires: Fri, 26 Jun 2015 19:00:03 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Fri, 26 Jun 2015 19:00:03 GMT
+Connection: keep-alive
+

@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 26 Jun 2015 19:13:53 GMT
+Content-Type: text/xml; charset=UTF-8
+Connection: keep-alive
+Keep-Alive: timeout=20
+X-Pingback: http://tenthamendmentcenter.com/xmlrpc.php
+Last-Modified: Thu, 25 Jun 2015 20:33:26 GMT
+ETag: "70000d648a8ccf0e312e9f6b2d2a5cb2-gzip"
+X-Cacheable: CacheAlways: feed
+Cache-Control: max-age=600, must-revalidate
+X-Cache: HIT: 19
+X-Pass-Why: 
+X-Cache-Group: 
+X-Type: feed
+

@@ -1,0 +1,11 @@
+HTTP/1.1 301 Moved Permanently
+Content-Length: 182
+Content-Type: text/html; charset=UTF-8
+Location: http://www.usatoday.com/sports/mma/rss?loc=interstitialskip
+Server: Microsoft-IIS/7.5
+P3P: CP="CAO CUR ADM DEVa TAIi PSAa PSDa CONi OUR OTRi IND PHY ONL UNI COM NAV DEM", POLICYREF="URI"
+X-Powered-By: ASP.NET
+Access-Control-Allow-Origin: *
+Date: Fri, 26 Jun 2015 19:19:23 GMT
+Connection: keep-alive
+

@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+Server: nginx/1.8.0
+Date: Fri, 26 Jun 2015 18:18:27 GMT
+Content-Type: text/html
+Connection: keep-alive
+X-Pingback: http://www.kathyzader.com/xmlrpc.php
+ETag: "06f33b4f3089509f316e92bab029b1ca"
+Last-Modified: Wed, 05 Feb 2014 02:40:09 GMT
+

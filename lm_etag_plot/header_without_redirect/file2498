@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Cache-Control: max-age=900
+Content-Type: application/xml
+Date: Fri, 26 Jun 2015 19:00:49 GMT
+Etag: page:/rss/defensehs/
+Expires: Fri, 26 Jun 2015 19:15:49 GMT
+Last-Modified: Fri, 26 Jun 2015 18:59:32 GMT
+Server: nginx
+Vary: Accept-Encoding
+Content-Length: 0
+

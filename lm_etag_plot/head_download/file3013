@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:50:24 GMT
+Server: Apache
+X-Powered-By: PHP/5.3.5
+Vary: Cookie
+X-Pingback: http://www.thelittlechimpsociety.com/xmlrpc.php
+ETag: "cc6fa63207c348330dbf8c7edb129af3"
+WP-Super-Cache: Served legacy cache file
+X-Powered-By: PleskLin
+Content-Type: text/xml; charset=UTF-8
+

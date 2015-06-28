@@ -1,0 +1,8 @@
+HTTP/1.1 302 Moved Temporarily
+Server: nginx
+Date: Fri, 26 Jun 2015 18:52:44 GMT
+Content-Type: text/html; charset=utf-8
+Connection: keep-alive
+Vary: Cookie
+Location: http://allthingsd.com/wp-signup.php?new=feeds
+

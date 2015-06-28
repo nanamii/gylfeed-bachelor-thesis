@@ -1,0 +1,10 @@
+HTTP/1.1 302 Temporary Redirect
+Date: Fri, 26 Jun 2015 19:45:44 GMT
+Server: Apache/2.2.22 (Unix) mod_ssl/2.2.22 OpenSSL/0.9.8e-fips-rhel5 mod_bwlimited/1.4
+X-Powered-By: PHP/5.3.15
+X-Pingback: http://sugarcrafter.net/xmlrpc.php
+ETag: "9d0573ef6f066855e1aa87f78759455e"
+Last-Modified: Mon, 15 Jun 2015 01:01:41 GMT
+Location: http://feeds2.feedburner.com/Sugarcrafter
+Content-Type: text/html
+

@@ -1,0 +1,9 @@
+HTTP/1.1 301 Moved Permanently
+Server: Apache
+Location: http://www.metoffice.gov.uk/public/data/PWSCache/WarningsRSS/Region/UK
+Content-Length: 278
+Content-Type: text/html; charset=iso-8859-1
+Date: Fri, 26 Jun 2015 19:23:38 GMT
+Connection: keep-alive
+X-N: S
+

@@ -1,0 +1,9 @@
+HTTP/1.1 302 Found
+Server: nginx
+Date: Fri, 26 Jun 2015 19:00:25 GMT
+Content-Type: text/html; charset=iso-8859-1
+Connection: keep-alive
+Location: http://consumersunion.org/index.rdf
+Cache-Control: max-age=2592000
+Expires: Sun, 26 Jul 2015 19:00:25 GMT
+

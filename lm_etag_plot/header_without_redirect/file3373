@@ -1,0 +1,12 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 19:18:41 GMT
+Content-Type: text/html; charset=iso-8859-1
+Connection: keep-alive
+Server: Apache/2.2.22 (Debian)
+Location: http://www.theregister.co.uk/headlines.rss
+Cache-Control: max-age=0
+Expires: Fri, 26 Jun 2015 19:18:41 GMT
+Vary: Accept-Encoding
+X-Reg-BOFH: pfy
+X-Clacks-Overhead: GNU Terry Pratchett
+

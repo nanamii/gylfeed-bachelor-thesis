@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Content-Type: application/xml; charset=utf-8
+Vary: Accept-Encoding
+Status: 200 OK
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Robots-Tag: noodp,noydir
+Date: Sat, 27 Jun 2015 19:22:11 GMT
+Expires: Sat, 27 Jun 2015 19:42:11 GMT
+Cache-Control: max-age=1200, public
+X-Cache-Info: elf-ak(1200), cache(437), WN
+Server: The Infinite Improbability Drive
+X-Powered-By: A Bambleweeny 57 Sub-Meson Brain, an atomic vector plotter, and a nice hot cup of tea
+Connection: keep-alive
+

@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 19:50:50 GMT
+Server: Apache/2.2.22 (Debian)
+X-Powered-By: PHP/5.4.4-14+deb7u9
+Set-Cookie: bb2_screener_=1435348250+92.194.59.39; path=/
+X-Pingback: http://northernshade.ca/xmlrpc.php
+Last-Modified: Thu, 12 Jun 2014 02:59:14 GMT
+ETag: "50447531f3b66b2125729b2236957ca4"
+Cache-Control: max-age=1
+Expires: Fri, 26 Jun 2015 19:50:51 GMT
+Vary: Accept-Encoding
+Content-Type: text/html
+

@@ -1,0 +1,20 @@
+HTTP/1.1 301 Moved Permanently
+Server: WWW
+X-Varnish: 985177918
+Vary: Accept-Encoding
+Cache-Control: public, max-age=600
+Content-Type: text/html; charset=iso-8859-1
+X-VCache: MISS
+X-Pad: avoid browser bug
+Date: Fri, 26 Jun 2015 19:02:00 GMT
+X-TN-ServedBy: cms.varnish-app.6081
+Location: http://niagara-gazette.com/webextra/atom/
+Transfer-Encoding: chunked
+Via: 1.1 varnish-v4
+X-PersistenceNode: 1
+Connection: Keep-Alive
+Set-Cookie: TNNoMobile=1; path=/; expires=Thu, 2 Aug 2031 20:47:11 UTC
+X-Cache-Info: caching
+Real-Hostname: niagara-gazette.com
+Age: 0
+

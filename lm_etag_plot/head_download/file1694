@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Cache-Control: no-cache,no-store
+Content-Length: 6
+Content-Type: text/html;charset=UTF-8
+Date: Sat, 27 Jun 2015 19:21:47 GMT
+Device: large
+Dispatch-Cache-Rule: no-cache
+Last-Modified: Sat, 27 Jun 2015 19:21:47 GMT
+Pragma: no-cache
+Server: nginx
+Set-Cookie: JSESSIONID=101769299950BEC831699ECA248FCEB5; Domain=.dispatch.com; Path=/; HttpOnly
+Set-Cookie: dispatchuid=CmOhdFWO98tjHRfNDiCcAg==; expires=Sun, 26-Jun-16 19:21:47 GMT; domain=.dispatch.com; path=/
+Set-Cookie: AWSELB=DF09DB5D1C1578C8B535BCFC2A6E4DABB2A9C791B3A002F8BCAFA028B73DE939FEB21D460EA76E0AFEBD0500DBE9BA52C1DC73CB6AB2D6F23CA3669137714BF17814FE6C3D412DAAA1E4C600548E043639803A983F;PATH=/;DOMAIN=.dispatch.com;HTTPONLY
+Connection: keep-alive
+

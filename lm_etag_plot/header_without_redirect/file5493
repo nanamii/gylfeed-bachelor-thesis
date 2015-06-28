@@ -1,0 +1,10 @@
+HTTP/1.1 302 Temporary Redirect
+Date: Fri, 26 Jun 2015 20:16:39 GMT
+Server: Apache
+X-Powered-By: PHP/5.3.27
+X-Pingback: http://chiotsrun.com/xmlrpc.php
+Last-Modified: Fri, 26 Jun 2015 08:45:54 GMT
+Location: http://feeds.feedburner.com/ChiotsRun
+Vary: Accept-Encoding,User-Agent
+Content-Type: text/html
+

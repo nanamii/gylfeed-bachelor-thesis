@@ -1,0 +1,9 @@
+HTTP/1.1 302 Moved Temporarily
+Date: Fri, 26 Jun 2015 20:24:21 GMT
+Server: Apache
+X-Pingback: http://www.leveragingideas.com/xmlrpc.php
+Last-Modified: Mon, 29 Dec 2014 23:20:10 GMT
+ETag: "4b8f15217310e00eb5fe7f5a4fc1ca83"
+Location: http://feeds.feedburner.com/leveragingideas
+Content-Type: text/html
+

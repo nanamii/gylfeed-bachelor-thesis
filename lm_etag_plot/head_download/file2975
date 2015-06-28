@@ -1,0 +1,7 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:51:19 GMT
+Server: Apache/2.2.14 (Ubuntu)
+Vary: Cookie,Accept-Encoding
+Set-Cookie: sessionid=578a0d7c09616a17a3ac9b284e7d5b92; expires=Sat, 11-Jul-2015 19:51:20 GMT; Max-Age=1209600; Path=/
+Content-Type: application/rss+xml
+

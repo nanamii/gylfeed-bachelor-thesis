@@ -1,0 +1,6 @@
+HTTP/1.1 301 Moved Permanently
+Location: http://www.evil-inc.com/evilincrss.xml
+Content-Type: text/html
+Connection: keep-alive
+Transfer-Encoding: chunked
+

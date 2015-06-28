@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Server: Apache
+Vary: Accept-Encoding
+Content-Type: text/xml; charset=UTF-8
+Date: Sat, 27 Jun 2015 19:24:05 GMT
+X-Varnish: 2337549792 2337542982
+Age: 43
+Via: 1.1 varnish
+Connection: close
+

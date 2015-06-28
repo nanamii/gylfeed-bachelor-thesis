@@ -1,0 +1,10 @@
+HTTP/1.1 302 Found
+Date: Fri, 26 Jun 2015 18:51:03 GMT
+Server: Apache
+X-Pingback: http://www.x2od.com/wp/xmlrpc.php
+ETag: "72ff2cbf61c4191faa87945a2f99653c"
+Last-Modified: Fri, 27 Feb 2015 23:48:51 GMT
+Location: http://feeds.feedburner.com/x2od_wp
+Vary: Accept-Encoding
+Content-Type: text/html
+

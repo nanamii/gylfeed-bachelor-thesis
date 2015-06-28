@@ -1,0 +1,10 @@
+HTTP/1.1 404 Not Found
+x-amz-error-code: NoSuchKey
+x-amz-error-message: The specified key does not exist.
+x-amz-error-detail-Key: atom.xml
+x-amz-request-id: 6DBFFA8198B20885
+x-amz-id-2: yHBabQ8pXcB8GHrcumtCifnxRrbu+ipBq9zLAtp3bZnntGo9T/foVoeraWsaX50q
+Transfer-Encoding: chunked
+Date: Fri, 26 Jun 2015 20:34:44 GMT
+Server: AmazonS3
+

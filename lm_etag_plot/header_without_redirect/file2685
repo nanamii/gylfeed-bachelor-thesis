@@ -1,0 +1,14 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 19:06:25 GMT
+Server: Apache
+X-Powered-By: PHP/5.4.23
+Set-Cookie: PHPSESSID=vbj8d0f30hgo537lopbt51nu34; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+X-Pingback: http://cornellsun.com/xmlrpc.php
+Last-Modified: Wed, 24 Jun 2015 05:24:34 GMT
+ETag: "1712cea132d890953062abc42de9ea02"
+Location: http://cornellsun.com/feed/
+Content-Type: text/html
+

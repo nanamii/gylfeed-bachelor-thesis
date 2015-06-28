@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 19:18:01 GMT
+Server: Apache/2.2.20 (Ubuntu)
+X-Powered-By: PHP/5.3.6-13ubuntu3.7
+X-Pingback: http://www.jenleereeves.com/xmlrpc.php
+Last-Modified: Wed, 01 Apr 2015 14:45:59 GMT
+ETag: "2660b3e43b803c0895ae05c32bd5e6d2"
+Vary: Accept-Encoding
+Content-Type: text/html
+

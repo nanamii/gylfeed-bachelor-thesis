@@ -1,0 +1,10 @@
+HTTP/1.1 302 Moved Temporarily
+Date: Fri, 26 Jun 2015 20:16:52 GMT
+Server: Apache
+X-Powered-By: PHP/5.5.26
+X-Pingback: http://www.spicysaltysweet.com/xmlrpc.php
+ETag: "44f7d040de151cbe61c70c758cd24b0a"
+Last-Modified: Tue, 24 Aug 2010 16:12:14 GMT
+Location: http://www.spicysaltysweet.com/feed/
+Content-Type: text/html
+

@@ -1,0 +1,16 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx/1.8.0
+Date: Fri, 26 Jun 2015 18:41:21 GMT
+Content-Type: text/html
+Content-Length: 0
+Connection: keep-alive
+X-Pingback: http://socialmedia.biz/xmlrpc.php
+ETag: "f274b5e2637d4bb1d02a5a539b0c5733"
+Last-Modified: Tue, 23 Jun 2015 10:23:49 GMT
+Location: http://socialmedia.biz/feed/
+Accept-Ranges: bytes
+X-Varnish: 557111779
+Age: 0
+Via: 1.1 varnish
+X-Cache: MISS
+

@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Server: nginx/1.2.1
+Date: Fri, 26 Jun 2015 19:23:51 GMT
+Content-Type: text/html
+Connection: keep-alive
+X-Powered-By: PHP/5.4.4-14+deb7u11
+Set-Cookie: PHPSESSID=sd7d6ve0ppsp2oj8r4vj6612t5; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+X-Pingback: http://blog.smartgardener.com/xmlrpc.php
+Last-Modified: Mon, 02 Jun 2014 17:03:27 GMT
+ETag: "02ba90fb3c401a4b136a9766696f007f"
+

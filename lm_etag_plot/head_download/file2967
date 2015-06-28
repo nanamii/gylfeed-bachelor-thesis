@@ -1,0 +1,19 @@
+HTTP/1.1 200 OK
+Server: Apache
+X-Drupal-Cache: MISS
+Etag: "1435432452-1"
+Content-Language: en
+Cache-Control: public, max-age=2700
+Last-Modified: Sat, 27 Jun 2015 19:14:12 GMT
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Vary: Cookie,Accept-Encoding
+X-Powered-By: PleskLin
+MS-Author-Via: DAV
+Content-Type: application/rss+xml; charset=utf-8
+Date: Sat, 27 Jun 2015 19:49:45 GMT
+X-Varnish: 587496101 587441332
+Age: 2133
+Via: 1.1 varnish
+Connection: keep-alive
+X-Varnish-Cache: HIT
+

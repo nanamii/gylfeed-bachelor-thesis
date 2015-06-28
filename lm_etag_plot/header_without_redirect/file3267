@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Cache-Control: max-age=120
+Content-Type: text/xml
+Date: Fri, 26 Jun 2015 19:15:31 GMT
+Expires: Fri, 26 Jun 2015 19:17:31 GMT
+Last-Modified: Fri, 26 Jun 2015 19:15:03 GMT
+Server: Apache
+Vary: User-Agent,Accept-Encoding
+Content-Length: 58693
+

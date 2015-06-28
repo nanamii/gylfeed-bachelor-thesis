@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Server: nginx/1.2.2
+Content-Type: text/xml; charset=UTF-8
+X-Pingback: http://www.loopinsight.com/xmlrpc.php
+Last-Modified: Fri, 26 Jun 2015 22:57:37 GMT
+ETag: "cfea9b4951ef81890a9fc7839cc5385c"
+X-Cacheable: YES
+Content-Length: 47264
+Accept-Ranges: bytes
+Date: Sat, 27 Jun 2015 21:38:35 GMT
+Connection: keep-alive
+

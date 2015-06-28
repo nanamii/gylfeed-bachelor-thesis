@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Server: Apache/2.2.17 (EL)
+X-Powered-By: PHP/5.2.16
+Cache-Control: public, max-age=300
+Last-Modified: Fri, 26 Jun 2015 18:03:15 +0000
+Expires: Sun, 11 Mar 1984 12:00:00 GMT
+Vary: Cookie
+ETag: "1435341795"
+Content-Type: application/rss+xml; charset=utf-8
+Content-Length: 18222
+Date: Fri, 26 Jun 2015 18:04:22 GMT
+X-Varnish: 372235110 372232340
+Age: 66
+Via: 1.1 varnish
+Connection: keep-alive
+

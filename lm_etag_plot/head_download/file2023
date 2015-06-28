@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Server: cloudflare-nginx
+Date: Sat, 27 Jun 2015 19:25:22 GMT
+Content-Type: text/xml; charset=utf-8
+Connection: keep-alive
+Set-Cookie: __cfduid=df2a3b00bf1e010004b4022afee8c0e801435433122; expires=Sun, 26-Jun-16 19:25:22 GMT; path=/; domain=.fbi.gov; HttpOnly
+Access-Control-Allow-Origin: http://m.fbi.gov
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+CF-Cache-Status: HIT
+Expires: Sat, 27 Jun 2015 19:55:22 GMT
+Cache-Control: public, max-age=1800
+CF-RAY: 1fd38996d8a2157d-FRA
+

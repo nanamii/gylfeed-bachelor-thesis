@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 26 Jun 2015 20:33:55 GMT
+Content-Type: text/xml; charset=utf-8
+Connection: close
+Vary: Accept-Encoding
+Set-Cookie: tmgioct=558db7332ea3520615905310; expires=Mon, 23-Jun-2025 20:33:55 GMT; Max-Age=315360000; path=/; httponly
+P3P: CP="Tumblr's privacy policy is available here: https://www.tumblr.com/policy/en/privacy"
+X-Tumblr-User: writeplacewritetime
+X-Robots-Tag: noindex
+Cache-Control: max-age=600
+X-ttl: 14400
+X-UA-Compatible: IE=Edge,chrome=1
+

@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:07:54 GMT
+Server: LiteSpeed
+Connection: close
+X-Powered-By: PHP/5.4.40
+Vary: Cookie
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Content-Type: text/xml; charset=UTF-8
+X-Pingback: http://boostblogtraffic.com/xmlrpc.php
+ETag: "553ffa14e5f7d9b80d8de6bab1333450"
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+WP-Super-Cache: Served legacy cache file
+

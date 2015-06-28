@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 19:11:05 GMT
+Server: Apache/2.2.3 (FH)
+X-Powered-By: PHP/5.4.42
+Vary: Cookie
+X-Pingback: http://www.newsbiscuit.com/xmlrpc.php
+ETag: "c03ec07cdaca3954acacdbc60af99e13"
+WP-Super-Cache: WP-Cache
+Connection: close
+Content-Type: text/xml; charset=UTF-8
+

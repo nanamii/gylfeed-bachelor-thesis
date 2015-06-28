@@ -1,0 +1,11 @@
+HTTP/1.1 302 Temporary Redirect
+Date: Fri, 26 Jun 2015 18:51:19 GMT
+Server: Apache
+X-Pingback: http://www.serviceuntitled.com/xmlrpc.php
+ETag: "c2d21ea340474bea31fc48009117eeb3"
+Set-Cookie: wp_ozh_wsa_visits=1; expires=Sat, 25-Jun-2016 18:51:19 GMT; path=/
+Set-Cookie: wp_ozh_wsa_visit_lasttime=1435344679; expires=Sat, 25-Jun-2016 18:51:19 GMT; path=/
+Last-Modified: Mon, 08 Sep 2014 14:25:08 GMT
+Location: http://feeds2.feedburner.com/ServiceUntitled
+Content-Type: text/html
+

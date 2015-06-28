@@ -1,0 +1,8 @@
+HTTP/1.1 301 Moved Permanently
+x-amz-id-2: BUKL0/x7W0aPzBOi0RzPdkDEMbm/aaWn2Fm4QWUnxYAz/u+TpYkGjVyXqboPUF63g8ygpjj7BT4=
+x-amz-request-id: FF2F4C202121C54C
+Date: Fri, 26 Jun 2015 20:21:42 GMT
+Location: http://www.randomhacks.net/feed.xml
+Content-Length: 0
+Server: AmazonS3
+

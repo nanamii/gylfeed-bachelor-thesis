@@ -1,0 +1,11 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 20:25:07 GMT
+Server: Apache
+X-Pingback: http://1938media.com/xmlrpc.php
+Last-Modified: Thu, 04 Jun 2015 01:32:10 GMT
+ETag: "2cec8078d1ba632c0def957c879f9fab"
+Location: http://1938media.com/feed/
+X-Powered-By: PleskLin
+Connection: close
+Content-Type: text/html
+

@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 18:33:37 GMT
+Server: Apache/2.4.7 (Ubuntu)
+X-Powered-By: PHP/5.5.9-1ubuntu4.9
+Set-Cookie: _icl_current_language=de; expires=Sun, 28-Jun-2015 18:33:37 GMT; Max-Age=86400; path=/
+X-Pingback: http://artcom.de/xmlrpc.php
+Link: <http://artcom.de/?p=7>; rel=shortlink
+Content-Type: text/html; charset=UTF-8
+

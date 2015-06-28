@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 19:23:51 GMT
+Server: Apache
+Pragma: no-cache
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+X-Pingback: http://www.rhinoconservation.org/xmlrpc.php
+ETag: "b5f215af23451a0a3d34b152942fe052"
+X-Robots-Tag: noindex,follow
+Set-Cookie: PHPSESSID=l7bdrakcanoa01t8h91vbt31u1; path=/
+Vary: Accept-Encoding
+Content-Type: text/xml; charset=UTF-8
+

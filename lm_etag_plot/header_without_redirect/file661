@@ -1,0 +1,13 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 18:05:09 GMT
+Content-Type: application/rss+xml; charset="UTF-8"
+Connection: keep-alive
+Set-Cookie: __cfduid=daebed314d299c75d865c303c701398ab1435341909; expires=Sat, 25-Jun-16 18:05:09 GMT; path=/; domain=.cartoonbrew.com; HttpOnly
+Vary: Cookie,Accept-Encoding
+X-Pingback: http://www.cartoonbrew.com/xmlrpc.php
+ETag: W/"b28cb97f1eb1ba3c860e60214bc957fc"
+Last-Modified: Fri, 26 Jun 2015 14:30:53 GMT
+Location: http://www.cartoonbrew.com/feed
+Server: cloudflare-nginx
+CF-RAY: 1fcad6b4a15b0467-FRA
+

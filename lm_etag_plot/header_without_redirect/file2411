@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Content-Type: text/xml;charset=UTF-8
+Content-Language: en-IE
+Cache-Control: public,max-age=900
+X-Deliver-Via: p12, p13
+Accept-Ranges: bytes
+Date: Fri, 26 Jun 2015 19:00:08 GMT
+Connection: keep-alive
+Age: 605
+

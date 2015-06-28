@@ -1,0 +1,18 @@
+HTTP/1.1 302 Found
+cache-control: no-cache, no-store
+Content-Type: text/html;charset=UTF-8
+Date: Fri, 26 Jun 2015 18:16:57 GMT
+Edge-control: no-cache, no-store
+Location: http://dvd.netflix.com/NewReleasesRSS
+Server: wwwservice i-66ef91cc
+Set-Cookie: memclid=49305620-d7ef-43a1-b8af-62ab60146fb4; Domain=.netflix.com; Expires=Sat, 25-Jun-2016 18:16:57 GMT; Path=/
+Set-Cookie: tlr=DE|1435342617224; Domain=.netflix.com; Expires=Mon, 20-Jun-2016 18:16:57 GMT
+Strict-Transport-Security: max-age=0; includeSubDomains
+Vary: Accept-Encoding
+via: 1.1 i-2a17ddd3 (eu-west-1)
+X-Content-Type-Options: nosniff
+X-Netflix.nfstatus: 1
+X-Originating-URL: http://rss.netflix.com/NewReleasesRSS
+X-Xss-Protection: 1; mode=block
+Connection: keep-alive
+

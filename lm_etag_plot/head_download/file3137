@@ -1,0 +1,18 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:52:18 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+Set-Cookie: __cfduid=d048a9cdb0cf8532003e5fabb34effe301435434737; expires=Sun, 26-Jun-16 19:52:17 GMT; path=/; domain=.quantumdiaries.org; HttpOnly
+Vary: Accept-Encoding,User-Agent
+Cache-Control: max-age=172800
+X-Pingback: http://www.quantumdiaries.org/xmlrpc.php
+X-CF-Powered-By: WP 1.3.18
+Expires: Mon, 29 Jun 2015 19:52:17 GMT
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Set-Cookie: X-Mapping-jdinjeol=4E83F23D7A0D22763EBDFC6E7BE8F140; path=/
+X-Frame-Options: SAMEORIGIN
+Last-Modified: Mon, 22 Jun 2015 15:56:41 GMT
+Server: cloudflare-nginx
+CF-RAY: 1fd3b105e5f71ad5-DUS
+

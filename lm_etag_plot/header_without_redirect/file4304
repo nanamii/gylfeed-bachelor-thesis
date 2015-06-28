@@ -1,0 +1,11 @@
+HTTP/1.1 301 Moved Permanently
+Server: Apache
+X-Backend-Server: generic6.webapp.phx1.mozilla.com
+Vary: Accept-Encoding
+Content-Type: text/html; charset=iso-8859-1
+Date: Fri, 26 Jun 2015 19:30:27 GMT
+Location: https://blog.mozilla.org/feed/
+Transfer-Encoding: chunked
+Connection: Keep-Alive
+X-Cache-Info: cached
+

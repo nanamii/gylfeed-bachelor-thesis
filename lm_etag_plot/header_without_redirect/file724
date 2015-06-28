@@ -1,0 +1,22 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Content-Type: text/html; charset=UTF-8
+Location: https://vimeo.com/creativeapps/videos/rss
+Expires: Mon, 23 Jun 2025 18:08:01 GMT
+Via: 1.1 varnish
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+X-Varnish-Cache: 0
+X-VServer: dfvimeowebproxy1
+Content-Length: 0
+Accept-Ranges: bytes
+Date: Fri, 26 Jun 2015 18:08:01 GMT
+Via: 1.1 varnish
+Age: 0
+Connection: keep-alive
+Set-Cookie: clip_ver=1; expires=Tue, 25 Aug 2015 18:08:01 GMT; path=/;
+X-Served-By: cache-fra1244-FRA
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1435342081.342933,VS0,VE107
+Vary: User-Agent,Accept-Encoding
+

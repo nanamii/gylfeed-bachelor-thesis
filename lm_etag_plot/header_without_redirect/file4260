@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Cache-Control: public
+Content-Length: 8160
+Content-Type: text/xml; charset=utf-8
+Last-Modified: Fri, 26 Jun 2015 19:14:59 GMT
+ETag: 635709249000000000:dtagent7000Z6Va
+Server: Microsoft-IIS/7.5
+Set-Cookie: dtCookie=E8937BF67A6509ACEF73BCD893D4BD42|WWW|1; Path=/; Domain=.gallup.com
+Date: Fri, 26 Jun 2015 19:38:30 GMT
+

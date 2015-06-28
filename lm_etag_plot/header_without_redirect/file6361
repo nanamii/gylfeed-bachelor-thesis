@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Cache-Control: max-age=900
+Cache-Control: no-transform
+Content-Length: 61826
+Content-Type: text/xml;charset=UTF-8
+Date: Fri, 26 Jun 2015 20:35:17 GMT
+Last-Modified: Fri, 26 Jun 2015 20:24:37 GMT
+Server: Apache
+Vary: Accept-Encoding
+X-Cooking-With: Gasoline-Local
+X-Gas_TTL: 900
+X-GasHost: gas3.use
+X-Gasoline-Age: 640
+Connection: keep-alive
+

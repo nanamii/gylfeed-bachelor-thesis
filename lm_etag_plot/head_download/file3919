@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Server: Apache/2.2
+Content-Type: text/html; charset=UTF-8
+Date: Sat, 27 Jun 2015 20:20:57 GMT
+X-Pingback: http://www.projectlife365.com/xmlrpc.php
+Transfer-Encoding: chunked
+ETag: "f2f6b2bf1d6fcf4980b67899fea6f36a"
+Connection: Keep-Alive
+Set-Cookie: X-Mapping-hamfcnmo=791E544966FAC117971EA48219C2B66D; path=/
+Last-Modified: Fri, 03 Jan 2014 16:58:03 GMT
+

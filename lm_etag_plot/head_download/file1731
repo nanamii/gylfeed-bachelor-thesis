@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Server: openresty/1.7.4.1
+Date: Sat, 27 Jun 2015 19:22:11 GMT
+Content-Type: application/xml
+Connection: keep-alive
+Cache-Control: private
+Set-Cookie: visitorDeviceClass=desktop; path=/
+Set-Cookie: ASP.NET_SessionId=iwwr4dr1dj1arns2yxc4yjjh; path=/; HttpOnly
+Set-Cookie: visitorDeviceClass=desktop; path=/
+Set-Cookie: ASP.NET_SessionId=iwwr4dr1dj1arns2yxc4yjjh; path=/; HttpOnly
+Set-Cookie: ANONID_FS56759=27.06.2015 19:22:11.789; domain=biausa.org; expires=Mon, 27-Jun-2016 19:22:11 GMT; path=/
+Set-Cookie: ANONID56759=3106f47e-abce-47a2-883a-6a6bb31c3d81; domain=biausa.org; expires=Mon, 27-Jun-2016 19:22:11 GMT; path=/
+Set-Cookie: VISID56759=126996bb-917c-4bb5-90cb-2b307476821f#www.biausa.org#27.06.2015 19:22:11.789; domain=biausa.org; expires=Sat, 27-Jun-2015 19:52:11 GMT; path=/
+

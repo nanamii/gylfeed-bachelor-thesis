@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 21:35:48 GMT
+Server: Apache
+X-Pingback: http://waffle.wootest.net/xmlrpc.php
+ETag: "67fddd7e89c782c6f218c84bceaa291f"
+Last-Modified: Sun, 16 Nov 2014 16:00:39 GMT
+Vary: Accept-Encoding
+Content-Type: text/html
+X-Pad: avoid browser bug
+

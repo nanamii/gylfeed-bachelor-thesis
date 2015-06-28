@@ -1,0 +1,16 @@
+HTTP/1.1 302 Found
+Date: Fri, 26 Jun 2015 19:38:58 GMT
+Content-Type: application/atom+xml
+Connection: keep-alive
+Set-Cookie: __cfduid=d8cb43e81dd9eb65b1bd3112a1603b5741435347538; expires=Sat, 25-Jun-16 19:38:58 GMT; path=/; domain=.typepad.com; HttpOnly
+X-PhApp: oak-tp-web047
+X-Webserver: oak-tp-web047
+Location: http://feeds.feedburner.com/GlobalNeighbourhoods
+Vary: cookie
+Expires: Fri, 26 Jun 2015 19:53:58 GMT
+X-Varnish: 1657175953
+Age: 0
+Via: 1.1 varnish
+Server: cloudflare-nginx
+CF-RAY: 1fcb6022815d2354-FRA
+

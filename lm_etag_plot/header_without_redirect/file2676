@@ -1,0 +1,17 @@
+HTTP/1.1 301 Moved Permanently
+Accept-Ranges: bytes
+Cache-Control: max-age=600
+Content-Length: 345
+Content-Type: text/html; charset=iso-8859-1
+Date: Fri, 26 Jun 2015 19:04:46 GMT
+Expires: Fri, 26 Jun 2015 19:14:46 GMT
+Location: http://www.chroniclelive.co.uk/all-about/sunday%20sun
+Server: nginx
+Via: 1.1 varnish
+X-Cache: MISS
+X-ProcessESI: yes
+X-RemovedCookies: YES
+X-Served-By: reg-cache1a.tm-aws.com
+X-Varnish: 956359587
+Connection: keep-alive
+

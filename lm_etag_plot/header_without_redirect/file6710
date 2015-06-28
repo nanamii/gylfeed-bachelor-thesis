@@ -1,0 +1,19 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Fri, 26 Jun 2015 20:43:20 GMT
+Content-Type: text/html
+Content-Length: 0
+Connection: keep-alive
+Keep-Alive: timeout=20
+X-Pingback: http://www.guernicamag.com/xmlrpc.php
+Last-Modified: Fri, 26 Jun 2015 16:39:01 GMT
+ETag: "7fb9bb0c1baaed1179a647877b7c0f81"
+Location: https://www.guernicamag.com/feed/
+X-Cacheable: CacheAlways: feed
+Cache-Control: max-age=86400, must-revalidate
+Accept-Ranges: bytes
+X-Cache: HIT: 147
+X-Pass-Why: 
+X-Cache-Group: 
+X-Type: feed
+

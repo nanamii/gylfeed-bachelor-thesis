@@ -1,0 +1,16 @@
+HTTP/1.1 301 Moved Permanently
+cache-control: no-cache, no-store
+Date: Fri, 26 Jun 2015 19:27:00 GMT
+Edge-control: no-cache, no-store
+Location: http://www.netflix.com/NewWatchInstantlyRSS
+Server: UNKNOWN UNKNOWN
+Set-Cookie: memclid=75245327-0c8b-45c3-88d9-7824609ad7ee; Domain=.netflix.com; Expires=Sat, 25-Jun-2016 19:27:00 GMT; Path=/
+Set-Cookie: tlr=DE|1435346820436; Domain=.netflix.com; Expires=Mon, 20-Jun-2016 19:27:00 GMT
+Strict-Transport-Security: max-age=0; includeSubDomains
+via: 1.1 i-99fe7c33 (eu-west-1)
+X-Content-Type-Options: nosniff
+X-Netflix.nfstatus: 1
+X-Originating-URL: http://movies.netflix.com/NewWatchInstantlyRSS
+X-Xss-Protection: 1; mode=block
+Connection: keep-alive
+

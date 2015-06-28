@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 20:39:03 GMT
+Server: Apache/2.2.9 (Unix) mod_ssl/2.2.9 OpenSSL/0.9.8e-fips-rhel5 mod_auth_passthrough/2.1 mod_bwlimited/1.4
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+X-Pingback: http://edenmakersblog.com/xmlrpc.php
+ETag: "67b35c271568583ce8b5a148126bf749"
+Set-Cookie: PHPSESSID=4b1505354095661b61934f2f3d37c253; path=/
+Last-Modified: Sat, 30 May 2015 10:59:31 GMT
+Content-Type: text/html
+

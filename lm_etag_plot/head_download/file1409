@@ -1,0 +1,19 @@
+HTTP/1.1 200 OK
+Server: nginx
+X-Cacheable: CacheAlways: feed
+Cache-Control: max-age=600, must-revalidate
+X-Cache: HIT: 3
+Content-Type: text/xml; charset=UTF-8
+X-Cache-Group: 
+Date: Sat, 27 Jun 2015 19:15:31 GMT
+X-Pingback: http://blog.mindjet.com/xmlrpc.php
+Keep-Alive: timeout=20
+X-Type: feed
+Transfer-Encoding: chunked
+ETag: "466aac3ddbd8646bffd5487314cd4634"
+Connection: Keep-Alive
+X-Pass-Why: 
+Set-Cookie: X-Mapping-fjhppofk=F3A88A8D48442D2E7A1D506B06848332; path=/
+X-Robots-Tag: noindex,follow
+Last-Modified: Sat, 27 Jun 2015 00:29:39 GMT
+

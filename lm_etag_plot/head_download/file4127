@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 20:24:35 GMT
+Content-Type: text/xml; charset=UTF-8
+Connection: keep-alive
+Set-Cookie: __cfduid=d4164d506b54f01a36e29e7f4655661601435436675; expires=Sun, 26-Jun-16 20:24:35 GMT; path=/; domain=.theletteredcottage.net; HttpOnly
+X-Powered-By: PHP/5.5.24
+Vary: Accept-Encoding,Cookie,User-Agent
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+X-Pingback: http://theletteredcottage.net/xmlrpc.php
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+WP-Super-Cache: Served legacy cache file
+ETag: W/"278ab899136bd555bea728df492928c1"
+Server: cloudflare-nginx
+CF-RAY: 1fd3e05416ad15d1-FRA
+

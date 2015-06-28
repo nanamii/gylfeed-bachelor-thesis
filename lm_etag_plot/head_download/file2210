@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Server: Apache/2.2.15 (Red Hat)
+SET-COOKIE: CSPSESSIONID-SP-80-UP-=002000040000NAxKXsYnvY0000AWeuox8TXHOnaepthVz2WQ--; path=/;  HttpOnly;
+CACHE-CONTROL: no-cache
+EXPIRES: Thu, 29 Oct 1998 17:04:19 GMT
+PRAGMA: no-cache
+SET-COOKIE: CSPWSERVERID=9cf7cb84baea1c7720dd134fd8ef903528fcb9ee; path=/;
+Content-Type: text/html; charset=utf-8
+Date: Sat, 27 Jun 2015 19:30:58 GMT
+X-Varnish: 2073604534
+Age: 0
+Via: 1.1 varnish
+Connection: keep-alive
+X-Varnish-Cache: MISS
+Set-Cookie: SLT=SLT_ECP1; path=/
+

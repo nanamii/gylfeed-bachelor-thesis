@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+x-amz-id-2: E2ngRXKEozMPaECJtJZKNv7QHW35RLrysDkP7v69Q2Gb0QOdaSEF6p2T7DdZwskOONOD0rX9IXc=
+x-amz-request-id: 0EA3195876CBDEDA
+Date: Sat, 27 Jun 2015 21:34:31 GMT
+Last-Modified: Wed, 19 Feb 2014 05:53:02 GMT
+ETag: "5ded2d2216e3411f8b5d184533a4d632"
+Content-Type: application/xml
+Content-Length: 64963
+Server: AmazonS3
+

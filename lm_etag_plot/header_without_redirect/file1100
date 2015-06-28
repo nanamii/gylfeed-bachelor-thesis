@@ -1,0 +1,14 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx/1.8.0
+Date: Fri, 26 Jun 2015 18:17:24 GMT
+Content-Type: application/rss+xml; charset="UTF-8"
+Connection: keep-alive
+Vary: Cookie
+X-Pingback: http://joycelayman.com/xmlrpc.php
+ETag: "e88fb8ea9549f0be517b2a31840306ac"
+Set-Cookie: wfvt_3684794475=558d97340156a; expires=Fri, 26-Jun-2015 18:47:23 GMT; path=/; httponly
+Last-Modified: Fri, 19 Jun 2015 01:45:41 GMT
+Location: http://joycelayman.com/feed/
+Cache-Control: max-age=172800
+Expires: Sun, 28 Jun 2015 18:17:22 GMT
+

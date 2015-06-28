@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:07:51 GMT
+Server: Apache
+Access-Control-Allow-Origin: http://prices.appleinsider.com
+Set-Cookie: PHPSESSID=s85uhkdh499bu8m56u2el7bfb6; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Type: application/rss+xml; charset=ISO-8859-1
+

@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 18:18:35 GMT
+Server: Apache
+Expires: Wed, 11 Jan 1984 05:00:00 GMT
+Cache-Control: no-cache, must-revalidate, max-age=0
+Pragma: no-cache
+X-Pingback: http://www.ibalnet.com/xmlrpc.php
+ETag: "1a72deea75c996b35de9f1a1b76fed8b"
+X-Robots-Tag: noindex,follow
+Last-Modified: Tue, 03 Mar 2015 13:03:43 GMT
+Vary: Accept-Encoding
+Connection: close
+Content-Type: text/html
+

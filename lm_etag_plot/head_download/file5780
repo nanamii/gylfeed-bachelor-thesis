@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Cache-Control: no-store, no-cache, must-revalidate
+Cache-Control: post-check=0, pre-check=0
+Cache-control: no-cache="set-cookie"
+Content-Type: application/xml; charset=utf-8
+Date: Sat, 27 Jun 2015 21:30:58 GMT
+Expires: Sun, 01 Jan 2014 00:00:00 GMT
+Pragma: no-cache
+Server: Apache/2.2.29 (Amazon)
+Set-Cookie: lbh_session=6JTffNPkYqZ%2F9RTEPfI1ZqRYfjuQgGcfIOiIbjdk89eL7SYXB83%2FOKpRusrKa65R5S9gVaqsH2BjFaVywhSQMhzyr%2B9veWnHdp90YNF57258OE2PiH%2FaY295acG06JArjbX64BTRx7VzVcijSNC1RMEV2%2FegoSOfaKZ0tC%2FBANzIPxVgc8CYbm%2BYbhlPmPPon5lT%2BY%2FF7BUxF60yQ3TTWPnRwierm3Z1exOnGSvwGIA9dkqNFBXs7HbCCKyaTwOUuw1meb5dPGNxdOsojJkl%2FWo%2FAI5pd3tgLnu90hGEp4k%3Da8ce12e772564f18b89dd717c4da132a2f6d4055; expires=Tue, 07-Jul-2015 21:30:58 GMT; path=/
+Set-Cookie: AWSELB=E93BBFC71E4DF46DDD850E2C67B1FBE52FEAA0E1032F7CF3FF0F92B2D73C3F5AEDB742CA1188547D5114CAE1E009A5825A37D5C7B7129DB2888FD1967E9A749B763EEF9167;PATH=/;MAX-AGE=604800
+X-Powered-By: PHP/5.3.28
+X-UA-Compatible: IE=Edge,chrome=1
+Connection: keep-alive
+

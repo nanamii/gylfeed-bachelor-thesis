@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 18:15:34 GMT
+Server: Apache
+X-Powered-By: PHP/5.3.29
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+X-Pingback: http://ministrycss.com/xmlrpc.php
+ETag: "6a84a8a405637459b346b4649ed5b0bc"
+Set-Cookie: PHPSESSID=61528e508beae3a4e7dd14275f1fa501; path=/
+Set-Cookie: ct_cookies_test=bdb39bcde250feba0fbacea8d8cd2a76; path=/
+Last-Modified: Fri, 11 Apr 2014 18:35:58 GMT
+Content-Type: text/html
+

@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 20:35:47 GMT
+Server: Apache
+Vary: Cookie,Accept-Encoding
+X-Pingback: http://stmts.net/xmlrpc.php
+ETag: "df7a8f25858d2f9c2c5fbb64cdb153be"
+WP-Super-Cache: Served legacy cache file
+Content-Type: text/xml; charset=UTF-8
+

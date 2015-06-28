@@ -1,0 +1,17 @@
+HTTP/1.1 200 OK
+Server: Apache/2.2.26 (Unix)
+Last-Modified: Sat, 27 Jun 2015 18:20:00 GMT
+ETag: "2dfaac-233a-51983e7935eab"
+USNJLWEB46: D=30681 microseconds
+Content-Type: application/xml
+X-Forwarded-For: 178.255.215.130
+X-Varnish-beresp-ttl: 1800.000
+X-Varnish-beresp-grace: 864000.000
+X-Varnish-beresp-status: 200
+Date: Sat, 27 Jun 2015 19:21:06 GMT
+X-Varnish: 459624747 459598871
+Age: 638
+Via: 1.1 varnish
+Connection: keep-alive
+X-Cache: HIT
+

@@ -1,0 +1,23 @@
+HTTP/1.1 200 OK
+Set-Cookie: JSESSIONID=B067595DC7855C745A12E38203520BD0; Path=/ind/; HttpOnly
+Content-Type: text/xml;charset=UTF-8
+Content-Language: en-UK
+X-Backend: appweb6ind
+Via: 1.1 varnish
+X-Cache-Origin: HIT
+X-Server: webcache1
+X-Age: 500
+Via: 1.1 varnish
+Cache-Control: max-age=600
+Content-Length: 98332
+Accept-Ranges: bytes
+Date: Sat, 27 Jun 2015 19:22:05 GMT
+Via: 1.1 varnish
+Age: 78
+Connection: keep-alive
+X-Served-By: cache-lcy1127-LCY, cache-ams4132-AMS
+X-Cache: HIT, MISS
+X-Cache-Hits: 1, 0
+X-Timer: S1435432925.536471,VS0,VE10
+Vary: Accept-Encoding, Mobile
+

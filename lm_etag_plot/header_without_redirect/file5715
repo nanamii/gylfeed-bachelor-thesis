@@ -1,0 +1,7 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 20:21:09 GMT
+Server: Apache/2.2.26 (Unix) mod_ssl/2.2.26 OpenSSL/1.0.0-fips mod_bwlimited/1.4 PHP/5.3.27
+Location: http://blog.normalkid.com/feed/
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+

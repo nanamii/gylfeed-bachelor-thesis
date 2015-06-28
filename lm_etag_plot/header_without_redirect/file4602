@@ -1,0 +1,12 @@
+HTTP/1.1 302 Found
+Server: Apache/2.2.15 (CentOS) DAV/2 mod_ssl/2.2.15 OpenSSL/1.0.1e-fips
+X-Varnish: 860330144 860315543
+X-Cache: HIT
+Content-Type: text/html; charset=iso-8859-1
+Date: Fri, 26 Jun 2015 19:44:01 GMT
+Location: http://joythebaker.com/feed
+Transfer-Encoding: chunked
+Via: 1.1 varnish
+Connection: Keep-Alive
+Age: 386
+

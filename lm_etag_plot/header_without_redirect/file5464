@@ -1,0 +1,12 @@
+HTTP/1.1 404 Not Found
+Date: Fri, 26 Jun 2015 20:16:23 GMT
+Server: Apache/2.2.22
+X-Powered-By: PHP/5.3.29
+X-Pingback: http://www.gardenfork.tv/xmlrpc.php
+Expires: Wed, 11 Jan 1984 05:00:00 GMT
+Cache-Control: no-cache, must-revalidate, max-age=0
+Pragma: no-cache
+X-Robots-Tag: noindex,follow
+Vary: User-Agent,Accept-Encoding
+Content-Type: text/xml; charset=UTF-8
+

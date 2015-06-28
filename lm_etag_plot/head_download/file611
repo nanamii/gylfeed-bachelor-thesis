@@ -1,0 +1,18 @@
+HTTP/1.1 200 OK
+Server: nginx/1.7.9
+Date: Sat, 27 Jun 2015 18:43:14 GMT
+Content-Type: text/xml; charset=UTF-8
+Connection: keep-alive
+Vary: Accept-Encoding
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+X-Pingback: http://retechtherapy.com/xmlrpc.php
+ETag: "5f8dbf581fdda8b258cb5d717884c2a0"
+X-Robots-Tag: noindex,follow
+Vary: Accept-Encoding
+Set-Cookie: PHPSESSID=7vsgucpj1bdiq3r2987s3pll94; path=/
+Last-Modified: Tue, 19 May 2015 12:46:57 GMT
+Host-Header: 192fc2e7e50945beb8231a492d6a8024
+X-Proxy-Cache: MISS
+

@@ -1,0 +1,14 @@
+HTTP/1.1 302 Found
+ETag: W/"cc81fcb7-2e70-4856-b8c4-187e05ecfb24"
+Date: Fri, 26 Jun 2015 19:38:32 GMT
+Content-Type: text/html
+Server: blogger-renderd
+Expires: Fri, 26 Jun 2015 19:38:33 GMT
+Cache-Control: public, must-revalidate, proxy-revalidate, max-age=1
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Location: http://feeds.feedburner.com/GoogleMapsMania
+X-Frame-Options: SAMEORIGIN
+Alternate-Protocol: 80:quic,p=0
+Transfer-Encoding: chunked
+

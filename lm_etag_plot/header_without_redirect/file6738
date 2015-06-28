@@ -1,0 +1,11 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 20:43:36 GMT
+Server: Apache/2.2.15 (Red Hat)
+X-Powered-By: PHP/5.3.3
+X-Pingback: http://blog.historians.org/xmlrpc.php
+Last-Modified: Fri, 26 Jun 2015 18:16:41 GMT
+ETag: "e59d686efb7ccb7e1ad8ffe7caeb8c72"
+Location: http://blog.historians.org/feed/
+Connection: close
+Content-Type: text/html; charset=UTF-8
+

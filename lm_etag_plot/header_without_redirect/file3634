@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Server: Apache
+X-Varnish: 1527810915 1527809880
+Vary: Accept-Encoding
+X-Cache: HIT
+Content-Type: text/xml; charset=UTF-8
+X-Pingback: http://earthsky.org/xmlrpc.php
+Date: Fri, 26 Jun 2015 19:21:32 GMT
+Transfer-Encoding: chunked
+ETag: "e64d63d7b872fbe75b94a7c40b2f8452"
+Via: 1.1 varnish
+Connection: Keep-Alive
+Set-Cookie: X-Mapping-fjhppofk=58911152587F32654DAB92B32D04DC2A; path=/
+Last-Modified: Fri, 26 Jun 2015 18:17:20 GMT
+Age: 117
+

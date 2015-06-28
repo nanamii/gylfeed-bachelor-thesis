@@ -1,0 +1,19 @@
+HTTP/1.1 404 Not Found
+Date: Fri, 26 Jun 2015 19:39:29 GMT
+Content-Type: text/html; charset=utf-8
+Connection: keep-alive
+Set-Cookie: __cfduid=d07f7e5df823447e4771e2f1abc1488b31435347568; expires=Sat, 25-Jun-16 19:39:28 GMT; path=/; domain=.knightdigitalmediacenter.org; HttpOnly
+Cache-Control: public, max-age=21600
+Last-Modified: Fri, 26 Jun 2015 19:39:28 +0000
+Expires: Sun, 11 Mar 1984 12:00:00 GMT
+Vary: Cookie,Accept-Encoding
+ETag: W/"1435347568"
+X-Request-ID: v-0f2658a2-1c3b-11e5-bc90-22000a1d895c
+X-AH-Environment: prod
+X-Varnish: 1802569525
+Age: 0
+Via: 1.1 varnish
+X-Cache: MISS
+Server: cloudflare-nginx
+CF-RAY: 1fcb60dfbb210f63-FRA
+

@@ -1,0 +1,11 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 18:12:44 GMT
+Server: Apache/2.2.22
+X-Powered-By: PHP/5.3.29
+X-Pingback: http://blog.inspirit.ru/xmlrpc.php
+ETag: "4597515b87dbaa79676747818af353c6"
+Last-Modified: Tue, 11 Sep 2012 10:20:43 GMT
+Location: http://blog.inspirit.ru/feed/atom/
+Vary: User-Agent,Accept-Encoding
+Content-Type: text/html
+

@@ -1,0 +1,10 @@
+HTTP/1.1 404 Not Found
+Date: Fri, 26 Jun 2015 18:08:02 GMT
+Server: Apache
+X-Pingback: http://www.blog.ni9e.com/xmlrpc.php
+Expires: Wed, 11 Jan 1984 05:00:00 GMT
+Cache-Control: no-cache, must-revalidate, max-age=0
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Type: text/html; charset=UTF-8
+

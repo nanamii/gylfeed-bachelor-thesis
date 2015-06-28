@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 18:57:24 GMT
+Server: Apache/2.2.3 (CentOS)
+X-Powered-By: PHP/5.3.3
+Vary: Cookie,Accept-Encoding
+X-Pingback: http://blog.kingarthurflour.com/xmlrpc.php
+Last-Modified: Fri, 26 Jun 2015 05:01:28 GMT
+ETag: "e7f189e5371e7f77052c88e297b20927"
+X-Robots-Tag: noindex,follow
+Content-Type: text/html; charset=UTF-8
+X-Cache: MISS from localhost.localdomain
+X-Cache-Lookup: MISS from localhost.localdomain:3128
+Via: 1.0 localhost.localdomain:3128 (squid/2.6.STABLE21)
+

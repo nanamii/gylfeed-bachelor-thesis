@@ -1,0 +1,10 @@
+HTTP/1.1 302 Found
+Cache-Control: public, max-age=300, s-maxage=300
+Content-Type: text/html; charset=UTF-8
+Date: Fri, 26 Jun 2015 19:13:40 GMT
+Location: http://www.villagevoice.com/runninscared/rss.xml
+Server: Apache/2.2.12 (Linux/SUSE)
+Vary: Accept-Encoding
+X-Powered-By: PHP/5.3.17
+Content-Length: 0
+

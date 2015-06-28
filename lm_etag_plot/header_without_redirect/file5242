@@ -1,0 +1,12 @@
+HTTP/1.1 302 Found
+Server: Apache/2.2
+Content-Type: text/html; charset=UTF-8
+Date: Fri, 26 Jun 2015 20:14:03 GMT
+X-Pingback: http://www.rajeshsetty.com/xmlrpc.php
+Location: http://feeds.feedburner.com/lifebeyondcode
+Transfer-Encoding: chunked
+ETag: "d731accad3b9ec8b8310dfb153be75a1"
+Connection: Keep-Alive
+Set-Cookie: X-Mapping-nfchjghl=61F06182C3FB423CF098925A25DD04FD; path=/
+Last-Modified: Mon, 27 Apr 2015 15:15:08 GMT
+

@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+Server: nginx/1.4.2
+Date: Sat, 27 Jun 2015 19:46:36 GMT
+Content-Type: text/xml
+Connection: keep-alive
+X-Served-By: ip-10-10-1-49
+Set-Cookie: Apache=92.194.59.39.252241435434396637; path=/; expires=Sun, 26-Jun-16 19:46:36 GMT
+P3P: CP="ALL DSP COR DEVa TAIa OUR IND DEM"
+

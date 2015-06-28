@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Server: nginx/1.8.0
+Date: Fri, 26 Jun 2015 18:16:59 GMT
+Content-Type: text/html
+Connection: keep-alive
+X-Pingback: http://www.richlifeadvisors.com/xmlrpc.php
+ETag: "a71ebe9fadeb99dac46ca42e87b8497e"
+X-Robots-Tag: noindex,follow
+Last-Modified: Thu, 25 Jun 2015 11:20:03 GMT
+

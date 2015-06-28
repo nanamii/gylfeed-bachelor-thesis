@@ -1,0 +1,10 @@
+HTTP/1.1 302 Temporary Redirect
+Date: Fri, 26 Jun 2015 18:17:40 GMT
+Server: Apache
+X-Powered-By: PHP/5.3.29
+X-Pingback: http://jerrykennedy.com/xmlrpc.php
+ETag: "525992997a9c451f5640437c200c6d0e"
+Last-Modified: Fri, 12 Sep 2014 01:28:07 GMT
+Location: http://feeds.feedburner.com/choosing-truth
+Content-Type: text/html
+

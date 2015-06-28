@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 19:43:54 GMT
+Server: Apache
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+X-Pingback: http://whippedtheblog.com/xmlrpc.php
+ETag: "d1f6970dcad57fcd0b53634f52bdb862"
+Set-Cookie: PHPSESSID=sp42un09l43s2v0mskp9etc2r2; path=/
+Set-Cookie: wfvt_865744921=558dab7ac02b4; expires=Fri, 26-Jun-2015 20:13:54 GMT; path=/; httponly
+Last-Modified: Fri, 26 Jun 2015 17:01:50 GMT
+Vary: Accept-Encoding
+Content-Type: text/html
+

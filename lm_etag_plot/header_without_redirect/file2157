@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Server: nginx/1.8.0
+Date: Fri, 26 Jun 2015 18:56:56 GMT
+Content-Type: text/html
+Connection: keep-alive
+X-Pingback: http://www.bonnietaubdix.com/xmlrpc.php
+ETag: "959439f1d10cb05196b34d07f258281b"
+Set-Cookie: wfvt_126965683=558da0783493c; expires=Fri, 26-Jun-2015 19:26:56 GMT; path=/; httponly
+Last-Modified: Thu, 18 Jun 2015 18:19:32 GMT
+

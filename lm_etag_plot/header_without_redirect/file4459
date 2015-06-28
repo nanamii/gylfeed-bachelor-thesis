@@ -1,0 +1,10 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx/1.8.0
+Date: Fri, 26 Jun 2015 19:42:49 GMT
+Content-Type: text/html
+Connection: keep-alive
+X-Pingback: http://www.valleygardens.com/blog/xmlrpc.php
+ETag: "40ce1a75cdfb18fbad6a10e0a889ed0a"
+Last-Modified: Thu, 19 Mar 2015 23:50:46 GMT
+Location: http://www.valleygardens.com/blog/feed/
+

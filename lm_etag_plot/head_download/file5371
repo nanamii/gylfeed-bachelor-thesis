@@ -1,0 +1,8 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 21:19:53 GMT
+Server: Jetty/5.1.12 (Linux/2.6.18.8-linode22 i386 java/1.6.0_19
+Vary: Accept-Encoding
+X-SUP-ID: http://ourdoings.com/sup.json#296
+Content-Type: application/rss+xml;charset=UTF-8
+Content-Length: 135624
+

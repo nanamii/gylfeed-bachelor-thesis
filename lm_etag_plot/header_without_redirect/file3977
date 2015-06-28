@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 19:25:41 GMT
+Server: Apache/2.2.22 (Ubuntu)
+Vary: Accept-Encoding,User-Agent
+X-FpcMode-Result: PASS-THRU
+Cache-Control: no-cache, must-revalidate, post-check=0, pre-check=0
+Expires: Fri, 26 Jun 2015 19:25:41 GMT
+Content-Type: application/xml; charset="utf-8"
+Set-Cookie: SERVERID=; Expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/
+

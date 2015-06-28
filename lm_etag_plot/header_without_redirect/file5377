@@ -1,0 +1,16 @@
+HTTP/1.1 302 Found
+Date: Fri, 26 Jun 2015 20:15:21 GMT
+Content-Type: application/atom+xml
+Connection: keep-alive
+Set-Cookie: __cfduid=d3cae698d6da5930e0d1f47ef7014b5aa1435349721; expires=Sat, 25-Jun-16 20:15:21 GMT; path=/; domain=.blogs.com; HttpOnly
+X-PhApp: oak-tp-web034
+X-Webserver: oak-tp-web034
+Location: http://feeds.feedburner.com/OutsideInnovation
+Vary: cookie
+Expires: Fri, 26 Jun 2015 20:19:45 GMT
+X-Varnish: 1658084372 1657825346
+Age: 636
+Via: 1.1 varnish
+Server: cloudflare-nginx
+CF-RAY: 1fcb956ca0d415dd-FRA
+

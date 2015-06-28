@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 20:13:30 GMT
+Content-Type: text/xml; charset=UTF-8
+Connection: keep-alive
+Set-Cookie: __cfduid=d2e894d88142234fd276f064caf5f31061435436010; expires=Sun, 26-Jun-16 20:13:30 GMT; path=/; domain=.thegooglecache.com; HttpOnly
+X-Powered-By: PHP/5.3.3
+Vary: Accept-Encoding,Cookie
+X-Pingback: http://www.thegooglecache.com/xmlrpc.php
+WP-Super-Cache: Served legacy cache file
+Server: cloudflare-nginx
+CF-RAY: 1fd3d0189519231e-FRA
+

@@ -1,0 +1,18 @@
+HTTP/1.1 200 OK
+Content-Type: application/rss+xml; charset=utf-8
+ETag: "1435434417"
+Last-Modified: Sat, 27 Jun 2015 19:46:57 +0000
+Server: Apache
+X-Drupal-Cache: MISS
+Cache-Control: max-age=180s
+Content-Length: 7438
+Accept-Ranges: bytes
+Date: Sat, 27 Jun 2015 19:46:57 GMT
+Via: 1.1 varnish
+Age: 0
+Connection: keep-alive
+X-Served-By: cache-fra1242-FRA
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1435434416.969544,VS0,VE804
+

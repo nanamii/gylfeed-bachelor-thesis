@@ -1,0 +1,16 @@
+HTTP/1.1 302 Found
+Date: Fri, 26 Jun 2015 19:49:18 GMT
+Content-Type: application/atom+xml
+Connection: keep-alive
+Set-Cookie: __cfduid=db761722cc1a890d3cd6a8f9503947e761435348158; expires=Sat, 25-Jun-16 19:49:18 GMT; path=/; domain=.typepad.com; HttpOnly
+X-PhApp: oak-tp-web021
+X-Webserver: oak-tp-web021
+Location: http://feeds.feedburner.com/NicholasBate
+Vary: cookie
+Expires: Fri, 26 Jun 2015 20:04:18 GMT
+X-Varnish: 845998999
+Age: 0
+Via: 1.1 varnish
+Server: cloudflare-nginx
+CF-RAY: 1fcb6f440ac315bf-FRA
+

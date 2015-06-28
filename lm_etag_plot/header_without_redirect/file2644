@@ -1,0 +1,11 @@
+HTTP/1.1 301 Moved Permanently
+Server: CloudFront
+Date: Fri, 26 Jun 2015 19:02:22 GMT
+Content-Type: text/html
+Content-Length: 183
+Connection: keep-alive
+Location: https://storify.com/rss/all/popularity
+X-Cache: Redirect from cloudfront
+Via: 1.1 b9a8ce441329f20cea895e08f19f1ec8.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: hrk_teB5vABDpKBWe_ZAaUdudPSeSuy_eB4BXhpNiycnZv2Yx1dGxA==
+

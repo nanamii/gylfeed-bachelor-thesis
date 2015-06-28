@@ -1,0 +1,17 @@
+HTTP/1.1 200 OK
+Server: nginx/1.7.9
+Date: Fri, 26 Jun 2015 18:41:14 GMT
+Content-Type: text/xml; charset=UTF-8
+Connection: keep-alive
+Vary: Accept-Encoding
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+X-Pingback: http://learningismessy.com/blog/xmlrpc.php
+ETag: "0d49fea69a88eba99e0b421d173dd818"
+Set-Cookie: PHPSESSID=ic4l3v4l7hjjogpjm2v77olke1; path=/
+Set-Cookie: wp-visits-time=1; expires=Fri, 03-Jul-2015 18:41:14 GMT; Max-Age=604800; path=/blog
+Last-Modified: Tue, 05 May 2015 22:44:51 GMT
+Host-Header: 192fc2e7e50945beb8231a492d6a8024
+X-Proxy-Cache: MISS
+

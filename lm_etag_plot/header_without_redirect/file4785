@@ -1,0 +1,15 @@
+HTTP/1.1 302 Temporary Redirect
+Date: Fri, 26 Jun 2015 19:46:01 GMT
+Server: Apache
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+X-Pingback: http://www.matthewmoranonline.com/xmlrpc.php
+ETag: "57c7ecd9a82093d09017f738a1b60447"
+X-Robots-Tag: noindex,follow
+Set-Cookie: PHPSESSID=775294531ef64f300f1b6316bd823d27; path=/
+Set-Cookie: edd_items_in_cart=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/
+Last-Modified: Sun, 21 Jun 2015 17:10:39 GMT
+Location: http://feeds.feedburner.com/MatthewMoranOnline
+Content-Type: text/html
+

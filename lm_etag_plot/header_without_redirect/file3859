@@ -1,0 +1,14 @@
+HTTP/1.1 302 Found
+ETag: W/"371d9e96-89f4-4769-8680-0be1e2f761cb"
+Date: Fri, 26 Jun 2015 19:24:10 GMT
+Content-Type: text/html
+Server: blogger-renderd
+Expires: Fri, 26 Jun 2015 19:24:11 GMT
+Cache-Control: public, must-revalidate, proxy-revalidate, max-age=1
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Location: http://feeds.feedburner.com/patheos/AmBuddhist
+X-Frame-Options: SAMEORIGIN
+Alternate-Protocol: 80:quic,p=0
+Transfer-Encoding: chunked
+

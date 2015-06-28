@@ -1,0 +1,11 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 19:29:49 GMT
+Content-Length: 0
+Connection: keep-alive
+Set-Cookie: __cfduid=da2765f02720c2f14736073c85e7492511435346989; expires=Sat, 25-Jun-16 19:29:49 GMT; path=/; domain=.almasryalyoum.com; HttpOnly
+Location: http://www.egyptindependent.com/
+X-Powered-By: ASP.NET
+Access-Control-Allow-Origin: *
+Server: cloudflare-nginx
+CF-RAY: 1fcb52b9787908a5-FRA
+

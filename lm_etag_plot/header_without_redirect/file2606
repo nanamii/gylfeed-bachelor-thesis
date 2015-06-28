@@ -1,0 +1,19 @@
+HTTP/1.1 404 Not Found
+Server: Apache
+X-Drupal-Cache: HIT
+Etag: "1435344494-1"
+Content-Language: en
+X-Generator: Drupal 7 (http://drupal.org)
+Link: <http://newsbusters.org/>; rel="shortlink",<http://newsbusters.org/>; rel="canonical"
+Cache-Control: public, max-age=300
+Last-Modified: Fri, 26 Jun 2015 18:48:14 GMT
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Vary: Cookie,Accept-Encoding
+Content-Type: text/html; charset=utf-8
+Date: Fri, 26 Jun 2015 19:01:22 GMT
+X-Varnish: 615993305 615962971
+Age: 299
+Via: 1.1 varnish
+Connection: keep-alive
+X-Cache: HIT
+

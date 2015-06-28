@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Set-Cookie: 240planBAK=R2339303237; path=/; expires=Sat, 27-Jun-2015 21:28:29 GMT
+Date: Sat, 27 Jun 2015 20:21:49 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+Set-Cookie: 240plan=R130236236; path=/; expires=Sat, 27-Jun-2015 21:22:47 GMT
+Server: Apache
+X-Powered-By: PHP/5.4.38
+X-Pingback: http://www.robotic-lab.com/blog/xmlrpc.php
+Link: <http://wp.me/1YYAx>; rel=shortlink
+Vary: Accept-Encoding
+

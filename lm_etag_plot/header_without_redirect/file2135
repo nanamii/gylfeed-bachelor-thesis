@@ -1,0 +1,19 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Fri, 26 Jun 2015 19:01:14 GMT
+Content-Type: text/html; charset=utf-8
+Connection: keep-alive
+Set-Cookie: SESS2f74f834e074f5e9ebe0e3408434d839=6371isbd8cqrf1qust2cu3hfn0; expires=Sun, 19-Jul-2015 22:34:34 GMT; path=/; domain=.eatingwell.com
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Last-Modified: Fri, 26 Jun 2015 19:01:14 GMT
+Cache-Control: store, no-cache, must-revalidate
+Cache-Control: post-check=0, pre-check=0
+Location: http://www.eatingwell.com/rss_feeds/menus/rss.xml
+Vary: Accept-Encoding
+X-Server-Name: ewB1129ngx
+Access-Control-Allow-Origin: http://mobile.eatingwell.com
+Access-Control-Allow-Methods: GET,PUT,POST,DELETE,OPTIONS
+Access-Control-Allow-Headers: Content-Type
+Access-Control-Allow-Credentials: true
+X-Backend-Server: ewb1129ngx
+

@@ -1,0 +1,7 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:57:23 GMT
+Server: Apache/2.2.16 (Unix) PHP/5.3.8
+Vary: X-Forwarded-Host,Accept-Encoding,User-Agent
+X-Powered-By: PHP/5.3.8
+Content-Type: text/xml
+

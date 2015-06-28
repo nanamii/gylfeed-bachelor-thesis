@@ -1,0 +1,16 @@
+HTTP/1.1 302 Temporary Redirect
+Date: Fri, 26 Jun 2015 19:09:39 GMT
+Content-Type: text/html
+Connection: keep-alive
+Set-Cookie: __cfduid=d9f96752b1b66823279fe88e39a1bc48d1435345779; expires=Sat, 25-Jun-16 19:09:39 GMT; path=/; domain=.buzzmachine.com; HttpOnly
+X-Pingback: http://buzzmachine.com/xmlrpc.php
+Last-Modified: Tue, 26 May 2015 17:24:22 GMT
+ETag: "4e289f6b99c2e5ece5b17247d3cae682"
+Location: http://feedproxy.google.com/BuzzMachine
+X-Cacheable: CacheAlways: feed
+Cache-Control: max-age=86400, must-revalidate
+X-Cache: HIT: 2996
+X-Type: feed
+Server: cloudflare-nginx
+CF-RAY: 1fcb3530a9110f87-FRA
+

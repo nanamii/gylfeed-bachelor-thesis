@@ -1,0 +1,14 @@
+HTTP/1.1 302 Temporary Redirect
+Date: Fri, 26 Jun 2015 18:20:53 GMT
+Server: Apache
+X-Powered-By: PHP/5.3.29
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+X-Pingback: http://lessoninlife.com/xmlrpc.php
+ETag: "f2f198ee46a409ea7240a31b4d7888df"
+Set-Cookie: PHPSESSID=e79ccbb30a82bc90dfbc60ac19d7a0cc; path=/
+Last-Modified: Tue, 21 Sep 2010 05:34:07 GMT
+Location: http://feeds2.feedburner.com/LessonInLife
+Content-Type: text/html
+

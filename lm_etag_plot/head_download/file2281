@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Server: Apache/2.2.15 (Red Hat)
+X-NIDS-ServerID: www10.mo
+Content-Type: application/rss+xml
+Content-Length: 300823
+Cache-Control: max-age=104
+Expires: Sat, 27 Jun 2015 19:34:19 GMT
+Date: Sat, 27 Jun 2015 19:32:35 GMT
+Connection: keep-alive
+

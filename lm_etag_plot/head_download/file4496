@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 20:33:54 GMT
+Content-Type: text/xml; charset=UTF-8
+Connection: keep-alive
+Set-Cookie: __cfduid=dc1c2e00489327300df3f66d399388f391435437233; expires=Sun, 26-Jun-16 20:33:53 GMT; path=/; domain=.cookiemadness.net; HttpOnly
+Vary: Cookie,Accept-Encoding
+X-Pingback: http://www.cookiemadness.net/xmlrpc.php
+ETag: W/"52a644d998427eccf82544dd01c09783"
+WP-Super-Cache: Served legacy cache file
+Server: cloudflare-nginx
+CF-RAY: 1fd3edf852cc157d-FRA
+

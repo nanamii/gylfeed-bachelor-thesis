@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:34:14 GMT
+Server: Apache/2.2.15 (CentOS)
+X-Powered-By: PHP/5.3.3
+Vary: Cookie
+X-Pingback: http://www.dvorak.org/blog/xmlrpc.php
+ETag: "62a441641e35f9f23d29dfbc8c98e0dd"
+WP-Super-Cache: Served legacy cache file
+Connection: close
+Content-Type: text/xml; charset=UTF-8
+

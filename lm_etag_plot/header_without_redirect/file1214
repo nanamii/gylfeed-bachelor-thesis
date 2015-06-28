@@ -1,0 +1,10 @@
+HTTP/1.1 302 Temporary Redirect
+Date: Fri, 26 Jun 2015 18:19:02 GMT
+Server: Apache
+Vary: Cookie
+X-Pingback: http://www.mind-mapping.org/blog/xmlrpc.php
+Last-Modified: Sun, 17 May 2015 16:15:40 GMT
+ETag: "9e259c28e94018321fe00be2961e5180"
+Location: http://feeds.feedburner.com/mind-mapping/uhLZ
+Content-Type: application/rss+xml; charset="UTF-8"
+

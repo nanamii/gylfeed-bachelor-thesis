@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 21:30:10 GMT
+Server: Apache
+Vary: Cookie
+X-Pingback: https://dhammaseeker.com/xmlrpc.php
+ETag: "97ca6d3dcde77470b01fbf745595d40e"
+WP-Super-Cache: Served legacy cache file
+Content-Type: text/xml; charset=UTF-8
+X-Pad: avoid browser bug
+

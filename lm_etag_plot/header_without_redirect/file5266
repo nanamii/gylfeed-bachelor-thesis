@@ -1,0 +1,22 @@
+HTTP/1.1 301 Moved Permanently
+Cache-Control: max-age=3600
+Content-Type: text/html
+Location: http://patch.com/california/shermanoaks/articles.atom
+Server: nginx
+X-Pantheon-Endpoint: 416ae49d-118d-458f-98b1-0cfc31126451
+X-Pantheon-Styx-Hostname: styx4f38fad2
+X-Powered-By: PHP/5.5.24
+X-Styx-Build-Date: Wed Apr 29 20:43:17 UTC 2015
+X-Styx-Build-Num: 946
+X-Styx-Build-Sha: 39667cea44763e7df6d81c544b0d294bf223876f
+X-Styx-Req-Id: styx-0deea206f72bfc99f3f4e7f46c31d90f
+X-Styx-Version: StyxGo
+Content-Length: 0
+Accept-Ranges: bytes
+Date: Fri, 26 Jun 2015 20:14:15 GMT
+X-Varnish: 2752102405 2750878344
+Age: 1673
+Via: 1.1 varnish
+Connection: keep-alive
+Vary: , Cookie
+

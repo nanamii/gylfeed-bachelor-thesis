@@ -1,0 +1,19 @@
+HTTP/1.1 301 Moved Permanently
+Access-Control-Allow-Origin: *
+Cache-Control: max-age=600
+Content-Type: text/html
+Expires: Fri, 26 Jun 2015 17:19:20 GMT
+Location: http://feeds.epicurious.com/latestfeatures
+Server: nginx/1.6.3
+Via: 1.1 varnish
+Content-Length: 184
+Accept-Ranges: bytes
+Date: Fri, 26 Jun 2015 19:47:56 GMT
+Via: 1.1 varnish
+Age: 9516
+Connection: keep-alive
+X-Served-By: cache-iad2143-IAD, cache-fra1225-FRA
+X-Cache: HIT, MISS
+X-Cache-Hits: 87, 0
+X-Timer: S1435348076.356866,VS0,VE92
+

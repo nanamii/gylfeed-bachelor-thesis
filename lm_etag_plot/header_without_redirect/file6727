@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 20:43:29 GMT
+Server: PWS/8.1.20.17
+Transfer-Encoding: chunked
+X-Px: nc h0-s1085.p11-fra ( h0-s57.p6-lhr), nc h0-s57.p6-lhr ( origin)
+ETag: "14ea152-c91e-51944876b9b00"
+Content-Type: application/xml
+Last-Modified: Wed, 24 Jun 2015 14:43:24 GMT
+Vary: Accept-Encoding
+Connection: keep-alive
+Set-Cookie: X-Mapping-pdlbigep=DC3BCBF682C85A476D699C1DDB370742; path=/
+

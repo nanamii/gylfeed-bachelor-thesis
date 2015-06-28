@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 26 Jun 2015 20:16:47 GMT
+Content-Type: text/xml; charset=UTF-8
+Connection: keep-alive
+Vary: Accept-Encoding
+X-Pingback: http://ctmiller.net/xmlrpc.php
+ETag: "5310b5f32ff8986b2fff7e8278e492ca"
+Last-Modified: Tue, 16 Jun 2015 11:36:17 GMT
+

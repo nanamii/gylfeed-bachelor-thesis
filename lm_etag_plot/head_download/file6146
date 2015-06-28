@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Last-Modified: Wed, 24 Jun 2015 07:02:05 GMT
+Content-Type: application/rss+xml;charset=UTF-8
+Cache-Control: max-age=0
+Expires: Sat, 27 Jun 2015 21:43:04 GMT
+Vary: Accept-Encoding
+Content-Language: en
+Date: Sat, 27 Jun 2015 21:46:19 GMT
+Age: 195
+Connection: keep-alive
+X-Cache: HIT
+Set-Cookie: BIGipServerWEBPOOL_80=4038139914.20480.0000; path=/
+

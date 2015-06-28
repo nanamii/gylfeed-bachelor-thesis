@@ -1,0 +1,16 @@
+HTTP/1.1 302 Found
+Date: Fri, 26 Jun 2015 19:39:18 GMT
+Content-Type: application/rdf+xml
+Connection: keep-alive
+Set-Cookie: __cfduid=d0aa15af15ee3044a0a870cd9002317751435347558; expires=Sat, 25-Jun-16 19:39:18 GMT; path=/; domain=.typepad.com; HttpOnly
+X-PhApp: oak-tp-web026
+X-Webserver: oak-tp-web026
+Location: http://feeds.feedburner.com/typepad/JeffPHowe/cs
+Vary: cookie
+Expires: Fri, 26 Jun 2015 19:54:18 GMT
+X-Varnish: 845761130
+Age: 0
+Via: 1.1 varnish
+Server: cloudflare-nginx
+CF-RAY: 1fcb609f05dc15b9-FRA
+

@@ -1,0 +1,14 @@
+HTTP/1.1 302 Found
+ETag: W/"f07dd234-a34a-478d-bd78-efc61a52c318"
+Date: Fri, 26 Jun 2015 20:15:34 GMT
+Content-Type: text/html
+Server: blogger-renderd
+Expires: Fri, 26 Jun 2015 20:15:35 GMT
+Cache-Control: public, must-revalidate, proxy-revalidate, max-age=1
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Location: http://feeds.feedburner.com/twopeasandtheirpod/rNNF
+X-Frame-Options: SAMEORIGIN
+Alternate-Protocol: 80:quic,p=0
+Transfer-Encoding: chunked
+

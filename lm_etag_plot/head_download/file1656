@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:21:22 GMT
+Server: Apache
+Set-Cookie: PHPSESSID=6efd6769b3897a626bbda38b523c9f20; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+X-Pingback: http://www.jemangelaville.com/xmlrpc.php
+Last-Modified: Tue, 11 Nov 2014 05:50:45 GMT
+ETag: "a6497fec5cdef6ea96967dd7e311c74b"
+Vary: Accept-Encoding,User-Agent
+Content-Type: text/xml; charset=UTF-8
+

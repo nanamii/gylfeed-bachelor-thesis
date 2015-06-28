@@ -1,0 +1,17 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 21:13:40 GMT
+X-ServedBy: ny1-prod6-web018
+Set-Cookie: JSESSIONID=QlPpbcxQignSQCpzAMFdiJUzhFlMBHawov_HkJ-gE1gmJTg9V54Dig;Path=/;HttpOnly
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Set-Cookie: crumb=d3eaffb7dd;Path=/
+Set-Cookie: SS_MID=d035d9b7-a427-41fa-8836-4f302aaf1cd2ibfjos0j;Path=/;Domain=.ben-evans.com;Expires=Tue, 24-Jun-2025 21:13:40 GMT
+Set-Cookie: ss_cid=fc3e7e45-4648-420a-8e5c-3013d3af07f4;Path=/;Domain=.ben-evans.com;Expires=Mon, 26-Jun-2017 21:13:40 GMT
+Set-Cookie: ss_cvisit=1435439620889;Path=/;Domain=.ben-evans.com;Expires=Sat, 27-Jun-2015 21:43:40 GMT
+Accept-Ranges: bytes
+Content-Type: application/rss+xml; charset=UTF-8
+ETag: W/"ade786e412e38a2008ebee072023c050"
+X-PC-Key: koVZKQ0pRGCx4xA6KLGym8u87Nw-benedict-evans
+X-PC-Hit: false
+X-ContextId: JLd8dBdo/1X9d0ZcX
+X-Via: 1.1 ny1-prod-echo018
+

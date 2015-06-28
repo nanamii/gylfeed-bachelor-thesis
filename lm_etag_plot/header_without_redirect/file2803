@@ -1,0 +1,10 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Content-Type: text/html
+Date: Fri, 26 Jun 2015 19:07:13 GMT
+Keep-Alive: timeout=20
+Location: http://gadling.com/rss.xml
+Connection: keep-alive
+Set-Cookie: X-Mapping-fjhppofk=874694A109080757786E6B8B0C88966E; path=/
+Content-Length: 178
+

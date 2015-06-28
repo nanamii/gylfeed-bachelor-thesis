@@ -1,0 +1,10 @@
+HTTP/1.1 403 Forbidden
+Server: AkamaiGHost
+Mime-Version: 1.0
+Content-Type: text/html
+Content-Length: 312
+Expires: Fri, 26 Jun 2015 19:07:01 GMT
+Date: Fri, 26 Jun 2015 19:07:01 GMT
+Connection: close
+Set-Cookie: ClientGroup=1; expires=Fri, 24-Jun-2016 19:07:01 GMT; path=/; domain=www.nbc29.com
+

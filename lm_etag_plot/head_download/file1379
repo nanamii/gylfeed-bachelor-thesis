@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sat, 27 Jun 2015 19:15:11 GMT
+Content-Type: text/html
+Content-Length: 1833
+Last-Modified: Mon, 05 Aug 2013 10:50:06 GMT
+Connection: keep-alive
+ETag: "51ff835e-729"
+Expires: Sun, 28 Jun 2015 19:15:11 GMT
+Cache-Control: max-age=86400
+X-Served-By: h03
+Accept-Ranges: bytes
+

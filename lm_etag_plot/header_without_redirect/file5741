@@ -1,0 +1,8 @@
+HTTP/1.1 301 Moved Permanently
+x-amz-id-2: fOTg2rRVgZj+YAemVV9qVpas496EQ+VIv0mLhA+Wp68GJodwDdiPZsPpmUW4vIIanI2DsYbyUYQ=
+x-amz-request-id: 7A49205AF41D3A59
+Date: Fri, 26 Jun 2015 20:21:25 GMT
+Location: http://jeff-barr.com/?feed=rss2
+Content-Length: 0
+Server: AmazonS3
+

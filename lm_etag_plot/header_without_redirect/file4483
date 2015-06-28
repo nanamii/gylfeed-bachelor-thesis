@@ -1,0 +1,16 @@
+HTTP/1.1 302 Found
+Date: Fri, 26 Jun 2015 19:43:05 GMT
+Content-Type: application/atom+xml
+Connection: keep-alive
+Set-Cookie: __cfduid=dbe7b6b859e5c522435b8cde3cd71e3921435347784; expires=Sat, 25-Jun-16 19:43:04 GMT; path=/; domain=.blogs.com; HttpOnly
+X-PhApp: oak-tp-web014
+X-Webserver: oak-tp-web014
+Location: http://feeds.feedburner.com/jkOnTheRun
+Vary: cookie
+Expires: Fri, 26 Jun 2015 19:44:55 GMT, Fri, 26 Jun 2015 19:44:55 GMT
+X-Varnish: 845849382 845541652
+Age: 790
+Via: 1.1 varnish
+Server: cloudflare-nginx
+CF-RAY: 1fcb6627b7e815a7-FRA
+

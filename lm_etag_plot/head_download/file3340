@@ -1,0 +1,17 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:55:32 GMT
+Content-Type: text/xml; charset=UTF-8
+Connection: keep-alive
+Set-Cookie: __cfduid=ded04389ec8a1eaebab564f898f4d596d1435434931; expires=Sun, 26-Jun-16 19:55:31 GMT; path=/; domain=.globalresearch.ca; HttpOnly
+X-Powered-By: PHP/5.3.28
+Set-Cookie: _icl_current_language=en; expires=Sun, 28-Jun-2015 19:50:13 GMT; path=/
+X-Pingback: http://www.globalresearch.ca/xmlrpc.php
+Last-Modified: Sat, 27 Jun 2015 17:20:50 GMT
+Accept-Ranges: bytes
+X-Varnish: 645044854
+Age: 0
+Via: 1.1 varnish
+X-Cache: MISS
+Server: cloudflare-nginx
+CF-RAY: 1fd3b5c162670f93-FRA
+

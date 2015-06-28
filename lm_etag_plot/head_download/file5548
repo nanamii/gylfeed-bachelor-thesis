@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 21:23:59 GMT
+Content-Type: application/rss+xml
+Content-Length: 35791
+Connection: keep-alive
+Server: Apache/2.2.22 (Debian)
+Last-Modified: Sat, 27 Jun 2015 21:20:51 GMT
+ETag: "8bcf-519866e5612c0"
+Accept-Ranges: bytes
+Cache-Control: max-age=1800
+Expires: Sat, 27 Jun 2015 21:53:59 GMT
+Vary: Accept-Encoding
+X-Reg-BOFH: pfy
+X-Clacks-Overhead: GNU Terry Pratchett
+

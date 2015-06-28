@@ -1,0 +1,20 @@
+HTTP/1.1 200 OK
+Age: 2738
+Cache-Control: public, max-age=10800
+Content-Language: en
+Content-Type: application/rss+xml; charset=utf-8
+Date: Sat, 27 Jun 2015 19:23:28 GMT
+Etag: "1435430196-1"
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Last-Modified: Sat, 27 Jun 2015 18:36:36 GMT
+Server: nginx
+Vary: Cookie,Accept-Encoding
+Via: 1.1 varnish
+X-AH-Environment: prod
+X-Cache: HIT
+X-Cache-Hits: 328
+X-Drupal-Cache: HIT
+X-Request-ID: v-9cbb9644-1cfb-11e5-84fb-22000a9d2b8f
+X-Varnish: 1879673758 1879482471
+Connection: keep-alive
+

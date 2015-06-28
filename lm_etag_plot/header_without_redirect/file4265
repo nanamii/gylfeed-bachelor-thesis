@@ -1,0 +1,11 @@
+HTTP/1.1 301 Moved Permanently
+Server: Apache
+X-Backend-Server: pp-web01
+Vary: Accept-Encoding
+Content-Type: text/html; charset=iso-8859-1
+Date: Fri, 26 Jun 2015 19:38:33 GMT
+Location: https://mozillalabs.com/feed/
+Transfer-Encoding: chunked
+Connection: Keep-Alive
+X-Cache-Info: caching
+

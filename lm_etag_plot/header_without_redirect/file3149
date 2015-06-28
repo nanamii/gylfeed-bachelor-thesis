@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 19:14:25 GMT
+Server: Apache/2.2.25 (Win32) PHP/5.2.17
+X-Powered-By: PHP/5.2.17
+Vary: Cookie,Accept-Encoding
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+X-Pingback: http://www.theworldofchinese.com/xmlrpc.php
+ETag: "ff8fcfd80970faaf55d242dd6bc979e6"
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+WP-Super-Cache: Served legacy cache file
+Content-Type: text/xml; charset=UTF-8
+

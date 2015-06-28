@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 19:05:23 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Last-Modified: Fri, 26 Jun 2015 09:27:50 GMT
+ETag: "37ce300-415d-519685a8c7180"
+Accept-Ranges: bytes
+Content-Length: 16733
+Content-Type: application/xml
+X-Pad: avoid browser bug
+

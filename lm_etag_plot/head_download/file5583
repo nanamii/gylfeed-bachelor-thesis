@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 21:24:53 GMT
+Server: Apache/2.2.3 (CentOS)
+ETag: "4ba460cfbc5e7f8d160724f48ae2f737"
+Cache-Control: max-age=0, private, must-revalidate
+X-UA-Compatible: IE=Edge,chrome=1
+X-Runtime: 0.477791
+X-Powered-By: Phusion Passenger 4.0.2
+Set-Cookie: _session_id=39ae42158d1a0950551afbdb0f0c86fe; path=/; HttpOnly
+Status: 200 OK
+Content-Type: application/xml; charset=utf-8
+

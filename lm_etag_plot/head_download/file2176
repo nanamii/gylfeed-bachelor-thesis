@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Content-Type: application/x-rss+xml
+Content-Length: 150202
+Connection: keep-alive
+Accept-Ranges: bytes
+Cache-Control: max-age=900, private, must-revalidate
+Date: Sat, 27 Jun 2015 19:31:15 GMT
+ETag: "24aba-51984e264e55e"
+Expires: Sat, 27 Jun 2015 19:46:15 GMT
+Last-Modified: Sat, 27 Jun 2015 19:30:08 GMT
+Server: Apache
+X-Cache: Miss from cloudfront
+Via: 1.1 cde11d44c652a64c2d322a0ea1af139e.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: _l_4JeyCL2pc_Ez44bxGxKBsI1V331WaXu_z8NyJL2yN6ZJ-nnYWdA==
+

@@ -1,0 +1,7 @@
+HTTP/1.1 302 Found
+Date: Fri, 26 Jun 2015 20:24:34 GMT
+Server: Apache
+Location: http://feeds.feedburner.com/furycom
+Vary: Accept-Encoding
+Content-Type: text/html; charset=iso-8859-1
+

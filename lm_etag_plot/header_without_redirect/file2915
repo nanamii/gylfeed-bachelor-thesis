@@ -1,0 +1,8 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 19:09:41 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Location: http://www.challenge.gov/search.rss
+Vary: Accept-Encoding
+Content-Type: text/html; charset=iso-8859-1
+

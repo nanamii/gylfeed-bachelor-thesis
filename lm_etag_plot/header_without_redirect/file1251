@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 18:19:49 GMT
+Content-Type: application/rss+xml
+Content-Length: 19499
+Connection: keep-alive
+Set-Cookie: __cfduid=dc11d902ddfe1d2fd314f9f7db107add91435342788; expires=Sat, 25-Jun-16 18:19:48 GMT; path=/; domain=.iusethis.com; HttpOnly
+Cache-Control: s-max-age=1800
+x-backend: www01
+Accept-Ranges: bytes
+X-Varnish: 2309915708
+Age: 0
+Via: 1.1 varnish
+Server: cloudflare-nginx
+CF-RAY: 1fcaec2d0d8f1ab7-DUS
+

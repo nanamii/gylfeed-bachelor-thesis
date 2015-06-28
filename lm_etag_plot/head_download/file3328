@@ -1,0 +1,17 @@
+HTTP/1.1 200 OK
+Last-Modified: Thu, 25 Jun 2015 19:36:16 GMT
+ETag: "3fff-5195cbca80b52"
+Cache-Control: max-age=2592000
+Expires: Mon, 27 Jul 2015 19:51:27 GMT
+Content-Type: text/xml
+Content-Length: 16383
+Accept-Ranges: bytes
+Date: Sat, 27 Jun 2015 19:55:24 GMT
+X-Varnish: 1863168845 1863147649
+Age: 237
+Via: 1.1 varnish
+Connection: keep-alive
+X-Cache: HIT
+X-Cache-nHIT: 3
+Set-Cookie: BIGipServerdiy-varnish_POOL=2810974218.52514.0000; path=/
+

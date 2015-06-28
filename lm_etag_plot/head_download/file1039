@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+X-Powered-By: PHP/5.3.10-1ubuntu3.15
+X-Pingback: http://blog.shoplet.com/xmlrpc.php
+Last-Modified: Fri, 26 Jun 2015 16:47:31 GMT
+ETag: "bca0d357cb0a041b3af049cb9837ed90"
+X-Robots-Tag: noindex,follow
+Content-type: text/html
+Date: Sat, 27 Jun 2015 19:16:57 GMT
+Server: lighttpd/1.4.28
+

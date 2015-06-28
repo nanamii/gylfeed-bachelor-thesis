@@ -1,0 +1,12 @@
+HTTP/1.1 301 Moved Permanently
+Server: Apache
+Location: http://www.technologizer.com/feed/
+Vary: Accept-Encoding
+Content-Type: text/html; charset=iso-8859-1
+X-Cacheable: YES:Forced
+Date: Fri, 26 Jun 2015 18:52:52 GMT
+X-Varnish: 159319798 159319757
+Age: 95
+Via: 1.1 varnish
+Connection: keep-alive
+

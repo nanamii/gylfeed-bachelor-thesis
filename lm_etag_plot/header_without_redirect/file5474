@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 20:16:32 GMT
+Content-Type: text/xml; charset=UTF-8
+Connection: keep-alive
+Set-Cookie: __cfduid=d88ce505b749c04b1ff0936abefcb23fe1435349791; expires=Sat, 25-Jun-16 20:16:31 GMT; path=/; domain=.bowerpowerblog.com; HttpOnly
+Vary: Cookie
+X-Pingback: http://www.bowerpowerblog.com/xmlrpc.php
+ETag: "881987ec9dd3d3220055ecc932912944"
+WP-Super-Cache: Served legacy cache file
+Server: cloudflare-nginx
+CF-RAY: 1fcb9724ef760f3f-FRA
+

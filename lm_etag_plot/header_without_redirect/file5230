@@ -1,0 +1,15 @@
+HTTP/1.1 404 Not Found
+Age: 0
+Cache-Control: no-cache, must-revalidate, max-age=0
+Cache-control: no-cache="set-cookie"
+Content-Type: text/html; charset=UTF-8
+Date: Fri, 26 Jun 2015 20:16:07 GMT
+Expires: Wed, 11 Jan 1984 05:00:00 GMT
+Pragma: no-cache
+Set-Cookie: AWSELB=5781FFF50ECE97F5AAA6389C5ED236BEFBBE9EB2C59AE0FBD870581DA113C93774FA06F01E3C073528152653F54F22304881804FABA3BBE707CC48DAC7CD747D332A6D9CCE;PATH=/;MAX-AGE=3600
+Vary: Accept-Encoding
+X-Cache: MISS
+X-Pingback: http://www.electronicsweekly.com/xmlrpc.php
+X-Whom: EW-Node-Master
+Connection: keep-alive
+

@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Cache-Control: max-age=1500, must-revalidate
+Content-Type: text/xml
+Date: Sat, 27 Jun 2015 18:40:09 GMT
+Expires: Sat, 27 Jun 2015 18:50:09 GMT
+Pragma: public
+Server: nginx
+Vary: Accept-Encoding
+Vary: Accept-Encoding
+Connection: keep-alive
+

@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Content-Type: application/rss+xml; charset=UTF-8
+Content-Length: 0
+Connection: keep-alive
+Date: Sat, 27 Jun 2015 21:42:28 GMT
+Server: Apache/2.2.15 (CentOS)
+Expires: Sat, 27 Jun 2015 22:42:28 GMT
+Cache-Control: max-age=3600, public
+Pragma: none
+Age: 237
+X-Cache: Hit from cloudfront
+Via: 1.1 afe891444e2f39f570631ae6dcd2c867.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: tHoQsLKHFzGcOUCTbDwcIoRUBg2uS-LDh3U0WI2yER5EwXVuKWRXKQ==
+

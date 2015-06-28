@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+x-amz-id-2: vrCh7a2MtEAdt8SoyefpX39XXJXro0HILbb84e98lPoRlh2rEt2Y27sw+pQQ6sunVIUlvrkXhb8=
+x-amz-request-id: 4DD2728DDAA17789
+Last-Modified: Fri, 26 Jun 2015 14:45:07 GMT
+ETag: "77288e6afcbc09c43b0e925205712e51"
+Content-Type: text/html
+Server: AmazonS3
+Pragma: no-cache
+Cache-Control: no-cache, no-store
+Expires: Fri, 26 Jun 2015 18:08:18 GMT
+Date: Fri, 26 Jun 2015 18:08:18 GMT
+Connection: keep-alive
+

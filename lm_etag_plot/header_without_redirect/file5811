@@ -1,0 +1,11 @@
+HTTP/1.1 302 Moved Temporarily
+Date: Fri, 26 Jun 2015 20:22:06 GMT
+Server: Apache/2.2.22
+X-Powered-By: PHP/5.3.29
+X-Pingback: http://jasonlbaptiste.com/xmlrpc.php
+ETag: "c91b421463789d3f50165fd0a4d8b38c"
+Last-Modified: Thu, 14 May 2015 14:07:34 GMT
+Location: http://feeds.feedburner.com/JasonLBaptiste
+Vary: User-Agent,Accept-Encoding
+Content-Type: text/html
+

@@ -1,0 +1,18 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 19:08:25 GMT
+Content-Type: text/html
+Connection: keep-alive
+Set-Cookie: __cfduid=d8209cd66063fa3e3b9302cdb56d99f491435345704; expires=Sat, 25-Jun-16 19:08:24 GMT; path=/; domain=.wild-about-travel.com; HttpOnly
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+X-Pingback: http://wild-about-travel.com/xmlrpc.php
+ETag: W/"07c416b139b63321c6f985d0924d2d7e"
+X-UA-Compatible: IE=edge,chrome=1
+Set-Cookie: PHPSESSID=5b8f4036b71f5272d382a8e373829895; path=/
+Last-Modified: Fri, 26 Jun 2015 11:52:22 GMT
+Location: http://wild-about-travel.com/feed/
+Vary: User-Agent,Accept-Encoding
+Server: cloudflare-nginx
+CF-RAY: 1fcb335a7c420f3f-FRA
+

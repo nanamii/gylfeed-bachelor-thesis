@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 21:06:35 GMT
+Content-Type: text/xml; charset=UTF-8
+Connection: keep-alive
+Set-Cookie: __cfduid=de9dd64fa5c90ad8e177ab153e19d72201435439194; expires=Sun, 26-Jun-16 21:06:34 GMT; path=/; domain=.gardenfork.tv; HttpOnly
+X-Pingback: http://www.gardenfork.tv/xmlrpc.php
+Last-Modified: Fri, 26 Jun 2015 19:25:49 GMT
+Vary: User-Agent,Accept-Encoding
+X-Powered-By: PHP/5.3.29
+Etag: "9bc246d94b350ba4f76036d7d09f2e77"
+X-Robots-Tag: noindex,follow
+Cf-Railgun: 8ce7c1f45e 0008 normal 5360
+Server: cloudflare-nginx
+CF-RAY: 1fd41dd8218d1583-FRA
+

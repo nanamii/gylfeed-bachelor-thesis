@@ -1,0 +1,17 @@
+HTTP/1.1 200 OK
+Cache-Control: private
+Pragma: no-cache
+Content-Length: 0
+Content-Type: text/html
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Last-Modified: Fri, 26 Jun 2015 13:00:56 GMT
+ETag: "8f18cfe1989d377893b05dd72dada207"
+Server: Microsoft-IIS/8.0
+Set-Cookie: PHPSESSID=23d26sc8njkm77uq3qbg4q1uj7; path=/
+X-Powered-By: PHP/5.4.42
+X-Pingback: http://blogs.microsoft.com/xmlrpc.php
+X-Robots-Tag: noindex,follow
+X-Powered-By: ASP.NET
+Set-Cookie: ARRAffinity=266bd3b85350248c716403de91c3183ea01502a104911552ab9482937da267d1;Path=/;Domain=blogs.microsoft.com
+Date: Sat, 27 Jun 2015 19:46:55 GMT
+

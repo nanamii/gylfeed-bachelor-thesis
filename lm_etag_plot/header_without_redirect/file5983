@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 20:27:07 GMT
+Server: Apache
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+X-Pingback: http://guymcpherson.com/xmlrpc.php
+ETag: "90abde85d1d4f96d9b33f03f3da18b68"
+Set-Cookie: PHPSESSID=mr3u5k2n0sd34bsl03hcsblbr7; path=/
+Set-Cookie: ct_cookies_test=be4d440619d3e6070aaaee5e2c40c1a3; path=/
+Last-Modified: Fri, 26 Jun 2015 20:16:45 GMT
+Content-Type: text/html; charset=UTF-8
+

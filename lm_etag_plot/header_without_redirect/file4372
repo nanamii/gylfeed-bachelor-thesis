@@ -1,0 +1,12 @@
+HTTP/1.1 302 Temporary Redirect
+Server: nginx
+Date: Fri, 26 Jun 2015 19:41:47 GMT
+Content-Type: text/html; charset=UTF-8
+Content-Length: 0
+Connection: keep-alive
+Set-Cookie: bb2_screener_=1435347707+192.168.10.114+92.194.59.39; path=/mediaberkman/
+X-Pingback: http://blogs.law.harvard.edu/mediaberkman/xmlrpc.php
+Last-Modified: Thu, 25 Jun 2015 16:31:10 GMT
+ETag: "6b4b3e6c95078909a84ea31d5c998c11"
+Location: http://feeds.feedburner.com/audioberkman
+

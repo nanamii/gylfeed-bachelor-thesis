@@ -1,0 +1,8 @@
+HTTP/1.1 302 Redirect
+Content-Length: 153
+Content-Type: text/html; charset=UTF-8
+Location: http://www.factcheck.org/feed/
+Server: Microsoft-IIS/8.5
+X-Powered-By: ASP.NET
+Date: Fri, 26 Jun 2015 19:00:40 GMT
+

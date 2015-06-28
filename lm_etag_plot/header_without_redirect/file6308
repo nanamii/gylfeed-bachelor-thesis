@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Server: Apache/2.2.15 (CentOS)
+Vary: Accept-Encoding
+Content-Type: text/xml; charset=UTF-8
+Date: Fri, 26 Jun 2015 20:34:29 GMT
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Connection: Keep-Alive
+Set-Cookie: X-Mapping-fjhppofk=4F42971563E924B7CC6AD523AEA4C365; path=/
+X-Powered-By: PHP/5.4.41
+Access-Control-Allow-Headers: origin, x-requested-with, content-type
+Access-Control-Allow-Methods: GET
+

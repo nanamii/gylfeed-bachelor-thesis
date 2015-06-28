@@ -1,0 +1,20 @@
+HTTP/1.1 200 OK
+Cache-Control: public, max-age=900
+Content-Language: en
+Content-Type: text/html; charset=utf-8
+Date: Sat, 27 Jun 2015 19:42:31 GMT
+Etag: "1435350981-0"
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Last-Modified: Fri, 26 Jun 2015 20:36:21 GMT
+Link: <https://www.capgemini.com/node/261646>; rel="shortlink",<https://www.capgemini.com/blog/cto-blog>; rel="canonical"
+Server: nginx
+Vary: Cookie,Accept-Encoding
+X-AH-Environment: prod
+X-Content-Type-Options: nosniff
+X-Drupal-Cache: HIT
+X-Frame-Options: SameOrigin
+X-Generator: Drupal 7 (http://drupal.org)
+X-Request-ID: 73bd49d1-76ef-4762-9622-5c95fde6ffdf
+X-UA-Compatible: IE=edge,chrome=1
+Connection: keep-alive
+

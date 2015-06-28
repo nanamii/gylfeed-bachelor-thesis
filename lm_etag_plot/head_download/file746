@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sat, 27 Jun 2015 18:47:04 GMT
+Content-Type: text/xml; charset=UTF-8
+Connection: keep-alive
+Keep-Alive: timeout=20
+X-Pingback: http://technosailor.com/xmlrpc.php
+Last-Modified: Tue, 31 Mar 2015 19:18:12 GMT
+ETag: "6aee13a64a42949e2ec6096fa0ee9f45"
+X-Cacheable: CacheAlways: feed
+Cache-Control: max-age=600, must-revalidate
+X-Cache: HIT: 9
+X-Type: feed
+

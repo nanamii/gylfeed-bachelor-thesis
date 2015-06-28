@@ -1,0 +1,14 @@
+HTTP/1.1 302 FOUND
+Server: nginx/0.7.67
+Date: Fri, 26 Jun 2015 19:05:33 GMT
+Content-Type: text/html; charset=utf-8
+Connection: close
+Location: http://www.politifact.com/feeds/updates/obameter/
+X-Cacheable: YES(null)
+Content-Length: 0
+X-Varnish: 1281606176
+Age: 0
+Via: 1.1 varnish
+X-Served-By: pf-varnish-3
+X-Cache: MISS
+

@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Server: nginx_about/1.4.2_5
+Date: Fri, 26 Jun 2015 19:43:57 GMT
+Content-Type: text/xml
+Connection: keep-alive
+Keep-Alive: timeout=15
+Expires: Fri, 26 Jun 2015 20:43:57 GMT
+Cache-Control: max-age=3600
+X-Robots-Tag: noindex
+P3P: CP="IDC DSP COR DEVa TAIa OUR BUS UNI"
+

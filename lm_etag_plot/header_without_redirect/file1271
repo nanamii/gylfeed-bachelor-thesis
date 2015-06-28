@@ -1,0 +1,16 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 18:19:58 GMT
+Server: Apache
+X-Powered-By: PHP/5.4.42
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+X-Pingback: http://pmstudent.com/xmlrpc.php
+X-UA-Compatible: IE=edge,chrome=1
+Set-Cookie: PHPSESSID=e4bf38c436cff50db3c4e2152dc3de57; path=/
+Set-Cookie: wpfront-notification-bar-landingpage=1
+Last-Modified: Thu, 11 Jun 2015 04:14:20 GMT
+Location: http://pmstudent.com/feed/
+Vary: User-Agent
+Content-Type: text/html
+

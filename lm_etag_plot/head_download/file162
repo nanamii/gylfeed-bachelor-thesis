@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Server: Apache/2.2
+Vary: Cookie
+Content-Type: application/atom+xml; charset=UTF-8
+WP-Super-Cache: Served legacy cache file
+Date: Sat, 27 Jun 2015 18:36:05 GMT
+X-Pingback: http://www.creativeapplications.net/xmlrpc.php
+Transfer-Encoding: chunked
+ETag: "3921125749f245f3d98647235b507d0f"
+Connection: Keep-Alive
+Set-Cookie: X-Mapping-iikfnbbj=CCDFA0D6ED9522EA23526D96C72AD0D1; path=/
+

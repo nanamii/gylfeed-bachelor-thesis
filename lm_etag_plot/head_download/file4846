@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sat, 27 Jun 2015 21:07:38 GMT
+Content-Type: text/xml; charset=UTF-8
+Connection: keep-alive
+Keep-Alive: timeout=15
+Vary: Accept-Encoding
+X-Pingback: http://darusha.ca/xmlrpc.php
+ETag: "7c54c9ebfb697c122f8a0c52e29f7f43"
+Last-Modified: Wed, 24 Jun 2015 18:40:04 GMT
+ngpass_ngall: 1
+

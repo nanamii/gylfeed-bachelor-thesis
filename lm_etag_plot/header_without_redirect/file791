@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Server: Apache
+X-Powered-By: PHP/5.6.8
+X-Pingback: http://blog.okdeluxe.co.uk/xmlrpc.php
+ETag: "19b3aa6c73f93b019f75e2f8054d0da9"
+Last-Modified: Tue, 06 Mar 2012 20:14:15 GMT
+Vary: Accept-Encoding
+Content-Type: text/xml; charset=UTF-8
+Accept-Ranges: bytes
+Date: Fri, 26 Jun 2015 18:10:26 GMT
+X-Varnish: 1202986161
+Age: 0
+Via: 1.1 varnish
+Connection: keep-alive
+

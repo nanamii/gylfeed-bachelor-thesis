@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Server: nginx/1.8.0
+Date: Sat, 27 Jun 2015 19:55:04 GMT
+Content-Type: text/html
+Connection: keep-alive
+X-Pingback: http://urbansurvivalguys.com/xmlrpc.php
+ETag: "21e8b5caf4f0faa46d7230d7e86d8628"
+Set-Cookie: wassup=YjQ5Nzk1ZTJmNDYyYTFkYmRjN2Y1NzRmMTIyYmFlNzM6OjE0MzU0Mzc2MDQ6Ojo6OTIuMTk0LjU5LjM5Ojpwb3J0LTkyLTE5NC01OS0zOS5keW5hbWljLnFzYy5kZTo6; expires=Sat, 27-Jun-2015 20:45:04 GMT; path=/
+Last-Modified: Thu, 14 Mar 2013 03:55:06 GMT
+

@@ -1,0 +1,8 @@
+HTTP/1.1 301 Moved Permanently
+Content-Length: 178
+Content-Type: text/html
+Date: Fri, 26 Jun 2015 19:49:14 GMT
+Location: http://www.theguardian.com/tone/blog
+Server: nginx
+Connection: keep-alive
+

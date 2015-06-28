@@ -1,0 +1,14 @@
+HTTP/1.1 302 Found
+Date: Fri, 26 Jun 2015 19:05:32 GMT
+Server: Apache
+X-Drupal-Cache: HIT
+Etag: "1435344535-0"
+Cache-Control: public, max-age=0
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Vary: Cookie,Accept-Encoding
+Location: https://indypendent.org/rss.xml
+Last-Modified: Fri, 26 Jun 2015 18:48:55 GMT
+X-Powered-By: PleskLin
+Connection: close
+Content-Type: text/html
+

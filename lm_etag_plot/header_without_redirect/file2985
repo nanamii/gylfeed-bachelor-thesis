@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Server: Apache
+X-Powered-By: PHP/5.3.29
+X-Pingback: http://blog.amnestyusa.org/xmlrpc.php
+Last-Modified: Fri, 26 Jun 2015 18:15:14 GMT
+ETag: "035ce7cba124728a3f2b0d72e74c5ef1"
+Vary: Accept-Encoding
+Content-Type: text/xml; charset=UTF-8
+Date: Fri, 26 Jun 2015 19:10:15 GMT
+X-Varnish: 1080719707 1080719486
+Age: 74
+Via: 1.1 varnish
+Connection: keep-alive
+

@@ -1,0 +1,10 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 19:19:37 GMT
+Server: Apache
+Location: http://www.cbssports.com/partners/feeds/rss/home_news
+Cache-Control: max-age=0
+Expires: Fri, 26 Jun 2015 19:19:37 GMT
+Vary: Accept-Encoding
+Cneonction: close
+Content-Type: text/html; charset=iso-8859-1
+

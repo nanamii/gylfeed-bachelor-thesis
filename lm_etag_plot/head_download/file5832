@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 21:33:08 GMT
+Server: Apache/2.2.15 (CentOS)
+X-Powered-By: PHP/5.3.3
+Set-Cookie: phpbb3_l24rb_u=1; expires=Sun, 26-Jun-2016 21:33:08 GMT; path=/; domain=.raywenderlich.com; HttpOnly
+Set-Cookie: phpbb3_l24rb_k=; expires=Sun, 26-Jun-2016 21:33:08 GMT; path=/; domain=.raywenderlich.com; HttpOnly
+Set-Cookie: phpbb3_l24rb_sid=cf76253dca92f76e21b6bf88900ac52d; expires=Sun, 26-Jun-2016 21:33:08 GMT; path=/; domain=.raywenderlich.com; HttpOnly
+Vary: Cookie,Accept-Encoding
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+X-Pingback: http://www.raywenderlich.com/xmlrpc.php
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+WP-Super-Cache: Served legacy cache file
+Content-Type: text/xml; charset=UTF-8
+

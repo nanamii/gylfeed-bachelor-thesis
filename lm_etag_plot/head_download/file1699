@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:21:51 GMT
+Content-Type: application/rdf+xml
+Connection: keep-alive
+Set-Cookie: __cfduid=dc8004c7bdef183a29df6bc2bf730db3b1435432911; expires=Sun, 26-Jun-16 19:21:51 GMT; path=/; domain=.thefoodsection.com; HttpOnly
+X-PhApp: oak-tp-web015
+X-Webserver: oak-tp-web015
+Vary: cookie
+Last-Modified: Wed, 12 Mar 2014 16:26:07 GMT
+X-Varnish: 1677815133 1677481301
+Age: 1027
+Via: 1.1 varnish
+Server: cloudflare-nginx
+CF-RAY: 1fd3846e357108ab-FRA
+

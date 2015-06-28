@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sat, 27 Jun 2015 21:18:35 GMT
+Content-Type: text/xml; charset=UTF-8
+Connection: keep-alive
+Keep-Alive: timeout=20
+X-Pingback: http://bokardo.com/xmlrpc.php
+Last-Modified: Thu, 30 Apr 2015 12:46:26 GMT
+ETag: "a84d584d3c58e505d7edfc84cdd45294"
+X-Robots-Tag: noindex,follow
+X-Cacheable: CacheAlways: feed
+Cache-Control: max-age=600, must-revalidate
+X-Cache: HIT: 22
+X-Type: feed
+

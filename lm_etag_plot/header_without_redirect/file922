@@ -1,0 +1,20 @@
+HTTP/1.1 200 OK
+Server: nginx
+X-Cacheable: CacheAlways: feed
+Cache-Control: max-age=600, must-revalidate
+X-Cache: HIT: 7
+Content-Type: text/xml; charset=UTF-8
+X-Cache-Group: 
+Date: Fri, 26 Jun 2015 18:14:57 GMT
+X-Pingback: http://phenomena.nationalgeographic.com/xmlrpc.php
+Keep-Alive: timeout=20
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Pragma: no-cache
+X-Type: feed
+Transfer-Encoding: chunked
+ETag: "da01a3e9978bdb8618734371c0fb5ff2"
+Connection: Keep-Alive
+X-Pass-Why: 
+Set-Cookie: X-Mapping-fjhppofk=60A201DC86C7DC7E3901AC94E19E9A5A; path=/
+Last-Modified: Fri, 26 Jun 2015 17:18:33 GMT
+

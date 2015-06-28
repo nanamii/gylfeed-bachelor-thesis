@@ -1,0 +1,20 @@
+HTTP/1.1 302 Moved Temporarily
+Date: Fri, 26 Jun 2015 18:51:42 GMT
+Content-Type: text/html
+Connection: keep-alive
+Set-Cookie: __cfduid=d3897e5f4a4d307df145bc1a47b86f49f1435344702; expires=Sat, 25-Jun-16 18:51:42 GMT; path=/; domain=.edublogs.org; HttpOnly
+Vary: Cookie
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+X-Pingback: http://www.theedublogger.com/xmlrpc.php
+Last-Modified: Wed, 24 Jun 2015 15:19:55 GMT
+ETag: "7e6aa194edb974093bd33123f6bdaabc"
+Location: http://www.theedublogger.com/feed/
+X-Varnish: 1776078195 1776058572
+Age: 1789
+Via: 1.1 varnish
+Set-Cookie: xid=Qoc8T1WNnz43GzX8GpoRAg==; expires=Sun, 26-Jul-15 18:51:42 GMT; path=/
+Server: cloudflare-nginx
+CF-RAY: 1fcb1ae7a51b15d1-FRA
+

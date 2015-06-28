@@ -1,0 +1,22 @@
+HTTP/1.1 200 OK
+Server: nginx
+X-Varnish: 907117592 907011782
+Vary: Accept-Encoding
+Cache-Control: public, max-age=600
+Content-Type: text/xml; charset=UTF-8
+X-Styx-Build-Sha: 39667cea44763e7df6d81c544b0d294bf223876f
+X-Pantheon-Styx-Hostname: styx803cea0c
+X-Styx-Version: StyxGo
+X-Pingback: http://la.streetsblog.org/xmlrpc.php
+Date: Fri, 26 Jun 2015 19:43:22 GMT
+X-Styx-Req-Id: styx-02ee9a2dc5ba9bd82a11c4d4811f21a7
+Transfer-Encoding: chunked
+X-Pantheon-Endpoint: 416ae49d-118d-458f-98b1-0cfc31126451
+Via: 1.1 varnish
+Connection: Keep-Alive
+Last-Modified: Fri, 26 Jun 2015 19:04:01 GMT
+X-Styx-Build-Date: Wed Apr 29 20:43:17 UTC 2015
+X-Powered-By: PHP/5.5.24
+X-Styx-Build-Num: 946
+Age: 59
+

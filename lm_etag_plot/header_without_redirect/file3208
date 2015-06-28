@@ -1,0 +1,8 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 19:15:06 GMT
+Server: Apache/2.2.22 (Debian) PHP/5.4.4-14+deb7u8
+Location: http://betanews.com/rss
+Vary: Accept-Encoding
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+

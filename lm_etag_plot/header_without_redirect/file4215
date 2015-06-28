@@ -1,0 +1,24 @@
+HTTP/1.1 404 Not Found
+Cache-Control: max-age=2
+Content-Type: text/html; charset=utf-8
+P3P: CP="IDC DSP COR CURa ADMa OUR IND PHY ONL COM STA"
+X-Kinja: app04.bfc.kinja-ops.com #361
+X-Kinja-Build: 361
+X-Kinja-Revision: 4e58faaf818fd763c6eb39d9008ccf31ff074c57
+X-Kinja-Server: app04.bfc.kinja-ops.com
+Via: 1.1 varnish
+Set-Cookie: geocc=EU;path=/;
+x-cdn-fetch: mantle-setcookie
+Content-Length: 30686
+Accept-Ranges: bytes
+Date: Fri, 26 Jun 2015 19:37:02 GMT
+Via: 1.1 varnish
+Age: 0
+Connection: keep-alive
+X-Served-By: cache-jfk1032-JFK, cache-fra1239-FRA
+X-Cache: MISS, MISS
+X-Cache-Hits: 0, 0
+X-Timer: S1435347421.892932,VS0,VE117
+Vary: Accept-Encoding, X-Feature-Hash, X-Forwarded-Proto
+Set-Cookie: geocc=DE;path=/;
+

@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+Server: Sucuri/Cloudproxy
+Date: Sat, 27 Jun 2015 19:34:41 GMT
+Content-Type: text/html
+Connection: keep-alive
+X-XSS-Protection: 1; mode=block
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+

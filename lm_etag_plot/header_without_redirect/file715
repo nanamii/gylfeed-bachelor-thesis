@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 18:07:53 GMT
+Server: Apache
+X-Pingback: http://www.thedofl.com/blog/xmlrpc.php
+ETag: "bdefcfcc31cfb613d6c94d7b76706c9e"
+Last-Modified: Thu, 26 Feb 2015 15:54:47 GMT
+Vary: Accept-Encoding
+Content-Type: text/xml; charset=UTF-8
+

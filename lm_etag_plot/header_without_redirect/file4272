@@ -1,0 +1,6 @@
+HTTP/1.0 302 Found
+Location: http://feeds.feedburner.com/alistapart/main
+Server: BigIP
+Connection: Keep-Alive
+Content-Length: 0
+

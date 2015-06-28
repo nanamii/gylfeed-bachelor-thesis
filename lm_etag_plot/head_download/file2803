@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:46:35 GMT
+Content-Type: text/xml; charset=UTF-8
+Connection: keep-alive
+Set-Cookie: __cfduid=dc9a15e6cce37fa27681dceff0e1fe47f1435434395; expires=Sun, 26-Jun-16 19:46:35 GMT; path=/; domain=.technabob.com; HttpOnly
+Vary: Cookie
+X-Pingback: http://technabob.com/blog/xmlrpc.php
+ETag: "26bead77ebe83c87e6c6d50463675652"
+WP-Super-Cache: Served legacy cache file
+X-Powered-By: PleskLin
+MS-Author-Via: DAV
+Server: cloudflare-nginx
+CF-RAY: 1fd3a8ab4dfc064a-FRA
+

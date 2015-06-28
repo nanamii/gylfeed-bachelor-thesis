@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 20:15:41 GMT
+Server: Apache/2.2.22
+X-Powered-By: PHP/5.3.29
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Cache-Control: store, no-cache, must-revalidate, post-check=0, pre-check=0
+Set-Cookie: SESScd55ea7d5e74448d8eedf3af6a97e4a8=465fd8a36d1f44b32533c9342bef03ee; expires=Sun, 19-Jul-2015 23:49:01 GMT; path=/; domain=.whattheduck.net
+Last-Modified: Fri, 26 Jun 2015 20:15:41 GMT
+Vary: User-Agent
+Content-Type: application/rss+xml; charset=utf-8
+

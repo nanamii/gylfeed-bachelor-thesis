@@ -1,0 +1,6 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 18:52:09 GMT
+Server: Apache/2.2.25 (Unix) mod_jk/1.2.37 mod_ssl/2.2.25 OpenSSL/1.0.1j
+Location: http://blogs.britannica.com/feed/
+Content-Type: text/html; charset=iso-8859-1
+

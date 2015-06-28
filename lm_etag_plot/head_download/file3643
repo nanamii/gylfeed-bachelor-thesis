@@ -1,0 +1,29 @@
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/rss+xml
+Cache-Control: private, max-age=300
+Expires: Sat, 27 Jun 2015 20:14:24 GMT
+Last-Modified: Fri, 19 Jun 2015 04:39:39 GMT
+Etag: "f874eef0884221eb145df69ca33d0209"
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-UA-Compatible: IE=edge
+X-Frame-Options: sameorigin
+Strict-Transport-Security: max-age=900; includeSubDomains
+Content-Security-Policy-Report-Only: default-src https: data: 'unsafe-inline' 'unsafe-eval'; report-uri /_csp
+Via: 1.1 varnish
+X-Varnish-Cache: 0
+X-VServer: dfvimeowebproxy2
+Transfer-Encoding: chunked
+Accept-Ranges: bytes
+Date: Sat, 27 Jun 2015 20:09:24 GMT
+Via: 1.1 varnish
+Age: 0
+Connection: keep-alive
+Set-Cookie: clip_ver=2; expires=Wed, 26 Aug 2015 20:09:24 GMT; path=/;
+X-Served-By: cache-fra1229-FRA
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1435435763.977076,VS0,VE633
+Vary: User-Agent,Accept-Encoding
+

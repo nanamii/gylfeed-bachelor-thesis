@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 19:01:34 GMT
+Server: Apache
+lsrequestid: 548007324
+Content-Type: text/html;charset=UTF-8
+Transfer-Encoding: chunked
+Set-Cookie: JSESSIONID=229EDE66A3148779F3C0AA2CEA20512F; Path=/cps
+Cache-Control: max-age=300
+Expires: Fri, 26 Jun 2015 19:06:35 GMT
+Vary: Cookie,Accept-Encoding
+Connection: close
+

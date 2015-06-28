@@ -1,0 +1,8 @@
+HTTP/1.1 301 Moved Permanently
+Server: Apache
+Location: http://feeds.nature.com/news/rss/most_recent
+Content-Length: 702
+Content-Type: text/html; charset=iso-8859-1
+Date: Fri, 26 Jun 2015 19:23:40 GMT
+Connection: keep-alive
+

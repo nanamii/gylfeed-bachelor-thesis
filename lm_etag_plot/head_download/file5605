@@ -1,0 +1,23 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 21:25:11 GMT
+Content-Type: text/xml; charset=UTF-8
+Connection: keep-alive
+Set-Cookie: __cfduid=dcd5730e0d9ac781cefa094ffd982f2751435440310; expires=Sun, 26-Jun-16 21:25:10 GMT; path=/; domain=.stealthissingularity.com; HttpOnly
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+X-Cache-Enabled: True
+X-CF-Powered-By: WP 1.3.18
+X-Pingback: http://stealthissingularity.com/cms/xmlrpc.php
+ETag: W/"a530695050e5f0f6f29a94ae47d6b3e9"
+X-Robots-Tag: noindex,follow
+Set-Cookie: bb2_screener_=1435440295+92.194.59.39; path=/
+Set-Cookie: PHPSESSID=0fkmjf5723ccnabl3m2i9lc5c2; path=/
+Set-Cookie: wpSGCacheBypass=0; expires=Sat, 27-Jun-2015 20:24:55 GMT; path=/
+Last-Modified: Thu, 17 Apr 2014 01:22:42 GMT
+Vary: Accept-Encoding,User-Agent
+Host-Header: 192fc2e7e50945beb8231a492d6a8024
+X-Proxy-Cache: MISS
+Server: cloudflare-nginx
+CF-RAY: 1fd43916ab191ae7-DUS
+

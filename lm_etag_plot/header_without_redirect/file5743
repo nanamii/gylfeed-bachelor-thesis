@@ -1,0 +1,9 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 20:21:28 GMT
+Server: LiteSpeed
+Connection: close
+X-Powered-By: PHP/5.4.29
+X-Pingback: http://www.dannyayers.com/xmlrpc.php
+Content-Type: text/html; charset=UTF-8
+Location: http://www.dannyayers.com/.rss/?replaceLang=de&replaceLang=it&replaceLang=fr&replaceLang=en
+

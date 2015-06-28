@@ -1,0 +1,8 @@
+HTTP/1.1 301 Moved Permanently
+Content-Length: 164
+Content-Type: text/html; charset=UTF-8
+Location: http://feeds.feedburner.com/nakedsecurity
+Server: Microsoft-IIS/8.0
+X-Powered-By: ASP.NET
+Date: Fri, 26 Jun 2015 19:15:33 GMT
+

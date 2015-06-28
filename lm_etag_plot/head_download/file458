@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sat, 27 Jun 2015 18:40:39 GMT
+Content-Type: text/html
+Content-Length: 939
+Last-Modified: Sat, 27 Jun 2015 17:50:38 GMT
+Connection: keep-alive
+ETag: "558ee26e-3ab"
+Expires: Sat, 27 Jun 2015 18:50:38 GMT
+Cache-Control: max-age=599
+X-Powered-By: W3 Total Cache
+Vary: Accept-Encoding, Cookie
+Pragma: public
+Cache-Control: max-age=3600, public, must-revalidate, proxy-revalidate
+Accept-Ranges: bytes
+

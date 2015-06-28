@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 20:41:51 GMT
+Server: Apache/2.2.22 (Ubuntu)
+X-Powered-By: PHP/5.4.9-4ubuntu2.4
+X-Pingback: http://macoscope.com/blog/xmlrpc.php
+Last-Modified: Tue, 23 Jun 2015 12:04:55 GMT
+Vary: Accept-Encoding
+Content-Type: text/html
+

@@ -1,0 +1,9 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 19:39:09 GMT
+Content-Type: text/html; charset=iso-8859-1
+Connection: keep-alive
+Set-Cookie: __cfduid=d5b218f8374dc1d93a38d30af72fb7a191435347548; expires=Sat, 25-Jun-16 19:39:08 GMT; path=/; domain=.uscannenberg.org; HttpOnly
+Location: http://communicationleadership.usc.edu/blog/rss.xml
+Server: cloudflare-nginx
+CF-RAY: 1fcb6063e6e91577-FRA
+

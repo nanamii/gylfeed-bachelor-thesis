@@ -1,0 +1,15 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 18:04:24 GMT
+Server: Apache/2.4.7 (Ubuntu)
+X-Powered-By: PHP/5.5.9-1ubuntu4.7
+Set-Cookie: _icl_current_language=es; expires=Sat, 27-Jun-2015 18:04:24 GMT; Max-Age=86400; path=/
+Set-Cookie: PHPSESSID=0eg9cnjcaujk3681q6r6e7ugm3; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+X-Pingback: http://inusual.com/xmlrpc.php
+Last-Modified: Fri, 26 Jun 2015 06:22:36 GMT
+ETag: "f70dd684e23f120ec163ba1577d656d1"
+Location: http://inusual.com/feed/
+Content-Type: text/html
+

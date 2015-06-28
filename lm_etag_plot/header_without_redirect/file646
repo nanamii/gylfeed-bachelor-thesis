@@ -1,0 +1,10 @@
+HTTP/1.1 302 Moved Temporarily
+Date: Fri, 26 Jun 2015 18:04:59 GMT
+Server: Apache
+X-Pingback: http://blog.donwilson.net/xmlrpc.php
+ETag: "8f5d0edef67db2a8212238cd8131f6d4"
+Last-Modified: Fri, 29 Nov 2013 03:22:40 GMT
+Location: http://feeds.feedburner.com/donwriteblog
+Vary: Accept-Encoding
+Content-Type: text/html
+

@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 19:27:06 GMT
+Server: Apache/2.2.15 (CentOS)
+Last-Modified: Fri, 26 Jun 2015 04:25:36 GMT
+ETag: "ec4cd3-1b65-5196421b68fc7"
+Accept-Ranges: bytes
+Content-Length: 7013
+Cache-Control: max-age=300
+Expires: Fri, 26 Jun 2015 19:32:06 GMT
+P3P: CP="DSP IDC PSA PSD ADMi DEVi CONi PUBi BUS NAV COM STA UNI INT DEM PHY ONL"
+Connection: close
+Content-Type: text/xml
+Set-Cookie: BIGipServerapache_prod_static_pool=3187741356.20480.0000; path=/
+

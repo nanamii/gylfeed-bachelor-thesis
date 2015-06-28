@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 19:39:49 GMT
+Server: Apache mod_fcgid/2.3.5
+X-Powered-By: PHP/5.2.17
+Set-Cookie: bb2_screener_=1435347589+92.194.59.39; path=/
+X-Pingback: http://defensetech.org/xmlrpc.php
+Last-Modified: Fri, 26 Jun 2015 04:27:23 GMT
+ETag: "67461e9b94dad28f8a3a9390ae95c913"
+Content-Type: text/html
+

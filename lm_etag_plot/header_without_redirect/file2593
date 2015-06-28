@@ -1,0 +1,17 @@
+HTTP/1.1 404 Not Found
+Server: WWW
+X-Varnish: 1008494144
+Vary: Accept-Encoding
+Content-Type: text/html
+X-VCache: MISS
+Date: Fri, 26 Jun 2015 19:01:40 GMT
+X-TN-ServedBy: cms.varnish-app.6081
+Transfer-Encoding: chunked
+Via: 1.1 varnish-v4
+X-PersistenceNode: 0
+Connection: Keep-Alive
+Last-Modified: Tue, 14 Oct 2008 18:45:00 GMT
+X-Cache-Info: caching
+Real-Hostname: www2.insidenova.com
+Age: 0
+

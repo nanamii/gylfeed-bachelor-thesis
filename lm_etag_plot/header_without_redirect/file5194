@@ -1,0 +1,16 @@
+HTTP/1.1 302 Found
+Date: Fri, 26 Jun 2015 20:13:39 GMT
+Content-Type: application/atom+xml
+Connection: keep-alive
+Set-Cookie: __cfduid=dc6faa6d4b49ccc7f222de4c3829bbda71435349619; expires=Sat, 25-Jun-16 20:13:39 GMT; path=/; domain=.typepad.com; HttpOnly
+X-PhApp: oak-tp-web011
+X-Webserver: oak-tp-web011
+Location: http://feeds.feedburner.com/typepad/GardenApartment
+Vary: cookie
+Expires: Fri, 26 Jun 2015 20:28:39 GMT
+X-Varnish: 2392536278
+Age: 0
+Via: 1.1 varnish
+Server: cloudflare-nginx
+CF-RAY: 1fcb92f08d190f8d-FRA
+

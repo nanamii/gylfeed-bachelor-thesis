@@ -1,0 +1,13 @@
+HTTP/1.1 301 Feedburner gets redirected
+Server: Varnish
+Retry-After: 0
+Content-Length: 0
+Location: http://feeds.theguardian.com/theguardian/technology/rss
+Accept-Ranges: bytes
+Date: Fri, 26 Jun 2015 19:18:35 GMT
+Via: 1.1 varnish
+Connection: close
+X-Served-By: cache-lhr6332-LHR
+X-Cache: MISS
+X-Cache-Hits: 0
+

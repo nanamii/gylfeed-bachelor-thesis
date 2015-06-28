@@ -1,0 +1,17 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 21:45:58 GMT
+Server: Apache/2.4.7 (Ubuntu)
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Cache-Control: max-age=0, private, must-revalidate
+X-Request-Id: a732dab5-2c6e-403b-824c-69b5b2091d06
+X-Runtime: 0.106210
+X-Rack-Cache: miss
+X-Powered-By: Phusion Passenger 4.0.37
+Set-Cookie: pid=BAhJIik2NTM3OGUzZi0xNjMxLTQ2YmItYWZhNi0yNzdhYjM5ZTQ4MGQGOgZFVA%3D%3D--51baddd92962abd12e99cf2c09e4c5367da27268; path=/; expires=Wed, 27 Jun 2035 21:45:58 -0000
+Set-Cookie: _herald_session=SE9XNll6TDRNaVdqM1FmZ3pHZ0w2dE1vL05yTDA4bjRhRENPY0dPdlk1OG5hT2M3cnZ2QkxEWklXMnRzZm1wZ0JZZGh0eWs0dUhBOWJrY0NxR05HcDY1ZVh3Y2ZGZGNuNGVyNlphcFhzOUZZN3k4TitnNGhQZUxPcUZNMWE5VVlaaXM4STBlTzZKTGc4Zk8vRlNQdzMyb2RKai8xdnJFRVJmcU9zV3pKTXF6cldXSWdxUERRckZjTElqQ1FRRWlhM3lnNUt2cVgvRlpKWkQzWG56RzZOVmlldkFXdnJSZEwyRzQ0SDB5NFZSS2tyZEhBN0F1SmVkbzBySWM0dG43UitkWWZsVkpMckpYZFV1WURuRkVINWxXd2FBOENXNStnMG5qdjJ2cThFSm0rcERVQVRGVHA1c0hQOWdjTS9Cc2YtLUdKNkVaL2Z3cXlISHpYczZMRzZBalE9PQ%3D%3D--3ad476599d20363d03c150aa75a6748e67fd34b9; path=/; HttpOnly
+ETag: W/"6346068d4f7d5d8769fddeb8fc1df9a6"
+Status: 200 OK
+Content-Type: application/rss+xml; charset=utf-8
+

@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 21:09:16 GMT
+Server: Apache
+X-Pingback: http://grinandbakeit.com/xmlrpc.php
+ETag: "293a489f0652f86914f0613c858eaca7"
+Last-Modified: Fri, 11 Jul 2014 18:15:44 GMT
+Vary: Accept-Encoding
+Content-Type: text/html
+X-Pad: avoid browser bug
+

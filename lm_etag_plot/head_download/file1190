@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:13:00 GMT
+Server: Apache
+Vary: Cookie,Accept-Encoding
+X-Pingback: http://www.teachersteachingteachers.org/xmlrpc.php
+ETag: "74243108f66938c14d6ea996aafca050"
+WP-Super-Cache: Served legacy cache file
+Content-Type: text/xml; charset=UTF-8
+

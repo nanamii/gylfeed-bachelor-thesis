@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Content-Type: text/xml;charset=utf-8
+X-VG-WebCache: 164
+Cache-Control: max-age=300
+Date: Fri, 26 Jun 2015 18:59:17 GMT
+X-Varnish: 1678424233 1678406833
+Age: 60
+Via: 1.1 varnish
+Connection: keep-alive
+From: n7nwswc02.starwave.com
+X-Cache: HIT
+

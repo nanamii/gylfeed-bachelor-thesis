@@ -1,0 +1,9 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 19:20:27 GMT
+Server: Apache
+X-Pingback: http://imaginginsider.com/xmlrpc.php
+Last-Modified: Thu, 25 Jun 2015 19:22:32 GMT
+ETag: "e20c2270d981580d6da5cbadeed4dfba"
+Location: http://imaginginsider.com/?feed=rss2
+Content-Type: text/html
+

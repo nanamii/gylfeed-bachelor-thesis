@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 19:24:58 GMT
+Server: Apache/2.2.29 (Unix)
+X-Powered-By: PHP/5.4.26
+X-Pingback: http://journalists.org/xmlrpc.php
+Last-Modified: Fri, 26 Jun 2015 13:26:50 GMT
+ETag: "aed66de3c4261f667413c55d47d4e5f0"
+Content-Type: text/xml; charset=UTF-8
+

@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+Server: nginx/1.8.0
+Date: Sat, 27 Jun 2015 20:37:44 GMT
+Content-Type: text/xml; charset=UTF-8
+Connection: keep-alive
+X-Pingback: http://bungalow23.com/xmlrpc.php
+ETag: "2e9564a1139a0c63c067d50bc4a225cb"
+Last-Modified: Mon, 16 Sep 2013 16:19:04 GMT
+

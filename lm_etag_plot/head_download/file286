@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 18:37:47 GMT
+Content-Type: text/html
+Connection: keep-alive
+Server: Apache
+X-Pingback: http://www.betriebsraum.de/blog/xmlrpc.php
+Last-Modified: Fri, 30 Jan 2015 16:34:28 GMT
+ETag: "4d24131303ce9221228d6f1448550f0f"
+

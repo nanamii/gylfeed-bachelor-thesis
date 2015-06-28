@@ -1,0 +1,12 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 20:33:20 GMT
+Content-Type: text/html
+Connection: keep-alive
+Set-Cookie: __cfduid=d03fbd98665e2192272b16b6b674dd5d81435350800; expires=Sat, 25-Jun-16 20:33:20 GMT; path=/; domain=.tapbots.com; HttpOnly
+Location: http://tapbots.com/
+CF-Cache-Status: HIT
+Expires: Sat, 27 Jun 2015 00:33:20 GMT
+Cache-Control: public, max-age=14400
+Server: cloudflare-nginx
+CF-RAY: 1fcbafc97d2a2324-FRA
+

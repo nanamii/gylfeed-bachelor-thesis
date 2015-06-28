@@ -1,0 +1,9 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 20:25:01 GMT
+Server: Apache
+Location: http://www.43folders.com/rss.xml
+Cache-Control: max-age=1209600
+Expires: Fri, 10 Jul 2015 20:25:01 GMT
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+

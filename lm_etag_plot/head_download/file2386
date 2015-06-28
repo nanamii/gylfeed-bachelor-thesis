@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:34:00 GMT
+Server: Apache
+Vary: Cookie
+X-Pingback: http://blogs.reuters.com/xmlrpc.php
+Link: <http://reut.rs/WFu7Pq>; rel=shortlink
+X-Cachetype: Cached-with-(null)
+Connection: close
+Content-Type: text/html; charset=UTF-8
+

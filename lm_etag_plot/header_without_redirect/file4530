@@ -1,0 +1,15 @@
+HTTP/1.1 404 Not Found
+Server: nginx
+Date: Fri, 26 Jun 2015 19:43:23 GMT
+Content-Type: text/html; charset=utf-8
+Connection: close
+Vary: Accept-Encoding
+Set-Cookie: tmgioct=558dab5b386d110816640250; expires=Mon, 23-Jun-2025 19:43:23 GMT; Max-Age=315360000; path=/; httponly
+Link: <http://assets.tumblr.com/images/default_avatar_128.png>; rel=icon
+Cache-Control: max-age=300
+P3P: CP="Tumblr's privacy policy is available here: https://www.tumblr.com/policy/en/privacy"
+X-Tumblr-User: lafoodblogging
+X-Tumblr-Pixel-0: https://px.srvcs.tumblr.com/impixu?T=1435347803&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvbGEuZm9vZGJsb2dnaW5nLmNvbVwvZmVlZFwvIiwicmVxdHlwZSI6MCwicm91dGUiOiI0MDRfcGFnZSJ9&U=KOMGKMBKFA&K=f7d006b56037f8540028ff9cd048e18a9ccfe50ed287214e02fe9e27a2943989
+X-Tumblr-Pixel: 1
+Link: <http://assets.tumblr.com/images/default_avatar_128.png>; rel=icon
+

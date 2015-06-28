@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Server: nginx/1.8.0
+Date: Fri, 26 Jun 2015 18:17:50 GMT
+Content-Type: text/html
+Connection: keep-alive
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+X-Pingback: http://michellecolonjohnson.com/xmlrpc.php
+ETag: "c38644b8f584fc4984db938f6e0ca43f"
+Set-Cookie: PHPSESSID=77021f0c7e27bb913d9421f675e44eef; path=/
+Set-Cookie: ct_cookies_test=9a4153374fa0e30724283964bf3bafbf; path=/
+Last-Modified: Wed, 24 Jun 2015 01:40:39 GMT
+

@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 18:39:03 GMT
+Server: Apache
+X-Powered-By: PHP/5.2.17
+Vary: Cookie,User-Agent,Accept-Encoding
+X-Pingback: http://www.airtightinteractive.com/wordpress/xmlrpc.php
+ETag: "9da6c2273e7cd5bdffd95822b8784748"
+WP-Super-Cache: Served legacy cache file
+Content-Type: text/xml; charset=UTF-8
+

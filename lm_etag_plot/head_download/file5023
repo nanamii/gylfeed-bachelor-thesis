@@ -1,0 +1,17 @@
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/xml
+x-amz-id-2: ETUD3VevN+XWLM+16tH6jUYnIeaf/bfy1rRrtaC1eX3/PIxOqbijhvKptpbEvpE2o2rkgQbeY00=
+x-amz-request-id: AECF8D6227B0B095
+x-amz-version-id: cjI53fkVeNXVOgKFsRG7o0mFBANvwibu
+Cache-Control: max-age=86400
+Last-Modified: Thu, 23 Oct 2014 15:30:18 GMT
+ETag: "1b17e3f4622eab53f29161175d281a4d"
+x-origin-route: xrt-ostore
+Content-Length: 279132
+Date: Sat, 27 Jun 2015 21:10:18 GMT
+Connection: keep-alive
+X-Cache-Action: HIT
+X-Cache-Hits: 211
+X-Cache-Age: 15017
+

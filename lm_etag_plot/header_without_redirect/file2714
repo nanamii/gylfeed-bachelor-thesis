@@ -1,0 +1,17 @@
+HTTP/1.1 200 OK
+Content-Encoding: gzip
+Accept-Ranges: bytes
+Cache-Control: max-age=300
+Content-Type: text/xml; charset=UTF-8
+Date: Fri, 26 Jun 2015 19:05:43 GMT
+Etag: "2b4c94a9d0d3fd4ca845fb5471e59cd3"
+Expires: Fri, 26 Jun 2015 19:10:43 GMT
+Last-Modified: Fri, 26 Jun 2015 19:00:39 GMT
+Server: ECS (fcn/4052)
+WP-Super-Cache: Served legacy cache file
+X-Cache: HIT
+X-Cnection: close
+X-Pingback: http://www.timesofisrael.com/xmlrpc.php
+X-Powered-By: PHP/5.4.41
+Content-Length: 3489
+

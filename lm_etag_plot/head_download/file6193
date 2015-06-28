@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 21:47:00 GMT
+Server: Apache/2.2.15 (Red Hat)
+X-Powered-By: PHP/5.3.3
+X-Pingback: http://blog.historians.org/xmlrpc.php
+Last-Modified: Fri, 26 Jun 2015 18:16:41 GMT
+ETag: "e59d686efb7ccb7e1ad8ffe7caeb8c72"
+Set-Cookie: PHPSESSID=ms6q0s36g73e050uvqt9ppt9b6; path=/
+X-Robots-Tag: noindex,follow
+Connection: close
+Content-Type: text/html; charset=UTF-8
+

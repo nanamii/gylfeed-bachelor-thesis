@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Server: Apache/2.2
+Content-Type: text/html; charset=UTF-8
+Date: Fri, 26 Jun 2015 18:15:50 GMT
+X-Pingback: http://www.cc-chapman.com/xmlrpc.php
+Transfer-Encoding: chunked
+ETag: "033d32fd498f6987e208890a4f9e02de"
+Connection: Keep-Alive
+Set-Cookie: X-Mapping-bffmijpk=EA123C83A6E6AA933FDDB7253BB3E316; path=/
+Set-Cookie: bb2_screener_=1435342551+92.194.59.39+92.194.59.39; path=/
+Last-Modified: Thu, 25 Jun 2015 13:51:16 GMT
+

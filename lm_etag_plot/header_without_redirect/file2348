@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Server: Apache
+Vary: Accept-Encoding,User-Agent
+X-Powered-By: W3 Total Cache/0.9.4.1
+X-Pingback: http://psychcentral.com/blog/xmlrpc.php
+Last-Modified: Fri, 26 Jun 2015 18:35:53 GMT
+Content-Type: text/xml; charset=UTF-8
+X-Cacheable: 1
+Date: Fri, 26 Jun 2015 18:59:45 GMT
+X-Varnish: 507804197
+Age: 0
+Via: 1.1 varnish
+Connection: keep-alive
+

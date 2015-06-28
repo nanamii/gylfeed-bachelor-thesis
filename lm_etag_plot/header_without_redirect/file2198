@@ -1,0 +1,16 @@
+HTTP/1.1 302 Found
+Date: Fri, 26 Jun 2015 18:57:17 GMT
+Content-Type: application/rss+xml
+Connection: keep-alive
+Set-Cookie: __cfduid=d6b06f2eb9eb316bbf7f66db04f38bc501435345037; expires=Sat, 25-Jun-16 18:57:17 GMT; path=/; domain=.typepad.com; HttpOnly
+X-PhApp: oak-tp-web018
+X-Webserver: oak-tp-web018
+Location: http://feeds.feedburner.com/typepad/xEQi
+Vary: cookie
+Expires: Fri, 26 Jun 2015 19:12:17 GMT
+X-Varnish: 2390651697
+Age: 0
+Via: 1.1 varnish
+Server: cloudflare-nginx
+CF-RAY: 1fcb2311fd6601b2-FRA
+

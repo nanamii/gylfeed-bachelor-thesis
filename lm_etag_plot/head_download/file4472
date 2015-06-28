@@ -1,0 +1,19 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sat, 27 Jun 2015 20:31:16 GMT
+Content-Type: text/xml; charset=UTF-8
+Connection: keep-alive
+Keep-Alive: timeout=15
+Vary: Accept-Encoding
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+X-Pingback: http://www.georgeambler.com/xmlrpc.php
+ETag: "3230ea1de9563165a4e7c71fd6a8417b"
+X-Robots-Tag: noindex,follow
+Set-Cookie: nf_wp_session=bad9dca87d2b83fd9f2f9642b1c16f5f%7C%7C1435480275%7C%7C1435478475; expires=Sun, 28-Jun-2015 08:31:15 GMT; path=/
+Set-Cookie: PHPSESSID=efec8417c4f2ee7f7fba6b665a777d77; path=/
+Last-Modified: Sat, 16 May 2015 19:19:06 GMT
+Vary: Accept-Encoding
+ngpass_ngall: 1
+

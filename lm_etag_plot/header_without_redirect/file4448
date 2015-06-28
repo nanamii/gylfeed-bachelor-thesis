@@ -1,0 +1,23 @@
+HTTP/1.1 301 Moved Permanently
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+X-Pingback: http://gardeninggonewild.com/xmlrpc.php
+X-UA-Compatible: IE=edge,chrome=1
+Set-Cookie: PHPSESSID=7a08cscccqnlutmubp2njk5oe2; path=/
+Set-Cookie: ct_cookies_test=e01006937b8e1588e3f9dd8fa6161e0b; path=/
+Set-Cookie: wfvt_3447313625=558dab30c85a1; expires=Fri, 26-Jun-2015 20:12:40 GMT; path=/; httponly
+Last-Modified: Fri, 26 Jun 2015 15:01:05 GMT
+ETag: "81500d85470656580c0d61d8352b19a7"
+Content-Type: text/html
+X-Port: port_10706
+X-Cacheable: YES:Forced
+Location: http://gardeninggonewild.com/?feed=rss2
+Accept-Ranges: bytes
+Date: Fri, 26 Jun 2015 19:42:40 GMT
+Age: 0
+Vary: User-Agent
+X-Cache: uncached
+X-Cache-Hit: MISS
+X-Backend: wpaas_web_201
+

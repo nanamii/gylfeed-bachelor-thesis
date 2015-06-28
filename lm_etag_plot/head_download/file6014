@@ -1,0 +1,17 @@
+HTTP/1.1 200 OK
+Last-Modified: Fri, 26 Jun 2015 16:43:11 GMT
+ETag: "0ee7566e8a37ac3580a7521f4e11cf3a"
+Content-Type: application/xml
+Cache-Control: public, no-cache, max-age=31536000
+Content-Length: 75754
+Accept-Ranges: bytes
+Date: Sat, 27 Jun 2015 21:42:22 GMT
+Age: 100237
+Connection: keep-alive
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: master-only
+X-XSS-Protection: 1; mode=block
+X-Frame-Options: DENY
+Server:  
+

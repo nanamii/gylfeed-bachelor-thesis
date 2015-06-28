@@ -1,0 +1,14 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 19:26:25 GMT
+Content-Type: text/html
+Connection: keep-alive
+Set-Cookie: __cfduid=d0c83be9add7e4506810b7cbc04ec1fc41435346784; expires=Sat, 25-Jun-16 19:26:24 GMT; path=/; domain=.flickchart.com; HttpOnly
+X-Powered-By: PHP/5.4.35
+X-Pingback: http://www.flickchart.com/blog/xmlrpc.php
+X-Frame-Options: SAMEORIGIN
+Last-Modified: Thu, 25 Jun 2015 16:10:19 GMT
+ETag: "b5ec77ede7edbcea6ad61a73f3b0e8ad"
+Location: http://www.flickchart.com/blog/feed/
+Server: cloudflare-nginx
+CF-RAY: 1fcb4dbdb055158f-FRA
+

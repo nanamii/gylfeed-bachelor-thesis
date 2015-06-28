@@ -1,0 +1,17 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sat, 27 Jun 2015 20:20:33 GMT
+Content-Type: text/html
+Connection: keep-alive
+Keep-Alive: timeout=20
+X-Pingback: http://modernfarmer.com/xmlrpc.php
+Last-Modified: Fri, 26 Jun 2015 20:01:32 GMT
+ETag: "c0ee28582fb5bd4851e8ea99124bf71a-gzip"
+X-Robots-Tag: noindex,follow
+X-Cacheable: CacheAlways: feed
+Cache-Control: max-age=600, must-revalidate
+X-Cache: HIT: 14
+X-Pass-Why: 
+X-Cache-Group: 
+X-Type: feed
+

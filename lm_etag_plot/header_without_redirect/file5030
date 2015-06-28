@@ -1,0 +1,14 @@
+HTTP/1.1 302 Found
+ETag: W/"8006364f-32ec-488e-86d9-ee908a1951d9"
+Date: Fri, 26 Jun 2015 19:51:27 GMT
+Content-Type: text/html
+Server: blogger-renderd
+Expires: Fri, 26 Jun 2015 19:51:28 GMT
+Cache-Control: public, must-revalidate, proxy-revalidate, max-age=1
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Location: http://feeds2.feedburner.com/blogspot/mUbk?format=xml
+X-Frame-Options: SAMEORIGIN
+Alternate-Protocol: 80:quic,p=0
+Transfer-Encoding: chunked
+

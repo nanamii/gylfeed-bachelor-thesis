@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Cache-Control: public
+Content-Length: 18490
+Content-Type: text/xml; charset=UTF-8
+Expires: Fri, 26 Jun 2015 20:27:16 GMT
+Last-Modified: Fri, 26 Jun 2015 19:27:16 GMT
+Server: Microsoft-IIS/8.5
+ws: 5
+Date: Fri, 26 Jun 2015 19:27:16 GMT
+

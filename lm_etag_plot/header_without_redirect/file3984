@@ -1,0 +1,7 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 19:25:52 GMT
+Server: Apache/2.2.23 (Unix)
+Location: http://www.cc.com/rss/colbertvideoscached.jhtml?partner=rssyahoo
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+

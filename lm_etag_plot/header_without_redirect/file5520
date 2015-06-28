@@ -1,0 +1,9 @@
+HTTP/1.1 405 MethodNotAllowed
+Date: Fri, 26 Jun 2015 20:16:56 GMT
+Server: Server
+x-amz-id-1: 1ZJ7KWTAYC63K8TAJTEJ
+allow: POST, GET
+x-amz-id-2: GB6FsfGJ1BU8OLfcgGwmAEFD5K+6K7rG8hseOFB/GzylIXvoN20swDW35P3fYyBu
+Vary: Accept-Encoding,User-Agent
+Content-Type: text/html; charset=ISO-8859-1
+

@@ -1,0 +1,27 @@
+HTTP/1.1 200 OK
+age: 0
+Cache-Control: max-age = 600
+Content-Type: text/html; charset=utf-8
+Date: Sat, 27 Jun 2015 19:30:53 GMT
+Last-Modified: Sat, 27 Jun 2015 19:28:12 GMT
+Server: Economist Web Server
+Vary: Cookie
+Via: 1.1 varnish
+X-Cache-Hits: 3
+x-ip: 92.194.59.39
+X-Powered-By: Dynamic Cache
+X-Trace: 1B56DCB83EB366E8BAD5F1F6425FEFA879A2182C936B8CF9BFCD45BBBB
+X-Varnish: 740267992 740259526
+X-Varnish-Cache: HIT
+xff: 92.194.59.39
+Connection: keep-alive
+Set-Cookie: visid_incap_121505=5Taqs4F1QWes+zk+dZ3syuz5jlUAAAAAQUIPAAAAAABsFDxdvBPm9VilW3k2VUQv; expires=Sun, 25 Jun 2017 21:29:04 GMT; path=/; Domain=.economist.com
+Set-Cookie: nlbi_121505=c6qYaAP3mkhPm0WWA0pflAAAAAC5ShtEdRNexZp/c6krAqeY; path=/; Domain=.economist.com
+Set-Cookie: incap_ses_128_121505=dCTRPkodOzxqFaSLtr/GAez5jlUAAAAAk+FQTwno6I9tOTC1QobEfw==; path=/; Domain=.economist.com
+Set-Cookie: ___utmvmBFuZKyc=sGaVvAxgsuU; path=/; Max-Age=900
+Set-Cookie: ___utmvaBFuZKyc=lAlskOW; path=/; Max-Age=900
+Set-Cookie: ___utmvbBFuZKyc=VZN
+    XzlOcalC: ftw; path=/; Max-Age=900
+X-Iinfo: 10-97861467-97859095 PNNN RT(1435433452572 2) q(0 0 0 0) r(1 1) U5
+X-CDN: Incapsula
+

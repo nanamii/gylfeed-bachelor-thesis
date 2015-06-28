@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Age: 315
+Cache-Control: max-age=900, public
+Content-Type: text/xml; charset=UTF-8
+Date: Sat, 27 Jun 2015 19:51:57 GMT
+Last-Modified: Wed, 08 Oct 2014 16:56:32 GMT
+Server: ECAcc (frf/8744)
+SPDL-Cache: HIT
+SPDL-TTL: 600.000
+Vary: Accept-Encoding
+X-Cacheable: YES
+X-Pingback: http://www.bjpenn.com/xmlrpc.php
+X-Robots-Tag: noindex,follow
+Content-Length: 0
+

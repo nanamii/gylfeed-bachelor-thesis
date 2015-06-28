@@ -1,0 +1,8 @@
+HTTP/1.1 302 Found
+Date: Fri, 26 Jun 2015 19:27:18 GMT
+Server: Apache
+Location: http://feeds.feedburner.com/quotationspage/qotd
+Cache-Control: max-age=14400
+Expires: Fri, 26 Jun 2015 23:27:18 GMT
+Content-Type: text/html; charset=iso-8859-1
+

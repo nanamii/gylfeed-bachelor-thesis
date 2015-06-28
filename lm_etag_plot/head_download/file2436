@@ -1,0 +1,17 @@
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=UTF-8
+Content-Length: 0
+Connection: keep-alive
+Access-Control-Allow-Origin: http://news.harvard.edu
+Date: Sat, 27 Jun 2015 16:39:11 GMT
+ETag: "1e3fa20d3e92f18a353f52d496059069"
+Last-Modified: Fri, 26 Jun 2015 22:50:28 GMT
+Server: Apache/2.4.12 (Amazon) PHP/5.5.25
+X-Pingback: http://news.harvard.edu/gazette/xmlrpc.php
+X-Powered-By: PHP/5.5.25
+Age: 10523
+Vary: Cookie
+X-Cache: Hit from cloudfront
+Via: 1.1 ecc0c6e7bd06eacf696003aa79e1e25a.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: fjWO0sb0ZjUMGHB7o0M_bMS1bACuXs7q8-EXyzgJk6teaJPDiJBCeg==
+

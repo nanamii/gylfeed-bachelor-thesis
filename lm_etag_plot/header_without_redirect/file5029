@@ -1,0 +1,11 @@
+HTTP/1.1 302 Found
+Date: Fri, 26 Jun 2015 19:51:27 GMT
+Server: LiteSpeed
+Connection: close
+Cache-Control: no-cache, no-store, must-revalidate, max-age=0
+X-Pingback: http://www.thisgardenisillegal.com/xmlrpc.php
+Last-Modified: Tue, 11 Jun 2013 11:19:41 GMT
+ETag: "a14f9e55d4310401ceedb7cbf00c8e46"
+Location: http://feeds.feedburner.com/ThisGardenIsIllegal
+Content-Type: text/html
+

@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 20:21:41 GMT
+Server: Apache/2.2.29 (Unix) mod_ssl/2.2.29 OpenSSL/1.0.1e-fips mod_bwlimited/1.4
+Last-Modified: Wed, 11 Feb 2015 11:12:46 GMT
+ETag: "2765ba6-bb06-50ece154850ff"
+Accept-Ranges: bytes
+Content-Length: 47878
+Connection: close
+Content-Type: application/xml
+

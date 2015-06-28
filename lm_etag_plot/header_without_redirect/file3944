@@ -1,0 +1,16 @@
+HTTP/1.1 301 Moved Permanently
+Age: 188344
+Cache-Control: max-age=1209600
+Content-Type: text/html; charset=iso-8859-1
+Date: Fri, 26 Jun 2015 19:25:20 GMT
+Expires: Wed, 08 Jul 2015 15:06:16 GMT
+Location: http://www.adn.com/section/culture
+Server: nginx
+Vary: Accept-Encoding
+Via: 1.1 varnish
+X-Cache: HIT
+X-Cache-Hits: 1681
+X-Request-ID: v-8fc9021c-1a82-11e5-b7ed-22000a93a68a
+X-Varnish: 507013346 493116410
+Connection: keep-alive
+

@@ -1,0 +1,9 @@
+HTTP/1.1 302 Found
+Date: Fri, 26 Jun 2015 19:22:40 GMT
+Server: Apache
+Location: http://feedproxy.google.com/universetoday/pYdq
+Cache-Control: max-age=3600
+Expires: Fri, 26 Jun 2015 20:22:40 GMT
+Vary: Accept-Encoding
+Content-Type: text/html; charset=iso-8859-1
+

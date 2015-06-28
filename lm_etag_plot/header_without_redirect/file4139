@@ -1,0 +1,10 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Content-Type: text/html
+Date: Fri, 26 Jun 2015 19:29:48 GMT
+Keep-Alive: timeout=20
+Location: http://www.theartblog.org/feed/
+Connection: keep-alive
+Set-Cookie: X-Mapping-fjhppofk=28BD1488881E515CF7D5DEE1CF9D74B7; path=/
+Content-Length: 178
+

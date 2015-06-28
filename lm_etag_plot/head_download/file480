@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+Last-Modified: Sat, 27 Jun 2015 18:03:45 GMT
+Date: Sat, 27 Jun 2015 18:40:51 GMT
+Expires: Sat, 27 Jun 2015 18:40:51 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Server: GSE
+Alternate-Protocol: 80:quic,p=0
+Transfer-Encoding: chunked
+Accept-Ranges: none
+Vary: Accept-Encoding
+

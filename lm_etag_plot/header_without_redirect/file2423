@@ -1,0 +1,13 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 18:59:49 GMT
+Server: Apache/2.2.16 (Unix) mod_ssl/2.2.16 OpenSSL/0.9.8e-fips-rhel5 DAV/2 mod_auth_passthrough/2.1 mod_bwlimited/1.4 FrontPage/5.0.2.2635
+X-Powered-By: PHP/5.2.14
+Vary: Cookie
+X-Pingback: http://bulatlat.com/main/xmlrpc.php
+ETag: "a8048e3325cc6d335dac2a54bf6896f9"
+Last-Modified: Fri, 26 Jun 2015 15:00:12 GMT
+Location: http://bulatlat.com/main/feed/
+Cache-Control: max-age=1209600
+Expires: Fri, 10 Jul 2015 18:59:49 GMT
+Content-Type: application/rss+xml; charset="UTF-8"
+

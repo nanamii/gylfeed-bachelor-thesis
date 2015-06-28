@@ -1,0 +1,8 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 19:36:50 GMT
+Connection: keep-alive
+Set-Cookie: __cfduid=dc5e6d4e6baa5776d7089f307109891921435347410; expires=Sat, 25-Jun-16 19:36:50 GMT; path=/; domain=.dinnerbone.com; HttpOnly
+Location: https://dinnerbone.com/blog/feeds/latest/
+Server: cloudflare-nginx
+CF-RAY: 1fcb5d01d92c0f69-FRA
+

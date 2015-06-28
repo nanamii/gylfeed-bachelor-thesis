@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 20:14:05 GMT
+Content-Type: application/atom+xml
+Connection: keep-alive
+Set-Cookie: __cfduid=d3b46fb417a367829041d0e8e70bb54a41435349644; expires=Sat, 25-Jun-16 20:14:04 GMT; path=/; domain=.insideurbangreen.org; HttpOnly
+X-PhApp: oak-tp-web012
+X-Webserver: oak-tp-web012
+Vary: cookie
+Last-Modified: Tue, 23 Jun 2015 07:05:02 GMT
+X-Varnish: 1652275019
+Age: 0
+Via: 1.1 varnish
+Server: cloudflare-nginx
+CF-RAY: 1fcb938ee8b201af-FRA
+

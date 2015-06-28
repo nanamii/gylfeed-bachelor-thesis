@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:22:03 GMT
+Server: Apache/2.2.22 (Unix) mod_ssl/2.2.22 OpenSSL/0.9.8e-fips-rhel5 DAV/2
+Set-Cookie: PHPSESSID=3sjh6a5gdhp6eq51k4sdvufnh2; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+X-Pingback: http://blogs.usda.gov/xmlrpc.php
+Last-Modified: Fri, 26 Jun 2015 16:42:08 GMT
+ETag: "093c4b4e72f0c133699b9b966e93fb45"
+Vary: User-Agent,Accept-Encoding
+Content-Type: text/xml; charset=UTF-8
+

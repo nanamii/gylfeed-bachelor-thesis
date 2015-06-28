@@ -1,0 +1,7 @@
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=utf-8
+P3P: CP='NO P3P'
+Server: Apache
+Date: Sat, 27 Jun 2015 19:21:18 GMT
+Connection: keep-alive
+

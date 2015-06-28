@@ -1,0 +1,7 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 19:06:25 GMT
+Server: Apache
+Location: http://www.adweek.com/tvnewser/rss/?red=tn
+Content-Type: text/html; charset=iso-8859-1
+Set-Cookie: ax-sess-retired.blogs.mb.com=AGANAEAK; Expires=Fri, 26-Jun-2015 21:06:25 GMT; Path=/
+

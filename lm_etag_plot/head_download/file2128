@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Sat, 27 Jun 2015 19:29:57 GMT
+Content-Type: application/xml; charset=utf-8
+Connection: keep-alive
+Status: 200 OK
+X-UA-Compatible: IE=Edge,chrome=1
+ETag: "10ec34926c2456ab4aa47560d13d7f17"
+Cache-Control: max-age=0, private, must-revalidate
+Set-Cookie: _storyful_session=BAh7BkkiD3Nlc3Npb25faWQGOgZFRkkiJWJiOGJhMDMxMzQwYWVhN2RmMzU2MTVlNjRlZjI0OTk0BjsAVA%3D%3D--17138405980ad6cc7bc232e134d22dc83cad0e5b; path=/; expires=Fri, 25-Sep-2015 19:29:57 GMT; HttpOnly
+X-Runtime: 0.806471
+X-Rack-Cache: miss
+X-Powered-By: Phusion Passenger 4.0.40
+

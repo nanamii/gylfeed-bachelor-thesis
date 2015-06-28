@@ -1,0 +1,16 @@
+HTTP/1.1 302 Found
+Date: Fri, 26 Jun 2015 18:43:11 GMT
+Content-Type: application/atom+xml
+Connection: keep-alive
+Set-Cookie: __cfduid=dbcc3c19782bafe78001bac821b40ac8f1435344191; expires=Sat, 25-Jun-16 18:43:11 GMT; path=/; domain=.typepad.com; HttpOnly
+X-PhApp: oak-tp-web038
+X-Webserver: oak-tp-web038
+Location: http://feeds.feedburner.com/Technology360
+Vary: cookie
+Expires: Fri, 26 Jun 2015 18:58:11 GMT
+X-Varnish: 2390305878
+Age: 0
+Via: 1.1 varnish
+Server: cloudflare-nginx
+CF-RAY: 1fcb0e6c5329236c-FRA
+

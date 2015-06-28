@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Server: nginx/1.8.0
+Date: Sat, 27 Jun 2015 18:42:39 GMT
+Content-Type: text/xml; charset=UTF-8
+Connection: keep-alive
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+X-UA-Compatible: IE=EmulateIE7
+X-Pingback: http://www.dropyourreins.com/xmlrpc.php
+ETag: "10ce19e5e1bfeda6acb9e88205ddae84"
+Set-Cookie: PHPSESSID=5715422067ab3df627f45acb9a3a7614; path=/
+Last-Modified: Wed, 01 Feb 2012 18:17:36 GMT
+

@@ -1,0 +1,7 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 19:14:45 GMT
+Server: Apache/2.2.12 (Linux/SUSE)
+Location: http://www.villagevoice.com/syndication/section/news
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+

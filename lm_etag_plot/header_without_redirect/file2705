@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 19:05:34 GMT
+Server: Apache/2.4.12
+Last-Modified: Fri, 06 Mar 2015 01:28:19 GMT
+Accept-Ranges: bytes
+Content-Length: 161269
+Vary: Accept-Encoding
+Cache-Control: max-age=0
+Expires: Fri, 26 Jun 2015 19:05:34 GMT
+Content-Type: application/xml
+

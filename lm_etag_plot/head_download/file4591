@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Server: Sucuri/Cloudproxy
+Date: Sat, 27 Jun 2015 20:39:00 GMT
+Content-Type: text/xml; charset=UTF-8
+Connection: keep-alive
+Vary: Accept-Encoding
+X-Pingback: http://gapingvoid.com/xmlrpc.php
+Last-Modified: Thu, 11 Jun 2015 15:28:02 GMT
+ETag: "489029adbaa5c529f76f45a16391fb4f"
+X-Cache: HIT
+X-XSS-Protection: 1; mode=block
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+

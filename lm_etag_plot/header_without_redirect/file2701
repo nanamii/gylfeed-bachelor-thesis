@@ -1,0 +1,7 @@
+HTTP/1.1 302 Moved Temporarily
+Server: Varnish
+Location: /cmlink/news-1.1319192
+Accept-Ranges: bytes
+Date: Fri, 26 Jun 2015 19:05:33 GMT
+Connection: close
+

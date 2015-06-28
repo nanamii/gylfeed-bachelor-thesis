@@ -1,0 +1,7 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 19:38:57 GMT
+Server: Apache
+Location: http://www.zdnet.com/blog/weblife/rss.xml
+Vary: Accept-Encoding
+Content-Type: text/html; charset=iso-8859-1
+

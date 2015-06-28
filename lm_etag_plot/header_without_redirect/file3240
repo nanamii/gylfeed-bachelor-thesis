@@ -1,0 +1,11 @@
+HTTP/1.1 302 Found
+Location: https://developers.facebook.com/news.php?blog=1&format=xml
+P3P: CP="Facebook does not have a P3P policy. Learn why here: http://fb.me/p3p"
+Set-Cookie: reg_fb_ref=http%3A%2F%2Fdevelopers.facebook.com%2Fnews.php%3Fblog%3D1%26format%3Dxml; path=/; domain=.facebook.com; httponly
+Set-Cookie: reg_fb_gate=http%3A%2F%2Fdevelopers.facebook.com%2Fnews.php%3Fblog%3D1%26format%3Dxml; path=/; domain=.facebook.com; httponly
+Content-Type: text/html
+X-FB-Debug: RejCFJyIEJR2yjzzV258JjB0HWqBAA6eFUv9wRzZkkmlEuzCsK9enwjhuPr9KPz/0DPC8TFrSKkyfXwebRuuGA==
+Date: Fri, 26 Jun 2015 19:15:20 GMT
+Connection: keep-alive
+Content-Length: 0
+

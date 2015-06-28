@@ -1,0 +1,14 @@
+HTTP/1.1 302 Found
+ETag: W/"25c96630-8208-48e3-804c-938dd4f2e418"
+Date: Fri, 26 Jun 2015 19:47:24 GMT
+Content-Type: text/html
+Server: blogger-renderd
+Expires: Fri, 26 Jun 2015 19:47:25 GMT
+Cache-Control: public, must-revalidate, proxy-revalidate, max-age=1
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Location: http://feeds.feedburner.com/deepsouthdish/SeVH
+X-Frame-Options: SAMEORIGIN
+Transfer-Encoding: chunked
+Alternate-Protocol: 80:quic,p=0
+

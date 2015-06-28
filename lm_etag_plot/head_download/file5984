@@ -1,0 +1,19 @@
+HTTP/1.1 200 OK
+Server: GitHub.com
+Content-Type: text/xml; charset=utf-8
+Last-Modified: Sun, 22 Mar 2015 14:31:58 GMT
+Access-Control-Allow-Origin: *
+Expires: Sat, 27 Jun 2015 21:49:27 GMT
+Cache-Control: max-age=600
+Content-Length: 127084
+Accept-Ranges: bytes
+Date: Sat, 27 Jun 2015 21:39:27 GMT
+Via: 1.1 varnish
+Age: 0
+Connection: keep-alive
+X-Served-By: cache-fra1234-FRA
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1435441167.403538,VS0,VE176
+Vary: Accept-Encoding
+

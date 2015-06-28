@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 18:40:25 GMT
+Server: Apache
+Vary: Cookie
+X-Pingback: http://www.noupe.com/xmlrpc.php
+ETag: "87b776ff826003b44a544d3ed3657852"
+WP-Super-Cache: Served legacy cache file
+Content-Type: text/xml; charset=UTF-8
+

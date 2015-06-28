@@ -1,0 +1,25 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+X-Varnish: 720467643 720438653
+Vary: , Cookie
+Cache-Control: public, max-age=600
+Content-Type: text/html
+X-Styx-Build-Sha: 39667cea44763e7df6d81c544b0d294bf223876f
+X-Pantheon-Styx-Hostname: styxf9257755
+X-Styx-Version: StyxGo
+X-Pingback: http://www.jta.org/xmlrpc.php
+Date: Fri, 26 Jun 2015 19:01:10 GMT
+Location: http://www.jta.org/global/feed
+X-Styx-Req-Id: styx-dc527935bde8cfd124736e34add9be78
+Accept-Ranges: bytes
+Etag: "4cbe6d1a331cb8fe737c6637c5129522"
+X-Pantheon-Endpoint: 36a5913a-5ec5-4495-a4a9-5cacbd861446
+Via: 1.1 varnish
+Connection: keep-alive
+Last-Modified: Fri, 13 Mar 2015 03:03:57 GMT
+X-Styx-Build-Date: Wed Apr 29 20:43:17 UTC 2015
+X-Powered-By: PHP/5.5.24
+X-Styx-Build-Num: 946
+Age: 52
+Content-Length: 0
+

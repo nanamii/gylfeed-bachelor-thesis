@@ -1,0 +1,17 @@
+HTTP/1.1 200 OK
+Vary: User-Agent,Accept-Encoding
+X-Pingback: http://www.socialmediaexaminer.com/xmlrpc.php
+Last-Modified: Fri, 26 Jun 2015 10:00:39 GMT
+ETag: "3a3836cc9b3f1c5e95fd6b07a2f3361c"
+X-Robots-Tag: noindex,follow
+Content-Type: text/xml; charset=UTF-8
+X-Cache-TTL: 3600.000
+Date: Fri, 26 Jun 2015 18:16:35 GMT
+X-Varnish: 780480294 780467744
+Age: 331
+Via: 1.1 varnish
+Connection: keep-alive
+X-Cache: HIT
+X-Varnish-Hits: 354
+X-UA-Type: Desktop
+

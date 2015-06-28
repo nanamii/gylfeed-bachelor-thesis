@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 20:25:01 GMT
+Server: Apache/2.2.22
+X-Powered-By: PHP/5.3.29
+X-Pingback: http://everydaygardener.com/xmlrpc.php
+ETag: "a7f681c56fd4cb0d07794588fe53a721"
+Last-Modified: Tue, 09 Jun 2015 21:38:45 GMT
+Vary: User-Agent,Accept-Encoding
+Content-Type: text/html
+

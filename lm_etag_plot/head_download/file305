@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 18:38:07 GMT
+Server: Apache/2.2.22
+X-Powered-By: PHP/5.3.29
+X-Pingback: http://blog.drwoohoo.com/xmlrpc.php
+ETag: "eba04f7c8b3dc6d113cb8532be302081"
+Last-Modified: Fri, 20 Mar 2015 01:39:12 GMT
+Vary: User-Agent,Accept-Encoding
+Content-Type: text/html
+

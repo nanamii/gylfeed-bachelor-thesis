@@ -1,0 +1,16 @@
+HTTP/1.1 303 See Other
+Server: Varnish
+x-r: 0
+Location: http://www.nytimes.com/glogin?URI=http%3A%2F%2Fscientistatwork.blogs.nytimes.com%2Ffeed%3F_r%3D0
+Accept-Ranges: bytes
+Date: Fri, 26 Jun 2015 19:22:23 GMT
+X-Varnish: 1399537124
+Age: 0
+Via: 1.1 varnish
+X-Cache: MISS
+X-API-Version: 5-5b
+X-PageType: blog
+Connection: close
+X-Frame-Options: DENY
+Set-Cookie: RMID=007f01012966558da66f0008;Path=/; Domain=.nytimes.com;Expires=Sat, 25 Jun 2016 19:22:23 UTC
+

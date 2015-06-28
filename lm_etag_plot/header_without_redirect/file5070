@@ -1,0 +1,9 @@
+HTTP/1.1 301 Moved Permanently
+Cache-control: no-cache="set-cookie"
+Content-Type: text/html; charset=iso-8859-1
+Date: Fri, 26 Jun 2015 19:51:52 GMT
+Location: http://blog.innosight.com/index.php?/feeds/index.rss2
+Server: Apache/2.2.27 (CentOS)
+Set-Cookie: AWSELB=618D313304FC56E426CF354E6519831DDCDAD8155BB2050315027D26F930DD15CB4A29AA44C167D430CC657763B579416FF40D728AE7AEF28047A7D6F08B243BB8299E95C7;PATH=/;MAX-AGE=3600
+Connection: keep-alive
+

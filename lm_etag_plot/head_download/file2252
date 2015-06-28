@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:32:13 GMT
+Server: Apache
+Set-Cookie: PHPSESSID=213d6d02bee3a8e3aa00d348a8004087; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+X-Pingback: http://www.baldhiker.com/xmlrpc.php
+Last-Modified: Tue, 16 Jun 2015 20:43:43 GMT
+ETag: "a7900ff6017b37ca34a4b2ae29b314b9"
+Vary: User-Agent,Accept-Encoding
+Content-Type: text/html
+

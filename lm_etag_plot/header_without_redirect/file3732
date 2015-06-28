@@ -1,0 +1,12 @@
+HTTP/1.1 301 Moved Permanently
+Accept-Ranges: bytes
+Cache-Control: max-age=300
+Content-Length: 178
+Content-Type: text/html; charset=utf-8
+Location: http://zeenews.india.com/rss/science-technology-news.xml
+Server: ZWS/4.0
+X-ttl: 180.000
+X-VarCache: CacheHit (1)
+Date: Fri, 26 Jun 2015 19:22:41 GMT
+Connection: keep-alive
+

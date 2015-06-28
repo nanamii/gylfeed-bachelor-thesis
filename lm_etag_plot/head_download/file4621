@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+Server: nginx/1.1.19
+Date: Sat, 27 Jun 2015 20:40:14 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+X-Powered-By: PHP/5.3.10-1ubuntu3.18
+Last-Modified: Sat, 27 Jun 2015 20:34:34 GMT
+X-Pingback: http://blog.learnlets.com/xmlrpc.php
+

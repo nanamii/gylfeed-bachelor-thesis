@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 18:17:02 GMT
+Server: Apache/2.2.29 (Unix) mod_ssl/2.2.29 OpenSSL/1.0.1e-fips mod_bwlimited/1.4
+X-Powered-By: PHP/5.4.41
+X-Pingback: http://glenngarnes.com/xmlrpc.php
+ETag: "737b2eefa2fad1fe2376156a66028f2c"
+Last-Modified: Thu, 11 Jun 2015 11:54:40 GMT
+Content-Type: text/html
+

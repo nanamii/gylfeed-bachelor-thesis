@@ -1,0 +1,16 @@
+HTTP/1.1 301 Moved Permanently
+Content-Type: text/html
+Content-Length: 178
+Connection: keep-alive
+Cache-Control: max-age=0
+Cache-Control: private, no-cache, no-store
+Date: Fri, 26 Jun 2015 19:22:19 GMT
+Expires: Fri, 26 Jun 2015 19:22:19 GMT
+Location: http://scienceprogress.org/feed/
+Server: nginx
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+X-Cache: Miss from cloudfront
+Via: 1.1 8b1633b834f6beaa5a2d7797c38cf775.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: nRIVFqul8lVNxNYf9uchfsR3xMPhd8oKUdjFzI6eVNcMq9JZANzvhg==
+

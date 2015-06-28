@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Content-Length: 17809
+Content-Type: application/xml; charset=utf-8
+ETag: "1435433027"
+Last-Modified: Sat, 27 Jun 2015 19:23:47 +0000
+X-Varnish: 3004193663 3004191358
+Server: server
+Cache-Control: max-age=1
+Date: Sat, 27 Jun 2015 19:24:01 GMT
+Connection: keep-alive
+

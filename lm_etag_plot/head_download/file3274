@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sat, 27 Jun 2015 19:54:01 GMT
+Content-Type: application/rss+xml; charset=UTF8
+Content-Length: 468
+Connection: keep-alive
+X-PBS-appsvrip: (null)
+X-PBS-appsvrname: tvschedules-prod-app-3
+X-Cache-FS-Status: BYPASS
+X-PBS-fwsrvname: api-fwcacheproxy_29
+

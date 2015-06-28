@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:24:33 GMT
+Content-Type: text/xml
+Content-Length: 6292
+Connection: keep-alive
+Set-Cookie: __cfduid=db36bfcf3a6124f39fb07cae7bed4cf901435433073; expires=Sun, 26-Jun-16 19:24:33 GMT; path=/; domain=.geo.tv; HttpOnly
+Last-Modified: Sat, 27 Jun 2015 19:20:57 GMT
+Accept-Ranges: bytes
+ETag: "a4703a65eb1d01:0"
+X-Powered-By: ASP.NET
+Server: cloudflare-nginx
+CF-RAY: 1fd388666f4a15d7-FRA
+

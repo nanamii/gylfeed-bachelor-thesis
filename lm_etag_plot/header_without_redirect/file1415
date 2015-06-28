@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 18:41:05 GMT
+Server: Apache/2.2.22
+X-Powered-By: PHP/5.3.29
+X-Pingback: http://blog.driventoexcel.com/xmlrpc.php
+X-Robots-Tag: noindex,follow
+Last-Modified: Fri, 26 Jun 2015 10:00:54 GMT
+Vary: User-Agent,Accept-Encoding
+Content-Type: text/xml; charset=UTF-8
+

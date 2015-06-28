@@ -1,0 +1,8 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Fri, 26 Jun 2015 19:33:34 GMT
+Content-Type: text/html; charset=iso-8859-1
+Connection: keep-alive
+Location: https://publicintelligence.net/activity/feed/
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+

@@ -1,0 +1,15 @@
+HTTP/1.1 301 Moved Permanently
+Cache-Control: no-cache
+Pragma: no-cache
+Content-Length: 0
+Expires: -1
+Location: http://blogs.msdn.com/b/ie/rss.aspx
+Server: Microsoft-IIS/7.5
+X-FRAME-OPTIONS: SAMEORIGIN
+Telligent-Evolution: 5.6.50428.7875
+X-Server: NBLOGS06
+P3P: CP="ALL IND DSP COR ADM CONo CUR CUSo IVAo IVDo PSA PSD TAI TELo OUR SAMo CNT COM INT NAV ONL PHY PRE PUR UNI"
+X-Powered-By: ASP.NET
+X-server: S06
+Date: Fri, 26 Jun 2015 20:20:51 GMT
+

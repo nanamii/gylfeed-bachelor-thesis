@@ -1,0 +1,17 @@
+HTTP/1.1 200 OK
+Content-Type: application/rss+xml
+Content-Length: 18815
+Connection: keep-alive
+Date: Sat, 27 Jun 2015 21:00:12 GMT
+Content-Language: en-US
+Expires: Sat, 27 Jun 2015 21:15:01 GMT
+Cache-Control: public, must-revalidate, proxy-revalidate, max-age=900
+Last-Modified: Sat, 27 Jun 2015 21:00:03 GMT
+ETag: "148297368c92e6585cbfb28b3263b972"
+Accept-Ranges: bytes
+Server: AmazonS3
+Age: 594
+X-Cache: Hit from cloudfront
+Via: 1.1 555b3d1e219eccca6c7a8a323cc211b2.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: Ocf-my5MQI_vwzb1U--6HaLE-UQpNEloZpzXKElnpCArIIS_7fXUZA==
+

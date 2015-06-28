@@ -1,0 +1,14 @@
+HTTP/1.1 404 Not Found
+Server: Apache/2.2.18 (Unix) mod_ssl/2.2.18 OpenSSL/0.9.8r-fips PHP/5.3.16
+X-Powered-By: PHP/5.3.16
+Access-Control-Allow-Origin: http://movies.nextmovie.com
+X-Pingback: http://www.nextmovie.com/xmlrpc.php
+Pragma: no-cache
+X-Cache-Term: short
+Content-Type: text/html; charset=UTF-8
+Content-Length: 0
+Cache-Control: must-revalidate, max-age=300
+Expires: Fri, 26 Jun 2015 19:32:04 GMT
+Date: Fri, 26 Jun 2015 19:27:04 GMT
+Connection: keep-alive
+

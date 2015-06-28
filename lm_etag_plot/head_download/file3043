@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:50:54 GMT
+Server: Apache Phusion_Passenger/4.0.10 mod_bwlimited/1.4 mod_fcgid/2.3.9
+X-Powered-By: PHP/5.4.35
+X-Pingback: http://www.shariblog.com/xmlrpc.php
+X-UA-Compatible: IE=edge,chrome=1
+Last-Modified: Fri, 26 Jun 2015 07:59:12 GMT
+Vary: User-Agent,Accept-Encoding
+Content-Type: text/html
+

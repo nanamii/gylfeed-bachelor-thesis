@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Server: Microsoft-IIS/6.0
+P3P: CP="CAO CUR ADM DEVa TAIi PSAa PSDa CONi OUR OTRi IND PHY ONL UNI COM NAV DEM"
+X-Powered-By: ASP.NET
+Last-Modified: Sat, 27 Jun 2015 19:28:51 GMT
+X-Processing-begin: MOC-WN0499, on site A8 (2015-06-27 15:28:51:361)
+Content-Type: xml
+X-Processing-finished: MOC-WN0499, on site A8 (2015-06-27 15:28:51:439)
+Content-Type: text/xml
+Content-Length: 762
+Date: Sat, 27 Jun 2015 19:31:14 GMT
+Connection: keep-alive
+

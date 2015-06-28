@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:35:00 GMT
+Content-Type: application/xml; charset=UTF-8
+Connection: keep-alive
+Set-Cookie: __cfduid=d1f2853f38adbbeca71fa5ede1030cfd71435433698; expires=Sun, 26-Jun-16 19:34:58 GMT; path=/; domain=.memri.org; HttpOnly
+X-Powered-By: PHP/5.3.3
+Expires: 0
+Cache-Control: must-revalidate, post-check=0, pre-check=0
+Pragma: public
+Access-Control-Allow-Origin: *
+Server: cloudflare-nginx
+CF-RAY: 1fd397a9f551088d-FRA
+

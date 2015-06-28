@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Cache-Control: public, max-age=60
+Content-Language: en
+Content-Location: http://stream.aljazeera.com/stories/feed/rss.xml
+Content-Type: application/rss+xml; charset=utf-8
+ETag: "1435433468-0"
+Expires: Sat, 27 Jun 2015 19:40:41 GMT
+Last-Modified: Sat, 27 Jun 2015 19:31:08 +0000
+Server: Apache
+Vary: Cookie,Accept-Encoding
+Origin: http://stream.aljazeera.com/
+Date: Sat, 27 Jun 2015 19:39:41 GMT
+Connection: keep-alive
+

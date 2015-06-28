@@ -1,0 +1,16 @@
+HTTP/1.1 302 Found
+Date: Fri, 26 Jun 2015 18:55:42 GMT
+Content-Type: application/atom+xml
+Connection: keep-alive
+Set-Cookie: __cfduid=d6360ed15e6913e0dd9feffc524c767261435344942; expires=Sat, 25-Jun-16 18:55:42 GMT; path=/; domain=.typepad.com; HttpOnly
+X-PhApp: oak-tp-web023
+X-Webserver: oak-tp-web023
+Location: http://feeds.feedburner.com/SaraBozich
+Vary: cookie
+Expires: Fri, 26 Jun 2015 19:10:42 GMT
+X-Varnish: 844749279
+Age: 0
+Via: 1.1 varnish
+Server: cloudflare-nginx
+CF-RAY: 1fcb20c33baa158f-FRA
+

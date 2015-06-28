@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:49:15 GMT
+Vary: User-Agent,Accept
+Set-Cookie: bblastvisit=1435434555; expires=Sun, 26-Jun-2016 19:49:15 GMT; path=/
+Set-Cookie: bblastactivity=0; expires=Sun, 26-Jun-2016 19:49:15 GMT; path=/
+Cache-Control: max-age=1435437908
+Pragma: private
+X-UA-Compatible: IE=7
+Set-Cookie: bbstyleid=3; expires=Sun, 26-Jun-2016 19:49:15 GMT; path=/
+Set-Cookie: bbmobileSearch_query=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/
+Expires: Sat, 27 Jun 2015 20:45:08 GMT
+Last-Modified: Sat, 27 Jun 2015 19:45:08 GMT
+ETag: "1f9d9984ff9822ca53eff4bb394786a7"
+Content-Type: text/xml; charset=ISO-8859-1
+Set-Cookie: BIGipServerthehulltruth-web_POOL=2509115402.20480.0000; path=/
+

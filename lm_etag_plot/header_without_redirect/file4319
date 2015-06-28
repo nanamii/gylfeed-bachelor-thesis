@@ -1,0 +1,11 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Fri, 26 Jun 2015 19:39:10 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+X-Pingback: http://www.danpink.com/xmlrpc.php
+Last-Modified: Wed, 24 Jun 2015 14:39:37 GMT
+ETag: "d524e7a76e8a1bbd0d28ce23cff4c237"
+Location: http://www.danpink.com/feed/
+X-Cache: MISS
+

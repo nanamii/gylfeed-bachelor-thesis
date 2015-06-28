@@ -1,0 +1,11 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 19:43:49 GMT
+Server: Apache/2.4.12 (Unix) OpenSSL/1.0.1e-fips mod_bwlimited/1.4
+X-Powered-By: PHP/5.5.25
+X-Pingback: http://jasonvanorden.com/wp/xmlrpc.php
+Last-Modified: Mon, 08 Jun 2015 08:39:00 GMT
+ETag: "8e3118af4bbd6411ebe39e1cd5914d05"
+Location: http://jasonvanorden.com/feed
+Connection: close
+Content-Type: text/html
+

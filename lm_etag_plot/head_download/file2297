@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Content-Length: 0
+Content-Type: text/xml; charset=UTF-8
+Last-Modified: Fri, 26 Jun 2015 20:13:38 GMT
+ETag: "b6748bde01159c75d3e4c4dfe4952dd9"
+Server: Microsoft-IIS/7.5
+X-Powered-By: PHP/5.3.10
+X-Pingback: http://shorelinesblog.visitvirginiabeach.com/xmlrpc.php
+X-Powered-By: ASP.NET
+Date: Sat, 27 Jun 2015 19:32:38 GMT
+

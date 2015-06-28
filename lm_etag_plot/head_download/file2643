@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Content-Length: 0
+Content-Type: application/rss+xml; charset=utf-8
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Server: Microsoft-IIS/7.5
+Set-Cookie: PHPSESSID=liquhlu9d6dqhsfqn98sum67e0; path=/
+X-Powered-By: ASP.NET
+Date: Sat, 27 Jun 2015 19:42:06 GMT
+

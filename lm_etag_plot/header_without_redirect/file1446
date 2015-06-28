@@ -1,0 +1,9 @@
+HTTP/1.1 302 Found
+Date: Fri, 26 Jun 2015 18:41:18 GMT
+Content-Type: text/html; charset=iso-8859-1
+Connection: keep-alive
+Set-Cookie: __cfduid=d502be35f04f62264f46e25d229d500631435344078; expires=Sat, 25-Jun-16 18:41:18 GMT; path=/; domain=.gizmodiva.com; HttpOnly
+Location: http://feeds.feedburner.com/gizmodiva/
+Server: cloudflare-nginx
+CF-RAY: 1fcb0ba833e9238a-FRA
+

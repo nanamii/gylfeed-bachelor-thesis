@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+Content-Type: application/xml
+Server: Apache
+Vary: Accept-Encoding
+X-BuzzFeed: webdr03
+Content-Length: 0
+Date: Fri, 26 Jun 2015 19:00:18 GMT
+Connection: keep-alive
+

@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:35:06 GMT
+Server: Apache
+X-Pingback: http://www.myseveralworlds.com/xmlrpc.php
+Last-Modified: Sat, 02 May 2015 17:18:26 GMT
+ETag: "6153ebb19a9c5e13229a272e363e469a"
+X-Robots-Tag: noindex,follow
+Cache-Control: max-age=86400
+Expires: Sun, 28 Jun 2015 19:35:06 GMT
+Vary: Accept-Encoding,User-Agent
+X-Powered-By: PleskLin
+Content-Type: text/html
+

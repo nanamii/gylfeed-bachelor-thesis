@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Server: nginx/1.1.19
+Date: Sat, 27 Jun 2015 19:05:27 GMT
+Content-Type: text/xml; charset=UTF-8
+Connection: keep-alive
+X-Powered-By: PHP/5.3.10-1ubuntu3.18
+Vary: Cookie
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+X-Pingback: http://kk.org/cooltools/xmlrpc.php
+ETag: "70936cc93f191d23795e02d0a99aec89"
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+WP-Super-Cache: Served legacy cache file
+

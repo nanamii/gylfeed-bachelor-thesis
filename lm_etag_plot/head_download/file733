@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Server: Apache/2.2
+Cache-Control: no-cache, must-revalidate, max-age=0
+Content-Type: text/html; charset=UTF-8
+Date: Sat, 27 Jun 2015 18:46:56 GMT
+X-Pingback: http://www.productivity501.com/xmlrpc.php
+Expires: Wed, 11 Jan 1984 05:00:00 GMT
+Pragma: no-cache
+Transfer-Encoding: chunked
+ETag: "11edaade2819af0d6dd05326fcd3d28a"
+Connection: Keep-Alive
+Set-Cookie: X-Mapping-ehkmbajo=25C1A8145DDFC9C69110DA4A6A17406B; path=/
+Last-Modified: Tue, 16 Jun 2015 15:00:45 GMT
+

@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 20:33:45 GMT
+Content-Type: application/rss+xml; charset=UTF-8
+Content-Length: 74101
+Connection: keep-alive
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+ETag: W/"45ecc4dcb9bd8c8651a857fcd0dd8fe6"
+X-ContextId: Luvc1lQ2/xlQ5Jq9g
+X-Via: 1.1 ny1-prod-echo007
+X-Zephyr: ny1-prod-zephyr010.int.peer1.squarespace.net
+X-Cache-Status: HIT
+Vary: Accept-Encoding
+X-Loc: page-cache
+Accept-Ranges: bytes
+

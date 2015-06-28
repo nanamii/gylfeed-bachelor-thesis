@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:15:32 GMT
+Content-Type: application/rss+xml; charset=utf-8
+Connection: keep-alive
+Set-Cookie: __cfduid=d79a8a45af9580a2db8e623ef69dab2891435432532; expires=Sun, 26-Jun-16 19:15:32 GMT; path=/; domain=.socialmediatoday.com; HttpOnly
+X-Drupal-Cache: HIT
+Etag: W/"1435429622-1"
+Content-Language: en
+Cache-Control: public, max-age=21600
+Last-Modified: Sat, 27 Jun 2015 18:27:02 GMT
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Vary: Cookie
+Vary: Accept-Encoding
+Server: cloudflare-nginx
+CF-RAY: 1fd37b320c6d236c-FRA
+

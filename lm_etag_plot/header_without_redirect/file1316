@@ -1,0 +1,11 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 18:20:24 GMT
+Server: Apache
+X-Powered-By: PHP/5.2.11
+X-Pingback: http://www.pmhut.com/xmlrpc.php
+Last-Modified: Fri, 26 Jun 2015 15:43:03 GMT
+ETag: "10a778808863f6c0877413648128997f"
+Location: http://www.pmhut.com/feed
+Vary: Accept-Encoding
+Content-Type: text/html
+

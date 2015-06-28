@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 21:08:38 GMT
+Server: Apache
+Last-Modified: Tue, 12 May 2015 00:47:35 GMT
+ETag: "24aa285-459f-515d7d72177c0"
+Accept-Ranges: bytes
+Content-Length: 17823
+Cache-Control: max-age=60
+Expires: Sat, 27 Jun 2015 21:09:38 GMT
+Access-Control-Allow-Origin: http://sbiapps.sitesell.com
+Access-Control-Allow-Credentials: true
+Content-Type: application/xml; charset=utf-8
+

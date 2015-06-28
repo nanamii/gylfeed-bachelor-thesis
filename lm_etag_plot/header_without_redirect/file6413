@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 20:35:50 GMT
+Server: Apache/2.2.3 (CentOS)
+Last-Modified: Fri, 26 Jun 2015 09:24:41 GMT
+ETag: "7896d-b8df-519684f488840"
+Accept-Ranges: bytes
+Content-Length: 47327
+Vary: Accept-Encoding
+Connection: close
+Content-Type: text/xml
+

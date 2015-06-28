@@ -1,0 +1,26 @@
+HTTP/1.1 200 OK
+X-Drupal-Cache: MISS
+Expires: Sat, 27 Jun 2015 20:27:18 GMT
+Last-Modified: Sat, 27 Jun 2015 19:27:16 +0000
+Cache-Control: maxage=3600
+ETag: "1435433236"
+Pragma: public
+Access-Control-Allow-Origin: *
+P3P: CP="OTI DSP COR CUR ADM DEV OUR IND", policyref="/w3c/p3p.xml"
+Content-Type: application/rss+xml; charset=utf-8
+X-Cacheable: YES
+Content-Length: 25940
+Accept-Ranges: bytes
+X-Varnish: 227810160 227494326
+Age: 464
+Via: 1.1 varnish
+X-Cache: cached
+Accept-Ranges: bytes
+Date: Sat, 27 Jun 2015 19:35:02 GMT
+X-Varnish: 1803243142
+Age: 464
+Via: 1.1 varnish
+Connection: keep-alive
+X-proxy: i18n-US
+X-backend: us
+

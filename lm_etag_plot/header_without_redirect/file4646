@@ -1,0 +1,14 @@
+HTTP/1.1 302 Found
+ETag: W/"c363d317-fb18-42a8-99a1-9f98b8b861cf"
+Date: Fri, 26 Jun 2015 19:44:26 GMT
+Content-Type: text/html
+Server: blogger-renderd
+Expires: Fri, 26 Jun 2015 19:44:27 GMT
+Cache-Control: public, must-revalidate, proxy-revalidate, max-age=1
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Location: http://feeds.feedburner.com/BlogtorWho
+X-Frame-Options: SAMEORIGIN
+Alternate-Protocol: 80:quic,p=0
+Transfer-Encoding: chunked
+

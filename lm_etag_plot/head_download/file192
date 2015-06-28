@@ -1,0 +1,30 @@
+HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Access-Control-Allow-Origin: *
+Age: 4565
+Cache-Control: public, max-age = 10800
+Content-Length: 45388
+Content-Type: application/rss+xml; charset=utf-8
+Date: Sat, 27 Jun 2015 18:36:40 GMT
+Expires: Sun, 11 Mar 1984 12:00:00 GMT
+Last-Modified: Sat, 27 Jun 2015 17:20:34 GMT
+Server: Economist Web Server
+Vary: Cookie
+Via: 1.1 varnish
+X-Cache-Hits: 848
+x-ip: 92.194.59.39
+X-Powered-By: Dynamic Cache
+X-Varnish: 168629586 168377360
+X-Varnish-Cache: HIT
+xff: 92.194.59.39
+Connection: keep-alive
+Set-Cookie: visid_incap_121505=egwrMC5RSIGFOblM/XRqbTftjlUAAAAAQUIPAAAAAAA5FU1V5FMscaVo+Wjqa0bV; expires=Mon, 26 Jun 2017 09:56:15 GMT; path=/; Domain=.economist.com
+Set-Cookie: nlbi_121505=qZqTGhyxt2+9z0FHA0pflAAAAAAwEYdGXeg8cBLstCgBykaE; path=/; Domain=.economist.com
+Set-Cookie: incap_ses_108_121505=RWa7cvc8SUBz4byLgrF/ATftjlUAAAAAZWvw0NK1LbF3ujS+3PvCew==; path=/; Domain=.economist.com
+Set-Cookie: ___utmvmlcuZKyc=BjhMkURWtTz; path=/; Max-Age=900
+Set-Cookie: ___utmvalcuZKyc=uXRcirp; path=/; Max-Age=900
+Set-Cookie: ___utmvblcuZKyc=uZo
+    XHCOuall: tti; path=/; Max-Age=900
+X-Iinfo: 5-79713223-79712593 PNNY RT(1435430199355 2) q(0 0 0 0) r(1 1) U5
+X-CDN: Incapsula
+

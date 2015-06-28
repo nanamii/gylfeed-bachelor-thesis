@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Server: nginx/0.7.67
+Date: Fri, 26 Jun 2015 19:13:27 GMT
+Content-Type: application/rss+xml
+Connection: close
+X-Cacheable: YES(null)
+Content-Length: 29691
+X-Varnish: 555075511 555074445
+Age: 274
+Via: 1.1 varnish
+X-Served-By: pf-varnish-1
+X-Cache: HIT
+X-Cache-Hits: 35
+X-Cache-Backend: default
+

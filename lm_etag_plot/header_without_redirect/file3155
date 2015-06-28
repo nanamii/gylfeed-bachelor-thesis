@@ -1,0 +1,20 @@
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+Cache-Control: max-age=60
+Cache-Control: public, must-revalidate, proxy-revalidate, s-max-age=60
+Date: Fri, 26 Jun 2015 19:14:39 GMT
+ETag: "49ae05d9f8b3bb91f8fee1bb29dc86af"
+Expires: Fri, 26 Jun 2015 19:15:39 GMT
+Last-Modified: Fri, 26 Jun 2015 19:13:40 GMT
+Link: <http://thkpr.gs/null>; rel=shortlink
+Server: 
+Strict-Transport-Security: max-age=0
+X-Content-Type-Options: nosniff
+X-Robots-Tag: noindex,follow
+X-XSS-Protection: 1; mode=block
+Vary: Accept-Encoding,Accept-Encoding
+X-Cache: Miss from cloudfront
+Via: 1.1 15dc054be0b60d0bb5433da7ebce7096.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: umfN5yIUd00-rPthgRxjfukWc0oAqIRqkf_F452N3kyTvyAkU86tJg==
+

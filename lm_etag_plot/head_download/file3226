@@ -1,0 +1,26 @@
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=utf-8
+Expires: Sat, 27 Jun 2015 19:54:29 GMT
+Server: nginx
+X-Clacks-Overhead: GNU Terry Pratchett
+X-Gu-Backend-App: facia
+X-Gu-NG-Cached: MISS
+Via: 1.1 varnish
+Set-Cookie: GU_mvt_id=253541; expires=Fri, 25 Sep 2015 19:53:29 GMT; path=/; domain=.theguardian.com
+Set-Cookie: GU_INT=control; expires=Fri, 25 Sep 2015 19:53:29 GMT; path=/; domain=.theguardian.com
+Cache-Control: max-age=60, stale-while-revalidate=6, stale-if-error=864000, private
+Content-Length: 328767
+Accept-Ranges: bytes
+Date: Sat, 27 Jun 2015 19:53:30 GMT
+Via: 1.1 varnish
+Age: 0
+Connection: keep-alive
+Set-Cookie: GU_mvt_id=253541; expires=Fri, 25 Sep 2015 19:53:30 GMT; path=/; domain=.theguardian.com
+Set-Cookie: GU_INT=control; expires=Fri, 25 Sep 2015 19:53:30 GMT; path=/; domain=.theguardian.com
+X-Served-By: cache-lcy1132-LCY, cache-fra1242-FRA
+X-Cache: MISS, MISS
+X-Cache-Hits: 0, 0
+X-GU-Edition: intl
+Vary: Accept-Encoding,User-Agent
+X-GU-Platform: next-gen-router
+

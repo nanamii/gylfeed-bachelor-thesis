@@ -1,0 +1,12 @@
+HTTP/1.1 301 Moved Permanently
+Accept-Ranges: bytes
+Content-Type: text/html; charset=iso-8859-1
+Location: http://feeds.slate.com/slate?id=2126999
+Server: Apache/2.2.29 (Amazon)
+X-Varnish: 1262640520
+Content-Length: 326
+Cache-Control: max-age=264
+Expires: Fri, 26 Jun 2015 18:47:33 GMT
+Date: Fri, 26 Jun 2015 18:43:09 GMT
+Connection: keep-alive
+

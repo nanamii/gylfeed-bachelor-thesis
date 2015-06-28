@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 20:33:26 GMT
+Server: AsymcoWebServer/3.0
+Vary: Cookie
+X-Pingback: http://www.asymco.com/xmlrpc.php
+ETag: "2764a161395cd6dedb3594f6dca45c84-gzip"
+WP-Super-Cache: Served legacy cache file
+Content-Type: text/xml; charset=UTF-8
+

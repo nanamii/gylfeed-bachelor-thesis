@@ -1,0 +1,15 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx/1.2.7
+Content-Type: text/html; charset=utf-8
+Content-Language: en
+X-UA-Compatible: IE=Edge,chrome=1
+X-Secret: cnpudnkgcnpiZXZnbUBoZm5nYnFubC5wYnogbmFxIFYganZ5eSBnZWwgZ2IgdHJnIGxiaCBuIHdiby4=
+X-Gannett-Site-Version: 641.0
+Location: http://www.rgj.com/section/news02%26template%3Dprf_rss/
+Content-Length: 0
+Expires: Fri, 26 Jun 2015 19:04:36 GMT
+Cache-Control: max-age=0, no-cache
+Pragma: no-cache
+Date: Fri, 26 Jun 2015 19:04:36 GMT
+Connection: keep-alive
+

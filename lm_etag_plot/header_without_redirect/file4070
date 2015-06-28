@@ -1,0 +1,12 @@
+HTTP/1.1 301 Moved Permanently
+Server: Apache/2.2.25 (Unix) mod_ssl/2.2.25 OpenSSL/1.0.0-fips PHP/5.4.25
+Location: http://www.mtv.com/news/feed/redirected_from=www.mtv.com%2Frss%2Fnews%2Fnews_full.jhtml
+X-Cache-Term: short
+X-PageCached: false
+Content-Length: 28
+Content-Type: text/html
+Cache-Control: max-age=600
+Date: Fri, 26 Jun 2015 19:26:57 GMT
+Connection: keep-alive
+Access-Control-Allow-Origin: http://c.brightcove.com
+

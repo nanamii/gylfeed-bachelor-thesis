@@ -1,0 +1,12 @@
+HTTP/1.1 405 Method Not Allowed
+Server: nginx/1.6.0
+Date: Fri, 26 Jun 2015 19:32:08 GMT
+Content-Type: text/xml; charset=UTF-8
+Content-Length: 94
+Connection: keep-alive
+Keep-Alive: timeout=10
+Set-Cookie: ANSESSION=bg5tugprqlknbjfm3ue35796n6; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+

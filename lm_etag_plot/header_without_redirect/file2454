@@ -1,0 +1,8 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 26 Jun 2015 19:00:30 GMT
+Content-Type: application/rss+xml
+Connection: keep-alive
+Vary: Cookie
+Set-Cookie: mobile=-1; Max-Age=2592000; Path=/
+

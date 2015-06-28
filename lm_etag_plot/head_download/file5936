@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 21:38:07 GMT
+Content-Type: text/xml; charset=UTF-8
+Connection: keep-alive
+Set-Cookie: __cfduid=d84b78c9338cdd4a3b4ca27bb7e8c73921435441087; expires=Sun, 26-Jun-16 21:38:07 GMT; path=/; domain=.useyourloaf.com; HttpOnly
+Last-Modified: Mon, 22 Jun 2015 21:41:49 GMT
+Vary: Accept-Encoding
+ETag: W/"5588811d-12b5c"
+X-Frame-Options: SAMEORIGIN
+X-Clacks-Overhead: GNU Terry Pratchett
+Server: cloudflare-nginx
+CF-RAY: 1fd44c0a79ea0f63-FRA
+

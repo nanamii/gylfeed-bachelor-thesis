@@ -1,0 +1,7 @@
+HTTP/1.1 301 Moved Permanently
+Server: AkamaiGHost
+Content-Length: 0
+Location: http://www.nbcsports.com/id/3032112/device/rss/rss.xml
+Date: Fri, 26 Jun 2015 19:19:26 GMT
+Connection: keep-alive
+

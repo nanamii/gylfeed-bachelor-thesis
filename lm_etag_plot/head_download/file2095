@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Content-Length: 52957
+Content-Type: text/html; charset=utf-8
+Server: Apache
+X-AspNet-Version: 4.0.30319
+X-AspNetMvc-Version: 4.0
+X-Powered-By: ASP.NET
+Cache-Control: private, max-age=1161
+Date: Sat, 27 Jun 2015 19:27:27 GMT
+Connection: keep-alive
+Set-Cookie: website#lang=en; path=/
+Set-Cookie: ASP.NET_SessionId=045qzh5ai3vdhn0fed3larss; path=/; HttpOnly
+Set-Cookie: AWSELB=651BADD50CA5CE1C17713A8837C623807B8BDDA9122ACDE8D91FAFE51FFCF738303C842831FDF7E41C0805888EA289BB15EF05645FE29A0E34116A50B76986D134F6CEF3C64D477F3E084D55A5ED33EA45C50CDF71;PATH=/;HTTPONLY
+

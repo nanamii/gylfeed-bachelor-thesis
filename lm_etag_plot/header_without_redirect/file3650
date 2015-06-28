@@ -1,0 +1,12 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Fri, 26 Jun 2015 19:21:43 GMT
+Content-Type: text/html; charset=iso-8859-1
+Content-Length: 236
+Connection: keep-alive
+Location: http://www.pbs.org/wgbh/nova
+X-PBS-fwsrvname: fwcacheproxy #390
+X-PBS-fwsrvip: (null)
+X-Cache-FS-Status: EXPIRED
+X-PBS-fwsrvname: fwcacheproxy_390
+

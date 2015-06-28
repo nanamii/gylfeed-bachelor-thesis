@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Content-Type: application/rss+xml;charset=UTF-8
+Content-Language: en-AU
+Cache-Control: max-age=44
+Expires: Fri, 26 Jun 2015 19:01:54 GMT
+Date: Fri, 26 Jun 2015 19:01:10 GMT
+Connection: keep-alive
+Set-Cookie: ABCGuestID=92.197.129.14.277911435345270952; expires=Fri, 26-Jun-2015 19:31:10 GMT; path=/; domain=.abc.net.au
+Set-Cookie: ABC_LD=int; path=/; domain=.abc.net.au
+Set-Cookie: ABC_FF=desktop; expires=Fri, 26-Jun-2015 21:01:10 GMT; path=/
+

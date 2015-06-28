@@ -1,0 +1,12 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 18:13:36 GMT
+Server: Apache
+X-Powered-By: PHP/5.2.17
+Vary: Cookie,User-Agent,Accept-Encoding
+X-Pingback: http://www.airtightinteractive.com/wordpress/xmlrpc.php
+ETag: "055f21f709281fc6a8d81069afa5b1b0"
+Set-Cookie: bb2_screener_=1435342416+92.194.59.39; path=/
+Last-Modified: Sun, 21 Jun 2015 19:24:27 GMT
+Location: http://www.airtightinteractive.com/news/feed/
+Content-Type: text/html; charset=UTF-8
+

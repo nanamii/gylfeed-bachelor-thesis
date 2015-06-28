@@ -1,0 +1,21 @@
+HTTP/1.1 200 OK
+Server: Apache
+X-Powered-By: PHP/5.3.29-1~dotdeb.1+webhost
+X-Pingback: http://www.autmillennium.org.nz/xmlrpc.php
+Last-Modified: Fri, 26 Jun 2015 03:34:34 GMT
+ETag: "6e429b115fa5ccc5ea9dea3d2619d20a"
+X-Robots-Tag: noindex,follow
+Content-Type: text/xml; charset=UTF-8
+Content-Length: 54710
+Accept-Ranges: bytes
+Date: Sat, 27 Jun 2015 19:49:31 GMT
+Via: 1.1 varnish
+Age: 1
+Connection: keep-alive
+X-Served-By: cache-fra1240-FRA
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1435434570.003468,VS0,VE1539
+Vary: Accept-Encoding,User-Agent
+Served-By: Fastly
+

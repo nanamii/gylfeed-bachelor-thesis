@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:35:20 GMT
+Server: Apache
+Vary: Cookie
+X-Pingback: http://www.nextgenjournal.com/xmlrpc.php
+X-Robots-Tag: noindex,follow
+Last-Modified: Tue, 01 Jul 2014 18:10:04 GMT
+ETag: "64244db9e04fbecff83703c835f58d7a"
+Content-Type: application/rss+xml; charset="UTF-8"
+

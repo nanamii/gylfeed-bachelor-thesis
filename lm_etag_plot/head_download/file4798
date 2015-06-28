@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 21:06:47 GMT
+Server: Apache
+X-Pingback: http://thepiratesdilemma.com/wp/xmlrpc.php
+Last-Modified: Wed, 11 Jan 2012 17:32:53 GMT
+ETag: "b7b16198210a2a98d5fe74f9d631cf3c"
+X-Powered-By: PleskLin
+MS-Author-Via: DAV
+Connection: close
+Content-Type: text/xml; charset=UTF-8
+

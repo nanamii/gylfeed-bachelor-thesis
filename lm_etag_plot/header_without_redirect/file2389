@@ -1,0 +1,20 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 19:00:00 GMT
+Server: Apache/2.2.29 (Unix) mod_ssl/2.2.29 OpenSSL/0.9.8e-fips-rhel5 mod_bwlimited/1.4
+X-Powered-By: PHP/5.4.36
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+X-Pingback: http://americanfreepress.net/xmlrpc.php
+ETag: "d2c4316cf231d4f060773d69615e5f73"
+Set-Cookie: mc_session_ids[default]=b9f1fd8ebb0dfc67348565a3a69823a9c2a54b18; expires=Fri, 26-Jun-2015 19:05:00 GMT; path=/; httponly
+Set-Cookie: mc_session_ids[multi][0]=5d92be400d9b5f473aaa7d13254a1496fa7fcb5f; expires=Fri, 26-Jun-2015 19:05:00 GMT; path=/
+Set-Cookie: mc_session_ids[multi][1]=2014e14559c5283ce4ec98e84b314c05179fdd88; expires=Fri, 26-Jun-2015 19:05:00 GMT; path=/
+Set-Cookie: mc_session_ids[multi][2]=284f53c5067b09abda17a3357d4d7a7d5744ae70; expires=Fri, 26-Jun-2015 19:05:00 GMT; path=/
+Set-Cookie: mc_session_ids[multi][3]=74f4d17d9528cc3f3cb22aae12a40e2408fbda00; expires=Fri, 26-Jun-2015 19:05:00 GMT; path=/
+Set-Cookie: mc_session_ids[multi][4]=04ae25f500227e781ddc4eca4c5ab16f805409a3; expires=Fri, 26-Jun-2015 19:05:00 GMT; path=/
+Set-Cookie: PHPSESSID=28cbc626e7caab89d19f4e8b6231eee2; path=/
+Last-Modified: Fri, 26 Jun 2015 02:35:26 GMT
+Connection: close
+Content-Type: text/html
+

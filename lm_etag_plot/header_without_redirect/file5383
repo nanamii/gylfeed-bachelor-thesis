@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 20:15:25 GMT
+Server: Apache
+X-Pingback: http://www.cookingcomically.com/xmlrpc.php
+ETag: "fc021dc7ae1cb64ea41adb9604272566"
+Last-Modified: Tue, 25 Mar 2014 14:26:40 GMT
+Vary: Accept-Encoding
+Content-Type: text/html
+

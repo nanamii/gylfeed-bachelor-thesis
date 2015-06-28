@@ -1,0 +1,10 @@
+HTTP/1.1 302 Temporary Redirect
+Server: nginx/1.8.0
+Date: Fri, 26 Jun 2015 19:45:32 GMT
+Content-Type: text/html
+Connection: keep-alive
+X-Pingback: http://www.sustainable-gardening.com/xmlrpc.php
+ETag: "0684909b4802bf2a35ba1102f1f48a79"
+Last-Modified: Tue, 11 Jan 2011 23:24:47 GMT
+Location: http://feeds.feedburner.com/sustainablegardeningblog.com
+

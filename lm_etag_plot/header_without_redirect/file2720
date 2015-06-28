@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 19:06:15 GMT
+Content-Type: text/xml
+Connection: keep-alive
+Set-Cookie: __cfduid=d9d9ae196dbce2efcf92b31129024a2bb1435345575; expires=Sat, 25-Jun-16 19:06:15 GMT; path=/; domain=.thenews.com.pk; HttpOnly
+Cache-Control: max-age=604800
+Last-Modified: Fri, 26 Jun 2015 08:01:54 GMT
+ETag: W/"0c5835de6afd01:0"
+Vary: Accept-Encoding
+X-Powered-By: ASP.NET
+Server: cloudflare-nginx
+CF-RAY: 1fcb30348429159b-FRA
+

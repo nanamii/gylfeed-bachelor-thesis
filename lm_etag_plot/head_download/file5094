@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Connection: close
+X-Powered-By: PHP/5.2.17
+Last-Modified: Fri, 19 Dec 2014 15:29:14 GMT
+Content-Type: text/xml; charset=UTF-8
+X-Pingback: http://blog.trillian.im/xmlrpc.php
+ETag: "604e7bd1de0ffd2ecfb6d6dbf46c79ea"
+Content-Length: 0
+Date: Sat, 27 Jun 2015 21:11:17 GMT
+Server: lighttpd/1.4.18
+

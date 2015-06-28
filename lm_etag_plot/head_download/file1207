@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+X-Pingback: http://www.billhogg.ca/xmlrpc.php
+Last-Modified: Fri, 26 Jun 2015 22:43:40 GMT
+ETag: "1104f83bbc216d2aaf7ff8b7063daffb"
+Content-Type: text/html
+X-Port: port_10279
+X-Cacheable: YES:Forced
+Accept-Ranges: bytes
+Date: Sat, 27 Jun 2015 19:13:09 GMT
+Age: 0
+Vary: User-Agent
+X-Cache: uncached
+X-Cache-Hit: MISS
+X-Backend: wpaas_web_085
+

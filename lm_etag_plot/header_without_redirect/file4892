@@ -1,0 +1,15 @@
+HTTP/1.1 302 Temporary Redirect
+Server: nginx/1.8.0
+Date: Fri, 26 Jun 2015 19:47:00 GMT
+Content-Type: text/html
+Connection: keep-alive
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+X-Pingback: http://ryanstephensmarketing.com/blog/xmlrpc.php
+ETag: "9da576c29413936f5fee3d48e6745bce"
+X-UA-Compatible: IE=edge,chrome=1
+Set-Cookie: PHPSESSID=a22a7fe62aaf5f658ceaa220e2932e73; path=/
+Last-Modified: Thu, 25 Jun 2015 18:32:57 GMT
+Location: http://feeds.feedburner.com/RyanStephensMarketing
+

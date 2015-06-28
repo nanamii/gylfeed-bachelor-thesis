@@ -1,0 +1,8 @@
+HTTP/1.1 301 Moved Permanently
+Server: redir-httpd
+Date: Fri, 26 Jun 2015 20:35:42 GMT
+Location: http://www.speirs.org/feed/
+Last-Modified: Fri, 26 Jun 2015 10:01:45 GMT
+Content-Length: 125
+Content-Type: text/html; charset=utf-8
+

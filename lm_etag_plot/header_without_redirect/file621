@@ -1,0 +1,8 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 18:04:44 GMT
+Connection: keep-alive
+Set-Cookie: __cfduid=d886cb986979e3f106bccf0edc21032e21435341884; expires=Sat, 25-Jun-16 18:04:44 GMT; path=/; domain=.maniacdev.com; HttpOnly
+Location: https://maniacdev.com/feed/
+Server: cloudflare-nginx
+CF-RAY: 1fcad61b9c6f01b2-FRA
+

@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 18:32:26 GMT
+Server: Apache/2.2.22
+X-Powered-By: PHP/5.3.29
+X-Pingback: http://www.heavy-backpack.com/xmlrpc.php
+ETag: "22aef75d4990ed026539df28b1b79426"
+Last-Modified: Sat, 19 Jul 2014 05:37:58 GMT
+Vary: User-Agent,Accept-Encoding
+Content-Type: text/html
+

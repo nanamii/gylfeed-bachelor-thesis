@@ -1,0 +1,19 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 20:09:38 GMT
+Content-Type: text/xml; charset=UTF-8
+Connection: keep-alive
+Set-Cookie: __cfduid=dae3787047898284a39d9fccc3afedcb91435435778; expires=Sun, 26-Jun-16 20:09:38 GMT; path=/; domain=.makezine.com; HttpOnly
+X-Cacheable: CacheAlways: feed
+Cache-Control: max-age=600, must-revalidate
+X-Cache: HIT: 20
+X-Cache-Group: 
+X-Pingback: http://makezine.com/xmlrpc.php
+X-Type: feed
+ETag: W/"32ad44dd7f54b60beb895fda5da8e59c-gzip"
+X-Pass-Why: 
+Set-Cookie: X-Mapping-fjhppofk=F301A29E691A849E46FF615813FE88F8; path=/
+X-Robots-Tag: noindex,follow
+Last-Modified: Sat, 27 Jun 2015 15:00:58 GMT
+Server: cloudflare-nginx
+CF-RAY: 1fd3ca6cc931159b-FRA
+

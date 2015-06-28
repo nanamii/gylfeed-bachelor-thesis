@@ -1,0 +1,8 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 19:15:23 GMT
+Server: Apache/2.2.3 (CentOS)
+X-Powered-By: PHP/5.2.17
+Set-Cookie: symfony=e3bf3bt673et4nb3uhrgs94l76; path=/
+Vary: Accept-Encoding
+Content-Type: application/rss+xml; charset=utf-8
+

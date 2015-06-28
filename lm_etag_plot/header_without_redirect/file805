@@ -1,0 +1,13 @@
+HTTP/1.1 302 Temporary Redirect
+Server: Apache/2.2
+Vary: Cookie
+Content-Type: text/html; charset=UTF-8
+Date: Fri, 26 Jun 2015 18:11:07 GMT
+X-Pingback: http://www.todayandtomorrow.net/xmlrpc.php
+Location: http://feeds2.feedburner.com/todayandtomorrow_net
+Transfer-Encoding: chunked
+ETag: "1c65af55d18d33eb359c7ecb8c3ddc39"
+Connection: Keep-Alive
+Set-Cookie: X-Mapping-iikfnbbj=0084A3DF0B039BF0C51C0E89E12BE3E2; path=/
+Last-Modified: Mon, 26 Jan 2015 22:43:26 GMT
+

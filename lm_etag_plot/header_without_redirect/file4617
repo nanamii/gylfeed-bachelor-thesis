@@ -1,0 +1,10 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 19:44:09 GMT
+Content-Type: text/html; charset=iso-8859-1
+Connection: keep-alive
+Set-Cookie: __cfduid=da1b9f474dd034dc650580c3f538324731435347848; expires=Sat, 25-Jun-16 19:44:08 GMT; path=/; domain=.butterwithasideofbread.com; HttpOnly
+Location: http://www.butterwithasideofbread.com/feed/atom/
+X-Cache: HIT from Backend
+Server: cloudflare-nginx
+CF-RAY: 1fcb67b7783b2318-FRA
+

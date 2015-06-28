@@ -1,0 +1,14 @@
+HTTP/1.1 302 Found
+ETag: W/"8cc74d2f-ca59-4e2e-8cb8-2aeac5ef4e41"
+Date: Fri, 26 Jun 2015 20:16:21 GMT
+Content-Type: text/html
+Server: blogger-renderd
+Expires: Fri, 26 Jun 2015 20:16:22 GMT
+Cache-Control: public, must-revalidate, proxy-revalidate, max-age=1
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Location: http://feeds.feedburner.com/mamalovesfood/tRlL
+X-Frame-Options: SAMEORIGIN
+Transfer-Encoding: chunked
+Alternate-Protocol: 80:quic,p=0
+

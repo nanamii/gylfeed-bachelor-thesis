@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Content-Type: application/rss+xml; charset=utf-8
+Date: Sat, 27 Jun 2015 21:45:35 GMT
+Last-Modified: Sat, 27 Jun 2015 21:02:24 GMT
+Server: ECD (fcn/4032)
+Via: 1.1 vegur
+X-Cache: HIT
+Content-Length: 12777
+

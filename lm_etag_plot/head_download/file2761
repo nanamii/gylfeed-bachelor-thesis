@@ -1,0 +1,18 @@
+HTTP/1.1 200 OK
+Cache-Control: public, max-age=10800
+Expires: Sun, 11 Mar 1984 12:00:00 GMT
+ETag: "1435433542"
+Last-Modified: Sat, 27 Jun 2015 19:32:22 GMT
+Content-Type: application/rss+xml; charset=utf-8
+x-url: /rss.xml
+x-host: winsupersite.com
+X-Node: web18
+Content-Length: 55544
+Accept-Ranges: bytes
+Date: Sat, 27 Jun 2015 19:46:00 GMT
+Age: 816
+Connection: keep-alive
+Vary: Cookie
+X-Cache: Cached
+X-Hits: 685
+

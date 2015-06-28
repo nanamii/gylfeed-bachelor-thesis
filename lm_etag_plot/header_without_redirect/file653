@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 18:05:04 GMT
+Server: Apache
+X-Pingback: http://www.zenbrains.com/blog/xmlrpc.php
+ETag: "aeffb9b566b57550cd185b2f9e2f9fd5"
+Set-Cookie: qtrans_cookie_test=qTranslate+Cookie+Test; path=/blog/; domain=www.zenbrains.com
+Last-Modified: Tue, 17 May 2011 21:06:43 GMT
+Vary: Accept-Encoding
+Connection: close
+Content-Type: text/xml; charset=UTF-8
+

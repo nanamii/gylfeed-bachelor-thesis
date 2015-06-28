@@ -1,0 +1,12 @@
+HTTP/1.1 301 Moved Permanently
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Content-Length: 159
+Content-Type: text/html; charset=UTF-8
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Location: http://www.worldmag.com/archives/rss
+Server: Microsoft-IIS/7.5
+Set-Cookie: PHPSESSID=fl15154g3898av5vl8fvcde8v0; path=/
+X-Powered-By: ASP.NET
+Date: Fri, 26 Jun 2015 19:14:49 GMT
+

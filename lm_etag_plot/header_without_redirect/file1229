@@ -1,0 +1,22 @@
+HTTP/1.1 301 Moved Permanently
+Cache-Control: stale-if-error=86400, stale-while-revalidate=300
+Location: /tag/valleywag/rss
+X-Kinja: app11.bfc.kinja-ops.com #361
+X-Kinja-Build: 361
+X-Kinja-Revision: 4e58faaf818fd763c6eb39d9008ccf31ff074c57
+X-Kinja-Server: app11.bfc.kinja-ops.com
+Via: 1.1 varnish
+Set-Cookie: geocc=EU;path=/;
+x-cdn-fetch: mantle-setcookie
+Content-Length: 0
+Accept-Ranges: bytes
+Date: Fri, 26 Jun 2015 18:19:35 GMT
+Via: 1.1 varnish
+Age: 0
+Connection: keep-alive
+X-Served-By: cache-jfk1025-JFK, cache-fra1226-FRA
+X-Cache: MISS, MISS
+X-Cache-Hits: 0, 0
+X-Timer: S1435342775.089423,VS0,VE100
+Set-Cookie: geocc=DE;path=/;
+

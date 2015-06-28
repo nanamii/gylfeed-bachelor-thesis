@@ -1,0 +1,9 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 19:37:49 GMT
+Server: Apache/2.2.3 (CentOS)
+Location: http://photojojo.com/content/feed
+Cache-Control: max-age=60
+Expires: Fri, 26 Jun 2015 19:38:49 GMT
+Vary: Accept-Encoding
+Content-Type: text/html; charset=iso-8859-1
+

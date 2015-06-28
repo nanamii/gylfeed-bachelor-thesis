@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 18:09:48 GMT
+Server: Apache
+Last-Modified: Wed, 27 May 2015 02:33:16 GMT
+ETag: "25a014b-54bc-5170710b72431"
+Accept-Ranges: bytes
+Content-Length: 21692
+Cache-Control: max-age=7200
+Expires: Fri, 26 Jun 2015 20:09:48 GMT
+Vary: Accept-Encoding
+Content-Type: application/xml; charset=utf-8
+

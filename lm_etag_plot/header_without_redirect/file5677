@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 26 Jun 2015 20:20:47 GMT
+Content-Type: text/xml; charset=UTF-8
+Connection: keep-alive
+Keep-Alive: timeout=20
+X-Pingback: http://engineering.foursquare.com/xmlrpc.php
+Last-Modified: Thu, 23 Apr 2015 20:52:48 GMT
+ETag: "71b90e7c30b1a07480d8e63d907d9d68-gzip"
+X-Cacheable: CacheAlways: feed
+Cache-Control: max-age=600, must-revalidate
+X-Cache: HIT: 20
+X-Pass-Why: 
+X-Cache-Group: 
+X-Type: feed
+

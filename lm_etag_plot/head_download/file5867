@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 21:34:59 GMT
+Server: Apache
+Vary: Cookie,Accept-Encoding
+X-Pingback: http://www.manton.org/xmlrpc.php
+ETag: "6ba58771dd716213a00266aeee4bdac3"
+Last-Modified: Sat, 27 Jun 2015 16:11:13 GMT
+MS-Author-Via: DAV
+Content-Type: text/html
+

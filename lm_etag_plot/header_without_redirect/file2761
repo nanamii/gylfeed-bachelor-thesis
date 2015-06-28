@@ -1,0 +1,18 @@
+HTTP/1.1 301 Moved Permanently
+Accept-Ranges: bytes
+Content-Length: 339
+Content-Type: text/html; charset=iso-8859-1
+Location: http://www.walesonline.co.uk/news/world-news/
+Server: nginx
+X-Cache-Hits: 4
+X-ProcessESI: yes
+X-RemovedCookies: YES
+X-Served-By: reg-cache2a.tm-aws.com
+X-Varnish: 1432669746 1432611029
+Cache-Control: max-age=600
+Expires: Fri, 26 Jun 2015 19:16:48 GMT
+Date: Fri, 26 Jun 2015 19:06:48 GMT
+Connection: keep-alive
+Set-Cookie: stop_mobi=true; path=/
+Vary: User-Agent
+

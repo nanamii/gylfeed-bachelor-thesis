@@ -1,0 +1,18 @@
+HTTP/1.1 200 OK
+Cache-Control: private
+Content-Length: 0
+Content-Type: text/html;charset=UTF-8
+Server: Microsoft-IIS/8.5
+Set-Cookie: BTP=1; expires=Sun, 26-Jun-16 21:22:28 GMT; domain=hugedomains.com; path=/
+Set-Cookie: CFID=275494; expires=Mon, 24-Jun-24 21:22:28 GMT; path=/; HttpOnly
+Set-Cookie: CFTOKEN=4CEED550-8CFC-4706-A06A509BA1AC1B26; expires=Mon, 24-Jun-24 21:22:28 GMT; path=/; HttpOnly
+Set-Cookie: SHOPPINGCART=; expires=Mon, 27-Jul-15 21:22:28 GMT; path=/
+Set-Cookie: REFLOC=; expires=Sun, 26-Jun-16 21:22:28 GMT; path=/
+Set-Cookie: HD=C0477F88471144BE9AD326F70C3ADF3D070; expires=Sun, 26-Jun-16 21:22:28 GMT; path=/
+Set-Cookie: FWO=vQIF2KwBCfaKGgX1oBAW6PgJWK74QEeu%2F1hYqbVEFuW9Bkq5%2B0Vbq%2BRFXLP7Qkqv%2FE9YrPNHUrm0CSmu%2FUJd2PFNXqn4RF6qizBT341GWKiPQlrd%2BjQu2PoxWqn5; expires=Sun, 26-Jun-16 21:22:28 GMT; path=/
+Set-Cookie: PV=%2BAka%2F64QPPesAhk%3D; expires=Sun, 26-Jun-16 21:22:28 GMT; path=/
+Set-Cookie: DE3OOK=bm8k7EthKsVCanSUDig6xkh%2BOcdJaSrPVXp0iEtvOtpjYSTPTmABx1MzCsZVZzrabmAs3lNcKMACPAzNSGNvx1RMJtoaPm%2FHVEwm2mV8JtlUazvnYzN5iG5vJOJGfT2THSc%3D; expires=Sun, 26-Jun-16 21:22:28 GMT; path=/
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Sat, 27 Jun 2015 21:22:29 GMT
+

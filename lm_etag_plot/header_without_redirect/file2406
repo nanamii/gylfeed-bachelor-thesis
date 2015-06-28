@@ -1,0 +1,10 @@
+HTTP/1.1 301 Moved Permanently
+Server: Apache
+Location: http://feeds.bbci.co.uk/news/world/africa/rss.xml?edition=int
+Content-Length: 269
+Content-Type: text/html; charset=iso-8859-1
+Cache-Control: max-age=86366838
+Expires: Thu, 22 Mar 2018 09:47:25 GMT
+Date: Fri, 26 Jun 2015 19:00:07 GMT
+Connection: keep-alive
+

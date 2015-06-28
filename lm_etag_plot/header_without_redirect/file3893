@@ -1,0 +1,11 @@
+HTTP/1.1 301 Moved Permanently
+Server: Apache
+Location: https://www.insidehighered.com/rss/feed/ihe
+Vary: Accept-Encoding
+Content-Type: text/html; charset=iso-8859-1
+Date: Fri, 26 Jun 2015 19:24:44 GMT
+X-Varnish: 1453089978 1453089231
+Age: 33
+Via: 1.1 varnish
+Connection: keep-alive
+

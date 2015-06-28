@@ -1,0 +1,20 @@
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/rss+xml; charset=utf-8
+Status: 200 OK
+X-Frame-Options: ALLOWALL
+X-XSS-Protection: 1; mode=block; report=/report_xss;
+X-Content-Type-Options: nosniff
+ETag: "968791d12fb633dd3c1bb0a94e87aca5"
+X-Request-Id: 07ba44ef-e0ae-460d-801f-7b50a2158472
+X-Runtime: 1.326525
+X-Varnish: 625495988
+X-Varnish: 625496816 625495987
+X-Varnish: 2068748405 2068748328
+Served-by: prodweb2/prodweb1/prodweb1/278006-prodapp2
+Expires: Fri, 26 Jun 2015 18:15:29 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Fri, 26 Jun 2015 18:15:29 GMT
+Connection: keep-alive
+

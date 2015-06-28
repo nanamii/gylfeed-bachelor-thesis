@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 19:10:34 GMT
+Content-Type: text/html
+Connection: keep-alive
+Keep-Alive: timeout=30
+Server: Apache/2
+X-Powered-By: PHP/5.3.13
+X-Pingback: http://www.john-zhu.com/blog/xmlrpc.php
+Last-Modified: Sat, 20 Jun 2015 01:24:39 GMT
+ETag: "8c4551a98329b5d18fa8fb3d1ac33848"
+X-Robots-Tag: noindex,follow
+

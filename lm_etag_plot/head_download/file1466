@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Server: Apache
+Last-Modified: Tue, 23 Jun 2015 13:19:07 GMT
+ETag: "65cb-5192f3c2888c0"
+Cache-Control: no-cache, no-store, private
+Expires: Sat, 27 Jun 2015 19:18:13 GMT
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-UA-Compatible: IE=Edge
+X-Frame-Options: SAMEORIGIN
+Content-Type: text/html; charset=utf-8
+Content-Language: en-us
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Date: Sat, 27 Jun 2015 19:18:13 GMT
+Connection: keep-alive
+

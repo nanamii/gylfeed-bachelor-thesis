@@ -1,0 +1,11 @@
+HTTP/1.1 301 Moved Permanently
+Cache-Control: no-cache
+Content-Length: 0
+Location: http://blogs.bing.com/search//rss.aspx
+Server: Microsoft-IIS/8.5
+P3P: CP="NON UNI COM NAV STA LOC CURa DEVa PSAa PSDa OUR IND"
+Set-Cookie: _HOP=I=1&TS=1435346299; domain=.bing.com; path=/
+Edge-control: no-store
+X-MSEdge-Ref: Ref A: D5FA31B0695043F88977B3C28BB9C98A Ref B: F5A09B3FC372B862A4862D0D5B487EF3 Ref C: Fri Jun 26 12:18:19 2015 PST
+Date: Fri, 26 Jun 2015 19:18:19 GMT
+

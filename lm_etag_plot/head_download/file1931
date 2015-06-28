@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:24:24 GMT
+Server: Apache/2.2.15 (Red Hat)
+X-Powered-By: PHP/5.3.3
+Last-Modified: Sat, 27 Jun 2015 04:57:50 GMT
+ETag: "f2d64460f773e8dd4a1da55ea1abccfd"
+Cache-Control: max-age=3600
+Expires: Sat, 27 Jun 2015 20:24:24 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+Content-Type: text/html; charset=UTF-8
+

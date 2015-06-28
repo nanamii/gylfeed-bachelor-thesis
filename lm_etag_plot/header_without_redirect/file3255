@@ -1,0 +1,12 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 19:15:27 GMT
+Server: LiteSpeed
+Connection: close
+X-Powered-By: PHP/5.5.24
+X-Pingback: http://gisuser.com/xmlrpc.php
+Content-Type: text/html; charset=UTF-8
+Expires: Wed, 11 Jan 1984 05:00:00 GMT
+Cache-Control: no-cache, must-revalidate, max-age=0
+Pragma: no-cache
+Location: http://gisuser.com/index2.php?option=com_rss&no_html=1
+

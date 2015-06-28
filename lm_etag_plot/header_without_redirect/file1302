@@ -1,0 +1,12 @@
+HTTP/1.1 302 Temporary Redirect
+Date: Fri, 26 Jun 2015 18:20:18 GMT
+Server: Apache
+X-Pingback: http://www.lifeoptimizer.org/xmlrpc.php
+ETag: "ab85957b8facf6e14aaad198d0cb78c3"
+Set-Cookie: wp_ozh_wsa_visits=1; expires=Sat, 25-Jun-2016 18:20:18 GMT; path=/
+Set-Cookie: wp_ozh_wsa_visit_lasttime=1435342818; expires=Sat, 25-Jun-2016 18:20:18 GMT; path=/
+Last-Modified: Wed, 24 Jun 2015 11:56:48 GMT
+Location: http://feeds.feedburner.com/lifeoptimizer
+Vary: Accept-Encoding
+Content-Type: text/html
+

@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 26 Jun 2015 18:16:34 GMT
+Content-Type: text/xml; charset=UTF-8
+Connection: keep-alive
+X-Powered-By: PHP/5.5.9-1ubuntu4.6
+Vary: Cookie
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+X-Pingback: http://www.wpelevation.com/xmlrpc.php
+ETag: "91fdab49054d5bccf7c8d8c557b1bfaa"
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+WP-Super-Cache: Served legacy cache file
+

@@ -1,0 +1,9 @@
+HTTP/1.1 302 Moved Temporarily
+Server: AkamaiGHost
+Content-Length: 0
+Location: http://www.telegraph.co.uk/404/404.html
+Cache-Control: private, max-age=600
+Expires: Fri, 26 Jun 2015 19:35:37 GMT
+Date: Fri, 26 Jun 2015 19:25:37 GMT
+Connection: keep-alive
+

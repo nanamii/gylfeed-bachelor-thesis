@@ -1,0 +1,13 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 18:20:40 GMT
+Server: Apache/2.0.52 (Red Hat) FrontPage/5.0.2.2635
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+X-Pingback: http://www.spiderworking.com/blog/xmlrpc.php
+ETag: "763a8a761c78f103418a17f8185f49b9"
+Set-Cookie: PHPSESSID=6530f8b418f725cdaca4cc54ec962857; path=/
+Last-Modified: Fri, 05 Jun 2015 00:41:00 GMT
+Location: http://www.spiderworking.com/blog/feed/
+Content-Type: text/html
+

@@ -1,0 +1,13 @@
+HTTP/1.1 302 Found
+Server: Apache/2.2.24 (Amazon)
+Status: 302
+Content-Type: text/html; charset=UTF-8
+Location: /iowa/404.html
+Vary: Accept-Encoding
+cache-control: max-age=0
+Date: Fri, 26 Jun 2015 19:22:22 GMT
+X-Varnish: 3803961559 3802412158
+Via: 1.1 varnish
+Connection: keep-alive
+age: 0
+

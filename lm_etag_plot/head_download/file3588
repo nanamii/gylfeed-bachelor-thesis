@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 20:01:28 GMT
+Server: PWS/8.1.20.17
+X-Px: ht h0-s1091.p11-fra.cdngp.net
+Cache-Control: max-age=600
+Expires: Sat, 27 Jun 2015 20:08:54 GMT
+Age: 154
+Content-Length: 14796
+Content-Type: application/rss+xml
+Connection: keep-alive
+

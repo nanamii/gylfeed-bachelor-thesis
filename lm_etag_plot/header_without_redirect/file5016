@@ -1,0 +1,15 @@
+HTTP/1.1 302 Temporary Redirect
+Date: Fri, 26 Jun 2015 19:49:12 GMT
+Server: Apache/2.2.29 (Unix) mod_ssl/2.2.29 OpenSSL/0.9.8e-fips-rhel5 mod_bwlimited/1.4
+X-Pingback: http://www.macheesmo.com/xmlrpc.php
+ETag: "9ccb5204ca975c853f3811b5051fd0c6"
+X-Powered-By: W3 Total Cache/0.9.4.1
+Set-Cookie: wlmdebug=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT
+Set-Cookie: wp_ozh_wsa_visits=1; expires=Sat, 25-Jun-2016 19:49:12 GMT; path=/
+Set-Cookie: wp_ozh_wsa_visit_lasttime=1435348152; expires=Sat, 25-Jun-2016 19:49:12 GMT; path=/
+Last-Modified: Fri, 26 Jun 2015 11:00:35 GMT
+Location: https://feeds.feedblitz.com/macheesmo
+Cache-Control: max-age=3600
+Expires: Fri, 26 Jun 2015 20:49:12 GMT
+Content-Type: text/html
+

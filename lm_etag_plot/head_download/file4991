@@ -1,0 +1,17 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sat, 27 Jun 2015 21:09:55 GMT
+Content-Type: text/xml; charset=UTF-8
+Connection: keep-alive
+Keep-Alive: timeout=20
+X-Pingback: http://www.urbangardensweb.com/xmlrpc.php
+Last-Modified: Fri, 26 Jun 2015 23:58:08 GMT
+ETag: "e778ceabc6fcbc5b8e6ab925ceb327ff-gzip"
+X-Robots-Tag: noindex,follow
+X-Cacheable: CacheAlways: feed
+Cache-Control: max-age=600, must-revalidate
+X-Cache: HIT: 2
+X-Pass-Why: 
+X-Cache-Group: 
+X-Type: feed
+

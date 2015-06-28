@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+x-amz-id-2: /VneZ4Rkkv2hS+pBNnlhCqsqQ+kFah6rj4n99tR3AqVyX/PkwJePrWKLndziWkQU651450v8UWI=
+x-amz-request-id: BADA625E4EA6C0CC
+Date: Sat, 27 Jun 2015 19:05:24 GMT
+Last-Modified: Sat, 27 Jun 2015 19:04:27 GMT
+ETag: "26576b2b136e893fa561ef9f811aed69"
+Content-Type: text/xml
+Content-Length: 143948
+Server: AmazonS3
+

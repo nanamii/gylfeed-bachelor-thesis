@@ -1,0 +1,8 @@
+HTTP/1.1 302 Moved Temporarily
+Content-Length: 169
+Content-Type: text/html
+Date: Fri, 26 Jun 2015 19:01:30 GMT
+Location: http://feeds.feedburner.com/Mumbrella
+Server: nginx/1.4.6 (Ubuntu)
+Connection: keep-alive
+

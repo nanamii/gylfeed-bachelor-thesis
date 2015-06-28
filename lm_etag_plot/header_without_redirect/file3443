@@ -1,0 +1,19 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 19:19:20 GMT
+Server: Ning HTTP Server 2.0
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Set-Cookie: xn_visitor=a645c889-3a97-4b28-a210-e20cefe217f8;Path=/;Domain=.saltwaterindex.com;Expires=Mon, 23-Jun-25 19:19:20 GMT
+Set-Cookie: ning_session=d07Ag8X2oZEwkNw3nsEfBycBUg11t63xsWw3Cb0GLGisMZiSga6AvgntfszsvrmDbW8pP+dHnyY=;Path=/;Domain=.saltwaterindex.com;Expires=Fri, 26-Jun-15 20:19:20 GMT
+X-XN-Trace-Token: d63af553-9651-4214-97f8-966a4c796097
+X-XN-XNHTML: false
+Date: Fri, 26 Jun 2015 18:57:35 GMT
+Date: Fri, 26 Jun 2015 18:57:35 GMT
+Vary: X-XN_APPLICATION
+P3P: CP="UNI STA LOC CURa OURa COR ALL IND"
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Last-Modified: Fri, 26 Jun 2015 18:57:35 UTC
+CACHE-CONTROL: max-age=0
+CACHE-CONTROL: no-cache="Set-Cookie"
+Content-Type: application/rss+xml
+Content-Length: 20358
+

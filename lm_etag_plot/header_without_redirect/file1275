@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 18:20:00 GMT
+Server: Apache
+X-Pingback: http://trustemedia.com/xmlrpc.php
+Set-Cookie: engine_ssid_=deaidbatdaod_1435342801; expires=Sun, 04-Oct-2015 18:20:01 GMT; path=/; domain=.trustemedia.com
+Set-Cookie: engine_ssl_=enabled; expires=Sun, 04-Oct-2015 18:20:01 GMT; path=/; domain=.trustemedia.com
+Set-Cookie: mc_session_id=558f50ff4d18dd5f8926bf92fdc126f6e5f4243e; expires=Fri, 26-Jun-2015 18:25:01 GMT; path=/
+Set-Cookie: PHPSESSID=749mtv01klr8ji126vo8jc9782; path=/
+Last-Modified: Thu, 18 Dec 2014 03:23:11 GMT
+ETag: "fbb76fca098b119f2ae4eaee643a2cdc"
+Content-Type: text/html
+

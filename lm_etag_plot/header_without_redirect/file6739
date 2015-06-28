@@ -1,0 +1,13 @@
+HTTP/1.1 410 Gone
+X-GData-User-Country: DE
+Content-Type: text/html; charset=UTF-8
+Content-Length: 19
+Date: Fri, 26 Jun 2015 20:43:37 GMT
+Expires: Fri, 26 Jun 2015 20:43:37 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Server: GSE
+Alternate-Protocol: 80:quic,p=0
+

@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 18:16:00 GMT
+Server: Apache
+Set-Cookie: exp_last_visit=1119982560; expires=Sat, 25-Jun-2016 18:16:00 GMT; path=/
+Set-Cookie: exp_last_activity=1435342560; expires=Sat, 25-Jun-2016 18:16:00 GMT; path=/
+Expires: Fri, 26 Jun 2015 08:12:22 GMT
+Last-Modified: Fri, 26 Jun 2015 07:12:22 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Cache-Control: post-check=0, pre-check=0
+Pragma: no-cache
+Content-Type: text/xml; charset=utf-8
+

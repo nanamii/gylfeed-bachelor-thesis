@@ -1,0 +1,12 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Fri, 26 Jun 2015 19:00:09 GMT
+Content-Type: text/html
+Connection: keep-alive
+X-Powered-By: PHP/5.3.3-7+squeeze25
+X-Pingback: http://bikyamasr.com/xmlrpc.php
+ETag: "41ad8ea2e9aebd6e9489b19e2717f2db"
+Last-Modified: Thu, 25 Jun 2015 21:51:29 GMT
+Location: http://bikyamasr.com/feed
+Vary: Accept-Encoding
+

@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Content-Type: application/rss+xml
+Content-Length: 1
+Expires: Fri, 26 Jun 2015 20:39:31 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Fri, 26 Jun 2015 20:39:31 GMT
+Connection: keep-alive
+Set-Cookie: ObSSOCookie=t4O6KUAjCjKl%2BJyIL3Ru47opcqJ5iSVxwt1EijJ6wECU%2BxtztMdBH0Idkkk30BSYCOmrJHciTs8l%2FKy6ldwUZi1%2B9%2BA9xV34XDqlBMeR0NyVueGwJ8f4cWLNRMVfBg9z9QCAWnaHEGs8g5la%2B6K9t449I492jHVySWxS4bB7T7j8IEUhgLpW5K4PIVTpLKc7WkTeWkBOZGA%2BPzzal6YuY5R5l39%2Bzrd2Ln0JsbGp26rJGkGDY3tqKoHBqVcpuEne5uhXFeaUy0%2FSaKZM2eoBBJek1qcXULbodYQtp6oxhIk%3D;secure; httponly; path=/; domain=.lds.org
+

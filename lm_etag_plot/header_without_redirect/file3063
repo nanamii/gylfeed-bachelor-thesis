@@ -1,0 +1,16 @@
+HTTP/1.1 302 Found
+Date: Fri, 26 Jun 2015 19:13:27 GMT
+Content-Type: application/rss+xml
+Connection: keep-alive
+Set-Cookie: __cfduid=d9dddbcc215d4d098efdc36f87782c4a31435346006; expires=Sat, 25-Jun-16 19:13:26 GMT; path=/; domain=.freedomtodiffer.com; HttpOnly
+X-PhApp: oak-tp-web039
+X-Webserver: oak-tp-web039
+Location: http://feeds.feedburner.com/FreedomToDiffer
+Vary: cookie
+Expires: Fri, 26 Jun 2015 19:28:27 GMT
+X-Varnish: 1656538289
+Age: 0
+Via: 1.1 varnish
+Server: cloudflare-nginx
+CF-RAY: 1fcb3abdf99315d7-FRA
+

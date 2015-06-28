@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 21:15:36 GMT
+Server: Apache
+Last-Modified: Sat, 27 Jun 2015 20:10:08 GMT
+ETag: "14a42-5198571774062"
+Accept-Ranges: bytes
+Content-Length: 84546
+X-Pingback: http://intertwingly.net/blog/pingback
+Content-Type: application/atom+xml; charset=utf-8
+

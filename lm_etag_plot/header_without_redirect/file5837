@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 20:24:28 GMT
+Content-Type: text/xml; charset=UTF-8
+Connection: keep-alive
+Set-Cookie: __cfduid=d7da75add6e4ed313bbfb4155f0a8a7501435350268; expires=Sat, 25-Jun-16 20:24:28 GMT; path=/; domain=.mikepk.com; HttpOnly
+X-Powered-By: PHP/5.3.2-1ubuntu4.24
+Vary: Cookie,Accept-Encoding
+X-Pingback: http://mikepk.com/xmlrpc.php
+ETag: W/"8e0c846f3471987d2de2cbbab97be4c5"
+WP-Super-Cache: Served legacy cache file
+Server: cloudflare-nginx
+CF-RAY: 1fcba2c7ec390f87-FRA
+

@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 18:33:51 GMT
+Server: Apache/2.2.22
+X-Powered-By: PHP/5.3.29
+Vary: Cookie,User-Agent,Accept-Encoding
+X-Pingback: http://vj.tv/wp/xmlrpc.php
+ETag: "cfcc282deca4d2253a52660524f3ec11"
+WP-Super-Cache: Served legacy cache file
+Content-Type: text/xml; charset=UTF-8
+

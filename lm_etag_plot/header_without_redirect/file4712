@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Server: nginx/1.8.0
+Date: Fri, 26 Jun 2015 19:45:11 GMT
+Content-Type: text/xml; charset=UTF-8
+Connection: keep-alive
+Vary: Cookie
+X-Pingback: http://www.youritronics.com/xmlrpc.php
+ETag: "bf8f36f82f61601b1174e95b851f14c0"
+WP-Super-Cache: Served legacy cache file
+

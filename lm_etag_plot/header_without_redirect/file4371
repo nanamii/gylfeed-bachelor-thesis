@@ -1,0 +1,10 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Fri, 26 Jun 2015 19:41:47 GMT
+Content-Type: text/html
+Connection: keep-alive
+X-Pingback: http://ryansholin.com/xmlrpc.php
+Last-Modified: Tue, 14 Oct 2014 21:53:46 GMT
+ETag: "b98a909f912551953fa7c409eb3dded2"
+Location: http://ryansholin.com/feed/
+

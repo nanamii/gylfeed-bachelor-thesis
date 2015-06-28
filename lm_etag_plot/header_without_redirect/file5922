@@ -1,0 +1,11 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 20:25:14 GMT
+Server: Apache/2.2.22
+X-Powered-By: PHP/5.3.29
+X-Pingback: http://steve-olson.com/xmlrpc.php
+ETag: "f2f360dd7bf3cbb0fee4b0a13a64a340"
+Last-Modified: Tue, 21 Apr 2015 20:05:50 GMT
+Location: http://steve-olson.com/feed/
+Vary: User-Agent,Accept-Encoding
+Content-Type: text/html
+

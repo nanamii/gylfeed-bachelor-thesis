@@ -1,0 +1,14 @@
+HTTP/1.1 302 Found
+Date: Fri, 26 Jun 2015 19:10:11 GMT
+Content-Type: text/html
+Connection: keep-alive
+Set-Cookie: __cfduid=dd2a05aa8b5f6b5b61ca383d8fe6eca3b1435345810; expires=Sat, 25-Jun-16 19:10:10 GMT; path=/; domain=.globalresearch.ca; HttpOnly
+X-Powered-By: PHP/5.3.28
+Location: /?feed=rss2
+X-Varnish: 464793385
+Age: 0
+Via: 1.1 varnish
+X-Cache: MISS
+Server: cloudflare-nginx
+CF-RAY: 1fcb35f60d4901b1-FRA
+

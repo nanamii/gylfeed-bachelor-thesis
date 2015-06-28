@@ -1,0 +1,9 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 18:13:40 GMT
+Server: Apache/2
+X-Powered-By: PHP/5.2.17
+X-Pingback: http://www.patrickmatte.com/blog/xmlrpc.php
+Location: http://www.patrickmatte.com/feed/
+Vary: Accept-Encoding,User-Agent
+Content-Type: text/html; charset=UTF-8
+

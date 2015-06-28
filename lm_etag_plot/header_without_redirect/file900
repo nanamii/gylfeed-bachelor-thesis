@@ -1,0 +1,11 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 18:14:02 GMT
+Server: Apache/2.2.22
+X-Powered-By: PHP/5.3.29
+X-Pingback: http://blog.pixelbreaker.com/xmlrpc.php
+ETag: "07030ea5aa44f600dab3f17695b4c138"
+Last-Modified: Fri, 26 Sep 2014 21:18:26 GMT
+Location: http://blog.pixelbreaker.com/feed
+Vary: User-Agent,Accept-Encoding
+Content-Type: text/html
+

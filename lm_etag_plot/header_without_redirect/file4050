@@ -1,0 +1,18 @@
+HTTP/1.1 200 OK
+Server: Apache
+X-Powered-By: PHP/5.3.10-1ubuntu3.18
+X-Drupal-Cache: MISS
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Cache-Control: public, max-age=10800
+Content-Language: en
+Etag: "1435341664-0"
+Last-Modified: Fri, 26 Jun 2015 18:01:04 GMT
+Vary: Cookie,Accept-Encoding
+Content-Type: application/rss+xml; charset=utf-8
+Date: Fri, 26 Jun 2015 19:26:40 GMT
+X-Varnish: 2116605636 2116545514
+Age: 5135
+Via: 1.1 varnish
+Connection: keep-alive
+X-Varnish-Cache: HIT
+

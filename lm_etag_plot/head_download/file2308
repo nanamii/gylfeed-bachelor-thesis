@@ -1,0 +1,17 @@
+HTTP/1.1 200 OK
+Connection: Keep-Alive
+Set-Cookie: ISAWPLB{2B64A0A8-5D3E-4C7F-B487-46404EE48FA6}={94CC95FE-F9CA-4069-A407-0335C63609A9}; HttpOnly; Path=/
+Content-Length: 79519
+Expires: Fri, 12 Jun 2015 19:33:17 GMT
+Date: Sat, 27 Jun 2015 19:33:18 GMT
+Content-Type: text/html; charset=utf-8
+Server: Microsoft-IIS/7.5
+Cache-Control: private, max-age=0
+Last-Modified: Sat, 27 Jun 2015 19:33:17 GMT
+SPRequestGuid: efacf011-ed89-4282-8504-06a973a576b7
+X-SharePointHealthScore: 0
+X-AspNet-Version: 2.0.50727
+X-Powered-By: ASP.NET
+MicrosoftSharePointTeamServices: 14.0.0.6123
+X-MS-InvokeApp: 1; RequireReadOnly
+

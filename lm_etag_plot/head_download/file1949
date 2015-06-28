@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Server: Apache
+X-Cache-Action: HIT
+X-Cache-Hits: 1
+Vary: X-CDN,Accept-Encoding
+Cache-Control: max-age=120
+X-Cache-Age: 61
+Content-Type: text/xml
+Date: Sat, 27 Jun 2015 19:22:45 GMT
+Content-Language: en-GB
+Accept-Ranges: bytes
+Etag: "174878e805a62f8bc35023efe7a9ff17"
+X-UA-Compatible: IE=edge
+Content-Length: 68108
+Connection: Keep-Alive
+

@@ -1,0 +1,9 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx/1.0.15
+Date: Fri, 26 Jun 2015 19:24:37 GMT
+Content-Type: text/html
+Content-Length: 185
+Connection: keep-alive
+Location: http://www.examiner.com/rss/Education_and_Schools-Channel.rss
+Set-Cookie: BIGipServerproxy-pool=1905431050.20480.0000; path=/
+

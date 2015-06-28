@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:35:17 GMT
+Server: Apache/2.2.8 (Ubuntu) DAV/2 SVN/1.5.1 PHP/5.2.4-2ubuntu5.27 with Suhosin-Patch mod_ssl/2.2.8 OpenSSL/0.9.8g
+Last-Modified: Sat, 27 Jun 2015 19:00:39 GMT
+ETag: "114c41-16db6-5198478f123c0"
+Accept-Ranges: bytes
+Content-Length: 93622
+Vary: Accept-Encoding
+Access-Control-Allow-Origin: *
+Content-Type: application/xml
+

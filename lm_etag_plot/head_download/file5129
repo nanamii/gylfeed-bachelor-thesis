@@ -1,0 +1,19 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 21:14:03 GMT
+X-ServedBy: ny1-prod6-web016
+Set-Cookie: JSESSIONID=ZI9beUKCXFj4Xz26bv6QQwnEz9_oisgoTYCGbZXFakjbNFRlvq7-8g;Path=/;HttpOnly
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Set-Cookie: crumb=f09699daab;Path=/
+Set-Cookie: SS_MID=6f66045e-eba7-474a-8e24-3b0e9eb32b2bibfjp9a1;Path=/;Domain=.metashift.co.uk;Expires=Tue, 24-Jun-2025 21:14:03 GMT
+Set-Cookie: ss_cid=aa58a598-c91c-4bf7-a803-b4fe120ec8b0;Path=/;Domain=.metashift.co.uk;Expires=Mon, 26-Jun-2017 21:14:03 GMT
+Set-Cookie: ss_cvisit=1435439643197;Path=/;Domain=.metashift.co.uk;Expires=Sat, 27-Jun-2015 21:44:03 GMT
+Accept-Ranges: bytes
+Content-Type: application/rss+xml; charset=UTF-8
+X-PC-Date: Fri, 26 Jun 2015 16:30:37 GMT
+X-PC-Host: 10.100.101.105
+ETag: W/"5a36c8a15f31512fe34b4693f30c2e99"
+X-PC-Key: mI2IeUxgTKy9i4aGA6lF92FdQmM-metashift
+X-PC-Hit: true
+X-ContextId: yQSW56Oh/4sLkYqOM
+X-Via: 1.1 ny1-prod-echo017
+

@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 20:27:14 GMT
+Server: Apache
+X-Powered-By: PHP/5.4.42
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Cache-Control: store, no-cache, must-revalidate, post-check=0, pre-check=0
+Set-Cookie: SESS628740661cdb4fdefcb00fdb4570a68a=609c2e7948dd8717dc9c46fcc285dca5; expires=Mon, 20-Jul-2015 00:00:34 GMT; path=/; domain=.bikeweb.com
+Last-Modified: Fri, 26 Jun 2015 20:27:14 GMT
+Content-Type: application/rss+xml; charset=utf-8
+

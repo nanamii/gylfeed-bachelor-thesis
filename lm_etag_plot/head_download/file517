@@ -1,0 +1,17 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sat, 27 Jun 2015 18:41:16 GMT
+Content-Type: text/xml; charset=UTF-8
+Connection: keep-alive
+Keep-Alive: timeout=20
+X-Cacheable: CacheAlways: feed
+Cache-Control: max-age=600, must-revalidate
+X-Cache: HIT: 11
+X-Cache-Group: 
+X-Pingback: http://www.altimetergroup.com/xmlrpc.php
+X-Type: feed
+ETag: "905a8b643a315c139c71503b0c0771c5"
+X-Pass-Why: 
+Set-Cookie: X-Mapping-fjhppofk=2C7B204F8E54DADF069F8373D3E7EF12; path=/
+Last-Modified: Thu, 25 Jun 2015 17:51:23 GMT
+

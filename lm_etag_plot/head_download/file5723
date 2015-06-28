@@ -1,0 +1,23 @@
+HTTP/1.1 200 OK
+Server: Apache/2.2
+X-Powered-By: PHP/5.4.40
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+X-Pingback: http://boingboing.net/xmlrpc.php
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+WP-Super-Cache: Served legacy cache file
+X-Server: app3.boingboing.net
+Content-Type: text/xml; charset=UTF-8
+Content-Length: 93827
+Accept-Ranges: bytes
+Date: Sat, 27 Jun 2015 21:29:46 GMT
+Via: 1.1 varnish
+Age: 0
+Connection: keep-alive
+X-Served-By: cache-lcy1128-LCY
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1435440585.815334,VS0,VE415
+Vary: Cookie, Accept-Encoding
+Access-Control-Allow-Origin: http://media.boingboing.nethttp://media.boingboing.net
+

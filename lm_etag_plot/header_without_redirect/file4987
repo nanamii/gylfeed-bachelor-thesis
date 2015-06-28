@@ -1,0 +1,8 @@
+HTTP/1.1 302 Found
+Location: https://www.zagat.com/Blog/RSS.aspx?SCID=37
+Date: Fri, 26 Jun 2015 19:47:53 GMT
+Content-Type: text/html
+Server: Google Frontend
+Alternate-Protocol: 80:quic,p=0
+Transfer-Encoding: chunked
+

@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 26 Jun 2015 19:51:49 GMT
+Content-Type: text/html
+Connection: keep-alive
+X-Powered-By: PHP/5.3.10
+X-Pingback: http://goosingyourmuse.com/xmlrpc.php
+Last-Modified: Thu, 24 Oct 2013 19:29:42 GMT
+ETag: "1e3e966097ba9b6d0711a92c635247c6"
+X-Robots-Tag: noindex,follow
+

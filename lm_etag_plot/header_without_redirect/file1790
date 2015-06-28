@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 18:51:24 GMT
+Content-Type: text/xml; charset=UTF-8
+Connection: keep-alive
+Set-Cookie: __cfduid=dd9b27d9f0dd419eb975ae16769a848531435344684; expires=Sat, 25-Jun-16 18:51:24 GMT; path=/; domain=.edublogs.org; HttpOnly
+Vary: Cookie
+X-Pingback: http://enhancedenglishteachertseale.edublogs.org/xmlrpc.php
+Last-Modified: Fri, 26 Jun 2015 17:54:03 +0000
+Cache-Control: max-age=600, must-revalidate
+X-Varnish: 1776077905 1776040724
+Age: 3441
+Via: 1.1 varnish
+Set-Cookie: xid=Qocx21WNnyxSnByBHEjLAg==; expires=Sun, 26-Jul-15 18:51:24 GMT; path=/
+Server: cloudflare-nginx
+CF-RAY: 1fcb1a73c6b72354-FRA
+

@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Server: Apache/2.2
+Vary: User-Agent,Accept-Encoding
+Cache-Control: max-age=3600
+Content-Type: text/html; charset=UTF-8
+Date: Fri, 26 Jun 2015 19:22:00 GMT
+X-Pingback: http://www.parabolicarc.com/xmlrpc.php
+Expires: Fri, 26 Jun 2015 20:22:00 GMT
+Transfer-Encoding: chunked
+ETag: "3fca229a40338ec6d2a741ed1d18d232"
+Connection: Keep-Alive
+Set-Cookie: X-Mapping-alncmkhk=694C8702769C817F54B667823AD493B5; path=/
+Last-Modified: Fri, 26 Jun 2015 17:22:52 GMT
+

@@ -1,0 +1,26 @@
+HTTP/1.1 200 OK
+accept-ranges: bytes
+age: 79
+cache-control: no-cache, must-revalidate, post-check=0, pre-check=0
+content-length: 96214
+content-security-policy: default-src https: data:; report-uri https://twitter.com/i/csp_report?a=M5QXUZLCN4%3D%3D%3D%3D%3D%3D&ro=false; img-src https: data: ; script-src https://*.twitter.com https://*.twimg.com https://*.vine.co https://ssl.google-analytics.com 'unsafe-eval' ; font-src https: data: ; frame-src https://* chrome-extension: about: javascript: ; connect-src https: ; media-src https: ; object-src https: ; style-src https:
+content-type: application/rss+xml
+date: Sat, 27 Jun 2015 18:40:28 GMT
+expires: Sat, 27 Jun 2015 18:40:09 +0000
+last-modified: Sat, 27 Jun 2015 18:39:09 +0000
+server: tsa_b
+set-cookie: guest_id=v1%3A143543042854625389; Domain=.twitter.com; Path=/; Expires=Mon, 26-Jun-2017 18:40:28 UTC
+strict-transport-security: max-age=631138519
+x-connection-hash: 5b7effcf8aabd1d86340e8a7a76f5f62
+x-content-type-options: nosniff
+x-drupal-cache: MISS
+x-frame-options: sameorigin
+x-gazebo-app-rev: 17e1ecb
+x-gazebo-git-rev: d3d4e558eaa9fcd7188445a23012b4ff970a7f65
+x-gazebo-host: b6c235c
+x-response-time: 12
+x-varnish: 1353710150 1353709999
+x-varnish-cache: HIT
+x-varnish-l-curl: SUCCESS
+x-xss-protection: 1; mode=block
+

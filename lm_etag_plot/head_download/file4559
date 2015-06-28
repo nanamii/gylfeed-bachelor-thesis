@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 20:38:11 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+Set-Cookie: __cfduid=d0111f1bad2dea138ad67430127ffa7f71435437490; expires=Sun, 26-Jun-16 20:38:10 GMT; path=/; domain=.stephenshapiro.com; HttpOnly
+X-Frame-Options: ALLOWALL
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+X-Pingback: http://stephenshapiro.com/xmlrpc.php
+Link: <http://stephenshapiro.com/>; rel=shortlink
+Set-Cookie: PHPSESSID=0170188b494628ae64756c2c363d26f8; path=/
+Set-Cookie: wfvt_902561850=558f09b31e650; expires=Sat, 27-Jun-2015 21:08:11 GMT; path=/; httponly
+Server: cloudflare-nginx
+CF-RAY: 1fd3f43af8bc2372-FRA
+

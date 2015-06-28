@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 18:32:21 GMT
+Server: Apache/2.4.7 (Ubuntu)
+Strict-Transport-Security: max-age=63072000; includeSubdomains; preload
+Last-Modified: Tue, 23 Jun 2015 21:38:03 GMT
+ETag: "7555d-51936348a292b"
+Accept-Ranges: bytes
+Content-Length: 480605
+Vary: Accept-Encoding
+Content-Type: application/xml
+

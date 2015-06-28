@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Server: Apache
+Content-Location: rss-feed.php
+Vary: negotiate,Accept-Encoding,User-Agent
+TCN: choice
+Content-Type: application/xml; charset=utf-8
+Date: Sat, 27 Jun 2015 19:07:46 GMT
+X-Varnish: 1614145348
+Age: 0
+Via: 1.1 varnish
+Connection: keep-alive
+

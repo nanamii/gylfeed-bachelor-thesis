@@ -1,0 +1,7 @@
+HTTP/1.1 301 Moved Permanently
+X-Powered-By: Express
+Content-Type: text/html
+Location: https://identi.ca/api/statuses/friends_timeline/chaz2b.rss
+Date: Fri, 26 Jun 2015 19:30:02 GMT
+Connection: keep-alive
+

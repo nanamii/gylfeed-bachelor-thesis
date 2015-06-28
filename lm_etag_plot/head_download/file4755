@@ -1,0 +1,18 @@
+HTTP/1.1 200 OK
+Content-Type: application/xml; charset=UTF-8
+Server: Barista/3.3.6
+X-VG-WebCache: 25
+Cache-Control: max-age=30
+Content-Length: 24961
+Accept-Ranges: bytes
+Date: Sat, 27 Jun 2015 21:06:23 GMT
+X-Varnish: 1573309015 1573308785
+Age: 9
+Via: 1.1 varnish
+Connection: keep-alive
+Requested-Host: abc7.com
+From: n7abchwc04.starwave.com
+X-User-Agent: curl/7.37.0
+X-Forwarded-For: 10.194.255.9
+X-Cache: HIT
+

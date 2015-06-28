@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Server: Lotus-Domino
+Date: Sat, 27 Jun 2015 19:55:04 GMT
+Connection: close
+Last-Modified: Sat, 27 Jun 2015 19:55:02 GMT
+Expires: Tue, 01 Jan 1980 06:00:00 GMT
+Content-Type: text/xml
+Content-Length: 16589
+Cache-control: no-cache
+

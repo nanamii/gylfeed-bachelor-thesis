@@ -1,0 +1,14 @@
+HTTP/1.1 403 Forbidden
+Retry-After: 0
+Content-Type: text/html; charset=utf-8
+Content-Length: 420
+Accept-Ranges: bytes
+Date: Fri, 26 Jun 2015 20:43:05 GMT
+Connection: close
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: master-only
+X-XSS-Protection: 1; mode=block
+X-Frame-Options: DENY
+Server:  
+

@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Last-Modified: Fri, 26 Jun 2015 12:47:13 -0700
+X-Robots-Tag: noindex, nofollow
+X-Frame-Options: DENY
+Content-Type: application/rss+xml
+X-Content-Type-Options: nosniff
+Pragma: no-cache
+Cache-Control: private, no-cache, no-store, must-revalidate
+Expires: Sat, 01 Jan 2000 00:00:00 GMT
+Vary: Accept-Encoding
+X-FB-Debug: wk1UES6T2vyx3/mW6zj+VVwKiaJDl++EmdSSlsXPlvqx3Xg8isQSru2J8iob5i1JXeHPo8PeUwd/FMaYLJ2+cQ==
+Date: Fri, 26 Jun 2015 19:47:13 GMT
+Connection: keep-alive
+

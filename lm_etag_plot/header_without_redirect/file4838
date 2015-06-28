@@ -1,0 +1,6 @@
+HTTP/1.1 302 Found
+Date: Fri, 26 Jun 2015 19:46:29 GMT
+Server: Apache/2.2.29
+Location: http://feeds.101cookbooks.com/101cookbooks/
+Content-Type: text/html; charset=iso-8859-1
+

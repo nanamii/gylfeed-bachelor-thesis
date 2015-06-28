@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 18:17:20 GMT
+Server: Apache
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+X-Pingback: http://www.nosweatpublicspeaking.com/xmlrpc.php
+X-Robots-Tag: noindex,follow
+Set-Cookie: PHPSESSID=b02d3c0da895aa6c9386193f4f0125c1; path=/
+Last-Modified: Thu, 25 Jun 2015 10:42:14 GMT
+ETag: "db0768fbf903dfa24c8e1ce911ecbcb6"
+Content-Type: text/html
+

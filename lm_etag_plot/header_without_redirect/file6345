@@ -1,0 +1,11 @@
+HTTP/1.1 500 Internal Server Error
+Server: Apache/2.4.10
+X-Powered-By: PHP/5.4.36-0+deb7u3
+Content-Type: text/html
+Content-Length: 0
+Accept-Ranges: bytes
+Date: Fri, 26 Jun 2015 20:34:53 GMT
+Connection: keep-alive
+Via: 1.1 varnish
+Age: 0
+

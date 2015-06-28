@@ -1,0 +1,14 @@
+HTTP/1.1 302 Temporary Redirect
+Date: Fri, 26 Jun 2015 20:24:53 GMT
+Content-Type: application/rss+xml; charset="UTF-8"
+Connection: keep-alive
+Set-Cookie: __cfduid=dd294651527ff13ff2635a0e29e1ed7121435350292; expires=Sat, 25-Jun-16 20:24:52 GMT; path=/; domain=.geeklad.com; HttpOnly
+Vary: Accept-Encoding,Cookie
+X-Pingback: http://geeklad.com/xmlrpc.php
+ETag: "77ec88ccf6e85eb03c24f23ce485b50a"
+Set-Cookie: wptouch-pro-cache-state=desktop; expires=Fri, 26-Jun-2015 21:24:53 GMT; path=/
+Last-Modified: Thu, 03 May 2012 19:52:06 GMT
+Location: http://feeds.geeklad.com/GeekLad
+Server: cloudflare-nginx
+CF-RAY: 1fcba35fa3732336-FRA
+

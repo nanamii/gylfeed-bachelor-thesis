@@ -1,0 +1,9 @@
+HTTP/1.1 301 Moved Permanently
+content-length: 0
+date: Fri, 26 Jun 2015 20:24:37 GMT
+location: https://media.twitter.com/feed
+server: tsa_b
+set-cookie: guest_id=v1%3A143535027734969096; Domain=.twitter.com; Path=/; Expires=Sun, 25-Jun-2017 20:24:37 UTC
+x-connection-hash: 33cc69021490bc4696be2e90d5b247e0
+x-response-time: 2
+

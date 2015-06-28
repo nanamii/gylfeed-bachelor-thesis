@@ -1,0 +1,10 @@
+HTTP/1.1 302 Temporary Redirect
+Date: Fri, 26 Jun 2015 18:19:42 GMT
+Server: Apache
+X-Pingback: http://mindmapblog.com/xmlrpc.php
+ETag: "dccb2e893a63e0989ff395a6a55c5cdf"
+Last-Modified: Tue, 09 Jun 2015 04:35:42 GMT
+Location: http://feeds.feedburner.com/TheMindmapBlog
+Vary: Accept-Encoding
+Content-Type: text/html
+

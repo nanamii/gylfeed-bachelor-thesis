@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+P3P: CP="This is not a P3P policy! See https://www.google.com/support/accounts/bin/answer.py?hl=en&answer=151657 for more info."
+Content-Type: application/atom+xml; charset=UTF-8
+Expires: Sat, 27 Jun 2015 21:43:01 GMT
+Date: Sat, 27 Jun 2015 21:43:01 GMT
+Cache-Control: private, max-age=0
+Last-Modified: Sat, 27 Jun 2015 19:05:58 GMT
+ETag: W/"C04BSX0zfSl7ImA9XRVWFE4."
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Content-Length: 0
+Server: GSE
+Alternate-Protocol: 443:quic,p=1
+

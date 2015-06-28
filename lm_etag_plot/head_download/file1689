@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sat, 27 Jun 2015 19:21:46 GMT
+Content-Type: text/xml; charset=UTF-8
+Connection: keep-alive
+Keep-Alive: timeout=20
+X-Pingback: http://www.tasteofbeirut.com/xmlrpc.php
+Last-Modified: Tue, 23 Jun 2015 19:15:53 GMT
+ETag: "5de69ded565224aa7d780b4223e5f1cc-gzip"
+X-Cacheable: CacheAlways: feed
+Cache-Control: max-age=600, must-revalidate
+X-Cache: HIT: 10
+X-Pass-Why: 
+X-Cache-Group: 
+X-Type: feed
+

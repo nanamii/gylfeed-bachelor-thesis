@@ -1,0 +1,8 @@
+HTTP/1.1 302 Found
+Content-Type: text/html; charset=iso-8859-1
+Date: Fri, 26 Jun 2015 18:24:08 GMT
+Location: http://www.pcworld.com/index.rss
+Server: Apache
+Vary: Accept-Encoding
+Connection: keep-alive
+

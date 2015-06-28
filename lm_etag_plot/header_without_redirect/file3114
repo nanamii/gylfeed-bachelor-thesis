@@ -1,0 +1,14 @@
+HTTP/1.1 404 Not Found
+Date: Fri, 26 Jun 2015 19:13:52 GMT
+Content-Type: application/rss+xml
+Connection: keep-alive
+Set-Cookie: __cfduid=d9b0cdcb9e3bea61636bb6a470bf1d92f1435346032; expires=Sat, 25-Jun-16 19:13:52 GMT; path=/; domain=.typepad.com; HttpOnly
+X-PhApp: oak-tp-web021
+X-Webserver: oak-tp-web021
+Vary: cookie
+X-Varnish: 1656548708
+Age: 0
+Via: 1.1 varnish
+Server: cloudflare-nginx
+CF-RAY: 1fcb3b5f0bd2089f-FRA
+

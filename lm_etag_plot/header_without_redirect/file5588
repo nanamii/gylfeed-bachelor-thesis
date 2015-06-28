@@ -1,0 +1,15 @@
+HTTP/1.1 302 Moved Temporarily
+Date: Fri, 26 Jun 2015 20:17:32 GMT
+Server: Apache
+X-Powered-By: PHP/5.3.27
+Expires: Fri, 19 Jun 2015 20:17:32 GMT
+Cache-Control: no-cache, must-revalidate, max-age=0
+Pragma: no-cache
+X-Pingback: http://1greengeneration.elementsintime.com/xmlrpc.php
+ETag: "56b98a7bcf1eb7f42bab9afbe5af7ce1"
+Last-Modified: Tue, 25 Jun 2013 04:21:01 GMT
+Location: http://feeds2.feedburner.com/elementsintime
+Vary: Accept-Encoding,User-Agent
+Connection: close
+Content-Type: text/html
+

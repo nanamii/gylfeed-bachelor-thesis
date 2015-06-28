@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+x-amz-id-2: 8mEiOtE6T+O6iIVko9HMwhit1WiEtGjOAJQwy3O8jTrGvDzm5muLdtuj8aukfWTJDI2b1B1FKPQ=
+x-amz-request-id: 67E01B41A3B3EB58
+Date: Sat, 27 Jun 2015 21:33:21 GMT
+x-amz-meta-s3cmd-attrs: uid:1000/gname:travis/uname:travis/gid:1000/mode:33204/mtime:1435262888/atime:1435262912/md5:e6cf32be77e06bb728443a81493263e3/ctime:1435262888
+Cache-Control: max-age=3600, public
+Last-Modified: Thu, 25 Jun 2015 20:09:46 GMT
+ETag: "e6cf32be77e06bb728443a81493263e3"
+Content-Type: application/xml
+Content-Length: 25688
+Server: AmazonS3
+

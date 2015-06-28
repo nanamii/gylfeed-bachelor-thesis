@@ -1,0 +1,14 @@
+HTTP/1.1 302 Found
+ETag: W/"f80bffd7-60b7-4e54-85f9-1af9477ac541"
+Date: Fri, 26 Jun 2015 20:17:16 GMT
+Content-Type: text/html
+Server: blogger-renderd
+Expires: Fri, 26 Jun 2015 20:17:17 GMT
+Cache-Control: public, must-revalidate, proxy-revalidate, max-age=1
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Location: www.justwhiskedaway.com
+X-Frame-Options: SAMEORIGIN
+Alternate-Protocol: 80:quic,p=0
+Transfer-Encoding: chunked
+

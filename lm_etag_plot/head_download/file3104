@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:51:48 GMT
+Server: Apache
+X-Powered-By: PHP/5.2.8
+X-Pingback: http://blogs.loc.gov/inside_adams/xmlrpc.php
+ETag: "e7f43649c8e24020dbdd43ed1ee2a682"
+Last-Modified: Mon, 22 Jun 2015 22:19:01 GMT
+Connection: close
+Content-Type: text/html
+

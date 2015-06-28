@@ -1,0 +1,9 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 19:10:38 GMT
+Content-Type: text/html; charset=iso-8859-1
+Connection: keep-alive
+Set-Cookie: __cfduid=dda80366157dfd2b8ab207b0a2c0ea45a1435345838; expires=Sat, 25-Jun-16 19:10:38 GMT; path=/; domain=.memritv.org; HttpOnly
+Location: http://www.memritv.org/latest_clips.rss
+Server: cloudflare-nginx
+CF-RAY: 1fcb36a082530f75-FRA
+

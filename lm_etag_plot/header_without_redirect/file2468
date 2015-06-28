@@ -1,0 +1,15 @@
+HTTP/1.1 301 TLS Redirect
+Server: Varnish
+Location: https://en.wikinews.org/w/index.php?title=Special:NewsFeed&feed=atom&categories=Published&notcategories=No%20publish%7CArchived%7CAutoArchived%7Cdisputed&namespace=0&count=30&hourcount=124&ordermethod=categoryadd&stablepages=only
+Content-Length: 0
+Accept-Ranges: bytes
+Date: Fri, 26 Jun 2015 19:00:37 GMT
+X-Varnish: 444894121
+Age: 0
+Via: 1.1 varnish
+Connection: close
+X-Cache: cp3003 frontend miss (0)
+Cache-Control: private, s-maxage=0, max-age=0, must-revalidate
+Set-Cookie: GeoIP=DE:02:Bad_T_lz:47.7547:11.5678:v4; Path=/; Domain=.wikinews.org
+Set-Cookie: WMF-Last-Access=26-Jun-2015;Path=/;HttpOnly;Expires=Tue, 28 Jul 2015 12:00:00 GMT
+

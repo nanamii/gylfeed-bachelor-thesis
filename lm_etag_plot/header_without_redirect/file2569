@@ -1,0 +1,11 @@
+HTTP/1.1 301 Moved Permanently
+Content-Length: 0
+Location: http://feeds.nbcnews.com/feeds/topstories
+Server: Microsoft-IIS/7.5
+X-AspNet-Version: 2.0.50727
+X-Powered-By: ASP.NET
+Access-Control-Allow-Origin: *
+Cache-Control: private, max-age=137
+Date: Fri, 26 Jun 2015 19:01:28 GMT
+Connection: keep-alive
+

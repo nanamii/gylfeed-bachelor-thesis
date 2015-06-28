@@ -1,0 +1,12 @@
+HTTP/1.1 302 Found
+Date: Fri, 26 Jun 2015 19:29:54 GMT
+Server: Apache/2.2.15 (Red Hat)
+X-Powered-By: PHP/5.3.3
+Set-Cookie: SITESESSID=33sfl767ji2lghj8hkvd1jd6r7; expires=Thu, 26-Jun-2025 05:37:34 GMT; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Location: http://sso01.newscheckmedia.com/sso/index/info?request=http%3A%2F%2Fwww.tvnewscheck.com%2Ffeeds%2Flatest-news.rss&sig=4763c8cc94fd0ad8608c99f97d8ca77f
+Connection: close
+Content-Type: application/rss+xml; charset=UTF-8
+

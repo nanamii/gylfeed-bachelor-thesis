@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Server: Apache/2.2
+Vary: Cookie
+Content-Type: text/xml; charset=UTF-8
+WP-Super-Cache: Served legacy cache file
+Date: Sat, 27 Jun 2015 18:36:55 GMT
+X-Pingback: http://www.thestrut.com/xmlrpc.php
+Transfer-Encoding: chunked
+ETag: "c79b983b62cc13a196c45cec130dbe04"
+Connection: Keep-Alive
+Set-Cookie: X-Mapping-fflnkphn=B1F2B7A3E936BB4D0AFD443EBD7F040C; path=/
+

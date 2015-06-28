@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Server: nginx/1.6.2
+Date: Sat, 27 Jun 2015 20:11:27 GMT
+Content-Type: text/html
+Connection: keep-alive
+X-Powered-By: PHP/5.4.37
+Vary: Cookie
+X-Pingback: http://scottberkun.com/xmlrpc.php
+Last-Modified: Thu, 25 Jun 2015 16:32:16 GMT
+ETag: "8c35b9fdd458f8fca5ecc7f339170510"
+

@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 18:13:39 GMT
+Content-Type: text/xml; charset=UTF-8
+Connection: keep-alive
+Server: Apache
+X-Pingback: http://blog.andre-michelle.com/xmlrpc.php
+Last-Modified: Sat, 31 Mar 2012 05:48:31 GMT
+ETag: "d926d886fa525dbb510b691272c27573"
+

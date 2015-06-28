@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Last-Modified: Fri, 26 Jun 2015 19:50:14 GMT
+ETag: "0c221054dd0cb18ad529a983cc53384b"
+X-Robots-Tag: noindex,follow
+Link: <https://firstlook.org/theintercept/wp-json>; rel="https://github.com/WP-API/WP-API"
+Cache-Control: max-age=300, must-revalidate
+Strict-Transport-Security: max-age=15768000; includeSubDomains; preload
+Content-Type: text/xml; charset=UTF-8
+Vary: Accept-Encoding
+Date: Fri, 26 Jun 2015 20:32:32 GMT
+X-Varnish: 1058707093 1058706969
+Via: 1.1 varnish
+Connection: keep-alive
+X-FSLK-Cache: HIT
+Age: 0
+

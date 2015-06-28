@@ -1,0 +1,20 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sat, 27 Jun 2015 19:15:22 GMT
+Content-Type: text/xml; charset=UTF-8
+Connection: keep-alive
+Keep-Alive: timeout=20
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Pragma: no-cache
+X-Pingback: http://www.getorganizedwizard.com/xmlrpc.php
+Last-Modified: Thu, 25 Jun 2015 01:13:20 GMT
+ETag: "b308acfc85b43f296a922b201bec2fd2-gzip"
+X-UA-Compatible: IE=edge,chrome=1
+X-Robots-Tag: noindex,follow
+X-Cacheable: CacheAlways: feed
+Cache-Control: max-age=600, must-revalidate
+X-Cache: MISS
+X-Pass-Why: 
+X-Cache-Group: 
+X-Type: feed
+

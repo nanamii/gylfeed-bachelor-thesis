@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Server: Apache
+X-Drupal-Cache: HIT
+ETag: "1435434179.701-1"
+X-Content-Type-Options: nosniff
+X-Frame-Options: SameOrigin
+Content-Language: en
+Link: <http://www.fema.gov/blog>; rel="canonical",<http://www.fema.gov/blog>; rel="shortlink"
+Last-Modified: Sat, 27 Jun 2015 19:42:59 GMT
+Content-Type: text/html; charset=utf-8
+Cache-Control: public, max-age=1200
+Expires: Sat, 27 Jun 2015 20:13:34 GMT
+Date: Sat, 27 Jun 2015 19:53:34 GMT
+Connection: keep-alive
+

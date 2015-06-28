@@ -1,0 +1,8 @@
+HTTP/1.1 301 Moved Permanently
+Server: Apache
+Location: http://www.businessweek.com/technology
+Content-Type: text/html; charset=iso-8859-1
+Content-Length: 0
+Date: Fri, 26 Jun 2015 18:50:44 GMT
+Connection: keep-alive
+

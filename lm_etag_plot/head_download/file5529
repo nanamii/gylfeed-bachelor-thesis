@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sat, 27 Jun 2015 21:21:46 GMT
+Content-Type: text/xml; charset=UTF-8
+Content-Length: 17720
+Connection: keep-alive
+X-Powered-By: PHP/5.5.9-1ubuntu4.9
+Set-Cookie: CritterSession=j1n07khnlv7m5675evi0k6ihq1; path=/; domain=www.thewire.co.uk
+Set-Cookie: CritterSession=j1n07khnlv7m5675evi0k6ihq1; path=/; domain=www.thewire.co.uk
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+

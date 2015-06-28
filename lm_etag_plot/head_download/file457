@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sat, 27 Jun 2015 18:40:39 GMT
+Content-Type: text/html
+Connection: keep-alive
+X-Powered-By: PHP/5.3.8
+X-Pingback: http://cognitiveseo.com/blog/xmlrpc.php
+Last-Modified: Thu, 25 Jun 2015 09:05:55 GMT
+ETag: "aa5b47b6bb951c61d88672d52b730054"
+X-Robots-Tag: noindex,follow
+

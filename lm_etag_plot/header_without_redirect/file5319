@@ -1,0 +1,19 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Fri, 26 Jun 2015 20:14:47 GMT
+Content-Type: text/html
+Content-Length: 0
+Connection: keep-alive
+Keep-Alive: timeout=20
+X-Pingback: http://www.urbangardensweb.com/xmlrpc.php
+Last-Modified: Fri, 26 Jun 2015 03:10:00 GMT
+ETag: "b0e460ade4f7d029a6f3a9b97444597c"
+Location: http://www.urbangardensweb.com/feed/
+X-Cacheable: CacheAlways: feed
+Cache-Control: max-age=86400, must-revalidate
+Accept-Ranges: bytes
+X-Cache: HIT: 4
+X-Pass-Why: 
+X-Cache-Group: 
+X-Type: feed
+

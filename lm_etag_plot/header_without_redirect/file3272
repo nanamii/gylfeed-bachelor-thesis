@@ -1,0 +1,19 @@
+HTTP/1.1 200 OK
+Server: Apache/2.2.16 (Debian)
+X-Powered-By: PHP/5.3.3-7+squeeze19
+X-Drupal-Cache: MISS
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Cache-Control: public, max-age=86400
+Content-Language: en
+Etag: "1435345882-1"
+Last-Modified: Fri, 26 Jun 2015 19:11:22 GMT
+Vary: Cookie,Accept-Encoding
+Content-Type: application/rss+xml; charset=utf-8
+Date: Fri, 26 Jun 2015 19:15:32 GMT
+X-Varnish: 913419366 913417779
+Age: 250
+Via: 1.1 varnish
+Connection: keep-alive
+X-Cache: HIT
+X-Cache-Hits: 8
+

@@ -1,0 +1,9 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 20:17:17 GMT
+Server: Apache
+Location: http://www.bunsinmyoven.com/feed/
+Cache-Control: max-age=3600
+Expires: Fri, 26 Jun 2015 21:17:17 GMT
+Vary: Accept-Encoding
+Content-Type: text/html; charset=iso-8859-1
+

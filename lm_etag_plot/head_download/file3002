@@ -1,0 +1,17 @@
+HTTP/1.1 200 OK
+Cache-Control: public, max-age=0
+Cache-control: no-cache="set-cookie"
+Content-Language: en
+Content-Type: application/rss+xml; charset=utf-8
+Date: Sat, 27 Jun 2015 19:50:12 GMT
+Etag: "1435434214-0"
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Last-Modified: Sat, 27 Jun 2015 19:43:34 GMT
+Server: Apache
+Set-Cookie: AWSELB=8F7F973902ED2F487224163FDA1779D7536B19D2B607D801BC2E84B5B01441FBFC393A112B3E7573BF654758B213AAADCEFD3636BC6639BE2C1474BFFCA4FE56C44E2C2E2A;PATH=/;MAX-AGE=240
+Strict-Transport-Security: max-age=2592000
+Vary: Cookie,Accept-Encoding
+X-Drupal-Cache: HIT
+X-Powered-By: PHP/5.6.10
+Connection: keep-alive
+

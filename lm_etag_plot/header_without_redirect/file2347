@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 18:05:08 GMT
+Server: MII-APC/2.5.16
+Last-Modified: Fri, 26 Jun 2015 18:03:24 GMT
+ETag: "1d8048-1919-5196f8e5bd300"
+Accept-Ranges: bytes
+Cache-Control: max-age=10800, s-maxage=10800
+Content-Type: application/xml
+Age: 3239
+Via: 1.1 sjc005160 (MII-APC/2.5)
+X-Pb-Mii: Powered by Mirror Image Internet
+Via: 1.1 sjc005115 (MII-APC/2.5)
+x-mii-cache-hit: 1
+Content-Length: 6425
+

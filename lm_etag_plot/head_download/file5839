@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 21:33:23 GMT
+Server: Apache/2.2.22 (Debian)
+X-Powered-By: PHP/5.4.35-0+deb7u2
+Vary: Cookie,Accept-Encoding
+X-Pingback: http://www.friday.com/bbum/xmlrpc.php
+ETag: "d264f40a63216095f4b3febedce3b4d3"
+WP-Super-Cache: Served legacy cache file
+Content-Type: text/xml; charset=UTF-8
+

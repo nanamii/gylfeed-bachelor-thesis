@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 19:23:58 GMT
+Server: Apache
+X-Pingback: http://organicmania.com/xmlrpc.php
+ETag: "8f69c56b2152d380be870cd8da56e8e2"
+Last-Modified: Thu, 09 Aug 2012 20:11:28 GMT
+Vary: Accept-Encoding
+Content-Type: text/xml; charset=UTF-8
+

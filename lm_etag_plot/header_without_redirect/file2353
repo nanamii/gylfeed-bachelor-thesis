@@ -1,0 +1,8 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 26 Jun 2015 18:59:07 GMT
+Content-Type: text/xml; charset=UTF-8
+Connection: close
+Vary: Accept-Encoding
+Vary: Accept-Encoding
+

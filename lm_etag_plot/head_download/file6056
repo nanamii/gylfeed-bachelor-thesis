@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 21:42:58 GMT
+Content-Type: text/xml;charset=UTF-8
+Connection: keep-alive
+Set-Cookie: JSESSIONID=3658E3E50395507BE3597BD7C9B93BEC.ny1-prod5-web017; Path=/; HttpOnly
+X-ContextId: aH6RxVn2/1Z3Nbf2R
+X-Via: 1.1 ny1-prod-echo018
+X-Zephyr: ny1-prod-zephyr003.int.peer1.squarespace.net
+X-Cache-Status: BYPASS
+Vary: Accept-Encoding
+X-Loc: page-cache
+

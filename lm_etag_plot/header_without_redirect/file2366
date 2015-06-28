@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 18:59:11 GMT
+Server: Apache
+X-Powered-By: PHP/5.4.36
+Vary: Cookie
+X-Pingback: http://www.360news.co.za/xmlrpc.php
+ETag: "248f243a0006ffd99aa66721eb14fb43"
+WP-Super-Cache: Served legacy cache file
+Connection: close
+Content-Type: text/xml; charset=UTF-8
+

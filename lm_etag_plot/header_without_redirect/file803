@@ -1,0 +1,10 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 18:11:05 GMT
+Server: Apache
+X-Pingback: http://www.raquelmeyers.com/xmlrpc.php
+Last-Modified: Thu, 25 Jun 2015 16:47:19 GMT
+ETag: "ce29b22ee5674ddcf962c56207ec771b"
+Location: http://www.raquelmeyers.com/feed/
+Vary: Accept-Encoding
+Content-Type: text/html
+

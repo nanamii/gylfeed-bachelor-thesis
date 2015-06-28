@@ -1,0 +1,26 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sat, 27 Jun 2015 19:31:59 GMT
+Content-Type: application/xml;charset=utf-8
+Status: 200 OK
+X-Runtime: 0.463757
+X-Request-UUID: nVt3XaJOXBwSY047fcp8Pg==
+X-Bench-Route: rss/recent
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-UA-Compatible: IE=Edge,chrome=1
+X-Frame-Options: SAMEORIGIN
+Cache-Control: private, max-age=1800
+X-Request-Id: 1ef904089f8027be48a7ad31a55956b9
+X-Robots-Tag: noindex
+P3P: CP="OTI DSP COR CUR ADM DEV PSD IVD CONo OUR IND"
+X-Varnish: 12251658 33953810
+Age: 1433
+Via: 1.1 varnish-v4
+Set-Cookie: _uv_id=1145331613; Path=/; Domain=.slideshare.net
+Set-Cookie: SERVERID=r87|VY7/y|VY7/y; path=/
+X-Li-Fabric: prod-lva1
+Connection: keep-alive
+X-Li-Pop: PROD-IDB2
+X-LI-UUID: G3c72nuw6xPgLlWg8SoAAA==
+

@@ -1,0 +1,8 @@
+HTTP/1.1 200 OK
+Server: Apache/2.0.52 (CentOS)
+X-ATG-Version: ATGPlatform/7.1p2 [ DASLicense/0 DPSLicense/0 DSSLicense/0 PortalLicense/0  ]
+Content-Type: text/xml;charset=utf-8
+Date: Fri, 26 Jun 2015 19:22:14 GMT
+Content-Length: 0
+Connection: keep-alive
+

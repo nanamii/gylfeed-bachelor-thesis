@@ -1,0 +1,10 @@
+HTTP/1.1 302 Moved Temporarily
+Server: Apache/2.2.29 (Unix)
+Location: http://www.apple.com/support/
+Content-Type: text/html; charset=iso-8859-1
+Expires: Fri, 26 Jun 2015 19:43:34 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Fri, 26 Jun 2015 19:43:34 GMT
+Connection: keep-alive
+

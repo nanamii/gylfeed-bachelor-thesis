@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sat, 27 Jun 2015 19:47:20 GMT
+Content-Type: text/html; charset=utf-8
+Connection: keep-alive
+Vary: Accept-Encoding
+Vary: Cookie
+X-hacker: If you're reading this, you should visit automattic.com/jobs and apply to join the fun, mention this header.
+X-Pingback: https://gigaom2.wordpress.com/xmlrpc.php
+Last-Modified: Mon, 08 Jun 2015 22:26:02 GMT
+ETag: "576ac9daa1361d47230c8769553aa3bc"
+P3P: CP="Gigaom has a Privacy Policy available at http://gigaom.com/privacy-policy/"
+X-PickUsInstead: Cool company, cooler headers, join the team! Send an email to jobs@gigaom.com and mention this header.
+Link: <http://wp.me/P10LZV-E3P>; rel=shortlink
+Strict-Transport-Security: max-age=31536000
+

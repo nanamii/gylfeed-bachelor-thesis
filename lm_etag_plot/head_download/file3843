@@ -1,0 +1,18 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 20:17:54 GMT
+Server: Apache/2.2.22 (Ubuntu)
+X-Powered-By: PHP/5.3.10-1ubuntu3.17
+Status: 200 OK
+Set-Cookie: s9y_f936985d6160260af51fdba51e23f3a2=boj59a1ctqgmq55dith9eosjt1; path=/
+Expires: 0
+Cache-Control: private, pre-check=0, post-check=0, max-age=0
+Pragma: no-cache
+Set-Cookie: s9y_f936985d6160260af51fdba51e23f3a2=26mruvmnkv86ucdi9kbl8c1gk5; path=/
+X-Session-Reinit: true
+Set-Cookie: serendipity[karmaVote]=a%3A0%3A%7B%7D; expires=Mon, 27-Jul-2015 20:17:54 GMT; path=/; domain=www.broadstuff.com
+X-Blog: Serendipity
+Last-Modified: Wed, 03 Jun 2015 20:52:53 GMT
+ETag: "Wed, 03 Jun 2015 20:52:53 GMT"
+Vary: Accept-Encoding
+Content-Type: text/xml; charset=utf-8
+

@@ -1,0 +1,11 @@
+HTTP/1.1 302 Moved Temporarily
+Server: Apache/2.2.3 (Red Hat)
+Location: http://www.cbc.ca/cmlink/rss-topstories
+Content-Type: text/html; charset=iso-8859-1
+X-Origin-Server: web21_sb10_cache02
+Content-Length: 223
+Accept-Ranges: bytes
+Cache-Control: max-age=58
+Date: Fri, 26 Jun 2015 19:00:19 GMT
+Connection: keep-alive
+

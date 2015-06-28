@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 20:21:00 GMT
+Content-Type: text/xml; charset=utf-8
+P3P: policyref="http://info.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+Set-Cookie: xb=302541; expires=Tue, 27-Jun-2017 20:21:00 GMT; path=/; domain=.flickr.com
+Last-Modified: Sat, 27 Jun 2015 20:07:12 GMT
+Cache-Control: private
+X-Served-By: www253.flickr.bf1.yahoo.com
+Vary: Accept-Encoding
+Age: 0
+Connection: keep-alive
+Via: http/1.1 fts112.flickr.bf1.yahoo.com (ApacheTrafficServer [cMsSf ])
+Server: ATS
+

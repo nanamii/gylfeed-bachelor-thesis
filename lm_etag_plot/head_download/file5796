@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sat, 27 Jun 2015 21:31:10 GMT
+Content-Type: text/html
+Connection: keep-alive
+X-Pingback: http://thesweetsetup.com/xmlrpc.php
+X-Robots-Tag: noindex,follow
+Last-Modified: Sat, 27 Jun 2015 19:42:01 GMT
+X-Powered-By: PleskLin
+MS-Author-Via: DAV
+Vary: User-Agent,Accept-Encoding
+

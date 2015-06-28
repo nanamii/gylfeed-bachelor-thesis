@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 19:15:11 GMT
+Content-Type: application/rss+xml; charset=utf-8
+Content-Length: 24450
+Connection: keep-alive
+Status: 200 OK
+Cache-Control: max-age=900, public
+X-Runtime: 2588
+ETag: "f638de4ce677b9a4284603c641534d4a"
+X-app-srv: apps-4.live.v9.incbase.net,17092,2059
+Server: nginx
+

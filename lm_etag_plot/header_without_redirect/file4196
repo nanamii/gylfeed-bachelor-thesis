@@ -1,0 +1,16 @@
+HTTP/1.1 302 Found
+Date: Fri, 26 Jun 2015 19:36:52 GMT
+Content-Type: application/rdf+xml
+Connection: keep-alive
+Set-Cookie: __cfduid=d4f834cc8a23b193f2c5a03a0bae4b8571435347412; expires=Sat, 25-Jun-16 19:36:52 GMT; path=/; domain=.typepad.com; HttpOnly
+X-PhApp: oak-tp-web005
+X-Webserver: oak-tp-web005
+Location: http://feeds.feedblitz.com/SethsBlog
+Vary: cookie
+Expires: Fri, 26 Jun 2015 19:34:55 GMT, Fri, 26 Jun 2015 19:34:55 GMT
+X-Varnish: 845704445 845307424
+Age: 1017
+Via: 1.1 varnish
+Server: cloudflare-nginx
+CF-RAY: 1fcb5d10eeab2348-FRA
+

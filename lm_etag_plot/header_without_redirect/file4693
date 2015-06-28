@@ -1,0 +1,9 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 19:44:55 GMT
+Server: Apache
+X-Pingback: http://www.jasonandshawnda.com/foodiebride/xmlrpc.php
+Last-Modified: Mon, 22 Jun 2015 03:50:34 GMT
+Location: http://www.jasonandshawnda.com/foodiebride/feed
+Vary: User-Agent,Accept-Encoding
+Content-Type: text/html
+

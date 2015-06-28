@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Connection: close
+Date: Fri, 26 Jun 2015 19:01:06 GMT
+Server: Microsoft-IIS/6.0
+X-Powered-By: ASP.NET
+Server : Live 4
+X-AspNet-Version: 2.0.50727
+Cache-Control: private
+Content-Type: text/html; charset=utf-8
+Content-Length: 14169
+Set-Cookie: NSC_D4-KBN-IUUQ=ffffffff09021f3545525d5f4f58455e445a4a423660;path=/
+

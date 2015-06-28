@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Server: Apache
+Last-Modified: Fri, 26 Jun 2015 19:02:30 GMT
+Vary: Accept-Encoding
+P3P: CP="CURa ADMa TAIa CONi OUR IND PHY ONL UNI FIN NAV DSP ALL COR"
+Content-Type: application/xml
+X-Cacheable: YES:FORCED RSS
+Content-Length: 19336
+Date: Fri, 26 Jun 2015 19:51:26 GMT
+X-Varnish: 1814876451 1814725846
+Age: 2991
+Via: 1.1 varnish
+Connection: keep-alive
+X-Cache: HIT
+

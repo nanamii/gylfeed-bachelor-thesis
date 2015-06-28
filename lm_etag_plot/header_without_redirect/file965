@@ -1,0 +1,17 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 26 Jun 2015 18:15:45 GMT
+Content-Type: text/xml; charset=UTF-8
+Connection: keep-alive
+Keep-Alive: timeout=20
+X-Pingback: http://socialmouths.com/xmlrpc.php
+Last-Modified: Fri, 26 Jun 2015 04:30:28 GMT
+ETag: "68ff4f67f04d3f4fd1b3ded409c96be2-gzip"
+X-Robots-Tag: noindex,follow
+X-Cacheable: CacheAlways: feed
+Cache-Control: max-age=600, must-revalidate
+X-Cache: HIT: 35
+X-Pass-Why: 
+X-Cache-Group: 
+X-Type: feed
+

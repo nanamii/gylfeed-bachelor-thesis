@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:07:30 GMT
+Server: Apache
+X-Pingback: http://socialstrand.com/xmlrpc.php
+Link: <http://socialstrand.com/?p=6106>; rel=shortlink
+Set-Cookie: wfvt_3131354685=558ef4735b1cc; expires=Sat, 27-Jun-2015 19:37:31 GMT; path=/; httponly
+Vary: Accept-Encoding
+Content-Type: text/html; charset=UTF-8
+

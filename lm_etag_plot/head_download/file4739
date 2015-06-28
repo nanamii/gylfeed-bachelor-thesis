@@ -1,0 +1,18 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 21:06:05 GMT
+Content-Type: text/xml; charset=UTF-8
+Connection: keep-alive
+Set-Cookie: __cfduid=df2c29233446ba1b9e9d470a09558a8931435439165; expires=Sun, 26-Jun-16 21:06:05 GMT; path=/; domain=.gastronomyblog.com; HttpOnly
+X-Cacheable: CacheAlways: feed
+Cache-Control: max-age=600, must-revalidate
+X-Cache: HIT: 5
+X-Cache-Group: 
+X-Pingback: http://gastronomyblog.com/xmlrpc.php
+X-Type: feed
+ETag: W/"4f149d4069807cec004f49225931b349"
+X-Pass-Why: 
+Set-Cookie: X-Mapping-fjhppofk=42A7F138AC6E7D991743A181A668FF70; path=/
+Last-Modified: Thu, 25 Jun 2015 17:00:17 GMT
+Server: cloudflare-nginx
+CF-RAY: 1fd41d2124e90f63-FRA
+

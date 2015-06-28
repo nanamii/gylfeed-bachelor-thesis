@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:23:28 GMT
+Content-Type: text/xml; charset=UTF-8
+Connection: keep-alive
+Set-Cookie: __cfduid=dc1e208e294780cae9ad6cfcd8a4797481435433008; expires=Sun, 26-Jun-16 19:23:28 GMT; path=/; domain=.allword-news.co.uk; HttpOnly
+Vary: Accept-Encoding
+X-Pingback: http://www.allword-news.co.uk/xmlrpc.php
+WP-Super-Cache: Served legacy cache file
+X-Cache: HIT from Backend
+Server: cloudflare-nginx
+CF-RAY: 1fd386cf308b0899-FRA
+

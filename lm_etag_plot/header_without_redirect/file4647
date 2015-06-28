@@ -1,0 +1,16 @@
+HTTP/1.1 302 Found
+Date: Fri, 26 Jun 2015 19:44:27 GMT
+Content-Type: application/atom+xml
+Connection: keep-alive
+Set-Cookie: __cfduid=dabf0ad029e701fe4c566b23aac229afd1435347866; expires=Sat, 25-Jun-16 19:44:26 GMT; path=/; domain=.typepad.com; HttpOnly
+X-PhApp: oak-tp-web006
+X-Webserver: oak-tp-web006
+Location: http://feeds.feedburner.com/typepad/1217377010s8287/the_inadvertent_farmer
+Vary: cookie
+Expires: Fri, 26 Jun 2015 19:59:26 GMT
+X-Varnish: 845882986
+Age: 0
+Via: 1.1 varnish
+Server: cloudflare-nginx
+CF-RAY: 1fcb6826ac1308a5-FRA
+

@@ -1,0 +1,16 @@
+HTTP/1.1 302 Found
+Date: Fri, 26 Jun 2015 18:51:54 GMT
+Content-Type: application/atom+xml
+Connection: keep-alive
+Set-Cookie: __cfduid=d6669ef1e28b026718714eec9a225caff1435344714; expires=Sat, 25-Jun-16 18:51:54 GMT; path=/; domain=.typepad.com; HttpOnly
+X-PhApp: oak-tp-web029
+X-Webserver: oak-tp-web029
+Location: http://feeds.feedburner.com/typepad/bNRx
+Vary: cookie
+Expires: Fri, 26 Jun 2015 18:38:20 GMT
+X-Varnish: 1650379889 1649724112
+Age: 1714
+Via: 1.1 varnish
+Server: cloudflare-nginx
+CF-RAY: 1fcb1b30ce3a15b9-FRA
+

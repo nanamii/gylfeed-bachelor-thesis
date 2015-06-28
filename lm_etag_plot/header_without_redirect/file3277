@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 19:15:41 GMT
+Content-Type: text/xml; charset=utf-8
+Connection: keep-alive
+Set-Cookie: __cfduid=db0c9faa2481cb92e28da5c8202a9d6da1435346141; expires=Sat, 25-Jun-16 19:15:41 GMT; path=/; domain=.ulitzer.com; HttpOnly
+X-Powered-By: PHP/5.3.3
+Set-Cookie: SESS463db96ad1427adb0ab4b20bd4077e72=uj7aarbmuv0j55iebh79sl9f62; expires=Mon, 29-Jun-2015 19:12:52 GMT; path=/; domain=.ulitzer.com
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Last-Modified: Fri, 26 Jun 2015 19:12:52 GMT
+Cache-Control: store, no-cache, must-revalidate
+Cache-Control: post-check=0, pre-check=0
+Server: cloudflare-nginx
+CF-RAY: 1fcb3e06090115dd-FRA
+

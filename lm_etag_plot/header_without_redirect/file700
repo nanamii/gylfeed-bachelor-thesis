@@ -1,0 +1,7 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 18:05:32 GMT
+Server: LiteSpeed
+Connection: Keep-Alive
+Keep-Alive: timeout=5, max=100
+Location: http://feeds.feedburner.com/smileycat
+

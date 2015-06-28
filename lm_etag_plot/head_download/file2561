@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Server: cloudflare-nginx
+Date: Sat, 27 Jun 2015 19:38:07 GMT
+Content-Type: text/html
+Connection: keep-alive
+Set-Cookie: __cfduid=d85cb5fea39c8659427e56567018001731435433886; expires=Sun, 26-Jun-16 19:38:06 GMT; path=/; domain=.stayathomemum.com.au; HttpOnly
+X-Pingback: https://www.stayathomemum.com.au/xmlrpc.php
+X-Robots-Tag: noindex,follow
+CF-RAY: 1fd39c3cdd810f5d-FRA
+

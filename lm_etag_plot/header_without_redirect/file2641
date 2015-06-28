@@ -1,0 +1,15 @@
+HTTP/1.1 301 Moved Permanently
+X-Pingback: http://www.people-press.org/xmlrpc.php
+Last-Modified: Tue, 09 Jun 2015 13:50:40 GMT
+Location: http://www.people-press.org/feed/
+Cache-Control: max-age=600
+Expires: Fri, 26 Jun 2015 19:12:20 GMT
+Vary: Accept-Encoding
+X-UA-Compatible: IE=edge,chrome=1
+Content-Type: text/html; charset=utf-8
+Date: Fri, 26 Jun 2015 19:02:20 GMT
+Age: 0
+Connection: keep-alive
+X-Served-By: pew-vp-ash02.siteworx.com
+X-Cache: MISS
+

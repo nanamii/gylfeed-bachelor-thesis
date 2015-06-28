@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sat, 27 Jun 2015 20:34:11 GMT
+Content-Type: text/xml; charset=UTF-8
+Connection: keep-alive
+Keep-Alive: timeout=20
+X-Pingback: http://thetinylife.com/xmlrpc.php
+Last-Modified: Tue, 16 Jun 2015 03:22:26 GMT
+ETag: "a005b034c422ead59137cf91c685158f"
+X-Cacheable: CacheAlways: feed
+Cache-Control: max-age=600, must-revalidate
+X-Cache: HIT: 7
+X-Type: feed
+

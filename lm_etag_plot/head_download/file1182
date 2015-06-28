@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+ETag: W/"gFKhZQlXCDwYrkHXB+sP+w=="
+Cache-Control: public, max-age=120
+Expires: Sat, 27 Jun 2015 19:14:56 GMT
+Date: Sat, 27 Jun 2015 19:12:56 GMT
+Connection: keep-alive
+Set-Cookie: ak_rg=Europe; expires=Sat, 04-Jul-2015 19:12:56 GMT; path=/
+Set-Cookie: ak_co=DE; expires=Sat, 04-Jul-2015 19:12:56 GMT; path=/
+

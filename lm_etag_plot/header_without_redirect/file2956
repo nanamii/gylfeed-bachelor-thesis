@@ -1,0 +1,10 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx/1.1.19
+Content-Type: text/html
+Date: Fri, 26 Jun 2015 19:09:58 GMT
+Location: https://www.sunzu.com
+Transfer-Encoding: chunked
+Connection: Keep-Alive
+Set-Cookie: X-Mapping-fjhppofk=5E5204EEC3AD7A2AE01A53B5BFB8EA8B; path=/
+X-Powered-By: PHP/5.4.28-1+deb.sury.org~precise+1
+

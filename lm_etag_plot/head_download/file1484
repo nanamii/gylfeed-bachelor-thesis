@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:18:26 GMT
+Server: Apache
+X-Powered-By: PHP/5.2.17
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+X-Pingback: http://theprofessornotes.com/xmlrpc.php
+ETag: "ebf9fdb63c607676e95512ff47af1664"
+Set-Cookie: PHPSESSID=97e78021bfdbf361ad8a4a63783aa2bf; path=/
+Last-Modified: Tue, 17 Mar 2015 13:33:44 GMT
+Content-Type: text/xml; charset=UTF-8
+

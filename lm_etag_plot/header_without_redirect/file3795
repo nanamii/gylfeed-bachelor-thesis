@@ -1,0 +1,10 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx/1.8.0
+Date: Fri, 26 Jun 2015 19:23:21 GMT
+Content-Type: text/html
+Connection: keep-alive
+X-Pingback: http://backyardgardeningtips.com/xmlrpc.php
+ETag: "7d13dc5cd5200bd31f8b27957a5529e3"
+Last-Modified: Tue, 02 Jun 2015 10:40:23 GMT
+Location: http://backyardgardeningtips.com/feed/
+

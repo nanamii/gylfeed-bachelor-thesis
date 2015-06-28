@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+Server: nginx/1.8.0
+Date: Sat, 27 Jun 2015 19:53:45 GMT
+Content-Type: text/html
+Connection: keep-alive
+X-Pingback: http://backyardgardeningtips.com/xmlrpc.php
+ETag: "7d13dc5cd5200bd31f8b27957a5529e3"
+Last-Modified: Tue, 02 Jun 2015 10:40:23 GMT
+

@@ -1,0 +1,10 @@
+HTTP/1.1 302 Temporary Redirect
+Date: Fri, 26 Jun 2015 18:56:56 GMT
+Server: Apache
+X-Powered-By: PHP/5.2.17
+X-Pingback: http://www.canyoustayfordinner.com/xmlrpc.php
+ETag: "66132f45bc9d2b33c05c9b981f190330"
+Last-Modified: Fri, 08 May 2015 13:26:36 GMT
+Location: http://www.canyoustayfordinner.com/feed/
+Content-Type: text/html
+

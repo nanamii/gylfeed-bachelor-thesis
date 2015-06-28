@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 20:34:35 GMT
+Server: Apache/2.4.7 (Ubuntu)
+Last-Modified: Wed, 24 Jun 2015 18:52:19 GMT
+ETag: "1082c-51948019d9ec0"
+Accept-Ranges: bytes
+Content-Length: 67628
+Vary: Accept-Encoding
+Cache-Control: max-age=3600
+Expires: Fri, 26 Jun 2015 21:34:35 GMT
+Content-Type: application/xml
+

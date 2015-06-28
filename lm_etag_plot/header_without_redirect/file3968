@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 19:25:37 GMT
+Content-Type: text/xml; charset=UTF-8
+Connection: keep-alive
+Keep-Alive: timeout=30
+X-Pingback: http://bookriot.com/xmlrpc.php
+X-Robots-Tag: noindex,follow
+Last-Modified: Fri, 26 Jun 2015 17:22:44 GMT
+ETag: "fac386aaeab7ed724cd0cea8f39e495c"
+Vary: Accept-Encoding, X-User-Agent
+Server: Pagely Gateway/1.4.6
+X-User-Agent: standard
+X-Cache-Config: 0 0  
+X-Cache-Status: EXPIRED
+

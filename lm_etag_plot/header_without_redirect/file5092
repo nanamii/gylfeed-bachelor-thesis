@@ -1,0 +1,9 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Fri, 26 Jun 2015 19:52:07 GMT
+Content-Type: text/html
+Content-Length: 178
+Connection: keep-alive
+Location: https://homesweetjeromedrapaport.wordpress.com/feed/
+X-ac: 1.fra _sat
+

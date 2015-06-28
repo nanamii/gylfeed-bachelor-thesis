@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 18:47:20 GMT
+Server: Apache
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+X-Pingback: http://ilearntechnology.com/wordpress/xmlrpc.php
+ETag: "1803b96926630bd93c7652147b6c8cca"
+Set-Cookie: PHPSESSID=t51oc46kc7sr8c5jjm53d49r63; path=/
+Last-Modified: Tue, 05 May 2015 16:56:02 GMT
+Vary: Accept-Encoding
+Content-Type: text/html
+

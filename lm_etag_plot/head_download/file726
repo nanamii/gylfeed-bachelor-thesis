@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 18:46:50 GMT
+Server: Apache
+X-Powered-By: PHP/5.4.42
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+X-Pingback: http://pmstudent.com/xmlrpc.php
+X-UA-Compatible: IE=edge,chrome=1
+Set-Cookie: PHPSESSID=30f5afca2120c81c517cd6e8a9b8af5f; path=/
+Set-Cookie: wpfront-notification-bar-landingpage=1
+Last-Modified: Fri, 26 Jun 2015 21:06:05 GMT
+Vary: User-Agent
+Content-Type: text/html
+

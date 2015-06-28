@@ -1,0 +1,9 @@
+HTTP/1.1 302 Found
+Date: Fri, 26 Jun 2015 20:36:14 GMT
+Server: Apache
+Location: http://feedpress.me/brettterpstra
+Cache-Control: max-age=0
+Expires: Fri, 26 Jun 2015 20:36:14 GMT
+Vary: Accept-Encoding
+Content-Type: text/html; charset=iso-8859-1
+

@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 19:38:55 GMT
+Server: Apache/2.2.22
+X-Powered-By: PHP/5.3.29
+Vary: Cookie,User-Agent,Accept-Encoding
+X-Pingback: http://www.wordyard.com/xmlrpc.php
+ETag: "b0e2a9b01468f8feb47fa972470afb0e"
+WP-Super-Cache: Served legacy cache file
+Content-Type: text/xml; charset=UTF-8
+

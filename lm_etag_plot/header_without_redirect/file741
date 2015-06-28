@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 26 Jun 2015 18:08:21 GMT
+Content-Type: text/xml
+Content-Length: 18498
+Connection: keep-alive
+Vary: Accept-Encoding
+Last-Modified: Fri, 26 Jun 2015 18:01:43 GMT
+Vary: Accept-Encoding
+Cache-Control: max-age=0, must-revalidate
+P3P: CP="CAO DSP COR CURa ADMa DEVa PSAa PSDa CONi OUR IND PHY ONL UNI COM NAV INT CNT STA"
+X-Varnish: 409688452 409979235
+Age: 252
+Via: 1.1 varnish-v4
+Accept-Ranges: bytes
+

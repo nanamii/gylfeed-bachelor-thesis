@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 21:19:56 GMT
+Content-Type: text/xml; charset=UTF-8
+Connection: keep-alive
+Set-Cookie: __cfduid=d88de5f5220e34dc7e57c807b2d31f2e41435439996; expires=Sun, 26-Jun-16 21:19:56 GMT; path=/; domain=.pingdom.com; HttpOnly
+X-Powered-By: PHP/5.3.10-1ubuntu3.16
+Vary: Accept-Encoding, Cookie
+X-Pingback: http://royal.pingdom.com/xmlrpc.php
+ETag: W/"3cb4da43a5d0c00d693d0786fd8a92e9"
+WP-Super-Cache: Served legacy cache file
+Server: cloudflare-nginx
+CF-RAY: 1fd431690d7c236c-FRA
+

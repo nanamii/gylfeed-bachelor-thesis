@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Last-Modified: Thu, 18 Jun 2015 01:04:12 GMT
+Cache-Control: store, no-cache, must-revalidate, post-check=0, pre-check=0
+Content-Type: application/rss+xml; charset=utf-8
+Content-Length: 15631
+Accept-Ranges: bytes
+Date: Fri, 26 Jun 2015 18:41:15 GMT
+Age: 754622
+Via: 1.1 varnish
+Connection: keep-alive
+X-Country-Code: DE
+Server: packt
+

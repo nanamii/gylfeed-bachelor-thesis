@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 18:33:18 GMT
+Server: Apache/2.2.22
+X-Powered-By: PHP/5.3.29
+Vary: Cookie,User-Agent
+X-Pingback: http://blog.cocoia.com/xmlrpc.php
+ETag: "e4ca2102efe4059c4c5ff64a355e982e"
+WP-Super-Cache: Served legacy cache file
+Content-Type: application/atom+xml; charset=UTF-8
+

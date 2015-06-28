@@ -1,0 +1,13 @@
+HTTP/1.1 404 Not Found
+Vary: Accept-Encoding
+X-Pingback: http://www.ikkaro.com/xmlrpc.php
+Expires: Wed, 11 Jan 1984 05:00:00 GMT
+Cache-Control: no-cache, must-revalidate, max-age=0
+Pragma: no-cache
+X-Processed-By: 97
+Content-Type: text/html; charset=UTF-8
+Date: Fri, 26 Jun 2015 18:05:14 GMT
+Age: 0
+Connection: close
+X-Cache: MISS
+

@@ -1,0 +1,10 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Fri, 26 Jun 2015 18:51:58 GMT
+Content-Type: text/html
+Content-Length: 178
+Connection: keep-alive
+Keep-Alive: timeout=5
+Location: http://rt.com/rss/
+Cache-Control: public, must-revalidate, proxy-revalidate
+

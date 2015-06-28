@@ -1,0 +1,10 @@
+HTTP/1.1 301 Moved Permanently
+Set-Cookie: ServerID=1033; path=/
+Date: Fri, 26 Jun 2015 18:17:54 GMT
+Server: Apache/2.2.15
+Location: http://www.sanfordcarpet.com/feed/
+Cache-Control: max-age=172800
+Expires: Sun, 28 Jun 2015 18:17:54 GMT
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+

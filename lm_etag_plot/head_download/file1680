@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Content-Location: rss.php
+TCN: choice
+X-NewRelic-App-Data: PxQBVVFQAAcTUFNSAwMBVUYdFGQHBDcQUQxLA1tMXV1dORY0QwhvTRZFRE8WC0gRHFRPUgcBB1ZIARgGVV5aUhxPCU4aWVUHAlxaWVVYAwdcUgMCV0EUVVEIEgdq
+Content-Type: application/xml
+Expires: Sat, 27 Jun 2015 19:21:40 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Sat, 27 Jun 2015 19:21:40 GMT
+Content-Length: 0
+Connection: keep-alive
+

@@ -1,0 +1,16 @@
+HTTP/1.1 301 Moved Permanently
+Server: Apache
+Location: http://rss.nytimes.com/services/xml/rss/nyt/Sports.xml
+Content-Type: text/html; charset=iso-8859-1
+Accept-Ranges: bytes
+Date: Fri, 26 Jun 2015 19:19:27 GMT
+X-Varnish: 1111018841
+Age: 0
+Via: 1.1 varnish
+X-Cache: MISS
+X-API-Version: 5-4
+X-PageType: legacy-override
+Connection: close
+X-Frame-Options: DENY
+Set-Cookie: RMID=007f010101fa558da5bf0004;Path=/; Domain=.nytimes.com;Expires=Sat, 25 Jun 2016 19:19:27 UTC
+

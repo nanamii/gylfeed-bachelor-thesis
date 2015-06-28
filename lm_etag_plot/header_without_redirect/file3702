@@ -1,0 +1,26 @@
+HTTP/1.1 200 OK
+Server: nginx/0.7.67
+Date: Fri, 26 Jun 2015 19:22:21 GMT
+Content-Type: text/xml
+Connection: keep-alive
+X-Highwire-SessionId: EIkmz9ngZMvhZg@hcMysHQ
+X-Highwire-RequestId: VY2lwqtDctgAAB22nIcAAACD
+X-Firenze-Processing-Time: 5.497
+Last-Modified: Thu, 25 Jun 2015 17:52:17 GMT
+ETag: "34b77e-11c38-558c3fd1"
+X-Firenze-Processing-Times: detect-robot: 0.170
+X-Firenze-Processing-Times: add-external-dependencies-info: 0.051
+X-Firenze-Processing-Times: log-builder: 1.959
+X-Firenze-Processing-Times: servlet: 9.873
+X-Firenze-Processing-Time: 14.389
+Vary: Accept-Encoding
+X-SmartBan-URL: /rss/current.xml
+X-SmartBan-Host: www.sciencemag.org
+Accept-Ranges: bytes
+X-Varnish: 3042362912 3042273841
+Age: 170
+Via: 1.1 varnish
+X-Varnish-Hostname: varnish3.HighWire.ORG
+X-Varnish-Cache: hit
+Content-Length: 72760
+

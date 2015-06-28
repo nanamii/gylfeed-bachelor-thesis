@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:52:50 GMT
+Content-Type: text/html
+Connection: keep-alive
+Set-Cookie: __cfduid=d8a62ee494f1f2c35748267bfd4d7601e1435434769; expires=Sun, 26-Jun-16 19:52:49 GMT; path=/; domain=.southernfriedscience.com; HttpOnly
+Expires: Wed, 11 Jan 1984 05:00:00 GMT
+Cache-Control: no-cache, must-revalidate, max-age=0
+Pragma: no-cache
+X-Pingback: http://www.southernfriedscience.com/xmlrpc.php
+ETag: W/"7e9af8e13830c83f7e0605cd5ca852c8"
+Last-Modified: Mon, 22 Jun 2015 19:31:35 GMT
+Vary: Accept-Encoding
+Server: cloudflare-nginx
+CF-RAY: 1fd3b1ce54ed2318-FRA
+

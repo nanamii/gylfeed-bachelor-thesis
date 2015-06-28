@@ -1,0 +1,11 @@
+HTTP/1.1 302 Temporary Redirect
+Date: Fri, 26 Jun 2015 19:10:29 GMT
+Server: Apache
+X-Pingback: http://littlelioness.net/xmlrpc.php
+ETag: "0077a463fc9b00f3da96ebd1b79e8a1a"
+X-UA-Compatible: IE=edge,chrome=1
+Last-Modified: Fri, 26 Jun 2015 07:54:59 GMT
+Location: http://feeds.feedburner.com/Littlelionessnet
+Vary: Accept-Encoding
+Content-Type: text/html
+

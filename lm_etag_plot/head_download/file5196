@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+x-amz-id-2: yuo8mp8gfhZPbU1/Es43wAvu9cQ/7dwXsg+xf3SKPDShwD3TbDq81q+oeG1H4/Rew52eivKotZE=
+x-amz-request-id: 1CBC0D7AF8CAA37E
+Date: Sat, 27 Jun 2015 21:14:57 GMT
+Content-Encoding: UTF-8
+x-amz-meta-s3cmd-attrs: uid:601/gname:jeff/uname:jeff/gid:502/mode:33206/mtime:1420642673/atime:1420643556/md5:47f449ad58ba80aafab35ff614439610/ctime:1420642673
+Last-Modified: Wed, 07 Jan 2015 15:48:40 GMT
+ETag: "47f449ad58ba80aafab35ff614439610"
+Content-Type: text/html
+Content-Length: 62036
+Server: AmazonS3
+

@@ -1,0 +1,6 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 19:47:11 GMT
+Server: Apache
+Content-Disposition: inline; filename=nonsequitur.xml
+Content-Type: application/xml; charset=ISO-8859-1; filename=nonsequitur.xml
+

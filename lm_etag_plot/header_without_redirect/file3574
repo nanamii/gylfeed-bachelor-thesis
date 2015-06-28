@@ -1,0 +1,17 @@
+HTTP/1.1 404 Not Found
+Date: Fri, 26 Jun 2015 19:20:41 GMT
+X-ServedBy: ny1-prod6-web031
+Set-Cookie: JSESSIONID=GdOI5WdzSJIojB-bsoymZxyv-uKd6kEKm7m3Vrw4YGM7MzLy2uJxcg;Path=/;HttpOnly
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Set-Cookie: crumb=a5e6de3a59;Path=/
+Set-Cookie: SS_MID=d7aadfc4-6104-408f-9859-579f573a5a01ibe07m5j;Path=/;Domain=.photocritic.org;Expires=Mon, 23-Jun-2025 19:20:41 GMT
+Content-Type: text/html; charset=UTF-8
+X-PC-AppVer: 4704
+X-PC-Date: Fri, 26 Jun 2015 16:30:02 GMT
+X-PC-Host: 10.100.101.114
+ETag: W/"595a4a789e600804ea53272998afdf7a"
+X-PC-Key: jjMFfNpBTl_g0SuInLbjTFCTGGA-photocritic
+X-PC-Hit: true
+X-ContextId: Twb6N7mN/Bj5UAii3
+X-Via: 1.1 ny1-prod-echo014
+

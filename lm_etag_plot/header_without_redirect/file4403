@@ -1,0 +1,9 @@
+HTTP/1.1 307 Temporary Redirect
+Date: Fri, 26 Jun 2015 19:42:03 GMT
+Server: Apache
+Cluster-ID: http51
+Set-Cookie: spunkymonkey=9e9b0039aafac4b06c3ef859; path=/; domain=.thinkgeek.com; expires=Sat, 25-Jun-2016 19:42:03 GMT
+Location: http://feeds.feedburner.com/thinkgeek/whatsnew
+Vary: Accept-Encoding
+Content-Type: text/html; charset=iso-8859-1
+

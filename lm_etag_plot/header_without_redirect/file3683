@@ -1,0 +1,13 @@
+HTTP/1.1 420 Enhance Your Calm
+Server: Varnish
+Retry-After: 0
+Content-Type: 
+Content-Length: 89
+Accept-Ranges: bytes
+Date: Fri, 26 Jun 2015 19:22:08 GMT
+Via: 1.1 varnish
+Connection: close
+X-Served-By: cache-fra1224-FRA
+X-Cache: MISS
+X-Cache-Hits: 0
+

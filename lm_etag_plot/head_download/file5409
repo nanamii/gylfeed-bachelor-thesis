@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Server: Apache
+Last-Modified: Sat, 27 Jun 2015 19:07:01 GMT
+ETag: "1dd1b88-14a4e-519848fbf2201"
+Accept-Ranges: bytes
+Content-Length: 84558
+Content-Type: application/rdf+xml
+Date: Sat, 27 Jun 2015 21:20:34 GMT
+X-Varnish: 474711991
+Age: 0
+Via: 1.1 varnish
+Connection: keep-alive
+

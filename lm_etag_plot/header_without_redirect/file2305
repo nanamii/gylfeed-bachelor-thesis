@@ -1,0 +1,17 @@
+HTTP/1.1 200 OK
+Server: Apache/2.2.26 (Unix)
+Last-Modified: Fri, 26 Jun 2015 18:20:00 GMT
+ETag: "1c3814-22e1-5196fc9bbe9b1"
+USNJLWEB46: D=31666 microseconds
+Content-Type: application/xml
+X-Forwarded-For: 178.255.215.130
+X-Varnish-beresp-ttl: 1800.000
+X-Varnish-beresp-grace: 864000.000
+X-Varnish-beresp-status: 200
+Date: Fri, 26 Jun 2015 18:57:00 GMT
+X-Varnish: 455481506 455405571
+Age: 1053
+Via: 1.1 varnish
+Connection: keep-alive
+X-Cache: HIT
+

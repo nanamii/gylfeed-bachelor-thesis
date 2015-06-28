@@ -1,0 +1,8 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 19:00:46 GMT
+Connection: keep-alive
+Set-Cookie: __cfduid=d3b4f56e54452e9c2ccdaee176bcdfb141435345246; expires=Sat, 25-Jun-16 19:00:46 GMT; path=/; domain=.geo.tv; HttpOnly
+Location: http://www.geo.tv/data/rss/geo_world.xml
+Server: cloudflare-nginx
+CF-RAY: 1fcb282ddfdf2330-FRA
+

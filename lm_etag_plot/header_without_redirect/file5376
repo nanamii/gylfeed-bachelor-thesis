@@ -1,0 +1,14 @@
+HTTP/1.1 302 Found
+ETag: W/"77226547-c2c0-4e58-a372-b177c7561dca"
+Date: Fri, 26 Jun 2015 20:15:20 GMT
+Content-Type: text/html
+Server: blogger-renderd
+Expires: Fri, 26 Jun 2015 20:15:21 GMT
+Cache-Control: public, must-revalidate, proxy-revalidate, max-age=1
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Location: http://feeds2.feedburner.com/AGoodAppetite
+X-Frame-Options: SAMEORIGIN
+Alternate-Protocol: 80:quic,p=0
+Transfer-Encoding: chunked
+

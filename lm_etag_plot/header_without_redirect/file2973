@@ -1,0 +1,10 @@
+HTTP/1.1 302 https://freedomhouse.org/rss.cfm
+Server: Varnish
+Location: https://freedomhouse.org/rss.cfm
+Accept-Ranges: bytes
+Date: Fri, 26 Jun 2015 19:10:09 GMT
+X-Varnish: 1091698077
+Age: 0
+Via: 1.1 varnish
+Connection: close
+

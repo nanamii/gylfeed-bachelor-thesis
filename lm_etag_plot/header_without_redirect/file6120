@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 20:32:48 GMT
+Server: Apache
+X-Pingback: http://haphead.com/xmlrpc.php
+Last-Modified: Thu, 28 May 2015 20:54:49 GMT
+ETag: "f4f268ab1776179cd72c364453dc5e24"
+Vary: Accept-Encoding
+Content-Type: text/html
+

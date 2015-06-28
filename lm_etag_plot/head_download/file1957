@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Server: Apache
+Content-Type: text/html; charset=utf-8
+Cache-Control: no-cache
+Date: Sat, 27 Jun 2015 19:24:44 GMT
+Connection: keep-alive
+Vary: X-Forwarded-Proto
+Vary: Cookie
+Set-Cookie: dmp=desktop:default; expires=Sat, 04-Jul-2015 19:24:44 GMT
+

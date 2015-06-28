@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 19:06:31 GMT
+Server: Apache
+Set-Cookie: PHPSESSID=v2nh3johvve5efmdajhik28vr7; path=/
+Set-Cookie: fe_typo_user=74fb8e7b5b4cb6cf123ec47b787847f6; path=/new/
+Vary: Accept-Encoding
+Content-Type: application/rss+xml
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+X-PvInfo: [S10202.C11940.A7749.RA7739.G2FAE.UB2F92F5B].[OT/other.OG/other]
+

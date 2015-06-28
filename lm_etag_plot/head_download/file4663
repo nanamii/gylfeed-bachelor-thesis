@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 21:05:06 GMT
+Server: Apache
+X-Pingback: http://www.crumblycookie.net/xmlrpc.php
+ETag: "28cd030874ccb2d20249dc7a9c80edc3"
+Last-Modified: Thu, 25 Jun 2015 07:41:15 GMT
+Vary: Accept-Encoding
+Content-Type: text/html
+

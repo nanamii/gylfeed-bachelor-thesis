@@ -1,0 +1,12 @@
+HTTP/1.1 301 Moved Permanently
+Server: Apache/2.2.15 (Red Hat)
+Location: http://www.scientificamerican.com/podcast/sciam_podcast_r.xml
+Cache-Control: max-age=0
+Expires: Fri, 26 Jun 2015 19:18:37 GMT
+Vary: Accept-Encoding
+Content-Type: text/html; charset=iso-8859-1
+X-Backend: app3
+Date: Fri, 26 Jun 2015 19:22:00 GMT
+Connection: close
+X-Varnish-Cache: HIT
+

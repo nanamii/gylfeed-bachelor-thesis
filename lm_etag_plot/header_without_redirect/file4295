@@ -1,0 +1,11 @@
+HTTP/1.1 302 Moved Temporarily
+Server: nginx/1.8.0
+Date: Fri, 26 Jun 2015 19:38:55 GMT
+Content-Type: text/html
+Connection: keep-alive
+X-Pingback: http://shegeeks.net/xmlrpc.php
+X-Powered-By: W3 Total Cache/0.9.4
+Last-Modified: Wed, 29 Oct 2014 21:24:20 GMT
+Location: http://feeds2.feedburner.com/Corvida
+Vary: User-Agent,Accept-Encoding
+

@@ -1,0 +1,14 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 19:20:07 GMT
+Content-Type: text/html
+Content-Length: 100
+Connection: keep-alive
+Status: 301 Moved Permanently
+Location: https://500px.com/chaz2b/following
+X-UA-Compatible: IE=Edge,chrome=1
+Cache-Control: no-cache
+X-Request-Id: 38b8ed266925c2195b577d4e73b94fb3
+X-Runtime: 0.003221
+X-Rack-Cache: miss
+Server: app4
+

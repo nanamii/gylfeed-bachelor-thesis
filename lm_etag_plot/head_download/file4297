@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 20:27:05 GMT
+Server: Apache/2.2.25 (Unix) mod_ssl/2.2.25 OpenSSL/1.0.0-fips mod_auth_passthrough/2.1 mod_bwlimited/1.4 FrontPage/5.0.2.2635 mod_fcgid/2.3.6
+X-Powered-By: PHP/5.3.27
+X-Pingback: http://megansmunchies.com/xmlrpc.php
+ETag: "95b50407b3c9661238be3fec49b0f902"
+Last-Modified: Tue, 13 Jan 2015 03:21:10 GMT
+Connection: close
+Content-Type: text/html
+

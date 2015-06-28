@@ -1,0 +1,10 @@
+HTTP/1.1 301 Moved Permanently
+AWS: BN3
+Content-Length: 161
+Content-Type: text/html; charset=UTF-8
+Date: Fri, 26 Jun 2015 19:01:16 GMT
+Location: http://feeds.breakingnews.ie/bnireland
+Server: Microsoft-IIS/8.5
+X-Powered-By: ASP.NET
+Connection: keep-alive
+

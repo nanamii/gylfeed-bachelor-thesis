@@ -1,0 +1,13 @@
+HTTP/1.1 302 http://uk.businessinsider.com/careers.rss?r=US
+Server: nginx
+Date: Fri, 26 Jun 2015 19:43:50 GMT
+Retry-After: 0
+Location: http://uk.businessinsider.com/careers.rss?r=US
+X-Varnish: 111787687
+Age: 0
+Via: 1.1 varnish
+X-Varnish-Cache: MISS
+X-Meta-Tbi-Varnish-Servers: www
+X-Meta-Tbi-Final-Client-Ip: 92.194.59.39
+Vary: Accept-Encoding
+

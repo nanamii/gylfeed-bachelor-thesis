@@ -1,0 +1,19 @@
+HTTP/1.1 200 OK
+age: 0
+Cache-Control: public, max-age=900
+Content-Language: en
+Content-Type: application/rss+xml; charset=utf-8
+Date: Sat, 27 Jun 2015 19:52:16 GMT
+Etag: "1435433941-1"
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Last-Modified: Sat, 27 Jun 2015 19:39:01 GMT
+Server: Apache
+Vary: Cookie,Accept-Encoding
+Via: 1.1 varnish
+X-Cache: ip-10-204-21-26(Websites-Popsci): HIT 424
+X-Country-Code: DE
+X-Drupal-Cache: MISS
+X-Server-Name: ip-10-204-22-7 D=1015069
+X-Varnish: 296539910 296522149
+Connection: keep-alive
+

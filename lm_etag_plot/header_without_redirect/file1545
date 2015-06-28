@@ -1,0 +1,14 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Fri, 26 Jun 2015 18:42:42 GMT
+Content-Type: text/html
+Connection: keep-alive
+Set-Cookie: PHPSESSID=8e2gu5bdif0uono0in9mhvp8b2; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+X-Pingback: http://menwithpens.ca/xmlrpc.php
+Last-Modified: Thu, 25 Jun 2015 09:57:26 GMT
+ETag: "3c3c6d0a33e480918485f2c6b92f3444"
+Location: http://menwithpens.ca/feed/
+

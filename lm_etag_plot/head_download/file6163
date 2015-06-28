@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Content-Type: application/rss+xml; charset=utf-8
+Connection: keep-alive
+Status: 200
+X-Powered-By: Phusion Passenger (mod_rails/mod_rack) 3.0.17
+X-UA-Compatible: IE=Edge,chrome=1
+ETag: "2796cf893c09dd8066b7d66e2cce5097"
+Cache-Control: max-age=0, private, must-revalidate
+X-Request-Id: e4d50c3854ea5a32f425e953cfd70a77
+X-Runtime: 0.422231
+Server: nginx/1.2.3 + Phusion Passenger 3.0.17 (mod_rails/mod_rack)
+

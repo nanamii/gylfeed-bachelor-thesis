@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 20:29:13 GMT
+Server: Apache
+X-Powered-By: PHP/5.2.17
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+X-Pingback: http://www.potatomato.com/blog/xmlrpc.php
+ETag: "7b32bad47f76896b3159dcde94d59090"
+Set-Cookie: PHPSESSID=158dc0f982fee2a426f0a061fe1b4d05; path=/
+Last-Modified: Thu, 18 Jul 2013 18:54:52 GMT
+Content-Type: text/html
+

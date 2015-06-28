@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 19:08:40 GMT
+Server: Apache
+X-Pingback: http://www.vatransit.com/xmlrpc.php
+ETag: "5c1c40829d051fb9f97830edefb5dcab"
+Last-Modified: Fri, 26 Jun 2015 18:52:20 GMT
+Vary: Accept-Encoding
+Content-Type: text/html
+X-Pad: avoid browser bug
+

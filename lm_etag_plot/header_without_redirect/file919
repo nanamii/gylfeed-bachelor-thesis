@@ -1,0 +1,15 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 18:14:50 GMT
+Content-Type: text/html
+Connection: keep-alive
+Set-Cookie: __cfduid=dcfc4956bd6694d2c0d4c6c12bb7e07501435342490; expires=Sat, 25-Jun-16 18:14:50 GMT; path=/; domain=.damninteresting.com; HttpOnly
+X-Powered-By: 
+X-CF-Powered-By: WP 1.3.18
+X-Pingback: http://www.damninteresting.com/xmlrpc.php
+ETag: W/"390c852b7dd0279dc29fd45223870baa"
+Last-Modified: Mon, 22 Jun 2015 20:37:22 GMT
+Location: http://www.damninteresting.com/feed/
+Vary: Accept-Encoding
+Server: cloudflare-nginx
+CF-RAY: 1fcae4e4b2870f87-FRA
+

@@ -1,0 +1,15 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Fri, 26 Jun 2015 18:20:12 GMT
+Content-Type: text/html
+Connection: keep-alive
+Keep-Alive: timeout=20
+X-Pingback: http://technosailor.com/xmlrpc.php
+Last-Modified: Tue, 31 Mar 2015 19:18:12 GMT
+ETag: "6aee13a64a42949e2ec6096fa0ee9f45"
+Location: http://technosailor.com/feed/
+X-Cacheable: CacheAlways: feed
+Cache-Control: max-age=86400, must-revalidate
+X-Cache: HIT: 21
+X-Type: feed
+

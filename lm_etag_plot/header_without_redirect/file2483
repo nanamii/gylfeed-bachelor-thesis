@@ -1,0 +1,14 @@
+HTTP/1.1 302 Moved Temporarily
+Server: Apache
+TCN: choice
+P3P: CP="CAO DSP COR CURa ADMa DEVa OUR IND PHY ONL UNI COM NAV INT DEM PRE"
+srvr: web08
+Reason: too many domain nodes
+Location: http://msnbc.msn.com/_feeds/rss2/author
+Content-Type: text/html
+Cache-Control: max-age=0
+Expires: Fri, 26 Jun 2015 19:00:44 GMT
+Date: Fri, 26 Jun 2015 19:00:44 GMT
+Connection: keep-alive
+Set-Cookie: vid=76ff177ee8f2b2b18e2b925154b139b5; expires=Thu, 21-Jun-2035 19:00:42 GMT; path=/; domain=.msn.com
+

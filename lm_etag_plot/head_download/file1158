@@ -1,0 +1,17 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sat, 27 Jun 2015 19:08:18 GMT
+Content-Type: text/html
+Connection: keep-alive
+Vary: Accept-Encoding
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+X-Pingback: http://ideamappingsuccess.com/IdeaMappingBlogs/xmlrpc.php
+ETag: "b6ff77851e7a9cc7536da0c368ab167b"
+Set-Cookie: PHPSESSID=ecn2lgldmcqcuq6pqfbq492p91; path=/
+Last-Modified: Tue, 14 Sep 2010 20:12:35 GMT
+Vary: Accept-Encoding,User-Agent
+Cache-Control: public
+Expires: Thu, 15 Apr 2011 20:00:00 GMT
+

@@ -1,0 +1,11 @@
+HTTP/1.1 302 Temporary Redirect
+Date: Fri, 26 Jun 2015 18:16:00 GMT
+Content-Type: text/html
+Connection: keep-alive
+Set-Cookie: __cfduid=d13a023ae27ddc003b91aeea59bd7e7871435342560; expires=Sat, 25-Jun-16 18:16:00 GMT; path=/; domain=.convinceandconvert.com; HttpOnly
+Last-Modified: Fri, 26 Jun 2015 16:35:41 GMT
+ETag: "f75003bc755f7bf18d0eeae5ed8739c4"
+Location: http://feeds.feedblitz.com/ConvinceandConvert
+Server: cloudflare-nginx
+CF-RAY: 1fcae69882340485-FRA
+

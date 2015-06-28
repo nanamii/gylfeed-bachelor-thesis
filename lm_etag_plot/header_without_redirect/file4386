@@ -1,0 +1,10 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 19:41:55 GMT
+Server: Apache
+X-Pingback: http://metarand.com/xmlrpc.php
+ETag: "544a0cbc70c155e0b58c4b21759e5398"
+Last-Modified: Fri, 19 Jun 2015 03:23:32 GMT
+Location: http://metarand.com/feed/
+Vary: Accept-Encoding
+Content-Type: text/html
+

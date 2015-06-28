@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Server: Apache
+X-Powered-By: PHP/5.6.8
+X-Pingback: http://userpathways.com/xmlrpc.php
+ETag: "9f6d3081599c5f856d4c5b677a4eb2e9"
+Last-Modified: Sat, 14 Jun 2014 21:04:05 GMT
+Vary: Accept-Encoding
+Content-Type: text/html; charset=UTF-8
+Accept-Ranges: bytes
+Date: Fri, 26 Jun 2015 18:20:37 GMT
+X-Varnish: 1921622075
+Age: 0
+Via: 1.1 varnish
+Connection: keep-alive
+

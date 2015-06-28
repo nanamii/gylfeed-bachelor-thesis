@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sat, 27 Jun 2015 21:42:37 GMT
+Content-Type: text/xml; charset=UTF-8
+Connection: keep-alive
+Keep-Alive: timeout=20
+X-Pingback: http://codeascraft.com/xmlrpc.php
+Last-Modified: Tue, 23 Jun 2015 18:27:01 GMT
+ETag: "0b8f8f9873c1640eca9a2f1f460a18d9-gzip"
+X-Cacheable: CacheAlways: feed
+Cache-Control: max-age=600, must-revalidate
+X-Cache: HIT: 30
+X-Pass-Why: 
+X-Cache-Group: 
+X-Type: feed
+

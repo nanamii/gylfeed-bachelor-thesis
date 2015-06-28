@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 19:43:14 GMT
+Content-Type: application/xml
+Content-Length: 2822
+Connection: keep-alive
+Set-Cookie: __cfduid=d281b16809f7d515b92e4f7dcbc2f47641435347794; expires=Sat, 25-Jun-16 19:43:14 GMT; path=/; domain=.societyofrobots.com; HttpOnly
+Last-Modified: Sun, 06 Jul 2014 19:08:52 GMT
+ETag: "24435b0-b06-4fd8b16db2efa"
+Accept-Ranges: bytes
+Cache-Control: max-age=86400
+Expires: Sat, 27 Jun 2015 19:43:14 GMT
+Server: cloudflare-nginx
+CF-RAY: 1fcb6661b03d0887-FRA
+

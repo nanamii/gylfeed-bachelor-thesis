@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Server: nginx/1.1.19
+Date: Sat, 27 Jun 2015 18:37:00 GMT
+Content-Type: text/html
+Connection: keep-alive
+X-Powered-By: PHP/5.3.10-1ubuntu3.7
+X-Pingback: http://createdigitalmusic.com/xmlrpc.php
+Last-Modified: Fri, 26 Jun 2015 14:51:21 GMT
+ETag: "4ce2d9001c403d6726e5a293db11194b"
+X-Robots-Tag: noindex,follow
+

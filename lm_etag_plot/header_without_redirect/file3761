@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 19:23:03 GMT
+Server: Apache/2.0.54 (Debian GNU/Linux) FrontPage/5.0.2.2635 mod_ssl/2.0.54 OpenSSL/0.9.7k
+Last-Modified: Fri, 26 Jun 2015 01:12:31 GMT
+ETag: "119a-6f287dc0"
+Accept-Ranges: bytes
+Content-Length: 4506
+Content-Type: application/xml
+

@@ -1,0 +1,19 @@
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/rss+xml; charset=utf-8
+Etag: "1435433962-1"
+Content-Language: en
+Cache-Control: public, max-age=1800
+Last-Modified: Sat, 27 Jun 2015 19:39:22 GMT
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Vary: Cookie,Accept-Encoding
+X-Request-ID: v-35b6dd42-1d04-11e5-9a29-12313d1a1989
+X-AH-Environment: prod
+Date: Sat, 27 Jun 2015 19:42:03 GMT
+X-Varnish: 2271602999 2271575534
+Age: 161
+Via: 1.1 varnish
+Connection: keep-alive
+X-Cache: HIT
+X-Cache-Hits: 4
+

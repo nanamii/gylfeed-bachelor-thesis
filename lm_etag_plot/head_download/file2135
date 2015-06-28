@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Content-Type: text/xml;charset=UTF-8
+Server: Day-Servlet-Engine/4.1.52-cq-5.5
+X-ESI-Enable: 0
+X-FFX-B: 222b
+X-Varnish: 906181180 906172766
+Content-Length: 47270
+Cache-Control: public, max-age=85
+Date: Sat, 27 Jun 2015 19:30:35 GMT
+Connection: keep-alive
+

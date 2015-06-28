@@ -1,0 +1,17 @@
+HTTP/1.1 410 Gone
+Date: Fri, 26 Jun 2015 18:51:40 GMT
+Content-Type: text/html; charset=utf-8
+Connection: keep-alive
+Set-Cookie: __cfduid=d9427aa3030e2bd58ac8f4f1e1e043ede1435344700; expires=Sat, 25-Jun-16 18:51:40 GMT; path=/; domain=.edublogs.org; HttpOnly
+Vary: Cookie
+Expires: Wed, 11 Jan 1984 05:00:00 GMT
+Cache-Control: no-cache, must-revalidate, max-age=0, max-age=600, must-revalidate
+Pragma: no-cache
+Last-Modified: Fri, 26 Jun 2015 18:51:40 +0000
+X-Varnish: 1776078137
+Age: 0
+Via: 1.1 varnish
+Set-Cookie: xid=Qocx41WNnzx2fl3FGxGdAg==; expires=Sun, 26-Jul-15 18:51:40 GMT; path=/
+Server: cloudflare-nginx
+CF-RAY: 1fcb1ad7ec3715d1-FRA
+

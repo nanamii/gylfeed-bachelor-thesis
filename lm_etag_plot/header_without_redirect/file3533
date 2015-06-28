@@ -1,0 +1,13 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 19:20:15 GMT
+Content-Type: text/html
+Connection: keep-alive
+Set-Cookie: __cfduid=dd821b5d9ec3f6391603de9323c62a1cb1435346415; expires=Sat, 25-Jun-16 19:20:15 GMT; path=/; domain=.diyphotography.net; HttpOnly
+Location: /feed
+Cache-Control: max-age=3600
+Expires: Fri, 26 Jun 2015 20:20:15 GMT
+Vary: User-Agent,Accept-Encoding
+ngpass_ngall: 1
+Server: cloudflare-nginx
+CF-RAY: 1fcb44b6107b2348-FRA
+

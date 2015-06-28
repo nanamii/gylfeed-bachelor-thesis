@@ -1,0 +1,18 @@
+HTTP/1.1 200 OK
+Content-Encoding: gzip
+Accept-Ranges: bytes
+Age: 369
+Cache-Control: max-age=1800
+Content-Type: text/xml; charset=UTF-8
+Date: Sat, 27 Jun 2015 19:27:28 GMT
+Expires: Sat, 27 Jun 2015 19:51:19 GMT
+Last-Modified: Tue, 09 Jun 2015 13:50:40 GMT
+Server: ECS (frf/87A8)
+Vary: Accept-Encoding
+X-Cache: HIT
+X-Cache-Hits: 6
+X-Pingback: http://www.people-press.org/xmlrpc.php
+X-Served-By: pew-vp-ash01.siteworx.com
+X-UA-Compatible: IE=edge,chrome=1
+Content-Length: 3162
+

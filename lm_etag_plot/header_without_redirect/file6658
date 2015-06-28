@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 20:42:41 GMT
+Server: Apache
+X-Pingback: http://iosunittesting.com/xmlrpc.php
+ETag: "c23dc8de2714b506e37fa6a671b2db82"
+X-Robots-Tag: noindex,follow
+Last-Modified: Thu, 11 Jun 2015 12:27:35 GMT
+Vary: Accept-Encoding
+Content-Type: text/html
+

@@ -1,0 +1,12 @@
+HTTP/1.1 401 Authorization Required
+Date: Fri, 26 Jun 2015 20:20:40 GMT
+Content-Type: text/html; charset=iso-8859-1
+Connection: keep-alive
+Set-Cookie: __cfduid=da7fcec81e54337142f7abd40384adcbe1435350040; expires=Sat, 25-Jun-16 20:20:40 GMT; path=/; domain=.typepad.com; HttpOnly
+WWW-Authenticate: Basic realm="Protected"
+X-Varnish: 846741166
+Age: 0
+Via: 1.1 varnish
+Server: cloudflare-nginx
+CF-RAY: 1fcb9d3705a20461-FRA
+

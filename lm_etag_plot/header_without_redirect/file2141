@@ -1,0 +1,9 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 18:56:44 GMT
+Server: Apache
+X-Pingback: http://www.sporkful.com/xmlrpc.php
+Last-Modified: Wed, 24 Jun 2015 18:15:45 GMT
+ETag: "33673692a2c9f53743b43883de323469"
+Location: feed://feeds.wnyc.org/sporkful
+Content-Type: text/html
+

@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 17:40:11 GMT
+ETag: "f3f928a85e606dc517db462c06dd5de4"
+X-Powered-By: PHP/5.3.27
+X-Pingback: http://www.tastebook.com/blog/xmlrpc.php
+Last-Modified: Fri, 26 Jun 2015 12:00:47 GMT
+X-Robots-Tag: noindex,follow
+Content-Type: text/xml; charset=UTF-8
+X-Varnish: 49284 2235597
+Age: 4585
+Via: 1.1 varnish-v4
+X-Varnish-Cache: HITS=(101); 
+Content-Length: 19998
+Set-Cookie: TS01e58df4=01b1b2a32dde40120100b042267661d1805a4267e0bdae02735b1e29e0161cd3198fea5c7e; Path=/
+

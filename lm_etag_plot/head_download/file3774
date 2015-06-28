@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sat, 27 Jun 2015 20:13:01 GMT
+Content-Type: text/xml; charset=UTF-8
+Connection: keep-alive
+Vary: Accept-Encoding
+X-Pingback: http://www.danpink.com/xmlrpc.php
+Last-Modified: Wed, 24 Jun 2015 14:39:37 GMT
+ETag: "d524e7a76e8a1bbd0d28ce23cff4c237"
+X-Cache: MISS
+

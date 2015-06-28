@@ -1,0 +1,16 @@
+HTTP/1.1 302 Found
+Date: Fri, 26 Jun 2015 20:17:27 GMT
+Content-Type: application/atom+xml
+Connection: keep-alive
+Set-Cookie: __cfduid=d8a05d5a244f06aa9ea0a9a9d09caa68b1435349847; expires=Sat, 25-Jun-16 20:17:27 GMT; path=/; domain=.typepad.com; HttpOnly
+X-PhApp: oak-tp-web050
+X-Webserver: oak-tp-web050
+Location: http://feeds.feedburner.com/typepad/CIRU
+Vary: cookie
+Expires: Fri, 26 Jun 2015 20:32:27 GMT
+X-Varnish: 1652354021
+Age: 0
+Via: 1.1 varnish
+Server: cloudflare-nginx
+CF-RAY: 1fcb988305a50f51-FRA
+

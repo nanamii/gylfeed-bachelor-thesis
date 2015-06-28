@@ -1,0 +1,19 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sat, 27 Jun 2015 19:07:15 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+Keep-Alive: timeout=30
+X-Frame-Options: SAMEORIGIN
+Last-Modified: Thu, 07 May 2015 19:25:28 GMT
+ETag: "415-51582dfc95a00"
+Accept-Ranges: bytes
+Content-Length: 1045
+Cache-Control: public, must-revalidate, proxy-revalidate
+Expires: Sat, 27 Jun 2015 19:07:14 GMT
+Vary: Accept-Encoding,Cookie
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+X-Powered-By: W3 Total Cache/0.9.4.1
+Pragma: public
+

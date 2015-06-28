@@ -1,0 +1,16 @@
+HTTP/1.1 301 Moved Permanently
+Server: Apache
+Location: http://feeds.macrumors.com/MacRumors-Front
+Content-Type: text/html; charset=iso-8859-1
+Content-Length: 250
+Accept-Ranges: bytes
+Date: Fri, 26 Jun 2015 20:25:39 GMT
+Via: 1.1 varnish
+Age: 0
+Connection: keep-alive
+X-Served-By: cache-lcy1124-LCY
+X-Cache-Hits: 0
+X-Timer: S1435350339.739347,VS0,VE235
+Vary: Accept-Encoding
+X-Cache: A-MISS
+

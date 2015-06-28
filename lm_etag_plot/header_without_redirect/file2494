@@ -1,0 +1,7 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 19:00:48 GMT
+Server: Apache/2.2.25 (Unix) mod_ssl/2.2.25 OpenSSL/0.9.7d
+Set-Cookie: BBC-UID=b5d5784dfad1f6b080a1efa901b7af4f99ce3082c9907e12dbfa51dada0396310curl%2f7%2e37%2e0; expires=Tue, 25-Jun-19 19:00:48 GMT; path=/; domain=.bbc.co.uk;
+Location: http://www.bbc.co.uk/programmes/p02nq0gn/episodes/downloads.rss
+Content-Type: text/html; charset=iso-8859-1
+

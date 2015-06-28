@@ -1,0 +1,17 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Vary: Accept-Encoding
+X-Cacheable: non200
+Cache-Control: max-age=86400, must-revalidate
+X-Cache: HIT: 143
+Content-Type: text/html; charset=iso-8859-1
+X-Cache-Group: normal
+Date: Fri, 26 Jun 2015 19:22:31 GMT
+Keep-Alive: timeout=20
+Location: http://scienceblogs.com/startswithabang/feed/
+X-Type: default
+Transfer-Encoding: chunked
+Connection: Keep-Alive
+X-Pass-Why: 
+Set-Cookie: X-Mapping-fjhppofk=A7C2851DE66149F36FC6550361375A16; path=/
+

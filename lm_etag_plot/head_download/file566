@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 18:42:14 GMT
+Server: Apache/2.2.29 (Unix) FrontPage/5.0.2.2635
+X-Powered-By: PHP/5.3.29-pl0-gentoo
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+X-Pingback: http://www.xrcoaching.com/xmlrpc.php
+ETag: "6c56759b035bd51a579a7217040a5f5b"
+X-Robots-Tag: noindex,follow
+Set-Cookie: PHPSESSID=3712cab86f714f4c7ea780677bdd2850; path=/
+Last-Modified: Tue, 26 May 2015 16:56:42 GMT
+Vary: Accept-Encoding,Cookie
+Content-Type: text/html; charset=utf-8
+

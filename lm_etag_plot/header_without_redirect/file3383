@@ -1,0 +1,13 @@
+HTTP/1.1 302 Moved Temporarily
+Server: nginx/1.6.2
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+X-Powered-By: PHP/5.4.38
+Set-Cookie: PHPSESSID=1fd0oioqt66iv4369mhdq2tee1; path=/; HttpOnly
+Pragma: no-cache
+location: http://timesofoman.com/
+Vary: Accept-Encoding,User-Agent
+Date: Fri, 26 Jun 2015 18:19:17 GMT
+X-Page-Speed: 1.9.32.3-4448
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate, post-check=0, pre-check=0
+

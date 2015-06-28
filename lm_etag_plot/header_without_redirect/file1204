@@ -1,0 +1,9 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 18:18:54 GMT
+Server: Apache/2.2.29
+Location: http://michelfortin.com/feed/
+Cache-Control: max-age=0
+Expires: Fri, 26 Jun 2015 18:18:54 GMT
+Vary: Accept-Encoding
+Content-Type: text/html; charset=iso-8859-1
+

@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: text/xml; charset=UTF-8
+Pragma: no-cache
+X-Pingback: http://countermeasures.trendmicro.eu/xmlrpc.php
+Last-Modified: Thu, 11 Jun 2015 13:13:33 GMT
+ETag: "7d8ac5f7fea8fccf7fdb8294a135f667"
+X-Cacheable: YES
+X-Varnish: 569643341 569642681
+X-Cache-Hits: 2
+X-Frame-Options: SAMEORIGIN
+Cache-Control: public, no-cache, no-store, must-revalidate, post-check=0, pre-check=0
+Date: Fri, 26 Jun 2015 19:15:13 GMT
+Connection: keep-alive
+

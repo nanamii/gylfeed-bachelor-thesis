@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 26 Jun 2015 20:10:46 GMT
+Content-Type: text/html
+Connection: keep-alive
+X-Pingback: http://www.whatwereeating.com/xmlrpc.php
+ETag: "62666af14ec5cb3d22dc3b223456c530"
+Last-Modified: Tue, 24 Dec 2013 15:44:12 GMT
+X-Powered-By: PleskLin
+

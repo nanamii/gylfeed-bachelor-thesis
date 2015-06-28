@@ -1,0 +1,17 @@
+HTTP/1.1 200 OK
+Server: cloudflare-nginx
+Date: Sat, 27 Jun 2015 18:47:08 GMT
+Content-Type: text/html; charset=utf-8
+Connection: keep-alive
+Set-Cookie: __cfduid=dd5a74fb1dd7ef85c9b157d3b9b1aec701435430828; expires=Sun, 26-Jun-16 18:47:08 GMT; path=/; domain=.econsultancy.com; HttpOnly
+Cache-Control: max-age=0, private, must-revalidate
+Set-Cookie: _session_id=BAh7B0kiD3Nlc3Npb25faWQGOgZFVEkiJWQzM2Y2MGEyMjMxMjY1NzIwMmNjN2VjNzExNjU5N2Q2BjsAVEkiDnJldHVybl90bwY7AEZJQzohQWN0aW9uQ29udHJvbGxlcjo6UGFyYW1ldGVyc3sHSSILYWN0aW9uBjsARkkiCmluZGV4BjsAVEkiD2NvbnRyb2xsZXIGOwBGSSIPYmxvZ19wb3N0cwY7AFQGOg9AcGVybWl0dGVkRg%3D%3D--a7a5172316e5707e990594f5102dc9faa7ae4b5e; path=/; secure; HttpOnly
+Status: 200 OK
+X-Clacks-Overhead: GNU Terry Pratchett
+X-Frame-Options: SAMEORIGIN
+X-Rack-Cache: miss
+X-Request-Id: 7fa91cee15e75afde24d905e6f943561
+X-Runtime: 0.019832
+X-UA-Compatible: IE=Edge,chrome=1
+CF-RAY: 1fd351945c3408bd-FRA
+

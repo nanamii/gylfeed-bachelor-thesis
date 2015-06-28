@@ -1,0 +1,27 @@
+HTTP/1.1 200 OK
+Server: nginx/0.7.67
+Date: Sat, 27 Jun 2015 21:46:47 GMT
+Content-Type: text/xml
+Connection: keep-alive
+ETag: "240e76-3dbb-5583edf3"
+X-Highwire-RequestId: VY8Y-atDdRMAAEqe10gAAADD
+X-Firenze-Processing-Time: 14.388
+Last-Modified: Fri, 19 Jun 2015 10:24:51 GMT
+X-Highwire-SessionId: 1rIRW4SqIVX9D8ZTAs9pGg
+X-Firenze-Processing-Times: detect-robot: 0.153
+X-Firenze-Processing-Times: add-external-dependencies-info: 2.325
+X-Firenze-Processing-Times: retrieve-ads: 5.659
+X-Firenze-Processing-Times: log-builder: 1.542
+X-Firenze-Processing-Times: servlet: 11.986
+X-Firenze-Processing-Time: 25.186
+Vary: Accept-Encoding
+X-SmartBan-URL: /rss/current.xml
+X-SmartBan-Host: sts.sagepub.com
+Accept-Ranges: bytes
+X-Varnish: 1647878741 1647834875
+Age: 201
+Via: 1.1 varnish
+X-Varnish-Hostname: varnish8.highwire.org
+X-Varnish-Cache: hit
+Content-Length: 15803
+

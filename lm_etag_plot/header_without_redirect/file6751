@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Server: nginx/1.1.19
+Date: Fri, 26 Jun 2015 20:43:44 GMT
+Content-Type: application/rss+xml
+Content-Length: 9473
+Connection: keep-alive
+X-Cacheable: YES
+Accept-Ranges: bytes
+X-Varnish: 1073253649 1073253628
+Age: 100
+Via: 1.1 varnish
+X-Cache: HIT
+X-Cache-Hits: 3
+X-Cache-Backend: default
+X-Wildcat-Pride: Go U Northwestern!
+

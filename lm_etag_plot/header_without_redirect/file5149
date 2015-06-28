@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 19:52:44 GMT
+Server: Apache
+Set-Cookie: gvc=929vr1828939644809618; expires=Wed, 24-Jun-2020 19:52:44 GMT; path=/; domain=www.baseballbakingandbooks.com; httponly
+Expires: Mon, 22 Jul 2002 11:12:01 GMT
+Cache-Control: private, no-cache
+Pragma: no-cache
+Vary: Accept-Encoding,User-Agent
+Content-Type: text/html; charset=UTF-8
+

@@ -1,0 +1,19 @@
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+ETag: "1435346321"
+Last-Modified: Fri, 26 Jun 2015 19:18:41 +0000
+Server: Apache
+X-Drupal-Cache: MISS
+Cache-Control: max-age=180s
+Content-Length: 7391
+Accept-Ranges: bytes
+Date: Fri, 26 Jun 2015 19:18:41 GMT
+Via: 1.1 varnish
+Age: 0
+Connection: keep-alive
+X-Served-By: cache-ams4146-AMS
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1435346321.214084,VS0,VE380
+Vary: (null),Accept-Encoding
+

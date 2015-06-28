@@ -1,0 +1,7 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 19:00:56 GMT
+Server: Apache
+Location: http://www.military.com/daily-news
+Vary: Accept-Encoding
+Content-Type: text/html; charset=iso-8859-1
+

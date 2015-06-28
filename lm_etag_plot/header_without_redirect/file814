@@ -1,0 +1,15 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 18:11:26 GMT
+Server: Apache/2.2.22
+X-Powered-By: PHP/5.3.29
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+X-Pingback: http://blog.signalnoise.com/xmlrpc.php
+ETag: "d42af5891821a8acbf84d8dbf2841feb"
+Set-Cookie: PHPSESSID=a2e9e00f8cfc9424e3b9a6eac1f58216; path=/
+Last-Modified: Thu, 25 Jun 2015 11:55:38 GMT
+Location: http://blog.signalnoise.com/feed/
+Vary: User-Agent,Accept-Encoding
+Content-Type: text/html
+

@@ -1,0 +1,12 @@
+HTTP/1.1 302 Moved Temporarily
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 26 Jun 2015 19:18:45 GMT
+Content-Type: text/html
+X-Powered-By: PHP/5.5.9-1ubuntu4.4
+Set-Cookie: PHPSESSID=tinkjop7nshntkgk702v4fsd24; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Location: http://blogs.techrepublic.i.com.com
+Set-Cookie: SRVNAME=W3; path=/
+

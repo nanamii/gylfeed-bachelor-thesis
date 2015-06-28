@@ -1,0 +1,7 @@
+HTTP/1.1 302 Moved Temporarily
+Date: Fri, 26 Jun 2015 19:43:33 GMT
+Server: Apache
+Location: http://spectrum.ieee.org/blog/automaton
+Vary: Accept-Encoding
+Content-Type: text/html
+

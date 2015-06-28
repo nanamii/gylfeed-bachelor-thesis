@@ -1,0 +1,19 @@
+HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+X-Request-IP: 37.122.251.71
+X-Varnish: 1228234965 1228233832
+Content-Type: text/xml;charset=utf-8
+P3P: policyref="/w3c/p3p.xml", CP="CAO DSP COR LAW CURa ADMa DEVa TAIa PSAa PSDa CONo OUR DELi BUS IND PHY ONL UNI COM NAV INT DEM PRE OTC"
+Environment: p
+X-Cookies: 
+X-FT-ID: 05537-p
+Access-Control-Allow-Origin: *
+Accept-Ranges: bytes
+X-Frame-Options: DENY
+Last-Modified: Fri, 26 Jun 2015 18:59:18 GMT
+Content-Length: 12860
+Cache-Control: max-age=18
+Expires: Fri, 26 Jun 2015 19:01:01 GMT
+Date: Fri, 26 Jun 2015 19:00:43 GMT
+Connection: keep-alive
+

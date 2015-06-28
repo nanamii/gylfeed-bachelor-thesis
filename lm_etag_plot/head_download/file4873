@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 21:08:13 GMT
+Server: Apache
+X-Powered-By: PHP/5.4.34
+X-Pingback: http://thecookieblog.com/xmlrpc.php
+ETag: "6f62bfcb32b9da4661e635c1d96cdefe"
+Last-Modified: Thu, 27 Jun 2013 10:36:22 GMT
+Connection: close
+Content-Type: text/html
+

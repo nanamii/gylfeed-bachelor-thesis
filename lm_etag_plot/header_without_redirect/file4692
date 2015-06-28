@@ -1,0 +1,10 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 19:44:54 GMT
+Server: Apache
+X-Pingback: http://loudmouthman.com/xmlrpc.php
+ETag: "469156750e99b48c7ef38a2a0db4e9ee"
+Last-Modified: Sun, 12 Apr 2015 12:58:23 GMT
+Location: http://loudmouthman.com/feed/
+Vary: Accept-Encoding
+Content-Type: text/html
+

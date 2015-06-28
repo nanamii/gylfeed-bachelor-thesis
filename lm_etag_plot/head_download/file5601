@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 21:25:07 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+Set-Cookie: __cfduid=d8b0cbe08aa2ef3a56a68625d528af42a1435440306; expires=Sun, 26-Jun-16 21:25:06 GMT; path=/; domain=.shitlondon.co.uk; HttpOnly
+X-Powered-By: PHP/5.4.33
+X-CF-Powered-By: WP 1.3.9
+X-Pingback: http://shitlondon.co.uk/xmlrpc.php
+Last-Modified: Fri, 02 May 2014 15:01:33 GMT
+ETag: "7380156228c7acd3ba721ca6ab4506e4"
+X-Cluster-Node: CatN vCluster (http://catn.com/): 004/web03
+Server: cloudflare-nginx
+CF-RAY: 1fd438fde03915d7-FRA
+

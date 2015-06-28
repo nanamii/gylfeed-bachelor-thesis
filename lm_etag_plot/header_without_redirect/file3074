@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Content-Length: 296005
+Content-Type: text/xml;charset=UTF-8
+Server: Microsoft-IIS/7.5
+Set-Cookie: CFID=3524343; Expires=Sun, 18-Jun-2045 20:13:52 GMT; Path=/; HttpOnly
+Set-Cookie: CFTOKEN=6728d47268086483-E4ACE3AF-C293-0A8B-428C8BA4335ABA0B; Expires=Sun, 18-Jun-2045 20:13:52 GMT; Path=/; HttpOnly
+Set-Cookie: JSESSIONID=48133CDC2B98F2B64D42319B77196473.cfusion; Path=/; HttpOnly
+X-Powered-By: ASP.NET
+Date: Fri, 26 Jun 2015 20:13:52 GMT
+

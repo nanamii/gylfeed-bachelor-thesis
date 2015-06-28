@@ -1,0 +1,7 @@
+HTTP/1.1 302 Found
+Date: Fri, 26 Jun 2015 20:35:50 GMT
+Server: Apache
+Location: http://manton.org/index.php?feed=rss2&cat=-847
+Vary: Accept-Encoding
+Content-Type: text/html; charset=iso-8859-1
+

@@ -1,0 +1,7 @@
+HTTP/1.1 301 Moved Permanently
+X-Powered-By: Express
+Content-Type: text/html
+Location: https://identi.ca/api/statuses/public_timeline.rss
+Date: Fri, 26 Jun 2015 19:10:16 GMT
+Connection: keep-alive
+

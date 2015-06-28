@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 19:05:14 GMT
+Content-Type: application/xml
+Connection: keep-alive
+Set-Cookie: __cfduid=dac86fcff01f876728b3ae6d39090122f1435345514; expires=Sat, 25-Jun-16 19:05:14 GMT; path=/; domain=.jamestown.org; HttpOnly
+Vary: Accept-Encoding
+X-Powered-By: PHP/5.4.26
+Set-Cookie: fe_typo_user=ff29c37e2106ae0521bd9bea718dc03b; path=/
+Server: cloudflare-nginx
+CF-RAY: 1fcb2eba880e0887-FRA
+

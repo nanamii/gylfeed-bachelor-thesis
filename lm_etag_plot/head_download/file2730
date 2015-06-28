@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:43:13 GMT
+Server: Apache/2.2.22
+X-Powered-By: PHP/5.5.21
+Vary: Cookie,User-Agent,Accept-Encoding
+X-Pingback: http://www.hyperorg.com/blogger/xmlrpc.php
+ETag: "6b33aff5531af6c79bd4584beb1db4d5"
+WP-Super-Cache: Served legacy cache file
+Content-Type: text/xml; charset=UTF-8
+

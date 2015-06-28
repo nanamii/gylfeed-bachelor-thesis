@@ -1,0 +1,11 @@
+HTTP/1.1 302 Found
+Date: Fri, 26 Jun 2015 18:58:56 GMT
+Server: Apache/2.2.15 (CentOS)
+Set-Cookie: plos-device-detected=desktop; path=/; domain=.www.plosone.org; expires=Fri, 26-Jun-2015 20:58:56 GMT
+Location: http://feeds.plos.org/plosone/PLoSONE
+Cache-Control: max-age=1
+Expires: Fri, 26 Jun 2015 18:58:57 GMT
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+Set-Cookie: Coyote-2-95144509=9514450f:0; path=/
+

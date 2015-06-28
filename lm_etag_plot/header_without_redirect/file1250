@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 18:19:25 GMT
+Server: Apache/2.4.9 (Unix) OpenSSL/0.9.8e-fips-rhel5 mod_bwlimited/1.4 PHP/5.4.29
+X-Powered-By: PHP/5.4.29
+Vary: Cookie
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+X-Pingback: http://www.stevepavlina.com/blog/xmlrpc.php
+ETag: "8beecd9d05ef3967b5255f70ad53ef6a"
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+WP-Super-Cache: Served legacy cache file
+Content-Type: text/xml; charset=UTF-8
+

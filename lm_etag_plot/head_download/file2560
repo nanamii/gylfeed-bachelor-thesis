@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Connection: keep-alive
+Vary: Accept-Encoding
+Status: 200 OK
+X-Varnish-Ttl: 0s
+Cache-Control: no-cache
+X-UA-Compatible: IE=Edge,chrome=1
+X-Request-Id: 432c78270bbb83ae972f3cd101788020
+X-Runtime: 0.315208
+X-Powered-By: Phusion Passenger 4.0.14
+Date: Sat, 27 Jun 2015 20:39:22 GMT
+Server: nginx + Phusion Passenger 4.0.14
+

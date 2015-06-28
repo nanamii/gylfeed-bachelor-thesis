@@ -1,0 +1,18 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Fri, 26 Jun 2015 18:16:34 GMT
+Content-Type: text/html
+Connection: keep-alive
+Keep-Alive: timeout=20
+X-Cacheable: CacheAlways: feed
+Cache-Control: max-age=86400, must-revalidate
+X-Cache: HIT: 1351
+X-Cache-Group: 
+X-Pingback: http://www.altimetergroup.com/xmlrpc.php
+Location: http://www.altimetergroup.com/feed/
+X-Type: feed
+ETag: "905a8b643a315c139c71503b0c0771c5"
+X-Pass-Why: 
+Set-Cookie: X-Mapping-fjhppofk=2C7B204F8E54DADF069F8373D3E7EF12; path=/
+Last-Modified: Thu, 25 Jun 2015 17:51:23 GMT
+

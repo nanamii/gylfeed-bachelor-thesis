@@ -1,0 +1,17 @@
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: text/xml
+X-Drupal-Cache: MISS
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Last-Modified: Fri, 26 Jun 2015 18:47:49 GMT
+Cache-Control: no-cache, must-revalidate, post-check=0, pre-check=0
+ETag: "1435344469"
+X-Content-Type-Options: nosniff
+X-Frame-Options: SameOrigin
+X-Request-ID: v-d792ccec-1c33-11e5-a3cb-22000a5710ad
+X-AH-Environment: prod
+X-Varnish: 1803013195
+X-Age: 0
+Date: Fri, 26 Jun 2015 18:56:52 GMT
+Connection: keep-alive
+

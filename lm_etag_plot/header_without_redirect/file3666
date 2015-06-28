@@ -1,0 +1,9 @@
+HTTP/1.1 301 Moved Permanently
+Content-Length: 164
+Content-Type: text/html; charset=UTF-8
+Location: http://www.newsmax.com/rss/SciTech/20.xml
+Server: Microsoft-IIS/7.5
+X-Powered-By: ASP.NET
+X-UA-Compatible: IE=Edge
+Date: Fri, 26 Jun 2015 19:21:49 GMT
+

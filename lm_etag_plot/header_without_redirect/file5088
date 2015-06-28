@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 19:52:04 GMT
+Content-Type: application/atom+xml
+Connection: keep-alive
+Set-Cookie: __cfduid=d168d8079840cd40318306b3b900777e31435348324; expires=Sat, 25-Jun-16 19:52:04 GMT; path=/; domain=.latimes.com; HttpOnly
+X-PhApp: oak-tp-web026
+X-Webserver: oak-tp-web026
+Vary: cookie
+Last-Modified: Sun, 08 Dec 2013 02:42:09 GMT
+X-Varnish: 1657506818
+Age: 0
+Via: 1.1 varnish
+Server: cloudflare-nginx
+CF-RAY: 1fcb7351e3b015dd-FRA
+

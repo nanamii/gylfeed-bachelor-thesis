@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 18:45:56 GMT
+Content-Type: text/html
+Connection: keep-alive
+Set-Cookie: __cfduid=d22bcef61c69ae30fe48dd3acc35da3f71435430756; expires=Sun, 26-Jun-16 18:45:56 GMT; path=/; domain=.wpmudev.org; HttpOnly
+X-Pingback: http://premium.wpmudev.org/blog/xmlrpc.php
+Last-Modified: Sat, 27 Jun 2015 15:00:05 GMT
+ETag: W/"f6b1603e8c5ce5a4feb71ff1b8a6960d"
+Server: cloudflare-nginx
+CF-RAY: 1fd34fd4161c0f75-FRA
+

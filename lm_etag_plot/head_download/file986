@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:05:23 GMT
+Server: Apache
+X-Powered-By: PHP/5.5.9-1ubuntu4.9
+Set-Cookie: holtz15_last_visit=1120071923; expires=Sun, 26-Jun-2016 19:05:23 GMT; Max-Age=31536000; path=/; httponly
+Set-Cookie: holtz15_last_activity=1435431923; expires=Sun, 26-Jun-2016 19:05:23 GMT; Max-Age=31536000; path=/; httponly
+Set-Cookie: holtz15_csrf_token=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0; path=/; httponly
+Set-Cookie: holtz15_csrf_token=fadf1143551c8a629ad879435f0cda1eca7a366c; expires=Sat, 27-Jun-2015 21:05:23 GMT; Max-Age=7200; path=/; httponly
+Expires: Mon, 26 Jul 1997 05:00:00 GMT
+Last-Modified: Sat, 27 Jun 2015 19:05:24 GMT
+Pragma: no-cache
+Content-Type: text/html; charset=UTF-8
+

@@ -1,0 +1,17 @@
+HTTP/1.1 200 OK
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Content-Length: 0
+Content-Type: text/html
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Last-Modified: Fri, 26 Jun 2015 21:34:22 GMT
+ETag: "b2947ac6c3fc3d7cb85e07fdc99c850d"
+Server: Microsoft-IIS/8.0
+Set-Cookie: PHPSESSID=nnck4617hlleld4k2dc3863h72; path=/
+X-Powered-By: PHP/5.4.42
+X-Pingback: https://news.microsoft.com/xmlrpc.php
+Link: <https://news.microsoft.com/msft-wp-json-feed>; rel="https://github.com/WP-API/WP-API"
+X-Powered-By: ASP.NET
+Set-Cookie: ARRAffinity=8a55a2146c38ff279772415b442d4b7dc0e7be7f0ce4a38fde946e8bb71c3879;Path=/;Domain=news.microsoft.com
+Date: Sat, 27 Jun 2015 19:43:39 GMT
+

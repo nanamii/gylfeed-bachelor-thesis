@@ -1,0 +1,19 @@
+HTTP/1.1 307 Temporary Redirect
+Server: nginx
+Date: Fri, 26 Jun 2015 18:15:56 GMT
+Content-Type: text/html
+Connection: keep-alive
+Keep-Alive: timeout=20
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Pragma: no-cache
+X-Pingback: http://www.quicksprout.com/xmlrpc.php
+Last-Modified: Fri, 26 Jun 2015 15:00:13 GMT
+ETag: "89a43f8fb55f3dee8d520c7ffd0469e0"
+Location: http://feeds2.feedburner.com/quicksprout
+X-Cacheable: CacheAlways: feed
+Cache-Control: max-age=86400, must-revalidate
+X-Cache: HIT: 23
+X-Pass-Why: 
+X-Cache-Group: 
+X-Type: feed
+

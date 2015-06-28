@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sat, 27 Jun 2015 18:41:11 GMT
+Content-Type: text/xml; charset=UTF-8
+Connection: keep-alive
+Keep-Alive: timeout=20
+X-Pingback: http://blog.deliverability.com/xmlrpc.php
+Last-Modified: Tue, 06 May 2014 17:39:16 GMT
+ETag: "d4ebb7389ea17ad1f69092c019ef7b9a"
+X-Cacheable: CacheAlways: feed
+Cache-Control: max-age=600, must-revalidate
+X-Cache: HIT: 7
+X-Type: feed
+

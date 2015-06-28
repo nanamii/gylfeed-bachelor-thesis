@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 20:21:27 GMT
+Server: Apache
+request-id: 558f05c7-46fcea51414104353c3bb69a7e32e9f
+Cache-Control: no-cache, must-revalidate, post-check=0, pre-check=0
+Set-Cookie: GEO-92_194_59_39=deu%3A%3Amunich%3A%3A48.1394%3A%3A11.5657%3A%3Axdsl%3A%3Aby; expires=Sat, 27-Jun-2015 21:21:27 GMT; Max-Age=3600; path=/
+X-AOL-SNH: bd279d6dae14773fd194f08e0d675d0e
+X-UA-Compatible: IE=edge
+Vary: Accept-Encoding
+Content-Type: text/xml; charset=utf-8
+

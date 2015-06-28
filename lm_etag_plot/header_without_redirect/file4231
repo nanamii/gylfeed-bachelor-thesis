@@ -1,0 +1,6 @@
+HTTP/1.1 302 Found
+Date: Fri, 26 Jun 2015 19:38:13 GMT
+Server: Apache
+Location: http://www.heavypetal.ca/feed/atom/
+Content-Type: text/html; charset=iso-8859-1
+

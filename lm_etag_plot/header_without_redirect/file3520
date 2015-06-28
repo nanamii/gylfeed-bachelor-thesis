@@ -1,0 +1,7 @@
+HTTP/1.1 301 MOVED PERMANENTLY
+Date: Fri, 26 Jun 2015 19:21:34 GMT
+Server: Apache/2.2.14 (Ubuntu)
+Location: http://momentile.com/chaz2b/rss/
+Vary: Accept-Encoding
+Content-Type: text/html; charset=utf-8
+

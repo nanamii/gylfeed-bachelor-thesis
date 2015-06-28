@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Content-Length: 65236
+Content-Type: text/xml
+Last-Modified: Fri, 26 Jun 2015 04:01:01 GMT
+Accept-Ranges: bytes
+ETag: "c7bae9b6c4afd01:0"
+X-Powered-By: ASP.NET
+Date: Fri, 26 Jun 2015 19:15:34 GMT
+Set-Cookie: BIGipServer~WEB~pool_www.itap.purdue.edu_web=2701199882.0.0000; path=/
+

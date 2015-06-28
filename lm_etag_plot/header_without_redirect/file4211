@@ -1,0 +1,16 @@
+HTTP/1.1 302 Found
+Date: Fri, 26 Jun 2015 19:37:00 GMT
+Content-Type: application/atom+xml
+Connection: keep-alive
+Set-Cookie: __cfduid=dfd5ed3c26bd5cad11b40900d3fa83f211435347419; expires=Sat, 25-Jun-16 19:36:59 GMT; path=/; domain=.typepad.com; HttpOnly
+X-PhApp: oak-tp-web014
+X-Webserver: oak-tp-web014
+Location: http://feeds.feedburner.com/IdeasInFood
+Vary: cookie
+Expires: Fri, 26 Jun 2015 19:52:00 GMT
+X-Varnish: 2391628976
+Age: 0
+Via: 1.1 varnish
+Server: cloudflare-nginx
+CF-RAY: 1fcb5d3d900208ab-FRA
+

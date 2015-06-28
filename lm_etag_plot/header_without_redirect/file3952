@@ -1,0 +1,11 @@
+HTTP/1.1 302 Moved Temporarily
+Date: Fri, 26 Jun 2015 19:25:23 GMT
+Server: Apache/2.4.12 (Unix) OpenSSL/1.0.1e-fips mod_bwlimited/1.4 mod_fcgid/2.3.9
+X-Pingback: http://www.ipsnews.net/xmlrpc.php
+X-Powered-By: W3 Total Cache/0.9.4
+Expires: Wed, 11 Jan 1984 05:00:00 GMT
+Cache-Control: no-cache, must-revalidate, max-age=0
+Pragma: no-cache
+Location: http://www.ipsnews.net
+Content-Type: text/html; charset=UTF-8
+

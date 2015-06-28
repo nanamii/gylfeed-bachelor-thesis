@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:55:53 GMT
+Server: Apache/2.2.29 (Unix) FrontPage/5.0.2.2635
+X-Powered-By: PHP/5.3.29-pl0-gentoo
+Vary: Cookie
+X-Pingback: http://www.resourcesforlife.com/wp/xmlrpc.php
+ETag: "73416937654c38e49f4002ffc01ea0b1"
+WP-Super-Cache: Served legacy cache file
+Content-Type: text/xml; charset=UTF-8
+

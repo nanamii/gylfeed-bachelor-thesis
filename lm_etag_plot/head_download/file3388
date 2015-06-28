@@ -1,0 +1,21 @@
+HTTP/1.1 200 OK
+Content-Type: text/xml
+Content-Length: 8058
+Connection: keep-alive
+Date: Sat, 27 Jun 2015 19:56:02 GMT
+Age: 1
+Accept-Ranges: bytes
+Expires: Sat, 27 Jun 2015 19:57:02 GMT
+ETag: "1f7a-4d838b57"
+Last-Modified: Fri, 18 Mar 2011 16:41:59 GMT
+Cache-Control: max-age=60
+Server: webserver
+X-Instart-Request-ID: 17036471784363503715:SEN01-NPPRY08:1435434963:165
+X-Instart-Debug-Header: auth_status:200, origin:primary.washingtonpost.com, cache key modifier:0, num_auth_cookies:6
+Set-Cookie: de=;Expires=Monday, 26-June-2017 19:56:02 GMT; path=/; domain=.washingtonpost.com
+Set-Cookie: client_region=0;Expires=Saturday, 27-June-2015 20:06:02 GMT; path=/; domain=.washingtonpost.com
+Set-Cookie: X-WP-Split=X;Expires=Thursday, 01-January-1970 00:00:00 GMT; path=/; domain=.washingtonpost.com
+Set-Cookie: devicetype=0;Expires=Tuesday, 28-July-2015 06:25:02 GMT; path=/; domain=.washingtonpost.com
+Set-Cookie: osfam=0;Expires=Tuesday, 28-July-2015 06:25:02 GMT; path=/; domain=.washingtonpost.com
+Set-Cookie: rpld1=0:qsc.de|20:deu|21:by|22:munich|23:48.139400|24:11.565700|;Expires=Saturday, 27-June-2015 20:56:02 GMT; path=/; domain=.washingtonpost.com
+

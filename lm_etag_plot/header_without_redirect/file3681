@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 19:22:05 GMT
+Server: Apache/2.2.14 (Unix) DAV/2 mod_ssl/2.2.14 OpenSSL/0.9.7a
+Last-Modified: Wed, 24 Jun 2015 09:17:47 GMT
+ETag: "1a16dd-128f7-5193ffaeca52d"
+Accept-Ranges: bytes
+Content-Length: 76023
+Content-Type: application/xml
+Vary: Accept-Encoding
+X-Highwire-Sitecode: royprsb
+Connection: close
+

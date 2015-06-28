@@ -1,0 +1,24 @@
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Content-Type: text/xml; charset=UTF-8
+ETag: "eb455608360118ddf6e8fbfbc9dd8577"
+J-Cacheable: YES
+Last-Modified: Mon, 06 May 2013 17:29:19 GMT
+Server: Apache
+Varnish-X-Cache-Hits: 5469
+Via: 1.1 varnish-v4
+X-Pingback: http://www.webmonkey.com/xmlrpc.php
+X-Powered-By: PHP/5.4.16
+X-Robots-Tag: noindex,follow
+Via: 1.1 varnish
+Content-Length: 52940
+Accept-Ranges: bytes
+Date: Sat, 27 Jun 2015 19:47:16 GMT
+Via: 1.1 varnish
+Age: 0
+Connection: keep-alive
+X-Served-By: cache-jfk1027-JFK, cache-fra1224-FRA
+X-Cache: HIT, HIT, MISS
+X-Cache-Hits: 1, 0
+X-Timer: S1435434436.431992,VS0,VE92
+

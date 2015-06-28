@@ -1,0 +1,19 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 20:23:21 GMT
+X-ServedBy: ny1-prod6-web022
+Set-Cookie: JSESSIONID=cMoPxC6PZ-PHGuLgx3uUDo_aYNZvnyGJLUeNzMQcagtuUmeR_PP4Pw;Path=/;HttpOnly
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Set-Cookie: crumb=4c3565766b;Path=/
+Set-Cookie: SS_MID=64fc9868-8a14-4090-8e5b-0df2740e495bibfhw24n;Path=/;Domain=.whipandclick.com;Expires=Tue, 24-Jun-2025 20:23:21 GMT
+Set-Cookie: ss_cid=e7f3c837-bec9-44a5-bb0f-4833c28149f0;Path=/;Domain=.whipandclick.com;Expires=Mon, 26-Jun-2017 20:23:21 GMT
+Set-Cookie: ss_cvisit=1435436601292;Path=/;Domain=.whipandclick.com;Expires=Sat, 27-Jun-2015 20:53:21 GMT
+Accept-Ranges: bytes
+Content-Type: application/rss+xml; charset=UTF-8
+X-PC-Date: Fri, 26 Jun 2015 16:36:05 GMT
+X-PC-Host: 10.100.101.114
+ETag: W/"5a3933d8643306d0a6256707ff9d5c80"
+X-PC-Key: z4JM_1NB9mACa1W4u8tP7faAQEE-whipandclick1
+X-PC-Hit: true
+X-ContextId: MqGGIC8q/tOalXrwV
+X-Via: 1.1 ny1-prod-echo008
+

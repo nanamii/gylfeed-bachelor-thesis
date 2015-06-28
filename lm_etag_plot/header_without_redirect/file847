@@ -1,0 +1,11 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 18:12:37 GMT
+Server: Apache
+X-Pingback: http://unitzeroone.com/blog/xmlrpc.php
+Last-Modified: Mon, 21 Nov 2011 09:31:39 GMT
+ETag: "c891e7d0b28dab3e8c591044380926fd"
+Location: http://unitzeroone.com/blog/feed/
+X-Powered-By: PleskLin
+Connection: close
+Content-Type: text/html
+

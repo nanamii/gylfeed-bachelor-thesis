@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sat, 27 Jun 2015 18:46:15 GMT
+Content-Type: text/xml; charset=utf-8
+Content-Length: 15349
+Connection: keep-alive
+Last-Modified: Sat, 27 Jun 2015 17:04:20 GMT
+ETag: "558ed794-3bf5"
+Expires: Sat, 27 Jun 2015 19:04:35 GMT
+Cache-Control: max-age=3600
+Cache-Control: public
+X-Proxy-Cache: HIT
+Access-Control-Allow-Origin: *
+Accept-Ranges: bytes
+

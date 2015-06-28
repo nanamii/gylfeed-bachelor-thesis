@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Server: Apache/2.2.15 (CentOS)
+X-Powered-By: PHP/5.3.3
+X-Pingback: http
+Last-Modified: Fri, 26 Jun 2015 18
+ETag: "b1fa3fe72757202c63c07508b412d2bb"
+P3P: CP=CAO DSP COR CURa ADMa DEVi TAIo PSAa PSDa IVDi CONi OTPi OUR OTRi BUS PHY ONL UNI PUR COM NAV INT DEM CNT STA OTC
+Content-Type: text/xml; charset=UTF-8
+Date: Fri, 26 Jun 2015 20:21:05 GMT
+Connection: keep-alive
+

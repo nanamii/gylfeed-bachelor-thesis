@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:25:29 GMT
+Server: Apache
+X-Powered-By: PHP/5.4.39
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+X-Pingback: http://www.nationalturk.com/en/xmlrpc.php
+ETag: "d0295a102b907eff473e87fb5fda4a16"
+Set-Cookie: PHPSESSID=1d2a99d521b69d8265437ec6349ade0b; path=/
+Last-Modified: Fri, 26 Jun 2015 12:50:07 GMT
+Connection: close
+Content-Type: text/html
+

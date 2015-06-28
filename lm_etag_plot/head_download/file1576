@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:19:41 GMT
+Server: Apache
+Vary: Cookie,User-Agent,Accept-Encoding
+X-Pingback: https://www.mattcutts.com/blog/xmlrpc.php
+ETag: "8667f9d05eb13cd8510521e355d67323"
+WP-Super-Cache: Served legacy cache file
+Content-Type: text/xml; charset=UTF-8
+

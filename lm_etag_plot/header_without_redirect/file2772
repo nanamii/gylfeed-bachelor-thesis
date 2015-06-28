@@ -1,0 +1,15 @@
+HTTP/1.0 200 OK
+Date: Fri, 26 Jun 2015 19:06:56 GMT
+Server: Apache
+X-Powered-By: PHP/5.2.10
+X-Drupal-Cache: MISS
+Expires: Fri, 26 Jun 2015 19:11:56 GMT
+Last-Modified: Fri, 26 Jun 2015 19:06:56 +0000
+Cache-Control: must-revalidate, max-age=0, s-maxage=300
+Vary: Accept-Encoding
+Accept-Ranges: none
+Content-Type: application/rss+xml; charset=utf-8
+X-Cache: MISS from sms2.cac003.groupz.net
+X-Cache-Lookup: MISS from sms2.cac003.groupz.net:3128
+Connection: close
+

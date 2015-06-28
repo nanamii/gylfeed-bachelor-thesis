@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Content-Type: text/xml; charset=UTF-8
+Date: Sat, 27 Jun 2015 19:42:20 GMT
+Etag: "44d1f6bc56799ce95f8fb909927fd08b"
+Last-Modified: Sat, 27 Jun 2015 14:00:07 GMT
+Server: ECS (fcn/41AB)
+X-Cache: HIT
+X-Pingback: http://www.adweek.com/socialtimes/xmlrpc.php
+Content-Length: 71733
+

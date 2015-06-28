@@ -1,0 +1,13 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Fri, 26 Jun 2015 20:15:34 GMT
+Content-Type: text/html
+Content-Length: 0
+Connection: keep-alive
+Keep-Alive: timeout=15
+X-Pingback: http://darusha.ca/xmlrpc.php
+ETag: "7c54c9ebfb697c122f8a0c52e29f7f43"
+Last-Modified: Wed, 24 Jun 2015 18:40:04 GMT
+Location: http://darusha.ca/category/blog/feed/
+ngpass_ngall: 1
+

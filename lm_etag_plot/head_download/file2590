@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Content-Length: 15667
+Connection: keep-alive
+Date: Sat, 27 Jun 2015 19:39:35 GMT
+Content-Encoding: gzip
+Cache-Control: max-age=60
+Last-Modified: Sat, 27 Jun 2015 19:36:41 GMT
+ETag: "78ad4ea0f2ddd76d6dd92b00d269e757"
+Server: AmazonS3
+X-Cache: Miss from cloudfront
+Via: 1.1 bf13c8d06bd46633c423520788472147.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: poKK9kAqyV4qKTeHzzeEHcYM2_ufOVu__I4QUTyZ4IkOhCeo82Lsxw==
+

@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 20:22:41 GMT
+Server: Apache
+P3P: CP="NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM"
+Expires: Mon, 1 Jan 2001 00:00:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Set-Cookie: e947b161ef7e4ba5128b78deeb7446bf=743b2dfc40d2c7432dbcb4671d008ea5; path=/; HttpOnly
+Last-Modified: Sat, 27 Jun 2015 20:22:41 GMT
+Connection: close
+Content-Type: text/html; charset=utf-8
+

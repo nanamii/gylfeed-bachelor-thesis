@@ -1,0 +1,7 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 18:34:52 GMT
+Server: Apache
+Content-Disposition: inline; filename=rss20.xml
+Set-Cookie: bea62be3b518801cffdea6a14d516de9=-; path=/
+Content-Type: application/xml; charset=ISO-8859-1
+

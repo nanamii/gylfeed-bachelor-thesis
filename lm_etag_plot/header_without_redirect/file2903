@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 19:09:43 GMT
+Server: Apache
+Vary: Cookie
+X-Pingback: http://www.bookwormroom.com/xmlrpc.php
+ETag: "2923326de1d435bd37420580afaffce0"
+WP-Super-Cache: Served legacy cache file
+X-Powered-By: PleskLin
+Connection: close
+Content-Type: text/xml; charset=UTF-8
+

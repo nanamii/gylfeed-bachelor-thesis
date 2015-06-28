@@ -1,0 +1,14 @@
+HTTP/1.0 200 OK
+Date: Fri, 26 Jun 2015 19:19:57 GMT
+Server: Apache
+Last-Modified: Fri, 26 Jun 2015 18:37:43 GMT
+ETag: "8dad510b-7af-519700915abc0"
+Accept-Ranges: bytes
+Content-Length: 1967
+Cache-Control: max-age=300
+Expires: Fri, 26 Jun 2015 19:24:57 GMT
+Content-Type: application/xml
+Age: 221
+Via: 1.0 c5.w2.woc (squid)
+Connection: close
+

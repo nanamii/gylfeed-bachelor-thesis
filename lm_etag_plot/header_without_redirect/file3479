@@ -1,0 +1,7 @@
+HTTP/1.1 302 Moved Temporarily
+Content-Type: text/html; charset=iso-8859-1
+Location: http://feeds.huffingtonpost.com/c/35496/f/677091/index.rss
+Server: Apache
+Date: Fri, 26 Jun 2015 19:19:38 GMT
+Connection: keep-alive
+

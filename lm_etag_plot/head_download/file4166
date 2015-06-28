@@ -1,0 +1,19 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 20:25:13 GMT
+X-ServedBy: ny1-prod6-web040
+Set-Cookie: JSESSIONID=4lf26TfvYEdVyNr2CeKDP0F5zIvaHHnbsYjPmMD2tsJHMcvA35oiCA;Path=/;HttpOnly
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Set-Cookie: crumb=7741a10992;Path=/
+Set-Cookie: SS_MID=8e82a259-c113-4513-b275-186087804089ibfhygzt;Path=/;Domain=.thegoldengecko.com;Expires=Tue, 24-Jun-2025 20:25:13 GMT
+Accept-Ranges: bytes
+Content-Type: text/html; charset=UTF-8
+X-PC-AppVer: 4710
+X-PC-Date: Fri, 26 Jun 2015 16:33:10 GMT
+X-PC-Host: 10.100.101.107
+Last-Modified: Fri, 26 Jun 2015 23:44:46 GMT
+ETag: W/"cc09ae831cc2ab34f4377c49173a52bf"
+X-PC-Key: 3ij4eP1COe_ltMHvstwiDpWuAL0-trey-pitsenberger-cw8q
+X-PC-Hit: true
+X-ContextId: 7YzjxJZd/VslfuHND
+X-Via: 1.1 ny1-prod-echo011
+

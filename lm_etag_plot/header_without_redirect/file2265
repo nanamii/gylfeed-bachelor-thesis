@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 18:58:01 GMT
+Set-Cookie: wp_mobiledts_theme=desktop; expires=Wed, 23-Dec-2015 18:58:02 GMT; path=/
+X-Pingback: http://voodooandsauce.com/xmlrpc.php
+Last-Modified: Sun, 14 Jun 2015 23:05:20 GMT
+ETag: "5102c3bf2b296436a3857e4f43ce10e5"
+P3P: policyref="http://info.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+Cache-Control: private
+Content-Type: text/html
+Age: 2
+Connection: keep-alive
+Server: ATS/5.0.1
+

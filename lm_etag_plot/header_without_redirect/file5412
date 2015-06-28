@@ -1,0 +1,9 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 20:15:46 GMT
+Server: Apache
+X-Pingback: http://reddirtramblings.com/xmlrpc.php
+Last-Modified: Mon, 15 Jun 2015 11:48:39 GMT
+Location: http://reddirtramblings.com/feed
+Vary: Accept-Encoding,User-Agent
+Content-Type: text/html
+

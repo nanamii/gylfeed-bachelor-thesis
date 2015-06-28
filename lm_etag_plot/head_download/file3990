@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 20:22:14 GMT
+Content-Type: text/xml; charset=UTF-8
+Connection: keep-alive
+Set-Cookie: __cfduid=de1193d10e595724a2d371fa37638b0ea1435436534; expires=Sun, 26-Jun-16 20:22:14 GMT; path=/; domain=.theeastsiderla.com; HttpOnly
+Vary: Accept-Encoding,Cookie
+X-Pingback: http://www.theeastsiderla.com/xmlrpc.php
+ETag: W/"ceae27133d50ae863c095fa9903ddd0d"
+WP-Super-Cache: Served legacy cache file
+Server: cloudflare-nginx
+CF-RAY: 1fd3dce5fd731ac3-DUS
+

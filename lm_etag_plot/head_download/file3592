@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 20:01:30 GMT
+Server: Apache
+Vary: Cookie
+X-Pingback: http://www.theseventhart.org/main/xmlrpc.php
+ETag: "7366099bb7d71b8090e7dc9b93370a11"
+X-UA-Compatible: IE=edge,chrome=1
+Last-Modified: Mon, 25 May 2015 15:59:59 GMT
+Content-Type: application/rss+xml; charset="UTF-8"
+

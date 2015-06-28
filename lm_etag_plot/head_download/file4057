@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Server: Apache/2.2.15 (CentOS) DAV/2 mod_ssl/2.2.15 OpenSSL/1.0.1e-fips
+X-Varnish: 862778048 862768042
+Vary: Cookie
+X-Cache: HIT
+Content-Type: text/xml; charset=UTF-8
+WP-Super-Cache: Served legacy cache file
+X-Pingback: http://joythebaker.com/xmlrpc.php
+Date: Sat, 27 Jun 2015 20:23:29 GMT
+Transfer-Encoding: chunked
+ETag: "83f7ad1e5766c8ed48deb75b2ebbaa88"
+Via: 1.1 varnish
+Connection: Keep-Alive
+Age: 260
+

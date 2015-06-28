@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 18:16:13 GMT
+Content-Type: text/html
+Connection: keep-alive
+Set-Cookie: __cfduid=d6747028e8405be022e5952948e3908421435342572; expires=Sat, 25-Jun-16 18:16:12 GMT; path=/; domain=.ducttapemarketing.com; HttpOnly
+Vary: Accept-Encoding
+X-Pingback: http://www.ducttapemarketing.com/xmlrpc.php
+Last-Modified: Fri, 19 Jun 2015 19:54:49 GMT
+ETag: W/"25a5bc45f02dd9ae57a11953083a994d"
+X-Robots-Tag: noindex,follow
+Server: cloudflare-nginx
+CF-RAY: 1fcae6e8c7481589-FRA
+

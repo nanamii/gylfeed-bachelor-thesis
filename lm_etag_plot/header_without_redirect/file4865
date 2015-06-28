@@ -1,0 +1,19 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Fri, 26 Jun 2015 19:46:44 GMT
+Content-Type: text/html
+Connection: keep-alive
+Keep-Alive: timeout=20
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Pragma: no-cache
+X-Pingback: http://foodgps.com/xmlrpc.php
+Last-Modified: Fri, 26 Jun 2015 16:35:19 GMT
+ETag: "91f1fd37682a02494bc8e72f447c36e0"
+Location: http://foodgps.com/feed/
+X-Cacheable: CacheAlways: feed
+Cache-Control: max-age=86400, must-revalidate
+X-Cache: HIT: 101
+X-Pass-Why: 
+X-Cache-Group: 
+X-Type: feed
+

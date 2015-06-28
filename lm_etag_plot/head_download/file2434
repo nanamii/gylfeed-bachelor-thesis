@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:34:34 GMT
+Server: Apache/2.2.3 (CentOS)
+X-Powered-By: PHP/5.4.34
+Vary: Cookie
+X-Pingback: http://globalvoicesonline.org/xmlrpc.php
+ETag: "c444d9d3b048bc5f0f13a7bbccdf416e"
+WP-Super-Cache: Served legacy cache file
+Content-Type: text/xml; charset=UTF-8
+

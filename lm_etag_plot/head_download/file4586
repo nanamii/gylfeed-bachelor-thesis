@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sat, 27 Jun 2015 20:38:57 GMT
+Content-Type: text/xml; charset=UTF-8
+Connection: keep-alive
+Vary: Accept-Encoding
+Vary: Cookie
+ETag: "d75df00c3111f045c92147f440615c5d"
+WP-Super-Cache: Served legacy cache file
+

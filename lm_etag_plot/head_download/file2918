@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Age: 0
+Cache-Control: max-age=0
+Content-Type: text/xml; charset=utf-8
+Date: Sat, 27 Jun 2015 19:48:54 GMT
+Edge-Control: max-age=300, s-maxage=300
+Expires: Sat, 27 Jun 2015 19:48:54 GMT
+Server: Apache/2
+Via: 1.1 varnish
+X-Cache: MISS from pxy4v-sdc.ao.prd.lax
+X-Generated: Sat, 27 Jun 2015 19:48:54 GMT
+X-Served-By: app3v-sdc.ao.prd.lax
+X-Varnish: 1265406114
+Content-Length: 45440
+

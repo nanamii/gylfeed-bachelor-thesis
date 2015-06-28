@@ -1,0 +1,16 @@
+HTTP/1.1 302 Found
+Access-Control-Allow-Origin: *
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Cache-control: no-cache="set-cookie"
+Content-Type: text/html; charset=UTF-8
+Date: Fri, 26 Jun 2015 18:20:05 GMT
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+location: https://www.demo.com/No-Event.php
+P3P: policyref="/w3c/p3p.xml", CP="NOI DSP COR NID CUR ADM DEV OUR BUS"
+Pragma: no-cache
+Server: Apache
+Set-Cookie: PHPSESSID=vkuiskbran4ku9ukoaqctl0o92; path=/; HttpOnly
+Set-Cookie: AWSELB=1D35FB490CD6913E2E95873217274214FC15D153BEDC483AAA1725C5F3395AD290932C56B32403A7EACCC24AF27FE059E4A4BC500D277FCA324E95C889B412BF24AC4B5C98;PATH=/
+Vary: Accept-Encoding
+Connection: keep-alive
+

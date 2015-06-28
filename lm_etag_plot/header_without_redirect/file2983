@@ -1,0 +1,13 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 19:10:14 GMT
+Content-Type: text/html; charset=iso-8859-1
+Connection: keep-alive
+Set-Cookie: __cfduid=da4e759fa56906b04779674317dec7f431435345814; expires=Sat, 25-Jun-16 19:10:14 GMT; path=/; domain=.alltop.com; HttpOnly
+Location: http://holykaw.alltop.com/feed
+Vary: Accept-Encoding
+CF-Cache-Status: HIT
+Expires: Fri, 26 Jun 2015 23:10:14 GMT
+Cache-Control: public, max-age=14400
+Server: cloudflare-nginx
+CF-RAY: 1fcb360c113e0f45-FRA
+

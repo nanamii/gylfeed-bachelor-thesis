@@ -1,0 +1,16 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 19:20:00 GMT
+Content-Type: text/html; charset=utf-8
+Connection: keep-alive
+Status: 301 Moved Permanently
+Location: https://500px.com/chaz2b/rss
+X-UA-Compatible: IE=Edge,chrome=1
+Cache-Control: no-cache
+Set-Cookie: landing_page=%2Fchaz2b%2Frss; path=/
+Set-Cookie: referrer_type=other; path=/
+Set-Cookie: _hpx1=BAh7B0kiD3Nlc3Npb25faWQGOgZFVEkiJTJhNGI2MTE5MjQ5ODk0MGNjOTQzZWEwODRjNGUyOTRlBjsAVEkiCWhvc3QGOwBGIg41MDBweC5jb20%3D--955cafaee3ca390f5cfa73ebd775cbd6c63e3c24; domain=.500px.com; path=/; HttpOnly
+X-Request-Id: a3707075892d9e7b10d48b81fecfdb2c
+X-Runtime: 0.007005
+X-Rack-Cache: miss
+Server: app5
+

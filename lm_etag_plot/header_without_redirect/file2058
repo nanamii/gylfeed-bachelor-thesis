@@ -1,0 +1,11 @@
+HTTP/1.1 307 Temporary Redirect
+Date: Fri, 26 Jun 2015 18:55:55 GMT
+Server: Apache/2.2.29 (Unix) mod_ssl/2.2.29 OpenSSL/1.0.1e-fips DAV/2 Phusion_Passenger/4.0.35 mod_bwlimited/1.4 PHP/5.4.39 mod_perl/2.0.8 Perl/v5.10.1
+X-Powered-By: PHP/5.4.39
+X-Pingback: http://blumenthals.com/blog/xmlrpc.php
+Last-Modified: Mon, 22 Jun 2015 12:38:27 GMT
+ETag: "91f95c727e6d51949de90e6411382b43"
+Location: http://feeds.feedburner.com/UnderstandingGoogleMapsYahooLocalSearch
+Connection: close
+Content-Type: text/html
+

@@ -1,0 +1,11 @@
+HTTP/1.1 404 Not Found
+Cache-Control: max-age=3600, public
+Content-Type: text/html; charset=UTF-8
+Date: Fri, 26 Jun 2015 20:16:24 GMT
+Expires: Sat, 27 Jun 2015 20:16:24 GMT
+Server: Apache
+Set-Cookie: pvpsite_last_visit=1119989784; expires=Sat, 25-Jun-2016 20:16:24 GMT; path=/
+Set-Cookie: pvpsite_last_activity=1435349784; expires=Sat, 25-Jun-2016 20:16:24 GMT; path=/
+Set-Cookie: pvpsite_tracker=a%3A1%3A%7Bi%3A0%3Bs%3A3%3A%22rss%22%3B%7D; path=/
+Connection: keep-alive
+

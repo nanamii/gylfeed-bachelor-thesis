@@ -1,0 +1,17 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx/1.0.15
+Date: Fri, 26 Jun 2015 19:52:32 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+X-Powered-By: PHP/5.3.19
+Location: http://www.examiner.com/user/489196/1747496/feed
+X-WebNode: web19.examiner.com
+Vary: Accept-Encoding
+x-url: /uri_map_redirect.php?migrate_source_uri=RSS.rss&match_type=examinerrss&value1=15670&value2=LA-Faith--Community-Examiner
+x-host: www.examiner.com
+X-Varnish: 177401140
+Age: 0
+Via: 1.1 varnish-v4
+X-Varnish-Cache: MISS
+Set-Cookie: BIGipServerproxy-pool=1905431050.20480.0000; path=/
+

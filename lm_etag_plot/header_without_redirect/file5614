@@ -1,0 +1,12 @@
+HTTP/1.1 302 Temporary Redirect
+Date: Fri, 26 Jun 2015 20:17:47 GMT
+Server: Apache
+X-Pingback: http://adamhcohen.com/xmlrpc.php
+ETag: "3ee9d63b18d170ffa5cf0387a3b4efb5"
+Set-Cookie: bb2_screener_=1435349867+92.194.59.39; path=/
+Set-Cookie: wpgb_visit_last_php-default=1435349867; expires=Sat, 25-Jun-2016 20:17:47 GMT; path=/
+Last-Modified: Tue, 13 Jan 2015 15:35:29 GMT
+Location: http://feeds.feedburner.com/typepad/adamcohen
+Vary: Accept-Encoding
+Content-Type: text/html
+

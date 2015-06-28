@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Set-Cookie: 90planBAK=R698931959; path=/; expires=Sat, 27-Jun-2015 19:47:29 GMT
+Date: Sat, 27 Jun 2015 18:32:25 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+Set-Cookie: 90plan=R3276323263; path=/; expires=Sat, 27-Jun-2015 19:34:39 GMT
+Server: Apache
+X-Powered-By: PHP/5.2.17
+X-Pingback: http://zamak.fr/xmlrpc.php
+Vary: Accept-Encoding
+

@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Server: Apache
+X-Powered-By: PHP/5.6.8
+X-Pingback: http://www.iwishididit.com/xmlrpc.php
+ETag: "509855958f762605ceae222e29a11ff1"
+Last-Modified: Tue, 26 Aug 2014 12:03:02 GMT
+Vary: Accept-Encoding
+Content-Type: text/html; charset=UTF-8
+Accept-Ranges: bytes
+Date: Fri, 26 Jun 2015 18:04:37 GMT
+X-Varnish: 3963649848
+Age: 0
+Via: 1.1 varnish
+Connection: keep-alive
+

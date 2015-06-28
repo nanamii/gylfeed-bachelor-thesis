@@ -1,0 +1,14 @@
+HTTP/1.1 302 Found
+ETag: W/"0718c544-4b5a-49aa-a9ec-3d7bbd6cf681"
+Date: Fri, 26 Jun 2015 19:26:26 GMT
+Content-Type: text/html
+Server: blogger-renderd
+Expires: Fri, 26 Jun 2015 19:26:27 GMT
+Cache-Control: public, must-revalidate, proxy-revalidate, max-age=1
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Location: www.flickeringmyth.com/feed
+X-Frame-Options: SAMEORIGIN
+Alternate-Protocol: 80:quic,p=0
+Transfer-Encoding: chunked
+

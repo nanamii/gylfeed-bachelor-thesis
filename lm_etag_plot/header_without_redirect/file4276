@@ -1,0 +1,6 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 19:38:44 GMT
+Server: Apache/2.2.29 (Unix) mod_ssl/2.2.29 OpenSSL/1.0.1e-fips mod_bwlimited/1.4 mod_perl/2.0.8 Perl/v5.10.1
+Location: http://www.imediaethics.org
+Content-Type: text/html; charset=iso-8859-1
+

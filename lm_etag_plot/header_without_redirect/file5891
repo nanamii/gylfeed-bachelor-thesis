@@ -1,0 +1,15 @@
+HTTP/1.1 307 Temporary Redirect
+Date: Fri, 26 Jun 2015 20:24:56 GMT
+Server: Apache
+Vary: Cookie,Accept-Encoding
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+X-Pingback: http://lifestreamblog.com/xmlrpc.php
+ETag: "8b89345832b491a32d28e2004fe60b38"
+Link: <http://lifestreamblog.com/?webmention=endpoint>; rel="http://webmention.org/", <http://lifestreamblog.com/?webmention=endpoint>; rel="webmention"
+Set-Cookie: PHPSESSID=00me5qpq8ad8411h2jk29e0hl0; path=/
+Last-Modified: Tue, 23 Jun 2015 17:01:47 GMT
+Location: http://feeds.feedburner.com/Lifestreamblogcom
+Content-Type: application/rss+xml; charset="UTF-8"
+

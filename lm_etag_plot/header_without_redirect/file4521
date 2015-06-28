@@ -1,0 +1,16 @@
+HTTP/1.1 302 Found
+Server: nginx
+Date: Fri, 26 Jun 2015 19:43:18 GMT
+Content-Type: text/html; charset=iso-8859-1
+Content-Length: 224
+Connection: keep-alive
+X-AWS-Id: ws04
+Location: http://xkcd-rss.livejournal.com/data/rss
+Accept-Ranges: bytes
+X-Varnish: 269984944 269560571
+Age: 1891
+X-VWS-Id: bil1-varn30
+X-Gateway: bil1-swlb03
+X-Beta: http://varnish
+Set-Cookie: ljident=2869171628.20480.0000;domain=.livejournal.com; path=/
+

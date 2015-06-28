@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:43:06 GMT
+Content-Type: text/xml; charset=UTF-8
+Connection: keep-alive
+Set-Cookie: __cfduid=d549fe14dec48ea46b43c69f3a16c7a641435434186; expires=Sun, 26-Jun-16 19:43:06 GMT; path=/; domain=.vlogg.com; HttpOnly
+Vary: Accept-Encoding,User-Agent
+X-Powered-By: W3 Total Cache/0.9.4.1
+Last-Modified: Fri, 22 May 2015 17:56:57 GMT
+Pragma: public
+Cache-Control: max-age=687630, public, must-revalidate, proxy-revalidate, max-age=13600
+X-Pingback: http://www.vlogg.com/xmlrpc.php
+Expires: Sat, 27 Jun 2015 23:29:25 GMT
+Server: cloudflare-nginx
+CF-RAY: 1fd3a3909eef1acf-DUS
+

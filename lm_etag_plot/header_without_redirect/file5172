@@ -1,0 +1,16 @@
+HTTP/1.1 302 Found
+Date: Fri, 26 Jun 2015 19:52:58 GMT
+Content-Type: application/atom+xml
+Connection: keep-alive
+Set-Cookie: __cfduid=de938e5622bb8f385f51db6afcd88c3961435348378; expires=Sat, 25-Jun-16 19:52:58 GMT; path=/; domain=.typepad.com; HttpOnly
+X-PhApp: oak-tp-web028
+X-Webserver: oak-tp-web028
+Location: http://feeds.feedburner.com/OatmealCookieBlog
+Vary: cookie
+Expires: Fri, 26 Jun 2015 20:07:58 GMT
+X-Varnish: 2392024930
+Age: 0
+Via: 1.1 varnish
+Server: cloudflare-nginx
+CF-RAY: 1fcb74a620c32342-FRA
+

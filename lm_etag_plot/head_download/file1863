@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Server: Apache
+Content-Type: text/xml
+X-IGOR: True
+Last-Modified: Sat, 27 Jun 2015 19:11:45 GMT
+Cache-Control: max-age=98
+Expires: Sat, 27 Jun 2015 19:25:17 GMT
+Date: Sat, 27 Jun 2015 19:23:39 GMT
+Connection: keep-alive
+

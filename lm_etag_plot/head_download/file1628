@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sat, 27 Jun 2015 19:21:03 GMT
+Content-Type: text/html
+Connection: keep-alive
+Vary: Accept-Encoding
+X-Pingback: http://www.thecrepesofwrath.com/xmlrpc.php
+Last-Modified: Wed, 24 Jun 2015 12:55:21 GMT
+X-Robots-Tag: noindex,follow
+X-Powered-By: EasyEngine
+Vary: Accept-Encoding
+

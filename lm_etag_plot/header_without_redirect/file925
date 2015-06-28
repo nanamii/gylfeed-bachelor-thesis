@@ -1,0 +1,15 @@
+HTTP/1.1 301 Moved Permanently
+X-Pingback: http://99percentinvisible.org/xmlrpc.php
+Last-Modified: Wed, 24 Jun 2015 00:22:42 GMT
+ETag: "c7edbd73d74303c87f23fc6e22befa04"
+Content-Type: text/html
+X-Port: port_10363
+X-Cacheable: YES:Forced
+Location: http://99percentinvisible.org/feed/
+Date: Fri, 26 Jun 2015 18:15:02 GMT
+Age: 45871
+Vary: User-Agent
+X-Cache: cached
+X-Cache-Hit: HIT
+X-Backend: wpaas_web_078
+

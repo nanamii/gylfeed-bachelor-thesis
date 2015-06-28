@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+Server: nginx/1.8.0
+Date: Fri, 26 Jun 2015 19:10:26 GMT
+Content-Type: text/html
+Connection: keep-alive
+X-Pingback: http://lawandthemultiverse.com/xmlrpc.php
+ETag: "777c502b74b84f5a4ef8107af23b80ba"
+Last-Modified: Tue, 23 Jun 2015 16:17:59 GMT
+

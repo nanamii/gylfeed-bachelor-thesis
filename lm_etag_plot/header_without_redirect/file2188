@@ -1,0 +1,8 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx/1.0.15
+Date: Fri, 26 Jun 2015 18:57:12 GMT
+Content-Type: text/html
+Content-Length: 185
+Connection: keep-alive
+Location: http://www.zagat.com?alt=rss
+

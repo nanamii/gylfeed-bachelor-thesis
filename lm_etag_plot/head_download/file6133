@@ -1,0 +1,20 @@
+HTTP/1.1 200 OK
+Server: GitHub.com
+Date: Sat, 27 Jun 2015 21:46:07 GMT
+Content-Type: application/atom+xml; charset=utf-8
+Status: 200 OK
+Content-Security-Policy: default-src *; script-src assets-cdn.github.com collector-cdn.github.com; object-src assets-cdn.github.com; style-src 'self' 'unsafe-inline' 'unsafe-eval' assets-cdn.github.com; img-src 'self' data: assets-cdn.github.com identicons.github.com www.google-analytics.com collector.githubapp.com *.githubusercontent.com *.gravatar.com *.wp.com; media-src 'none'; frame-src 'self' render.githubusercontent.com gist.github.com www.youtube.com player.vimeo.com checkout.paypal.com; font-src assets-cdn.github.com; connect-src 'self' live.github.com wss://live.github.com uploads.github.com status.github.com api.github.com www.google-analytics.com github-cloud.s3.amazonaws.com
+Public-Key-Pins: max-age=300; pin-sha256="WoiWRyIOVNa9ihaBciRSC7XHjliYS9VwUGOIud4PB18="; pin-sha256="JbQbUG5JMJUoI6brnx0x3vZF6jilxsapbXGVfjhN8Fg="; includeSubDomains
+Cache-Control: no-cache
+Vary: X-PJAX
+X-UA-Compatible: IE=Edge,chrome=1
+X-Request-Id: 491e731232281a56cd6a6cc3a90b2842
+X-Runtime: 0.045429
+X-GitHub-Request-Id: 5CC23B27:1224:2A8693A:558F199E
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+X-Frame-Options: deny
+Vary: Accept-Encoding
+X-Served-By: 50f1f26dee0de4fe7bd3917b0eeb211c
+

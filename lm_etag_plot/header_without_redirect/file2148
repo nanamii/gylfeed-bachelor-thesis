@@ -1,0 +1,10 @@
+HTTP/1.0 302 Moved Temporarily
+Date: Fri, 26 Jun 2015 18:56:49 GMT
+Server: Apache/2.2.3 (CentOS)
+Location: http://www.kingarthurflour.com/blog/feed/
+Content-Type: text/html; charset=iso-8859-1
+X-Cache: MISS from localhost.localdomain
+X-Cache-Lookup: MISS from localhost.localdomain:3128
+Via: 1.0 localhost.localdomain:3128 (squid/2.6.STABLE21)
+Connection: close
+

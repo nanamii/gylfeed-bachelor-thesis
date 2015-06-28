@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 20:13:30 GMT
+Content-Type: application/atom+xml
+Connection: keep-alive
+Set-Cookie: __cfduid=d73e5f9ad2e29e088e4a6d95975b5ce4e1435349609; expires=Sat, 25-Jun-16 20:13:29 GMT; path=/; domain=.blogs.com; HttpOnly
+X-PhApp: oak-tp-web037
+X-Webserver: oak-tp-web037
+Vary: cookie
+Last-Modified: Thu, 28 May 2015 04:32:26 GMT
+X-Varnish: 1658036873
+Age: 0
+Via: 1.1 varnish
+Server: cloudflare-nginx
+CF-RAY: 1fcb92b1c14c15a7-FRA
+

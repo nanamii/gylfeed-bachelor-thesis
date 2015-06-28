@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 19:23:18 GMT
+Server: Apache
+Last-Modified: Fri, 26 Jun 2015 14:25:48 GMT
+Vary: Accept-Encoding
+Cache-Control: private, max-age=0, no-cache, no-transform
+X-Hyper-Cache: hit - plain
+Content-Length: 63420
+Content-Type: text/html;charset=UTF-8
+

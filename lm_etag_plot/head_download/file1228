@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:13:24 GMT
+Content-Type: application/atom+xml
+Connection: keep-alive
+Set-Cookie: __cfduid=d413d99dd20c29d31114d98a91953403d1435432404; expires=Sun, 26-Jun-16 19:13:24 GMT; path=/; domain=.customercrossroads.com; HttpOnly
+X-PhApp: oak-tp-web016
+X-Webserver: oak-tp-web016
+Vary: cookie
+Last-Modified: Fri, 26 Jun 2015 16:21:29 GMT
+X-Varnish: 1677649647 1677344352
+Age: 931
+Via: 1.1 varnish
+Server: cloudflare-nginx
+CF-RAY: 1fd3780f1c9d0f8d-FRA
+

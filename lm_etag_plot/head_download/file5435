@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Cache-Control: max-age=600
+Content-Type: application/xml; charset=utf-8
+Date: Sat, 27 Jun 2015 21:22:39 GMT
+ETag: "5fe91eac064c5877a36f457e163e9624"
+Expires: Sat, 27 Jun 2015 21:32:39 GMT
+Server: nginx/1.4.6 (Ubuntu)
+Status: 200 OK
+Vary: Accept-Encoding
+X-Cache: HIT
+X-Frame-Options: ALLOWALL
+X-Powered-By: Phusion Passenger 4.0.10
+X-Request-Id: 068e687d-d941-4d2b-accf-7960f8662971
+X-Runtime: 0.203682
+Connection: keep-alive
+

@@ -1,0 +1,10 @@
+HTTP/1.1 302 Moved Temporarily
+Server: nginx
+Date: Fri, 26 Jun 2015 18:42:56 GMT
+Content-Type: text/html
+Connection: keep-alive
+X-Pingback: http://www.jeffkorhan.com/xmlrpc.php
+Last-Modified: Tue, 23 Jun 2015 19:58:55 GMT
+ETag: "a8d936a2a06985a1d2c3c8fbe3eabe46"
+Location: http://feeds.feedburner.com/StandOutInYourMarket-JeffKorhan
+

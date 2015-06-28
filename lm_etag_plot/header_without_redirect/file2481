@@ -1,0 +1,6 @@
+HTTP/1.1 301 Moved Permanently
+Location: http://www.france24.com/en/top-stories/rss
+Content-Type: text/html; charset=iso-8859-1
+Date: Fri, 26 Jun 2015 19:00:43 GMT
+Connection: keep-alive
+

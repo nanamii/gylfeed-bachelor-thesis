@@ -1,0 +1,8 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:51:42 GMT
+Server: Apache/2.2.15 (Red Hat) mod_ssl/2.2.15 OpenSSL/1.0.1e-fips Phusion_Passenger/4.0.23 DAV/2 PHP/5.4.16
+X-Powered-By: PHP/5.4.16
+Cache-Control: max-age=60
+Expires: Sat, 27 Jun 2015 19:52:42 GMT
+Content-Type: application/rss+xml
+

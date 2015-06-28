@@ -1,0 +1,10 @@
+HTTP/1.1 500 Internal Server Error
+Date: Fri, 26 Jun 2015 18:14:04 GMT
+Server: Apache/2.4.7 (Ubuntu)
+X-Powered-By: PHP/5.5.9-1ubuntu4.9
+Expires: Wed, 11 Jan 1984 05:00:00 GMT
+Cache-Control: no-cache, must-revalidate, max-age=0
+Pragma: no-cache
+Connection: close
+Content-Type: text/html; charset=utf-8
+

@@ -1,0 +1,11 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 18:56:29 GMT
+Server: Apache/2.2.29 (Unix) mod_ssl/2.2.29 OpenSSL/1.0.2a
+X-Pingback: http://trumpia.com/blog/xmlrpc.php
+Last-Modified: Fri, 26 Jun 2015 15:00:00 GMT
+Location: http://trumpia.com/blog/feed/
+Cache-Control: max-age=2592000
+Expires: Sun, 26 Jul 2015 18:56:29 GMT
+Vary: Accept-Encoding
+Content-Type: text/html
+

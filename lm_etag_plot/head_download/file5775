@@ -1,0 +1,18 @@
+HTTP/1.1 200 OK
+Server: nginx
+X-Cacheable: CacheAlways: feed
+Cache-Control: max-age=600, must-revalidate
+X-Cache: MISS
+Content-Type: text/xml; charset=UTF-8
+X-Cache-Group: 
+Date: Sat, 27 Jun 2015 21:30:55 GMT
+X-Pingback: http://blog.burningman.com/xmlrpc.php
+Keep-Alive: timeout=20
+X-Type: feed
+Transfer-Encoding: chunked
+ETag: "2bacbd0d46b274462406472027b70c4b"
+Connection: Keep-Alive
+X-Pass-Why: 
+Set-Cookie: X-Mapping-fjhppofk=083B21E321A6343C2E215B6B8966AEB1; path=/
+Last-Modified: Thu, 25 Jun 2015 23:01:24 GMT
+

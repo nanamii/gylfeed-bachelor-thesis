@@ -1,0 +1,14 @@
+HTTP/1.1 302 Found
+ETag: W/"c0c6218a-3a48-41e9-936d-c357e7c33b9c"
+Date: Fri, 26 Jun 2015 19:42:39 GMT
+Content-Type: text/html
+Server: blogger-renderd
+Expires: Fri, 26 Jun 2015 19:42:40 GMT
+Cache-Control: public, must-revalidate, proxy-revalidate, max-age=1
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Location: http://feeds.feedburner.com/PurplePoddedPeas
+X-Frame-Options: SAMEORIGIN
+Alternate-Protocol: 80:quic,p=0
+Transfer-Encoding: chunked
+

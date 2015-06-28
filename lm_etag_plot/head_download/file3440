@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Server: Apache
+X-Powered-By: PHP/5.5.25
+Access-Control-Allow-Origin: *
+Content-Type: text/xml;charset=UTF-8
+Cache-Control: max-age=0
+Expires: Sat, 27 Jun 2015 19:57:03 GMT
+Date: Sat, 27 Jun 2015 19:57:03 GMT
+Connection: keep-alive
+X-N: S
+

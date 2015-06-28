@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 20:20:37 GMT
+Server: Apache
+X-Pingback: http://welchwrite.com/agn/xmlrpc.php
+ETag: "0c76cfe29171654e373dae3503511425"
+Last-Modified: Fri, 26 Jun 2015 18:48:11 GMT
+Vary: Accept-Encoding
+Content-Type: text/xml; charset=UTF-8
+

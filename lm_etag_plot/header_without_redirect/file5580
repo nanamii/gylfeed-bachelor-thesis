@@ -1,0 +1,9 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 20:17:28 GMT
+Content-Type: text/html
+Connection: keep-alive
+Set-Cookie: __cfduid=db30477eae45d5884e4f54cb063606e801435349848; expires=Sat, 25-Jun-16 20:17:28 GMT; path=/; domain=.yougrowgirl.com; HttpOnly
+Location: http://yougrowgirl.com/feed/
+Server: cloudflare-nginx
+CF-RAY: 1fcb9887a74c0899-FRA
+

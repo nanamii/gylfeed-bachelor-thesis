@@ -1,0 +1,21 @@
+HTTP/1.1 200 OK
+Eomportal-Instance: 14
+Set-Cookie: JSESSIONID=EAE614576CDFB1A801BB5778E57A6488; Path=/
+Cache-Control: max-age=3600, must-revalidate
+Content-Type: application/rss+xml;charset=UTF-8
+Content-Length: 63651
+Set-Cookie: BIGipServermethode_webcache_http_pool=235144202.10004.0000; path=/
+Server: BostonGlobe.com Frontend
+Served-By: amandahunsaker
+Accept-Ranges: bytes
+Via: 1.1 varnish
+X-TTL: pass
+Accept-Ranges: bytes
+Date: Sat, 27 Jun 2015 19:50:57 GMT
+Via: 1.1 varnish
+Connection: keep-alive
+X-Served-By: cache-jfk1026-JFK, cache-fra1242-FRA
+X-Cache: MISS, MISS
+X-Cache-Hits: 0, 0
+X-Timer: S1435434657.418259,VS0,VE112
+

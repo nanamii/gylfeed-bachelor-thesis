@@ -1,0 +1,28 @@
+HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Access-Control-Allow-Origin: *
+age: 0
+Cache-Control: max-age = 600
+Content-Length: 38164
+Content-Type: application/rss+xml; charset=utf-8
+Date: Sat, 27 Jun 2015 18:47:52 GMT
+Last-Modified: Sat, 27 Jun 2015 18:47:43 GMT
+Server: Economist Web Server
+Vary: Cookie
+Via: 1.1 varnish
+X-Cache-Hits: 6
+x-ip: 92.194.59.39
+X-Powered-By: Dynamic Cache
+X-Varnish: 740129385 740129019
+X-Varnish-Cache: HIT
+xff: 92.194.59.39
+Connection: keep-alive
+Set-Cookie: visid_incap_121505=xFRc7NCCRMyRw5NK4jNKCdfvjlUAAAAAQUIPAAAAAADeNQaBRlgd6I1lEXLXVdtv; expires=Sun, 25 Jun 2017 19:22:38 GMT; path=/; Domain=.economist.com
+Set-Cookie: incap_ses_289_121505=oahdLFwDbRxskliTLbwCBNfvjlUAAAAAuUFMsYcP4J0HbR5aqjP67w==; path=/; Domain=.economist.com
+Set-Cookie: ___utmvmZwuZKyc=ibYENEgYznO; path=/; Max-Age=900
+Set-Cookie: ___utmvaZwuZKyc=fgLHmxc; path=/; Max-Age=900
+Set-Cookie: ___utmvbZwuZKyc=zZt
+    XuDOsalM: jtn; path=/; Max-Age=900
+X-Iinfo: 4-8296724-8296726 SNNN RT(1435430870907 243) q(0 0 0 -1) r(1 1) U5
+X-CDN: Incapsula
+

@@ -1,0 +1,22 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 26 Jun 2015 20:39:34 GMT
+Content-Type: text/xml; charset=UTF-8
+Content-Length: 29950
+Connection: keep-alive
+Content-Security-Policy: default-src 'self'; connect-src https://localhost https://fierce-escarpment-8017.herokuapp.com https://*.instapaper.com https://getpocket.com https://medium.com:443 https://*.medium.com:443 https://*.medium.com https://medium.com https://*.medium.com https://*.algolia.io 'self'; font-src data: https://*.amazonaws.com https://*.gstatic.com https://dnqgz544uhbo8.cloudfront.net https://use.typekit.net 'self'; frame-src chromenull: https: webviewprogressproxy: 'self'; img-src blob: data: https: 'self'; media-src https://*.cdn.vine.co https://d1fcbxp97j4nb2.cloudfront.net https://d262ilb51hltx0.cloudfront.net https://medium2.global.ssl.fastly.net https://gomiro.medium.com 'self'; object-src 'self'; script-src 'unsafe-eval' 'unsafe-inline' about: https: 'self'; style-src 'unsafe-inline' data: https: 'self'; report-uri https://csp.medium.com
+X-Frame-Options: sameorigin
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+X-UA-Compatible: IE=edge, Chrome=1
+X-Powered-By: Kale
+X-Obvious-Tid: 1435351174584:44a22b4d3222
+X-Obvious-Info: 16189-136333c,045c95b
+Link: <https://medium.com/humans.txt>; rel="humans"
+Cache-Control: private, must-revalidate, max-age=900
+Expires: Fri, 26 Jun 2015 20:54:34 GMT
+Pragma: private
+Set-Cookie: uid=lo_555556f71ca3; expires=Sat, 25 Jun 2016 20:39:34 GMT; path=/; domain=.medium.com; secure; httponly
+Set-Cookie: sid=1:HrbcO0GYH5tQf0vy7JR71U5j3EmZVfAJeOqDiYiUQCYCoRtSZjVHzMzq7uHbmOxz; expires=Sat, 25 Jun 2016 20:39:34 GMT; path=/; domain=.medium.com; secure; httponly
+Strict-Transport-Security: max-age=15811200; includeSubDomains
+

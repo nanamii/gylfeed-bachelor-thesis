@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 26 Jun 2015 20:33:27 GMT
+Content-Type: application/atom+xml; charset=utf-8
+Connection: keep-alive
+Status: 200 OK
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+ETag: W/"d9003bc9a232f3442fee835812b17f95"
+Cache-Control: max-age=0, private, must-revalidate
+X-Request-Id: d6fd71bf-622f-4ca3-aa63-5cc2bbe9f543
+X-Acme: BYPASS
+

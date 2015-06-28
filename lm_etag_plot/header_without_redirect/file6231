@@ -1,0 +1,10 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 20:33:47 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Location: https://www.backblaze.com/blog/feed/
+Vary: Accept-Encoding
+Content-Type: text/html; charset=iso-8859-1
+

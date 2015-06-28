@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 18:10:23 GMT
+Server: Apache/2.2.15 (Unix) mod_ruid2/0.9
+X-Powered-By: PHP/5.2.17
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Content-Disposition: inline; filename=feed.xml
+Set-Cookie: PHPSESSID=e6e6d48d004d057c04bcd94cd115769a; path=/
+Content-Type: application/xml; charset=ISO-8859-1; filename=feed.xml
+

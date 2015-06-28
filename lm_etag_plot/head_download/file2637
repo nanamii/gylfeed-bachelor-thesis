@@ -1,0 +1,18 @@
+HTTP/1.1 200 OK
+Content-Encoding: gzip
+Accept-Ranges: bytes
+Cache-Control: max-age=600
+Content-Type: application/rss+xml
+Date: Sat, 27 Jun 2015 19:42:11 GMT
+Expires: Sat, 27 Jun 2015 18:32:20 GMT
+Last-Modified: Sat, 27 Jun 2015 19:11:05 GMT
+Server: ECD (cpm/F828)
+Via: 1.1 varnish
+X-App: app-11
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Cache-Info: caching
+X-UA-Compatible: IE=edge
+X-Varnish: 1535255238 1535002027
+Content-Length: 30447
+

@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:34:07 GMT
+Server: Apache
+X-Powered-By: PHP/5.4.16
+X-Pingback: http://www.designmom.com/xmlrpc.php
+Last-Modified: Fri, 26 Jun 2015 18:35:06 GMT
+Cache-Control: max-age=3600
+Expires: Sat, 27 Jun 2015 20:34:07 GMT
+Vary: User-Agent,Accept-Encoding
+Connection: close
+Content-Type: text/html
+

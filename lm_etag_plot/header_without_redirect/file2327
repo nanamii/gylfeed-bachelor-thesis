@@ -1,0 +1,10 @@
+HTTP/1.1 302 Found
+Server: nginx
+Date: Fri, 26 Jun 2015 18:58:59 GMT
+Content-Type: text/html; charset=iso-8859-1
+Connection: keep-alive
+Location: http://feeds.feedburner.com/PsychologyBlog
+Cache-Control: max-age=36000
+Expires: Sat, 27 Jun 2015 04:58:59 GMT
+Vary: Accept-Encoding
+

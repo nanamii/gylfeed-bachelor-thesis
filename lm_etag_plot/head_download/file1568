@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:19:36 GMT
+Server: Apache/2.2.29 (Unix) mod_ssl/2.2.29 OpenSSL/1.0.2a
+Vary: Host,Accept-Encoding
+X-Pingback: http://trumpia.com/blog/xmlrpc.php
+Last-Modified: Fri, 26 Jun 2015 15:00:00 GMT
+X-Robots-Tag: noindex,follow
+Cache-Control: max-age=2592000
+Expires: Mon, 27 Jul 2015 19:19:36 GMT
+Content-Type: text/html
+

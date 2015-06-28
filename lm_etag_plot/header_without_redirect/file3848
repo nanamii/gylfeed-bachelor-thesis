@@ -1,0 +1,15 @@
+HTTP/1.1 301 Moved Permanently
+Content-Type: text/html; charset=utf-8
+Content-Length: 0
+Connection: keep-alive
+Date: Fri, 26 Jun 2015 15:02:14 GMT
+grace: none
+Location: http://www.treehugger.com/index.xml
+Server: nginx/1.4.6 (Ubuntu)
+X-Page-Speed: 1.9.32.3-4448
+X-Varnish: 8501686
+Age: 15895
+X-Cache: Hit from cloudfront
+Via: 1.1 0e8771af788075ec65db839e649274c4.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: rvizB8lirwnSNTDNkWZMQe2EXTEaJINnkxNrtvHsQL8eySYTlP9owA==
+

@@ -1,0 +1,12 @@
+HTTP/1.1 301 Moved Permanently
+Content-Language: en
+X-Content-Type-Options: nosniff
+Strict-Transport-Security: max-age=31536000; includeSubdomains
+Vary: Accept-Language
+Location: https://www.youtube.com/user/GoogleDevelopers
+X-Frame-Options: SAMEORIGIN
+Content-Type: text/html; charset=utf-8
+Date: Fri, 26 Jun 2015 20:25:38 GMT
+Server: Google Frontend
+Transfer-Encoding: chunked
+

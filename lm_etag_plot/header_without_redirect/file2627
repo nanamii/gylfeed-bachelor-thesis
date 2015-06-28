@@ -1,0 +1,21 @@
+HTTP/1.1 404 Not Found
+Server: WWW
+X-Varnish: 525623569
+Vary: Accept-Encoding
+Content-Type: text/html; charset=UTF-8
+X-VCache: MISS
+X-TNCMS: 1.21.6; cmsapp21; 0.01s; 2.2M
+Date: Fri, 26 Jun 2015 19:02:05 GMT
+X-TN-ServedBy: cms.varnish-app.6081
+X-Loop: 1
+Transfer-Encoding: chunked
+X-TNCMS-Bot-Tier: 3
+Via: 1.1 varnish-v4
+X-PersistenceNode: 1
+X-PHP-Engine: enabled
+Connection: Keep-Alive
+Set-Cookie: TNNoMobile=1; path=/; expires=Thu, 2 Aug 2031 20:47:11 UTC
+X-Cache-Info: caching
+Real-Hostname: omaha.com
+Age: 0
+

@@ -1,0 +1,23 @@
+HTTP/1.1 200 OK
+Server: WWW
+X-Varnish: 1014956995
+Cache-Control: public, max-age=900
+Content-Type: application/rss+xml; charset=UTF-8
+X-VCache: MISS
+X-TNCMS: 1.21.6; cmsapp29; 0.1s; 3.2M
+Date: Fri, 26 Jun 2015 19:08:58 GMT
+X-TN-ServedBy: cms.varnish-app.6081
+X-Loop: 1
+Transfer-Encoding: chunked
+X-TNCMS-Bot-Tier: 3
+ETag: W/0c332e9a591ed56a6537a77d03e625c0
+Via: 1.1 varnish-v4
+X-PersistenceNode: 0
+X-PHP-Engine: enabled
+Connection: Keep-Alive
+Set-Cookie: TNNoMobile=1; path=/; expires=Thu, 2 Aug 2031 20:47:11 UTC
+Last-Modified: Fri, 26 Jun 2015 19:08:58 GMT
+X-Cache-Info: caching
+Real-Hostname: norfolknavyflagship.com
+Age: 0
+

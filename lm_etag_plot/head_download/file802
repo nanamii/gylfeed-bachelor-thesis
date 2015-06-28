@@ -1,0 +1,25 @@
+HTTP/1.1 200 OK
+Cache-Control: stale-if-error=86400, stale-while-revalidate=300
+Content-Type: text/xml; charset=utf-8
+P3P: CP="IDC DSP COR CURa ADMa OUR IND PHY ONL COM STA"
+X-Kinja: app04.bfc.kinja-ops.com #368
+X-Kinja-Build: 368
+X-Kinja-Revision: 418986b0719f9f5ab6c9eddbbf1536ec98198805
+X-Kinja-Server: app04.bfc.kinja-ops.com
+X-Kinja-Warnings:
+Via: 1.1 varnish
+Set-Cookie: geocc=EU;path=/;
+x-cdn-fetch: mantle-setcookie
+Content-Length: 36393
+Accept-Ranges: bytes
+Date: Sat, 27 Jun 2015 18:47:31 GMT
+Via: 1.1 varnish
+Age: 0
+Connection: keep-alive
+X-Served-By: cache-jfk1032-JFK, cache-fra1221-FRA
+X-Cache: MISS, MISS
+X-Cache-Hits: 0, 0
+X-Timer: S1435430851.212731,VS0,VE749
+Vary: Accept-Encoding, X-Feature-Hash, X-Forwarded-Proto
+Set-Cookie: geocc=DE;path=/;
+

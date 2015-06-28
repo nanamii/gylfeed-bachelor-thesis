@@ -1,0 +1,7 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 20:25:00 GMT
+Server: Apache/2.2.29 (Unix) mod_ssl/2.2.29 OpenSSL/1.0.1e-fips mod_bwlimited/1.4
+Location: http://guykawasaki.com/atom.xml
+Vary: Accept-Encoding
+Content-Type: text/html; charset=iso-8859-1
+

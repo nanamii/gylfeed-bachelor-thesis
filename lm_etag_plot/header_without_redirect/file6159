@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 20:33:09 GMT
+Server: Apache
+X-Powered-By: PHP/5.4.42
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Etag: "1434612300"
+Cache-Control: public
+Pragma: public
+Set-Cookie: db406752458=dc58b28c4451f6d7b27a8e261db488a1; path=/
+Last-Modified: Thu, 18 Jun 2015 07:25:00 GMT
+Content-Type: application/xml
+

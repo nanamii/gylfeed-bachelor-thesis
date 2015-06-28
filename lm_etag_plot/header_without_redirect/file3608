@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 26 Jun 2015 19:21:11 GMT
+Content-Type: application/rss+xml; charset=utf-8
+Connection: keep-alive
+Keep-Alive: timeout=60
+Cache-Control: max-age=0, proxy-revalidate
+Expires: Fri, 26 Jun 2015 19:26:11 GMT
+Set-Cookie: FSession_id=AAB2Pe69HEskp1l9JxYNgVuJ9ZaoJ0CJE7+tB1iAabqqjBfM; domain=.fotki.yandex.ru; path=/; expires=Mon, 06 Jul 2015 19:21:11 GMT
+Set-Cookie: yandexuid=1202673181435346471; domain=.yandex.ru; path=/; expires=Tue, 19 Jan 2038 03:14:07 GMT
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+

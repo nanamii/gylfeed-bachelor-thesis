@@ -1,0 +1,18 @@
+HTTP/1.1 200 OK
+Server: nginx/1.0.15
+Date: Sat, 27 Jun 2015 19:22:34 GMT
+Content-Type: application/rss+xml; charset=utf-8
+Connection: keep-alive
+X-Powered-By: PHP/5.3.19
+Cache-Control: no-cache, must-revalidate, post-check=0, pre-check=0
+Content-Language: en
+X-WebNode: web5.examiner.com
+x-url: /rss/all/health-and-fitness
+x-host: www.examiner.com
+X-Varnish: 246049747
+Age: 0
+Via: 1.1 varnish-v4
+X-Varnish-Cache: MISS
+Content-Length: 21281
+Set-Cookie: BIGipServerproxy-pool=1905431050.20480.0000; path=/
+

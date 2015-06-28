@@ -1,0 +1,30 @@
+HTTP/1.1 200 OK
+Last-Modified: Sat, 27 Jun 2015 19:25:44 GMT
+Server: Microsoft-IIS/7.5
+X-Forwarded-For: 92.194.59.39, 92.197.129.23, 10.235.36.251
+X-Passed-To: NSDFSUWVMWWEB04, URL Rewrite on site RO (2015-06-27 15:25:44:065)
+X-Handled-By: NSDFSUWVMWWEB04, Rewrite on site RO
+X-Actual-URL: NSDFSUWVMWWEB04, (/apps/pbcs.dll/section?Category=NEWS04&template=RSS&mime=xml)
+X-Original-Request: /section/NEWS04&template=RSS&mime=xml
+X-Passed-To-DLL: NSDFSUWVMWWEB04, (2015-06-27 15:25:44:065)
+X-Passed-To-BeforeDispatch: NSDFSUWVMWWEB04, on site RO (2015-06-27 15:25:44:065)
+X-Returned-From-BeforeDispatch: NSDFSUWVMWWEB04, on site RO (2015-06-27 15:25:44:081)
+X-Passed-To-PostProcessResponse: NSDFSUWVMWWEB04, on site RO (2015-06-27 15:25:44:424)
+X-Returned-From-PostProcessResponse: NSDFSUWVMWWEB04, on site RO (2015-06-27 15:25:44:424)
+X-Returned-From-DLL: NSDFSUWVMWWEB04 (2015-06-27 15:25:44:424)
+X-Returned-From: NSDFSUWVMWWEB04(2015-06-27 15:25:44:424)
+X-Powered-By: ASP.NET
+ServedBy: JRCoWEB004
+X-UA: web
+Vary: X-UA
+X-Varnish-beresp-ttl: 60.000
+X-Varnish-beresp-grace: 300.000
+X-Varnish-beresp-status: 200
+Content-Length: 32236
+Accept-Ranges: bytes
+X-Varnish: 1839109745
+Cache-Control: must-revalidate, max-age=60
+Date: Sat, 27 Jun 2015 19:25:44 GMT
+Connection: keep-alive
+Content-Type: text/html;charset=iso-8859-1
+

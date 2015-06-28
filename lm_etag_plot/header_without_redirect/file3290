@@ -1,0 +1,20 @@
+HTTP/1.1 301 Moved Permanently
+Content-Length: 412
+Content-Type: text/html; charset=utf-8
+Location: /en-us/news/rss/default.aspx
+Server: Microsoft-IIS/8.5
+P3P: CP="ALL IND DSP COR ADM CONo CUR CUSo IVAo IVDo PSA PSD TAI TELo OUR SAMo CNT COM INT NAV ONL PHY PRE PUR UNI"
+X-AspNet-Version: 2.0.50727
+VTag: 27924426600000000
+X-Powered-By: ASP.NET
+X-Powered-By: ARR/2.5
+X-Powered-By: ASP.NET
+Expires: Fri, 26 Jun 2015 19:15:49 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Fri, 26 Jun 2015 19:15:49 GMT
+Connection: keep-alive
+Set-Cookie: ASP.NET_SessionId=v3izdnn3q1wevfro5jziffvg; path=/; HttpOnly
+X-CCC: FR
+X-CID: 2
+

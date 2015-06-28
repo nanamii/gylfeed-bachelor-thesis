@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 20:23:43 GMT
+Content-Type: application/atom+xml; charset=UTF-8
+Connection: keep-alive
+Set-Cookie: __cfduid=d3132ba3aeccaa0bf75dbf79057f02da81435436623; expires=Sun, 26-Jun-16 20:23:43 GMT; path=/; domain=.butterwithasideofbread.com; HttpOnly
+Vary: Accept-Encoding
+X-Powered-By: PHP/5.4.37
+X-Pingback: http://www.butterwithasideofbread.com/xmlrpc.php
+WP-Super-Cache: Served legacy cache file
+X-Cache: HIT from Backend
+Server: cloudflare-nginx
+CF-RAY: 1fd3df105d72159b-FRA
+

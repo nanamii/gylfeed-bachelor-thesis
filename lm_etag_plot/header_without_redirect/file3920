@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Age: 109
+Cache-control: public, max-age=600
+Content-Length: 11635
+Content-Type: application/atom+xml
+Date: Fri, 26 Jun 2015 19:25:05 GMT
+Server: Apache
+Via: 1.1 varnish
+X-Cache: HIT
+X-Device: desktop
+X-Powered-By: PHP/5.3.10-1ubuntu3.18
+X-Server: shachihoko
+X-Varnish: 1546433503 1546433078
+Connection: keep-alive
+

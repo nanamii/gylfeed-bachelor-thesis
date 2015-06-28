@@ -1,0 +1,11 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx/1.8.0
+Date: Fri, 26 Jun 2015 18:52:39 GMT
+Content-Type: text/html
+Connection: keep-alive
+X-Pingback: http://www.blogharrisburg.com/xmlrpc.php
+ETag: "01e97b977d7bbbceb46c2bbd71252a42"
+Set-Cookie: wfvt_4217576072=558d9f773fb46; expires=Fri, 26-Jun-2015 19:22:39 GMT; path=/; httponly
+Last-Modified: Sun, 07 Jun 2015 09:09:04 GMT
+Location: http://www.blogharrisburg.com/feed/
+

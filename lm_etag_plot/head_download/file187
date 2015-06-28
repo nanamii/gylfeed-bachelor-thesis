@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 18:36:35 GMT
+Server: Apache/2.2.29 (Unix)
+X-Powered-By: PHP/5.6.10
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+X-Pingback: http://davidshelton.de/blog/xmlrpc.php
+ETag: "7fa162e8a58b74c93f37171f99a7f4bd"
+Set-Cookie: PHPSESSID=njkljebo8uavl469ohjaqp9um0; path=/
+Last-Modified: Thu, 31 Jul 2014 11:40:38 GMT
+Content-Type: text/html; charset=iso-8859-1
+

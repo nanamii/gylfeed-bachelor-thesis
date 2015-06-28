@@ -1,0 +1,14 @@
+HTTP/1.1 302 Temporary Redirect
+Date: Fri, 26 Jun 2015 18:51:00 GMT
+Server: Apache
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+X-Pingback: http://www.makeorbreakmoments.com/xmlrpc.php
+ETag: "e194c0689a9947198ad0679cc82f8488"
+Set-Cookie: PHPSESSID=9b9rlm4b7p4gjtjg0nvcok7s10; path=/
+Last-Modified: Fri, 11 Apr 2014 17:34:10 GMT
+Location: http://feeds.feedburner.com/makeorbreakmoments/PnEL
+Vary: Accept-Encoding
+Content-Type: text/html
+

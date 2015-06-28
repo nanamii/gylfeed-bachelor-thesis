@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 19:49:15 GMT
+Server: Apache
+Set-Cookie: PHPSESSID=r5bjjme7qttu1doq4hboinm3j1; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+X-Pingback: http://www.tunecomic.com/xmlrpc.php
+Last-Modified: Fri, 17 Apr 2015 05:13:45 GMT
+ETag: "808c72d0e12829cee7a82c21f8d3ea5f"
+Vary: Accept-Encoding
+Connection: close
+Content-Type: text/xml; charset=UTF-8
+

@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 18:38:02 GMT
+Server: Apache/2.2.16 (Debian)
+X-Powered-By: PHP/5.3.3-7+squeeze9
+X-Pingback: http://tekkie.flashbit.net/xmlrpc.php
+Last-Modified: Tue, 25 Dec 2012 20:45:49 GMT
+ETag: "6f3cd024d955ba955e4a1e35f43c6458"
+Vary: Accept-Encoding
+Content-Type: text/xml; charset=UTF-8
+

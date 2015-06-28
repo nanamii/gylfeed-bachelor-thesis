@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 20:29:23 GMT
+Server: Apache
+X-Pingback: http://thinkinghow.com/xmlrpc.php
+ETag: "ca1a58d08aa0189f4063aa45e221ee0a"
+Set-Cookie: websitez_mobile_detector_v1-8=false%7C0%7Cfc5cebc2f8020c4a27d8b53cd4645a14; expires=Sat, 27-Jun-2015 21:29:23 GMT; path=/
+Set-Cookie: PHPSESSID=6372d3a5d3a9fe3092116b6b3aff747c; path=/
+Last-Modified: Thu, 04 Sep 2014 08:55:23 GMT
+Content-Type: text/html
+

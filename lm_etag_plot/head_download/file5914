@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sat, 27 Jun 2015 21:36:47 GMT
+Content-Type: text/xml; charset=UTF-8
+Content-Length: 204651
+Last-Modified: Sat, 27 Jun 2015 21:18:57 GMT
+Vary: Accept-Encoding
+ETag: "558f1341-31f6b"
+X-Backend-Server: wb4.betacie.net
+X-Feed-Name: rocketink
+Accept-Ranges: bytes
+

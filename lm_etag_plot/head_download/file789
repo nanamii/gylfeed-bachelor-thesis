@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: text/html; charset=UTF-8
+Cache-Control: max-age=3600, private
+X-Tx-Id: 5a71fa18-7d66-43b9-8191-b42932817633
+Expires: Sat, 27 Jun 2015 19:47:26 GMT
+Date: Sat, 27 Jun 2015 18:47:26 GMT
+Connection: keep-alive
+Set-Cookie: zdnetbeta=false; expires=Wed, 26-Aug-2015 18:47:26 GMT; path=/; domain=.zdnet.com
+Set-Cookie: fly_geo={"countryCode": "de"}; expires=Sat, 04-Jul-2015 18:47:26 GMT; path=/; domain=.zdnet.com
+Set-Cookie: fly_default_edition=eu; expires=Sat, 04-Jul-2015 18:47:26 GMT; path=/; domain=.zdnet.com
+Set-Cookie: fly_device=desktop; expires=Sat, 04-Jul-2015 18:47:26 GMT; path=/; domain=.zdnet.com
+

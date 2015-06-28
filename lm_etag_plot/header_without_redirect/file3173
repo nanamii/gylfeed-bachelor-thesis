@@ -1,0 +1,10 @@
+HTTP/1.1 301 Moved Permanently
+Server: Microsoft-IIS/7.5
+Pragma: akamai-x-cache-on, akamai-x-cache-remote-on, akamai-x-check-cacheable, akamai-x-get-cache-key, akamai-x-get-extracted-values, akamai-x-get-nonces, akamai-x-get-ssl-client-session-id, akamai-x-get-true-cache-key, akamai-x-serial-no, akamai-x-get-request-id
+Content-Type: text/html; charset=UTF-8
+Location: http://www.cpsc.gov/recalls/childrss
+X-Powered-By: ASP.NET
+Cache-Control: no-cache, no-store
+Date: Fri, 26 Jun 2015 19:14:44 GMT
+Connection: keep-alive
+

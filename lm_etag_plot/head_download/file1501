@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+X-Powered-By: PHP/5.4.41
+X-Pingback: http://www.realestateappraisalsaustin.com/xmlrpc.php
+Content-Type: text/html; charset=UTF-8
+Set-Cookie: PHPSESSID=otcnpffur27rb959idbd8o22r5; path=/
+Server:  - Web acceleration by http://www.unixy.net/advanced-hosting/varnish-litespeed-cpanel/ 
+X-Cacheable: YES
+Content-Length: 45595
+Accept-Ranges: bytes
+Date: Sat, 27 Jun 2015 19:18:43 GMT
+X-Varnish: 662341835
+Via: 1.1 varnish
+Connection: keep-alive
+age: 0
+X-Cache: MISS
+

@@ -1,0 +1,9 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 18:55:19 GMT
+Server: Apache
+X-Pingback: http://christinerobyn.com/xmlrpc.php
+Last-Modified: Wed, 10 Jun 2015 18:02:42 GMT
+ETag: "79d664ec0045a1b39fe99504caaf401b"
+Location: http://christinerobyn.com/feed/
+Content-Type: text/html
+

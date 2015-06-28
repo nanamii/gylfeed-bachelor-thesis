@@ -1,0 +1,9 @@
+HTTP/1.1 301 Moved Permanently
+Content-Length: 184
+Content-Type: text/html
+Date: Fri, 26 Jun 2015 19:11:12 GMT
+Location: http://topics.nytimes.com/top/features/timestopics/series/booming/index.html?rss=1
+NYT-Topic-Main: App
+Server: nginx/1.4.1
+Connection: keep-alive
+

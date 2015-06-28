@@ -1,0 +1,10 @@
+HTTP/1.1 302 Found
+Set-Cookie: ad_session_id=62386418%2c0%2c0+%7b179+1435352338+5EC915A28D9126CEBF67F71E4C6977FD2A923668%7d; Path=/; Max-Age=1200
+Location: http://feeds.feedburner.com/BorkwareMiniblog
+MIME-Version: 1.0
+Date: Fri, 26 Jun 2015 20:38:58 GMT
+Server: AOLserver/4.5.0
+Content-Type: text/html; charset=utf-8
+Content-Length: 325
+Connection: close
+

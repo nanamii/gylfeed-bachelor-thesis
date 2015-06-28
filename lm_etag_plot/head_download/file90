@@ -1,0 +1,17 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 18:32:59 GMT
+Server: Apache/2.2.15 (CentOS)
+X-Powered-By: PHP/5.3.3
+Set-Cookie: phpbb3_l24rb_u=1; expires=Sun, 26-Jun-2016 18:32:59 GMT; path=/; domain=.raywenderlich.com; HttpOnly
+Set-Cookie: phpbb3_l24rb_k=; expires=Sun, 26-Jun-2016 18:32:59 GMT; path=/; domain=.raywenderlich.com; HttpOnly
+Set-Cookie: phpbb3_l24rb_sid=7ab2c9a058ff25ada5e7c4b6d6079065; expires=Sun, 26-Jun-2016 18:32:59 GMT; path=/; domain=.raywenderlich.com; HttpOnly
+Set-Cookie: PHPSESSID=p7t38g007jr44moq46mpa038c5; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Vary: Cookie,Accept-Encoding
+X-Pingback: http://www.raywenderlich.com/xmlrpc.php
+Last-Modified: Sat, 27 Jun 2015 08:41:36 GMT
+X-Robots-Tag: noindex,follow
+Content-Type: text/xml; charset=UTF-8
+

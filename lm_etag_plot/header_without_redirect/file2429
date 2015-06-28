@@ -1,0 +1,25 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+X-Varnish: 456791747
+Vary: , Cookie
+Cache-Control: no-cache, must-revalidate, post-check=0, pre-check=0
+Content-Type: text/html
+X-Styx-Build-Sha: 39667cea44763e7df6d81c544b0d294bf223876f
+X-Pantheon-Styx-Hostname: styxe3d2930f
+X-Styx-Version: StyxGo
+Date: Fri, 26 Jun 2015 19:00:20 GMT
+Location: http://www.cbo.gov/publications/all/rss.xml
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+X-Drupal-Cache: MISS
+X-Styx-Req-Id: styx-1371218542bad55d5037e4d21bcb83ab
+Transfer-Encoding: chunked
+Accept-Ranges: bytes
+X-Pantheon-Endpoint: 09087634-8592-435d-85fc-5b4c5b4e552b
+Via: 1.1 varnish
+Connection: Keep-Alive
+X-Styx-Build-Date: Wed Apr 29 20:43:17 UTC 2015
+X-Powered-By: PHP/5.3.29
+X-Styx-Build-Num: 946
+X-Redirect-Id: 522
+Age: 0
+

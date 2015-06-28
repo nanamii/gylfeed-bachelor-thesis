@@ -1,0 +1,20 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx/1.4.6 (Ubuntu)
+Date: Fri, 26 Jun 2015 19:03:12 GMT
+Content-Type: text/html
+Content-Length: 185
+Cache-control: no-cache="set-cookie"
+Location: http://feeds.feedburner.com/Archdaily
+Set-Cookie: AWSELB=FD33C19C643C5B1FA32AA34AA5E0AE63DE2308143386C41801EE07D2D31011257FD5C97B1F03C8C35FA9214FFBEB354474640F6E6C6FDD56800B4404E7CD0D0F5178F6B8;PATH=/;MAX-AGE=60
+X-Varnish: 3768329
+Via: 1.1 varnish-v4
+X-Varnish-Main-Grace: none
+Vary: AD-Vary
+X-Varnish: 25423316 27237456
+Age: 2430
+Via: 1.1 varnish-v4
+X-Varnish-eu-west-1-Cache: HIT
+X-Varnish-eu-west-1-Expires: 602369.998
+X-Varnish-GeoIP: de
+Connection: keep-alive
+

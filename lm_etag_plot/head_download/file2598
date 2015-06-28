@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:39:40 GMT
+Server: Apache
+Last-Modified: Sat, 27 Jun 2015 19:27:23 GMT
+Accept-Ranges: bytes
+Content-Length: 71687
+Cache-Control: max-age=3, must-revalidate
+Expires: Sat, 27 Jun 2015 19:39:43 GMT
+Vary: Accept-Encoding,Cookie
+Content-Type: text/html; charset=UTF-8
+

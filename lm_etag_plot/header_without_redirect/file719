@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 18:07:57 GMT
+Server: Apache
+X-Pingback: http://sofanaranja.com/xmlrpc.php
+ETag: "1fd71d6f28370519f618bfe6d243d412"
+Last-Modified: Fri, 24 May 2013 08:29:12 GMT
+Content-Type: application/rss+xml; charset=UTF-8
+X-Pad: avoid browser bug
+

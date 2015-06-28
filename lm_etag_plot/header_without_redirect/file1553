@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 18:42:46 GMT
+Server: Apache
+X-Powered-By: Our kitchen
+Set-Cookie: cookiesbar=hide; expires=Sat, 25-Jun-2016 18:42:46 GMT; Max-Age=31536000; path=/; httponly
+Vary: Accept-Encoding,User-Agent
+Content-Type: text/xml; charset=utf-8
+X-Varnish-Host: cache1
+X-Cacheable: NO: Got an effin' cookie
+X-Varnish: 156086128
+Age: 0
+Via: 1.1 varnish-v4
+X-Cache: MISS
+

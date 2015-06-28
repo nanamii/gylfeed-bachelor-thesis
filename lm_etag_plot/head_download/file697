@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 18:46:32 GMT
+Server: Apache
+X-Powered-By: PHP/5.3.28
+X-Pingback: http://ukwebfocus.com/xmlrpc.php
+ETag: "6bc2f7c2fea0a9c9840213312013e207"
+X-Robots-Tag: noindex,follow
+Set-Cookie: _clef_state=iZRgyDXdShr0ENrWYXV8RDRl; expires=Sun, 28-Jun-2015 18:46:33 GMT; path=/; httponly
+Last-Modified: Fri, 26 Jun 2015 12:33:33 GMT
+Connection: close
+Content-Type: text/html
+Set-Cookie: DYNSRV=lin172; path=/
+

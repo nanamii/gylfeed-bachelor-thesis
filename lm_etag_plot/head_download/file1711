@@ -1,0 +1,17 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sat, 27 Jun 2015 19:21:59 GMT
+Content-Type: text/xml; charset=UTF-8
+Connection: keep-alive
+Keep-Alive: timeout=20
+X-Pingback: http://threemanycooks.com/xmlrpc.php
+Last-Modified: Wed, 27 May 2015 15:44:12 GMT
+ETag: "bb57f03a9eaec60832cb01aefc35fdbb-gzip"
+X-Robots-Tag: noindex,follow
+X-Cacheable: CacheAlways: feed
+Cache-Control: max-age=600, must-revalidate
+X-Cache: HIT: 1
+X-Pass-Why: 
+X-Cache-Group: 
+X-Type: feed
+

@@ -1,0 +1,19 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 20:34:11 GMT
+X-ServedBy: ny1-prod6-web042
+Set-Cookie: JSESSIONID=yMQpotDIPuWPNH4Hg9_Y2_D7cYFgnyZm1DxfkOGoM7aJeRGU1XrOSA;Path=/;HttpOnly
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Set-Cookie: crumb=8667ffd3c3;Path=/
+Set-Cookie: SS_MID=fc061b7a-aaaf-48bb-88f0-70140dfa55b6ibe2u557;Path=/;Domain=.collectiveagency.us;Expires=Mon, 23-Jun-2025 20:34:11 GMT
+Set-Cookie: ss_cid=b6b7dd3f-b8fd-464e-ad22-7e77fdf2e565;Path=/;Domain=.collectiveagency.us;Expires=Sun, 25-Jun-2017 20:34:11 GMT
+Set-Cookie: ss_cvisit=1435350851473;Path=/;Domain=.collectiveagency.us;Expires=Fri, 26-Jun-2015 21:04:11 GMT
+Accept-Ranges: bytes
+Content-Type: application/rss+xml; charset=UTF-8
+X-PC-Date: Fri, 26 Jun 2015 16:33:28 GMT
+X-PC-Host: 10.100.101.102
+ETag: W/"6970632103984a8a0816e75429f5d00b"
+X-PC-Key: jEejNHEEmSfDp7P0LWRaL3TBbHY-collectiveagency
+X-PC-Hit: true
+X-ContextId: lx2eP6N6/6SNWLbUb
+X-Via: 1.1 ny1-prod-echo001
+

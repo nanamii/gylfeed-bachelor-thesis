@@ -1,0 +1,12 @@
+HTTP/1.1 404 Not Found
+Date: Fri, 26 Jun 2015 18:52:10 GMT
+Server: Apache
+X-Powered-By: PHP/5.5.24
+Set-Cookie: sparks_last_visit=1119984730; expires=Sat, 25-Jun-2016 18:52:10 GMT; Max-Age=31536000; path=/; httponly
+Set-Cookie: sparks_last_activity=1435344730; expires=Sat, 25-Jun-2016 18:52:10 GMT; Max-Age=31536000; path=/; httponly
+Set-Cookie: sparks_tracker=%5B%22feed%22%5D; path=/; httponly
+Set-Cookie: sparks_csrf_token=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0; path=/; httponly
+Set-Cookie: sparks_csrf_token=1f87057c23d5bc6455c04d5f6148f34055e423ca; expires=Fri, 26-Jun-2015 20:52:10 GMT; Max-Age=7200; path=/; httponly
+Connection: close
+Content-Type: text/html
+

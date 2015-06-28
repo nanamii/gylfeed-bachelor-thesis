@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 21:25:45 GMT
+Server: Apache/2.2.22
+X-Powered-By: PHP/5.3.29
+Vary: Cookie,User-Agent,Accept-Encoding
+X-Pingback: http://randsinrepose.com/wp/xmlrpc.php
+ETag: "f43118e36f505aaf418d162712cc73c2"
+WP-Super-Cache: Served legacy cache file
+Content-Type: text/xml; charset=UTF-8
+

@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 20:27:31 GMT
+Server: Apache
+Vary: Cookie,Accept-Encoding
+X-Pingback: http://electronicexplorations.org/xmlrpc.php
+ETag: "505cd119edb2e2d93de4b916bdcf85af"
+WP-Super-Cache: Served legacy cache file
+Content-Type: text/xml; charset=UTF-8
+

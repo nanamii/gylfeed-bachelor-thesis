@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:47:24 GMT
+Content-Type: text/html; charset=utf-8
+Connection: keep-alive
+Set-Cookie: __cfduid=dd39c6d2074ee268ec7317dcdd6841a231435434443; expires=Sun, 26-Jun-16 19:47:23 GMT; path=/; domain=.winandmac.com; HttpOnly
+X-Pingback: http://www.winandmac.com/xmlrpc.php
+X-Powered-By: HHVM/3.5.0-dev+2014.12.11
+Last-Modified: Sat, 27 Jun 2015 17:40:31 GMT
+ETag: "03ec644c3a354df756ef7fbd20f2955b"
+Vary: User-Agent
+Server: cloudflare-nginx
+CF-RAY: 1fd3a9d6b0d0047f-FRA
+

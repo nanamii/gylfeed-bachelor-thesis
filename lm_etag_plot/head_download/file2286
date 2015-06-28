@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:32:39 GMT
+Server: Apache
+Cache-Control: no-cache, must-revalidate, max-age=0
+Pragma: no-cache
+Expires: Sat, 20 Jun 2015 19:14:37 GMT
+X-Pingback: http://www.newstoliveby.net/xmlrpc.php
+ETag: "67d77701ccff6d7bfee52733859626f5"
+Last-Modified: Sat, 27 Jun 2015 19:32:40 GMT
+Vary: Accept-Encoding
+Content-Type: text/xml; charset=UTF-8
+

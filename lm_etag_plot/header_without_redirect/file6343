@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 20:34:51 GMT
+Server: Apache/2.2.22
+X-Powered-By: PHP/5.3.29
+ETag: "c5988ae938d9cb232646fd755fc4b213"
+Set-Cookie: wfvt_1688465288=558db76c3b8b5; expires=Fri, 26-Jun-2015 21:04:52 GMT; path=/; httponly
+Last-Modified: Sun, 21 Jun 2015 16:53:23 GMT
+Vary: User-Agent,Accept-Encoding
+Content-Type: text/html
+

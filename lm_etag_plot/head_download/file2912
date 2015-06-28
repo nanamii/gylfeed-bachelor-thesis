@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Cache-Control: private
+Content-Type: text/html; charset=utf-8
+Expires: Fri, 26 Jun 2015 18:09:34 GMT
+Last-Modified: Mon, 09 Mar 2015 19:16:36 GMT
+Server: Microsoft-IIS/7.0
+X-AspNet-Version: 2.0.50727
+Date: Sat, 27 Jun 2015 19:48:46 GMT
+Connection: keep-alive
+Set-Cookie: mdr_browser=desktop; expires=Sat, 27-Jun-2015 21:48:46 GMT; path=/; domain=.olympic.org
+

@@ -1,0 +1,15 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 19:48:06 GMT
+Content-Type: text/html
+Connection: keep-alive
+Set-Cookie: __cfduid=dc33f578cdcd8db066260030c12abf5851435348084; expires=Sat, 25-Jun-16 19:48:04 GMT; path=/; domain=.gardenfork.tv; HttpOnly
+Cf-Railgun: direct (starting new WAN connection)
+Etag: W/"2409b249e0d2f09fb7689c267e549bab"
+Last-Modified: Fri, 26 Jun 2015 15:45:45 GMT
+Location: http://www.gardenfork.tv/feed
+Vary: User-Agent,Accept-Encoding
+X-Pingback: http://www.gardenfork.tv/xmlrpc.php
+X-Powered-By: PHP/5.3.29
+Server: cloudflare-nginx
+CF-RAY: 1fcb6d780bff236c-FRA
+

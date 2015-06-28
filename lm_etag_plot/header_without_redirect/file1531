@@ -1,0 +1,6 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 18:41:14 GMT
+Server: Apache
+Location: http://holtz.com/blog/index.php/weblog/rss_1.0/
+Content-Type: text/html; charset=iso-8859-1
+

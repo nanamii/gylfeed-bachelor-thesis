@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Server: Apache
+X-Pingback: http://positivesharing.com/xmlrpc.php
+ETag: "df9137c292520df55747c8acf0106d5b"
+X-Robots-Tag: noindex,follow
+Last-Modified: Mon, 22 Jun 2015 05:38:54 GMT
+Vary: Accept-Encoding
+Content-Type: text/xml; charset=UTF-8
+X-Cacheable: YES:Forced
+Date: Sat, 27 Jun 2015 18:46:19 GMT
+X-Varnish: 868982642 868982527
+Age: 93
+Via: 1.1 varnish
+Connection: keep-alive
+

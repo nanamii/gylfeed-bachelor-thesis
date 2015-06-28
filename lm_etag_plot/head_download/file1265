@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:13:51 GMT
+Server: Apache
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+X-Pingback: http://blog.cathyjonelson.com/xmlrpc.php
+ETag: "d9970d4d0fd82c8bfce09908e67afc92"
+Set-Cookie: PHPSESSID=5129khcqp692e46mqpuepv2fq6; path=/
+Last-Modified: Sun, 21 Jun 2015 19:53:26 GMT
+Vary: Accept-Encoding
+Content-Type: text/html
+

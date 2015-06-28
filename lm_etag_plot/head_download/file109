@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 18:33:21 GMT
+Server: Apache/2.2.22
+Last-Modified: Mon, 11 Aug 2014 20:10:20 GMT
+ETag: "db273ad-312-5006024f736c8"
+Accept-Ranges: bytes
+Content-Length: 786
+Vary: Accept-Encoding,User-Agent
+Content-Type: text/html
+

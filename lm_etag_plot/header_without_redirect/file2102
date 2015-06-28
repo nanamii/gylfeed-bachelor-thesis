@@ -1,0 +1,13 @@
+HTTP/1.1 404 Not Found
+Server: nginx
+Date: Fri, 26 Jun 2015 18:56:24 GMT
+Content-Type: text/xml; charset=UTF-8
+Connection: keep-alive
+Vary: Accept-Encoding
+X-Pingback: http://kevindaum.com/wbcntnt4527/xmlrpc.php
+ETag: "09e937d817d8daebe70e722c17e34443"
+Expires: Wed, 11 Jan 1984 05:00:00 GMT
+Cache-Control: no-cache, must-revalidate, max-age=0
+Pragma: no-cache
+Last-Modified: Fri, 26 Jun 2015 18:56:24 GMT
+

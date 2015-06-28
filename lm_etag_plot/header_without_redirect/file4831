@@ -1,0 +1,19 @@
+HTTP/1.1 200 OK
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+X-Pingback: http://harmonyinthegarden.com/xmlrpc.php
+Set-Cookie: PHPSESSID=1cfom10v55lc899m75v2feivf6; path=/
+Last-Modified: Tue, 23 Jun 2015 16:16:56 GMT
+ETag: "3e2e7366b5ddc2bf3a4f92766285aacc"
+Content-Type: text/html
+X-Port: port_10312
+X-Cacheable: YES:Forced
+Accept-Ranges: bytes
+Date: Fri, 26 Jun 2015 19:46:26 GMT
+Age: 0
+Vary: Accept-Encoding, User-Agent
+X-Cache: uncached
+X-Cache-Hit: MISS
+X-Backend: wpaas_web_131
+

@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:22:39 GMT
+Server: Apache/2.4.12 (Unix) OpenSSL/1.0.1e-fips mod_bwlimited/1.4 mod_fcgid/2.3.9
+Last-Modified: Fri, 26 Jun 2015 13:08:15 GMT
+ETag: "113-5196b6ed1edc0"
+Accept-Ranges: bytes
+Content-Length: 275
+Cache-Control: max-age=300, public
+Expires: Sat, 27 Jun 2015 19:27:39 GMT
+Pragma: public
+X-Powered-By: W3 Total Cache/0.9.4
+Content-Type: text/xml
+

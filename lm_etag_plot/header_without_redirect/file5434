@@ -1,0 +1,8 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx/1.0.15
+Date: Fri, 26 Jun 2015 20:16:02 GMT
+Content-Type: text/html
+Connection: keep-alive
+Content-Length: 178
+Location: http://www.urbansketchers.org
+

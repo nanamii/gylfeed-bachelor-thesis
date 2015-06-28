@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:49:47 GMT
+Server: Apache/2.2.15
+X-Powered-By: PHP/5.3.3
+X-Pingback: http://cameradojo.com/xmlrpc.php
+ETag: "23e000421e3e318da42443e34ad8031e"
+Set-Cookie: wfvt_3711114832=558efe5b71b18; expires=Sat, 27-Jun-2015 20:19:47 GMT; path=/; httponly
+Last-Modified: Wed, 29 Apr 2015 03:36:48 GMT
+Connection: close
+Content-Type: text/html; charset=UTF-8
+

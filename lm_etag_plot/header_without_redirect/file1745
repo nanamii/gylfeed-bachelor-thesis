@@ -1,0 +1,16 @@
+HTTP/1.1 404 Not Found
+P3P: CP="Facebook does not have a P3P policy. Learn why here: http://fb.me/p3p"
+X-XSS-Protection: 0
+X-Frame-Options: DENY
+X-Content-Type-Options: nosniff
+Pragma: no-cache
+Cache-Control: private, no-cache, no-store, must-revalidate
+Expires: Sat, 01 Jan 2000 00:00:00 GMT
+Set-Cookie: reg_fb_ref=http%3A%2F%2Fwww.facebook.com%2Ffeeds%2Fpage.php%3Fformat%3Datom10%26id%3D157366497612564; path=/; domain=.facebook.com; httponly
+Set-Cookie: reg_fb_gate=http%3A%2F%2Fwww.facebook.com%2Ffeeds%2Fpage.php%3Fformat%3Datom10%26id%3D157366497612564; path=/; domain=.facebook.com; httponly
+Vary: Accept-Encoding
+Content-Type: text/html
+X-FB-Debug: jmnNh7grJ0A+cvPskJ64VgABlNKkpzyKL0LF0ce0xoQX7UbEpPtoK8cDvDfzNkXfKtCL8Jupt22IvCxmzOVUxg==
+Date: Fri, 26 Jun 2015 18:50:53 GMT
+Connection: keep-alive
+

@@ -1,0 +1,25 @@
+HTTP/1.1 200 OK
+Cache-Control: public, max-age=900
+Content-Language: en
+Content-Type: text/html; charset=utf-8
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Last-Modified: Fri, 26 Jun 2015 17:55:02 GMT
+Link: <http://www.newstatesman.com/feeds/contents.rss>; rel="shortlink",<http://www.newstatesman.com/feeds/contents.rss>; rel="canonical",<http://www.newstatesman.com>; rel="publisher"
+Server: nginx
+X-Drupal-Cache: HIT
+X-Generator: Drupal 7 (http://drupal.org)
+X-Pantheon-Endpoint: 05ccd237-763b-4313-ad5a-c1afec6304c7
+X-Pantheon-Styx-Hostname: styx89e23dcf
+X-Powered-By: PHP/5.3.29
+X-Styx-Build-Date: Wed Apr 29 20:43:17 UTC 2015
+X-Styx-Build-Num: 946
+X-Styx-Build-Sha: 39667cea44763e7df6d81c544b0d294bf223876f
+X-Styx-Req-Id: styx-3d56b2be7d9537c32a084329e9ff8f21
+X-Styx-Version: StyxGo
+Date: Fri, 26 Jun 2015 19:01:36 GMT
+X-Varnish: 3081793719 3081505615
+Age: 495
+Via: 1.1 varnish
+Connection: keep-alive
+Vary: Accept-Encoding, Cookie, Cookie
+

@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 18:37:50 GMT
+Server: Apache/2.2.22
+X-Powered-By: PHP/5.3.29
+X-Pingback: http://blog.gskinner.com/xmlrpc.php
+ETag: "cf7eeaf2b1c9a7bf7f94552444974c0b"
+X-Robots-Tag: noindex,follow
+Last-Modified: Tue, 23 Jun 2015 22:12:16 GMT
+Vary: User-Agent,Accept-Encoding
+Content-Type: text/html
+

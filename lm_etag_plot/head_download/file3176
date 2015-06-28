@@ -1,0 +1,18 @@
+HTTP/1.1 200 OK
+Server: nginx
+X-Cacheable: CacheAlways: feed
+Cache-Control: max-age=600, must-revalidate
+X-Cache: HIT: 23
+Content-Type: text/xml; charset=UTF-8
+X-Cache-Group: 
+Date: Sat, 27 Jun 2015 19:52:52 GMT
+X-Pingback: http://scienceblogs.com/startswithabang/xmlrpc.php
+Keep-Alive: timeout=20
+X-Type: feed
+Transfer-Encoding: chunked
+ETag: "2f9500c7775a40523fd22ac729f68fa6"
+Connection: Keep-Alive
+X-Pass-Why: 
+Set-Cookie: X-Mapping-fjhppofk=A7C2851DE66149F36FC6550361375A16; path=/
+Last-Modified: Sat, 27 Jun 2015 13:20:37 GMT
+

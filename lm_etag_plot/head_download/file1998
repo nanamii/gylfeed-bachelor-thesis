@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:25:05 GMT
+Server: Apache
+Cache-Control: max-age=31536000
+Expires: Sun, 26 Jun 2016 19:25:05 GMT
+Vary: Accept-Encoding
+Connection: close
+Content-Type: application/rss+xml
+

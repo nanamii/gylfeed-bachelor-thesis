@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Content-Encoding: gzip
+Accept-Ranges: bytes
+Cache-Control: max-age=1800
+Content-Type: text/xml; charset=UTF-8
+Date: Fri, 26 Jun 2015 19:24:59 GMT
+Expires: Fri, 26 Jun 2015 19:54:51 GMT
+Last-Modified: Fri, 26 Jun 2015 17:57:50 GMT
+Server: ECS (frf/87A8)
+X-Cache: HIT
+X-Cache-Hits: 2
+X-Pingback: http://www.pewresearch.org/xmlrpc.php
+X-Served-By: pew-vp-ash02.siteworx.com
+X-UA-Compatible: IE=edge,chrome=1
+Content-Length: 2680
+

@@ -1,0 +1,23 @@
+HTTP/1.1 200 OK
+Cache-Control: private
+Content-Type: text/html;charset=utf-8
+Date: Sat, 27 Jun 2015 19:58:20 GMT
+Expires: Fri, 26 Jun 2015 19:58:20 GMT
+Pragma: no-cache
+Server: ecomserviceprod i-00fe37f9
+Set-Cookie: memclid=c12a2caf-4b70-48bf-9c2e-cb7f5869e153; Domain=.netflix.com; Expires=Sun, 26-Jun-2016 19:58:20 GMT; Path=/
+Set-Cookie: tlr=DE|1435435100346; Domain=.netflix.com; Expires=Tue, 21-Jun-2016 19:58:20 GMT
+Set-Cookie: VisitorId=""; Domain=.netflix.com; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+Set-Cookie: nmp=""; Domain=.netflix.com; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+Set-Cookie: nmt=""; Domain=.netflix.com; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+Set-Cookie: vid=""; Domain=.netflix.com; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+Strict-Transport-Security: max-age=0; includeSubDomains
+Vary: Accept-Encoding
+via: 1.1 i-0d7259a7 (eu-west-1)
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Netflix.nfstatus: 1
+X-Originating-URL: https://www.netflix.com/entrytrap?locale=de-DE&nextpage=http%3A%2F%2Fwww.netflix.com%2F404
+X-Xss-Protection: 1; mode=block
+Connection: keep-alive
+

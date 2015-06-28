@@ -1,0 +1,14 @@
+HTTP/1.1 302 Moved Temporarily
+Server: nginx/1.8.0
+Date: Fri, 26 Jun 2015 18:18:18 GMT
+Content-Type: text/html
+Connection: keep-alive
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+X-Pingback: http://feliciaslattery.com/xmlrpc.php
+ETag: "b1a07b9f36dea8917c36d059ffbfe04f"
+Set-Cookie: PHPSESSID=a2a93fcb6962e8bd6ff77ba35604e8c4; path=/
+Last-Modified: Tue, 26 May 2015 15:55:53 GMT
+Location: http://feeds.feedburner.com/feliciaslattery
+

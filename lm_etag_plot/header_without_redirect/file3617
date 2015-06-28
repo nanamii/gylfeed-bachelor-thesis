@@ -1,0 +1,10 @@
+HTTP/1.1 301 Moved Permanently
+Access-Control-Allow-Origin: *
+Content-Type: text/html; charset=UTF-8
+Date: Fri, 26 Jun 2015 19:21:21 GMT
+Location: http://www.caltech.edu/content/redirect
+Server: Apache/2.2.29 (Amazon)
+X-Drupal-Cache: MISS
+X-Frame-Options: SAMEORIGIN
+Connection: keep-alive
+

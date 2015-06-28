@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 21:15:48 GMT
+Server: Apache
+X-Pingback: http://www.identityblog.com/xmlrpc.php
+Last-Modified: Fri, 12 Jun 2015 00:43:35 GMT
+ETag: "939dc2cd6c35a420000f15ec20096436"
+Cache-Control: max-age=3600
+Expires: Sat, 27 Jun 2015 22:15:48 GMT
+Content-Type: text/html
+

@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 21:25:13 GMT
+Content-Type: text/xml; charset=UTF-8
+Connection: keep-alive
+Set-Cookie: __cfduid=de049c07fe36913a02e64de7b927274e31435440313; expires=Sun, 26-Jun-16 21:25:13 GMT; path=/; domain=.shkspr.mobi; HttpOnly
+X-CF-Powered-By: WP 1.3.18
+X-Pingback: http://shkspr.mobi/blog/xmlrpc.php
+ETag: "030fb1086305f0f87f38293166a00cfa"
+Last-Modified: Thu, 25 Jun 2015 08:53:04 GMT
+CF-Cache-Status: HIT
+Expires: Sun, 28 Jun 2015 01:25:13 GMT
+Cache-Control: public, max-age=14400
+Server: cloudflare-nginx
+CF-RAY: 1fd4392622c3047f-FRA
+

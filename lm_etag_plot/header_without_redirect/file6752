@@ -1,0 +1,9 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 20:43:44 GMT
+Server: Apache
+X-Pingback: http://edgevillebuzz.com/xmlrpc.php
+ETag: "245fd51434cb989deda9554ad3673f45"
+Last-Modified: Fri, 26 Jun 2015 16:36:12 GMT
+Location: http://edgevillebuzz.com/feed
+Content-Type: text/html
+

@@ -1,0 +1,8 @@
+HTTP/1.1 301 Moved Permanently
+Location: http://www.moleskine.com/static/atom.xml
+Content-Length: 0
+Date: Fri, 26 Jun 2015 19:46:40 GMT
+Connection: keep-alive
+Set-Cookie: TS0135276a=0102c2d867a75a26538791bcec9fd4c60ab323aaada92aeb7b8220f378df65807b875c9a07; Path=/
+Set-Cookie: BIGipServer~F5_NX_DMZ~mlsk01web-asm_pool=rd1o00000000000000000000ffff0a2e8038o80; path=/
+

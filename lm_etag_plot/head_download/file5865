@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 21:34:58 GMT
+Server: Apache
+Vary: Cookie,Accept-Encoding
+X-Pingback: http://kickingbear.com/blog/xmlrpc.php
+ETag: "d83455fb9a2ff3cc59d4ec2a82ec2444"
+WP-Super-Cache: Served legacy cache file
+MS-Author-Via: DAV
+Content-Type: text/xml; charset=UTF-8
+

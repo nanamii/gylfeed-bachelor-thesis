@@ -1,0 +1,10 @@
+HTTP/1.1 302 Moved Temporarily
+Date: Fri, 26 Jun 2015 19:18:06 GMT
+Connection: keep-alive
+Set-Cookie: __cfduid=db936298f9949fc4b2e19cd78f8d6f0501435346286; expires=Sat, 25-Jun-16 19:18:06 GMT; path=/; domain=.pandodaily.com; HttpOnly
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Location: http://pando.com/feed/
+Server: cloudflare-nginx
+CF-RAY: 1fcb419469a801b0-FRA
+

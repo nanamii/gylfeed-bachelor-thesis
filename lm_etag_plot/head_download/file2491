@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Content-Length: 0
+Content-Type: text/xml; charset=UTF-8
+Last-Modified: Tue, 03 Sep 2013 14:27:29 GMT
+ETag: "8c8b217e6da9d411cfb12a46d6fcc261"
+Server: Microsoft-IIS/7.5
+X-Powered-By: PHP/5.4.14
+Set-Cookie: PHPSESSID=rpt89tdnjn27tqiqjvafksc4u6; path=/
+X-Pingback: http://www.jesuit.org/blog/xmlrpc.php
+X-Powered-By: ASP.NET
+Date: Sat, 27 Jun 2015 19:35:07 GMT
+

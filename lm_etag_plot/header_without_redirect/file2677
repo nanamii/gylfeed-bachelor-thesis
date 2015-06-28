@@ -1,0 +1,11 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx admin
+Date: Fri, 26 Jun 2015 19:07:49 GMT
+Content-Type: text/html; charset=UTF-8
+Content-Length: 0
+Connection: keep-alive
+X-Powered-By: PHP/5.5.17
+X-Pingback: http://www.sana.sy/xmlrpc.php
+Location: http://www.sana.sy/eng/22/rss.xml/
+X-Cache: HIT from Backend
+

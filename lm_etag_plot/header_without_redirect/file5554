@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 20:17:13 GMT
+Server: Apache
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+X-Pingback: http://careersherpa.net/xmlrpc.php
+X-Robots-Tag: noindex,follow
+Set-Cookie: PHPSESSID=grj9rnrie6ctlhqokf1uedl3b0; path=/
+Last-Modified: Wed, 24 Jun 2015 09:03:30 GMT
+ETag: "65912963c899b9b37cf57b4b35e890d3"
+Content-Type: text/html
+

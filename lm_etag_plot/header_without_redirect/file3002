@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Server: nginx/0.7.65
+Date: Fri, 26 Jun 2015 19:10:24 GMT
+Content-Type: application/rss+xml
+Connection: keep-alive
+Cache-Control: max-age=300
+Vary: Accept-Encoding
+Expires: Fri, 26 Jun 2015 19:12:43 GMT
+Last-Modified: Fri, 26 Jun 2015 19:07:43 GMT
+

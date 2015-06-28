@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:46:06 GMT
+Server: Apache/2.4.10 (Fedora) OpenSSL/1.0.1e-fips PHP/5.5.25 mod_perl/2.0.9-dev Perl/v5.18.4
+X-Powered-By: PHP/5.5.25
+Set-Cookie: SESS00be74b89d347a8c3cb30a12b2378b79=6jco1i6cbpb1jqivpgb2n3n2q5; expires=Mon, 20-Jul-2015 23:19:26 GMT; Max-Age=2000000; path=/; domain=.ischool.berkeley.edu
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Last-Modified: Sat, 27 Jun 2015 19:46:06 GMT
+Cache-Control: store, no-cache, must-revalidate
+Cache-Control: post-check=0, pre-check=0
+Content-Type: application/rss+xml; charset=utf-8
+

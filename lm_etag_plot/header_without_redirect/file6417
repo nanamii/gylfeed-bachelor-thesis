@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 20:35:53 GMT
+Server: Apache
+Vary: Cookie,Accept-Encoding
+X-Pingback: http://www.neglectedpotential.com/xmlrpc.php
+ETag: "ac32494b842300b69bb273baeb636371"
+WP-Super-Cache: Served legacy cache file
+Content-Type: text/xml; charset=UTF-8
+

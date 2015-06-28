@@ -1,0 +1,13 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx/1.6.2
+Date: Fri, 26 Jun 2015 19:27:10 GMT
+Content-Type: text/html; charset=utf8
+Connection: keep-alive
+X-Powered-By: PHP/5.3.10-1ubuntu3.14
+X-Drupal-Cache: MISS
+Last-Modified: Fri, 26 Jun 2015 19:27:10 +0000
+Cache-Control: no-cache, must-revalidate, post-check=0, pre-check=0
+ETag: "1435346830"
+Location: http://www.albawaba.com/rss/entertainment
+X-Upstream-Addr: 127.0.0.1:88
+

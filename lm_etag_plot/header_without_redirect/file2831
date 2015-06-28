@@ -1,0 +1,13 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 19:08:38 GMT
+Server: Apache
+Expires: Fri, 19 Jun 2015 19:08:38 GMT
+Cache-Control: no-cache, must-revalidate, max-age=0
+Pragma: no-cache
+X-Pingback: http://www.newstoliveby.net/xmlrpc.php
+ETag: "67d77701ccff6d7bfee52733859626f5"
+Last-Modified: Fri, 26 Jun 2015 18:57:06 GMT
+Location: http://www.newstoliveby.net/feed/
+Vary: Accept-Encoding
+Content-Type: text/html
+

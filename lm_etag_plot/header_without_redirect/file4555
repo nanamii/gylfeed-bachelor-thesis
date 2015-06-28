@@ -1,0 +1,9 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 19:43:36 GMT
+Server: Apache/2.4.12
+X-Pingback: http://www.chuckchat.com/gmail/xmlrpc.php
+Last-Modified: Sun, 13 Nov 2011 23:30:29 GMT
+ETag: "873a94285eefcacdfd4f66002e685b02"
+Location: http://www.chuckchat.com/gmail/feed/
+Content-Type: text/html
+

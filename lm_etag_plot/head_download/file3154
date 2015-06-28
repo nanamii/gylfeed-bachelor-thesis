@@ -1,0 +1,19 @@
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+Connection: keep-alive
+Cache-Control: max-age=60
+Cache-Control: public, must-revalidate, proxy-revalidate, s-max-age=60
+Date: Sat, 27 Jun 2015 19:52:30 GMT
+ETag: "85bb57279184e2d39c66bf86cc2e476a"
+Expires: Sat, 27 Jun 2015 19:53:30 GMT
+Last-Modified: Mon, 13 Jan 2014 16:33:57 GMT
+Server: nginx
+Strict-Transport-Security: max-age=0
+X-Content-Type-Options: nosniff
+X-Pingback: http://scienceprogress.org/xmlrpc.php
+X-XSS-Protection: 1; mode=block
+Vary: Accept-Encoding
+X-Cache: Miss from cloudfront
+Via: 1.1 981c342b06dd163b72f93e9cdd045e1f.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: OyI7taJ0JW38-idyTFs3dVZxmdTH6dsrYubO4-eP14OkYjXQqV5uDA==
+

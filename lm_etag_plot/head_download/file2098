@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Server: Apache/2.2.15 (CentOS)
+Last-Modified: Sat, 27 Jun 2015 18:14:20 GMT
+ETag: "b55eac89d4d3582d-6b55-51983d3500ee7"
+Access-Control-Allow-Origin: *
+Content-Type: text/xml
+Cache-Control: max-age=60
+Expires: Sat, 27 Jun 2015 19:28:29 GMT
+Date: Sat, 27 Jun 2015 19:27:29 GMT
+Connection: keep-alive
+

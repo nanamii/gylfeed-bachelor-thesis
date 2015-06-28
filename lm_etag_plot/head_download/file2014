@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Server: Apache
+Content-Type: text/xml
+Access-Control-Allow-Origin: *
+Content-Length: 462
+Accept-Ranges: bytes
+Date: Sat, 27 Jun 2015 19:25:16 GMT
+X-Varnish: 1958389803 1958389586
+Age: 49
+Via: 1.1 varnish
+Connection: keep-alive
+X-Cache: HIT
+X-Cache-Hits: 2
+Set-Cookie: NSC_159.54.246.158_80=ffffffff09b53b9445525d5f4f58455e445a4a423660;expires=Sat, 27-Jun-2015 19:27:16 GMT;path=/;httponly
+

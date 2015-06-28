@@ -1,0 +1,10 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 18:04:32 GMT
+Content-Type: text/html; charset=iso-8859-1
+Connection: keep-alive
+Set-Cookie: __cfduid=db787fcaf54b0a3a7b9a88c006f5dcf021435341872; expires=Sat, 25-Jun-16 18:04:32 GMT; path=/; domain=.markboulton.co.uk; HttpOnly
+Location: http://markboulton.co.uk/journal/feed
+Vary: Accept-Encoding
+Server: cloudflare-nginx
+CF-RAY: 1fcad5cc4f3b2354-FRA
+

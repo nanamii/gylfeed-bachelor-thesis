@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Cache-Control: max-age=300
+Content-Language: en
+Content-Length: 16411
+Content-Type: application/rss+xml; charset=utf-8
+Last-Modified: Sat, 27 Jun 2015 19:36:20 +0000
+Server: ZWS/4.0
+X-ttl: 120.000
+X-VarCache: CacheHit (3)
+Date: Sat, 27 Jun 2015 19:32:13 GMT
+Connection: keep-alive
+

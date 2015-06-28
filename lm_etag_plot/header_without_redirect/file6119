@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 20:32:44 GMT
+Server: Apache
+X-Pingback: http://guerillascience.org/xmlrpc.php
+ETag: "0411c160575c5aa312c755641d34f66d"
+Last-Modified: Fri, 26 Jun 2015 12:00:51 GMT
+Vary: Accept-Encoding
+Content-Type: text/html
+X-Pad: avoid browser bug
+

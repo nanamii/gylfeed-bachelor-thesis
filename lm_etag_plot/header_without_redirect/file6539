@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 26 Jun 2015 20:39:21 GMT
+Content-Type: text/xml; charset=UTF-8
+Content-Length: 22527
+Last-Modified: Fri, 26 Jun 2015 20:25:00 GMT
+Vary: Accept-Encoding
+ETag: "558db51c-57ff"
+X-Backend-Server: wb5.betacie.net
+Accept-Ranges: bytes
+

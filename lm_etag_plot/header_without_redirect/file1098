@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Server: nginx/1.8.0
+Date: Fri, 26 Jun 2015 18:17:20 GMT
+Content-Type: text/html
+Connection: keep-alive
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+X-Pingback: http://feliciaslattery.com/a/xmlrpc.php
+ETag: "86ad18e554bcea79c9775ada9e3e9bf8"
+Set-Cookie: PHPSESSID=efc260b123c0c202184e3edba6393bcf; path=/
+Last-Modified: Fri, 19 Dec 2014 17:04:57 GMT
+

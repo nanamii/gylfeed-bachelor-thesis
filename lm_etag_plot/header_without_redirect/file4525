@@ -1,0 +1,8 @@
+HTTP/1.1 301 Moved Permanently
+Content-Type: text/html; charset=iso-8859-1
+Date: Fri, 26 Jun 2015 19:43:20 GMT
+Location: http://www.dannychoo.com/feed/en.xml
+Server: Apache
+Vary: Accept-Encoding
+Connection: keep-alive
+

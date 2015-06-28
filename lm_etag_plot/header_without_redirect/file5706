@@ -1,0 +1,8 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx/0.8.53
+Date: Fri, 26 Jun 2015 20:21:06 GMT
+Content-Type: text/html
+Content-Length: 185
+Connection: keep-alive
+Location: http://www.dreamhost.com/dreamscape/feed/
+

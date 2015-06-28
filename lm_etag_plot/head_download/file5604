@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 21:25:09 GMT
+Server: Apache/2.2.22
+X-Powered-By: PHP/5.3.29
+X-Pingback: http://spitalfieldslife.com/xmlrpc.php
+ETag: "817ba6d7d76143122ce8780c327ffb6e"
+Last-Modified: Fri, 26 Jun 2015 23:01:14 GMT
+Vary: User-Agent,Accept-Encoding
+Content-Type: text/xml; charset=UTF-8
+

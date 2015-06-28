@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 19:02:05 GMT
+Server: Apache
+Set-Cookie: RMID=007f010007d5558da1ad0010; Expires=Sat, 25 Jun 2016 19:02:05 GMT; Path=/; Domain=.nytimes.com;
+X-API-Version: 4
+Vary: Host
+Connection: close
+Content-Type: application/xml
+

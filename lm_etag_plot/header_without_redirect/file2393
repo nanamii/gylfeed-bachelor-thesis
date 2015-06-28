@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 19:00:12 GMT
+Server: Apache/2.2.15 (Red Hat)
+Last-Modified: Fri, 26 Jun 2015 19:00:01 GMT
+ETag: "b00cfe-3bd8-5197058d5ee40"
+Accept-Ranges: bytes
+Content-Length: 15320
+Cache-Control: max-age=300
+Expires: Fri, 26 Jun 2015 19:05:12 GMT
+Vary: Accept-Encoding
+Content-Type: text/xml
+

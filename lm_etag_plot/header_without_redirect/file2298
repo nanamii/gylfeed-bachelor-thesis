@@ -1,0 +1,14 @@
+HTTP/1.0 200 OK
+Set-Cookie: COOKIENAME=R3348725039; path=/
+Date: Fri, 26 Jun 2015 18:58:33 GMT
+Server: Apache
+Cache-Control: max-age=300, public
+Expires: Fri, 26 Jun 2015 19:03:33 GMT
+Vary: Accept-Encoding,User-Agent
+P3P: CP="CAO DSP COR CURa ADMa DEVa TAIa OUR IND UNI COM NAV INT PRE"
+Content-Type: application/xml
+X-Cache: MISS from s259722ch3vl47.uschcg6.savvis.net
+X-Cache-Lookup: MISS from s259722ch3vl47.uschcg6.savvis.net:80
+Via: 1.0 s259722ch3vl47.uschcg6.savvis.net (squid)
+Connection: keep-alive
+

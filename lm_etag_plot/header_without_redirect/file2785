@@ -1,0 +1,8 @@
+HTTP/1.1 301 Moved Permanently
+Cache-Control: public, max-age=86400
+Content-Type: text/html
+Date: Fri, 26 Jun 2015 19:07:01 GMT
+Location: http://www.richmond.com/feed/rss/news/national/
+Connection: Keep-Alive
+Content-Length: 0
+

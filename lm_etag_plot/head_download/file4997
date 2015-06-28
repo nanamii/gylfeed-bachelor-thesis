@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 21:10:00 GMT
+Server: Apache
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Cache-Control: store, no-cache, must-revalidate, post-check=0, pre-check=0
+Set-Cookie: SESSb56353f152bf4dd54d4a324df1f8f6ef=n01bj7k4imtmiitmmartshe0h0; expires=Tue, 21-Jul-2015 00:43:20 GMT; path=/; domain=.gallifreyanembassy.org
+Last-Modified: Sat, 27 Jun 2015 21:10:00 GMT
+Vary: Accept-Encoding
+Content-Type: application/rss+xml; charset=utf-8
+

@@ -1,0 +1,12 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 19:45:40 GMT
+Content-Type: text/html; charset=iso-8859-1
+Connection: keep-alive
+Set-Cookie: __cfduid=da0abb215ad03a28183e5987681f585f01435347939; expires=Sat, 25-Jun-16 19:45:39 GMT; path=/; domain=.rootsimple.com; HttpOnly
+Location: http://www.rootsimple.com/feeds/posts/default/
+Cache-Control: max-age=31536000
+Expires: Sat, 25 Jun 2016 19:45:40 GMT
+Vary: Accept-Encoding
+Server: cloudflare-nginx
+CF-RAY: 1fcb69f0235015cb-FRA
+

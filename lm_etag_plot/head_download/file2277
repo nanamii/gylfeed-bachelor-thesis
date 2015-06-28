@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Server: nginx/1.8.0
+Date: Sat, 27 Jun 2015 19:32:32 GMT
+Content-Type: text/html
+Connection: keep-alive
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+X-Pingback: http://firstchoiceweather.com/xmlrpc.php
+ETag: "fe9923c720c942d5d88a38728be45cf2"
+Set-Cookie: PHPSESSID=afa2b6d945e264ee5583a42686a4851c; path=/
+Set-Cookie: quick_chat_alias=Guest_513; path=/
+Set-Cookie: reganto_post_views_count_1068=1; expires=Tue, 28-Jul-2015 19:32:32 GMT
+Last-Modified: Mon, 08 Dec 2014 15:01:02 GMT
+

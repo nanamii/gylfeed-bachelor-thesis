@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 18:03:55 GMT
+Server: Apache/2.2.22 (Ubuntu)
+Last-Modified: Sat, 23 Mar 2013 00:36:17 GMT
+ETag: "1d80db8-ed-4d88cc27f8240"
+Accept-Ranges: bytes
+Content-Length: 237
+Vary: Accept-Encoding
+Content-Type: text/html
+X-Pad: avoid browser bug
+Set-Cookie: SERVERID=B; path=/
+

@@ -1,0 +1,9 @@
+HTTP/1.0 302 Moved Temporarily
+Server: Apache
+Location: http://feeds.people.com/people/headlines
+Content-Type: text/html; charset=iso-8859-1
+Accept-Ranges: bytes
+X-Varnish: 769972107
+Date: Fri, 26 Jun 2015 19:27:09 GMT
+Connection: keep-alive
+

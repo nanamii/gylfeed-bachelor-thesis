@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sat, 27 Jun 2015 19:05:55 GMT
+Content-Type: text/xml; charset=UTF-8
+Content-Length: 117867
+Last-Modified: Sat, 27 Jun 2015 11:00:50 GMT
+Vary: Accept-Encoding
+ETag: "558e8262-1cc6b"
+X-Backend-Server: wb10.betacie.net
+X-Feed-Name: marketingtechnology
+Accept-Ranges: bytes
+

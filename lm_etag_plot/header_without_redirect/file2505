@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Server: Apache
+Set-Cookie: SITE=AP; Path=/
+Set-Cookie: SECTION=HOME; Path=/
+X-Server-Name: customwire.ap.org
+X-Cnection: close
+Content-Type: text/xml
+Cache-Control: max-age=59
+Date: Fri, 26 Jun 2015 19:00:57 GMT
+Connection: keep-alive
+

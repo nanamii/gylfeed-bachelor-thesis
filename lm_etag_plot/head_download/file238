@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 14:33:58 GMT
+X-Pingback: http://www.hongkiat.com/blog/xmlrpc.php
+Link: <http://www.hongkiat.com/blog/wp-json>; rel="https://github.com/WP-API/WP-API"
+Vary: Accept-Encoding,Cookie
+Last-Modified: Fri, 26 Jun 2015 13:01:16 GMT
+Content-Type: text/xml; charset=UTF-8
+cache-control: max-age=900
+ETag: W/"8cd1b0192f9d2724a23904000992593f"
+X-Cache: iHIT
+age: 0
+Connection: keep-alive
+

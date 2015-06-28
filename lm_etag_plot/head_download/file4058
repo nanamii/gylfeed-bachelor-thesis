@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 20:23:29 GMT
+Server: Apache/2.2.29 (Unix) mod_ssl/2.2.29 OpenSSL/1.0.1e-fips DAV/2 mod_bwlimited/1.4
+X-Powered-By: PHP/5.4.36
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+X-Pingback: http://www.penandpalate.net/xmlrpc.php
+ETag: "a046bef7dbb315cbe0f1807a8c7e3572"
+Set-Cookie: PHPSESSID=fe7570fb269dcb335a35d00c83d892c3; path=/
+Last-Modified: Mon, 08 Jun 2015 18:03:50 GMT
+Content-Type: text/html
+

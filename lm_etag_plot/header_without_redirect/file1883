@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 18:52:19 GMT
+Server: Apache/2.2.15 (CentOS)
+X-Powered-By: PHP/5.3.20
+X-Pingback: http://weblogs.pbspaces.com/edtech/xmlrpc.php
+Last-Modified: Tue, 03 Dec 2013 14:18:59 GMT
+ETag: "3af00355ed806b07d22454762203ad04"
+Connection: close
+Content-Type: text/html; charset=UTF-8
+

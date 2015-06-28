@@ -1,0 +1,10 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 19:44:56 GMT
+Content-Type: text/html; charset=iso-8859-1
+Connection: keep-alive
+Set-Cookie: __cfduid=d9adbef65b7f85212b6490816f30a1a371435347896; expires=Sat, 25-Jun-16 19:44:56 GMT; path=/; domain=.channelate.com; HttpOnly
+Location: http://www.channelate.com/feed/
+Vary: Accept-Encoding
+Server: cloudflare-nginx
+CF-RAY: 1fcb68e0a1ab08b7-FRA
+

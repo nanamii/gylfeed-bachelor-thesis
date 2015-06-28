@@ -1,0 +1,20 @@
+HTTP/1.1 200 OK
+Server: Apache
+Last-Modified: Fri, 26 Jun 2015 16:38:39 GMT
+ETag: "3d5e96d0deaa7d2bdc5ee4e0484a666a"
+Link: <http://nyti.ms/1e7TYsg>; rel=shortlink
+Link: <http://bits.blogs.nytimes.com/json>; rel="https://github.com/WP-API/WP-API"
+Content-Type: text/xml; charset=UTF-8
+Content-Length: 24571
+Accept-Ranges: bytes
+Date: Fri, 26 Jun 2015 18:20:02 GMT
+X-Varnish: 1278994390 1278993479
+Age: 48
+Via: 1.1 varnish
+X-Cache: HIT
+X-API-Version: 5-5b
+X-PageType: blog2
+Connection: close
+X-Frame-Options: DENY
+Set-Cookie: RMID=007f0101042b558d97d20009;Path=/; Domain=.nytimes.com;Expires=Sat, 25 Jun 2016 18:20:02 UTC
+

@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 18:11:42 GMT
+Server: Apache
+X-Pingback: http://actionsnippet.com/xmlrpc.php
+Last-Modified: Sat, 21 Jul 2012 21:04:32 GMT
+ETag: "5f252018943bb6cb00cc49c620dd534c"
+X-Powered-By: PleskLin
+Connection: close
+Content-Type: text/xml; charset=UTF-8
+

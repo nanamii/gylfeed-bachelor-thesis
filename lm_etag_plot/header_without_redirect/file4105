@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Server: Apache/2.2.18 (Unix) mod_ssl/2.2.18 OpenSSL/0.9.8r-fips PHP/5.3.16
+X-Powered-By: PHP/5.3.16
+X-Pingback: http://rapfix.mtv.com/xmlrpc.php
+Last-Modified: Wed, 02 Apr 2014 19:30:17 GMT
+ETag: "d6a0719885685864104fcb0b497903e0"
+X-Cache-Term: short
+X-PageCached: true
+Content-Type: text/html
+Cache-Control: max-age=600
+Date: Fri, 26 Jun 2015 19:27:19 GMT
+Connection: keep-alive
+

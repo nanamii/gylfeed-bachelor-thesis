@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 26 Jun 2015 20:34:59 GMT
+Content-Type: text/xml; charset=UTF-8
+Connection: keep-alive
+Keep-Alive: timeout=20
+X-Pingback: http://www.myballard.com/xmlrpc.php
+Last-Modified: Fri, 26 Jun 2015 19:38:36 GMT
+ETag: "7cd635214ecc88f25c403e0cada3f572"
+X-Cacheable: CacheAlways: feed
+Cache-Control: max-age=600, must-revalidate
+X-Cache: HIT: 4
+X-Type: feed
+

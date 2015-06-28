@@ -1,0 +1,17 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sat, 27 Jun 2015 21:04:51 GMT
+Content-Type: text/xml; charset=UTF-8
+Connection: keep-alive
+Keep-Alive: timeout=20
+X-Pingback: http://todmaffin.com/xmlrpc.php
+Last-Modified: Thu, 18 Jun 2015 20:24:29 GMT
+ETag: "2da294842d034d43c8ceabd698578560-gzip"
+X-Robots-Tag: noindex,follow
+X-Cacheable: CacheAlways: feed
+Cache-Control: max-age=600, must-revalidate
+X-Cache: HIT: 5
+X-Pass-Why: 
+X-Cache-Group: 
+X-Type: feed
+

@@ -1,0 +1,10 @@
+HTTP/1.1 301 Moved Permanently
+Content-Length: 184
+Content-Type: text/html
+Date: Fri, 26 Jun 2015 18:05:02 GMT
+Location: http://mikeabdullah.net/index.xml
+Server: nginx/1.8.0
+X-Powered-By: SandvoxHosting
+X-UA-Compatible: IE=edge
+Connection: keep-alive
+

@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 19:20:35 GMT
+Server: Apache
+X-Powered-By: PHP/5.3.10-1ubuntu3.18
+X-Pingback: http://lookslikegooddesign.com/xmlrpc.php
+Last-Modified: Wed, 25 Jun 2014 04:33:24 GMT
+ETag: "1487afb593c59040f5ef13eff867e96d"
+Vary: Accept-Encoding
+Content-Type: text/html
+

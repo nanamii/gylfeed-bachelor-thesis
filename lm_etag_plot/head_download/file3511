@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Content-Type: application/rss+xml; charset=utf-8
+ETag: "8b6205f6b25bbe9d3fb71cb4f4dfd23c"
+Server: nginx
+Status: 200 OK
+X-Content-Type-Options: nosniff
+X-UA-Compatible: chrome=1
+X-XSS-Protection: 1; mode=block
+Expires: Sat, 27 Jun 2015 19:58:05 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Sat, 27 Jun 2015 19:58:05 GMT
+Content-Length: 0
+Connection: keep-alive
+Set-Cookie: u=CkGATlWPAEyD9wZRA8cnAg==; expires=Thu, 31-Dec-37 23:55:55 GMT; domain=good.is; path=/
+

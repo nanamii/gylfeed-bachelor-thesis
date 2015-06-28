@@ -1,0 +1,12 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx/1.6.1
+Date: Fri, 26 Jun 2015 20:17:01 GMT
+Content-Type: text/html
+Connection: keep-alive
+X-Powered-By: PHP/5.3.10-1ubuntu3.13
+Vary: Cookie
+X-Pingback: http://blog.ruhlman.com/xmlrpc.php
+Last-Modified: Fri, 26 Jun 2015 14:09:40 GMT
+ETag: "cb4033186e1f45ca3b83ef2061a39f75"
+Location: http://blog.ruhlman.com/feed/
+

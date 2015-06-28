@@ -1,0 +1,10 @@
+HTTP/1.1 301 Moved Permanently
+x-amz-id-2: huLKITOJy3IcTNK+mVdBKPUTKYskTWmZCG48aEUknoev7WOKSHXQ1V1g0zneBvxBUcItzvCKQB0=
+x-amz-request-id: 623A7DFA4157BAFA
+Date: Fri, 26 Jun 2015 19:21:47 GMT
+Location: /rss/dyn/breaking_news.rss
+Server: AmazonS3
+Content-Length: 0
+Connection: keep-alive
+X-UA-Compatible: IE=edge
+

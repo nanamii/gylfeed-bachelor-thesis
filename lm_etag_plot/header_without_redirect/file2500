@@ -1,0 +1,15 @@
+HTTP/1.1 301 Moved Permanently
+Access-Control-Allow-Origin: *
+Age: 7
+Cache-Control: max-age=300
+Cache-Control: public
+Cache-Control: s-maxage=300
+Content-Type: text/html; charset=iso-8859-1
+Date: Fri, 26 Jun 2015 19:00:53 GMT
+Expires: Fri, 26 Jun 2015 19:05:53 GMT
+hn: polo-fr2
+Location: http://haaretz.feedsportal.com/c/34191/f/620528/index.rss
+Server: Reblaze Secure Web Gateway
+Vary: Accept-Encoding
+Content-Length: 0
+

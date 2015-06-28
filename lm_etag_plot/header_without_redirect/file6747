@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 20:43:41 GMT
+Server: Apache/2.2.16 (Debian)
+Last-Modified: Fri, 26 Jun 2015 19:47:38 GMT
+ETag: "2c6056-2f72-5197103204a80"
+Accept-Ranges: bytes
+Content-Length: 12146
+Vary: Accept-Encoding
+Content-Type: text/xml; charset=utf-8
+

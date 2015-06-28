@@ -1,0 +1,10 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 20:14:27 GMT
+Server: Apache
+X-Pingback: http://welchwrite.com/blog/xmlrpc.php
+ETag: "e08484dd27e9ecdc42f52bb51b788f0f"
+Last-Modified: Fri, 26 Jun 2015 17:36:36 GMT
+Location: http://welchwrite.com/blog/feed/
+Vary: Accept-Encoding
+Content-Type: text/html; charset=UTF-8
+

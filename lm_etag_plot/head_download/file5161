@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Server: Apache
+X-Pingback: https://www.dreamhost.com/blog/xmlrpc.php
+ETag: "74c03cc1ed75893e15a85b4879eb46f8"
+Last-Modified: Fri, 26 Jun 2015 07:22:24 GMT
+Content-Type: text/html
+Accept-Ranges: bytes
+Date: Sat, 27 Jun 2015 21:14:28 GMT
+Connection: keep-alive
+Vary: Fastly-SSL, Accept-Encoding
+

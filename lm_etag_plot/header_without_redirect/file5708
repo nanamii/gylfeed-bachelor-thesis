@@ -1,0 +1,10 @@
+HTTP/1.1 500 Internal Server Error
+Server: nginx/1.4.7
+Date: Fri, 26 Jun 2015 20:21:06 GMT
+Content-Type: text/html; charset=utf-8
+Connection: keep-alive
+X-Powered-By: PHP/5.5.3-1ubuntu2.3
+Expires: Wed, 11 Jan 1984 05:00:00 GMT
+Cache-Control: no-cache, must-revalidate, max-age=0
+Pragma: no-cache
+

@@ -1,0 +1,7 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 18:04:36 GMT
+Server: Apache
+Location: http://simplebits.com/xml/rss.xml
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+

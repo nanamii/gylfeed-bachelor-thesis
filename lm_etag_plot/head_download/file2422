@@ -1,0 +1,20 @@
+HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Age: 0
+Cache-Control: public, max-age=0
+Content-Type: application/rss+xml; charset=utf-8
+Date: Sat, 27 Jun 2015 19:34:25 GMT
+Etag: "1435415488-0"
+Expires: Sun, 11 Mar 1984 12:00:00 GMT
+Last-Modified: Sat, 27 Jun 2015 14:31:28 GMT
+Server: nginx
+Vary: Cookie,Accept-Encoding
+Via: 1.1 varnish
+X-AH-Environment: prod
+X-Cache: MISS
+X-Drupal-Cache: HIT
+X-PF-Uncompressing: 1
+X-Request-ID: v-8496d760-1d03-11e5-a9d4-22000a95161f
+X-Varnish: 974807207
+Connection: keep-alive
+

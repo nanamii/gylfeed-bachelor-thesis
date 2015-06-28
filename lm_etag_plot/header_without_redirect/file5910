@@ -1,0 +1,9 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Fri, 26 Jun 2015 20:25:09 GMT
+Content-Type: text/html; charset=utf-8
+Connection: keep-alive
+Location: http://blog.xkcd.com/feed/
+X-nc: HIT sat 93
+X-ac: 1.fra _sat
+

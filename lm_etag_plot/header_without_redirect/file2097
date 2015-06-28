@@ -1,0 +1,19 @@
+HTTP/1.1 307 Temporary Redirect
+Date: Fri, 26 Jun 2015 18:56:22 GMT
+Content-Type: text/html
+Connection: keep-alive
+Set-Cookie: __cfduid=df8e4516dbc885870163a4010dd09c3c41435344982; expires=Sat, 25-Jun-16 18:56:22 GMT; path=/; domain=.reelseo.com; HttpOnly
+X-Pingback: http://www.reelseo.com/xmlrpc.php
+Last-Modified: Fri, 26 Jun 2015 16:58:18 GMT
+ETag: "aaf3f6c56450289bb53b1748e579e1a3"
+Expires: Mon, 26 Jul 1997 05:00:00 GMT
+Location: http://feed.reelseo.com/
+X-Cacheable: CacheAlways: feed
+Cache-Control: max-age=86400, must-revalidate
+X-Cache: HIT: 312
+X-Pass-Why: 
+X-Cache-Group: 
+X-Type: feed
+Server: cloudflare-nginx
+CF-RAY: 1fcb21bd3eae15dd-FRA
+

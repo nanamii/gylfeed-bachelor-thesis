@@ -1,0 +1,15 @@
+HTTP/1.1 302 Found
+Server: nginx
+Date: Fri, 26 Jun 2015 18:43:32 GMT
+Content-Type: text/html
+Connection: keep-alive
+Keep-Alive: timeout=20
+X-Pingback: http://cleantechnica.com/xmlrpc.php
+Last-Modified: Fri, 26 Jun 2015 18:41:39 GMT
+ETag: "4728f88a031a7947077e980a7741ff77"
+Location: http://feeds.importantmedia.org/IM-cleantechnica
+X-Cacheable: CacheAlways: feed
+Cache-Control: max-age=86400, must-revalidate
+X-Cache: HIT: 1
+X-Type: feed
+

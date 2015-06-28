@@ -1,0 +1,14 @@
+HTTP/1.1 404 Not Found
+Date: Fri, 26 Jun 2015 20:15:38 GMT
+Content-Type: text/html; charset=utf-8
+Connection: keep-alive
+Set-Cookie: __cfduid=d3f87187b9cf3dd9d8c792d3c5ff9e6f11435349738; expires=Sat, 25-Jun-16 20:15:38 GMT; path=/; domain=.curiouscook.com; HttpOnly
+X-PhApp: oak-tp-web022
+X-Webserver: oak-tp-web022
+Vary: cookie
+X-Varnish: 846624939
+Age: 0
+Via: 1.1 varnish
+Server: cloudflare-nginx
+CF-RAY: 1fcb95d79b0d1583-FRA
+

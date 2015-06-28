@@ -1,0 +1,11 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx/0.7.65
+Content-Type: text/html; charset=UTF-8
+X-Powered-By: PHP/5.3.8
+X-Pingback: http://blogs.baltimoreravens.com/xmlrpc.php
+Last-Modified: Tue, 21 Aug 2012 13:30:16 GMT
+ETag: "1529414467234bd4e4a322fce7451d91"
+Location: http://blogs.baltimoreravens.com/feed/
+Date: Fri, 26 Jun 2015 19:19:05 GMT
+Connection: keep-alive
+

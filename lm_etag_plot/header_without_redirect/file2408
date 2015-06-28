@@ -1,0 +1,10 @@
+HTTP/1.1 301 Moved Permanently
+Server: Apache
+Location: http://feeds.bbci.co.uk/news/world/rss.xml?edition=uk
+Content-Length: 261
+Content-Type: text/html; charset=iso-8859-1
+Cache-Control: max-age=87924159
+Expires: Mon, 09 Apr 2018 10:22:46 GMT
+Date: Fri, 26 Jun 2015 19:00:07 GMT
+Connection: keep-alive
+

@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 26 Jun 2015 20:33:59 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Keep-Alive: timeout=5
+Vary: Accept-Encoding
+Access-Control-Allow-Origin: *
+Set-Cookie: X-Mapping-fjhppofk=61CA2A9B6C93FE0655C988E6497A1252; path=/
+X-Powered-By: PHP/5.4.41
+Access-Control-Allow-Headers: origin, x-requested-with, content-type
+Access-Control-Allow-Methods: GET
+

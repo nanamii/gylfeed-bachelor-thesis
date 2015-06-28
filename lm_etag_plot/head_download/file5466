@@ -1,0 +1,17 @@
+HTTP/1.1 200 OK
+age: 0
+cache-control: max-age = 900
+Content-Language: en
+Content-Type: application/rss+xml; charset=utf-8
+Date: Sat, 27 Jun 2015 21:22:56 GMT
+Server: Apache
+Vary: Accept-Encoding
+Via: 1.1 varnish
+X-Cache: ip-10-204-13-62(Websites-Moto): MISS
+X-Cacheable: YES 30m
+X-Country-Code: DE
+X-Drupal-Cache: MISS
+X-Server-Name: ip-10-204-14-60 D=1074030
+X-Varnish: 1014255445
+Connection: keep-alive
+

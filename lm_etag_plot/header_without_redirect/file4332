@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 19:39:17 GMT
+Content-Type: application/atom+xml; charset=UTF-8
+Server: GSE
+Cache-Control: public, must-revalidate, proxy-revalidate, max-age=1
+Vary: Accept-Encoding
+Expires: Fri, 26 Jun 2015 19:39:18 GMT
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Last-Modified: Thu, 25 Jun 2015 16:38:42 GMT
+X-Frame-Options: SAMEORIGIN
+Alternate-Protocol: 80:quic,p=0
+Transfer-Encoding: chunked
+Accept-Ranges: none
+

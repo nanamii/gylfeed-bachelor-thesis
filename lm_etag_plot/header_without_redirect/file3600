@@ -1,0 +1,19 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 26 Jun 2015 19:21:06 GMT
+Content-Type: text/xml; charset=UTF-8
+Connection: keep-alive
+Keep-Alive: timeout=20
+X-Pingback: http://thomashawk.com/xmlrpc.php
+Last-Modified: Thu, 18 Jun 2015 12:41:34 GMT
+ETag: "166711d4bdaceb0277e0eb7cf40eb74c-gzip"
+Link: <http://pubsubhubbub.appspot.com>; rel="hub"
+Link: <http://superfeedr.com/hubbub>; rel="hub"
+Link: <http://thomashawk.com/feed>; rel="self"
+X-Cacheable: CacheAlways: feed
+Cache-Control: max-age=600, must-revalidate
+X-Cache: HIT: 10
+X-Pass-Why: 
+X-Cache-Group: 
+X-Type: feed
+

@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 18:47:27 GMT
+Content-Type: text/xml; charset=UTF-8
+Connection: keep-alive
+Set-Cookie: __cfduid=dd593092bcaed0adf5ed317a888851d821435430847; expires=Sun, 26-Jun-16 18:47:27 GMT; path=/; domain=.mixergy.com; HttpOnly
+X-Powered-By: PHP/5.5.24
+Vary: Accept-Encoding,Cookie
+X-Pingback: http://mixergy.com/xmlrpc.php
+WP-Super-Cache: Served legacy cache file
+ETag: W/"dd995a8c78c4f63bffc5bd77234877b1"
+Server: cloudflare-nginx
+CF-RAY: 1fd3520a453d0f6f-FRA
+

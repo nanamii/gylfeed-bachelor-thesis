@@ -1,0 +1,12 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 19:15:18 GMT
+Server: Apache
+Vary: Cookie,Accept-Encoding
+X-Pingback: http://blog.evernote.com/xmlrpc.php
+Last-Modified: Thu, 25 Jun 2015 20:43:38 GMT
+ETag: "c74093839992211dca6b7ceac6d21620"
+Location: http://blog.evernote.com/feed/
+Cache-Control: max-age=86400
+Expires: Sat, 27 Jun 2015 19:15:18 GMT
+Content-Type: text/html; charset=UTF-8
+

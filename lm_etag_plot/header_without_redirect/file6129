@@ -1,0 +1,21 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 20:32:53 GMT
+Content-Type: application/atom+xml; charset=UTF-8
+Content-Length: 24007
+Connection: keep-alive
+Set-Cookie: __cfduid=df7976b24e1095812ffee3d17b77cd5601435350772; expires=Sat, 25-Jun-16 20:32:52 GMT; path=/; domain=.makezine.com; HttpOnly
+X-Cacheable: CacheAlways: feed
+Cache-Control: max-age=600, must-revalidate
+X-Cache: HIT: 3
+X-Cache-Group: 
+X-Pingback: http://makezine.com/xmlrpc.php
+X-Type: feed
+Accept-Ranges: bytes
+ETag: "20cd0a7edd33167327e7b5bcecd7af10"
+X-Pass-Why: 
+Set-Cookie: X-Mapping-fjhppofk=4582663D4B5AF55FA60F6125F3118C9B; path=/
+X-Robots-Tag: noindex,follow
+Last-Modified: Fri, 26 Jun 2015 18:37:25 GMT
+Server: cloudflare-nginx
+CF-RAY: 1fcbaf1acec8047f-FRA
+

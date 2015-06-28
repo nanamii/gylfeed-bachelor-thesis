@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:35:21 GMT
+Server: Apache/2.2.29
+Last-Modified: Sat, 27 Jun 2015 18:11:15 GMT
+Accept-Ranges: bytes
+Content-Length: 310582
+Cache-Control: max-age=0, public, public
+Expires: Sat, 27 Jun 2015 19:35:21 GMT
+Vary: Accept-Encoding,Cookie
+X-Pingback: http://www.niemanlab.org/wordpress/xmlrpc.php
+Pragma: public
+Content-Type: text/html; charset=UTF-8
+

@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 20:27:27 GMT
+Server: Apache/2.2.16 (Debian) DAV/2 SVN/1.6.12 mod_ssl/2.2.16 OpenSSL/0.9.8o
+X-Pingback: http://datacide.c8.com/xmlrpc.php
+Last-Modified: Fri, 26 Jun 2015 10:16:02 GMT
+ETag: "6c9e618c3a23ac2f1eb0a17074e2523f"
+Vary: Accept-Encoding
+Content-Type: text/html; charset=ISO-8859-1
+

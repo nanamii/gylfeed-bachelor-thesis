@@ -1,0 +1,9 @@
+HTTP/1.1 410 Gone
+content-length: 201
+content-type: application/xml;charset=utf-8
+date: Fri, 26 Jun 2015 20:14:11 GMT
+server: tsa_f
+set-cookie: guest_id=v1%3A143534965096746665; Domain=.twitter.com; Path=/; Expires=Sun, 25-Jun-2017 20:14:10 UTC
+x-connection-hash: 9584d863c09293a89aa537481d00f335
+x-response-time: 106
+

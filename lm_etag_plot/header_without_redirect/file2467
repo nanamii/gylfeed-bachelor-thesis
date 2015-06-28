@@ -1,0 +1,10 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 19:00:37 GMT
+Content-Type: text/html
+Connection: keep-alive
+X-Pingback: http://egovmonitor.com/xmlrpc.php
+Last-Modified: GMT
+Location: http://egovmonitor.com/node/feed/
+X-Cache: HIT from Backend
+Server: Apache/2
+

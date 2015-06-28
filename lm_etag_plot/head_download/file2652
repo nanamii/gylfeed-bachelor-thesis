@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:42:19 GMT
+Server: Apache/2.2.3 (Red Hat)
+Set-Cookie: EPClientLogin=7ec7288512668ca75b58f5b1befbab70; expires=Fri, 27-Jun-2014 19:42:19 GMT; path=/; domain=.alltop.com
+Set-Cookie: myAlltopSession=6af1fquo76t0qf6b1cvninpq17; path=/; domain=.alltop.com
+Expires: Mon, 26 Jul 1997 05:00:00 GMT
+Cache-Control: private
+Pragma: private
+Content-Disposition: attachment; filename="twitter.alltop.com.rss"
+X-Powered-By: PleskLin
+Content-Type: application/rss+xml;charset=utf-8
+

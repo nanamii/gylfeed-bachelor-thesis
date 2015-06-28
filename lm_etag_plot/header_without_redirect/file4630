@@ -1,0 +1,8 @@
+HTTP/1.1 406 Not Acceptable
+Date: Fri, 26 Jun 2015 19:44:18 GMT
+Server: Apache
+X-Powered-By: PHP/5.4.35
+X-Pingback: http://www.anarchyinthegarden.com/xmlrpc.php
+Connection: close
+Content-Type: text/html; charset=UTF-8
+

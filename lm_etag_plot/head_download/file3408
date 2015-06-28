@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:56:18 GMT
+Server: Apache/2.2.29 (Amazon)
+X-Powered-By: PHP/5.3.29
+X-Pingback: http://www.washingtoncitypaper.com/blogs/artsdesk/xmlrpc.php
+Last-Modified: Fri, 26 Jun 2015 19:51:06 GMT
+Cache-Control: max-age=3600
+Expires: Sat, 27 Jun 2015 20:56:18 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+Content-Type: text/html; charset=UTF-8
+

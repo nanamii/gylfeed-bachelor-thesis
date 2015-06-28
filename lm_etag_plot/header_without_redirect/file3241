@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 19:15:20 GMT
+Server: Apache
+X-Powered-By: PHP/5.4.39-1+deb.sury.org~precise+2
+X-Pingback: http://www.fairsearch.org/xmlrpc.php
+Last-Modified: Thu, 11 Jun 2015 18:46:12 GMT
+ETag: "7901eacd0a2b7b1a30b4257f1c44fdb1"
+X-UA-Compatible: IE=edge,chrome=1
+X-Robots-Tag: noindex,follow
+Link: <http://www.fairsearch.org/wp-json>; rel="https://github.com/WP-API/WP-API"
+Vary: Accept-Encoding
+Content-Type: text/html
+

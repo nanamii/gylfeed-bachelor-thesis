@@ -1,0 +1,8 @@
+HTTP/1.1 302 Found
+Content-Type: text/html; charset=iso-8859-1
+Date: Fri, 26 Jun 2015 18:20:13 GMT
+Location: https://www.novamind.com/connect/feed/rss_feed
+Server: Apache/2.2.29 (Amazon)
+Vary: Accept-Encoding
+Connection: keep-alive
+

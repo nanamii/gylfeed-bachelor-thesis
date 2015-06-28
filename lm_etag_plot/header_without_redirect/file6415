@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 20:35:51 GMT
+Server: Apache
+X-Powered-By: PHP/5.5.19
+X-Pingback: http://ma.tt/blog/xmlrpc.php
+Last-Modified: Fri, 26 Jun 2015 00:40:57 GMT
+ETag: "1b9fc1595a55cd1a7ecfe23604b22117"
+Vary: User-Agent
+Content-Type: text/html
+

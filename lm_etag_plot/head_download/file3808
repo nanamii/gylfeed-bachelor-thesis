@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 20:14:35 GMT
+Server: Apache
+X-Powered-By: PHP/5.3.10
+Vary: Cookie
+X-Pingback: http://www.smashingapps.com/xmlrpc.php
+ETag: "660335e0ce2bab29bdc5484b1184fa66"
+WP-Super-Cache: Served legacy cache file
+Cache-Control: max-age=172800
+Expires: Mon, 29 Jun 2015 20:14:35 GMT
+Content-Type: text/xml; charset=UTF-8
+

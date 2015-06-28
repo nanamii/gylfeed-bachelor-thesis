@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 21:30:16 GMT
+Content-Type: text/html
+Connection: keep-alive
+Keep-Alive: timeout=30
+Server: Apache/2
+X-Powered-By: PHP/5.3.13
+Set-Cookie: PHPSESSID=8c900b346fbd5e59b8bcf1ecc7823f43; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Set-Cookie: ct_cookies_test=d98fec5faf22ee9d9951eb8ab1928971; path=/
+X-Pingback: http://www.embodiednonduality.com/xmlrpc.php
+Last-Modified: Mon, 17 Jun 2013 19:50:32 GMT
+ETag: "9aead03d53a398e3d5f89e1b6efbcf3a"
+

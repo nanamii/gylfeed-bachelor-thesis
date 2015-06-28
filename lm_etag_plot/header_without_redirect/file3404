@@ -1,0 +1,20 @@
+HTTP/1.1 301 Moved Permanently
+Cache-Control: max-age=60
+Content-Type: text/html; charset=iso-8859-1
+J-Cacheable: YES
+Location: http://archive.wired.com/news/feeds/rss2/0,2610,,00.xml
+Server: Apache
+Varnish-X-Cache-Hits: 4
+Via: 1.1 varnish-v4
+Via: 1.1 varnish
+Content-Length: 263
+Accept-Ranges: bytes
+Date: Fri, 26 Jun 2015 19:18:53 GMT
+Via: 1.1 varnish
+Age: 81
+Connection: keep-alive
+X-Served-By: cache-jfk1025-JFK, cache-lhr6325-LHR
+X-Cache: HIT, HIT, HIT
+X-Cache-Hits: 7, 3
+X-Timer: S1435346333.212018,VS0,VE0
+

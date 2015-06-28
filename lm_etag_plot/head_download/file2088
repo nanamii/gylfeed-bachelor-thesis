@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Cache-Control: private
+Content-Length: 12905
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/7.5
+Set-Cookie: ASP.NET_SessionId=safl2b55p0pwlvrea3g2qi55; path=/; HttpOnly
+X-AspNet-Version: 2.0.50727
+Set-Cookie: member_logged=; expires=Thu, 27-Jun-1985 19:27:16 GMT; path=/
+X-Powered-By: ASP.NET
+Date: Sat, 27 Jun 2015 19:27:17 GMT
+

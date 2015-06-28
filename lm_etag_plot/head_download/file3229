@@ -1,0 +1,19 @@
+HTTP/1.1 200 OK
+age: 0
+cache-control: max-age = 900
+Content-Language: en
+Content-Type: text/html; charset=utf-8
+Date: Sat, 27 Jun 2015 19:53:32 GMT
+Link: <http://www.outdoorlife.com/survival>; rel="canonical",<http://www.outdoorlife.com/taxonomy/term/1005000197>; rel="shortlink"
+Server: Apache
+Vary: Accept-Encoding
+Via: 1.1 varnish
+X-Cache: ip-10-204-17-38(Websites-Outdoor): HIT 16
+X-Cacheable: YES 30m
+X-Country-Code: DE
+X-Drupal-Cache: MISS
+X-Generator: Drupal 7 (http://drupal.org)
+X-Server-Name: ip-10-204-18-52 D=1951158
+X-Varnish: 1326552737 1326412187
+Connection: keep-alive
+

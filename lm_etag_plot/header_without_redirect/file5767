@@ -1,0 +1,16 @@
+HTTP/1.1 302 Temporary Redirect
+Date: Fri, 26 Jun 2015 20:21:39 GMT
+Server: Apache
+X-Pingback: http://www.ninebyblue.com/xmlrpc.php
+ETag: "dca52934216eea3d402ad3727d44cfec"
+Expires: Wed, 11 Jan 1984 05:00:00 GMT
+Cache-Control: no-cache, must-revalidate, max-age=0
+Pragma: no-cache
+Set-Cookie: wc_session_cookie_94949b1041fafb24a3fc584ecb030609=Ea5vC%24b%5ER%25fXTYf%24%5E%404NHQVkThZcGBhS%7C%7C1435522899%7C%7C1435519299%7C%7C2ed5156390a694e4546b83cd9565e23c; expires=Sun, 28-Jun-2015 20:21:39 GMT; path=/; httponly
+Set-Cookie: _wp_session=5e3fcb9591fcf78c74b1c7df045e9442%7C%7C1435351899%7C%7C1435351539; expires=Fri, 26-Jun-2015 20:51:39 GMT; path=/
+Set-Cookie: woocommerce_items_in_cart=0; expires=Fri, 26-Jun-2015 19:21:39 GMT; path=/
+Set-Cookie: woocommerce_cart_hash=0; expires=Fri, 26-Jun-2015 19:21:39 GMT; path=/
+Last-Modified: Thu, 01 Jan 1970 00:00:00 GMT
+Location: http://feeds.feedburner.com/ninebyblue
+Content-Type: text/html
+

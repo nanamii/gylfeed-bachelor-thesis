@@ -1,0 +1,14 @@
+HTTP/1.1 302 Found
+ETag: W/"6947818f-77c5-48e5-a6cc-bba0af23c3ae"
+Date: Fri, 26 Jun 2015 20:17:39 GMT
+Content-Type: text/html
+Server: blogger-renderd
+Expires: Fri, 26 Jun 2015 20:17:40 GMT
+Cache-Control: public, must-revalidate, proxy-revalidate, max-age=1
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Location: http://feeds.feedburner.com/HolyScrapHotSprings
+X-Frame-Options: SAMEORIGIN
+Transfer-Encoding: chunked
+Alternate-Protocol: 80:quic,p=0
+

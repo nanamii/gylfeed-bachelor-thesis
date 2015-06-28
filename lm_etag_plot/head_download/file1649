@@ -1,0 +1,17 @@
+HTTP/1.1 200 OK
+Server: Apache/2.2.15 (CentOS)
+Set-Cookie: PHPSESSID=rp26t17o7m9ha36uevn35762l3; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Content-Type: text/html; charset=UTF-8
+Content-Length: 26691
+Accept-Ranges: bytes
+Date: Sat, 27 Jun 2015 19:21:22 GMT
+X-Varnish: 1632768164
+Age: 0
+Via: 1.1 varnish
+Connection: keep-alive
+Access-Control-Allow-Origin: http://www.buydomains.com
+X-Cache: MISS
+

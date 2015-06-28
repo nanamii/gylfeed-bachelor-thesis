@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 19:18:53 GMT
+Server: Apache
+Set-Cookie: WR_SID=92.194.59.39.1435346333612908; path=/; max-age=315360000; domain=.wolframalpha.com
+X-Powered-By: PHP/5.3.3
+Set-Cookie: PHPSESSID=al4et09blq351ghh0v9vj3bc61; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+X-Pingback: http://blog.wolframalpha.com/xmlrpc.php
+Last-Modified: Thu, 25 Jun 2015 15:59:09 GMT
+ETag: "e4ae16d100c1cf97a90d84157757a2c1"
+Content-Type: text/xml; charset=UTF-8
+

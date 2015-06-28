@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 18:41:49 GMT
+Server: Apache
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Set-Cookie: PHPSESSID=27f31a623f1952d51603419baa547746; path=/
+Set-Cookie: runs_before_js_detect=2; expires=Sat, 25-Jun-2016 18:41:49 GMT
+Vary: Accept-Encoding
+Content-Type: text/html
+

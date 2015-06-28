@@ -1,0 +1,6 @@
+HTTP/1.1 302 Found
+Date: Fri, 26 Jun 2015 19:15:25 GMT
+Server: Apache
+Location: http://www.geekwithlaptop.com/cgi-sys/suspendedpage.cgi
+Content-Type: text/html; charset=iso-8859-1
+

@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Content-Type: application/rss+xml
+Expires: Fri, 26 Jun 2015 19:09:40 GMT
+Date: Fri, 26 Jun 2015 19:04:40 GMT
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Server: GSE
+Cache-Control: public, max-age=300
+Age: 101
+Alternate-Protocol: 80:quic,p=0
+Transfer-Encoding: chunked
+Accept-Ranges: none
+Vary: Accept-Encoding
+

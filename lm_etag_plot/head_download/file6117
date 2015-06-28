@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 21:45:55 GMT
+Server: Apache
+X-Pingback: http://www.albertopasca.it/whiletrue/xmlrpc.php
+ETag: "d5fcd9b52773e700f58df7a7170d0085"
+Last-Modified: Wed, 03 Jun 2015 14:43:49 GMT
+Cache-Control: max-age=604800
+Expires: Sat, 04 Jul 2015 21:45:55 GMT
+Vary: Accept-Encoding
+Content-Type: text/html; charset=ISO-8859-1
+

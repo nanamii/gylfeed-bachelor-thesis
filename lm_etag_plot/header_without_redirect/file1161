@@ -1,0 +1,19 @@
+HTTP/1.1 302 Temporary Redirect
+Date: Fri, 26 Jun 2015 18:18:38 GMT
+Content-Type: text/html
+Connection: keep-alive
+Set-Cookie: __cfduid=dba8addae7e5c783593bced68cb02c4a71435342718; expires=Sat, 25-Jun-16 18:18:38 GMT; path=/; domain=.paulocoelhoblog.com; HttpOnly
+X-Cacheable: CacheAlways: feed
+Cache-Control: max-age=86400, must-revalidate
+X-Cache: HIT: 1145
+X-Cache-Group: 
+X-Pingback: http://paulocoelhoblog.com/xmlrpc.php
+Location: http://feeds.feedburner.com/PauloCoelhosBlog
+X-Type: feed
+ETag: "cf5357e39f26dc36ccfd668f04a5e45a"
+X-Pass-Why: 
+Set-Cookie: X-Mapping-fjhppofk=A786A5226A62A57063AA11FF53F96AA4; path=/
+Last-Modified: Fri, 26 Jun 2015 00:55:33 GMT
+Server: cloudflare-nginx
+CF-RAY: 1fcaea76129b1583-FRA
+

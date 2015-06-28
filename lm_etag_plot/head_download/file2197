@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Content-Type: text/xml; charset=UTF-8
+Date: Sat, 27 Jun 2015 19:31:26 GMT
+Etag: "f7c7b38803222473975730396be20dc2"
+Last-Modified: Sat, 27 Jun 2015 17:02:55 GMT
+Server: ECS (fcn/4051)
+X-Cache: HIT
+X-Pingback: http://www.adweek.com/tvnewser/xmlrpc.php
+Content-Length: 30930
+

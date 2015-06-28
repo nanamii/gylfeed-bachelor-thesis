@@ -1,0 +1,22 @@
+HTTP/1.1 301 Moved Permanently
+Content-Type: text/html
+Location: http://www.newrepublic.com/rss/articles/all
+Server: nginx
+X-Pantheon-Endpoint: 6654dca8-e034-40de-b836-115a5f429919
+X-Pantheon-Styx-Hostname: styx234000e4
+X-Powered-By: PHP/5.3.29
+X-Styx-Build-Date: Wed Apr 29 20:43:17 UTC 2015
+X-Styx-Build-Num: 946
+X-Styx-Build-Sha: 39667cea44763e7df6d81c544b0d294bf223876f
+X-Styx-Req-Id: styx-8fc2faa20a19f46028097ddaf24108e0
+X-Styx-Version: StyxGo
+Cache-Control: public, max-age=86400
+Content-Length: 0
+Accept-Ranges: bytes
+Date: Fri, 26 Jun 2015 19:14:27 GMT
+X-Varnish: 1382774204 1369602769
+Age: 7914
+Via: 1.1 varnish
+Connection: keep-alive
+Vary: , Cookie
+

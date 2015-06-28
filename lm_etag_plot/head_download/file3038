@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:50:49 GMT
+Server: Apache
+Set-Cookie: TGSES=45a2h7fe8q8kb7urre8ga8fuo5; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Set-Cookie: _15uwfs9_45a2h7fe8q8kb7urre8ga8fuo5=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/
+P3p: policyref="/w3c/p3p.xml", CP="OTI DSP COR CURa ADMa DEVa TAIa OUR BUS UNI COM NAV INT"
+Charset: utf-8
+Content-Type: application/rss+xml
+

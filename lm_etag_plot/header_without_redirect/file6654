@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 20:42:38 GMT
+Content-Type: application/rss+xml
+Connection: keep-alive
+Set-Cookie: __cfduid=d4093eea381b0e6b724207599a40fac7a1435351357; expires=Sat, 25-Jun-16 20:42:37 GMT; path=/; domain=.cocoapods.org; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+Via: 1.1 vegur
+Server: cloudflare-nginx
+CF-RAY: 1fcbbd5ec7271a8d-DUS
+

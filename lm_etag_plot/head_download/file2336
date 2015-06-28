@@ -1,0 +1,17 @@
+HTTP/1.1 200 OK
+Cache-Control: max-age=180, public
+Date: Sat, 27 Jun 2015 19:33:36 GMT
+Content-Length: 5247
+Content-Type: text/xml
+ETag: "80d19143fb1d01:0"
+Expires: Sat, 27 Jun 2015 19:35:13 GMT
+Last-Modified: Sat, 27 Jun 2015 19:27:11 GMT
+Server: Microsoft-IIS/8.0
+access-control-allow-origin: http://live.aljazeera.com
+Publisher: Al Jazeera - NB
+X-Method: GET
+X-Powered-By: VSH-N-1
+X-WR-MODIFICATION: Content-Length
+X-WR-DIAG: Type:TCP_HIT
+Connection: keep-alive
+

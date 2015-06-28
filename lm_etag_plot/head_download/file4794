@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+Vary: Accept-Language, Cookie
+Content-Type: application/rss+xml
+Content-Language: en
+Date: Sat, 27 Jun 2015 21:06:44 GMT
+Server: Google Frontend
+Transfer-Encoding: chunked
+Alternate-Protocol: 80:quic,p=0
+

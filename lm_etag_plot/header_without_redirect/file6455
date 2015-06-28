@@ -1,0 +1,7 @@
+HTTP/1.1 302 Found
+Date: Fri, 26 Jun 2015 20:36:11 GMT
+Server: Apache/2.2.22 (Ubuntu)
+Location: http://feedpress.me/simplicitybliss
+Vary: Accept-Encoding
+Content-Type: text/html; charset=iso-8859-1
+

@@ -1,0 +1,16 @@
+HTTP/1.1 301 Moved Permanently
+Age: 770176
+Cache-Control: max-age=1209600
+Content-Type: text/html; charset=iso-8859-1
+Date: Fri, 26 Jun 2015 19:15:13 GMT
+Expires: Wed, 01 Jul 2015 21:18:58 GMT
+Location: https://www.capgemini.com/ctoblog/atom.xml
+Server: nginx
+Vary: Accept-Encoding
+Via: 1.1 varnish
+X-Cache: HIT
+X-Cache-Hits: 430
+X-Request-ID: v-776e24e6-1536-11e5-88d9-22000a259f06
+X-Varnish: 340528953 276399607
+Connection: keep-alive
+

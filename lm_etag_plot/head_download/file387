@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 18:40:10 GMT
+Content-Type: text/html
+Connection: keep-alive
+Set-Cookie: __cfduid=ddeff75742625454ec7e68f67f2f6dde51435430410; expires=Sun, 26-Jun-16 18:40:10 GMT; path=/; domain=.dailyinfographic.com; HttpOnly
+X-Powered-By: PHP/5.4.23
+X-Pingback: http://www.dailyinfographic.com/xmlrpc.php
+ETag: "c799adb12ae0a82efc5577d6648de108"
+Last-Modified: Fri, 26 Jun 2015 19:06:59 GMT
+Server: cloudflare-nginx
+CF-RAY: 1fd347607b042336-FRA
+

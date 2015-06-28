@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Server: Apache
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Cache-Control: public
+Cache-Control: public
+Content-Type: application/rss+xml
+Cache-Control: public
+Cache-Control: public
+Date: Fri, 26 Jun 2015 19:39:04 GMT
+Connection: keep-alive
+Set-Cookie: PHPSESSID=vi319j4ei6b89f39mchil1qhu1; path=/
+

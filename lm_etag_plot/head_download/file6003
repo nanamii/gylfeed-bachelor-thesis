@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Content-Type: application/xml
+Content-Length: 3356
+Connection: keep-alive
+Date: Wed, 24 Jun 2015 19:55:09 GMT
+x-amz-meta-content-md5: 86727e4bf741d99c865acc308d5facaf
+Content-Encoding: identity
+Last-Modified: Thu, 18 Jun 2015 10:39:20 GMT
+ETag: "86727e4bf741d99c865acc308d5facaf"
+Server: AmazonS3
+Age: 18730
+X-Cache: Hit from cloudfront
+Via: 1.1 573fb2f256326ed8c48c75347f8e14f1.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: tRIKL10XRGu9vPL8_mtXvX_xHx7ZBUl0U78MzOtqV26IVqEEf62DOw==
+

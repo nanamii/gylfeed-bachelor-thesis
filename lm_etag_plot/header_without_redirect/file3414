@@ -1,0 +1,16 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 19:19:04 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+Set-Cookie: __cfduid=d11673ba947a4fd4ceefb72911d26dc3a1435346343; expires=Sat, 25-Jun-16 19:19:03 GMT; path=/; domain=.mmanews.com; HttpOnly
+X-Powered-By: PHP/5.3.28
+Vary: Cookie
+Set-Cookie: PHPSESSID=d829ecvoarl07oiie69k9aao44; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+X-Pingback: http://www.mmanews.com/xmlrpc.php
+Location: http://www.mmanews.com
+Server: cloudflare-nginx
+CF-RAY: 1fcb42f7d28915d7-FRA
+

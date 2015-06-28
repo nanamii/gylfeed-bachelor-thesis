@@ -1,0 +1,15 @@
+HTTP/1.1 301 Moved Permanently
+age: 0
+cache-control: max-age = 900
+Content-Type: text/html; charset=iso-8859-1
+Date: Fri, 26 Jun 2015 19:23:10 GMT
+Location: http://www.outdoorlife.com/survival
+Server: Apache
+Vary: Accept-Encoding
+Via: 1.1 varnish
+X-Cache: ip-10-204-17-45(Websites-Outdoor): MISS
+X-Cacheable: YES 30m
+X-Country-Code: DE
+X-Varnish: 274238483
+Connection: keep-alive
+

@@ -1,0 +1,12 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 20:18:11 GMT
+Server: Apache/2.2.22
+X-Powered-By: PHP/5.3.29
+X-Pingback: http://www.spatiallyrelevant.org/xmlrpc.php
+ETag: "b3fa7db229c1ac0c6f0b435e8ca43aa5"
+Set-Cookie: wfvt_-126647384=558db383bcf77; expires=Fri, 26-Jun-2015 20:48:11 GMT; path=/; httponly
+Last-Modified: Sat, 02 May 2015 14:27:39 GMT
+Location: http://www.spatiallyrelevant.org/feed/
+Vary: User-Agent,Accept-Encoding
+Content-Type: text/html
+

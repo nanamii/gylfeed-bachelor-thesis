@@ -1,0 +1,19 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Fri, 26 Jun 2015 20:43:11 GMT
+Content-Type: text/html
+Content-Length: 0
+Connection: keep-alive
+Keep-Alive: timeout=20
+X-Pingback: http://thepointmag.com/xmlrpc.php
+Last-Modified: Thu, 25 Jun 2015 17:05:20 GMT
+ETag: "e25298aa2e829ba55d9c947db3681dee"
+Location: http://thepointmag.com/feed
+X-Cacheable: CacheAlways: feed
+Cache-Control: max-age=86400, must-revalidate
+Accept-Ranges: bytes
+X-Cache: HIT: 61
+X-Pass-Why: 
+X-Cache-Group: 
+X-Type: feed
+

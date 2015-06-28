@@ -1,0 +1,16 @@
+HTTP/1.1 302 Found
+Date: Fri, 26 Jun 2015 20:15:43 GMT
+Content-Type: application/atom+xml
+Connection: keep-alive
+Set-Cookie: __cfduid=d9de075da0e47cf1581c13c7a12817b0e1435349743; expires=Sat, 25-Jun-16 20:15:43 GMT; path=/; domain=.getfreshminds.com; HttpOnly
+X-PhApp: oak-tp-web008
+X-Webserver: oak-tp-web008
+Location: http://feeds.feedburner.com/getfreshminds
+Vary: cookie
+Expires: Fri, 26 Jun 2015 20:21:45 GMT
+X-Varnish: 1652315345 1652107673
+Age: 538
+Via: 1.1 varnish
+Server: cloudflare-nginx
+CF-RAY: 1fcb95f81ee50f6f-FRA
+

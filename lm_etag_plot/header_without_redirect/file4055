@@ -1,0 +1,19 @@
+HTTP/1.1 200 OK
+Server: nginx/1.7.12
+Date: Fri, 26 Jun 2015 19:26:43 GMT
+Content-Type: text/xml;charset=UTF-8
+Content-Length: 0
+Connection: keep-alive
+Keep-Alive: timeout=20
+Cache-Control: no-cache, max-age=7200, s-maxage=7200, public
+Host: gulfnews.com
+X-Backend: front5
+X-Varnish: 52949150
+Age: 0
+Via: 1.1 varnish-v4
+x-Cache: MISS
+X-Served-By: 608208-Varnish2.gulfnews.com
+X-Forwarded-For: 70.33.253.70
+Vary: Accept-Encoding, User-Agent
+X-UA-Device: pc
+

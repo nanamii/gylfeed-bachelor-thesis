@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Content-Type: text/xml; charset=UTF-8
+ETag: "3245a1584cfdce6de11786b84bb02c71-gzip"
+Last-Modified: Sat, 27 Jun 2015 15:47:14 GMT
+Server: Apache
+Varnish-X-Cache: HIT
+Varnish-X-Cache-Hits: 26469
+X-Cacheable: YES
+X-Robots-Tag: noindex,follow
+X-Varnish: 165553308 192364197
+Cache-Control: max-age=30
+Expires: Sat, 27 Jun 2015 19:40:08 GMT
+Date: Sat, 27 Jun 2015 19:39:38 GMT
+Connection: keep-alive
+

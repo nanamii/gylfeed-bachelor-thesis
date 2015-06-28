@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Content-Type: text/html
+Date: Fri, 26 Jun 2015 19:21:04 GMT
+ETag: "3f15507c4a2529d7e8625faf7d0b1eef"
+Last-Modified: Fri, 13 Dec 2013 18:11:54 GMT
+Server: Apache
+Set-Cookie: bb2_screener_=1435346465+10.216.47.153+92.194.59.39; path=/
+Vary: User-Agent,Accept-Encoding
+X-Pingback: http://about.topsy.com/xmlrpc.php
+Connection: keep-alive
+

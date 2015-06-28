@@ -1,0 +1,12 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Fri, 26 Jun 2015 20:33:22 GMT
+Content-Type: text/html
+Connection: close
+Set-Cookie: tmgioct=558db7129b43530854587160; expires=Mon, 23-Jun-2025 20:33:22 GMT; Max-Age=315360000; path=/; httponly
+P3P: CP="Tumblr's privacy policy is available here: https://www.tumblr.com/policy/en/privacy"
+Cache-Control: public
+Pragma: 
+Location: http://blog.jimray.co/rss#_=_
+X-UA-Compatible: IE=Edge,chrome=1
+

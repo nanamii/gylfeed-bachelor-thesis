@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:08:13 GMT
+Server: Apache/2.2.29 (Unix) mod_ssl/2.2.29 OpenSSL/1.0.1e-fips mod_bwlimited/1.4
+X-Powered-By: PHP/5.3.29
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+X-Pingback: http://tribalseduction.com/blog/xmlrpc.php
+ETag: "6e3ab6d63fbe87372e516959f4215435"
+Set-Cookie: PHPSESSID=5c462fc1fc4cc1d631b29e95f9575b78; path=/
+Last-Modified: Tue, 19 Mar 2013 23:41:34 GMT
+Content-Type: text/xml; charset=UTF-8
+

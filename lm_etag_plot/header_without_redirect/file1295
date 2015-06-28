@@ -1,0 +1,11 @@
+HTTP/1.1 302 Temporary Redirect
+Date: Fri, 26 Jun 2015 18:20:14 GMT
+Server: Apache/2.2.22
+X-Powered-By: PHP/5.3.29
+X-Pingback: http://www.technotheory.com/xmlrpc.php
+ETag: "f8164dcaab2e85802e7291ee8078c3dd"
+Last-Modified: Tue, 27 Aug 2013 16:25:00 GMT
+Location: http://feeds.feedburner.com/technotheory
+Vary: User-Agent,Accept-Encoding
+Content-Type: text/html
+

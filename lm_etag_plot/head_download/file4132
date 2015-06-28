@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Server: Sucuri/Cloudproxy
+Date: Sat, 27 Jun 2015 20:24:39 GMT
+Content-Type: text/xml; charset=UTF-8
+Content-Length: 6407
+Connection: keep-alive
+X-Pingback: http://bakingbites.com/xmlrpc.php
+Last-Modified: Fri, 26 Jun 2015 19:37:16 GMT
+ETag: "b28a6568bb98f2f35118456641074a2e-gzip"
+Vary: Accept-Encoding
+Content-Encoding: gzip
+

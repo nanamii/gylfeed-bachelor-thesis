@@ -1,0 +1,12 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 18:19:03 GMT
+Server: Apache/2.4.10 (Unix)
+X-Powered-By: PHP/5.4.36
+X-Drupal-Cache: MISS
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Cache-Control: no-cache, must-revalidate, post-check=0, pre-check=0
+Last-Modified: Fri, 26 Jun 2015 18:19:07 GMT
+ETag: "1435342747"
+Location: http://www.imafish.co.uk/node/feed
+Content-Type: text/html
+

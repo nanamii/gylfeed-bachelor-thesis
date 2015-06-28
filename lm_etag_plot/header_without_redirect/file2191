@@ -1,0 +1,19 @@
+HTTP/1.1 301 Moved Permanently
+Age: 0
+Cache-Control: no-cache, must-revalidate, post-check=0, pre-check=0
+Cache-control: no-cache="set-cookie"
+Content-Type: text/html; charset=UTF-8
+Date: Fri, 26 Jun 2015 18:57:13 GMT
+ETag: "1435345033"
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Last-Modified: Fri, 26 Jun 2015 18:57:13 +0000
+Location: http://www.foodista.com/feed
+Server: Apache/2.2.29 (Amazon)
+Set-Cookie: AWSELB=F5B759EB1A2024F60524A843F67A8941D493031B466497E93ED4DA2D063ED2D5ECC76CE85010A583FB3629127E6B7517142A3381FDBEFF556051A456067CD5E46692C00888;PATH=/;MAX-AGE=4000
+Vary: Accept-Encoding
+Via: 1.1 varnish
+X-Drupal-Cache: MISS
+X-Powered-By: PHP/5.3.29
+X-Varnish: 1687808877
+Connection: keep-alive
+

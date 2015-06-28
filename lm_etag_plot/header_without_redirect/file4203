@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 19:36:55 GMT
+Server: Apache
+X-Powered-By: PHP/5.6.10
+Vary: Cookie
+X-Pingback: http://www.appstoreapps.com/xmlrpc.php
+ETag: "de1ae0184bd7433e00a51a809a446a4a"
+WP-Super-Cache: Served legacy cache file
+Content-Type: text/xml; charset=UTF-8
+

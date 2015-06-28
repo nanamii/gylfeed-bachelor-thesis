@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 19:00:46 GMT
+Server: Apache/2.2.3 (Red Hat)
+Last-Modified: Fri, 26 Jun 2015 04:10:41 GMT
+Accept-Ranges: bytes
+Content-Length: 42394
+Vary: Accept-Encoding
+Connection: close
+Content-Type: text/xml; charset=utf-8
+

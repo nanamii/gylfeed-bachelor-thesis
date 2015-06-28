@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 18:12:33 GMT
+Server: Apache
+X-Pingback: http://www.pixelwit.com/blog/xmlrpc.php
+ETag: "742d9209c17c73a04d51cf49a0e84d36"
+Set-Cookie: PHPSESSID=u6uhnht5o6pdb2qumv8c8rv8v3; path=/
+Last-Modified: Thu, 02 Jan 2014 19:06:32 GMT
+Vary: Accept-Encoding
+Content-Type: text/html
+

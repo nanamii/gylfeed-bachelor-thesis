@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 18:42:30 GMT
+Server: Apache/2.2.16 (Unix)
+Set-Cookie: djcs_route=2f99106b-ed85-4bd5-85e9-0ef0900791ed; domain=.wsj.com; path=/; Expires=Mon Jun 23 14:42:30 2025; max-age=315360000
+Set-Cookie: DJSESSION=continent%3deu%7c%7czip%3d%7c%7ccountry%3dde%7c%7cregion%3dby%7c%7ccity%3dmunich%7c%7clongitude%3d11.58%7c%7ctimezone%3dgmt%2b1%7c%7clatitude%3d48.15; path=/; domain=.wsj.com
+Set-Cookie: DJSESSION=continent%3deu%7c%7czip%3d%7c%7ccountry%3dde%7c%7cregion%3dby%7c%7cORCS%3deurope%7c%7ccity%3dmunich%7c%7clongitude%3d11.58%7c%7ctimezone%3dgmt%2b1%7c%7clatitude%3d48.15; path=/; domain=.wsj.com
+Set-Cookie: DJCOOKIE=ORC%3deurope; path=/; domain=.wsj.com; expires=Sat, 25-Jun-2016 18:42:30 GMT
+Set-Cookie: wsjregion=europe; path=/; domain=.wsj.com
+FastDynaPage-ServerInfo: secj2kwebappp11 - Fri 06/26/15 - 14:16:34 EDT
+Last-Modified: Fri, 26 Jun 2015 18:16:34 GMT
+P3P: CP=CAO DSP COR CURa ADMa DEVi TAIo PSAa PSDa IVDi CONi OTPi OUR OTRi BUS PHY ONL UNI PUR COM NAV INT DEM CNT STA OTC
+Content-Type: text/xml
+

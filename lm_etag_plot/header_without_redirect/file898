@@ -1,0 +1,11 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 18:13:59 GMT
+Server: Apache/2.2.22
+X-Powered-By: PHP/5.3.29
+X-Pingback: http://stevensacks.net/xmlrpc.php
+ETag: "d0525d6592ac8e6e406a9a09869ae538"
+Last-Modified: Wed, 03 Jun 2015 08:07:44 GMT
+Location: http://stevensacks.net/feed/
+Vary: User-Agent,Accept-Encoding
+Content-Type: text/html
+

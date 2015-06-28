@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=utf-8
+Last-Modified: Fri, 26 Jun 2015 19:03:15 GMT
+X-UA-Compatible: IE=edge
+X-XSS-Protection: 1; mode=block
+Content-Length: 36043
+Cache-Control: public, max-age=40
+Expires: Fri, 26 Jun 2015 19:05:14 GMT
+Date: Fri, 26 Jun 2015 19:04:34 GMT
+Connection: keep-alive
+

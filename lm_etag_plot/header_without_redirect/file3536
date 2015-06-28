@@ -1,0 +1,15 @@
+HTTP/1.1 302 Found
+Date: Fri, 26 Jun 2015 19:20:18 GMT
+Server: LiteSpeed
+Connection: close
+Cache-Control: no-cache, no-store, must-revalidate, max-age=0
+X-Powered-By: PHP/5.3.8
+Cache-Control: public, max-age=0
+Expires: Fri, 26 Jun 2015 19:20:18 GMT
+Content-Type: text/html; charset=iso-8859-1
+Set-Cookie: PHPSESSID=qm1sd7rqetmh09q8nq7vrvlom7; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Location: http://feeds.feedburner.com/ephotozine/articles
+

@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 21:07:57 GMT
+Server: Apache
+X-Pingback: http://reddirtramblings.com/xmlrpc.php
+X-Robots-Tag: noindex,follow
+Last-Modified: Mon, 15 Jun 2015 11:48:39 GMT
+Vary: Accept-Encoding,User-Agent
+Content-Type: text/html
+X-Pad: avoid browser bug
+

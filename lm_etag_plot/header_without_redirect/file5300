@@ -1,0 +1,15 @@
+HTTP/1.1 301 http://abc7.com/xml?id=6268201
+Server: Varnish
+Location: http://abc7.com/xml?id=6268201
+Accept-Ranges: bytes
+Date: Fri, 26 Jun 2015 20:14:36 GMT
+X-Varnish: 1780907923
+Age: 0
+Via: 1.1 varnish
+Connection: close
+Requested-Host: abclocal.go.com
+From: n7abchwc08.starwave.com
+X-User-Agent: curl/7.37.0
+X-Forwarded-For: 10.199.225.3
+X-Cache: MISS
+

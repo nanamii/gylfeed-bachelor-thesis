@@ -1,0 +1,18 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx/0.8.55
+Date: Fri, 26 Jun 2015 19:00:59 GMT
+Content-Type: text/html
+Connection: keep-alive
+X-Powered-By: PHP/5.4.30
+Location: http://thehill.com/?format=feed&type=rss
+X-User-Agent: MWFeedParser
+Content-Length: 0
+Accept-Ranges: bytes
+X-Varnish: 1307070973 1307067475
+Age: 277
+Via: 1.1 varnish
+X-Device: pc
+Vary: User-Agent
+X-Cache-Hits: HIT (9)
+X-Cache: 091
+

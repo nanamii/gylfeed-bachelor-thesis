@@ -1,0 +1,7 @@
+HTTP/1.1 302 Found
+Date: Fri, 26 Jun 2015 19:34:27 GMT
+Server: Apache
+Location: http://meedan.org//service.php?type=feeds&action=mymeedan&userid=2869&key=jdqb3t4cdb
+Vary: Accept-Encoding
+Content-Type: text/html; charset=iso-8859-1
+

@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 20:43:33 GMT
+Server: Apache/2.4.10 (Debian)
+X-Pingback: http://www.gradhacker.org/xmlrpc.php
+Last-Modified: Wed, 17 Sep 2014 00:05:28 GMT
+ETag: "80a85b95709e3265609354f272a26ed6"
+Accept-Ranges: bytes
+Content-Type: text/html; charset=utf-8
+

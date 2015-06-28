@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sat, 27 Jun 2015 21:30:30 GMT
+Content-Type: text/xml; charset=utf-8
+Connection: close
+Vary: Accept-Encoding
+Set-Cookie: tmgioct=558f15f67709990915996060; expires=Tue, 24-Jun-2025 21:30:30 GMT; Max-Age=315360000; path=/; httponly
+P3P: CP="Tumblr's privacy policy is available here: https://www.tumblr.com/policy/en/privacy"
+X-Tumblr-User: solarpunks
+X-Robots-Tag: noindex
+Cache-Control: max-age=600
+X-ttl: 14400
+X-UA-Compatible: IE=Edge,chrome=1
+

@@ -1,0 +1,9 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Fri, 26 Jun 2015 18:16:33 GMT
+Content-Type: text/html
+X-Pingback: http://blog.getresponse.com/xmlrpc.php
+Last-Modified: Fri, 26 Jun 2015 13:27:04 GMT
+ETag: "f9d336d521f3997a478b1aada34cc75d"
+Location: http://blog.getresponse.com/feed
+

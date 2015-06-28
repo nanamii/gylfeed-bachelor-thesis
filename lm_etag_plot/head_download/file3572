@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+Server: Apache/2.2.29 (Unix) mod_ssl/2.2.29 OpenSSL/1.0.1e-fips mod_fastcgi/2.4.6
+X-Powered-By: HHVM/3.2.0
+Content-Type: text/xml;charset=utf-8
+Content-Length: 420
+Cache-Control: max-age=331
+Date: Sat, 27 Jun 2015 19:59:07 GMT
+Connection: keep-alive
+

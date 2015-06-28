@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:18:46 GMT
+Server: Apache
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+X-Pingback: http://getthenext.com/xmlrpc.php
+ETag: "a496c529f30dc7e17f815030ff66ab0f"
+Set-Cookie: PHPSESSID=dltb5rqvggn4e57sdq9q68n3o1; path=/
+Last-Modified: Mon, 25 Mar 2013 21:48:41 GMT
+Content-Type: text/html
+

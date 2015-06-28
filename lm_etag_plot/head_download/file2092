@@ -1,0 +1,17 @@
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Content-Type: text/html;charset=UTF-8
+Server: nginx
+X-Cache-Hits: 5
+X-Cacheable: YES
+X-ProcessESI: yes
+X-RemovedCookies: YES
+X-Served-By: nat-cache1a.tm-aws.com
+X-Varnish: 1245191608 1245180236
+Cache-Control: max-age=288
+Expires: Sat, 27 Jun 2015 19:32:13 GMT
+Date: Sat, 27 Jun 2015 19:27:25 GMT
+Connection: keep-alive
+Set-Cookie: stop_mobi=true; path=/
+Vary: User-Agent
+

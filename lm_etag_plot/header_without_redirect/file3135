@@ -1,0 +1,13 @@
+HTTP/1.1 302 Moved Temporarily
+Server: nginx/1.2.1
+Content-Type: text/html
+Location: https://www.newamerica.org
+Content-Length: 160
+Accept-Ranges: bytes
+Date: Fri, 26 Jun 2015 19:14:22 GMT
+X-Varnish: 1654641618
+Age: 0
+Via: 1.1 varnish
+Connection: keep-alive
+X-Cache: MISS
+

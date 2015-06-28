@@ -1,0 +1,10 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Fri, 26 Jun 2015 20:33:31 GMT
+Content-Type: text/html; charset=iso-8859-1
+Content-Length: 244
+Connection: keep-alive
+Keep-Alive: timeout=15
+Location: http://www.frankchimero.com/feed.xml
+ngpass_ngall: 1
+

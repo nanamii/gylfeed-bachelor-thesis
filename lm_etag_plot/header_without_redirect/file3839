@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Server: nginx/1.6.2
+Date: Fri, 26 Jun 2015 19:23:55 GMT
+Content-Type: text/html
+Connection: keep-alive
+X-Powered-By: PHP/5.4.40
+Set-Cookie: nf_wp_session=0a2ca400a48b409b74bd72256f18966b%7C%7C1435389835%7C%7C1435388035; expires=Sat, 27-Jun-2015 07:23:55 GMT; path=/
+X-Pingback: http://ecologycenter.org/xmlrpc.php
+Last-Modified: Thu, 25 Jun 2015 18:34:55 GMT
+ETag: "d672bd497eaeb25eb2f095edd8b8615c"
+Link: <http://ecologycenter.org/?p=9241>; rel=shortlink
+

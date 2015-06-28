@@ -1,0 +1,29 @@
+HTTP/1.1 200 OK
+Cache-Control: public, max-age=900
+Content-Language: en
+Content-Type: application/rss+xml; charset=utf-8
+Etag: "1435431167-0"
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Last-Modified: Sat, 27 Jun 2015 18:52:47 GMT
+Server: nginx
+Vary: Cookie
+X-Content-Type-Options: nosniff
+X-Drupal-Cache: HIT
+X-Frame-Options: SameOrigin
+X-Pantheon-Endpoint: 107b946d-bd6a-46f0-baf0-15253036fa17
+X-Pantheon-Styx-Hostname: styxe3d2930f
+X-Powered-By: PHP/5.3.29
+X-Styx-Build-Date: Wed Apr 29 20:43:17 UTC 2015
+X-Styx-Build-Num: 946
+X-Styx-Build-Sha: 39667cea44763e7df6d81c544b0d294bf223876f
+X-Styx-Req-Id: styx-c0491df3174a4fc005da903472f11d0b
+X-Styx-Version: StyxGo
+X-Xss-Protection: 0
+Content-Length: 14449
+Accept-Ranges: bytes
+Date: Sat, 27 Jun 2015 19:23:53 GMT
+X-Varnish: 572281443
+Age: 0
+Via: 1.1 varnish
+Connection: keep-alive
+

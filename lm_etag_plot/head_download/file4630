@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 20:40:28 GMT
+Server: Apache
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+X-Pingback: http://www.thenakedkitchen.com/dev/xmlrpc.php
+ETag: "1fbfe8a9a4dca0d62253214316dd6329"
+Set-Cookie: PHPSESSID=6e63aa9551c28bb0352784506210bf18; path=/
+Last-Modified: Sat, 13 Jul 2013 19:12:30 GMT
+Content-Type: text/html; charset=UTF-8
+

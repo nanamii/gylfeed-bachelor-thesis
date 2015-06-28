@@ -1,0 +1,7 @@
+HTTP/1.1 301 Moved Permanently
+Server: Apache
+Location: http://www.marketplace.org/shows/55/long-feed.xml
+Content-Type: text/html; charset=iso-8859-1
+Date: Fri, 26 Jun 2015 19:18:29 GMT
+Connection: keep-alive
+

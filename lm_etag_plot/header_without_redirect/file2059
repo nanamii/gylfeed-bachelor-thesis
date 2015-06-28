@@ -1,0 +1,6 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 18:55:55 GMT
+Server: Apache/2.4.12 (Ubuntu) OpenSSL/1.0.1
+Location: https://www.brightlocal.com/feed/
+Content-Type: text/html; charset=iso-8859-1
+

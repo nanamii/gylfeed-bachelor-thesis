@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 21:15:39 GMT
+Content-Type: text/html
+Connection: keep-alive
+Set-Cookie: __cfduid=db6a4a3f4f4a00c37e7df1e8fafcee87e1435439739; expires=Sun, 26-Jun-16 21:15:39 GMT; path=/; domain=.thinkoutsidein.com; HttpOnly
+Vary: Accept-Encoding
+Server: cloudflare-nginx
+CF-RAY: 1fd42b257778047f-FRA
+

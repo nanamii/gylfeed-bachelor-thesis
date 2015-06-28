@@ -1,0 +1,8 @@
+HTTP/1.1 302 Found
+Content-Type: text/html; charset=iso-8859-1
+Date: Fri, 26 Jun 2015 20:34:18 GMT
+Location: https://highfidelity.com/blog/feed/
+Server: Apache/2.2.22 (Ubuntu)
+Vary: Accept-Encoding
+Connection: keep-alive
+

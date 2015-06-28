@@ -1,0 +1,15 @@
+HTTP/1.1 301 Moved Permanently
+Cache-Control: public, max-age=181
+Content-Length: 163
+Content-Type: text/html
+Expires: Fri, 26 Jun 2015 19:12:26 GMT
+Location: http://www.aljazeera.com/xml/rss/all.xml
+Server: Microsoft-IIS/8.0
+Access-Control-Allow-Origin: http://live.aljazeera.com
+Publisher: Al Jazeera - OB
+X-Method: GET
+X-Powered-By: VSH-O-1
+Date: Fri, 26 Jun 2015 19:09:25 GMT
+X-WR-DIAG: Type:TCP_REFRESH_MISS
+Connection: keep-alive
+

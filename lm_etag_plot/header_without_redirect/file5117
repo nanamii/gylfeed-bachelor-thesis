@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 19:52:26 GMT
+Content-Type: text/html
+Connection: keep-alive
+Set-Cookie: __cfduid=dc51a7759505dd25a4a32a4058c3008291435348345; expires=Sat, 25-Jun-16 19:52:25 GMT; path=/; domain=.smallhousestyle.com; HttpOnly
+X-Pingback: http://www.smallhousestyle.com/xmlrpc.php
+ETag: W/"c9a7f401b9e62b78fd27e69a9b5bb625"
+X-Powered-By: W3 Total Cache/0.9.4.1
+Vary: Accept-Encoding,User-Agent
+Last-Modified: Sat, 01 Nov 2014 05:11:09 GMT
+Cache-Control: max-age=3600
+Expires: Fri, 26 Jun 2015 20:52:25 GMT
+Server: cloudflare-nginx
+CF-RAY: 1fcb73d56699158f-FRA
+

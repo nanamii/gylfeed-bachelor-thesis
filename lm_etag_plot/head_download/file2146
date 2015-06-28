@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Pragma: no-cache
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Sat, 27 Jun 2015 19:30:53 GMT
+X-Varnish: 1008455604
+Via: 1.1 varnish
+Connection: keep-alive
+X-Cache: MISS
+age: 0
+cache-control: private
+

@@ -1,0 +1,6 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 19:42:46 GMT
+Server: Apache/2.4.10 (Unix) PHP/5.5.20
+Location: http://www.zanthan.com/gardens/gardenlog/wp-rss2.php
+Content-Type: text/html; charset=iso-8859-1
+

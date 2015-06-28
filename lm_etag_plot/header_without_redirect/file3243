@@ -1,0 +1,6 @@
+HTTP/1.1 302 Moved Temporarily
+Server: Netscape-Enterprise/4.1
+Date: Fri, 26 Jun 2015 19:09:53 GMT
+Location: https://apps.fcc.gov/edocs_public/doctypeFeed.do
+X-Powered-By: Servlet/2.4 JSP/2.0
+

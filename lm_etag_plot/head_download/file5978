@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 21:39:17 GMT
+Server: Apache
+X-Powered-By: PHP/5.4.38
+X-Pingback: http://www.mrspeaker.net/xmlrpc.php
+Last-Modified: Wed, 06 May 2015 20:41:22 GMT
+ETag: "bc08778077302d79aa39e718e62e9e35"
+Connection: close
+Content-Type: text/html
+

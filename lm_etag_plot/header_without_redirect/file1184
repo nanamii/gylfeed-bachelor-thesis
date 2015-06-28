@@ -1,0 +1,19 @@
+HTTP/1.1 200 OK
+Server: nginx
+X-Cacheable: CacheAlways: feed
+Cache-Control: max-age=600, must-revalidate
+X-Cache: HIT: 14
+Content-Type: text/xml; charset=UTF-8
+X-Cache-Group: 
+Date: Fri, 26 Jun 2015 18:18:46 GMT
+X-Pingback: http://www.wpmayor.com/xmlrpc.php
+Keep-Alive: timeout=20
+X-Type: feed
+Transfer-Encoding: chunked
+ETag: "2564e999c7e3c07cebbd15b3faad62a9-gzip"
+Connection: Keep-Alive
+X-Pass-Why: 
+Set-Cookie: X-Mapping-fjhppofk=2A20004E07D83994CEFF312193A4E31B; path=/
+X-Robots-Tag: noindex,follow
+Last-Modified: Fri, 26 Jun 2015 12:00:36 GMT
+

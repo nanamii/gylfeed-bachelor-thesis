@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Server: nginx/1.2.3
+Date: Fri, 26 Jun 2015 19:01:28 GMT
+Content-Type: text/xml
+Content-Length: 10240
+Connection: close
+Set-Cookie: F=; domain=.topix.com; path=/; expires=Thu, 25-Jun-2015 19:01:27 GMT
+Set-Cookie: PXE=v1%7c7226cbe9%7clsid%7cUHGLGAHPFT2907US%7c1498417287%7cssid%7c8I8HL2M5FNNHD4FB%7c1435346487; domain=.topix.com; path=/; expires=Sun, 25-Jun-2017 19:01:27 GMT
+Cache-Control: no-cache
+P3P: policyref="http://static.topixcdn.com/static/p3p.xml", CP="NON DSP CURa ADMa DEVa TAIa PSAa PSDa IVAa IVDa OUR BUS IND ONLo UNI COM NAV INT DEM STA"
+Pragma: no-cache
+X-TALXX: 6.12
+Set-Cookie: T=0W2n2UZRXitV0USR7g40J3p%2Fudd2zq1OVJFec56upubPT870qGHe7EEzk34h6ANpNCfhwRZeoPbjIuL3qB0Yixx7WIB8iByZrdBpNrSb0gjRO%2F4C5bwtuox2BDF9%2BrEQ6ZVJ9rzVbIFN2gcaqGOuW4m1J72HZpb%2BME5auVkfkBlD0aI38Gu7njOnR6e7aex9unctnsxSf1wVkBBw3I0viEc5oyLDjcaE48iZsm9LgR30bYLXcc9DtANqwRMTopAECiA%2BLpj5vpApxx9%2BqpI7rAUVSx49QUL7iSox%2Fzzowx6bOQcYQVKVlJxrPocMm5HOb%2FQjKvi8lutr3oKsGG%2FCIcQ%3D%3D; domain=.topix.com; path=/; expires=Mon, 23-Jun-2025 19:01:27 GMT
+X-Topix-PageID: M8O8FPBE35AMR8QK
+Expires: Fri, 26 Jun 2015 19:01:27 GMT
+

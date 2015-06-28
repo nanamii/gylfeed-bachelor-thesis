@@ -1,0 +1,9 @@
+HTTP/1.0 200 Ok
+Cache-Control: private
+Content-Type: application/rss+xml
+ETag: "1434917500"
+Last-Modified: Sun, 21 Jun 2015 20:11:40 GMT
+X-Powered-By: CppCMS/1.0.4
+Server: Apache (Unix; Formilux/0.1.8)
+Connection: keep-alive
+

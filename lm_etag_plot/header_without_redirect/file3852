@@ -1,0 +1,19 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 19:24:04 GMT
+Content-Type: text/html
+Connection: keep-alive
+Set-Cookie: __cfduid=db1f1ab6acb84dfab31a3fca6edf3a12f1435346644; expires=Sat, 25-Jun-16 19:24:04 GMT; path=/; domain=.globalchange.gov; HttpOnly
+X-Powered-By: PHP/5.3.29
+X-Drupal-Cache: MISS
+Cache-Control: no-cache, must-revalidate, post-check=0, pre-check=0
+Location: http://www.globalchange.gov/news?format=feed&type=rss
+X-Redirect-ID: 165
+X-Micro-Cache: EXPIRED
+X-Content-Options: nosniff
+X-Varnish: 1583903291 1583903234
+Age: 280
+Via: 1.1 varnish
+X-Varnish-Cache: HIT
+Server: cloudflare-nginx
+CF-RAY: 1fcb4a4e15b32354-FRA
+

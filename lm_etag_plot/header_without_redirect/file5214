@@ -1,0 +1,17 @@
+HTTP/1.1 301 Moved Permanently
+Server: Apache
+Location: http://bittman.blogs.nytimes.com/feed/
+Content-Type: text/html; charset=iso-8859-1
+Content-Length: 320
+Accept-Ranges: bytes
+Date: Fri, 26 Jun 2015 20:13:47 GMT
+X-Varnish: 194924012
+Age: 0
+Via: 1.1 varnish
+X-Cache: MISS
+X-API-Version: 5-5b
+X-PageType: blog2
+Connection: close
+X-Frame-Options: DENY
+Set-Cookie: RMID=007f01013e29558db27b000f;Path=/; Domain=.nytimes.com;Expires=Sat, 25 Jun 2016 20:13:47 UTC
+

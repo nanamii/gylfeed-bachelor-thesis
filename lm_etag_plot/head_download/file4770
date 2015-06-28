@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 21:06:32 GMT
+Content-Type: application/atom+xml
+Connection: keep-alive
+Set-Cookie: __cfduid=dbb1ff2de1ad4a964749e81abe54782ea1435439191; expires=Sun, 26-Jun-16 21:06:31 GMT; path=/; domain=.tommyeats.com; HttpOnly
+X-PhApp: oak-tp-web027
+X-Webserver: oak-tp-web027
+Vary: cookie
+Last-Modified: Sun, 21 Jun 2015 18:03:21 GMT
+X-Varnish: 2422467554
+Age: 0
+Via: 1.1 varnish
+Server: cloudflare-nginx
+CF-RAY: 1fd41dc2f0e515bf-FRA
+

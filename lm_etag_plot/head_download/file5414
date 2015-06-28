@@ -1,0 +1,27 @@
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/xml
+X-Say-Cacheable: YES
+X-Say-TTL: 3600.186
+X-Say-Original-Host: readwrite.com
+X-Say-Original-URL: /.rss/full/author/dan-lyons
+X-Say-Original-UA: Feedbin - 2 subscribers
+X-Say-Original-IP: 10.17.141.102
+X-Say-UA: normal
+X-Say-Cache: MISS
+Cache-Control: max-age=30
+Via: 1.1 varnish
+X-SayCDN-TTL: 459.157
+Content-Length: 266563
+Accept-Ranges: bytes
+Date: Sat, 27 Jun 2015 21:20:39 GMT
+Via: 1.1 varnish
+Age: 3141
+Connection: keep-alive
+X-Served-By: cache-sjc3128-SJC, cache-fra1247-FRA
+X-Cache: HIT, MISS
+X-Cache-Hits: 1, 0
+X-Timer: S1435440039.730482,VS0,VE157
+Vary: Accept-Encoding, X-Say-UA
+X-SayCDN-UA: normal
+

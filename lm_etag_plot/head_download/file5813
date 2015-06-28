@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 21:32:06 GMT
+Server: Apache/2.4.10 (Unix) OpenSSL/1.0.1n-freebsd PHP/5.5.21
+Last-Modified: Mon, 15 Jun 2015 16:06:54 GMT
+ETag: "1a6d-51890a577c380"
+Accept-Ranges: bytes
+Content-Length: 6765
+Vary: Accept-Encoding,User-Agent
+Content-Type: application/xml
+

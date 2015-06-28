@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Cache-Control: max-age=60, public
+Content-Type: application/xml
+Last-Modified: Fri, 26 Jun 2015 20:27:01 GMT
+Server: Apache
+Vary: Accept-Encoding
+Edge-control: cache-maxage=1m
+F: 6
+Primary-Control: 60s
+Strict-Transport-Security: max-age=15778800
+X-Varnish: 297938321 297938128
+Date: Fri, 26 Jun 2015 20:27:23 GMT
+Expires: Fri, 26 Jun 2015 20:28:23 GMT
+Connection: keep-alive
+

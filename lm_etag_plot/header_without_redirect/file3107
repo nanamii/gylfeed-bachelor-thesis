@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 19:13:48 GMT
+Server: Apache
+X-Pingback: http://www.steampunkmagazine.com/xmlrpc.php
+ETag: "6a1b35b655e90abaf4bed95059a33e09"
+Last-Modified: Thu, 11 Jun 2015 19:04:34 GMT
+Vary: Accept-Encoding
+Content-Type: text/html
+

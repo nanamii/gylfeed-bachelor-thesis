@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 18:39:09 GMT
+Server: Apache/2.2.22
+Last-Modified: Thu, 23 Sep 2010 09:30:49 GMT
+ETag: "6a8f419-885c-490e9eadd6440"
+Accept-Ranges: bytes
+Content-Length: 34908
+Vary: User-Agent
+Content-Type: application/xml
+

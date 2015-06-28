@@ -1,0 +1,13 @@
+HTTP/1.1 302 Found
+Date: Fri, 26 Jun 2015 19:24:38 GMT
+Server: Apache/2.2.29
+X-Request-Id: 98ec511039d25356e3c460eff39fd2ab
+X-Runtime: 0.005388
+Cache-Control: no-cache
+X-Rack-Cache: miss
+X-Powered-By: Phusion Passenger 4.0.59
+Content-Length: 128
+Location: http://www.fu-berlin.de/en/newsuebersicht/index.rss?format=rss
+Status: 302 Found
+Content-Type: text/html; charset=utf-8
+

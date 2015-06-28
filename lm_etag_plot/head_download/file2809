@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Server: Apache
+Eomportal-Instance: 12
+Set-Cookie: JSESSIONID=96F48D5F921F78EFC6DC21A4611165D6; Path=/
+ETag: 3cad3fd5-bb8b-4f26-a51c-b94d7d876801
+Content-Type: text/html;charset=UTF-8
+Date: Sat, 27 Jun 2015 19:46:39 GMT
+Connection: keep-alive
+Cache-Control: private
+

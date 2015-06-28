@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 21:26:04 GMT
+Content-Type: text/html
+Connection: keep-alive
+Set-Cookie: __cfduid=d120d530547ebe2ec75823d18d309a1971435440364; expires=Sun, 26-Jun-16 21:26:04 GMT; path=/; domain=.tapbots.com; HttpOnly
+X-Powered-By: PHP/5.5.9-1ubuntu4.9
+CF-Cache-Status: HIT
+Expires: Sun, 28 Jun 2015 01:26:04 GMT
+Cache-Control: public, max-age=14400
+Server: cloudflare-nginx
+CF-RAY: 1fd43a65173408b1-FRA
+

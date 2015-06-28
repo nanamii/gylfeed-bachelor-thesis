@@ -1,0 +1,11 @@
+HTTP/1.1 307 
+Server: nginx
+Date: Fri, 26 Jun 2015 20:35:36 GMT
+Content-Type: text/html
+Connection: keep-alive
+X-Pingback: http://collindonnell.com/xmlrpc.php
+Cache-Control: no-cache, must-revalidate
+Expires: Mon, 26 Jul 1997 05:00:00 GMT
+Last-Modified: Wed, 24 Jun 2015 23:13:00 GMT
+Location: http://feedpress.me/collindonnell
+

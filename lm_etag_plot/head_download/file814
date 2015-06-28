@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 18:47:40 GMT
+Server: Apache/2.2.3 (Red Hat)
+X-Powered-By: PHP/5.4.8
+X-CF-Powered-By: WP 1.3.9
+X-Pingback: http://www.thepulsenetwork.com/xmlrpc.php
+Vary: User-Agent,Accept-Encoding
+Content-Type: text/html; charset=UTF-8
+

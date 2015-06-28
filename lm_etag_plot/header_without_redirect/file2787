@@ -1,0 +1,16 @@
+HTTP/1.0 200 OK
+Content-Type: text/xml
+Content-Length: 12295
+Accept-Ranges: bytes
+Server: nginx/1.2.6
+Date: Fri, 26 Jun 2015 18:53:39 GMT
+Last-Modified: Fri, 26 Jun 2015 00:11:43 GMT
+X-Cache: MISS from home44.xinhuanet.com
+Via: 1.0 home44.xinhuanet.com:80 (squid/2.6.STABLE16)
+Powered-By-ChinaCache: MISS from CNC-CY-2-3g6.1
+Powered-By-ChinaCache: HIT from CHN-HZ-4-357
+Expires: Fri, 26 Jun 2015 19:53:39 GMT
+Age: 807
+Powered-By-ChinaCache: HIT from IQN-FK-1-3T6
+Connection: close
+

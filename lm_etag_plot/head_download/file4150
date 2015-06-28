@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 20:24:56 GMT
+Server: Apache
+Vary: Cookie,Accept-Encoding
+X-Pingback: http://bifurcatedcarrots.eu/xmlrpc.php
+ETag: "43484f7c329b8c2885d98da4e1912ec2"
+WP-Super-Cache: Served legacy cache file
+Content-Type: text/xml; charset=UTF-8
+

@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:37:45 GMT
+Server: Apache/2.2.14 (Ubuntu)
+Last-Modified: Wed, 28 Nov 2012 16:58:13 GMT
+ETag: "1d4991-1a474-4cf91126a3340"
+Accept-Ranges: bytes
+Content-Length: 107636
+Vary: Accept-Encoding
+Content-Type: application/rss+xml; qs=0
+

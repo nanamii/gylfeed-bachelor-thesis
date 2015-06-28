@@ -1,0 +1,19 @@
+HTTP/1.1 200 OK
+Server: nginx
+X-Cacheable: CacheAlways: feed
+Cache-Control: max-age=600, must-revalidate
+X-Cache: HIT: 2
+Content-Type: text/xml; charset=UTF-8
+X-Cache-Group: 
+Date: Sat, 27 Jun 2015 19:46:14 GMT
+X-Pingback: https://securelist.com/xmlrpc.php
+Keep-Alive: timeout=20
+X-Type: feed
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: https://cdn.securelist.com https://securelist.social-kaspersky.com
+ETag: "eb9bfec2adde552687f1a6c0e6e61fdd"
+Connection: Keep-Alive
+X-Pass-Why: 
+Set-Cookie: X-Mapping-fjhppofk=C1A7E8EF27D1101E786171E9C799863D; path=/
+Last-Modified: Fri, 26 Jun 2015 14:00:46 GMT
+

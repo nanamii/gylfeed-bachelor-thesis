@@ -1,0 +1,12 @@
+HTTP/1.1 302 Moved Temporarily
+Date: Fri, 26 Jun 2015 18:17:37 GMT
+Server: Apache
+Vary: Cookie,Accept-Encoding
+X-Pingback: http://joshhinds.com/xmlrpc.php
+ETag: "94c7714aba6b2bdf2f6eac6298ce2637"
+X-UA-Compatible: IE=edge,chrome=1
+Set-Cookie: PHPSESSID=equjlo1m0n3t4gmb256cp9apk2; path=/
+Last-Modified: Wed, 29 Apr 2015 03:41:18 GMT
+Location: http://feeds.feedburner.com/JoshHinds
+Content-Type: application/rss+xml; charset="UTF-8"
+

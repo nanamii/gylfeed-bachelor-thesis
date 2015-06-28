@@ -1,0 +1,14 @@
+HTTP/1.1 410 Gone
+Server: Apache/2.2.3 (Red Hat)
+X-Powered-By: PHP/5.2.12
+X-Gen-Mode: limited
+X-Block-Status: fresh
+User-Cache-Control: max-age=300
+Content-Type: text/html; charset=UTF-8
+Expires: Fri, 26 Jun 2015 18:20:13 GMT
+Cache-Control: max-age=0, no-cache
+Pragma: no-cache
+Date: Fri, 26 Jun 2015 18:20:13 GMT
+Connection: keep-alive
+Set-Cookie: SSLB=0; path=/; domain=.sfgate.com
+

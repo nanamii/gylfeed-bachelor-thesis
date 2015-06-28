@@ -1,0 +1,9 @@
+HTTP/1.1 301 Moved Permanently
+content-length: 0
+date: Fri, 26 Jun 2015 18:48:25 GMT
+location: https://twitter.com/statuses/user_timeline/14276666.rss
+server: tsa_f
+set-cookie: guest_id=v1%3A143534450519228597; Domain=.twitter.com; Path=/; Expires=Sun, 25-Jun-2017 18:48:25 UTC
+x-connection-hash: 03800e79dfd34801a9db8fabc2150cc0
+x-response-time: 107
+

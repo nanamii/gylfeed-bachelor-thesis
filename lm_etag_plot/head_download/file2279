@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:32:34 GMT
+Server: Apache/2.2.22
+X-Powered-By: PHP/5.3.29
+Vary: Cookie,User-Agent,Accept-Encoding
+X-Pingback: http://hurricanetrack.com/xmlrpc.php
+ETag: "f3c67078dba9e2f3aabeeee4012b7ba9"
+WP-Super-Cache: Served legacy cache file
+Content-Type: text/xml; charset=UTF-8
+

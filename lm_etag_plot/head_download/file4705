@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Cache-Control: no-cache, no-store
+Pragma: no-cache
+Content-Length: 731
+Content-Type: text/xml; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/7.0
+X-AspNet-Version: 2.0.50727
+Set-Cookie: website#sc_wede=1; path=/
+Set-Cookie: ASP.NET_SessionId=x33ftf55bm1k1wi0jjn522yn; path=/; HttpOnly
+X-Powered-By: ASP.NET; Sitecore CMS
+Date: Sat, 27 Jun 2015 21:03:03 GMT
+

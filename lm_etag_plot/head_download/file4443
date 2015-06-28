@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 20:29:38 GMT
+Content-Type: text/html
+Connection: keep-alive
+Set-Cookie: __cfduid=dffd21c6a0780ed7b4ba90490fc987ad81435436977; expires=Sun, 26-Jun-16 20:29:37 GMT; path=/; domain=.savoryreviews.com; HttpOnly
+Cache-Control: max-age=0, no-cache
+Vary: Accept-Encoding,User-Agent
+Server: cloudflare-nginx
+CF-RAY: 1fd3e7b536361ab1-DUS
+

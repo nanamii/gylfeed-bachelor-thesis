@@ -1,0 +1,23 @@
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/rss+xml; charset=utf-8
+Status: 200 OK
+X-UA-Compatible: IE=Edge,chrome=1
+X-Request-Id: 3c68072272fd9a4a5eec6688b1e975b3
+X-Runtime: 0.253052
+Via: 1.1 squid01:3128 (squid)
+X-Bot: 1
+Expires: Sat, 27 Jun 2015 19:55:54 GMT
+Cache-Control: no-cache
+Content-Length: 38355
+Accept-Ranges: bytes
+Date: Sat, 27 Jun 2015 19:55:55 GMT
+Via: 1.1 varnish
+Age: 0
+Connection: keep-alive
+X-Served-By: cache-lcy1125-LCY
+X-Cache: HIT from squid01, MISS
+X-Cache-Hits: 0
+X-Timer: S1435434955.215254,VS0,VE234
+Vary: Accept-Encoding
+

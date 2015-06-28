@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Server: Apache/2.2
+Vary: Cookie
+Content-Type: text/xml; charset=UTF-8
+WP-Super-Cache: Served legacy cache file
+Date: Sat, 27 Jun 2015 20:26:49 GMT
+X-Pingback: http://tinyhouseblog.com/xmlrpc.php
+Transfer-Encoding: chunked
+ETag: "1c83a44b038fc4d131bbc3a4d7134ba1"
+Connection: Keep-Alive
+Set-Cookie: X-Mapping-ilhindhm=97A635CBBD8E5922423B6E782C4EA5E2; path=/
+

@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:14:33 GMT
+Server: Apache/2.2.29
+X-Pingback: http://blog.teachersfirst.com/thinkteach/xmlrpc.php
+Last-Modified: Thu, 01 Jan 2015 04:59:44 GMT
+ETag: "aba697637a7083d0d608cd1c34719ee0"
+Content-Type: text/html
+X-Pad: avoid browser bug
+

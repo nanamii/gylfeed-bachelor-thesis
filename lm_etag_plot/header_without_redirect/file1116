@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 18:17:38 GMT
+Server: Apache/2.2.27 (Unix) mod_ssl/2.2.27 OpenSSL/1.0.1e-fips mod_bwlimited/1.4
+Last-Modified: Tue, 23 Jun 2015 03:31:01 GMT
+ETag: "39f231-18d-5192704fc7f1d"
+Accept-Ranges: bytes
+Content-Length: 397
+Cache-Control: max-age=3, must-revalidate
+Expires: Fri, 26 Jun 2015 18:17:41 GMT
+Vary: Accept-Encoding,Cookie
+Connection: close
+Content-Type: text/html; charset=UTF-8
+

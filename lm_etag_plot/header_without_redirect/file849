@@ -1,0 +1,10 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 18:12:38 GMT
+Server: Apache
+Location: http://hi-res.net/index.php?WOLFPAGE=blog/rss.xml
+Cache-Control: max-age=0
+Expires: Fri, 26 Jun 2015 18:12:38 GMT
+Vary: Accept-Encoding
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+

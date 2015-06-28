@@ -1,0 +1,22 @@
+HTTP/1.1 301 Moved Permanently
+Cache-Control: max-age=3600
+Content-Type: text/html
+Location: http://patch.com/california/studiocity/articles.atom
+Server: nginx
+X-Pantheon-Endpoint: 8e2b30e2-d7dd-434e-bdcc-d69a341c5d30
+X-Pantheon-Styx-Hostname: styx89e23dcf
+X-Powered-By: PHP/5.5.24
+X-Styx-Build-Date: Wed Apr 29 20:43:17 UTC 2015
+X-Styx-Build-Num: 946
+X-Styx-Build-Sha: 39667cea44763e7df6d81c544b0d294bf223876f
+X-Styx-Req-Id: styx-160ffa729f0c750b36009343550d91b5
+X-Styx-Version: StyxGo
+Content-Length: 0
+Accept-Ranges: bytes
+Date: Fri, 26 Jun 2015 19:46:33 GMT
+X-Varnish: 3083344081
+Age: 0
+Via: 1.1 varnish
+Connection: keep-alive
+Vary: , Cookie
+

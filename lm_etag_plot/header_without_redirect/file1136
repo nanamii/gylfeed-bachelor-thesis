@@ -1,0 +1,11 @@
+HTTP/1.1 302 Moved Temporarily
+Date: Fri, 26 Jun 2015 18:18:06 GMT
+Server: Apache
+X-Pingback: http://cloecouturier.com/blog/xmlrpc.php
+ETag: "063ddecd100060283da5298d5ebc0ef4"
+Set-Cookie: PHPSESSID=jnunvaeti3oipg9162snupc0d7; path=/
+Last-Modified: Wed, 10 Jun 2015 13:56:32 GMT
+Location: http://feeds.feedburner.com/CloCouturier
+Vary: Accept-Encoding
+Content-Type: text/html
+

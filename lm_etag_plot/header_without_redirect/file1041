@@ -1,0 +1,12 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 18:16:23 GMT
+Content-Type: text/html; charset=iso-8859-1
+Connection: keep-alive
+Set-Cookie: __cfduid=dd29bb16c89d584bfd4970ba047f09ae11435342583; expires=Sat, 25-Jun-16 18:16:23 GMT; path=/; domain=.whichtestwon.com; HttpOnly
+Location: https://whichtestwon.com/blog/feed/
+Cache-Control: max-age=604800
+Expires: Fri, 03 Jul 2015 18:16:23 GMT
+Vary: Accept-Encoding
+Server: cloudflare-nginx
+CF-RAY: 1fcae728035d2318-FRA
+

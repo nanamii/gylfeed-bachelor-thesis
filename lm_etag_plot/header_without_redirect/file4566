@@ -1,0 +1,10 @@
+HTTP/1.1 302 Temporary Redirect
+Date: Fri, 26 Jun 2015 19:43:42 GMT
+Server: Apache
+X-Pingback: http://www.geekcred.net/xmlrpc.php
+ETag: "03dd29d02f251f225e2558548a64bbe7"
+Last-Modified: Wed, 15 Oct 2014 07:02:35 GMT
+Location: http://www.geekcred.net/feed.xml
+Vary: Accept-Encoding
+Content-Type: text/html
+

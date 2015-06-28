@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sat, 27 Jun 2015 19:57:47 GMT
+Content-Type: text/xml; charset=UTF-8
+Connection: keep-alive
+Vary: Cookie
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+X-Pingback: https://publicintelligence.net/xmlrpc.php
+ETag: "cb4fd6cd1fbd4e91ccf175ec9d318600"
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+WP-Super-Cache: Served legacy cache file
+X-Powered-By: PleskLin
+MS-Author-Via: DAV
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+

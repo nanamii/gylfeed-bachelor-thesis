@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Server: nginx/1.7.9
+Date: Fri, 26 Jun 2015 20:20:47 GMT
+Content-Type: text/xml; charset=UTF-8
+Connection: keep-alive
+Vary: Accept-Encoding
+X-Pingback: http://getanewbrowser.com/xmlrpc.php
+ETag: "955a3196f5e94dfaee82ad5757a22704"
+X-Robots-Tag: noindex,follow
+Last-Modified: Thu, 22 Aug 2013 18:56:20 GMT
+Host-Header: 192fc2e7e50945beb8231a492d6a8024
+Vary: User-Agent,Accept-Encoding
+X-Proxy-Cache: MISS
+

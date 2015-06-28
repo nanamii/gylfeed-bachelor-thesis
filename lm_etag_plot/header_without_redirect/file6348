@@ -1,0 +1,10 @@
+HTTP/1.1 302 Found
+Location: http://www.nousmachina.net/
+Date: Fri, 26 Jun 2015 20:34:55 GMT
+Content-Type: text/html; charset=UTF-8
+Server: ghs
+Content-Length: 224
+X-XSS-Protection: 1; mode=block
+X-Frame-Options: SAMEORIGIN
+Alternate-Protocol: 80:quic,p=0
+

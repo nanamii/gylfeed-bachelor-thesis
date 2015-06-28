@@ -1,0 +1,10 @@
+HTTP/1.1 302 Found
+Cache-Control: private
+Content-Length: 189
+Content-Type: text/html; charset=utf-8
+Date: Fri, 26 Jun 2015 20:26:58 GMT
+Location: http://www.hugedomains.com/domain_profile.cfm?d=christineptran&e=com
+Server: Microsoft-IIS/8.0
+X-Powered-By: ASP.NET
+Connection: keep-alive
+

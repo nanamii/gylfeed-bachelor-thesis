@@ -1,0 +1,16 @@
+HTTP/1.1 302 Found
+Date: Fri, 26 Jun 2015 20:43:15 GMT
+Content-Type: application/atom+xml
+Connection: keep-alive
+Set-Cookie: __cfduid=dbb23a95bb87c2cec80b89c3b057e2e6d1435351395; expires=Sat, 25-Jun-16 20:43:15 GMT; path=/; domain=.3quarksdaily.com; HttpOnly
+X-PhApp: oak-tp-web010
+X-Webserver: oak-tp-web010
+Location: http://feeds2.feedburner.com/3quarksdaily
+Vary: cookie
+Expires: Fri, 26 Jun 2015 20:53:26 GMT, Fri, 26 Jun 2015 20:53:26 GMT
+X-Varnish: 1652950953 1652839663
+Age: 289
+Via: 1.1 varnish
+Server: cloudflare-nginx
+CF-RAY: 1fcbbe4cb45715bf-FRA
+

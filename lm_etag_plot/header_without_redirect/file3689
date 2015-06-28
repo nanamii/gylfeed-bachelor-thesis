@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Server: nginx/1.0.15
+Date: Fri, 26 Jun 2015 19:22:12 GMT
+Content-Type: application/xml
+Connection: keep-alive
+X-Powered-By: PHP/5.3.3
+Pragma: no-cache
+Cache-Control: max-age=0
+Expires: Fri, 26 Jun 2015 19:22:12 GMT
+

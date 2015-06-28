@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 21:28:14 GMT
+Server: Apache/2.2.17 (Unix) mod_ssl/2.2.17 OpenSSL/0.9.8o DAV/2
+Last-Modified: Sun, 31 Mar 2013 15:18:33 GMT
+ETag: "1200f-dab9-4d93a0475c440"
+Accept-Ranges: bytes
+Content-Length: 55993
+Vary: Accept-Encoding,User-Agent
+Content-Type: text/xml
+

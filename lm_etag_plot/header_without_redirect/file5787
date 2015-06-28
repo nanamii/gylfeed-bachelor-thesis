@@ -1,0 +1,10 @@
+HTTP/1.1 302 Moved Temporarily
+Date: Fri, 26 Jun 2015 20:21:51 GMT
+Server: Apache
+Vary: Cookie,Accept-Encoding
+X-Pingback: http://www.skepticgeek.com/geek/xmlrpc.php
+ETag: "15c37fd7fa51a2e5eed74727b3f02bbb"
+Last-Modified: Fri, 12 Jun 2015 20:02:45 GMT
+Location: http://feeds.feedburner.com/SkepticGeek
+Content-Type: application/rss+xml; charset="UTF-8"
+

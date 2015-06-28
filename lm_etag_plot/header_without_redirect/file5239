@@ -1,0 +1,16 @@
+HTTP/1.1 302 Found
+Date: Fri, 26 Jun 2015 20:14:01 GMT
+Content-Type: application/atom+xml
+Connection: keep-alive
+Set-Cookie: __cfduid=d2b3594177fc16c486b2d00afee1ba05a1435349641; expires=Sat, 25-Jun-16 20:14:01 GMT; path=/; domain=.typepad.com; HttpOnly
+X-PhApp: oak-tp-web015
+X-Webserver: oak-tp-web015
+Location: http://feeds.feedburner.com/CareerSuccess
+Vary: cookie
+Expires: Fri, 26 Jun 2015 20:29:01 GMT
+X-Varnish: 1652273743
+Age: 0
+Via: 1.1 varnish
+Server: cloudflare-nginx
+CF-RAY: 1fcb937ac5bf0485-FRA
+

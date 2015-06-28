@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:24:03 GMT
+Server: Apache
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+X-Pingback: http://deathby1000papercuts.com/xmlrpc.php
+ETag: "b37e3d226972c179207767548ed6f83d"
+X-Powered-By: W3 Total Cache/0.9.4.1
+X-Robots-Tag: noindex,follow
+Set-Cookie: PHPSESSID=0b211f5e484a6ff929161cea966aa7eb; path=/
+Last-Modified: Fri, 06 Mar 2015 17:35:31 GMT
+Vary: User-Agent,Accept-Encoding
+Connection: close
+Content-Type: text/html
+

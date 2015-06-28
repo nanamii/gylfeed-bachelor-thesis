@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 19:05:53 GMT
+Server: Apache/2.2.8 (Ubuntu) PHP/5.2.4-2ubuntu5.6 with Suhosin-Patch
+X-Powered-By: PHP/5.2.4-2ubuntu5.6
+X-Drupal-Cache: MISS
+Expires: Sun, 11 Mar 1984 12:00:00 GMT
+Last-Modified: Fri, 26 Jun 2015 19:05:53 +0000
+Cache-Control: no-cache, must-revalidate, post-check=0, pre-check=0
+ETag: "1435345553"
+Vary: Accept-Encoding
+Content-Type: text/xml; charset=utf-8
+

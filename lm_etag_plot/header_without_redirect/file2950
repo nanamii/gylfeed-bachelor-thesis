@@ -1,0 +1,6 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 19:09:54 GMT
+Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.1e-fips mod_fcgid/2.3.9 PHP/5.4.16
+Location: http://www.dumblittleman.com/feed/atom/
+Content-Type: text/html; charset=iso-8859-1
+

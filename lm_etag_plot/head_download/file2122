@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+XX-Nginx-Main-Cache: enabled
+XX-Nginx-Cached: MISS
+Server: nginx/1.8.0
+Content-Type: text/xml;charset=utf-8
+Last-Modified: Sat, 27 Jun 2015 19:28:42 GMT
+Content-Length: 10729
+Cache-Control: public, max-age=25
+Expires: Sat, 27 Jun 2015 19:30:18 GMT
+Date: Sat, 27 Jun 2015 19:29:53 GMT
+Connection: keep-alive
+

@@ -1,0 +1,10 @@
+HTTP/1.1 307 Temporary Redirect
+Date: Fri, 26 Jun 2015 18:52:29 GMT
+Server: Apache
+X-Powered-By: PHP/5.3.3-7.6+hw2
+X-Pingback: http://www.jongordon.com/blog/xmlrpc.php
+ETag: "13a003ce007415d9cd859210d6dba52e"
+Last-Modified: Fri, 01 May 2015 13:20:40 GMT
+Location: http://feeds.feedburner.com/jongordonblog
+Content-Type: text/html
+

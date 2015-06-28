@@ -1,0 +1,14 @@
+HTTP/1.1 404 Not Found
+Date: Fri, 26 Jun 2015 20:13:31 GMT
+Content-Type: application/atom+xml
+Connection: keep-alive
+Set-Cookie: __cfduid=db9f6d10c500e37c714d0411bc6cad7da1435349611; expires=Sat, 25-Jun-16 20:13:31 GMT; path=/; domain=.typepad.com; HttpOnly
+X-PhApp: oak-tp-web013
+X-Webserver: oak-tp-web013
+Vary: cookie
+X-Varnish: 1652262445
+Age: 0
+Via: 1.1 varnish
+Server: cloudflare-nginx
+CF-RAY: 1fcb92bfb8860467-FRA
+

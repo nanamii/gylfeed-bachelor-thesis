@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 21:23:00 GMT
+Content-Type: application/atom+xml; charset=UTF-8
+Connection: keep-alive
+Set-Cookie: __cfduid=d6b76c4c53222bf81742cb512c0738d611435440180; expires=Sun, 26-Jun-16 21:23:00 GMT; path=/; domain=.thebikeshed.cc; HttpOnly
+X-Powered-By: PHP/5.5.25
+Vary: Cookie,Accept-Encoding,User-Agent
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+X-Pingback: http://thebikeshed.cc/xmlrpc.php
+ETag: W/"f8e9dec6148fb94c603e0a4e19f5f4c5"
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+WP-Super-Cache: Served legacy cache file
+Server: cloudflare-nginx
+CF-RAY: 1fd435e97cbc15ad-FRA
+

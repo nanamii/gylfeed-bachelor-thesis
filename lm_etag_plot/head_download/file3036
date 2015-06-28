@@ -1,0 +1,19 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:50:48 GMT
+X-ServedBy: ny1-prod6-web011
+Set-Cookie: JSESSIONID=2NiIXJnHt7zJLb0J2sWlXo-f4eGETUED96FuI-cKFfM0BWXN00yydA;Path=/;HttpOnly
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Set-Cookie: crumb=085968418b;Path=/
+Set-Cookie: SS_MID=4e487b92-b763-45a7-bec6-20cdcd24ef8aibfgq6yy;Path=/;Domain=.photocoachpro.com;Expires=Tue, 24-Jun-2025 19:50:48 GMT
+Set-Cookie: ss_cid=9a184adc-d871-47e2-86df-67046fa70a13;Path=/;Domain=.photocoachpro.com;Expires=Mon, 26-Jun-2017 19:50:48 GMT
+Set-Cookie: ss_cvisit=1435434648018;Path=/;Domain=.photocoachpro.com;Expires=Sat, 27-Jun-2015 20:20:48 GMT
+Accept-Ranges: bytes
+Content-Type: application/rss+xml; charset=UTF-8
+X-PC-Date: Fri, 26 Jun 2015 16:29:35 GMT
+X-PC-Host: 10.100.101.101
+ETag: W/"0a1532558cc2bc948e8cff28c940932a"
+X-PC-Key: lx54cVJq74X8VEC-HBxmOEZ3-Sg-photocoachpro2
+X-PC-Hit: true
+X-ContextId: FNzuyz19/txGnv7Gv
+X-Via: 1.1 ny1-prod-echo008
+

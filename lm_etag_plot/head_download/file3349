@@ -1,0 +1,18 @@
+HTTP/1.1 200 OK
+Server: Resin/3.0.28
+P3P: IDC DSP COR CURa ADMa OUR IND PHY ONL COM STA
+Cache-Control: private, max-age=600
+cookie: unset
+Content-Type: text/html; charset=UTF-8
+Via: 1.1 varnish
+Content-Length: 109107
+Accept-Ranges: bytes
+Date: Sat, 27 Jun 2015 19:55:37 GMT
+Via: 1.1 varnish
+Connection: keep-alive
+X-Served-By: cache-dfw1835-DFW, cache-fra1223-FRA
+X-Cache: HIT, HIT
+X-Cache-Hits: 2, 5
+X-Timer: S1435434937.798252,VS0,VE0
+Vary: Accept-Encoding
+

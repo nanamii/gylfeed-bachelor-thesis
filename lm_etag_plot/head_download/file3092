@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:51:36 GMT
+Server: Apache/2.0.63 (Unix) mod_ssl/2.0.63 OpenSSL/0.9.8k PHP/5.3.0
+Last-Modified: Sat, 27 Jun 2015 19:42:00 GMT
+ETag: "20ce3e-ff2d-cd23200"
+Accept-Ranges: bytes
+Content-Length: 65325
+Content-Type: application/xml
+

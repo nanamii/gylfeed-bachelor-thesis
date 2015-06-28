@@ -1,0 +1,14 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Fri, 26 Jun 2015 18:58:32 GMT
+Content-Type: text/html; charset=iso-8859-1
+Content-Length: 296
+Connection: keep-alive
+Location: http://www.pbs.org/newshour/topic/health/feed/?type=podcast
+Cache-Control: max-age=300
+Expires: Fri, 26 Jun 2015 19:03:32 GMT
+X-PBS-fwsrvname: fwcacheproxy #378
+X-PBS-fwsrvip: (null)
+X-Cache-FS-Status: EXPIRED
+X-PBS-fwsrvname: fwcacheproxy_378
+

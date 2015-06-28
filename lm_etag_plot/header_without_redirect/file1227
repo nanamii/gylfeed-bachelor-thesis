@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 18:19:33 GMT
+Server: Apache
+X-Powered-By: PHP/5.3.29
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+X-Pingback: http://www.lifespy.com/xmlrpc.php
+ETag: "aa43b946642211f379740540402488e6"
+Set-Cookie: PHPSESSID=886216167bc2e884c3e9dbed90c6a568; path=/
+Last-Modified: Fri, 15 Aug 2014 14:39:06 GMT
+Content-Type: text/html
+

@@ -1,0 +1,10 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 20:17:48 GMT
+Server: Apache
+Vary: Cookie
+X-Pingback: http://yosefk.com/blog/xmlrpc.php
+ETag: "5e5b6329e574cc8c677a6e1a43c05cd5"
+Last-Modified: Thu, 25 Jun 2015 06:48:06 GMT
+Location: http://yosefk.com/blog/feed
+Content-Type: application/rss+xml; charset="UTF-8"
+

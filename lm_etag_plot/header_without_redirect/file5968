@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 26 Jun 2015 20:27:00 GMT
+Content-Type: text/xml; charset=UTF-8
+Connection: keep-alive
+Keep-Alive: timeout=20
+X-Pingback: http://abovethecrowd.com/xmlrpc.php
+Last-Modified: Mon, 04 May 2015 06:37:17 GMT
+ETag: "5a4487ba57ab9f7066f65f67479a48c0-gzip"
+X-Cacheable: CacheAlways: feed
+Cache-Control: max-age=600, must-revalidate
+X-Cache: HIT: 30
+X-Pass-Why: 
+X-Cache-Group: 
+X-Type: feed
+

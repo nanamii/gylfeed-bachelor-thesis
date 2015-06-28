@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 21:07:03 GMT
+Server: Apache/2.2.29 (Unix) mod_ssl/2.2.29 OpenSSL/1.0.1e-fips mod_bwlimited/1.4
+X-Pingback: http://www.annies-eats.com/xmlrpc.php
+ETag: "aaa5ee68f723eda8deb4118f2ad97e79"
+X-Powered-By: W3 Total Cache/0.9.4.1
+Last-Modified: Mon, 22 Jun 2015 08:30:26 GMT
+Cache-Control: max-age=3600
+Expires: Sat, 27 Jun 2015 22:07:03 GMT
+Connection: close
+Content-Type: text/html
+

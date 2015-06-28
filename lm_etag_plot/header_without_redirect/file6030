@@ -1,0 +1,9 @@
+HTTP/1.1 302 Found
+Date: Fri, 26 Jun 2015 20:27:29 GMT
+Server: Apache/2.2.14 (Ubuntu)
+X-Powered-By: PHP/5.3.2-1ubuntu4.26
+Location: http://www.djbroadcast.net/rss/all-english.xml
+Vary: Accept-Encoding
+Connection: close
+Content-Type: text/html
+

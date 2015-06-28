@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Server: nginx/1.1.19
+Date: Fri, 26 Jun 2015 19:11:09 GMT
+Content-Type: application/xml; charset=utf-8
+Content-Length: 10879
+Connection: keep-alive
+Last-Modified: Fri, 26 Jun 2015 14:53:11 GMT
+Etag: 10879
+Cache-Control: max-age=300
+Expires: Fri, 26 Jun 2015 19:16:09 GMT
+Cache-Control: public
+

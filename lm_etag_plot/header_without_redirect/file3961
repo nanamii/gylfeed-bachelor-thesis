@@ -1,0 +1,16 @@
+HTTP/1.1 302 Moved Temporarily
+Server: nginx/1.2.7
+Content-Type: text/html; charset=utf-8
+Content-Language: en
+Location: https://accountsolution.gcion.com/redirect/?returnSessionKey=true&returnAutoLogin=true&redirectURL=http%3A%2F%2Fwww.azcentral.com%2Frss%2Ffeeds%2Fthebuzz_people.xml%3Ffrom%3Dglobal
+X-Secret: cnpudnkgcnpiZXZnbUBoZm5nYnFubC5wYnogbmFxIFYganZ5eSBnZWwgZ2IgdHJnIGxiaCBuIHdiby4=
+X-UA-Compatible: IE=Edge,chrome=1
+X-Gannett-Site-Version: 641.0
+Content-Length: 0
+Expires: Fri, 26 Jun 2015 19:25:32 GMT
+Cache-Control: max-age=0, no-cache
+Pragma: no-cache
+Date: Fri, 26 Jun 2015 19:25:32 GMT
+Connection: keep-alive
+Set-Cookie: cleanup_check=yes; Domain=.azcentral.com; expires=Sat, 25-Jun-2016 19:25:32 GMT; Max-Age=31536000; Path=/
+

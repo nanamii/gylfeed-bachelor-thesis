@@ -1,0 +1,6 @@
+HTTP/1.1 302 Found
+Date: Fri, 26 Jun 2015 19:50:40 GMT
+Server: Apache/2.4.7 (Ubuntu)
+Location: http://feeds.feedburner.com/DigitalPodcast
+Content-Type: text/html; charset=iso-8859-1
+

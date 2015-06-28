@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 21:22:37 GMT
+Content-Type: application/atom+xml
+Connection: keep-alive
+Set-Cookie: __cfduid=d65b0dec0c20dbb05bdc695ba534a58751435440156; expires=Sun, 26-Jun-16 21:22:36 GMT; path=/; domain=.declineoftheempire.com; HttpOnly
+X-PhApp: oak-tp-web020
+X-Webserver: oak-tp-web020
+Vary: cookie
+Last-Modified: Sat, 27 Jun 2015 15:18:01 GMT
+X-Varnish: 1680233642 1679973854
+Age: 791
+Via: 1.1 varnish
+Server: cloudflare-nginx
+CF-RAY: 1fd435553ca2047f-FRA
+

@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Cache-Control: public,private,cache
+Content-Length: 6748
+Content-Type: text/xml; Charset=utf-8
+Server: Microsoft-IIS/7.5
+Set-Cookie: ASPSESSIONIDACAAQBAR=PFEDGOMCFAMLLAJCEJADFHLC; path=/
+X-Powered-By: ASP.NET
+Date: Fri, 26 Jun 2015 18:59:05 GMT
+Set-Cookie: citrix_ns_id=L0qACifiCWt3LMMPHOcMCKURP48A000; Domain=.un.org; Path=/; HttpOnly
+Set-Cookie: citrix_ns_id_.un.org_%2F_wat=QVNQU0VTU0lPTklEQUNBQVFCQVJf?vRvlGQg/ipCKVQxaFOvE+1zRoWYA&; Domain=.un.org; Path=/; HttpOnly
+

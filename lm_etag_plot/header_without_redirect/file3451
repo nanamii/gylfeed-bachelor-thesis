@@ -1,0 +1,6 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 19:19:25 GMT
+Server: Apache/2.2.23 (Unix) mod_ssl/2.2.23 OpenSSL/1.0.0-fips mod_auth_passthrough/2.1 mod_bwlimited/1.4
+Location: http://www.bjpenn.com/mmanews/en/feed
+Content-Type: text/html; charset=iso-8859-1
+

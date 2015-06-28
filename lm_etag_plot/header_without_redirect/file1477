@@ -1,0 +1,6 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 18:41:44 GMT
+Content-Type: text/html
+Location: http://feeds.webservice.techradar.com/rss
+TRD-Beta-Status: true
+

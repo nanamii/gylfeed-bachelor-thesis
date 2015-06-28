@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 20:32:55 GMT
+Server: Apache
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+X-Pingback: http://www.rifters.com/crawl/xmlrpc.php
+ETag: "810e82113150cc863e29d9fdd2188456"
+Set-Cookie: PHPSESSID=0GexjbroFuXNjV7IowptD3; path=/
+Last-Modified: Mon, 22 Jun 2015 23:56:09 GMT
+Vary: Accept-Encoding
+Content-Type: text/html
+

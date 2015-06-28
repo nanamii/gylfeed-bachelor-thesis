@@ -1,0 +1,9 @@
+HTTP/1.1 302 Found
+Date: Fri, 26 Jun 2015 19:25:53 GMT
+Content-Type: text/html; charset=iso-8859-1
+Connection: keep-alive
+Set-Cookie: __cfduid=dfe2fe059c5576079bbb33211b9036d191435346753; expires=Sat, 25-Jun-16 19:25:53 GMT; path=/; domain=.cad-comic.com; HttpOnly
+Location: http://cdn2.cad-comic.com/rss.xml
+Server: cloudflare-nginx
+CF-RAY: 1fcb4cf751dc157d-FRA
+

@@ -1,0 +1,11 @@
+HTTP/1.1 302 Temporary Redirect
+Date: Fri, 26 Jun 2015 20:21:16 GMT
+Server: Apache/2.2.22 (Debian)
+X-Powered-By: PHP/5.4.35-0+deb7u2
+X-Pingback: http://blog.red-bean.com/sussman/xmlrpc.php
+Last-Modified: Sun, 08 Jun 2014 19:37:52 GMT
+ETag: "3edea197564b67ff58c0976a36ddcad1"
+Location: http://feeds.feedburner.com/ibanjo
+Vary: Accept-Encoding
+Content-Type: text/html
+

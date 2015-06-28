@@ -1,0 +1,17 @@
+HTTP/1.1 404 Not Found
+Content-Length: 57770
+Content-Type: text/html; charset=utf-8
+Server: Microsoft-IIS/7.5
+X-AspNetMvc-Version: 3.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+X-MACHINE: sbkdfinwebp02
+Expires: Fri, 26 Jun 2015 19:01:19 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Fri, 26 Jun 2015 19:01:19 GMT
+Connection: keep-alive
+Set-Cookie: .ASPXAUTH=; domain=marketwatch.com; expires=Tue, 12-Oct-1999 05:00:00 GMT; path=/; HttpOnly
+Set-Cookie: kayla=g=54a1f5cb262c4113bf8e18559086a950; domain=.marketwatch.com; expires=Fri, 26-Jun-2020 19:01:20 GMT; path=/
+Set-Cookie: mw5_loc={"Country":"DE","Region":"BY","City":"MUNICH","Continent":"EU","County":null}; domain=.marketwatch.com; path=/
+

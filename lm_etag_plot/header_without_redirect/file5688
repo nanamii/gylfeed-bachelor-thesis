@@ -1,0 +1,11 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx/1.8.0
+Date: Fri, 26 Jun 2015 20:20:54 GMT
+Content-Type: application/rss+xml; charset="UTF-8"
+Connection: keep-alive
+Vary: Cookie
+X-Pingback: http://thisismynextpodcast.com/xmlrpc.php
+ETag: "38b76ca4621f06028e86c624e498c2e0"
+Last-Modified: Wed, 24 Jun 2015 19:48:18 GMT
+Location: http://thisismynextpodcast.com/feed/
+

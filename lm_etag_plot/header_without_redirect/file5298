@@ -1,0 +1,10 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx/1.8.0
+Date: Fri, 26 Jun 2015 20:14:33 GMT
+Content-Type: text/html; charset=iso-8859-1
+Connection: keep-alive
+Location: http://lovintheoven.com/feeds/posts/default
+Cache-Control: max-age=3600
+Expires: Fri, 26 Jun 2015 21:14:33 GMT
+Vary: Accept-Encoding
+

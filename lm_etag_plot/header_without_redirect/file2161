@@ -1,0 +1,8 @@
+HTTP/1.1 200 OK
+Server: Apache/2.2.10 (Unix) mod_ssl/2.2.10 OpenSSL/0.9.7a DAV/2 PHP/5.2.4
+Last-Modified: Fri, 26 Jun 2015 18:31:17 GMT
+ETag: "a4027c-18df-5196ff213c740"-gzip
+Content-Type: application/xml
+Date: Fri, 26 Jun 2015 18:56:59 GMT
+Connection: keep-alive
+

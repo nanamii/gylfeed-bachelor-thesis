@@ -1,0 +1,8 @@
+HTTP/1.1 200 OK
+Server: nginx/0.7.65
+Date: Sat, 27 Jun 2015 18:32:42 GMT
+Content-Type: text/html; charset=utf-8
+Connection: keep-alive
+Vary: Accept-Encoding
+Vary: Cookie,Accept-Encoding
+

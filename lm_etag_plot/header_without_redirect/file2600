@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 19:01:43 GMT
+Server: Apache
+X-DN-Cache-Control: max-age=3600
+Cache-Control: max-age=300, s-maxage=1800
+X-Gyrobase-Publication: boiseweekly
+Vary: Host,Accept-Encoding
+Last-Modified: Fri, 26 Jun 2015 18:01:44 GMT
+Content-Type: application/xml; charset=utf-8
+

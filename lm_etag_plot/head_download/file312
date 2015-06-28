@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 18:38:21 GMT
+Server: Apache/2.2.16
+X-Powered-By: PHP/5.3.3-7+squeeze19
+Vary: Cookie
+X-Pingback: http://fdt.powerflasher.com/xmlrpc.php
+ETag: "170cd9027e47351568f0cbb780f515e8"
+WP-Super-Cache: Served legacy cache file
+Content-Type: text/xml; charset=UTF-8
+

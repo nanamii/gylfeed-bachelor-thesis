@@ -1,0 +1,29 @@
+HTTP/1.1 200 OK
+age: 0
+cache-control: public, max-age=60
+content-language: en
+content-length: 0
+content-security-policy: default-src https: data:; report-uri https://twitter.com/i/csp_report?a=M5QXUZLCN4%3D%3D%3D%3D%3D%3D&ro=false; img-src https: data: ; script-src https://*.twitter.com https://*.twimg.com https://*.vine.co https://ssl.google-analytics.com 'unsafe-eval' ; font-src https: data: ; frame-src https://* chrome-extension: about: javascript: ; connect-src https: ; media-src https: ; object-src https: ; style-src https:
+content-type: text/html; charset=utf-8
+date: Sat, 27 Jun 2015 21:20:07 GMT
+expires: Sat, 27 Jun 2015 21:20:10 +0000
+last-modified: Sat, 27 Jun 2015 21:19:11 +0000
+link: <https://blog.twitter.com/tweetdeck>; rel="canonical",<https://blog.twitter.com/sites/all/themes/gazebo/img/twitter-bird-white-on-blue.png>; rel="image_src"
+server: tsa_b
+set-cookie: guest_id=v1%3A143544000708472004; Domain=.twitter.com; Path=/; Expires=Mon, 26-Jun-2017 21:20:07 UTC
+strict-transport-security: max-age=631138519
+vary: Cookie
+x-connection-hash: aad226dc4fe53965a73e430b8e89eae5
+x-content-type-options: nosniff
+x-drupal-cache: HIT
+x-frame-options: sameorigin
+x-gazebo-app-rev: 17e1ecb
+x-gazebo-git-rev: d3d4e558eaa9fcd7188445a23012b4ff970a7f65
+x-gazebo-host: f02243a
+x-response-time: 50
+x-ua-compatible: IE=edge,chrome=1
+x-varnish: 2090645269
+x-varnish-cache: MISS
+x-varnish-l-curl: SUCCESS
+x-xss-protection: 1; mode=block
+

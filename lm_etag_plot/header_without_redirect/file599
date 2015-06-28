@@ -1,0 +1,7 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 18:04:33 GMT
+Server: Apache/2.2.22
+Location: http://vanderlin.cc/feed/
+Vary: Accept-Encoding
+Content-Type: text/html; charset=iso-8859-1
+

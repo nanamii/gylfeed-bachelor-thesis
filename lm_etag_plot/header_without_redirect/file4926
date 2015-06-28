@@ -1,0 +1,16 @@
+HTTP/1.1 302 Found
+Date: Fri, 26 Jun 2015 19:47:20 GMT
+Content-Type: text/html; charset=utf-8
+Connection: keep-alive
+Set-Cookie: __cfduid=d09989ffd74f823e073ba1cbc549dddab1435348039; expires=Sat, 25-Jun-16 19:47:19 GMT; path=/; domain=.manmadediy.com; HttpOnly
+Status: 302 Found
+Location: http://www.manmadediy.com/site_index.rss
+X-Ua-Compatible: IE=Edge,chrome=1
+Cache-Control: no-cache
+X-Request-Id: 9944fa0f-62d4-48c3-8ade-828592105873
+X-Runtime: 0.006559
+X-Rack-Cache: miss
+Via: 1.1 vegur
+Server: cloudflare-nginx
+CF-RAY: 1fcb6c61685e1589-FRA
+

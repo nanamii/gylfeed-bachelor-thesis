@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Cache-Control: public, max-age=300, s-maxage=300
+Content-Type: text/xml;charset=utf-8
+X-UA-Compatible: IE=edge,chrome=1,requiresActiveX=true
+Vary: Accept-Encoding
+Date: Fri, 26 Jun 2015 19:26:26 GMT
+X-Varnish: 251134819
+Age: 0
+Via: 1.1 varnish
+Connection: keep-alive
+X-Cache: MISS
+

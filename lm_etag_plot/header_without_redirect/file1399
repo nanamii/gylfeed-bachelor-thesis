@@ -1,0 +1,9 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 18:24:06 GMT
+Content-Type: text/html
+Connection: keep-alive
+Set-Cookie: __cfduid=ddd392f19a5159b5c7c720b945a9aa0b51435343046; expires=Sat, 25-Jun-16 18:24:06 GMT; path=/; domain=.ycombinator.com; HttpOnly
+Location: https://news.ycombinator.com/rss
+Server: cloudflare-nginx
+CF-RAY: 1fcaf275de2e15bf-FRA
+

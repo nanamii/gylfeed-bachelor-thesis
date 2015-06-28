@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Content-Type: text/html
+Date: Fri, 26 Jun 2015 20:37:18 GMT
+Last-Modified: Sat, 06 Jun 2015 13:14:40 GMT
+Server: Apache/2.2.22 (Ubuntu)
+Vary: User-Agent,Accept-Encoding
+X-Pingback: https://mojang.com/xmlrpc.php
+X-Powered-By: W3 Total Cache/0.9.4.1
+Connection: keep-alive
+

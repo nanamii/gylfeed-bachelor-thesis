@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:29:42 GMT
+Server: LiteSpeed
+Connection: close
+X-Powered-By: PHP/5.3.27
+Set-Cookie: CAKEPHP=365851c6b77d219fd8f9f74a84a112a1; expires=Sun, 28-Jun-2015 07:29:42 GMT; path=/; HttpOnly
+Expires: no cache man
+Content-Type: text/html; charset=UTF-8
+

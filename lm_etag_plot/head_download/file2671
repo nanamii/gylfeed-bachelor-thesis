@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Content-Type: application/rss+xml; charset=utf-8
+Last-Modified: Sat, 27 Jun 2015 13:28:35 GMT
+Vary: Cookie
+X-Backend: www.cio.com.au
+Content-Length: 13181
+Accept-Ranges: bytes
+Date: Sat, 27 Jun 2015 19:42:28 GMT
+X-Varnish: 2114316693 2114311752
+Age: 96
+Via: 1.1 varnish
+Connection: keep-alive
+

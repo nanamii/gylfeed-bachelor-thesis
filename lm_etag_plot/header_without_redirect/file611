@@ -1,0 +1,11 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx/1.8.0
+Date: Fri, 26 Jun 2015 18:04:37 GMT
+Content-Type: text/html
+Content-Length: 184
+Connection: keep-alive
+Keep-Alive: timeout=10
+Location: http://www.icodeblog.com/feed/
+X-XSS-Protection: 1; mode=block
+X-Content-Options: nosniff
+

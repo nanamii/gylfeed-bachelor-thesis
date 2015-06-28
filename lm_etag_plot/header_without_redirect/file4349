@@ -1,0 +1,16 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 19:39:23 GMT
+Content-Type: text/html; charset=iso-8859-1
+Connection: keep-alive
+Set-Cookie: __cfduid=d96bc5a04aeff24380a9280e079918fcc1435347563; expires=Sat, 25-Jun-16 19:39:23 GMT; path=/; domain=.buzzmachine.com; HttpOnly
+Location: http://www.buzzmachine.com/feed/
+Vary: Accept-Encoding
+X-Cacheable: NO:Passed
+Cache-Control: max-age=0, must-revalidate
+Accept-Ranges: bytes
+X-Cache: MISS
+X-Pass-Why: pass-path
+X-Type: default
+Server: cloudflare-nginx
+CF-RAY: 1fcb60c0809515b9-FRA
+

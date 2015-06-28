@@ -1,0 +1,14 @@
+HTTP/1.1 302 Found
+ETag: W/"760fc65d-647c-4069-b244-9bc57a0e2fd6"
+Date: Fri, 26 Jun 2015 18:19:52 GMT
+Content-Type: text/html
+Server: blogger-renderd
+Expires: Fri, 26 Jun 2015 18:19:53 GMT
+Cache-Control: public, must-revalidate, proxy-revalidate, max-age=1
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Location: http://feedproxy.google.com/OfficialGoogleMobileBlog
+X-Frame-Options: SAMEORIGIN
+Alternate-Protocol: 80:quic,p=0
+Transfer-Encoding: chunked
+

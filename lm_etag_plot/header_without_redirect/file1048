@@ -1,0 +1,17 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 18:16:26 GMT
+Server: Apache/2.2.15 (CentOS)
+X-Powered-By: PHP/5.3.3
+Set-Cookie: bb2_screener_=1435342586+92.194.59.39; path=/blog/
+Set-Cookie: wfvt_2139260144=558d96fb6a9ab; expires=Fri, 26-Jun-2015 18:46:27 GMT; path=/; httponly
+X-Pingback: http://www.copypress.com/blog/xmlrpc.php
+Last-Modified: Mon, 22 Jun 2015 15:04:15 GMT
+ETag: "8a9aea5639b014bd3eb516e36f71f6ff"
+X-Robots-Tag: noindex,follow
+Vary: Accept-Encoding,User-Agent
+X-FRAME-OPTIONS: SAMEORIGIN
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, must-revalidate
+Content-Type: text/xml; charset=UTF-8
+

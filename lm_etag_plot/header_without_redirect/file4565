@@ -1,0 +1,16 @@
+HTTP/1.1 302 Found
+Date: Fri, 26 Jun 2015 19:43:41 GMT
+Content-Type: application/atom+xml
+Connection: keep-alive
+Set-Cookie: __cfduid=d9ee59bc5e74f19bf25d7154afc7c59f41435347821; expires=Sat, 25-Jun-16 19:43:41 GMT; path=/; domain=.technewsradio.com; HttpOnly
+X-PhApp: oak-tp-web020
+X-Webserver: oak-tp-web020
+Location: http://feeds.feedburner.com/technewsradio
+Vary: cookie
+Expires: Fri, 26 Jun 2015 19:58:41 GMT
+X-Varnish: 1651566557
+Age: 0
+Via: 1.1 varnish
+Server: cloudflare-nginx
+CF-RAY: 1fcb670ccfec0f93-FRA
+

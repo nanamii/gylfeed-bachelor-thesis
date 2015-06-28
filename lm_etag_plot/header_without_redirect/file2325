@@ -1,0 +1,20 @@
+HTTP/1.1 200 OK
+Server: Apache
+Last-Modified: Mon, 27 Feb 2012 22:03:57 GMT
+ETag: "77129ac792c84315067385f91706ce32"
+Link: <http://nyti.ms/wQ4njx>; rel=shortlink
+Link: <http://prescriptions.blogs.nytimes.com/json>; rel="https://github.com/WP-API/WP-API"
+Content-Type: text/xml; charset=UTF-8
+Content-Length: 13723
+Accept-Ranges: bytes
+Date: Fri, 26 Jun 2015 18:58:58 GMT
+X-Varnish: 1399429161
+Age: 0
+Via: 1.1 varnish
+X-Cache: MISS
+X-API-Version: 5-5b
+X-PageType: blog2
+Connection: close
+X-Frame-Options: DENY
+Set-Cookie: RMID=007f01012966558da0f2000a;Path=/; Domain=.nytimes.com;Expires=Sat, 25 Jun 2016 18:58:58 UTC
+

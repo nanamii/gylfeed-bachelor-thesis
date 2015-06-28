@@ -1,0 +1,9 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 20:33:11 GMT
+Server: Apache
+Served-By: Joyent
+Location: http://daringfireball.net/feeds/main
+Vary: Accept-Encoding
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+

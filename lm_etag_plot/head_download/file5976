@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Sat, 27 Jun 2015 21:39:20 GMT
+Content-Type: application/rss+xml; charset=utf-8
+Connection: close
+Status: 200 OK
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+ETag: W/"d445e2f2ce8e5f7e6957d5bb883d00ec"
+Cache-Control: max-age=0, private, must-revalidate
+X-Request-Id: 66f03ed8-916f-4d59-bd2a-b8527db16166
+X-Runtime: 0.042086
+X-Frame-Options: SAMEORIGIN
+

@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Server: nginx/1.6.2
+Date: Sat, 27 Jun 2015 18:37:47 GMT
+Content-Type: text/xml; charset=UTF-8
+Connection: keep-alive
+Vary: Cookie
+X-Pingback: http://llops.com/blog/xmlrpc.php
+ETag: "d61de3251818abede695c2ae4aa1abef"
+WP-Super-Cache: Served legacy cache file
+

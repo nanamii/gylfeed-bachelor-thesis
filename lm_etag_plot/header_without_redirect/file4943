@@ -1,0 +1,13 @@
+HTTP/1.1 302 Temporary Redirect
+Date: Fri, 26 Jun 2015 19:47:27 GMT
+Server: Apache/2.2.22
+X-Powered-By: PHP/5.3.29
+X-Pingback: http://weeklyleader.net/xmlrpc.php
+ETag: "9c4de95fd8e56da7a22849c08102b476"
+Set-Cookie: wooTracker=AL6Z68ELEKAQ; expires=Sun, 25-Jun-2017 19:47:28 GMT; path=/; domain=weeklyleader.net
+Set-Cookie: wpgb_visit_last_php-default=1435348048; expires=Sat, 25-Jun-2016 19:47:28 GMT; path=/
+Last-Modified: Fri, 06 Sep 2013 03:44:51 GMT
+Location: http://feeds.feedburner.com/weeklyleader
+Vary: User-Agent,Accept-Encoding
+Content-Type: text/html
+

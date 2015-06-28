@@ -1,0 +1,20 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:20:07 GMT
+Server: Apache/2.2.14 (Unix) DAV/2 mod_jk/1.2.28 mod_ssl/2.2.14 OpenSSL/0.9.7a
+X-Highwire-SessionId: ZRJnHYZpnfq5KUk0h0jiFA
+X-Highwire-RequestId: VY73Z6tDcL8AAFk5LpIAAAFi
+X-Firenze-Processing-Time: 10.513
+Accept-Ranges: bytes
+Last-Modified: Thu, 25 Jun 2015 03:27:25 GMT
+ETag: "3d5cad-19f8a-558b751d"
+X-Firenze-Processing-Times: detect-robot: 0.085
+X-Firenze-Processing-Times: add-external-dependencies-info: 0.074
+X-Firenze-Processing-Times: retrieve-ads: 4.104
+X-Firenze-Processing-Times: log-builder: 1.588
+X-Firenze-Processing-Times: servlet: 6.125
+X-Firenze-Processing-Time: 15.391
+Content-Length: 106378
+Vary: Accept-Encoding
+Set-Cookie: JSESSIONID=AC820945C7D385DA13393B87FD88AAA0.wa71.highwire.org; Path=/
+Content-Type: text/xml
+

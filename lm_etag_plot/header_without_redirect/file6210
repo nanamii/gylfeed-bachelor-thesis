@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 20:33:36 GMT
+Server: Apache/2.2.22
+X-Powered-By: PHP/5.3.29
+X-Pingback: http://mikemonteiro.com/xmlrpc.php
+ETag: "c2327cc32d49c8ebc8fc342d742650c0"
+Last-Modified: Sat, 02 Feb 2013 22:18:04 GMT
+Vary: User-Agent,Accept-Encoding
+Content-Type: text/html
+

@@ -1,0 +1,9 @@
+HTTP/1.1 301 Moved Permanently
+content-length: 0
+date: Fri, 26 Jun 2015 18:19:29 GMT
+location: https://support.twitter.com/forums/10711/posts.rss
+server: tsa_f
+set-cookie: guest_id=v1%3A143534276961905191; Domain=.twitter.com; Path=/; Expires=Sun, 25-Jun-2017 18:19:29 UTC
+x-connection-hash: af2a2a0e1ff1109f092f87929be1b6b0
+x-response-time: 106
+

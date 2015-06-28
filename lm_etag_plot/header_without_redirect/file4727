@@ -1,0 +1,11 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 19:45:32 GMT
+Server: Apache/2.2.27 (Unix) mod_ssl/2.2.27 OpenSSL/1.0.1e-fips mod_bwlimited/1.4 PHP/5.3.28
+X-Powered-By: PHP/5.3.28
+Vary: Cookie,Accept-Encoding,User-Agent
+X-Pingback: http://www.cottagesmallholder.com/xmlrpc.php
+Last-Modified: Wed, 24 Jun 2015 05:39:14 GMT
+ETag: "f84b6c5682e057574cbf80b690a818ce"
+Location: http://www.cottagesmallholder.com/feed/
+Content-Type: text/html; charset=UTF-8
+

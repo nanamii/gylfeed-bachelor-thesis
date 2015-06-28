@@ -1,0 +1,9 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 18:24:07 GMT
+Content-Type: text/html
+Connection: keep-alive
+Set-Cookie: __cfduid=d1d2a0081f25843b154c64af0906f9c6c1435343046; expires=Sat, 25-Jun-16 18:24:06 GMT; path=/; domain=.unclutterer.com; HttpOnly
+Location: https://unclutterer.com/feed/
+Server: cloudflare-nginx
+CF-RAY: 1fcaf27b20bf15a7-FRA
+

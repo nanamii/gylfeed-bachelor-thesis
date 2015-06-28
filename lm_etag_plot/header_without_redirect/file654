@@ -1,0 +1,7 @@
+HTTP/1.1 302 Found
+Date: Fri, 26 Jun 2015 18:05:06 GMT
+Server: Apache/2.2.22
+Location: http://drawn.ca/goodbye/
+Vary: Accept-Encoding
+Content-Type: text/html; charset=iso-8859-1
+

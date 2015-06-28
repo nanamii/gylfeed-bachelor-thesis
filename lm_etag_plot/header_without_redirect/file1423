@@ -1,0 +1,14 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 18:40:35 GMT
+Server: Apache
+X-Pingback: http://www.briansolis.com/xmlrpc.php
+X-W3TC-Minify: On
+Expires: Wed, 11 Jan 1984 05:00:00 GMT
+Cache-Control: no-cache, must-revalidate, max-age=0
+Pragma: no-cache
+Location: http://www.briansolis.com/atom.xml
+X-Powered-By: PleskLin
+Vary: User-Agent,Accept-Encoding
+Connection: close
+Content-Type: text/html; charset=UTF-8
+

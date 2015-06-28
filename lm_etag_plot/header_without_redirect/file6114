@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 26 Jun 2015 20:32:45 GMT
+Content-Type: text/xml; charset=UTF-8
+Connection: keep-alive
+X-Pingback: http://blogs.law.harvard.edu/doc/xmlrpc.php
+Last-Modified: Fri, 19 Jun 2015 23:24:28 GMT
+ETag: "e93015b39e6a1b8ce046cd89ca588227"
+

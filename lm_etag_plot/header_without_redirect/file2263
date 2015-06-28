@@ -1,0 +1,25 @@
+HTTP/1.1 200 OK
+Server: nginx
+X-Varnish: 902373145
+Vary: Accept-Encoding, Cookie
+Cache-Control: no-cache, must-revalidate, post-check=0, pre-check=0
+Content-Type: text/html; charset=utf-8
+X-Styx-Build-Sha: 39667cea44763e7df6d81c544b0d294bf223876f
+X-Pantheon-Styx-Hostname: styx803cea0c
+X-Styx-Version: StyxGo
+Date: Fri, 26 Jun 2015 18:58:00 GMT
+Link: <http://vegweb.com/home>; rel="shortlink",<http://vegweb.com/>; rel="canonical"
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+X-Drupal-Cache: MISS
+X-Styx-Req-Id: styx-e3b24109718b135f63e6b56e7a2c46e7
+Transfer-Encoding: chunked
+Content-Language: en
+X-Generator: Drupal 7 (http://drupal.org)
+X-Pantheon-Endpoint: d507bd25-df3c-4907-bdb4-80eeb6bc3e8f
+Via: 1.1 varnish
+Connection: Keep-Alive
+X-Styx-Build-Date: Wed Apr 29 20:43:17 UTC 2015
+X-Powered-By: PHP/5.3.29
+X-Styx-Build-Num: 946
+Age: 0
+

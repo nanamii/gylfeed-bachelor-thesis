@@ -1,0 +1,17 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 26 Jun 2015 20:33:27 GMT
+Content-Type: application/rss+xml; charset=utf-8
+Connection: keep-alive
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+Cache-Control: max-age=300
+Vary: Accept-Language, Cookie
+Last-Modified: Thu, 25 Jun 2015 16:52:10 GMT
+Content-Language: en
+Expires: Fri, 26 Jun 2015 20:37:11 GMT
+X-Frame-Options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+Access-Control-Allow-Origin: https://code.djangoproject.com
+X-Frame-Options: SAMEORIGIN
+

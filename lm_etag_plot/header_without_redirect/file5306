@@ -1,0 +1,14 @@
+HTTP/1.1 302 Found
+Date: Fri, 26 Jun 2015 20:14:38 GMT
+Server: Apache/2.2.22 (Ubuntu)
+X-Powered-By: PHP/5.3.10-1ubuntu3.18
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Last-Modified: Fri, 26 Jun 2015 20:14:38 +0000
+Cache-Control: no-cache, must-revalidate, post-check=0, pre-check=0
+ETag: "1435349678"
+Content-Language: en
+Location: http://www.manager-tools.com/map-of-the-universe
+Set-Cookie: SESS096475a907cbcc1083de9efad77a96b4=as3_OJvMdlYPijfpFqscylKa2IMahmWB6lNe2wVSRvY; expires=Sun, 19-Jul-2015 23:48:00 GMT; path=/; domain=.manager-tools.com; HttpOnly
+Vary: Accept-Encoding
+Content-Type: text/html; charset=utf-8
+

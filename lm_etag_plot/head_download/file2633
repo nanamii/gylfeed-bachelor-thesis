@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Server: Apache
+X-Powered-By: PHP/5.4.41
+Set-Cookie: _wp_session=b0c1aa8cbefe7e65e8a12a717518e5e5%7C%7C1438026128%7C%7C1438026128; expires=Mon, 27-Jul-2015 19:42:08 GMT; path=/
+X-Pingback: http://www.the-american-interest.com/xmlrpc.php
+Last-Modified: Sat, 27 Jun 2015 19:34:58 GMT
+Vary: Accept-Encoding
+Content-Type: text/html; charset=UTF-8
+Accept-Ranges: bytes
+Date: Sat, 27 Jun 2015 19:42:08 GMT
+X-Varnish: 715084836
+Age: 0
+Via: 1.1 varnish
+Connection: keep-alive
+

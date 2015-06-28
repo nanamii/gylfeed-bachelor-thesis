@@ -1,0 +1,13 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 19:18:01 GMT
+Server: Apache
+X-Gas_TTL: 14400
+Cache-Control: max-age=14400
+X-GasHost: gas1.usw
+Location: /index.rss
+X-Cooking-With: Gasoline-Redirect-Local
+X-Gasoline-Age: 8621
+Content-Type: text/html
+Vary: Accept-Encoding
+Cache-Control: no-transform
+

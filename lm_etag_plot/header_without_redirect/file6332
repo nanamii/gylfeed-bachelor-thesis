@@ -1,0 +1,19 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 20:34:44 GMT
+X-ServedBy: ny1-prod6-web003
+Set-Cookie: JSESSIONID=Vq3n3vrbc134tPCeiao7WKvL4GHlevMuUW88xAbGc9al-QtzA_wb1A;Path=/;HttpOnly
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Set-Cookie: crumb=0ae902eb2c;Path=/
+Set-Cookie: SS_MID=f36ad2fe-ca73-4bdd-8c32-3e2c755b620fibe2uumn;Path=/;Domain=.seriouspony.com;Expires=Mon, 23-Jun-2025 20:34:44 GMT
+Set-Cookie: ss_cid=ea999912-0d2e-4753-93ae-6eee29d81e93;Path=/;Domain=.seriouspony.com;Expires=Sun, 25-Jun-2017 20:34:44 GMT
+Set-Cookie: ss_cvisit=1435350884503;Path=/;Domain=.seriouspony.com;Expires=Fri, 26-Jun-2015 21:04:44 GMT
+Accept-Ranges: bytes
+Content-Type: application/rss+xml; charset=UTF-8
+X-PC-Date: Fri, 26 Jun 2015 16:30:09 GMT
+X-PC-Host: 10.100.101.105
+ETag: W/"efd267290024916641a91e59820bfad4"
+X-PC-Key: net8siAVQYmfxd99-1NhpFk_LfE-kathy-sierra
+X-PC-Hit: true
+X-ContextId: JvxmOUHd/Y7rkpbxt
+X-Via: 1.1 ny1-prod-echo015
+

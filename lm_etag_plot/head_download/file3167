@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:52:43 GMT
+Server: Apache
+X-Pingback: http://www.scottaaronson.com/blog/xmlrpc.php
+ETag: "5496cdde97a9f0fc3abab813bc8d9fca"
+Last-Modified: Sat, 27 Jun 2015 16:14:25 GMT
+Vary: Accept-Encoding
+Connection: close
+Content-Type: text/html
+

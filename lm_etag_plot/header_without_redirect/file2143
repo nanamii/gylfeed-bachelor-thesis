@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 18:56:46 GMT
+Content-Type: text/html
+Connection: keep-alive
+Keep-Alive: timeout=30
+Server: Apache/2
+X-Powered-By: PHP/5.3.29
+X-Pingback: http://www.asplashofvanilla.com/xmlrpc.php
+Last-Modified: Thu, 25 Jun 2015 22:29:28 GMT
+ETag: "2692c68ba0a81d12bc03b0110871e671"
+

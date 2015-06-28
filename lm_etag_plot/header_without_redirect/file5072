@@ -1,0 +1,11 @@
+HTTP/1.1 302 Temporary Redirect
+Date: Fri, 26 Jun 2015 19:51:53 GMT
+Server: Apache
+X-Pingback: http://lifeonthebalcony.com/xmlrpc.php
+Set-Cookie: wpgb_visit_last_php-default=1435348313; expires=Sat, 25-Jun-2016 19:51:53 GMT; path=/
+Last-Modified: Mon, 02 Dec 2013 06:20:54 GMT
+Location: http://feeds.feedburner.com/lifeonthebalcony
+Vary: Accept-Encoding,User-Agent
+Connection: close
+Content-Type: text/html
+

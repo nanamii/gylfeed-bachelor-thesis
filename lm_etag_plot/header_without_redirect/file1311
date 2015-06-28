@@ -1,0 +1,21 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Fri, 26 Jun 2015 18:20:21 GMT
+Content-Type: text/html
+Content-Length: 0
+Connection: keep-alive
+Keep-Alive: timeout=20
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Pragma: no-cache
+X-Pingback: http://andrewmcafee.org/xmlrpc.php
+Last-Modified: Fri, 08 May 2015 10:45:00 GMT
+ETag: "10e3f225feae78ba5c0713973b10210c"
+Location: http://andrewmcafee.org/blog/feed/
+X-Cacheable: non200
+Cache-Control: max-age=86400, must-revalidate
+Accept-Ranges: bytes
+X-Cache: HIT: 415
+X-Pass-Why: 
+X-Cache-Group: normal
+X-Type: default
+

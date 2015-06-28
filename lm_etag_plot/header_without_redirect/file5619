@@ -1,0 +1,16 @@
+HTTP/1.1 302 Found
+Date: Fri, 26 Jun 2015 20:17:52 GMT
+Content-Type: application/atom+xml
+Connection: keep-alive
+Set-Cookie: __cfduid=dd78f20aec95d34d98fb6a9482907dbca1435349872; expires=Sat, 25-Jun-16 20:17:52 GMT; path=/; domain=.liesdamnedlies.com; HttpOnly
+X-PhApp: oak-tp-web009
+X-Webserver: oak-tp-web009
+Location: http://feeds.feedburner.com/liesdamnedlies
+Vary: cookie
+Expires: Fri, 26 Jun 2015 20:19:21 GMT, Fri, 26 Jun 2015 20:19:21 GMT
+X-Varnish: 1652362756 1652051737
+Age: 811
+Via: 1.1 varnish
+Server: cloudflare-nginx
+CF-RAY: 1fcb991c166415bf-FRA
+

@@ -1,0 +1,7 @@
+HTTP/1.1 302 Moved Temporarily
+Date: Fri, 26 Jun 2015 18:13:03 GMT
+Server: Apache
+X-Powered-By: PHP/5.4.42
+Location: http://www.dasprinzip.com/wp
+Content-Type: text/html
+

@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:39:42 GMT
+Server: Apache
+X-Pingback: http://www.derekhaines.ch/vandal/xmlrpc.php
+Last-Modified: Sat, 27 Jun 2015 13:20:49 GMT
+ETag: "a3e77dbbd52ed994d124fe88979c614b"
+Cache-Control: max-age=3600
+Expires: Sat, 27 Jun 2015 20:39:42 GMT
+Vary: User-Agent,Accept-Encoding
+Content-Type: text/html
+

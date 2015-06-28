@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 21:06:39 GMT
+Server: Apache
+Cache-Control: max-age=3, must-revalidate
+Expires: Sat, 27 Jun 2015 21:06:42 GMT
+Vary: Accept-Encoding,Cookie,User-Agent
+X-Server-ID: 2
+Connection: close
+Content-Type: text/html; charset=utf-8
+

@@ -1,0 +1,10 @@
+HTTP/1.1 302 Found
+Server: nginx
+Date: Fri, 26 Jun 2015 19:04:37 GMT
+Content-Type: text/html; charset=utf-8
+Connection: keep-alive
+X-hacker: If you're reading this, you should visit automattic.com/jobs and apply to join the fun, mention this header.
+Location: http://feeds.rocketnews24.com/rocketnews24/en
+X-nc: MISS sat 132
+X-ac: 3.fra _sat
+

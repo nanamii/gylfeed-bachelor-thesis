@@ -1,0 +1,12 @@
+HTTP/1.1 301 Moved Permanently
+Set-Cookie: 90planBAK=R1580384350; path=/; expires=Fri, 26-Jun-2015 19:21:21 GMT
+Date: Fri, 26 Jun 2015 18:04:30 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+Set-Cookie: 90plan=R1561088376; path=/; expires=Fri, 26-Jun-2015 19:08:03 GMT
+Server: Apache
+X-Powered-By: PHP/5.2.17
+X-Pingback: http://zamak.fr/xmlrpc.php
+Location: http://zamak.fr/?feed/rss2
+Vary: Accept-Encoding
+

@@ -1,0 +1,15 @@
+HTTP/1.0 200 OK
+Date: Fri, 26 Jun 2015 19:04:41 GMT
+Cache-Control: max-age=90
+Expires: Fri, 26 Jun 2015 19:06:11 GMT
+X-SP-TE: 6154
+X-Robots-Tag: index, follow, noarchive, noodp
+Content-Type: text/xml;charset=ISO-8859-1
+Content-Length: 21625
+X-SP-AP: 3959
+Vary: Accept-Encoding
+X-Cache: MISS from lnxp-3959.srv.mediaways.net
+X-Cache-Lookup: HIT from lnxp-3959.srv.mediaways.net:100
+Via: 1.1 www.spiegel.de, 1.0 lnxp-3959.srv.mediaways.net (squid/3.1.4)
+Connection: close
+

@@ -1,0 +1,10 @@
+HTTP/1.1 302 Found
+Set-Cookie: 240planBAK=R2339297792; path=/; expires=Fri, 26-Jun-2015 20:44:24 GMT
+Date: Fri, 26 Jun 2015 19:43:15 GMT
+Content-Type: text/html; charset=iso-8859-1
+Connection: keep-alive
+Set-Cookie: 240plan=R914997075; path=/; expires=Fri, 26-Jun-2015 20:48:18 GMT
+Server: Apache
+Location: http://www.robotic-lab.com/blog
+Vary: Accept-Encoding
+

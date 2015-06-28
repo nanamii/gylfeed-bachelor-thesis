@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:42:40 GMT
+Server: Apache
+Vary: Cookie,Accept-Encoding
+X-Pingback: http://blog.evernote.com/xmlrpc.php
+Last-Modified: Thu, 25 Jun 2015 20:43:38 GMT
+ETag: "c74093839992211dca6b7ceac6d21620"
+X-Robots-Tag: noindex,follow
+Content-Type: text/xml; charset=UTF-8
+

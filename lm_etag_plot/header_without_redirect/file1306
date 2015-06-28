@@ -1,0 +1,17 @@
+HTTP/1.1 200 OK
+Server: Apache
+X-Drupal-Cache: MISS
+Last-Modified: Sun, 21 Jun 2015 01:21:50 +0000
+ETag: "1434849710"
+Content-Location: http://mediafirst.net/blog/rss.xml
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+X-Powered-By: PleskLin
+Content-Type: text/xml; charset=utf-8
+Cache-Control: public, max-age=2592000
+X-Yottaa-ForceCache: true
+X-Yottaa-Optimizations: ob/1101 si/942670101 tts/1400704416179 ti/52d77c1a8b5f02370e00a04b ai/4ffc86a976111c4f250d1cd6
+Date: Fri, 26 Jun 2015 18:20:19 GMT
+Age: 490956
+Connection: keep-alive
+X-Yottaa-Metrics: 032136f6842c/[14,-,1434849711725] 0311b02292fd/[hit]
+

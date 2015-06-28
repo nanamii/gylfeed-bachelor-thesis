@@ -1,0 +1,8 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 19:01:39 GMT
+Connection: keep-alive
+Set-Cookie: __cfduid=d5046143b8bdfea15731a175adc9d69871435345299; expires=Sat, 25-Jun-16 19:01:39 GMT; path=/; domain=.fbi.gov; HttpOnly
+Location: https://www.fbi.gov/news/news_blog/rss.xml
+Server: cloudflare-nginx
+CF-RAY: 1fcb2977b8b80f57-FRA
+

@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 20:10:29 GMT
+Server: Apache
+Vary: Cookie,Accept-Encoding
+X-Pingback: http://gardenrant.com/xmlrpc.php
+ETag: "678ea88f7060c54b3705a30020a9fbd6"
+WP-Super-Cache: Served legacy cache file
+Content-Type: application/atom+xml; charset=UTF-8
+

@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 19:19:44 GMT
+P3P: policyref="http://info.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+Cache-Control: public, max-age=300, stale-while-revalidate=150
+Content-Type: application/xml
+Vary: Host,Accept-Encoding,X-Ssl
+Age: 3
+Via: http/1.1 yts252.global.media.ir2.yahoo.com (ApacheTrafficServer [cMsSf ]), http/1.1 r11.ycpi.dea.yahoo.net (ApacheTrafficServer [cMsSf ])
+Server: ATS
+Connection: keep-alive
+

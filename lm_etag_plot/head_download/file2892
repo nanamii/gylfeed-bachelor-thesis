@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Server: nginx/1.7.9
+Date: Sat, 27 Jun 2015 19:48:03 GMT
+Content-Type: application/rss+xml; charset=utf-8
+Connection: keep-alive
+X-Powered-By: PHP/5.4.41
+X-Logged-In: False
+P3P: CP="NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM"
+Cache-Control: no-cache
+Pragma: no-cache
+Set-Cookie: 4971eda63976da257d17913befb07c7b=affbad1dbade798aefcf180319e8093a; path=/
+Host-Header: 192fc2e7e50945beb8231a492d6a8024
+X-Proxy-Cache: MISS
+

@@ -1,0 +1,11 @@
+HTTP/1.1 301 Moved Permanently
+Cache-Control: no-cache
+Content-Length: 0
+Location: http://blogs.bing.com/
+Server: Microsoft-IIS/8.5
+P3P: CP="NON UNI COM NAV STA LOC CURa DEVa PSAa PSDa OUR IND"
+Set-Cookie: _HOP=I=1&TS=1435345639; domain=.bing.com; path=/
+Edge-control: no-store
+X-MSEdge-Ref: Ref A: 7E541E90BD93483EAC3B885B8599F125 Ref B: 9E160052D5B4EF4F8104CFB3283D418B Ref C: Fri Jun 26 12:07:19 2015 PST
+Date: Fri, 26 Jun 2015 19:07:18 GMT
+

@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 21:18:03 GMT
+Server: Apache/2.4.12 (Unix) OpenSSL/0.9.8r
+X-Powered-By: PHP/5.4.33
+X-Pingback: http://peter.sh/xmlrpc.php
+Last-Modified: Sun, 14 Sep 2014 23:27:27 GMT
+ETag: "a6520bdccbe12f96fc8072b995a4b12d"
+Vary: User-Agent
+Content-Type: text/html
+

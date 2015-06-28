@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 18:37:38 GMT
+Server: Apache/2.2.22
+X-Powered-By: PHP/5.3.29
+X-Pingback: http://www.leebrimelow.com/xmlrpc.php
+ETag: "a2b8cda9c4aea0308b81bce8f3696a10"
+Last-Modified: Fri, 06 Feb 2015 19:09:51 GMT
+Vary: User-Agent,Accept-Encoding
+Content-Type: text/html
+

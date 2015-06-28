@@ -1,0 +1,23 @@
+HTTP/1.1 301 Moved Permanently
+Server: Apache
+Location: http://rss.feedsportal.com/c/266/f/3821/index.rss
+Content-Type: text/html; charset=iso-8859-1
+X-Backend: appweb3ind
+Via: 1.1 varnish
+X-Cache-Origin: HIT
+X-Server: webcache1
+X-Age: 134
+Via: 1.1 varnish
+Cache-Control: max-age=600
+Content-Length: 257
+Accept-Ranges: bytes
+Date: Fri, 26 Jun 2015 18:42:30 GMT
+Via: 1.1 varnish
+Age: 2530
+Connection: keep-alive
+X-Served-By: cache-lcy1120-LCY, cache-fra1231-FRA
+X-Cache: MISS, HIT
+X-Cache-Hits: 0, 1
+X-Timer: S1435344150.364946,VS0,VE0
+Vary: Accept-Encoding, Mobile
+

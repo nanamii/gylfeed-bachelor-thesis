@@ -1,0 +1,15 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 19:39:01 GMT
+Server: Apache
+X-Powered-By: PHP/5.2.17
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Vary: Cookie
+X-Pingback: http://www.journerdism.com/xmlrpc.php
+ETag: "89b5009599ede04b885b8511748526c3"
+Set-Cookie: PHPSESSID=a5b8a8889956cddfd9841de41d455005; path=/
+Last-Modified: Sun, 24 May 2015 03:05:03 GMT
+Location: http://www.journerdism.com/feed/
+Content-Type: text/html
+

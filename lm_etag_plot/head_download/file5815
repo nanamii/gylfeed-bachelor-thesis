@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Server: nginx/1.4.7
+Date: Sat, 27 Jun 2015 21:32:12 GMT
+Content-Type: text/xml; charset=UTF-8
+Connection: keep-alive
+X-Powered-By: PHP/5.4.27
+Vary: Cookie
+X-Pingback: http://www.macstories.net/wp/xmlrpc.php
+ETag: "c47511fbbb5fc433f6be2567ea5af448"
+WP-Super-Cache: Served legacy cache file
+Cache-Control: no-transform
+

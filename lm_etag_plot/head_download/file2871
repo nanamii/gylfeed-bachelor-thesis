@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Server: Apache
+Set-Cookie: SITE=SCAND; Path=/
+Set-Cookie: SECTION=HOME; Path=/
+Content-Length: 4802
+X-Server-Name: hosted.ap.org
+X-Cnection: close
+Content-Type: text/xml
+Cache-Control: max-age=120
+Date: Sat, 27 Jun 2015 19:47:49 GMT
+Connection: keep-alive
+

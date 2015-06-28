@@ -1,0 +1,8 @@
+HTTP/1.1 200 OK
+Cache-Control: maxage=1500
+Content-Type: application/xml
+Date: Sat, 27 Jun 2015 18:36:54 GMT
+Expires: Sat, 27 Jun 2015 18:52:49 GMT
+Server: nginx
+Connection: keep-alive
+

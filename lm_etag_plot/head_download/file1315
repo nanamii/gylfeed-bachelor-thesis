@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:14:42 GMT
+Server: Apache/2.2.25 (Unix) PHP/5.3.25
+Last-Modified: Fri, 13 Jun 2014 18:16:47 GMT
+ETag: "3ec37a-a58ce-4fbbbae34e1c0"
+Accept-Ranges: bytes
+Content-Length: 678094
+X-WServer: mnrpia01-vm-apps-16 php
+Access-Control-Allow-Origin: *
+Content-Type: application/rss+xml
+

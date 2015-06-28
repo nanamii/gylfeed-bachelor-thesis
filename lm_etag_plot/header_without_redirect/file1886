@@ -1,0 +1,17 @@
+HTTP/1.1 200 OK
+Server: openresty
+Date: Fri, 26 Jun 2015 18:52:22 GMT
+Content-Type: text/xml; charset=UTF-8
+Content-Length: 71502
+Connection: keep-alive
+Vary: Cookie
+X-Pingback: http://avenue4learning.com/xmlrpc.php
+ETag: "91e7621cb8918bd64c11d48688b82b11"
+Last-Modified: Fri, 26 Jun 2015 18:04:45 +0000
+Cache-Control: max-age=600, must-revalidate
+Accept-Ranges: bytes
+X-Varnish: 1776078678 1776048010
+Age: 2857
+Via: 1.1 varnish
+Set-Cookie: xid=Qocx21WNn2ZSdxyAHJMYAg==; expires=Sun, 26-Jul-15 18:52:22 GMT; path=/
+

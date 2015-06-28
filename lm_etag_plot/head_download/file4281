@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sat, 27 Jun 2015 20:26:56 GMT
+Content-Type: text/html
+Connection: keep-alive
+X-Pingback: http://www.spoonforkbacon.com/wordpress/xmlrpc.php
+ETag: "3934c8dc1b412360ab354d9ffcc39f13"
+X-Robots-Tag: noindex,follow
+Last-Modified: Sat, 27 Jun 2015 11:55:08 GMT
+X-Powered-By: PleskLin
+MS-Author-Via: DAV
+

@@ -1,0 +1,12 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 18:51:37 GMT
+Server: Apache
+X-Powered-By: PHP/5.4.32
+X-Pingback: http://storyofmysecondlife.com/xmlrpc.php
+Expires: Wed, 11 Jan 1984 05:00:00 GMT
+Cache-Control: no-cache, must-revalidate, max-age=0
+Pragma: no-cache
+ETag: "99b889a9cd748e8b4eca0eb3758d138d"
+Location: http://storyofmysecondlife.com/?feed=rss2
+Content-Type: text/html
+

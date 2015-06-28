@@ -1,0 +1,9 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 19:46:16 GMT
+Server: Apache
+X-Pingback: http://www.soilman.net/xmlrpc.php
+ETag: "e5c42b627617b3c87e280e697b0a0808"
+Last-Modified: Sun, 31 May 2015 16:56:55 GMT
+Location: http://www.soilman.net/feed/
+Content-Type: text/html
+

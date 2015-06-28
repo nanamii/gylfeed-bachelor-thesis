@@ -1,0 +1,14 @@
+HTTP/1.1 302 Found
+X-Pingback: http://www.redferret.net/xmlrpc.php
+Last-Modified: Fri, 26 Jun 2015 09:00:58 GMT
+Location: http://feeds.feedburner.com/redferret/nDEQ
+Content-Type: text/html
+Date: Fri, 26 Jun 2015 18:34:31 GMT
+Server: LiteSpeed
+Vary: X-Device
+ETag: W/"7d6d510151f83a4502108901b557a92c"
+Cache-Control: max-age=10
+Age: 569
+X-Cache: HIT
+X-Powered-By: NYI FTW v2.624
+

@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:49:53 GMT
+Server: Apache
+Set-Cookie: pb_userid=NzIyODliOWViMzJhNTNkYWI1OTFhZmNkMDI1MTdmYzckYToxOntzOjc6InRyYWNraWQiO3M6MjU6IjE0MzU0MzQ1OTMuNzY0NDE3MTY3NTI3NjMiO30%3D; expires=Tue, 19-Jan-2038 03:14:06 GMT; path=/; domain=.photobucket.com
+Set-Cookie: pb_session=NWYyMGJmOTQ2N2M3Nzc3ZGU3OWU1YzNmOTk2M2JiNTgkYToyOntzOjQ6InRpbWUiO2k6MTQzNTQzNDU5MztzOjQ6InVuaXEiO3M6MjU6IjE0MzU0MzQ1OTMuNzY0NjEzODY2MTA0MzgiO30%3D; path=/; domain=.photobucket.com
+Cache-Control: public, max-age=3600, s-maxage=3600
+Expires: Sat, 27 Jun 2015 20:49:54 GMT
+Pragma: hack
+Content-Type: text/xml
+

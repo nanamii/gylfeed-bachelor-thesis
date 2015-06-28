@@ -1,0 +1,18 @@
+HTTP/1.1 404 NOT FOUND
+Cache-Control: private,max-age=0
+Content-Length: 0
+Expires: Thu, 11 Jun 2015 19:45:07 GMT
+Server: Microsoft-IIS/8.5
+X-SharePointHealthScore: 0
+Public-Extension: http://schemas.microsoft.com/repl-2
+SPRequestGuid: 3c39149d-3ad4-c0a5-e656-d68641e10492
+request-id: 3c39149d-3ad4-c0a5-e656-d68641e10492
+X-FRAME-OPTIONS: SAMEORIGIN
+SPRequestDuration: 6
+SPIisLatency: 0
+X-Powered-By: ASP.NET
+MicrosoftSharePointTeamServices: 15.0.0.4687
+X-Content-Type-Options: nosniff
+X-MS-InvokeApp: 1; RequireReadOnly
+Date: Fri, 26 Jun 2015 19:45:07 GMT
+

@@ -1,0 +1,13 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 19:01:48 GMT
+Content-Type: text/html
+Connection: keep-alive
+Set-Cookie: __cfduid=df4c4297b101875fe509cc613a1e5c42d1435345308; expires=Sat, 25-Jun-16 19:01:48 GMT; path=/; domain=.newsdaily.com; HttpOnly
+Location: http://newsdaily.com/rss/top.xml
+Set-Cookie: X-Mapping-fjhppofk=5420D9A256579920BE332C5704D5ED3D; path=/
+CF-Cache-Status: MISS
+Expires: Fri, 26 Jun 2015 19:31:48 GMT
+Cache-Control: public, max-age=1800
+Server: cloudflare-nginx
+CF-RAY: 1fcb29b011292330-FRA
+

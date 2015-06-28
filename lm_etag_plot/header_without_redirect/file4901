@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 19:47:05 GMT
+Server: Apache
+Vary: Cookie,Accept-Encoding
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+X-Pingback: http://www.americanfoodroots.com/xmlrpc.php
+ETag: "f040f9ebe917a8545a0379e90f477f1b"
+X-Robots-Tag: noindex,follow
+Set-Cookie: PHPSESSID=tb5q04hog2dj7j88pdp4cjaee6; path=/
+Last-Modified: Thu, 18 Jun 2015 16:50:08 GMT
+Content-Type: text/xml; charset=UTF-8
+

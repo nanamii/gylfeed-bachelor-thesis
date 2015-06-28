@@ -1,0 +1,23 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 18:48:01 GMT
+Content-Type: text/xml; charset=UTF-8
+Connection: keep-alive
+Set-Cookie: __cfduid=d4da2566113958a08ded97040029a34e21435430881; expires=Sun, 26-Jun-16 18:48:01 GMT; path=/; domain=.adaringadventure.com; HttpOnly
+X-Cache-Enabled: True
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+X-CF-Powered-By: WP Rocket 2.6.2
+X-Pingback: http://www.adaringadventure.com/xmlrpc.php
+ETag: W/"9d835d4b1806eaeaa336848df86ad298"
+X-Robots-Tag: noindex,follow
+Set-Cookie: wpSGCacheBypass=0; expires=Sat, 27-Jun-2015 17:47:52 GMT; Max-Age=-3600; path=/
+Set-Cookie: PHPSESSID=npo5ej52ihurce1k03k5ce6pd2; path=/
+Set-Cookie: ct_cookies_test=69272d6a385d16d32416c7ea8a2488af; path=/
+Vary: Accept-Encoding,User-Agent
+Last-Modified: Sat, 27 Jun 2015 14:45:15 GMT
+Host-Header: 192fc2e7e50945beb8231a492d6a8024
+X-Proxy-Cache: MISS
+Server: cloudflare-nginx
+CF-RAY: 1fd352de808e0f93-FRA
+

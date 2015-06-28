@@ -1,0 +1,9 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 19:39:07 GMT
+Server: Apache/2.2.24 (Unix) mod_ssl/2.2.24 OpenSSL/1.0.0-fips mod_auth_passthrough/2.1 mod_bwlimited/1.4
+X-Powered-By: PHP/5.3.25
+X-Pingback: http://www.newassignment.net/xmlrpc.php
+X-UA-Compatible: IE=edge,chrome=1
+Location: http://www.newassignment.net
+Content-Type: text/html; charset=UTF-8
+

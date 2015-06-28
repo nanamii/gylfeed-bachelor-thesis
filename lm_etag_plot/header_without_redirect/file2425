@@ -1,0 +1,9 @@
+HTTP/1.1 410 Gone
+Content-Type: text/html; charset=iso-8859-1
+Connection: keep-alive
+Date: Fri, 26 Jun 2015 19:00:17 GMT
+Server: Apache/2.4.12 (Amazon) OpenSSL/1.0.1k-fips
+X-Cache: Error from cloudfront
+Via: 1.1 bf13c8d06bd46633c423520788472147.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: Y7CCc5U2IQHBH-hbN28N3pt-yOXpB7Dbow4q1pP0bKVfSBldz5Nm6w==
+

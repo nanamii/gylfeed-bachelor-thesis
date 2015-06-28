@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 19:11:17 GMT
+Server: Apache
+Last-Modified: Fri, 26 Jun 2015 17:25:39 GMT
+Accept-Ranges: bytes
+Content-Length: 74800
+X-FRAME-OPTIONS: SAMEORIGIN
+Connection: close
+Content-Type: application/xml
+

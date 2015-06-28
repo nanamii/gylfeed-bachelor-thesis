@@ -1,0 +1,13 @@
+HTTP/1.1 301 Moved Permanently
+Server: Apache
+Location: http://www.apple.com/pr/feeds/pr.rss
+Content-Length: 244
+Content-Type: text/html; charset=iso-8859-1
+Cache-Control: max-age=190
+Expires: Fri, 26 Jun 2015 20:20:56 GMT
+Date: Fri, 26 Jun 2015 20:17:46 GMT
+Connection: keep-alive
+Access-Control-Allow-Origin: http://www.apple.com
+Set-Cookie: ccl=fiFANSC4LzQNy9tTmTP7Vw==; path=/; domain=.apple.com
+Set-Cookie: geo=DE; path=/; domain=.apple.com
+

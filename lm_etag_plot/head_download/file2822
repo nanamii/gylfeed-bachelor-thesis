@@ -1,0 +1,19 @@
+HTTP/1.1 200 OK
+Server: nginx
+X-Cacheable: CacheAlways: feed
+Cache-Control: max-age=600, must-revalidate
+X-Cache: HIT: 60
+Content-Type: text/xml; charset=UTF-8
+X-Cache-Group: 
+Date: Sat, 27 Jun 2015 19:46:51 GMT
+X-Pingback: https://blog.mozilla.org/xmlrpc.php
+Keep-Alive: timeout=20
+X-Type: feed
+Transfer-Encoding: chunked
+ETag: "47fdb8259c36df72b726e08e9466b9e5"
+Connection: Keep-Alive
+X-Pass-Why: 
+Set-Cookie: X-Mapping-fjhppofk=417762F7E8CECAB0A67D3545510787EC; path=/
+Last-Modified: Tue, 02 Jun 2015 16:41:03 GMT
+X-Frame-Options: SAMEORIGIN
+

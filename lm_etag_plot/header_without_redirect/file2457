@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 26 Jun 2015 19:00:04 GMT
+Content-Type: application/xml
+Connection: keep-alive
+x-cache: 
+x-ver: 3
+Set-Cookie: DPISESSID=5e913f9f8a7526a6490bd16e6a4c3d5e143c581e; path=/; domain=.deseretnews.com; HttpOnly
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+X-r: 127
+X-AspNet-Version: 2.0
+X-Sv: dnweb02
+

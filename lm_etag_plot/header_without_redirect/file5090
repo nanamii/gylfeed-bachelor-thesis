@@ -1,0 +1,10 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx/1.8.0
+Date: Fri, 26 Jun 2015 19:52:06 GMT
+Content-Type: text/html
+Connection: keep-alive
+X-Pingback: http://sinosoul.com/xmlrpc.php
+ETag: "7b7cdf67edb74511b3d6d5d6d0696cb2"
+Last-Modified: Mon, 17 Nov 2014 17:00:51 GMT
+Location: http://sinosoul.com/feed/
+

@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Accept-Ranges: bytes
+Content-Type: text/xml;charset=UTF-8
+ETag: W/"20294ea-c7b9-51984a63dd1c0"
+Last-Modified: Sat, 27 Jun 2015 19:13:19 GMT
+Server: Apache/2.2.29 (Amazon)
+X-Varnish: 1264589253
+Content-Length: 51129
+Cache-Control: private, must-revalidate, max-age=139
+Expires: Sat, 27 Jun 2015 19:42:07 GMT
+Date: Sat, 27 Jun 2015 19:39:48 GMT
+Connection: keep-alive
+

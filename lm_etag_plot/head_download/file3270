@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:53:58 GMT
+Server: Apache/2.2.22 (Debian)
+X-Powered-By: PHP/5.4.36-0+deb7u3
+X-Pingback: http://livinggreenmag.com/xmlrpc.php
+Last-Modified: Sat, 27 Jun 2015 16:29:16 GMT
+ETag: "0280cc78ac6d6261e5c8605baa4fad14"
+X-Robots-Tag: noindex,follow
+Vary: Accept-Encoding
+Content-Type: text/html
+

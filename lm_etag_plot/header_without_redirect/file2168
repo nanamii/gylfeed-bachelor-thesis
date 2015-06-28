@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 18:57:01 GMT
+Server: Apache
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Vary: User-Agent
+Cache-Control: max-age=0, private, must-revalidate
+X-Request-Id: 3265e6fb-8c2d-4728-bf26-659349e35637
+X-Runtime: 0.262719
+X-Powered-By: Phusion Passenger 4.0.37
+Status: 200 OK
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Expires: 0
+Content-Type: application/xml; charset=utf-8
+

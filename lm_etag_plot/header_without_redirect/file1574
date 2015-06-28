@@ -1,0 +1,9 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 18:43:00 GMT
+Content-Type: text/html; charset=iso-8859-1
+Connection: keep-alive
+Set-Cookie: __cfduid=d2dfd5aded19a15df9a3095507a1454651435344180; expires=Sat, 25-Jun-16 18:43:00 GMT; path=/; domain=.techdirt.com; HttpOnly
+Location: https://www.techdirt.com/techdirt_rss.xml
+Server: cloudflare-nginx
+CF-RAY: 1fcb0e27a8d80887-FRA
+

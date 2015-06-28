@@ -1,0 +1,19 @@
+HTTP/1.1 301 Moved Permanently
+age: 0
+Cache-Control: no-cache, must-revalidate, post-check=0, pre-check=0
+Content-Type: text/html
+Date: Fri, 26 Jun 2015 20:34:47 GMT
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Location: http://www.popsci.com/multi-blog/33/rss.xml
+Server: Apache
+Vary: Accept-Encoding
+Via: 1.1 varnish
+X-Cache: ip-10-204-21-26(Websites-Popsci): MISS
+X-Cacheable: NO
+X-Country-Code: DE
+X-Drupal-Cache: MISS
+X-Redirect-ID: 122624
+X-Server-Name: ip-10-204-22-27 D=472673
+X-Varnish: 1827327911
+Connection: keep-alive
+

@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Content-Length: 2008
+Content-Type: text/xml
+Last-Modified: Sat, 27 Jun 2015 21:01:00 GMT
+Accept-Ranges: bytes
+ETag: "e32215f1cb1d01:ad6"
+Server: Microsoft-IIS/6.0
+P3P: CP="CAO PSA OUR"
+X-Powered-By: ASP.NET
+Date: Sat, 27 Jun 2015 21:14:23 GMT
+Connection: close
+

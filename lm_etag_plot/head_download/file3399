@@ -1,0 +1,23 @@
+HTTP/1.1 200 OK
+Age: 2422
+Cache-Control: public, max-age=10800
+Content-Language: en
+Content-Type: text/html; charset=utf-8
+Date: Sat, 27 Jun 2015 19:56:09 GMT
+Etag: "1435432542-1"
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Last-Modified: Sat, 27 Jun 2015 19:15:42 GMT
+Link: </sites/all/themes/alaskadispatch/images/ad-og-logo.jpg>; rel="image_src",<http://www.adn.com/section/culture>; rel="canonical",<http://www.adn.com/section/95>; rel="shortlink",<alaskadispatch.com>; rel="publisher"
+Server: nginx
+Vary: Cookie,Accept-Encoding
+Via: 1.1 varnish
+X-AH-Environment: prod
+X-Cache: HIT
+X-Cache-Hits: 88
+X-Drupal-Cache: MISS
+X-Generator: Drupal 7 (http://drupal.org)
+X-Request-ID: v-e7b17376-1d00-11e5-aa1e-22000a93a68a
+X-UA-Compatible: IE=Edge,chrome=1
+X-Varnish: 512961798 512803844
+Connection: keep-alive
+

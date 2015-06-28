@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sat, 27 Jun 2015 21:47:15 GMT
+Content-Type: text/xml; charset=UTF-8
+Connection: keep-alive
+Keep-Alive: timeout=15
+Vary: Accept-Encoding
+X-Pingback: http://dailynorthwestern.com/xmlrpc.php
+Last-Modified: Sat, 27 Jun 2015 05:32:43 GMT
+ETag: "3c21e6c685ca2c1a8879a8300829d318"
+X-Robots-Tag: noindex,follow
+ngpass_ngall: 1
+

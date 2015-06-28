@@ -1,0 +1,6 @@
+HTTP/1.1 302 Found
+Date: Fri, 26 Jun 2015 18:11:07 GMT
+Server: Apache
+Location: http://www.rs.nato.int:80/index2.php?option=com_rss&feed=RSS2.0&no_html=1
+Content-Type: text/html; charset=iso-8859-1
+

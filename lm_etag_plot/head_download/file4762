@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 21:07:51 GMT
+Server: Apache/2.4.10 (Debian)
+X-UA-Compatible: IE=edge
+Set-Cookie: PHPSESSID=hps03ealumc06groemf2gt4ua7; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Content-Type: text/xml;charset=UTF-8
+

@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sat, 27 Jun 2015 21:35:30 GMT
+Content-Type: text/html; charset=utf-8
+Connection: keep-alive
+Vary: Accept-Encoding
+Vary: Cookie
+X-hacker: If you're reading this, you should visit automattic.com/jobs and apply to join the fun, mention this header.
+X-Pingback: http://rhonabwy.com/xmlrpc.php
+Last-Modified: Wed, 29 Apr 2015 05:35:28 GMT
+ETag: "7fb3f4befd53ee0998bb4936cab527a2"
+X-ac: 3.fra _sat
+

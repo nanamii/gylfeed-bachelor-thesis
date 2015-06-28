@@ -1,0 +1,14 @@
+HTTP/1.1 302 Found
+ETag: W/"57d092e0-9718-4b94-b802-275b9988f510"
+Date: Fri, 26 Jun 2015 19:52:27 GMT
+Content-Type: text/html
+Server: blogger-renderd
+Expires: Fri, 26 Jun 2015 19:52:28 GMT
+Cache-Control: public, must-revalidate, proxy-revalidate, max-age=1
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Location: http://feeds.feedburner.com/SuitableForConsumption
+X-Frame-Options: SAMEORIGIN
+Alternate-Protocol: 80:quic,p=0
+Transfer-Encoding: chunked
+

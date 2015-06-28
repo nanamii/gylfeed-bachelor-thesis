@@ -1,0 +1,23 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sat, 27 Jun 2015 21:20:04 GMT
+Content-Type: text/html
+Connection: keep-alive
+Keep-Alive: timeout=10
+Vary: Accept-Encoding
+Vary: X-Forwarded-Proto,Accept-Encoding
+Set-Cookie: sp_csrf=eyJzaWduIjoiZjdmOGJhMGFkOWJiYzIwNzBiM2QzOGE3Y2UwY2UzODk0OGIzYmFmMyIsImRhdGEiOjE0MzU0NDAwMDR9; path=/; secure
+Set-Cookie: sp_ftv=1; path=/; httponly
+Set-Cookie: sp_landing=www.spotify.com%2Fblog%2Ffeed%2F; expires=Sun, 28-Jun-2015 21:20:04 GMT; Max-Age=86400; path=/; httponly
+Set-Cookie: sp_landing_15d=www.spotify.com%2Fblog%2Ffeed%2F; expires=Sun, 12-Jul-2015 21:20:04 GMT; Max-Age=1296000; path=/; httponly
+Set-Cookie: sp_landing_30d=www.spotify.com%2Fblog%2Ffeed%2F; expires=Mon, 27-Jul-2015 21:20:04 GMT; Max-Age=2592000; path=/; httponly
+Set-Cookie: spsess=d5e21efecf32831f6855611f1ef66fae5f5d5850; path=/; secure; HttpOnly
+Cache-Control: no-cache
+X-Content-Type-Options: nosniff
+Strict-Transport-Security: max-age=31536000
+X-Join-The-Band: https://www.spotify.com/jobs/
+Content-Security-Policy: frame-ancestors 'self' ad.app.spotify.com zlink.app.spotify.com *.spotify.com https://*.spotify.net
+X-Content-Security-Policy: frame-ancestors 'self' ad.app.spotify.com zlink.app.spotify.com *.spotify.com https://*.spotify.net
+X-Content-Type-Options: nosniff
+Strict-Transport-Security: max-age=31536000;
+

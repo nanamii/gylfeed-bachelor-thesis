@@ -1,0 +1,9 @@
+HTTP/1.1 302 Found
+Date: Fri, 26 Jun 2015 20:21:40 GMT
+Content-Type: text/html; charset=iso-8859-1
+Connection: keep-alive
+Set-Cookie: __cfduid=dc1f1d81a4b71750ab61d4c90f3d06dad1435350100; expires=Sat, 25-Jun-16 20:21:40 GMT; path=/; domain=.grack.com; HttpOnly
+Location: http://feeds.grack.com/grack
+Server: cloudflare-nginx
+CF-RAY: 1fcb9eaef37d0f5d-FRA
+

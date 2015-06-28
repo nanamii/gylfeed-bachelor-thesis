@@ -1,0 +1,11 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 18:11:50 GMT
+Server: Apache/2.2.22
+X-Powered-By: PHP/5.3.29
+Vary: Cookie,User-Agent
+X-Pingback: http://jasonbejot.com/xmlrpc.php
+ETag: "1e9287d76b4d366f6f8b65acd3586543"
+Last-Modified: Wed, 13 Feb 2013 20:11:50 GMT
+Location: http://jasonbejot.com/feed
+Content-Type: application/rss+xml; charset="UTF-8"
+

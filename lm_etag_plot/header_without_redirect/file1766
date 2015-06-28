@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 18:51:07 GMT
+Server: Apache
+Set-Cookie: PHPSESSID=6u23tcogc9i6h142rp7v3597d6; path=/; HttpOnly
+X-Pingback: http://www.myintervals.com/blog/xmlrpc.php
+ETag: "e2b29a2cad87c7e14190d904c836f2b5"
+WP-Super-Cache: Served legacy cache file
+Vary: Accept-Encoding,User-Agent
+Cache-Control: max-age=1800, must-revalidate
+P3P: CP="OTI DSP COR NID", policyref="/w3c/p3p.xml"
+Cneonction: close
+Content-Type: text/xml; charset=UTF-8
+Set-Cookie: NSC_xxx.nzjoufswbmt.dpn=ffffffff0900fbd945525d5f4f58455e445a4a423660;expires=Sat, 27-Jun-2015 18:51:07 GMT;path=/;httponly
+

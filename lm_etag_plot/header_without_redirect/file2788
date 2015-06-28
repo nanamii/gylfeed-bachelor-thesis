@@ -1,0 +1,12 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 19:06:00 GMT
+P3P: policyref="http://info.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+Cache-Control: max-age=3600, public
+Location: http://news.yahoo.com/rss/topstories
+Vary: Accept-Encoding
+Content-Length: 62
+Content-Type: text/html; charset=UTF-8
+Age: 66
+Connection: keep-alive
+Server: ATS
+

@@ -1,0 +1,20 @@
+HTTP/1.1 301 Moved Permanently
+Cache-Control: max-age=60
+Content-Type: text/html; charset=iso-8859-1
+J-Cacheable: YES
+Location: http://www.wired.com/business/feed/
+Server: Apache
+Varnish-X-Cache-Hits: 5
+Via: 1.1 varnish-v4
+Via: 1.1 varnish
+Content-Length: 243
+Accept-Ranges: bytes
+Date: Fri, 26 Jun 2015 18:20:42 GMT
+Via: 1.1 varnish
+Age: 18
+Connection: keep-alive
+X-Served-By: cache-jfk1035-JFK, cache-fra1231-FRA
+X-Cache: HIT, HIT, MISS
+X-Cache-Hits: 1, 0
+X-Timer: S1435342842.430401,VS0,VE96
+

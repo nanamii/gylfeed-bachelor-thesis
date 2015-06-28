@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:51:06 GMT
+Server: Apache
+X-Powered-By: PHP/5.4.16
+X-Drupal-Cache: HIT
+Etag: "1435428258-0"
+Content-Language: en
+X-Generator: Drupal 7 (http://drupal.org)
+Link: <https://carnegiescience.edu/news/filtered/15/feed>; rel="canonical",<https://carnegiescience.edu/news/filtered/15/feed>; rel="shortlink"
+Cache-Control: public, max-age=900
+Last-Modified: Sat, 27 Jun 2015 18:04:18 GMT
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Vary: Cookie
+Content-Type: text/html; charset=utf-8
+

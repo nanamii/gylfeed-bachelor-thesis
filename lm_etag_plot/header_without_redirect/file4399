@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 19:42:01 GMT
+Server: Apache
+X-Pingback: http://blog.thelettertwo.com/xmlrpc.php
+Set-Cookie: PHPSESSID=7225cb2ea60aa669485504747cf3c087; path=/
+Last-Modified: Fri, 26 Jun 2015 16:30:42 GMT
+ETag: "b66ea86cadbce92774806a9b924a0a08"
+Content-Type: text/html
+

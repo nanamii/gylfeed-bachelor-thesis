@@ -1,0 +1,21 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 18:44:03 GMT
+Set-Cookie: mad4=c; Domain=.cnet.com; Path=/;
+RUM_MAD_SESSION: c
+Via: HTTP/1.0 phx1-rb-frontend2-app6.cnet.com:8923 (cnwk.proxy.servlet.PathProxyServlet $Revision: 218012 $)
+X-CNET-NEW-RELIC-TRANSACTION-NAME: /8300
+Content-Language: en-US
+Expires: Fri, 26 Jun 2015 18:50:03 GMT
+Edge-Control: max-age=360
+Content-Type: text/xml;charset=UTF-8
+Set-Cookie: tempSessionId=Cg5i1FWNnXNcwjsnIII; domain=.cnet.com; path=/; expires=Mon, 23-Jun-2025 18:44:03 GMT
+Set-Cookie: tempSessionId=Cg5i0FWNnXNcwjsnk2A; domain=.cnet.com; path=/; expires=Mon, 23-Jun-2025 18:44:03 GMT
+Set-Cookie: tempSessionId=Cg5i1FWNnXNcwjsnBSo; domain=.cnet.com; path=/; expires=Mon, 23-Jun-2025 18:44:03 GMT
+Set-Cookie: arrowLat=1435344243108; domain=.cnet.com; path=/; expires=Sat, 25-Jun-2016 18:44:03 GMT
+Set-Cookie: arrowSpc=1; domain=.cnet.com; path=/; expires=Sun, 26-Jul-2015 18:44:03 GMT
+Set-Cookie: bkGeo=deu; domain=.cnet.com; path=/
+Set-Cookie: arrowImp=true; domain=.cnet.com; path=/; expires=Sat, 27-Jun-2015 18:44:03 GMT
+Set-Cookie: arrowImpCnt=1; domain=.cnet.com; path=/; expires=Sat, 27-Jun-2015 18:44:03 GMT
+P3P: CP="CAO DSP COR CURa ADMa DEVa PSAa PSDa IVAi IVDi CONi OUR OTRi IND PHY ONL UNI FIN COM NAV INT DEM STA"
+Cache-Control: max-age=360
+

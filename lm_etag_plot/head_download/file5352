@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 21:19:21 GMT
+Content-Type: text/html
+Connection: keep-alive
+Set-Cookie: __cfduid=d8cf0b99cc263e77c91e468c11637c9d31435439960; expires=Sun, 26-Jun-16 21:19:20 GMT; path=/; domain=.guykawasaki.com; HttpOnly
+X-CF-Powered-By: WP 1.3.18
+X-Pingback: http://guykawasaki.com/xmlrpc.php
+ETag: W/"8c09f18e04158368f0899278505b1537"
+X-Powered-By: W3 Total Cache/0.9.4.1
+X-Robots-Tag: noindex,follow
+Last-Modified: Fri, 12 Jun 2015 15:48:23 GMT
+Vary: Accept-Encoding,User-Agent
+Server: cloudflare-nginx
+CF-RAY: 1fd43089fed31ac3-DUS
+

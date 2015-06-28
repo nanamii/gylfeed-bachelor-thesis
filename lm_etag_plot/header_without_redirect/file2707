@@ -1,0 +1,10 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Content-Type: text/html
+Date: Fri, 26 Jun 2015 19:05:35 GMT
+Keep-Alive: timeout=20
+Location: http://www.rawstory.com/feed/
+Connection: keep-alive
+Set-Cookie: X-Mapping-fjhppofk=EBC1FEEA19742572104344134BAADCCE; path=/
+Content-Length: 178
+

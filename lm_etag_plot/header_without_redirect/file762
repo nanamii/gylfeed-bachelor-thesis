@@ -1,0 +1,20 @@
+HTTP/1.1 404 Not Found
+Expires: Fri, 26 Jun 2015 19:09:05 GMT
+Date: Fri, 26 Jun 2015 18:09:05 GMT
+Cache-Control: public, max-age=3600
+Last-Modified: Sat, 31 May 2014 11:58:32 GMT
+ETag: W/"db93bf99c59c80629dcf84232bb65452"
+x-goog-generation: 1401537512880000
+x-goog-metageneration: 1
+x-goog-stored-content-encoding: gzip
+x-goog-stored-content-length: 30
+Content-Type: text/html
+Content-Language: en
+x-goog-hash: crc32c=RjI2dA==
+x-goog-hash: md5=25O/mcWcgGKdz4QjK7ZUUg==
+x-goog-storage-class: STANDARD
+Vary: Accept-Encoding
+Server: UploadServer
+Alternate-Protocol: 80:quic,p=0
+Transfer-Encoding: chunked
+

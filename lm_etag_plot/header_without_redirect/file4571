@@ -1,0 +1,10 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 19:43:46 GMT
+Content-Type: text/html
+Connection: keep-alive
+Set-Cookie: __cfduid=dc45cb84d76a8d3dc12f20cf9bc41d2a41435347826; expires=Sat, 25-Jun-16 19:43:46 GMT; path=/; domain=.makezine.com; HttpOnly
+Location: http://makezine.com/feed
+Set-Cookie: X-Mapping-fjhppofk=F301A29E691A849E46FF615813FE88F8; path=/
+Server: cloudflare-nginx
+CF-RAY: 1fcb6728d9300899-FRA
+

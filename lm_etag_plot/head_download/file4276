@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 20:26:52 GMT
+Server: Apache
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+X-Pingback: http://www.productivityhacks.com/xmlrpc.php
+ETag: "12c87e03ad1cdaa5aca7996050e97f55"
+Set-Cookie: PHPSESSID=72p2mlo03goh23muh130mvnv17; path=/
+Last-Modified: Thu, 14 Jun 2012 10:20:40 GMT
+Vary: Accept-Encoding
+Content-Type: text/html
+

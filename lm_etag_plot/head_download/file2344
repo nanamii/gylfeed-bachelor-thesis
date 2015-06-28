@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Server: Apache/2.2
+Vary: User-Agent,Accept-Encoding
+Cache-Control: max-age=300
+Content-Type: text/html; charset=UTF-8
+Date: Sat, 27 Jun 2015 19:33:40 GMT
+X-Pingback: http://www.andpop.com/xmlrpc.php
+Expires: Sat, 27 Jun 2015 19:38:40 GMT
+Transfer-Encoding: chunked
+Connection: Keep-Alive
+Set-Cookie: X-Mapping-ahelpkbl=81757FCA3A3FBEA49C36F08D165F84E0; path=/
+X-Robots-Tag: noindex,follow
+Last-Modified: Fri, 26 Jun 2015 19:56:55 GMT
+

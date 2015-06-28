@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:31:23 GMT
+Server: LiteSpeed
+Connection: close
+X-Powered-By: PHP/5.4.31
+Set-Cookie: SESSa43f1e105785fe7d604d5b128f592462=c162f3959713707aa47b386e2915b12e; expires=Mon, 20-Jul-2015 23:04:43 GMT; path=/; domain=.topnews.us
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Last-Modified: Sat, 27 Jun 2015 19:31:23 GMT
+Cache-Control: store, no-cache, must-revalidate
+Cache-Control: post-check=0, pre-check=0
+Content-Type: application/rss+xml; charset=utf-8
+

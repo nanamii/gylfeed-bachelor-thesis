@@ -1,0 +1,19 @@
+HTTP/1.1 200 OK
+Server: Apache/2.2.15 (CentOS)
+X-Powered-By: PHP/5.6.8
+Cache-Control: max-age=0, s-maxage=300, store, must-revalidate, max-age=7200, post-check=0, pre-check=0
+Expires: Fri, 26 Jun 2015 21:00:27 GMT
+Content-Type: application/rss+xml; charset=UTF-8
+X-Cacheable: YES
+Via: 1.1 varnish
+Content-Length: 36608
+Accept-Ranges: bytes
+Date: Fri, 26 Jun 2015 19:10:16 GMT
+Via: 1.1 varnish
+Age: 588
+Connection: keep-alive
+X-Served-By: cache-fra1234-FRA
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1435345816.551960,VS0,VE151
+

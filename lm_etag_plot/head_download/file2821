@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Server: Apache
+X-Pingback: http://telecoms.com/xmlrpc.php
+Set-Cookie: PHPSESSID=deleted; expires=Fri, 27-Jun-2014 19:46:47 GMT; path=/; domain=telecoms.com
+Last-Modified: Fri, 26 Jun 2015 16:04:03 GMT
+Cache-Control: max-age=300
+Expires: Sat, 27 Jun 2015 19:51:48 GMT
+Vary: User-Agent,Accept-Encoding
+Content-Type: text/xml; charset=UTF-8
+Date: Sat, 27 Jun 2015 19:46:48 GMT
+X-Varnish: 1636681280
+Age: 0
+Via: 1.1 varnish
+X-Cache: MISS
+

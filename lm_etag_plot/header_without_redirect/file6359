@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 20:35:16 GMT
+Server: Apache
+Vary: Cookie,Accept-Encoding
+X-Pingback: http://www.macalope.com/xmlrpc.php
+ETag: "cb8a29b347514df8b3a0f20e320eb4ec"
+WP-Super-Cache: Served legacy cache file
+Content-Type: text/xml; charset=UTF-8
+

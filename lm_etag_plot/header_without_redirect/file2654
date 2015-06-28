@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Server: Apache/2.2.22 (Ubuntu)
+Content-Language: en-CA
+X-Powered-By: Servlet/2.5 JSP/2.1
+P3P: policyref="http://www.theglobeandmail.com/w3c/p3p.xml", CP="CAO DSP COR CURa ADMa DEVa TAIa PSAa PSDa CONi OUR NOR IND PHY ONL UNI COM NAV INT DEM STA PRE"
+X-ServerName: web11
+Content-Type: application/rss+xml; charset=UTF-8
+Content-Length: 25144
+Accept-Ranges: bytes
+X-Varnish: 1033684651
+Cache-Control: max-age=0
+Date: Fri, 26 Jun 2015 19:04:36 GMT
+Connection: keep-alive
+

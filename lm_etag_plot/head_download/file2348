@@ -1,0 +1,17 @@
+HTTP/1.1 200 OK
+Cache-Control: no-cache, no-store
+Pragma: no-cache
+Content-Length: 27807
+Content-Type: text/xml
+Expires: -1
+Server: www.lexisnexis.com  1180
+X-AspNet-Version: 2.0.50727
+CommunityServer: 4.1.31031.3054
+Set-Cookie: CommunityServer-UserCookie2101=lv=1999-01-01T00:00:00&mra=2015-06-27T15:33:43; expires=Sun, 26-Jun-2016 19:33:43 GMT; path=/
+Set-Cookie: CommunityServer-LastVisitUpdated-2101=; path=/
+Set-Cookie: CommunityServer-UserCookie2101=lv=1999-01-01T00:00:00&mra=2015-06-27T15:33:43; expires=Sun, 26-Jun-2016 19:33:43 GMT; path=/
+X-Powered-By: ASP.NET
+Date: Sat, 27 Jun 2015 19:33:43 GMT
+X-RE-Ref: 1 -281056052
+P3P: CP="IDC DSP LAW ADM DEV TAI PSA PSD IVA IVD CON HIS TEL OUR DEL SAM OTR IND OTC"
+

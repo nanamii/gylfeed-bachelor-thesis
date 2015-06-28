@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 19:43:26 GMT
+Server: Apache
+Vary: Cookie,Accept-Encoding
+X-Pingback: http://www.losanjealous.com/xmlrpc.php
+ETag: "91b1f3f2a06e843f3d026b379aef6925"
+WP-Super-Cache: Served legacy cache file
+Content-Type: text/xml; charset=UTF-8
+

@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:23:29 GMT
+Server: Apache/2.2.3 (Red Hat)
+Set-Cookie: EPClientLogin=7ec7288512668ca75b58f5b1befbab70; expires=Fri, 27-Jun-2014 19:23:29 GMT; path=/; domain=.alltop.com
+Set-Cookie: myAlltopSession=rob1s5e37j9u2g7cb0e63trna4; path=/; domain=.alltop.com
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+X-Powered-By: PleskLin
+Content-Type: application/rss+xml; charset=utf-8
+

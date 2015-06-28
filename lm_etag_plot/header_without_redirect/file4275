@@ -1,0 +1,10 @@
+HTTP/1.1 301 Moved Permanently
+Content-Length: 233
+Content-Type: text/html
+Location: http://www.appscout.com
+Server: Microsoft-IIS/6.0
+SrvName: MEDIA01VPC
+X-Powered-By: ASP.NET
+Date: Fri, 26 Jun 2015 19:38:42 GMT
+Connection: keep-alive
+

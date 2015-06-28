@@ -1,0 +1,15 @@
+HTTP/1.1 404 Not Found
+Age: 0
+Cache-Control: no-cache, must-revalidate, max-age=0
+Content-Type: text/html; charset=UTF-8
+Date: Fri, 26 Jun 2015 19:13:30 GMT
+Expires: Wed, 11 Jan 1984 05:00:00 GMT
+Pragma: no-cache
+Server: ECS (frf/87B2)
+Vary: Accept-Encoding
+X-Cache: MISS
+X-Pingback: http://www.journalism.org/xmlrpc.php
+X-Served-By: pew-vp-ash02.siteworx.com
+X-UA-Compatible: IE=edge,chrome=1
+Content-Length: 0
+

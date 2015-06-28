@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sat, 27 Jun 2015 18:45:47 GMT
+Content-Type: text/xml; charset=UTF-8
+Content-Length: 158348
+Last-Modified: Fri, 26 Jun 2015 14:39:15 GMT
+Vary: Accept-Encoding
+ETag: "558d6413-26a8c"
+X-Backend-Server: wb9.betacie.net
+X-Feed-Name: yoast
+Accept-Ranges: bytes
+

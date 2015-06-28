@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sat, 27 Jun 2015 19:56:08 GMT
+Content-Type: application/rss+xml
+Connection: keep-alive
+Vary: Accept-Encoding
+Vary: Accept-Encoding,User-Agent
+X-PBS-appsvrip: 10.165.96.17
+X-PBS-appsvrname: videoportal-prod-app-newrelic1
+Access-Control-Allow-Origin: *
+

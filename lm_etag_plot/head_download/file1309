@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:14:29 GMT
+Server: Apache mod_fcgid/2.3.7 mod_auth_pgsql/2.0.3
+X-Powered-By: PHP/5.3.29
+X-Pingback: http://cooper-taylor.com/wp/xmlrpc.php
+ETag: "7af695cc64915ccdbaaac32ac6cced64"
+Last-Modified: Fri, 15 May 2015 12:41:29 GMT
+Vary: User-Agent,Accept-Encoding
+Content-Type: text/html
+

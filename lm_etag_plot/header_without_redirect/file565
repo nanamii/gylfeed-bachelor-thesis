@@ -1,0 +1,12 @@
+HTTP/1.1 404 Not Found
+Date: Fri, 26 Jun 2015 18:04:19 GMT
+Content-Type: text/html;charset=UTF-8
+Connection: keep-alive
+Set-Cookie: JSESSIONID=CE4A6F9088A7FC55BF4F8FE69544296A.ny1-prod5-web021; Path=/; HttpOnly
+X-ContextId: blmFHbtV/ErhRl4gL
+X-Via: 1.1 ny1-prod-echo007
+X-Zephyr: ny1-prod-zephyr004.int.peer1.squarespace.net
+X-Cache-Status: BYPASS
+Vary: Accept-Encoding
+X-Loc: page-cache
+

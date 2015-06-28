@@ -1,0 +1,10 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Fri, 26 Jun 2015 19:47:59 GMT
+Content-Type: text/html
+Connection: keep-alive
+X-Powered-By: PHP/5.5.9-1ubuntu4.4
+X-Pingback: http://beekman1802.com/xmlrpc.php
+Last-Modified: Wed, 24 Jun 2015 20:26:30 GMT
+Location: http://beekman1802.com/feed/
+

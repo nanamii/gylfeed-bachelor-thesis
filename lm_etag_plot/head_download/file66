@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Server: nginx/1.8.0
+Date: Sat, 27 Jun 2015 18:32:41 GMT
+Content-Type: text/xml; charset=UTF-8
+Connection: keep-alive
+Keep-Alive: timeout=10
+Vary: Accept-Encoding
+X-Powered-By: PHP/5.3.10-1ubuntu3.18
+X-Pingback: http://www.icodeblog.com/xmlrpc.php
+ETag: "5421f61fc5d69bdd7245b3c0f0f4d37d"
+WP-Super-Cache: Served legacy cache file
+X-XSS-Protection: 1; mode=block
+X-Content-Options: nosniff
+

@@ -1,0 +1,7 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 19:39:29 GMT
+X-ServedBy: ny1-prod6-web011
+Location: http://www.zerodivide.org/blog/feed
+X-ContextId: UiUL1Go4/aKNv6BTE
+X-Via: 1.1 ny1-prod-echo003
+

@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 19:19:48 GMT
+Server: Apache
+Set-Cookie: bblastvisit=1435346388; expires=Sat, 25-Jun-2016 19:19:48 GMT; path=/; domain=.johnstonefitness.com
+Set-Cookie: bblastactivity=0; expires=Sat, 25-Jun-2016 19:19:48 GMT; path=/; domain=.johnstonefitness.com
+Expires: Fri, 26 Jun 2015 20:17:00 GMT
+Cache-Control: max-age=1435349820
+Pragma: no-cache
+X-UA-Compatible: IE=7
+Last-Modified: Fri, 26 Jun 2015 19:17:00 GMT
+ETag: "0dff23b0f2122e564ea6fdb6ba4c1a7d"
+Vary: Accept-Encoding
+Content-Type: text/xml; charset=ISO-8859-1
+

@@ -1,0 +1,9 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Fri, 26 Jun 2015 19:01:10 GMT
+Content-Type: text/html
+Content-Length: 178
+Connection: keep-alive
+Location: http://www.eatingwell.com/taxonomy/term/960/all/feed?from_m=true
+X-Backend-Server: ewb1129ngx
+

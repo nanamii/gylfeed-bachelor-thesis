@@ -1,0 +1,19 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:14:02 GMT
+Content-Type: text/xml; charset=UTF-8
+Connection: keep-alive
+Set-Cookie: __cfduid=d631bf9e7d6fbfb85a448d06ca862a1551435432442; expires=Sun, 26-Jun-16 19:14:02 GMT; path=/; domain=.theedublogger.com; HttpOnly
+Age: 214
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0, max-age=600, must-revalidate
+Cf-Railgun: direct (starting new WAN connection)
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Last-Modified: Sat, 27 Jun 2015 19:10:29 +0000
+Pragma: no-cache
+Set-Cookie: xid=Qoc8T1WO9fo3HTX/HdcxAg==; expires=Mon, 27-Jul-15 19:14:02 GMT; path=/
+Vary: Cookie
+Via: 1.1 varnish
+X-Pingback: http://www.theedublogger.com/xmlrpc.php
+X-Varnish: 1777061925 1777059727
+Server: cloudflare-nginx
+CF-RAY: 1fd378fe1f180f51-FRA
+

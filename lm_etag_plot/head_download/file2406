@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Server: nginx/1.6.2
+Date: Sat, 27 Jun 2015 19:34:10 GMT
+Content-Type: text/html
+Connection: keep-alive
+X-Powered-By: PHP/5.4.41
+X-Pingback: http://www.allprodad.com/dungy/xmlrpc.php
+ETag: "bd41485a8be195a45ee54037f574ab9a"
+X-UA-Compatible: IE=edge,chrome=1
+X-Robots-Tag: noindex,follow
+Last-Modified: Wed, 24 Jun 2015 04:15:50 GMT
+Cache-Control: max-age=172800
+Expires: Mon, 29 Jun 2015 19:34:10 GMT
+

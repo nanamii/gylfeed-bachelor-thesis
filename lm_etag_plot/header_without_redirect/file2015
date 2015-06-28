@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Last-Modified: Fri, 26 Jun 2015 14:20:03 GMT
+ETag: "a748-5196c6f98cac0"
+Accept-Ranges: bytes
+Content-Length: 42824
+X-ADI-STACK: mt
+Content-Type: text/xml
+Accept-Ranges: bytes
+X-Varnish: 895706629
+X-ADI-VCache: MISS
+Date: Fri, 26 Jun 2015 18:55:18 GMT
+Connection: keep-alive
+

@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 20:24:39 GMT
+X-Pingback: http://cakebatterandbowl.com/xmlrpc.php
+X-Robots-Tag: noindex,follow
+Vary: Accept-Encoding,Cookie,User-Agent
+Last-Modified: Tue, 12 Aug 2014 03:10:01 GMT
+Cache-Control: max-age=3600
+Expires: Sat, 27 Jun 2015 21:24:39 GMT
+Content-Type: text/xml; charset=UTF-8
+X-Varnish: 300253764
+Age: 0
+ETag: W/"8aacbddcd370b29027f21e457643323c"
+X-Cache: MISS
+Connection: keep-alive
+

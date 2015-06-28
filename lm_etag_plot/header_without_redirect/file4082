@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Server: Apache/2.2.18 (Unix) mod_ssl/2.2.18 OpenSSL/0.9.8r-fips PHP/5.3.16
+X-Powered-By: PHP/5.3.16
+Access-Control-Allow-Origin: http://movies.nextmovie.com
+X-Pingback: http://www.nextmovie.com/xmlrpc.php
+Last-Modified: Fri, 20 Dec 2013 19:32:02 GMT
+ETag: "5c9034da5c5eef7971e89906470fe811"
+X-Cache-Term: short
+X-PageCached: true
+Content-Type: text/html
+Cache-Control: max-age=300
+Date: Fri, 26 Jun 2015 19:27:03 GMT
+Connection: keep-alive
+

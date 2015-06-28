@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:39:29 GMT
+Content-Type: text/html
+Connection: keep-alive
+Set-Cookie: __cfduid=d8ce29fff8a35c71687b8ee89c0c5a98c1435433938; expires=Sun, 26-Jun-16 19:38:58 GMT; path=/; domain=.tribune.com.pk; HttpOnly
+X-Powered-By: PHP/5.3.29
+X-Pingback: http://blogs.tribune.com.pk/application/xmlrpc.php
+Last-Modified: Sat, 27 Jun 2015 19:01:14 GMT
+ETag: W/"33075ca23951ee5e541024e1e586b856"
+Cache-Control: max-age=7200
+Expires: Sat, 27 Jun 2015 21:39:29 GMT
+Vary: Accept-Encoding,User-Agent
+Server: cloudflare-nginx
+CF-RAY: 1fd39d8446fc2318-FRA
+

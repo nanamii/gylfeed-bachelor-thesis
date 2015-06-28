@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 26 Jun 2015 20:43:14 GMT
+Content-Type: text/xml; charset=UTF-8
+Connection: keep-alive
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+X-Pingback: http://www.dissentmagazine.org/xmlrpc.php
+X-Robots-Tag: noindex,follow
+Set-Cookie: PHPSESSID=776be1gvnr7is8dt15cfinetq2; path=/
+Last-Modified: Fri, 26 Jun 2015 20:24:08 GMT
+X-Powered-By: PleskLin
+MS-Author-Via: DAV
+Vary: User-Agent,Accept-Encoding
+

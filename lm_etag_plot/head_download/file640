@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sat, 27 Jun 2015 18:45:45 GMT
+Content-Type: application/rss+xml; charset=UTF-8
+Connection: keep-alive
+Strict-Transport-Security: max-age=360
+X-Pingback: https://wordpress.org/news/xmlrpc.php
+Last-Modified: Thu, 28 May 2015 13:55:13 GMT
+X-Frame-Options: SAMEORIGIN
+X-nc: HIT lax 250
+

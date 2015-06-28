@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Server: Apache/2.2
+Vary: Cookie
+Content-Type: text/xml; charset=UTF-8
+WP-Super-Cache: Served legacy cache file
+Date: Sat, 27 Jun 2015 18:36:06 GMT
+X-Pingback: http://emergingexperiences.com/xmlrpc.php
+Transfer-Encoding: chunked
+ETag: "4fb014b047c765f418782a0f95543199"
+Connection: Keep-Alive
+Set-Cookie: X-Mapping-kgmggapi=1639071C688140EF4595026455E94C25; path=/
+

@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Server: Apache
+ETag: c3e05397894efe5d8a52c8a9e216d8
+Last-Modified: Fri, 26 Jun 2015 17:07:31 GMT
+Content-Type: text/xml
+Cache-Control: max-age=646
+Date: Fri, 26 Jun 2015 19:26:58 GMT
+Connection: keep-alive
+Access-Control-Allow-Origin: http://c.brightcove.com
+

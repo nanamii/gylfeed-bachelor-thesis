@@ -1,0 +1,15 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 19:42:05 GMT
+Content-Type: text/html; charset=utf-8
+Connection: keep-alive
+Set-Cookie: __cfduid=d9dc2553c583c3ca5e5ba6f46b093a5161435347725; expires=Sat, 25-Jun-16 19:42:05 GMT; path=/; domain=.typepad.com; HttpOnly
+X-PhApp: oak-tp-web039
+X-Webserver: oak-tp-web039
+Location: http://cuteoverload.com/feed/
+Vary: cookie
+X-Varnish: 2391754135 2391275009
+Age: 1161
+Via: 1.1 varnish
+Server: cloudflare-nginx
+CF-RAY: 1fcb64b5554b15b9-FRA
+

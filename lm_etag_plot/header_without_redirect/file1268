@@ -1,0 +1,16 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Fri, 26 Jun 2015 18:19:56 GMT
+Content-Type: text/html; charset=iso-8859-1
+Content-Length: 245
+Connection: keep-alive
+Keep-Alive: timeout=20
+Location: http://technosailor.com/work-with-me/
+X-Cacheable: CacheAlways: feed
+Cache-Control: max-age=86400, must-revalidate
+Accept-Ranges: bytes
+X-Cache: HIT: 6
+X-Pass-Why: 
+X-Cache-Group: 
+X-Type: feed
+

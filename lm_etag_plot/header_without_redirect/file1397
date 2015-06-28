@@ -1,0 +1,26 @@
+HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Cache-Control: max-age=1800
+Content-Length: 61853
+Content-Type: text/xml
+Date: Fri, 26 Jun 2015 18:24:05 GMT
+ETag: "4198f-f19d-4ea1b07e1f216"
+Expires: Fri, 26 Jun 2015 18:54:05 GMT
+Last-Modified: Fri, 01 Nov 2013 10:28:44 GMT
+Server: Apache/2.2.25 (Amazon)
+Vary: Accept-Encoding,User-Agent
+X-CAPServer: Maxwell-6401
+X-NewScientist: CaptainKirk
+X-Scientist: Maxwell-6401
+X-StarTrek: Spock-6401
+Connection: keep-alive
+Set-Cookie: visid_incap_276977=yKKiEhJtQzqGSmspImD2j8WYjVUAAAAAQUIPAAAAAAAGx/uA00629AbpnR70i+dj; expires=Sat, 24 Jun 2017 18:42:29 GMT; path=/; Domain=.newscientist.com
+Set-Cookie: nlbi_276977=KwSCB2+rzSri041NksDtGAAAAABrhScr4u2OOQOb/DwywzP0; path=/; Domain=.newscientist.com
+Set-Cookie: incap_ses_163_276977=L16XXb7fekaILWybwxdDAsWYjVUAAAAAU86eAmll537lj70Xx2Gzdg==; path=/; Domain=.newscientist.com
+Set-Cookie: ___utmvmFIumREY=peltQKzLebS; path=/; Max-Age=900
+Set-Cookie: ___utmvaFIumREY=IrmXdbE; path=/; Max-Age=900
+Set-Cookie: ___utmvbFIumREY=zZo
+    XCFOEalR: tte; path=/; Max-Age=900
+X-Iinfo: 10-139977336-139969614 PNNY RT(1435343045054 2) q(0 0 0 2) r(1 1) U6
+X-CDN: Incapsula
+

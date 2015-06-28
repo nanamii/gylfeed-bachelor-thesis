@@ -1,0 +1,11 @@
+HTTP/1.1 301 Moved Permanently
+Content-Type: text/html; charset=UTF-8
+Date: Fri, 26 Jun 2015 19:42:17 GMT
+ETag: "8d4855cad952ea08c1da43b874b83fb0"
+Last-Modified: Fri, 26 Jun 2015 19:00:00 GMT
+Location: http://www.lifehack.org/feed
+Server: Apache/2.2.15 (CentOS)
+Vary: Cookie
+X-Powered-By: PHP/5.4.39
+Connection: keep-alive
+

@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sat, 27 Jun 2015 20:23:09 GMT
+Content-Type: text/xml; charset=utf-8
+X-Served-By: web1 (via varnish2)
+Cache-Control: public, max-age=300
+Content-Length: 115682
+X-Varnish: 1012660276 1012303172
+Age: 1351
+Via: 1.1 varnish
+X-Varnish-Cache: HIT
+X-Meta-Tbi-Varnish-Servers: www
+X-Meta-Tbi-Final-Client-Ip: 92.194.59.39
+Vary: Accept-Encoding
+

@@ -1,0 +1,8 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 18:04:57 GMT
+Connection: keep-alive
+Set-Cookie: __cfduid=defa1405be07e3dd05ab1eb40eebab17d1435341897; expires=Sat, 25-Jun-16 18:04:57 GMT; path=/; domain=.71squared.com; HttpOnly
+Location: http://71squared.com/feed/
+Server: cloudflare-nginx
+CF-RAY: 1fcad66a8dfb01af-FRA
+

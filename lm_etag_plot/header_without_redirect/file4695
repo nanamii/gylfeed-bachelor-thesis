@@ -1,0 +1,10 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 19:44:57 GMT
+Content-Type: text/html; charset=iso-8859-1
+Connection: keep-alive
+Set-Cookie: __cfduid=dd7a235643026d1cde32dbc0c60470dbe1435347897; expires=Sat, 25-Jun-16 19:44:57 GMT; path=/; domain=.patnsteph.net; HttpOnly
+Location: http://bifurcatedcarrots.eu/?feed=rss2
+Vary: Accept-Encoding
+Server: cloudflare-nginx
+CF-RAY: 1fcb68e50d5c15e3-FRA
+

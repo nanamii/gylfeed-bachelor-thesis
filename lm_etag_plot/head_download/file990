@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:06:46 GMT
+Server: Apache
+Vary: Cookie
+X-Pingback: http://www.topicscape.com/blog/xmlrpc.php
+Last-Modified: Mon, 27 Apr 2015 15:30:50 GMT
+ETag: "a5d876fd54f2156d567bb141ac8f1b68"
+Content-Type: application/rss+xml; charset="UTF-8"
+

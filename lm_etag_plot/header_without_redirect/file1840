@@ -1,0 +1,8 @@
+HTTP/1.1 410 iTunes Not Supported
+Date: Fri, 26 Jun 2015 18:51:53 GMT
+Server: Varnish
+X-Varnish: 10355088
+Content-Type: text/html; charset=utf-8
+Retry-After: 5
+Content-Length: 285
+

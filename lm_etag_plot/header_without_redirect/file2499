@@ -1,0 +1,10 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 19:00:52 GMT
+Content-Type: text/html; charset=iso-8859-1
+Connection: keep-alive
+Set-Cookie: __cfduid=d379ee6f05c227d1b4d8a3eeec23403e91435345251; expires=Sat, 25-Jun-16 19:00:51 GMT; path=/; domain=.greatnewsnetwork.org; HttpOnly
+Location: http://www.google.com/feed/38
+Vary: Accept-Encoding
+Server: cloudflare-nginx
+CF-RAY: 1fcb284ec6470485-FRA
+

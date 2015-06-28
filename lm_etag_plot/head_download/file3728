@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 20:11:53 GMT
+Server: Apache
+Vary: Cookie
+X-Pingback: http://blogs.reuters.com/mediafile/xmlrpc.php
+ETag: "b3fa19dad06a981ac1654c1333bc860b"
+WP-Super-Cache: Served legacy cache file
+X-Cachetype: Cached-with-(null)
+Connection: close
+Content-Type: text/xml; charset=UTF-8
+

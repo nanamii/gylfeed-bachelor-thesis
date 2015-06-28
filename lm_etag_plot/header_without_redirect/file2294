@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Set-Cookie: blogcluster=R630874059; path=/; expires=Sat, 27-Jun-2015 19:16:49 GMT
+Content-Type: text/xml; charset=UTF-8
+X-Pingback: http://healthblog.dallasnews.com/xmlrpc.php
+Last-Modified: Fri, 26 Jun 2015 13:46:12 GMT
+ETag: "d703ee8f9e7c99a54b506ca39c818859"
+Vary: Accept-Encoding
+Date: Fri, 26 Jun 2015 18:58:32 GMT
+Age: 0
+Connection: keep-alive
+X-Cache: MISS
+set-cookie: DMN-PD=free;Max-Age=86400;PATH=/;domain=.dallasnews.com
+x-svrl: V4blog :dblog1
+

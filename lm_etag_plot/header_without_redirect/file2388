@@ -1,0 +1,15 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 18:59:59 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+Set-Cookie: __cfduid=d997a6d9c8c4c82d77e680505caee289a1435345199; expires=Sat, 25-Jun-16 18:59:59 GMT; path=/; domain=.ameinfo.com; HttpOnly
+X-Powered-By: PHP/5.4.36-0+deb7u3
+X-Pingback: http://ameinfo.com/xmlrpc.php
+Expires: Fri, 26 Jun 2015 22:59:59 GMT
+Cache-Control: public, max-age=14400
+Pragma: no-cache
+Location: http://ameinfo.com/rss/ame_latest.xml
+CF-Cache-Status: HIT
+Server: cloudflare-nginx
+CF-RAY: 1fcb2706130008b1-FRA
+

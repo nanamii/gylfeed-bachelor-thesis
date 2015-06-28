@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Cache-Control: private
+Content-Length: 26774
+Content-Type: text/html
+Expires: Fri, 26 Jun 2015 19:37:18 GMT
+Server: Microsoft-IIS/7.0
+Set-Cookie: ASPSESSIONIDQSBSQSAT=JGNFJENCCPJHMCMEOIGOPGAN; path=/
+X-Powered-By: ASP.NET
+Date: Fri, 26 Jun 2015 19:37:18 GMT
+Set-Cookie: ax-sess-www.mediabistro.com=EHFLAEAK; Expires=Fri, 26-Jun-2015 21:38:56 GMT; Path=/
+

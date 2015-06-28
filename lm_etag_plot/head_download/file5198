@@ -1,0 +1,8 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 21:15:01 GMT
+Server: LiteSpeed
+Connection: close
+X-Powered-By: PHP/5.4.29
+X-Pingback: http://www.dannyayers.com/xmlrpc.php
+Content-Type: text/html; charset=UTF-8
+

@@ -1,0 +1,16 @@
+HTTP/1.1 302 Found
+Date: Fri, 26 Jun 2015 19:38:46 GMT
+Content-Type: application/atom+xml
+Connection: keep-alive
+Set-Cookie: __cfduid=ded89d56cbbf60fa3def7e66856074b151435347526; expires=Sat, 25-Jun-16 19:38:46 GMT; path=/; domain=.typepad.com; HttpOnly
+X-PhApp: oak-tp-web025
+X-Webserver: oak-tp-web025
+Location: http://feeds.feedburner.com/ross
+Vary: cookie
+Expires: Fri, 26 Jun 2015 19:53:46 GMT
+X-Varnish: 845748423
+Age: 0
+Via: 1.1 varnish
+Server: cloudflare-nginx
+CF-RAY: 1fcb5fd9436108bd-FRA
+

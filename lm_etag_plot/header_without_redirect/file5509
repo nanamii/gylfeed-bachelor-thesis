@@ -1,0 +1,18 @@
+HTTP/1.1 200 OK
+Server: nginx
+X-Cacheable: CacheAlways: feed
+Cache-Control: max-age=600, must-revalidate
+X-Cache: HIT: 1
+Content-Type: text/xml; charset=UTF-8
+X-Cache-Group: 
+Date: Fri, 26 Jun 2015 20:16:51 GMT
+X-Pingback: http://www.browneyedbaker.com/xmlrpc.php
+Keep-Alive: timeout=20
+X-Type: feed
+Transfer-Encoding: chunked
+ETag: "b5b643d904f3156f62c122bc6f2f3cdb"
+Connection: Keep-Alive
+X-Pass-Why: 
+Set-Cookie: X-Mapping-fjhppofk=4BBDB0756D82FAB0B4FB1A39F25903C3; path=/
+Last-Modified: Fri, 26 Jun 2015 10:22:23 GMT
+

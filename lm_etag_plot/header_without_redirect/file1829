@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 18:51:47 GMT
+Content-Type: text/xml; charset=UTF-8
+Connection: keep-alive
+Set-Cookie: __cfduid=d4770802754ffd97701b16b883cd677801435344707; expires=Sat, 25-Jun-16 18:51:47 GMT; path=/; domain=.edublogs.org; HttpOnly
+Vary: Cookie
+X-Pingback: http://mkrill.edublogs.org/xmlrpc.php
+Last-Modified: Fri, 26 Jun 2015 18:28:39 +0000
+Cache-Control: max-age=600, must-revalidate
+X-Varnish: 1776078245 1776063085
+Age: 1388
+Via: 1.1 varnish
+Set-Cookie: xid=Qocx21WNn0NSnByBHEmMAg==; expires=Sun, 26-Jul-15 18:51:47 GMT; path=/
+Server: cloudflare-nginx
+CF-RAY: 1fcb1b04489015d1-FRA
+

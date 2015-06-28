@@ -1,0 +1,22 @@
+HTTP/1.1 200 OK
+Server: nginx/1.4.0
+Date: Fri, 26 Jun 2015 19:14:38 GMT
+Content-Type: text/xml; charset=UTF-8
+Connection: keep-alive
+Vary: Accept-Encoding
+Display: orig_site_sol
+Response: 200
+Vary: Accept-Encoding
+X-Ac: 4.lhr _sat
+X-Hacker: If you're reading this, you should visit automattic.com/jobs and apply to join the fun, mention this header.
+X-Middleton-Display: orig_site_sol
+X-Middleton-Response: 200
+X-Nc: HIT sat 6
+X-Pingback: http://thegrio.com/xmlrpc.php
+X-Sol: orig
+Set-Cookie: ezouid=2031488984; Path=/; Domain=thegrio.com; Expires=Thu, 15 Jun 2017 19:14:37 UTC
+Set-Cookie: ezovid=1152001389; Path=/; Domain=thegrio.com; Expires=Fri, 31 Dec 9999 23:59:59 UTC
+Set-Cookie: lp=http://thegrio.com/feed/; Path=/; Domain=thegrio.com; Expires=Fri, 26 Jun 2015 21:14:37 UTC
+Last-Modified: Fri, 26 Jun 2015 18:46:03 GMT
+Cache-Control: max-age=300, private
+

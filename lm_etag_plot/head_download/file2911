@@ -1,0 +1,17 @@
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/rss+xml; charset=utf-8
+X-Drupal-Cache: MISS
+ETag: "1435432835-1"
+Content-Language: en
+Last-Modified: Sat, 27 Jun 2015 19:20:35 GMT
+X-Request-ID: v-96349fb8-1d01-11e5-8f05-22000a9f2fc4
+X-AH-Environment: prod
+X-Varnish: 1525959011 1525945715
+X-Cache-Hits: 43
+X-Age: 286
+Cache-Control: public, max-age=159
+Expires: Sat, 27 Jun 2015 19:51:24 GMT
+Date: Sat, 27 Jun 2015 19:48:45 GMT
+Connection: keep-alive
+

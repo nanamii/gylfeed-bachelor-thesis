@@ -1,0 +1,13 @@
+HTTP/1.1 301 Moved Permanently
+Server: Apache
+Location: http://feeds.feedburner.com/readwriteweb
+Vary: Accept-Encoding
+Keep-Alive: timeout=120, max=100
+Content-Type: text/html; charset=iso-8859-1
+Content-Length: 248
+Date: Fri, 26 Jun 2015 19:38:20 GMT
+X-Varnish: 3219125728 3219120446
+Age: 100
+Via: 1.1 varnish
+X-Varnish-Cache: HIT
+

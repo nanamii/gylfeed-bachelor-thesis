@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Server: nginx/1.8.0
+Date: Sat, 27 Jun 2015 18:41:58 GMT
+Content-Type: application/rss+xml; charset="UTF-8"
+Connection: keep-alive
+Vary: Cookie
+X-Pingback: http://joycelayman.com/xmlrpc.php
+ETag: "e88fb8ea9549f0be517b2a31840306ac"
+X-Robots-Tag: noindex,follow
+Set-Cookie: wfvt_3684794475=558eee7695483; expires=Sat, 27-Jun-2015 19:11:58 GMT; path=/; httponly
+Last-Modified: Fri, 19 Jun 2015 01:45:41 GMT
+Cache-Control: max-age=172800
+Expires: Mon, 29 Jun 2015 18:41:58 GMT
+

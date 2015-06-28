@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Server: Apache
+Vary: Accept-Encoding,User-Agent
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Content-Type: text/html; charset=UTF-8
+P3P: CP="NOI DSP COR LAW PSAo PSDo IVAo IVDo OUR BUS UNI DEM"
+Date: Sat, 27 Jun 2015 19:06:59 GMT
+X-Pingback: http://www.tubemogul.com/xmlrpc.php
+Link: <http://www.tubemogul.com/?p=76>; rel=shortlink
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+X-Header-TM: D=62375 t=1435432019047223
+Pragma: no-cache
+Transfer-Encoding: chunked
+Connection: Keep-Alive
+Set-Cookie: PHPSESSID=rskpd4vr07out30m0n3ogrghp4; path=/; domain=.tubemogul.com; HttpOnly
+

@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Server: nginx/1.4.1
+Date: Sat, 27 Jun 2015 19:34:55 GMT
+Content-Type: text/xml; charset=utf-8
+Connection: keep-alive
+X-Powered-By: PHP/5.3.24
+Set-Cookie: PHPSESSID=d9b2ae21c79b8aae47b02a88f901ec77; path=/; domain=.liveleak.com
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Set-Cookie: liveleak_safe_mode=1; expires=Sun, 26-Jun-2016 19:34:54 GMT; path=/; domain=.liveleak.com; httponly
+Set-Cookie: liveleak_use_old_player=1; expires=Sun, 26-Jun-2016 19:34:54 GMT; path=/; domain=.liveleak.com; httponly
+Access-Control-Allow-Origin: *
+

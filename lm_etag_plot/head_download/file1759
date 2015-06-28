@@ -1,0 +1,29 @@
+HTTP/1.1 200 OK
+Age: 0
+Cache-Control: public, max-age=900
+Content-Language: en
+Content-Type: application/rss+xml; charset=utf-8
+Date: Sat, 27 Jun 2015 19:28:19 GMT
+Etag: "1435432853-1"
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Last-Modified: Sat, 27 Jun 2015 19:20:53 GMT
+Server: Apache/2.2.15 (CentOS)
+Vary: Cookie,Accept-Encoding, User-Agent
+Via: 1.1 varnish
+X-Drupal-Cache: MISS
+X-GeoIP: DE
+X-Origin: web1
+X-Powered-By: PHP/5.3.28
+X-UA-Device: pc
+X-Varnish: 1208131170
+X-Varnish-Cache: MISS
+Connection: keep-alive
+Set-Cookie: visid_incap_233226=fbO1rLgSR/2XQxPw7tNeNQP4jlUAAAAAQUIPAAAAAACMI/1rpp2P22bwv2EwR3UC; expires=Mon, 26 Jun 2017 18:42:36 GMT; path=/; Domain=.medicaldaily.com
+Set-Cookie: incap_ses_287_233226=MWeALHri0zgyIZNNKaH7AwP4jlUAAAAAgd6WInT4PcuNwUSknazXqg==; path=/; Domain=.medicaldaily.com
+Set-Cookie: ___utmvmLwuNzcV=iKJxtiJaVZJ; path=/; Max-Age=900
+Set-Cookie: ___utmvaLwuNzcV=yoIlEgs; path=/; Max-Age=900
+Set-Cookie: ___utmvbLwuNzcV=cZi
+    XGjOXalf: ntx; path=/; Max-Age=900
+X-Iinfo: 10-31632493-31632495 SNNN RT(1435432962120 257) q(0 0 0 -1) r(11 11) U6
+X-CDN: Incapsula
+

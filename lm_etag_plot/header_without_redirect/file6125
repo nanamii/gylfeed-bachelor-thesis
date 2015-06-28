@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 20:32:50 GMT
+Server: Apache/2.2.22
+X-Powered-By: PHP/5.5.21
+Vary: Cookie,User-Agent
+X-Pingback: http://www.hyperorg.com/blogger/xmlrpc.php
+ETag: "6b33aff5531af6c79bd4584beb1db4d5"
+X-Robots-Tag: noindex,follow
+Last-Modified: Fri, 26 Jun 2015 16:31:42 GMT
+Content-Type: application/rss+xml; charset="UTF-8"
+

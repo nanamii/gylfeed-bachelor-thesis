@@ -1,0 +1,12 @@
+HTTP/1.1 301 Moved Permanently
+Server: Varnish
+Retry-After: 0
+Location: http://www.freshnetworks.com/blog/feed/
+cache-control: no-cache, must-revalidate
+Date: Fri, 26 Jun 2015 19:15:24 GMT
+X-Varnish: 1489626915
+Age: 0
+Via: 1.1 varnish
+Connection: close
+X-Cache: MISS
+

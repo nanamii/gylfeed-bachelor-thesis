@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:33:19 GMT
+Server: Apache/2.2.3 (CentOS)
+X-Powered-By: PHP/5.2.17
+Vary: Cookie
+X-Pingback: http://blogs.wavy.com/xmlrpc.php
+ETag: "814fbb2dc7b82a93760635a687eef1d9"
+WP-Super-Cache: Served legacy cache file
+Content-Type: text/xml; charset=UTF-8
+

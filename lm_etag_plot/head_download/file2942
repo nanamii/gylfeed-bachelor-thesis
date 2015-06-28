@@ -1,0 +1,7 @@
+HTTP/1.1 200 OK
+Content-Type: text/xml;charset=ISO-8859-1
+X-UA-Compatible: IE=Edge
+Cache-Control: max-age=374
+Date: Sat, 27 Jun 2015 19:49:16 GMT
+Connection: keep-alive
+

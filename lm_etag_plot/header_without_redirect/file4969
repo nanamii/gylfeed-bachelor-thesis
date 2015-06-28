@@ -1,0 +1,16 @@
+HTTP/1.1 302 Found
+Date: Fri, 26 Jun 2015 19:47:44 GMT
+Content-Type: application/atom+xml
+Connection: keep-alive
+Set-Cookie: __cfduid=de7bd9073ca8134f79ad3a9a43fe624f21435348064; expires=Sat, 25-Jun-16 19:47:44 GMT; path=/; domain=.typepad.com; HttpOnly
+X-PhApp: oak-tp-web042
+X-Webserver: oak-tp-web042
+Location: http://feeds2.feedburner.com/TaraRoddenRobinson
+Vary: cookie
+Expires: Fri, 26 Jun 2015 20:02:44 GMT
+X-Varnish: 845961099
+Age: 0
+Via: 1.1 varnish
+Server: cloudflare-nginx
+CF-RAY: 1fcb6cfa3dde0f63-FRA
+

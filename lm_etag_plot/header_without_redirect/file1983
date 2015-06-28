@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+X-Frame-Options: DENY
+Content-Type: text/xml; charset=UTF-8
+Date: Fri, 26 Jun 2015 18:54:03 GMT
+Pragma: no-cache
+Expires: Fri, 01 Jan 1990 00:00:00 GMT
+Cache-Control: no-cache, must-revalidate
+X-Content-Type-Options: nosniff
+Server: google_alerts
+X-XSS-Protection: 1; mode=block
+Alternate-Protocol: 80:quic,p=0
+Set-Cookie: PREF=ID=1111111111111111:TM=1435344843:LM=1435344843:V=1:S=PzQr7hrYn2mQbwZo; expires=Sun, 25-Jun-2017 18:54:03 GMT; path=/; domain=.google.com
+Transfer-Encoding: chunked
+Accept-Ranges: none
+Vary: Accept-Encoding
+

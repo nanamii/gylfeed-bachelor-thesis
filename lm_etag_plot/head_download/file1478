@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:18:22 GMT
+Server: Apache
+X-Powered-By: PHP/5.6.9
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+X-Pingback: http://jerseymike.org/xmlrpc.php
+ETag: "eaff96f633a5fd0609b8d0fe47739ff9"
+Set-Cookie: PHPSESSID=92f3ef3102a70f34d589ad49562a7f5b; path=/
+X-SERVER: 3907
+Last-Modified: Wed, 26 Sep 2012 00:02:45 GMT
+Content-Type: text/xml; charset=UTF-8
+

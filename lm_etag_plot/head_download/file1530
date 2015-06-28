@@ -1,0 +1,8 @@
+HTTP/1.1 200 OK
+Cache-Control: private
+Content-Length: 26225
+Content-Type: text/xml; charset=utf-8
+P3P: CP="CAO NID CURa ADMo DEVo TAIo OUR BUS IND UNI COM NAV INT"
+Set-Cookie: ASP.NET_SessionId=qgzjqei4vhym5qd3rbwyd2ud; path=/; HttpOnly
+Date: Sat, 27 Jun 2015 19:19:10 GMT
+

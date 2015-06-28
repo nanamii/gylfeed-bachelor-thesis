@@ -1,0 +1,11 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 19:22:25 GMT
+Server: Apache
+X-Pingback: http://www.scottaaronson.com/blog/xmlrpc.php
+ETag: "fc8632f25cf3ba7b0a6b1daace9668a0"
+Last-Modified: Thu, 25 Jun 2015 14:46:57 GMT
+Location: http://www.scottaaronson.com/blog/?feed=rss2
+Vary: Accept-Encoding
+Connection: close
+Content-Type: text/html
+

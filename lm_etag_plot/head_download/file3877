@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 20:17:37 GMT
+Server: Apache/2.2.27 (Unix) mod_ssl/2.2.27 OpenSSL/1.0.1j FrontPage/5.0.2.2635
+Last-Modified: Sat, 27 Jun 2015 17:39:25 GMT
+ETag: "2ec4-51983566dcd40;515a2f1abb2c0"
+Accept-Ranges: bytes
+Content-Length: 11972
+Vary: Accept-Encoding,Cookie
+X-Powered-By: W3 Total Cache/0.9.4.1
+Pragma: public
+Cache-Control: public, must-revalidate, proxy-revalidate
+Content-Type: text/html; charset=UTF-8
+

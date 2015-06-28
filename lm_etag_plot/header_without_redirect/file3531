@@ -1,0 +1,18 @@
+HTTP/1.1 302 Temporary Redirect
+Date: Fri, 26 Jun 2015 19:20:13 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+X-Powered-By: PHP/5.4.40-1~dotdeb+squeeze.1
+Set-Cookie: wfvt_2295466387=558da5edc88c7; expires=Fri, 26-Jun-2015 19:50:13 GMT; path=/; httponly
+X-Pingback: http://www.tipsfromthetopfloor.com/xmlrpc.php
+Last-Modified: Sat, 20 Jun 2015 17:18:48 GMT
+ETag: "89c2ea49651c31b7c4ace1b35137bfec"
+Cache-Control: no-cache, must-revalidate
+Pragma: no-cache
+Expires: Sat, 26 Jul 1997 05:00:00 GMT
+Location: http://feeds.tipsfromthetopfloor.com/tftf
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Vary: Accept-Encoding
+Content-Type: text/html
+

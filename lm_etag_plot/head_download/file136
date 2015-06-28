@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 18:33:40 GMT
+Server: Apache/2.4.7 (Ubuntu)
+Content-Location: feed.xml
+Vary: negotiate,Accept-Encoding
+TCN: choice
+Last-Modified: Tue, 17 Mar 2015 15:17:34 GMT
+ETag: "aa29-5117d7751ff80;5117d7751ff80"
+Accept-Ranges: bytes
+Content-Length: 43561
+Content-Type: application/xml
+

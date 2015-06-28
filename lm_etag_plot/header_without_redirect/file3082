@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 19:13:36 GMT
+Content-Type: text/xml; charset=UTF-8
+Connection: keep-alive
+Set-Cookie: __cfduid=d523ba8fdf3592a2d09b9cf4630a7dab51435346016; expires=Sat, 25-Jun-16 19:13:36 GMT; path=/; domain=.reddit.com; HttpOnly
+x-ua-compatible: IE=edge
+x-frame-options: SAMEORIGIN
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+Vary: accept-encoding
+cache-control: no-cache
+X-Moose: majestic
+CF-Cache-Status: HIT
+Server: cloudflare-nginx
+CF-RAY: 1fcb3afc6fb80893-FRA
+

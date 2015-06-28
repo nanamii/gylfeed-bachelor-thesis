@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Content-Type: text/xml
+Date: Sat, 27 Jun 2015 19:47:58 GMT
+Connection: keep-alive
+Cache-Control: max-age=1
+P3P: CP="CAO DSP COR CURa ADMa DEVa TAIa PSAa PSDa IVAi IVDi CONi OUR SAMo OTRo BUS PHY ONL UNI PUR COM NAV INT DEM CNT STA PRE"
+Set-Cookie: SWID=803B08A5-164F-4972-872D-43608296E492; path=/; expires=Fri, 22 Jun 2035 19:47:58 GMT; domain=go.com;
+Set-Cookie: device=pc; path=/; Expires=Mon, 27 Jul 2015 19:47:58 GMT;
+Vary: User-Agent,Cookie
+

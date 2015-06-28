@@ -1,0 +1,19 @@
+HTTP/1.1 404 Not Found
+Server: nginx
+Content-Type: text/html; charset=utf-8
+X-Drupal-Cache: MISS
+ETag: "1435346984-0"
+Content-Language: en
+Link: <http://www.nbc.com/>; rel="canonical",<http://www.nbc.com/>; rel="shortlink"
+X-UA-Compatible: IE=Edge,chrome=1
+Last-Modified: Fri, 26 Jun 2015 19:29:44 GMT
+X-Request-ID: v-b2c88cd4-1c39-11e5-91cb-12313b032f6e
+X-AH-Environment: prod
+X-Varnish: 50565563
+X-Age: 0
+Cache-Control: public, max-age=300
+Expires: Fri, 26 Jun 2015 19:34:45 GMT
+Date: Fri, 26 Jun 2015 19:29:45 GMT
+Connection: keep-alive
+access-control-allow-origin: *
+

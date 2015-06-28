@@ -1,0 +1,10 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx/1.7.9
+Date: Fri, 26 Jun 2015 19:14:56 GMT
+Content-Type: text/html; charset=iso-8859-1
+Content-Length: 235
+Connection: keep-alive
+Location: http://whowhatwhy.org/feed/
+Vary: Accept-Encoding
+X-Proxy-Cache: MISS
+

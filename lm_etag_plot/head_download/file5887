@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Server: Apache
+X-Pingback: http://www.sicpers.info/xmlrpc.php
+ETag: "eab4f8d7e6f7de6b60a011d59f65692d"
+X-Clacks-Overhead: GNU Terry Pratchett
+Last-Modified: Wed, 24 Jun 2015 20:12:35 GMT
+Vary: Accept-Encoding
+Content-Type: text/xml; charset=UTF-8
+X-Cacheable: YES:Forced
+Date: Sat, 27 Jun 2015 21:35:36 GMT
+X-Varnish: 1518025782 1518025780
+Age: 10
+Via: 1.1 varnish
+Connection: keep-alive
+

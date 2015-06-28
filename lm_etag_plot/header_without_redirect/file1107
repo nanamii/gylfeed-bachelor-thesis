@@ -1,0 +1,11 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 18:17:28 GMT
+Server: Apache
+X-Powered-By: PHP/5.5.26
+X-Pingback: http://theprospectingexpert.com/site/xmlrpc.php
+ETag: "e43089baa83990c8518e02314a15090f"
+X-UA-Compatible: IE=edge,chrome=1
+Last-Modified: Thu, 25 Jun 2015 15:00:28 GMT
+Location: http://theprospectingexpert.com/feed/
+Content-Type: text/html
+

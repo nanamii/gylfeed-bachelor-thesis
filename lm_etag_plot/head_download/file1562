@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:20:34 GMT
+Server: Apache/2.4.10 (Ubuntu) PHP/5.5.17-1+deb.sury.org~precise+1 OpenSSL/1.0.1
+X-Powered-By: PHP/5.5.17-1+deb.sury.org~precise+1
+Set-Cookie: PHPSESSID=ua10elq1pgite37qis59h7lc00; path=/
+X-Pingback: http://www.lsainsider.com/xmlrpc.php
+Last-Modified: Fri, 26 Jun 2015 19:37:28 GMT
+ETag: "2c49825a348b55c993c03ff2dd386763"
+Content-Type: text/html; charset=utf-8
+

@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:13:28 GMT
+Content-Type: text/xml; charset=UTF-8
+Connection: keep-alive
+Keep-Alive: timeout=30
+X-Pingback: http://blog.getsatisfaction.com/xmlrpc.php
+Last-Modified: Wed, 08 Apr 2015 15:04:57 GMT
+ETag: W/"83e58a32d2baf0319b53c07547018b17-gzip"
+Vary: Accept-Encoding, X-User-Agent
+X-User-Agent: standard
+X-Cache-Config: 0 0  
+X-Cache-Status: EXPIRED
+Server: Pagely Gateway/1.45
+X-Cache-Status: HIT
+

@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 20:33:19 GMT
+Content-Type: text/html
+Connection: keep-alive
+Set-Cookie: __cfduid=d5dc2396d06b94cdd3498c82114eb55141435350799; expires=Sat, 25-Jun-16 20:33:19 GMT; path=/; domain=.zeldman.com; HttpOnly
+X-Powered-By: PHP/5.5.9-1ubuntu4.9
+Set-Cookie: wfvt_3051761078=558db70e8629b; expires=Fri, 26-Jun-2015 21:03:18 GMT; Max-Age=1800; path=/; httponly
+X-Pingback: http://www.zeldman.com/xmlrpc.php
+Last-Modified: Thu, 25 Jun 2015 19:57:35 GMT
+ETag: "e8ff77789c3aa2eb04b4ac05fc87c78b"
+Server: cloudflare-nginx
+CF-RAY: 1fcbafc0a5c20893-FRA
+

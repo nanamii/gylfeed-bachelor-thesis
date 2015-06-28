@@ -1,0 +1,8 @@
+HTTP/1.1 301 Moved Permanently
+x-amz-id-2: eHnxE5Un140pBaXLf0pqnZ0rL/wIBj35IOUM05za//o/pdFSD4Zb2LaahsGjWPX+QiEqJxwWGRU=
+x-amz-request-id: AC45061D612606CD
+Date: Fri, 26 Jun 2015 18:41:12 GMT
+Location: http://scripting.com/rss.xml
+Content-Length: 0
+Server: AmazonS3
+

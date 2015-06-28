@@ -1,0 +1,19 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Fri, 26 Jun 2015 18:52:01 GMT
+Content-Type: text/html
+Content-Length: 0
+Connection: keep-alive
+Keep-Alive: timeout=20
+X-Pingback: http://tommarch.com/xmlrpc.php
+Last-Modified: Wed, 23 Apr 2014 19:52:20 GMT
+ETag: "cab280ad0e4bc1bf3c702af71fca3df3"
+Location: http://tommarch.com/ozblog/feed/
+X-Cacheable: CacheAlways: feed
+Cache-Control: max-age=86400, must-revalidate
+Accept-Ranges: bytes
+X-Cache: HIT: 1
+X-Pass-Why: 
+X-Cache-Group: 
+X-Type: feed
+

@@ -1,0 +1,21 @@
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Length: 0
+Content-Type: text/html
+Expires: Sat, 27 Jun 2015 20:20:16 GMT
+Vary: Accept-Encoding
+Server: Microsoft-IIS/8.5
+P3P: CP="NON UNI COM NAV STA LOC CURa DEVa PSAa PSDa OUR IND"
+Set-Cookie: _FS=NU=1; domain=.bing.com; path=/
+Set-Cookie: _SS=SID=7EA0F71E54A94758BDA5056AEAA21A8D; domain=.bing.com; path=/
+Set-Cookie: SRCHD=AF=MSDTR1; expires=Mon, 26-Jun-2017 20:21:16 GMT; domain=.bing.com; path=/
+Set-Cookie: SRCHUID=V=2&GUID=9455EC9BF5DE4C7A856E541B89D20A6E; expires=Mon, 26-Jun-2017 20:21:16 GMT; path=/
+Set-Cookie: SRCHUSR=AUTOREDIR=0&GEOVAR=&DOB=20150627; expires=Mon, 26-Jun-2017 20:21:16 GMT; domain=.bing.com; path=/
+Edge-control: no-store
+X-MSEdge-Ref: Ref A: 5C2AD7C9BDF84CE9870CB1A30138E4BF Ref B: 8F5B598385D1186DDFA5A99C1C49CB0F Ref C: Sat Jun 27 13:21:16 2015 PST
+Set-Cookie: _EDGE_S=F=1&SID=3DCA068EC7156FDA3FF5015DC6E76E15; path=/; httponly; domain=bing.com
+Set-Cookie: _EDGE_V=1; path=/; httponly; expires=Mon, 26-Jun-2017 20:21:16 GMT; domain=bing.com
+Set-Cookie: MUID=025AE4D908466303318EE30A09B462A1; path=/; expires=Mon, 26-Jun-2017 20:21:16 GMT; domain=bing.com
+Set-Cookie: MUIDB=025AE4D908466303318EE30A09B462A1; path=/; httponly; expires=Mon, 26-Jun-2017 20:21:16 GMT
+Date: Sat, 27 Jun 2015 20:21:16 GMT
+

@@ -1,0 +1,11 @@
+HTTP/1.1 302 Found
+Date: Fri, 26 Jun 2015 19:41:54 GMT
+P3P: policyref="http://info.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+Location: http://www.steverubel.me
+Cache-Control: private
+Vary: Accept-Encoding
+Content-Type: text/html
+Age: 0
+Connection: keep-alive
+Server: ATS/5.0.1
+

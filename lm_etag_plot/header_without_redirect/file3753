@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 19:22:55 GMT
+Server: Apache/2.2.17 (Unix) mod_ssl/2.2.17 OpenSSL/0.9.7a mod_bwlimited/1.4 PHP/5.2.9
+X-Powered-By: PHP/5.2.9
+Set-Cookie: SESSa57ebf16542d9ca6db7e4c8e98c750fd=8867d52a2c9a7fbaf4bc397c6552c638; expires=Sun, 19-Jul-2015 22:56:15 GMT; path=/; domain=.esciencenews.com
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Last-Modified: Fri, 26 Jun 2015 19:22:55 GMT
+Cache-Control: public
+Vary: Accept-Encoding
+Content-Type: application/rss+xml; charset=utf-8
+

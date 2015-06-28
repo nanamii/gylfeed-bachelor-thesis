@@ -1,0 +1,22 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:30:54 GMT
+Content-Type: text/xml; charset=UTF-8
+Connection: keep-alive
+Set-Cookie: __cfduid=da99f667b35df8ed63960db9665388e441435433453; expires=Sun, 26-Jun-16 19:30:53 GMT; path=/; domain=.tribune.com.pk; HttpOnly
+X-Powered-By: PHP/5.3.18
+Last-Modified: Sat, 27 Jun 2015 19:19:33 GMT
+Expires: Sat, 27 Jun 2015 20:27:39 GMT
+Pragma: public
+Cache-Control: max-age=3405, public, must-revalidate, proxy-revalidate
+Vary: Accept-Encoding,User-Agent
+X-Pingback: http://tribune.com.pk/application/xmlrpc.php
+X-Varnish: 486155129
+Age: 0
+Via: 1.1 varnish
+Set-Cookie: visid_incap_304989=fjjU/WQ7SD2oKX3GTMFrGu35jlUAAAAAQUIPAAAAAAAvZT9MBb0KhrBP//XlITqV; expires=Mon, 26 Jun 2017 18:44:16 GMT; path=/; Domain=.tribune.com.pk
+Set-Cookie: incap_ses_32_304989=UXejGJs71ThUqMy28K9xAO35jlUAAAAAsE6yrE/aJ/dfr7LFOEAuow==; path=/; Domain=.tribune.com.pk
+X-Iinfo: 5-161173769-161173426 PNNN RT(1435433453041 0) q(0 0 0 3) r(3 3) U6
+X-CDN: Incapsula
+Server: cloudflare-nginx
+CF-RAY: 1fd391ad8d7815cb-FRA
+

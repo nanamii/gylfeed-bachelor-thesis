@@ -1,0 +1,13 @@
+HTTP/1.1 307 Temporary Redirect
+Server: Apache/2.2
+Vary: Cookie
+Content-Type: text/html; charset=UTF-8
+Date: Fri, 26 Jun 2015 18:52:18 GMT
+X-Pingback: http://blog.cathy-moore.com/xmlrpc.php
+Location: http://feeds.feedburner.com/cathy-moore/LPhE
+Transfer-Encoding: chunked
+ETag: "664083688fe0d30ca68f0cdb18413eac"
+Connection: Keep-Alive
+Set-Cookie: X-Mapping-bffmijpk=F3ED6164BCF3066D5C3EB478BC82399D; path=/
+Last-Modified: Wed, 24 Jun 2015 04:46:14 GMT
+

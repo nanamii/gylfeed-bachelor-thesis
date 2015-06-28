@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 21:34:44 GMT
+Server: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.7
+Last-Modified: Tue, 02 Jun 2015 15:38:04 GMT
+ETag: "34ef-5178aba6a2f00"
+Accept-Ranges: bytes
+Content-Length: 13551
+Vary: Accept-Encoding
+Content-Type: application/xml
+

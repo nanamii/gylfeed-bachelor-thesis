@@ -1,0 +1,18 @@
+HTTP/1.1 302 Temporary Redirect
+X-Powered-By: PHP/5.5.22
+X-Pingback: http://almightylink.ksablan.com/xmlrpc.php
+Last-Modified: Wed, 28 Jan 2015 10:51:38 GMT
+ETag: "feedbff781398cac4f7946497b818625"
+Location: http://feeds2.feedburner.com/almightylink
+Content-Type: text/html
+Server:  Managed WordPress Hosting by Lightning Base 
+X-Cacheable: YES
+Content-Length: 0
+Accept-Ranges: bytes
+Date: Fri, 26 Jun 2015 20:18:04 GMT
+X-Varnish: 1558097731
+Via: 1.1 varnish
+Connection: keep-alive
+age: 0
+X-Cache: LBV-MISS
+

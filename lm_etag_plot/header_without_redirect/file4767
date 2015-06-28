@@ -1,0 +1,8 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 19:45:53 GMT
+Server: Apache/2.2.26 (Unix) mod_ssl/2.2.26 OpenSSL/1.0.1e-fips mod_bwlimited/1.4
+X-Powered-By: PHP/5.4.25
+ETag: "99b889a9cd748e8b4eca0eb3758d138d"
+Last-Modified: Thu, 01 Jan 1970 00:00:00 GMT
+Content-Type: text/html
+

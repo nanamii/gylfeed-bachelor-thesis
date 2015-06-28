@@ -1,0 +1,7 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 20:36:51 GMT
+Server: Apache
+Location: http://semireg.com/articles?format=rss
+Vary: Accept-Encoding
+Content-Type: text/html; charset=iso-8859-1
+

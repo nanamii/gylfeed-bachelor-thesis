@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 18:10:13 GMT
+Content-Type: text/xml; charset=UTF-8
+Connection: keep-alive
+Set-Cookie: __cfduid=d38b710d877a3f33b111a493472fae31f1435342212; expires=Sat, 25-Jun-16 18:10:12 GMT; path=/; domain=.grainedit.com; HttpOnly
+Vary: Cookie
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+ETag: W/"5437ee6d81ff15a53636505d3c08bcde"
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+WP-Super-Cache: Served legacy cache file
+X-Cacheable: YES
+X-Served-From-Cache: Yes
+Server: cloudflare-nginx
+CF-RAY: 1fcade1ee9a01a87-DUS
+

@@ -1,0 +1,11 @@
+HTTP/1.1 302 Temporary Redirect
+Content-Type: text/html; charset=UTF-8
+Date: Fri, 26 Jun 2015 18:52:33 GMT
+ETag: "96aed04d5c5cc2da78a086b3eb45573c"
+Last-Modified: Fri, 26 Jun 2015 18:00:00 GMT
+Location: http://feeds.lifehack.org/Lifehack
+Server: Apache/2.2.15 (CentOS)
+Vary: Cookie
+X-Powered-By: PHP/5.4.39
+Connection: keep-alive
+

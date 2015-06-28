@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 18:42:02 GMT
+Server: Apache/2.4.12
+X-Powered-By: PHP/5.4.37
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+X-Pingback: http://tybennett.com/xmlrpc.php
+Set-Cookie: PHPSESSID=0360a1d184854aa2b2963244d4e058a9; path=/
+Last-Modified: Wed, 24 Jun 2015 21:23:45 GMT
+ETag: "cfde92e52d11ae3c59eca0a0142fb2d2"
+Content-Type: text/html
+

@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 19:21:44 GMT
+Server: Apache/2.2.15 (CentOS)
+X-Powered-By: PHP/5.3.3
+X-Pingback: http://www.kurzweilai.net/xmlrpc.php
+Last-Modified: Fri, 26 Jun 2015 05:34:15 GMT
+ETag: "485c2b16079313320a7dbba228d37ee1"
+Connection: close
+Content-Type: text/xml; charset=UTF-8
+

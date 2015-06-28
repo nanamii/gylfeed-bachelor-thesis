@@ -1,0 +1,12 @@
+HTTP/1.1 301 Moved Permanently
+Server: openresty/1.7.4.1
+Date: Fri, 26 Jun 2015 19:22:31 GMT
+Content-Length: 0
+Connection: keep-alive
+Cache-Control: private
+Location: http://feeds.feedburner.com/spacepolicyonline
+Set-Cookie: visitorDeviceClass=desktop; path=/
+Set-Cookie: ASP.NET_SessionId=qghw2x3t4q3dq2iajhuvymat; path=/; HttpOnly
+X-FullPageCaching: ServeSkippedNoGet
+X-FullPageCaching: StoreSkippedRequest
+

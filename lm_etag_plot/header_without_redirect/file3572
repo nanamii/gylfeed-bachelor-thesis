@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 19:20:39 GMT
+Server: Apache/2.2.22 (Debian)
+X-Powered-By: PHP/5.6.7-1
+X-Drupal-Cache: HIT
+Etag: "1435335956-0"
+Content-Language: en
+Cache-Control: public, max-age=3600
+Last-Modified: Fri, 26 Jun 2015 16:25:56 GMT
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Vary: Cookie,Accept-Encoding
+Content-Type: application/rss+xml; charset=utf-8
+

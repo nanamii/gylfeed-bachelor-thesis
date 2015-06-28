@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 21:24:44 GMT
+Server: Apache
+Last-Modified: Wed, 24 Jun 2015 09:25:26 GMT
+X-Pingback: http://dismagazine.com/xmlrpc.php
+Cache-Control: public
+Expires: Mon, 27 Jul 2015 21:24:44 GMT
+X-Powered-By: PleskLin
+MS-Author-Via: DAV
+Access-Control-Allow-Origin: *
+Vary: Accept-Encoding
+Connection: close
+Content-Type: text/xml; charset=UTF-8
+

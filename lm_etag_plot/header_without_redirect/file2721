@@ -1,0 +1,12 @@
+HTTP/1.1 301 Moved Permanently
+Content-Type: text/html; charset=iso-8859-1
+Connection: keep-alive
+Cache-Control: max-age=120
+Date: Fri, 26 Jun 2015 19:06:15 GMT
+Expires: Fri, 26 Jun 2015 19:08:15 GMT
+Location: http://www.thestar.com/feeds.topstories.full.rss
+Server: Apache
+X-Cache: Miss from cloudfront
+Via: 1.1 01aba6a110b5612d129a6b912fa21044.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: Ka9XR-NAaC9Cnu21a98-Qm1PDFGglV4tCE8vDxf_oXicTuSDZ82JKA==
+

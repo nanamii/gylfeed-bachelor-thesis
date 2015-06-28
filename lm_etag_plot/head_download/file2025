@@ -1,0 +1,18 @@
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: text/html; charset=utf-8
+X-Drupal-Cache: MISS
+ETag: "1435433123-1"
+Content-Language: en
+Link: <http://www.msnbc.com/node/365807>; rel="shortlink",<http://www.msnbc.com/jose-diaz-balart>; rel="canonical",<http://www.msnbc.com/sites/msnbc/themes/leanforward/images/site-header/msnbc-logo-card.png>; rel="image_src"
+X-UA-Compatible: IE=Edge,chrome=1
+Last-Modified: Sat, 27 Jun 2015 19:25:23 GMT
+X-Request-ID: v-41f0a360-1d02-11e5-900b-22000a9f0237
+X-AH-Environment: prod
+X-Varnish: 1207705694
+X-Age: 0
+Cache-Control: public, max-age=60
+Expires: Sat, 27 Jun 2015 19:26:25 GMT
+Date: Sat, 27 Jun 2015 19:25:25 GMT
+Connection: keep-alive
+

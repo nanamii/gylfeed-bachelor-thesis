@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 21:14:00 GMT
+Server: Apache/2.4.7 (Ubuntu)
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Powered-By: PHP/5.5.9-1ubuntu4.9
+X-Pingback: http://infrequently.org/xmlrpc.php
+Last-Modified: Tue, 16 Jun 2015 20:28:27 GMT
+ETag: "a0cde7cb200ee2ecaff4a14fcea82dd9"
+Vary: User-Agent
+Content-Type: text/html
+

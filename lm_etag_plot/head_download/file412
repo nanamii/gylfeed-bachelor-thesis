@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 18:36:20 GMT
+Server: Apache/2.2.17 (Ubuntu)
+X-Powered-By: PHP/5.3.5-1ubuntu7.11
+Vary: User-Agent,Accept-Encoding
+Access-Control-Allow-Origin: *
+Connection: close
+Content-Type: application/rss+xml
+

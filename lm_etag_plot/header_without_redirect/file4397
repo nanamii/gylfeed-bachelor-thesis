@@ -1,0 +1,15 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Fri, 26 Jun 2015 19:42:00 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+Keep-Alive: timeout=20
+X-Pingback: http://www.subtraction.com/xmlrpc.php
+Expires: Wed, 11 Jan 1984 05:00:00 GMT
+Pragma: no-cache
+Location: http://www.subtraction.com/2005/01/16/feeding-the-3/
+X-Cacheable: CacheAlways: feed
+Cache-Control: max-age=86400, must-revalidate
+X-Cache: HIT: 24
+X-Type: feed
+

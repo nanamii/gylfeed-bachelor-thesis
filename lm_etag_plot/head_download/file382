@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Content-Length: 57
+Content-Type: text/xml
+Vary: *
+X-Frame-Options: SAMEORIGIN
+Cache-Control: public, no-cache
+Expires: Sat, 27 Jun 2015 18:40:08 GMT
+Date: Sat, 27 Jun 2015 18:40:08 GMT
+Connection: keep-alive
+Set-Cookie: dnn_IsMobile=False; path=/; HttpOnly
+Set-Cookie: .ASPXANONYMOUS=6A0ugprn0AEkAAAAMmM5MzhlZTMtMTkwZC00N2M2LWFmNzQtMDViM2ZlNTgzNjcw0; expires=Sat, 05-Sep-2015 05:19:58 GMT; path=/; HttpOnly
+Set-Cookie: TS0117f841=0165c0eb2b610846eb96674e1212fe169f89662bef7b2a49fd95c9b6ba634c5a329b4529122b7058bc82b1c03afe5c68961ee9950b946889a54e9b369f2c3594f9e251f0e3; Path=/; HTTPOnly
+

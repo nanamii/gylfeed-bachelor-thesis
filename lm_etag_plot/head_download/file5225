@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+x-amz-id-2: 2EwfOQDAYJpgERZ3XGmPirQ/yQQIPypUs0FUs4jPCytVTcqyk27GnVgHlksaoEPcT7DWKC0nZzQ=
+x-amz-request-id: 36878C69BCBBBEB8
+Date: Sat, 27 Jun 2015 21:15:20 GMT
+Content-Encoding: gzip
+Cache-Control: max-age=300
+Last-Modified: Sun, 17 May 2015 20:04:55 GMT
+ETag: "b90f2d9685ce13ec82aa995dc4caf6d1"
+Content-Type: application/xml
+Content-Length: 7723
+Server: AmazonS3
+

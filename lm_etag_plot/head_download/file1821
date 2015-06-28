@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 19:23:13 GMT
+Server: Apache
+X-Powered-By: PHP/5.4.36
+Vary: Cookie
+X-Pingback: http://www.360news.co.za/xmlrpc.php
+Last-Modified: Sat, 27 Jun 2015 19:09:49 GMT
+ETag: "1a4189b2a5b25a665087bbb2edfea2df"
+Connection: close
+Content-Type: text/html; charset=UTF-8
+

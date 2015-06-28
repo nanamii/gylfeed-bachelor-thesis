@@ -1,0 +1,7 @@
+HTTP/1.1 302 Found
+Date: Fri, 26 Jun 2015 20:21:31 GMT
+Server: Apache/2.2.4 (Fedora)
+Location: http://feeds.feedburner.com/dion
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+

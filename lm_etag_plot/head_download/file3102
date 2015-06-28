@@ -1,0 +1,30 @@
+HTTP/1.1 200 OK
+Server: Apache
+X-Origin: web1
+X-Powered-By: PHP/5.3.28
+X-Drupal-Cache: MISS
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Cache-Control: public, max-age=1800
+Content-Language: en
+Etag: "1435433648-0"
+Last-Modified: Sat, 27 Jun 2015 19:34:08 GMT
+Content-Type: application/rss+xml; charset=utf-8
+X-UA-Device: pc-player
+Content-Length: 8046
+Accept-Ranges: bytes
+Date: Sat, 27 Jun 2015 19:51:43 GMT
+X-Varnish: 1028089071 1028058682
+Age: 1054
+Via: 1.1 varnish
+X-Varnish-Cache: HIT
+Vary: Cookie, User-Agent
+X-GeoIP: DE
+Set-Cookie: visid_incap_229197=QY5mW4j1T/2RB6td6ZYuDdL+jlUAAAAAQUIPAAAAAADs3oTB51RC2IPvGa/gBfHh; expires=Mon, 26 Jun 2017 06:19:33 GMT; path=/; Domain=.ibtimes.com
+Set-Cookie: incap_ses_260_229197=58yjXvQa8jq+PV/9YrWbA9L+jlUAAAAA8vzWyqltDUxW+HI5ksXaUA==; path=/; Domain=.ibtimes.com
+Set-Cookie: ___utmvmIYuEtMO=OXgFPbFSjdk; path=/; Max-Age=900
+Set-Cookie: ___utmvaIYuEtMO=PEAJnTu; path=/; Max-Age=900
+Set-Cookie: ___utmvbIYuEtMO=NZk
+    XtdOfalN: btL; path=/; Max-Age=900
+X-Iinfo: 6-43905553-43905554 SNNY RT(1435434705463 540) q(0 0 0 -1) r(0 0) U5
+X-CDN: Incapsula
+

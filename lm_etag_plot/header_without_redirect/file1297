@@ -1,0 +1,10 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 18:20:16 GMT
+Content-Type: text/html
+Connection: keep-alive
+Set-Cookie: __cfduid=d27305738f5ce8e3222dc65e93e46a1081435342815; expires=Sat, 25-Jun-16 18:20:15 GMT; path=/; domain=.econsultancy.com; HttpOnly
+Location: https://econsultancy.com/blog
+X-Clacks-Overhead: GNU Terry Pratchett
+Server: cloudflare-nginx
+CF-RAY: 1fcaecd6aa3015d1-FRA
+

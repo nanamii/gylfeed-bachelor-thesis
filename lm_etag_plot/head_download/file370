@@ -1,0 +1,17 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 18:39:39 GMT
+Content-Type: application/atom+xml; charset=utf-8
+Connection: keep-alive
+Set-Cookie: __cfduid=d2be01835e015f89a8fc4e8c579cbad971435430379; expires=Sun, 26-Jun-16 18:39:39 GMT; path=/; domain=.tutsplus.com; HttpOnly
+cache-control: no-cache
+Status: 200 OK
+vary: Accept,Accept-Encoding
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+X-Powered-By: Phusion Passenger 5.0.6
+x-request-id: 5388b373-b5d3-4bb5-9323-523d0e596e45
+x-runtime: 0.194566
+x-xss-protection: 1; mode=block
+Server: cloudflare-nginx
+CF-RAY: 1fd3469ddfd9235a-FRA
+

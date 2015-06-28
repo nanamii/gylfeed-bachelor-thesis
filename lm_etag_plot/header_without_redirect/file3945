@@ -1,0 +1,12 @@
+HTTP/1.1 301 Moved Permanently
+Vary: Cookie,Accept-Encoding
+X-Pingback: http://www.anorak.co.uk/xmlrpc.php
+Last-Modified: Fri, 26 Jun 2015 13:57:07 GMT
+Location: http://www.anorak.co.uk/feed/
+Content-Type: text/html; charset=UTF-8
+Date: Fri, 26 Jun 2015 19:25:20 GMT
+Connection: keep-alive
+X-Age: 0
+Server: Apache/Varnish
+X-Varnish-Hits: Hit - 0
+

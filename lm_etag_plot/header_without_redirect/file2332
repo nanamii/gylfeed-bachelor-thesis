@@ -1,0 +1,15 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 18:59:02 GMT
+Server: Apache/2.2.29
+Vary: Cookie
+Set-Cookie: PHPSESSID=m8qihukf59s7qjjkgq215n8n92; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Set-Cookie: edd_items_in_cart=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0; path=/
+X-Pingback: http://sharpbrains.com/xmlrpc.php
+Last-Modified: Fri, 26 Jun 2015 07:57:18 GMT
+ETag: "098ac15cbd4d24b69834eb60951c8232"
+Location: http://sharpbrains.com/feed/
+Content-Type: text/html; charset=UTF-8
+

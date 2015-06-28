@@ -1,0 +1,12 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 26 Jun 2015 19:46:42 GMT
+Connection: close
+X-Powered-By: PHP/5.3.29
+Set-Cookie: PHPSESSID=ad0a849de287f8af359b0037fed57823; path=/
+X-Pingback: http://vintagevictuals.com/xmlrpc.php
+Content-Type: text/html; charset=UTF-8
+Expires: Wed, 11 Jan 1984 05:00:00 GMT
+Cache-Control: no-cache, must-revalidate, max-age=0
+Pragma: no-cache
+Location: http://vintagevictuals.com/feeds/posts/default
+

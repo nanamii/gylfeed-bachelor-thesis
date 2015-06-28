@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Content-Type: text/html
+Connection: close
+Cache-Control: no-cache
+Connection: close
+Content-Length: 6197
+X-Iinfo: 10-202849817-0 0NNY RT(1435346540886 2) q(0 -1 -1 1) r(0 -1) B10(4,289,0) U6
+Set-Cookie: visid_incap_444090=CE0b5FagTTCKxrN4XSwKWGymjVUAAAAAQUIPAAAAAACbVt4B3/8saUXbg4uBytDh; expires=Sun, 25 Jun 2017 09:56:27 GMT; path=/; Domain=.sciencedaily.com
+Set-Cookie: incap_ses_108_444090=SY9wJ5CmsVIhWfGJgrF/AWymjVUAAAAAZINqkuh2MemZSaLXJXjL9w==; path=/; Domain=.sciencedaily.com
+

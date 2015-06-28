@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Server: nginx/1.8.0
+Date: Sat, 27 Jun 2015 19:05:33 GMT
+Content-Type: text/xml; charset=UTF-8
+Content-Length: 94655
+Connection: keep-alive
+X-Pingback: http://socialmedia.biz/xmlrpc.php
+ETag: "f274b5e2637d4bb1d02a5a539b0c5733"
+Last-Modified: Tue, 23 Jun 2015 10:23:49 GMT
+Accept-Ranges: bytes
+X-Varnish: 557237563
+Age: 0
+Via: 1.1 varnish
+X-Cache: MISS
+

@@ -1,0 +1,29 @@
+HTTP/1.1 301 Moved Permanently
+Server: Apache
+X-Origin: web1
+X-Powered-By: PHP/5.3.28
+X-Drupal-Cache: MISS
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Cache-Control: no-cache, must-revalidate, post-check=0, pre-check=0
+Location: http://www.ibtimes.com/rss/tech-sci
+X-Redirect-ID: 625395
+Content-Type: text/html; charset=UTF-8
+X-UA-Device: pc-player
+Content-Length: 0
+Accept-Ranges: bytes
+Date: Fri, 26 Jun 2015 19:21:53 GMT
+X-Varnish: 2350834652 2350828007
+Age: 216
+Via: 1.1 varnish
+X-Varnish-Cache: HIT
+Vary: User-Agent
+X-GeoIP: DE
+Set-Cookie: visid_incap_229197=p2aQQo06TGiKG/PWO90GWUOmjVUAAAAAQUIPAAAAAAAlyr596s5D/1x911hfpkqh; expires=Sun, 25 Jun 2017 06:19:32 GMT; path=/; Domain=.ibtimes.com
+Set-Cookie: incap_ses_260_229197=iwUhH+gDiFhoOkb8YrWbA0OmjVUAAAAA/+l9uVoKnDjw1MSFgaMAkQ==; path=/; Domain=.ibtimes.com
+Set-Cookie: ___utmvmIYuEtMO=ZtmPXimgLSO; path=/; Max-Age=900
+Set-Cookie: ___utmvaIYuEtMO=PlSkwsd; path=/; Max-Age=900
+Set-Cookie: ___utmvbIYuEtMO=gZc
+    XWWOxaly: GtM; path=/; Max-Age=900
+X-Iinfo: 9-156194799-156193323 PNNY RT(1435346499366 2) q(0 0 0 -1) r(2 2) U5
+X-CDN: Incapsula
+

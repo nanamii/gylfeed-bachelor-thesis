@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Jun 2015 18:42:59 GMT
+Server: Apache/2.2.3 (CentOS)
+X-Powered-By: PHP/5.3.3
+Set-Cookie: bb2_screener_=1435344179+92.194.59.39; path=/wordpress/
+Vary: Cookie
+X-Pingback: http://lefsetz.com/wordpress/xmlrpc.php
+Last-Modified: Fri, 26 Jun 2015 16:55:29 GMT
+ETag: "14c520b0431032eb5fae13ddc2a915e9"
+X-Robots-Tag: noindex,follow
+Connection: close
+Content-Type: text/html; charset=UTF-8
+

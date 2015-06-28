@@ -1,0 +1,22 @@
+HTTP/1.1 200 OK
+Date: Sat, 27 Jun 2015 21:43:03 GMT
+Content-Type: text/xml; charset=UTF-8
+Content-Length: 32612
+Connection: keep-alive
+Set-Cookie: __cfduid=d0d0eb258691fd24d2fc5f1467bdfe0621435441382; expires=Sun, 26-Jun-16 21:43:02 GMT; path=/; domain=.micechat.com; HttpOnly
+X-Powered-By: PHP/5.3.21
+Vary: Cookie
+X-Pingback: http://micechat.com/xmlrpc.php
+ETag: "2dedf6fd25b16dbb8fea051e80684acc"
+Cache-Control: max-age=86400
+WP-Super-Cache: Served legacy cache file
+X-Cacheable: YES
+Accept-Ranges: bytes
+X-Varnish: 814144656 814144451
+Via: 1.1 varnish
+age: 0
+X-Cache: HIT
+X-Cache-Hits: 6
+Server: cloudflare-nginx
+CF-RAY: 1fd453439b6915a7-FRA
+

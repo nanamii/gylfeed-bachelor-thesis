@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Server: Apache/2.2.3 (Red Hat)
+X-Powered-By: PHP/5.2.12
+X-Gen-Mode: full
+X-Block-Status: fresh
+Content-Type: text/xml; charset=utf-8
+Cache-Control: max-age=300
+Expires: Sat, 27 Jun 2015 19:34:53 GMT
+Date: Sat, 27 Jun 2015 19:29:53 GMT
+Connection: keep-alive
+

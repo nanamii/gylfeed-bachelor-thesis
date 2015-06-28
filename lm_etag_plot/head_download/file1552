@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sat, 27 Jun 2015 19:19:27 GMT
+Content-Type: text/xml; charset=UTF-8
+Content-Length: 35455
+Last-Modified: Sat, 27 Jun 2015 19:14:37 GMT
+Vary: Accept-Encoding
+ETag: "558ef61d-8a7f"
+X-Backend-Server: wb3.betacie.net
+X-Feed-Name: reel
+Accept-Ranges: bytes
+

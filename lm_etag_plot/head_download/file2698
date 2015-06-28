@@ -1,0 +1,7 @@
+HTTP/1.1 200 OK
+Server: Sun-Java-System-Web-Server/7.0
+Date: Sat, 27 Jun 2015 19:42:45 GMT
+Content-type: text/html; charset=ISO-8859-1
+Set-Cookie: JSESSIONID=1TdJVT8VS8sTYTGFKt2nmRy02J73QZ3prvW12wPJGPvgQQLJTrVj!-1849087457!-1693038240; path=/; HttpOnly
+X-Powered-By: Servlet/3.0 JSP/2.2
+

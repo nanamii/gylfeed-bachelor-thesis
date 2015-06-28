@@ -1,0 +1,10 @@
+HTTP/1.1 302 Found
+Date: Fri, 26 Jun 2015 20:42:53 GMT
+Server: Apache/2.2.15 (CentOS)
+Location: http://feedpress.me/rocketink
+Cache-Control: max-age=0
+Expires: Fri, 26 Jun 2015 20:42:53 GMT
+Vary: Accept-Encoding
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+
