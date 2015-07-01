@@ -1,0 +1,8 @@
+defaultdict(<class 'int'>, {0: 5085, '': 481, 'atom03': 3, 'rss10': 63, 'rss091n': 1, 'rss092': 5, 'rss20': 3555, 'rss090': 1, 'atom10': 970, 'rss091u': 6})
+defaultdict(<class 'int'>, {0: 5086, '': 481, 'atom03': 3, 'rss10': 63, 'rss091n': 1, 'rss092': 5, 'rss20': 3556, 'rss090': 1, 'atom10': 970, 'rss091u': 6})
+defaultdict(<class 'int'>, {0: 5087, '': 481, 'atom03': 3, 'rss10': 63, 'rss091n': 1, 'rss092': 5, 'rss20': 3557, 'rss090': 1, 'atom10': 970, 'rss091u': 6})
+defaultdict(<class 'int'>, {0: 5088, '': 482, 'atom03': 3, 'rss10': 63, 'rss091n': 1, 'rss092': 5, 'rss20': 3557, 'rss090': 1, 'atom10': 970, 'rss091u': 6})
+defaultdict(<class 'int'>, {0: 5089, '': 483, 'atom03': 3, 'rss10': 63, 'rss091n': 1, 'rss092': 5, 'rss20': 3557, 'rss090': 1, 'atom10': 970, 'rss091u': 6})
+defaultdict(<class 'int'>, {0: 5090, '': 483, 'atom03': 3, 'rss10': 63, 'rss091n': 1, 'rss092': 5, 'rss20': 3558, 'rss090': 1, 'atom10': 970, 'rss091u': 6})
+defaultdict(<class 'int'>, {0: 5091, '': 483, 'atom03': 3, 'rss10': 63, 'rss091n': 1, 'rss092': 5, 'rss20': 3559, 'rss090': 1, 'atom10': 970, 'rss091u': 6})
+defaultdict(<class 'int'>, {0: 5092, '': 483, 'atom03': 3, 'rss10': 63, 'rss091n': 1, 'rss092': 5, 'rss20': 3559, 'rss090': 1, 'atom10': 971, 'rss091u': 6})

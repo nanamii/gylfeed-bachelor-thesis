@@ -1,0 +1,336 @@
+defaultdict(<class 'int'>, {'id': 4277, 'title': 4410, 'icon': 40, 'image': 1114, 'author': 3573, 'logo': 68, 'link': 4432, 'counter': 5017, 'summary': 4375, 'updated_parsed': 4341})
+object has no attribute 'icon'
+object has no attribute 'logo'
+defaultdict(<class 'int'>, {'id': 4278, 'title': 4411, 'icon': 40, 'image': 1115, 'author': 3574, 'logo': 68, 'link': 4433, 'counter': 5018, 'summary': 4376, 'updated_parsed': 4342})
+object has no attribute 'author'
+object has no attribute 'icon'
+object has no attribute 'image'
+object has no attribute 'logo'
+defaultdict(<class 'int'>, {'id': 4279, 'title': 4412, 'icon': 40, 'image': 1115, 'author': 3574, 'logo': 68, 'link': 4434, 'counter': 5019, 'summary': 4377, 'updated_parsed': 4343})
+object has no attribute 'icon'
+object has no attribute 'image'
+object has no attribute 'logo'
+defaultdict(<class 'int'>, {'id': 4280, 'title': 4413, 'icon': 40, 'image': 1115, 'author': 3575, 'logo': 68, 'link': 4435, 'counter': 5020, 'summary': 4378, 'updated_parsed': 4344})
+object has no attribute 'icon'
+object has no attribute 'image'
+object has no attribute 'logo'
+defaultdict(<class 'int'>, {'id': 4281, 'title': 4414, 'icon': 40, 'image': 1115, 'author': 3576, 'logo': 68, 'link': 4436, 'counter': 5021, 'summary': 4379, 'updated_parsed': 4345})
+object has no attribute 'icon'
+object has no attribute 'image'
+object has no attribute 'logo'
+defaultdict(<class 'int'>, {'id': 4282, 'title': 4415, 'icon': 40, 'image': 1115, 'author': 3577, 'logo': 68, 'link': 4437, 'counter': 5022, 'summary': 4380, 'updated_parsed': 4346})
+object has no attribute 'icon'
+object has no attribute 'image'
+object has no attribute 'logo'
+defaultdict(<class 'int'>, {'id': 4283, 'title': 4416, 'icon': 40, 'image': 1115, 'author': 3578, 'logo': 68, 'link': 4438, 'counter': 5023, 'summary': 4381, 'updated_parsed': 4347})
+object has no attribute 'icon'
+object has no attribute 'image'
+object has no attribute 'logo'
+defaultdict(<class 'int'>, {'id': 4284, 'title': 4417, 'icon': 40, 'image': 1115, 'author': 3579, 'logo': 68, 'link': 4439, 'counter': 5024, 'summary': 4382, 'updated_parsed': 4348})
+object has no attribute 'icon'
+object has no attribute 'image'
+object has no attribute 'logo'
+defaultdict(<class 'int'>, {'id': 4285, 'title': 4418, 'icon': 40, 'image': 1115, 'author': 3580, 'logo': 68, 'link': 4440, 'counter': 5025, 'summary': 4383, 'updated_parsed': 4349})
+object has no attribute 'icon'
+object has no attribute 'image'
+defaultdict(<class 'int'>, {'id': 4286, 'title': 4419, 'icon': 40, 'image': 1115, 'author': 3581, 'logo': 69, 'link': 4441, 'counter': 5026, 'summary': 4384, 'updated_parsed': 4350})
+object has no attribute 'icon'
+object has no attribute 'image'
+object has no attribute 'logo'
+defaultdict(<class 'int'>, {'id': 4287, 'title': 4420, 'icon': 40, 'image': 1115, 'author': 3582, 'logo': 69, 'link': 4442, 'counter': 5027, 'summary': 4385, 'updated_parsed': 4351})
+object has no attribute 'icon'
+object has no attribute 'image'
+object has no attribute 'logo'
+defaultdict(<class 'int'>, {'id': 4288, 'title': 4421, 'icon': 40, 'image': 1115, 'author': 3583, 'logo': 69, 'link': 4443, 'counter': 5028, 'summary': 4386, 'updated_parsed': 4352})
+list index out of range
+list index out of range
+list index out of range
+list index out of range
+list index out of range
+list index out of range
+object has no attribute 'icon'
+object has no attribute 'image'
+object has no attribute 'logo'
+defaultdict(<class 'int'>, {'id': 4288, 'title': 4421, 'icon': 40, 'image': 1115, 'author': 3583, 'logo': 69, 'link': 4443, 'counter': 5029, 'summary': 4386, 'updated_parsed': 4352})
+list index out of range
+list index out of range
+list index out of range
+list index out of range
+list index out of range
+list index out of range
+object has no attribute 'icon'
+object has no attribute 'image'
+object has no attribute 'logo'
+defaultdict(<class 'int'>, {'id': 4288, 'title': 4421, 'icon': 40, 'image': 1115, 'author': 3583, 'logo': 69, 'link': 4443, 'counter': 5030, 'summary': 4386, 'updated_parsed': 4352})
+object has no attribute 'icon'
+object has no attribute 'image'
+object has no attribute 'logo'
+defaultdict(<class 'int'>, {'id': 4289, 'title': 4422, 'icon': 40, 'image': 1115, 'author': 3584, 'logo': 69, 'link': 4444, 'counter': 5031, 'summary': 4387, 'updated_parsed': 4353})
+object has no attribute 'icon'
+object has no attribute 'image'
+object has no attribute 'logo'
+defaultdict(<class 'int'>, {'id': 4290, 'title': 4423, 'icon': 40, 'image': 1115, 'author': 3585, 'logo': 69, 'link': 4445, 'counter': 5032, 'summary': 4388, 'updated_parsed': 4354})
+object has no attribute 'icon'
+object has no attribute 'image'
+object has no attribute 'logo'
+defaultdict(<class 'int'>, {'id': 4291, 'title': 4424, 'icon': 40, 'image': 1115, 'author': 3586, 'logo': 69, 'link': 4446, 'counter': 5033, 'summary': 4389, 'updated_parsed': 4355})
+list index out of range
+list index out of range
+list index out of range
+list index out of range
+list index out of range
+list index out of range
+object has no attribute 'icon'
+object has no attribute 'image'
+object has no attribute 'logo'
+defaultdict(<class 'int'>, {'id': 4291, 'title': 4424, 'icon': 40, 'image': 1115, 'author': 3586, 'logo': 69, 'link': 4446, 'counter': 5034, 'summary': 4389, 'updated_parsed': 4355})
+object has no attribute 'author'
+object has no attribute 'icon'
+object has no attribute 'image'
+object has no attribute 'logo'
+defaultdict(<class 'int'>, {'id': 4292, 'title': 4425, 'icon': 40, 'image': 1115, 'author': 3586, 'logo': 69, 'link': 4447, 'counter': 5035, 'summary': 4390, 'updated_parsed': 4356})
+object has no attribute 'icon'
+object has no attribute 'image'
+object has no attribute 'logo'
+defaultdict(<class 'int'>, {'id': 4293, 'title': 4426, 'icon': 40, 'image': 1115, 'author': 3587, 'logo': 69, 'link': 4448, 'counter': 5036, 'summary': 4391, 'updated_parsed': 4357})
+object has no attribute 'icon'
+object has no attribute 'logo'
+defaultdict(<class 'int'>, {'id': 4294, 'title': 4427, 'icon': 40, 'image': 1116, 'author': 3588, 'logo': 69, 'link': 4449, 'counter': 5037, 'summary': 4392, 'updated_parsed': 4358})
+object has no attribute 'icon'
+object has no attribute 'image'
+object has no attribute 'logo'
+defaultdict(<class 'int'>, {'id': 4295, 'title': 4428, 'icon': 40, 'image': 1116, 'author': 3589, 'logo': 69, 'link': 4450, 'counter': 5038, 'summary': 4393, 'updated_parsed': 4359})
+object has no attribute 'author'
+object has no attribute 'icon'
+object has no attribute 'image'
+object has no attribute 'logo'
+defaultdict(<class 'int'>, {'id': 4296, 'title': 4429, 'icon': 40, 'image': 1116, 'author': 3589, 'logo': 69, 'link': 4451, 'counter': 5039, 'summary': 4394, 'updated_parsed': 4360})
+object has no attribute 'icon'
+object has no attribute 'logo'
+defaultdict(<class 'int'>, {'id': 4297, 'title': 4430, 'icon': 40, 'image': 1117, 'author': 3590, 'logo': 69, 'link': 4452, 'counter': 5040, 'summary': 4395, 'updated_parsed': 4361})
+object has no attribute 'author'
+object has no attribute 'icon'
+object has no attribute 'image'
+object has no attribute 'logo'
+defaultdict(<class 'int'>, {'id': 4298, 'title': 4431, 'icon': 40, 'image': 1117, 'author': 3590, 'logo': 69, 'link': 4453, 'counter': 5041, 'summary': 4396, 'updated_parsed': 4362})
+object has no attribute 'author'
+object has no attribute 'icon'
+object has no attribute 'logo'
+defaultdict(<class 'int'>, {'id': 4299, 'title': 4432, 'icon': 40, 'image': 1118, 'author': 3590, 'logo': 69, 'link': 4454, 'counter': 5042, 'summary': 4397, 'updated_parsed': 4363})
+object has no attribute 'icon'
+object has no attribute 'image'
+object has no attribute 'logo'
+defaultdict(<class 'int'>, {'id': 4300, 'title': 4433, 'icon': 40, 'image': 1118, 'author': 3591, 'logo': 69, 'link': 4455, 'counter': 5043, 'summary': 4398, 'updated_parsed': 4364})
+object has no attribute 'author'
+object has no attribute 'icon'
+object has no attribute 'image'
+object has no attribute 'logo'
+defaultdict(<class 'int'>, {'id': 4301, 'title': 4434, 'icon': 40, 'image': 1118, 'author': 3591, 'logo': 69, 'link': 4456, 'counter': 5044, 'summary': 4399, 'updated_parsed': 4365})
+object has no attribute 'icon'
+object has no attribute 'logo'
+defaultdict(<class 'int'>, {'id': 4302, 'title': 4435, 'icon': 40, 'image': 1119, 'author': 3592, 'logo': 69, 'link': 4457, 'counter': 5045, 'summary': 4400, 'updated_parsed': 4366})
+list index out of range
+list index out of range
+list index out of range
+list index out of range
+list index out of range
+list index out of range
+object has no attribute 'icon'
+object has no attribute 'image'
+object has no attribute 'logo'
+defaultdict(<class 'int'>, {'id': 4302, 'title': 4435, 'icon': 40, 'image': 1119, 'author': 3592, 'logo': 69, 'link': 4457, 'counter': 5046, 'summary': 4400, 'updated_parsed': 4366})
+object has no attribute 'icon'
+object has no attribute 'image'
+object has no attribute 'logo'
+defaultdict(<class 'int'>, {'id': 4303, 'title': 4436, 'icon': 40, 'image': 1119, 'author': 3593, 'logo': 69, 'link': 4458, 'counter': 5047, 'summary': 4401, 'updated_parsed': 4367})
+object has no attribute 'icon'
+object has no attribute 'image'
+object has no attribute 'logo'
+defaultdict(<class 'int'>, {'id': 4304, 'title': 4437, 'icon': 40, 'image': 1119, 'author': 3594, 'logo': 69, 'link': 4459, 'counter': 5048, 'summary': 4402, 'updated_parsed': 4368})
+object has no attribute 'icon'
+object has no attribute 'image'
+object has no attribute 'logo'
+defaultdict(<class 'int'>, {'id': 4305, 'title': 4438, 'icon': 40, 'image': 1119, 'author': 3595, 'logo': 69, 'link': 4460, 'counter': 5049, 'summary': 4403, 'updated_parsed': 4369})
+object has no attribute 'icon'
+object has no attribute 'image'
+object has no attribute 'logo'
+defaultdict(<class 'int'>, {'id': 4306, 'title': 4439, 'icon': 40, 'image': 1119, 'author': 3596, 'logo': 69, 'link': 4461, 'counter': 5050, 'summary': 4404, 'updated_parsed': 4370})
+object has no attribute 'icon'
+object has no attribute 'logo'
+defaultdict(<class 'int'>, {'id': 4307, 'title': 4440, 'icon': 40, 'image': 1120, 'author': 3597, 'logo': 69, 'link': 4462, 'counter': 5051, 'summary': 4405, 'updated_parsed': 4371})
+object has no attribute 'icon'
+object has no attribute 'logo'
+defaultdict(<class 'int'>, {'id': 4308, 'title': 4441, 'icon': 40, 'image': 1121, 'author': 3598, 'logo': 69, 'link': 4463, 'counter': 5052, 'summary': 4406, 'updated_parsed': 4372})
+object has no attribute 'icon'
+object has no attribute 'logo'
+defaultdict(<class 'int'>, {'id': 4309, 'title': 4442, 'icon': 40, 'image': 1122, 'author': 3599, 'logo': 69, 'link': 4464, 'counter': 5053, 'summary': 4407, 'updated_parsed': 4373})
+object has no attribute 'icon'
+object has no attribute 'image'
+object has no attribute 'logo'
+defaultdict(<class 'int'>, {'id': 4310, 'title': 4443, 'icon': 40, 'image': 1122, 'author': 3600, 'logo': 69, 'link': 4465, 'counter': 5054, 'summary': 4408, 'updated_parsed': 4374})
+object has no attribute 'icon'
+object has no attribute 'image'
+object has no attribute 'logo'
+defaultdict(<class 'int'>, {'id': 4311, 'title': 4444, 'icon': 40, 'image': 1122, 'author': 3601, 'logo': 69, 'link': 4466, 'counter': 5055, 'summary': 4409, 'updated_parsed': 4375})
+object has no attribute 'icon'
+object has no attribute 'image'
+defaultdict(<class 'int'>, {'id': 4312, 'title': 4445, 'icon': 40, 'image': 1122, 'author': 3602, 'logo': 70, 'link': 4467, 'counter': 5056, 'summary': 4410, 'updated_parsed': 4376})
+object has no attribute 'icon'
+object has no attribute 'image'
+object has no attribute 'logo'
+defaultdict(<class 'int'>, {'id': 4313, 'title': 4446, 'icon': 40, 'image': 1122, 'author': 3603, 'logo': 70, 'link': 4468, 'counter': 5057, 'summary': 4411, 'updated_parsed': 4377})
+object has no attribute 'icon'
+object has no attribute 'image'
+object has no attribute 'logo'
+defaultdict(<class 'int'>, {'id': 4314, 'title': 4447, 'icon': 40, 'image': 1122, 'author': 3604, 'logo': 70, 'link': 4469, 'counter': 5058, 'summary': 4412, 'updated_parsed': 4378})
+object has no attribute 'icon'
+object has no attribute 'image'
+object has no attribute 'logo'
+defaultdict(<class 'int'>, {'id': 4315, 'title': 4448, 'icon': 40, 'image': 1122, 'author': 3605, 'logo': 70, 'link': 4470, 'counter': 5059, 'summary': 4413, 'updated_parsed': 4379})
+object has no attribute 'icon'
+object has no attribute 'image'
+object has no attribute 'logo'
+defaultdict(<class 'int'>, {'id': 4316, 'title': 4449, 'icon': 40, 'image': 1122, 'author': 3606, 'logo': 70, 'link': 4471, 'counter': 5060, 'summary': 4414, 'updated_parsed': 4380})
+object has no attribute 'author'
+object has no attribute 'icon'
+object has no attribute 'image'
+object has no attribute 'logo'
+defaultdict(<class 'int'>, {'id': 4317, 'title': 4450, 'icon': 40, 'image': 1122, 'author': 3606, 'logo': 70, 'link': 4472, 'counter': 5061, 'summary': 4415, 'updated_parsed': 4381})
+object has no attribute 'icon'
+object has no attribute 'image'
+object has no attribute 'logo'
+defaultdict(<class 'int'>, {'id': 4318, 'title': 4451, 'icon': 40, 'image': 1122, 'author': 3607, 'logo': 70, 'link': 4473, 'counter': 5062, 'summary': 4416, 'updated_parsed': 4382})
+object has no attribute 'icon'
+object has no attribute 'image'
+object has no attribute 'logo'
+defaultdict(<class 'int'>, {'id': 4319, 'title': 4452, 'icon': 40, 'image': 1122, 'author': 3608, 'logo': 70, 'link': 4474, 'counter': 5063, 'summary': 4417, 'updated_parsed': 4383})
+object has no attribute 'icon'
+object has no attribute 'image'
+object has no attribute 'logo'
+defaultdict(<class 'int'>, {'id': 4320, 'title': 4453, 'icon': 40, 'image': 1122, 'author': 3609, 'logo': 70, 'link': 4475, 'counter': 5064, 'summary': 4418, 'updated_parsed': 4384})
+object has no attribute 'icon'
+object has no attribute 'logo'
+defaultdict(<class 'int'>, {'id': 4321, 'title': 4454, 'icon': 40, 'image': 1123, 'author': 3610, 'logo': 70, 'link': 4476, 'counter': 5065, 'summary': 4419, 'updated_parsed': 4385})
+object has no attribute 'icon'
+object has no attribute 'image'
+object has no attribute 'logo'
+defaultdict(<class 'int'>, {'id': 4322, 'title': 4455, 'icon': 40, 'image': 1123, 'author': 3611, 'logo': 70, 'link': 4477, 'counter': 5066, 'summary': 4420, 'updated_parsed': 4386})
+object has no attribute 'icon'
+object has no attribute 'image'
+object has no attribute 'logo'
+defaultdict(<class 'int'>, {'id': 4323, 'title': 4456, 'icon': 40, 'image': 1123, 'author': 3612, 'logo': 70, 'link': 4478, 'counter': 5067, 'summary': 4421, 'updated_parsed': 4387})
+object has no attribute 'icon'
+object has no attribute 'image'
+object has no attribute 'logo'
+defaultdict(<class 'int'>, {'id': 4324, 'title': 4457, 'icon': 40, 'image': 1123, 'author': 3613, 'logo': 70, 'link': 4479, 'counter': 5068, 'summary': 4422, 'updated_parsed': 4388})
+object has no attribute 'author'
+object has no attribute 'icon'
+object has no attribute 'logo'
+defaultdict(<class 'int'>, {'id': 4325, 'title': 4458, 'icon': 40, 'image': 1124, 'author': 3613, 'logo': 70, 'link': 4480, 'counter': 5069, 'summary': 4423, 'updated_parsed': 4389})
+object has no attribute 'icon'
+object has no attribute 'image'
+object has no attribute 'logo'
+defaultdict(<class 'int'>, {'id': 4326, 'title': 4459, 'icon': 40, 'image': 1124, 'author': 3614, 'logo': 70, 'link': 4481, 'counter': 5070, 'summary': 4424, 'updated_parsed': 4390})
+object has no attribute 'icon'
+object has no attribute 'image'
+object has no attribute 'logo'
+defaultdict(<class 'int'>, {'id': 4327, 'title': 4460, 'icon': 40, 'image': 1124, 'author': 3615, 'logo': 70, 'link': 4482, 'counter': 5071, 'summary': 4425, 'updated_parsed': 4391})
+object has no attribute 'author'
+object has no attribute 'icon'
+object has no attribute 'image'
+object has no attribute 'logo'
+defaultdict(<class 'int'>, {'id': 4328, 'title': 4461, 'icon': 40, 'image': 1124, 'author': 3615, 'logo': 70, 'link': 4483, 'counter': 5072, 'summary': 4426, 'updated_parsed': 4392})
+object has no attribute 'icon'
+object has no attribute 'image'
+object has no attribute 'logo'
+defaultdict(<class 'int'>, {'id': 4329, 'title': 4462, 'icon': 40, 'image': 1124, 'author': 3616, 'logo': 70, 'link': 4484, 'counter': 5073, 'summary': 4427, 'updated_parsed': 4393})
+object has no attribute 'icon'
+object has no attribute 'image'
+object has no attribute 'logo'
+defaultdict(<class 'int'>, {'id': 4330, 'title': 4463, 'icon': 40, 'image': 1124, 'author': 3617, 'logo': 70, 'link': 4485, 'counter': 5074, 'summary': 4428, 'updated_parsed': 4394})
+object has no attribute 'icon'
+object has no attribute 'logo'
+defaultdict(<class 'int'>, {'id': 4331, 'title': 4464, 'icon': 40, 'image': 1125, 'author': 3618, 'logo': 70, 'link': 4486, 'counter': 5075, 'summary': 4429, 'updated_parsed': 4395})
+list index out of range
+list index out of range
+list index out of range
+list index out of range
+list index out of range
+list index out of range
+object has no attribute 'icon'
+object has no attribute 'image'
+object has no attribute 'logo'
+defaultdict(<class 'int'>, {'id': 4331, 'title': 4464, 'icon': 40, 'image': 1125, 'author': 3618, 'logo': 70, 'link': 4486, 'counter': 5076, 'summary': 4429, 'updated_parsed': 4395})
+object has no attribute 'icon'
+object has no attribute 'image'
+object has no attribute 'logo'
+defaultdict(<class 'int'>, {'id': 4332, 'title': 4465, 'icon': 40, 'image': 1125, 'author': 3619, 'logo': 70, 'link': 4487, 'counter': 5077, 'summary': 4430, 'updated_parsed': 4396})
+object has no attribute 'icon'
+object has no attribute 'image'
+object has no attribute 'logo'
+defaultdict(<class 'int'>, {'id': 4333, 'title': 4466, 'icon': 40, 'image': 1125, 'author': 3620, 'logo': 70, 'link': 4488, 'counter': 5078, 'summary': 4431, 'updated_parsed': 4397})
+object has no attribute 'icon'
+object has no attribute 'image'
+object has no attribute 'logo'
+defaultdict(<class 'int'>, {'id': 4334, 'title': 4467, 'icon': 40, 'image': 1125, 'author': 3621, 'logo': 70, 'link': 4489, 'counter': 5079, 'summary': 4431, 'updated_parsed': 4398})
+object has no attribute 'icon'
+object has no attribute 'image'
+object has no attribute 'logo'
+defaultdict(<class 'int'>, {'id': 4335, 'title': 4468, 'icon': 40, 'image': 1125, 'author': 3622, 'logo': 70, 'link': 4490, 'counter': 5080, 'summary': 4432, 'updated_parsed': 4399})
+object has no attribute 'icon'
+object has no attribute 'logo'
+defaultdict(<class 'int'>, {'id': 4336, 'title': 4469, 'icon': 40, 'image': 1126, 'author': 3623, 'logo': 70, 'link': 4491, 'counter': 5081, 'summary': 4433, 'updated_parsed': 4400})
+object has no attribute 'icon'
+object has no attribute 'image'
+object has no attribute 'logo'
+defaultdict(<class 'int'>, {'id': 4337, 'title': 4470, 'icon': 40, 'image': 1126, 'author': 3624, 'logo': 70, 'link': 4492, 'counter': 5082, 'summary': 4434, 'updated_parsed': 4401})
+object has no attribute 'icon'
+object has no attribute 'image'
+object has no attribute 'logo'
+defaultdict(<class 'int'>, {'id': 4338, 'title': 4471, 'icon': 40, 'image': 1126, 'author': 3625, 'logo': 70, 'link': 4493, 'counter': 5083, 'summary': 4435, 'updated_parsed': 4402})
+object has no attribute 'icon'
+object has no attribute 'image'
+object has no attribute 'logo'
+defaultdict(<class 'int'>, {'id': 4339, 'title': 4472, 'icon': 40, 'image': 1126, 'author': 3626, 'logo': 70, 'link': 4494, 'counter': 5084, 'summary': 4436, 'updated_parsed': 4403})
+object has no attribute 'icon'
+object has no attribute 'image'
+object has no attribute 'logo'
+defaultdict(<class 'int'>, {'id': 4340, 'title': 4473, 'icon': 40, 'image': 1126, 'author': 3627, 'logo': 70, 'link': 4495, 'counter': 5085, 'summary': 4437, 'updated_parsed': 4404})
+object has no attribute 'icon'
+object has no attribute 'image'
+object has no attribute 'logo'
+defaultdict(<class 'int'>, {'id': 4341, 'title': 4474, 'icon': 40, 'image': 1126, 'author': 3628, 'logo': 70, 'link': 4496, 'counter': 5086, 'summary': 4438, 'updated_parsed': 4405})
+object has no attribute 'icon'
+object has no attribute 'logo'
+defaultdict(<class 'int'>, {'id': 4342, 'title': 4475, 'icon': 40, 'image': 1127, 'author': 3629, 'logo': 70, 'link': 4497, 'counter': 5087, 'summary': 4439, 'updated_parsed': 4406})
+list index out of range
+list index out of range
+list index out of range
+list index out of range
+list index out of range
+list index out of range
+object has no attribute 'icon'
+object has no attribute 'image'
+object has no attribute 'logo'
+defaultdict(<class 'int'>, {'id': 4342, 'title': 4475, 'icon': 40, 'image': 1127, 'author': 3629, 'logo': 70, 'link': 4497, 'counter': 5088, 'summary': 4439, 'updated_parsed': 4406})
+list index out of range
+list index out of range
+list index out of range
+list index out of range
+list index out of range
+list index out of range
+object has no attribute 'icon'
+object has no attribute 'image'
+object has no attribute 'logo'
+defaultdict(<class 'int'>, {'id': 4342, 'title': 4475, 'icon': 40, 'image': 1127, 'author': 3629, 'logo': 70, 'link': 4497, 'counter': 5089, 'summary': 4439, 'updated_parsed': 4406})
+object has no attribute 'icon'
+object has no attribute 'logo'
+defaultdict(<class 'int'>, {'id': 4343, 'title': 4476, 'icon': 40, 'image': 1128, 'author': 3630, 'logo': 70, 'link': 4498, 'counter': 5090, 'summary': 4440, 'updated_parsed': 4407})
+object has no attribute 'icon'
+object has no attribute 'logo'
+defaultdict(<class 'int'>, {'id': 4344, 'title': 4477, 'icon': 40, 'image': 1129, 'author': 3631, 'logo': 70, 'link': 4499, 'counter': 5091, 'summary': 4441, 'updated_parsed': 4408})
+object has no attribute 'icon'
+object has no attribute 'image'
+object has no attribute 'logo'
+defaultdict(<class 'int'>, {'id': 4345, 'title': 4478, 'icon': 40, 'image': 1129, 'author': 3632, 'logo': 70, 'link': 4500, 'counter': 5092, 'summary': 4442, 'updated_parsed': 4409})
+

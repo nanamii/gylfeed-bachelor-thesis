@@ -17,7 +17,10 @@ die Daten aus der XML-Datei zu verarbeiten. Um mehr über die Beschaffenheit
 der vorliegenden Daten aussagen zu können, werden die Daten verschiedener
 Feeds hinsichtlich deren Format und gelieferten Attribute untersucht. Diese
 beiden Faktoren können bei der Verarbeitung der Feed-Daten zu
-Problemen führen.
+Problemen führen. Für beide Tests wurde die bereits in KAPITEL IV 
+verwendete Testmenge von 6.203 Feeds genutzt.
+
+
 
 Feedformate
 -----------
@@ -29,7 +32,7 @@ wurde in sechs verschiedenen Versionen veröffentlicht (vlg. :cite:`HU` - Histor
 
 Es soll nun anhand einer
 Stichprobe untersucht werden, wie häufig die verschiedenen Feedformate in der
-Praxis verwendet werden. Ziel ist es, eine Aussage treffen zu können, welche
+Praxis eingesetzt werden. Ziel ist es, eine Aussage treffen zu können, welche
 Feedformate tendenziell häufiger als andere verwendet werden.
 
 .. _plot:
@@ -62,6 +65,9 @@ Feedreader benötigt werden. Die Stichprobe soll auf diese vier Attribute
 getestet werden.
 
 
+
+Für die Analysen wurde der Universal Feedparser verwendet. Im folgenden
+Abschnitt wird der Universal Feedparser näher vorgestellt.
 
 
 Der Universal Feedparser
