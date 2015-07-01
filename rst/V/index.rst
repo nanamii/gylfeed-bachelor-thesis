@@ -9,11 +9,15 @@ verarbeitet werden können. In diesem Zusammenhang treten verschiedene
 Problemstellungen auf. 
 
 
-Ausgangssituation und Problemstellungen
-=======================================
+Analyse der Feed-Daten
+======================
 
 Die heruntergeladenen Feed-Daten liegen meist als XML-Datei vor. Nun gilt es,
-die Daten aus der XML-Datei zu verarbeiten...
+die Daten aus der XML-Datei zu verarbeiten. Um mehr über die Beschaffenheit
+der vorliegenden Daten aussagen zu können, werden die Daten verschiedener
+Feeds hinsichtlich deren Format und gelieferten Attribute untersucht. Diese
+beiden Faktoren können bei der Verarbeitung der Feed-Daten zu
+Problemen führen.
 
 Feedformate
 -----------
@@ -41,8 +45,12 @@ Feedformate tendenziell häufiger als andere verwendet werden.
 
 
 
-Fehlende Attribute
-------------------
+Attribute
+---------
+
+- Nicht alle Attribute sind Pflicht
+- Selbst die Pflicht-Attribute können fehlen.
+
 
 Fehlende Attribute sind eine weitere Herausforderung, die sich bei der
 Verarbeitung der Feed-Daten ergeben.
@@ -55,12 +63,9 @@ getestet werden.
 
 
 
-Speicherung der Daten
----------------------
 
-
-Lösungsansätze
-==============
+Der Universal Feedparser
+========================
 
 
 Umsetzung innerhalb von *gylfeed*
