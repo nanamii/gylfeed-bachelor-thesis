@@ -1,0 +1,19 @@
+defaultdict(<class 'int'>, {'counter': 5074, 'summary': 3404, 'title': 3449, 'title and summary': 3395, 'title and summary, validation': 3395})
+defaultdict(<class 'int'>, {'counter': 5075, 'summary': 3405, 'title': 3450, 'title and summary': 3396, 'title and summary, validation': 3396})
+list index out of range
+list index out of range
+defaultdict(<class 'int'>, {'counter': 5076, 'summary': 3405, 'title': 3450, 'title and summary': 3396, 'title and summary, validation': 3396})
+defaultdict(<class 'int'>, {'counter': 5077, 'summary': 3406, 'title': 3451, 'title and summary': 3397, 'title and summary, validation': 3397})
+defaultdict(<class 'int'>, {'counter': 5078, 'summary': 3407, 'title': 3452, 'title and summary': 3398, 'title and summary, validation': 3398})
+defaultdict(<class 'int'>, {'counter': 5079, 'summary': 3407, 'title': 3453, 'title and summary': 3398, 'title and summary, validation': 3398})
+defaultdict(<class 'int'>, {'counter': 5080, 'summary': 3408, 'title': 3454, 'title and summary': 3399, 'title and summary, validation': 3399})
+defaultdict(<class 'int'>, {'counter': 5081, 'summary': 3409, 'title': 3455, 'title and summary': 3400, 'title and summary, validation': 3400})
+defaultdict(<class 'int'>, {'counter': 5083, 'summary': 3410, 'title': 3456, 'title and summary': 3401, 'title and summary, validation': 3401})
+defaultdict(<class 'int'>, {'counter': 5084, 'summary': 3411, 'title': 3457, 'title and summary': 3402, 'title and summary, validation': 3402})
+defaultdict(<class 'int'>, {'counter': 5085, 'summary': 3412, 'title': 3458, 'title and summary': 3403, 'title and summary, validation': 3403})
+defaultdict(<class 'int'>, {'counter': 5086, 'summary': 3413, 'title': 3459, 'title and summary': 3404, 'title and summary, validation': 3404})
+defaultdict(<class 'int'>, {'counter': 5087, 'summary': 3414, 'title': 3460, 'title and summary': 3405, 'title and summary, validation': 3405})
+Saving data to disk, url: index.html.745
+Saving data to disk, url: index.html.739
+defaultdict(<class 'int'>, {'counter': 5090, 'summary': 3415, 'title': 3461, 'title and summary': 3406, 'title and summary, validation': 3406})
+defaultdict(<class 'int'>, {'counter': 5091, 'summary': 3416, 'title': 3462, 'title and summary': 3407, 'title and summary, validation': 3407})

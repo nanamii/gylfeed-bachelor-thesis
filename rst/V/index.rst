@@ -186,7 +186,7 @@ getestet werden.
 
 Das Testergebnis in Tabelle :num:`elemente-statistics` zeigt, dass die Elemente
 *title*, *link*, *description* und *date* bei einem Großteil der getesteten Feeds
-vorhanden sind. Das Element *author* ist hingegen seltener vorhanden.
+vorhanden sind. Das Element *author* ist hingegen seltener vorhanden (78,80 %).
 
 Auch wenn das Ergebnis zeigt, dass diese Elemente für einen großen Teil der 
 getesteten Feeds vorhanden sind, müssen die wenigen Feeds mit fehlenden Elementen
@@ -194,15 +194,121 @@ entsprechend behandelt werden.
 
 Interessant zu betrachten wäre an dieser Stelle die Forderung aus der
 Spezifikation von RSS 2.0, dass es bei Items keine Pflicht-Elemente gibt, aber
-entweder *title* oder *description* vorhanden sein sollte.
+entweder *title* oder *description* vorhanden sein sollte. Deshalb soll eine
+separate Untersuchung durchgeführt werden, die betrachtet, wie häufig die
+Elemente *title* und *description* bei RSS 2.0 Feeds aus der Testmenge
+vorkommen.
+
+
+
+.. figtable::
+    :label: title-description-statistics
+    :caption: Testergebnisse der Prüfung auf die XML-Elemente *title* 
+              und *description* bei RSS 2.0 Feeds.
+    :alt: Testergebnisse der Prüfung auf die XML-Elemente *title* und
+          *description* bei RSS 2.0 Feeds.
+    :spec: l l r
+
+    =============================================== ============  ==========
+      **XML-Element/Vorkommen**                      **absolut**   **in %** 
+    =============================================== ============  ==========
+     **title**                                         3.462         97,28   
+     **description**                                   3.416         95,98    
+     **title und description**                         3.407         95,73    
+     **mind. eines von beiden**                        3.471         97,53    
+     **keines von beiden**                                88          2,47    
+     |hline| **gesamte RSS 2.0 Feeds**                 3.559         100,00
+    =============================================== ============  ==========
+
+
+Das Testergebnis zeigt, dass die Forderung aus der Spezifikation von RSS 2.0
+für 97,53 % der 3.559 getesteten RSS 2.0 Feeds erfüllt wird. Lediglich 2,47 % der
+Feeds liefern weder *title* noch *description*.
+
+
+
 
 .. _feedparser:
 
 Der Universal Feedparser
 ========================
 
+Innerhalb von *gylfeed* wird die Verarbeitung der Feed-Daten mit dem Universal
+Feedparser durchgeführt. Der Universal Feedparser ist ein Python-Modul zum
+Herunterladen, sowie Verarbeiten von Feed-Daten. Aufgrund der in Kapitel XX
+erläuterten Performance-Nachteile wird der Universal Feedparser lediglich zum
+Verarbeiten der Feed-Daten eingesetzt.
+
+Der Universal Feedparser liegt aktuell in der Version 5.2.0 vor und wird von
+Kurt McKee entwickelt (vgl. Github Repository). Es können sämtliche RSS 0.9x
+Formate, RSS 1.0, RSS 2.0, Atom 0.3 und Atom 1.0, sowie das Format CDF (...) 
+verarbeitet werden.
+
+Wie die Analyse zu den Häufigkeiten der Feedformate ergeben hat (siehe...),
+können mit dem Universal Feedparser die am häufigsten eingesetzten Feedformate
+verarbeitet werden. Da der Feedreader *gylfeed* hinsichtlich der zu
+verarbeitenden Feedformate keine Vollständigkeit anstrebt, ist die Abdeckung
+durch den Universal Feedparser völlig ausreichend.
+
+An dieser Stelle sollen die wesentlichen Funktionalitäten des Universal
+Feedparsers bei der Verarbeitung der Feed-Daten kurz vorgestellt werden.
+
+
+Normalisierung der Feed-Inhalte
+-------------------------------
+
+Der Universal Feedparser ermöglicht es -- unabhängig vom Feedformat -- auf
+die verarbeiteten Daten in gleicher Weise zugreifen zu können. 
+Diese Normalisierung ist eine große Erleichterung für die Verarbeitung
+der Feed-Daten innerhalb von *gylfeed*. Es muss keine Rücksicht auf
+die unterschiedliche Benennung der XML-Elemente und auf den unterschiedlichen
+Aufbau der ursprünglichen Feed-Daten genommen werden.
+
+Für die gängigsten Elemente der Formate RSS 2.0 und Atom 1.0 sieht die
+Normalisation wie folgt aus:
+
+.. figtable::
+    :label: normalisierung
+    :caption: Normalisierung der Feed-Elemente.
+    :alt: Ratingverteilung der Stichprobe.
+
+    +--------------------------+--------------------------+--------------------+
+    | **Universal Feedparser** | **RSS 2.0**              | **Atom 1.0**       |
+    +==========================+==========================+====================+
+    | feed                     | channel                  | feed               |
+    +--------------------------+--------------------------+--------------------+
+    | entries                  | item                     | entry              |
+    +--------------------------+--------------------------+--------------------+
+    | entries[i].title         | channel/item/title       | feed/entry/title   |
+    +--------------------------+--------------------------+--------------------+
+    | entries[i].summary       | channel/item/description | feed/entry/summary |
+    +--------------------------+--------------------------+--------------------+
+    |                          |                          |                    |
+    +--------------------------+--------------------------+--------------------+
+
+
+
+
+
+Die normalisierten Feed-Daten werden als Dictionary d.h. einer Datenstruktur bestehend 
+aus Schlüssel-Wert-Paaren zur Verfügung gestellt.
+
+- Beispiel für Zugriff
+- Atom, RSS Feed, Entsprechung im Dictionary
+
+
+Die Funktion *parse*
+--------------------
+
+Das Verarbeiten der Feed-Daten wird mit der Funktion *parse(source)* ausgeführt.
+Die Funktion erwartet entweder die URL des Feeds, den Pfad einer lokalen Datei
+oder die Feed-Daten als String.
 
 Umsetzung innerhalb von *gylfeed*
 =================================
 
+- Prüfung auf fehlende Elemente noch unzureichend, bisher bozo?
+- Ausgehend vom Signal durch Document, wird geparst, danach Signal an
+  Feedparser?, der reicht es weiter an die GUI
+- vl. Darstellung/Diagramm
 
