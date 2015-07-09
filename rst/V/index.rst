@@ -250,10 +250,35 @@ verarbeitet werden. Da der Feedreader *gylfeed* hinsichtlich der zu
 verarbeitenden Feedformate keine Vollständigkeit anstrebt, ist die Abdeckung
 durch den Universal Feedparser völlig ausreichend.
 
-An dieser Stelle sollen die wesentlichen Funktionalitäten des Universal
-Feedparsers bei der Verarbeitung der Feed-Daten kurz vorgestellt werden.
+An dieser Stelle soll die zentrale Funktion *parse* des Universal Feedparsers
+vorgestellt werden. 
 
+Die Funktion *parse*
+--------------------
 
+Das Verarbeiten der Feed-Daten wird mit der Funktion *parse(source)* ausgeführt.
+Die Funktion erwartet entweder die URL des Feeds, den Pfad einer lokalen Datei
+oder die Feed-Daten als String.
+
+- vl. geparstes Ergebnis in den Anhang
+
+.. code-block:: python
+
+    # Der Funktion *parse* wird die URL vom Feed der 
+    # Sueddeutschen Zeitung übergeben und der Variable *feed_dict* zugewiesen
+    >>> feed_dict = feedparser.parse("http://suche.sueddeutsche.de/?output=rss")
+
+    # Parsen von einer lokalen Datei
+    >>> feed_dict = feedparser.parse('./directory/file')
+
+    # Parsen aus einem String
+    >>> feed_dict = feedparser.parse("""<rss version="2.0">
+                                        <channel>
+                                        <title>Titel des Feeds</title>
+                                        </channel>
+                                        </rss>""")
+
+    
 Normalisierung der Feed-Inhalte
 -------------------------------
 
@@ -264,13 +289,14 @@ der Feed-Daten innerhalb von *gylfeed*. Es muss keine Rücksicht auf
 die unterschiedliche Benennung der XML-Elemente und auf den unterschiedlichen
 Aufbau der ursprünglichen Feed-Daten genommen werden.
 
-Für die gängigsten Elemente der Formate RSS 2.0 und Atom 1.0 sieht die
-Normalisation wie folgt aus:
+Beispielhaft für ausgewählte Elemente der Formate RSS 2.0 und Atom 1.0 sieht die
+Normalisierung wie folgt aus:
 
 .. figtable::
     :label: normalisierung
-    :caption: Normalisierung der Feed-Elemente.
-    :alt: Ratingverteilung der Stichprobe.
+    :caption: Normalisierte Feed-Elemente auf Seiten des Universal Feedparsers
+              mit den Entsprechungen für die Formate RSS 2.0 und Atom 1.0.
+    :alt: Normalisierte Feed-Elemente.
 
     +--------------------------+--------------------------+--------------------+
     | **Universal Feedparser** | **RSS 2.0**              | **Atom 1.0**       |
@@ -283,32 +309,73 @@ Normalisation wie folgt aus:
     +--------------------------+--------------------------+--------------------+
     | entries[i].summary       | channel/item/description | feed/entry/summary |
     +--------------------------+--------------------------+--------------------+
-    |                          |                          |                    |
+    | entries[i].author        | channel/item/author      | feed/entry/author  |
     +--------------------------+--------------------------+--------------------+
 
+Die normalisierten Feed-Daten werden als Dictionary, d.h. einer Datenstruktur bestehend 
+aus Schlüssel-Wert-Paaren, zur Verfügung gestellt.
 
+Folgendes Code-Beispiel einer bpython-Sitzung zeigt den Zugriff auf das Dictionary:
+  
+.. code-block:: python
 
+    # Zugriff auf den Wert des Schlüssels *title*
+    >>> feed_dict["feed"]["title"]
+    # Ausgabe: Titel des Feeds der Sueddeutschen Zeitung
+    "Alle Artikel - Nachrichten aus Politik, Wirtschaft und Sport"
 
+    #Zugriff auch über Punkt-Notation möglich
+    >>> feed_dict.entries[0].title
+    # Ausgabe: Titel des Eintrags an Stelle O der Liste aus Einträgen
+    "Trier: Tanja Gräff - keine Hinweise auf gewaltsamen Tod"
 
-Die normalisierten Feed-Daten werden als Dictionary d.h. einer Datenstruktur bestehend 
-aus Schlüssel-Wert-Paaren zur Verfügung gestellt.
+Wie im Code-Beispiel zu sehen ist, kann beim Zugriff auf das Dictionary die komfortable 
+Punkt-Notation verwendet werden.
 
-- Beispiel für Zugriff
-- Atom, RSS Feed, Entsprechung im Dictionary
-
-
-Die Funktion *parse*
---------------------
-
-Das Verarbeiten der Feed-Daten wird mit der Funktion *parse(source)* ausgeführt.
-Die Funktion erwartet entweder die URL des Feeds, den Pfad einer lokalen Datei
-oder die Feed-Daten als String.
 
 Umsetzung innerhalb von *gylfeed*
 =================================
+
+Die Verarbeitung der Feed-Daten innerhalb von *gylfeed* betrifft den in Abbildung XX
+farbig dargestellten Teil des Gesamtkonzepts. Es wird im Detail darauf eingegangen, wie der
+Universal Feedparser in *gylfeed* eingesetzt wird. Eine Beschreibung des Ablaufs
+der Verarbeitung soll im Anschluss einen Gesamteinblick in die Umsetzung der
+Feed-Daten-Verarbeitung geben.
+
+
+.. figure:: ./figs/verarbeitung.png
+    :alt: Die Verarbeitung der Feed-Daten innerhalb von gylfeed.
+    :width: 80%
+    :align: center
+    
+    Zuständiger Teil für die Verarbeitung der Feed-Daten innerhalb von gylfeed, farbig dargestellt.  
+
+
+Parsen mit *Universal Feedparser*
+---------------------------------
+
+Die Kernfunktionalität *parse* des Universal Feedparsers wurde bereits in
+Abschnitt XX vorgestellt. *gylfeed* verwendet die Variante des Parsens aus
+einem String.
+
+
+
+Ablauf der Verarbeitung der Feed-Daten
+--------------------------------------
+
+
+.. figure:: ./figs/sequenzverarbeitung.png
+    :alt: Der Ablauf der Verarbeitung der Feed-Daten innerhalb von gylfeed.
+    :width: 80%
+    :align: center
+    
+    Der Ablauf der Verarbeitung der Feed-Daten innerhalb von gylfeed.  
+
+
+
 
 - Prüfung auf fehlende Elemente noch unzureichend, bisher bozo?
 - Ausgehend vom Signal durch Document, wird geparst, danach Signal an
   Feedparser?, der reicht es weiter an die GUI
 - vl. Darstellung/Diagramm
-
+- Innerhalb gylfeed ist dieses Dictionary Teil eines jeden Feedobjekts.
