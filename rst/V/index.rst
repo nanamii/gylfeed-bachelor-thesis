@@ -363,6 +363,7 @@ einem String.
 Ablauf der Verarbeitung der Feed-Daten
 --------------------------------------
 
+.. _sequenzverarbeitung:
 
 .. figure:: ./figs/sequenzverarbeitung.png
     :alt: Der Ablauf der Verarbeitung der Feed-Daten innerhalb von gylfeed.
@@ -372,10 +373,30 @@ Ablauf der Verarbeitung der Feed-Daten
     Der Ablauf der Verarbeitung der Feed-Daten innerhalb von gylfeed.  
 
 
+    
+Abbildung :num:`sequenzverarbeitung` zeigt den Ablauf der Verarbeitung der
+Feed-Daten.
+Ausgehend von der Beschaffung der Feed-Daten wird durch das Signal
+*finish* die Verarbeitung der Feed-Daten angestoßen. Die asynchron
+heruntergeladenen Daten liegen dem Objekt *Feed* nun vollständig vor.
+Handelt es sich um den initialen Download der Feed-Daten bei der Erstellung
+eines neuen Feedobjekts innerhalb von *gylfeed*, wird die Funktion *parse(document)*
+aufgerufen. Ist eine Aktualisierung für ein bereits vorhandenes Feedobjekt
+durchzuführen, wird die Funktion *parse_update(document)* aufgerufen. In beiden
+Fällen enthält das
+übergebene *Document* die Feed-Daten als Byte-String. Handelt es sich um ein
+Update von Feed-Daten, wird zusätzlich die Funktion *compare_entries(feed_data)*
+ausgeführt. Bei beiden Varianten wird abschließend ein Signal an den Feedhandler
+emittiert. Dieser löst weitere Signale aus, um die Änderungen durch die
+grafische Benutzeroberfläche darstellen zu lassen.
 
+**Die Funktion parse(document):**  
+
+
+**Die Funktion parse_update(document):**
+
+
+**Die Funktion compare_entries(feed_data):** 
 
 - Prüfung auf fehlende Elemente noch unzureichend, bisher bozo?
-- Ausgehend vom Signal durch Document, wird geparst, danach Signal an
-  Feedparser?, der reicht es weiter an die GUI
-- vl. Darstellung/Diagramm
 - Innerhalb gylfeed ist dieses Dictionary Teil eines jeden Feedobjekts.
