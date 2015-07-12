@@ -278,7 +278,8 @@ oder die Feed-Daten als String.
                                         </channel>
                                         </rss>""")
 
-    
+.. _normalisierung:
+
 Normalisierung der Feed-Inhalte
 -------------------------------
 
@@ -351,6 +352,8 @@ Feed-Daten-Verarbeitung geben.
     Zuständiger Teil für die Verarbeitung der Feed-Daten innerhalb von gylfeed, farbig dargestellt.  
 
 
+.. _parsen:
+
 Parsen mit *Universal Feedparser*
 ---------------------------------
 
@@ -390,13 +393,67 @@ ausgeführt. Bei beiden Varianten wird abschließend ein Signal an den Feedhandl
 emittiert. Dieser löst weitere Signale aus, um die Änderungen durch die
 grafische Benutzeroberfläche darstellen zu lassen.
 
-**Die Funktion parse(document):**  
+**Die Funktion parse(document):** Führt die in Abschnitt :num:`parsen`
+erläuterte Funktion *parse (source)* des Universal Feedparsers aus. Das Ergebnis
+ist das bereits in Abschnitt :num:`normalisierung` vorgestellte Dictionary aus
+Feed-Daten. Konnte der Universal Feedparser aus irgend einem Grund die
+Feed-Daten nicht verarbeiten, enthält das Dictionary keine Daten. Deshalb wird
+vor dem Zugriff auf das Dictionary geprüft, ob darin Einträge vorhanden sind.
+Aktuell wird dazu eine Abfrage des Wertes *bozo* durchgeführt. Dieser Wert gibt
+an, ob der zu verarbeitende Feed wohlgeformtes XML enthält. Konnte ein Feed
+nicht verarbeitet werden, ist das bozo-Bit auf den Wert 1 gesetzt, d.h. nicht
+wohlgeformt. Diese
+Umsetzung ist noch nicht hinreichend optimal, weil es laut Universal Feedparser
+auch möglich ist, nicht wohlgeformtes XML zu parsen. In zukünftigen Versionen
+von *gylfeed* sollte das anders umgesetzt werden. VORSCHLAG, wie?
+Ergibt die Prüfung, dass das Parsen erfolgreich war, werden verschiedene
+initiale Werte für den betreffenden Feed gesetzt. Beispielsweise die Werte für
+gelesene bzw. ungelesene Nachrichten. Liefert ein Feed die Quelle für ein Icon, 
+wird es an dieser Stelle heruntergeladen. Ist der Download des Icons
+abgeschlossen oder es liegt keine Quelle für ein
+Icon vor, wird das Signal *created* an den Feedhandler emittiert.
 
 
-**Die Funktion parse_update(document):**
+**Die Funktion parse_update(document):** Wie bereits erwähnt, wird diese
+Funktion ausgeführt, um eine Aktualisierung für einen bereits bestehenden Feed
+innerhalb von *gylfeed* durchzuführen. Es wird ebenfalls die Funktion *parse
+(source)* des Universal Feedparsers ausgeführt. Die geparsten Feed-Daten werden
+anschließend der Funktion *compare_entries* übergeben, um neue von bereits
+vorhandenen Nachrichten zu trennen.
 
 
-**Die Funktion compare_entries(feed_data):** 
+**Die Funktion compare_entries(feed_data):** Die heruntergeladenen Feed-Daten
+enthalten neben neuen Nachrichten auch bereits vorhandene Nachrichten. Es muss
+geprüft werden, welche Nachrichten neu aufgenommen werden müssen. Das übernimmt
+die Funktion *compare_entries (feed_data)*. Dazu werden die Nachrichten der
+heruntergeladenen Feed-Daten anhand deren ID mit den bereits vorhandenen
+Nachrichten verglichen. Ist eine ID noch nicht vorhanden, wird die Nachricht zu
+den vorhandenen hinzugefügt. Die zum Vergleich verwendete ID ist laut dem
+Unviversal Feedparser ein global einzigartiger Identifikator. Häufig handelt es
+sich um die URL der Nachricht.
+
+
+- kurz erläutern, was macht Feedhandler mit geparsten Daten
+- Speicherung der Daten mit pickle, nur erwähnen, anschließend in Bewertung der
+  Umsetzung kritisch betrachten
+
+
+Kritische Betrachtung/Bewertung der Umsetzung
+---------------------------------------------
+
+Diskussionswürdig sind die zwei vorhandenen Stränge des Parsens. Sicherlich
+müssen beim initialen Parsen eines Feeds teils andere Aktionen ausgeführt
+werden, als beim Aktualisieren eines bereits vorhandenen Feeds. Trotzdem ist es
+vorallem aus Gründen der Wartbarkeit sinnvoll, das Parsen der Feed-Daten zentral
+an einer einzigen Stelle auszuführen und nur zusätzliche Aktionen abzweigen zu
+lassen.
+
+Vorhandene und neue Nachrichten werden innerhalb der Funktion *compare_entries*
+anhand deren ID verglichen. Hier wären sicherlich noch andere Ansätze denkbar,
+wie beispielsweise die Berechnung eines Hashwertes. Vorteil?
+
+
+
 
 - Prüfung auf fehlende Elemente noch unzureichend, bisher bozo?
 - Innerhalb gylfeed ist dieses Dictionary Teil eines jeden Feedobjekts.
