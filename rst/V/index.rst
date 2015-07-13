@@ -253,6 +253,9 @@ durch den Universal Feedparser völlig ausreichend.
 An dieser Stelle soll die zentrale Funktion *parse* des Universal Feedparsers
 vorgestellt werden. 
 
+
+.. _parseufp:
+
 Die Funktion *parse*
 --------------------
 
@@ -337,12 +340,20 @@ Punkt-Notation verwendet werden.
 Umsetzung innerhalb von *gylfeed*
 =================================
 
-Die Verarbeitung der Feed-Daten innerhalb von *gylfeed* betrifft den in Abbildung XX
-farbig dargestellten Teil des Gesamtkonzepts. Es wird im Detail darauf eingegangen, wie der
-Universal Feedparser in *gylfeed* eingesetzt wird. Eine Beschreibung des Ablaufs
-der Verarbeitung soll im Anschluss einen Gesamteinblick in die Umsetzung der
-Feed-Daten-Verarbeitung geben.
+Die Verarbeitung der Feed-Daten innerhalb von *gylfeed* betrifft den in
+Abbildung :num:`verarbeitungkonzept`
+farbig dargestellten Teil des Gesamtkonzepts. Die beteiligten Instanzen werden
+kurz vorgestellt.
 
+**Feedhandler:** Verwaltet die Gesamtheit der Feedobjekte. Stößt das globale
+Update für alle Feeds an. Schnittstelle zur grafischen Benutzeroberfläche. 
+Speichert und lädt Daten von Festplatte.
+
+**Feed:** Übernimmt innerhalb der Verarbeitung der Feed-Daten das Parsen und
+Weiterverarbeiten der Feed-Daten.
+
+
+.. _verarbeitungkonzept:
 
 .. figure:: ./figs/verarbeitung.png
     :alt: Die Verarbeitung der Feed-Daten innerhalb von gylfeed.
@@ -358,9 +369,24 @@ Parsen mit *Universal Feedparser*
 ---------------------------------
 
 Die Kernfunktionalität *parse* des Universal Feedparsers wurde bereits in
-Abschnitt XX vorgestellt. *gylfeed* verwendet die Variante des Parsens aus
+Abschnitt :ref:`parseufp` vorgestellt. *gylfeed* verwendet die Variante des Parsens aus
 einem String.
 
+Folgende Code-Zeile führt das Parsen aus:
+
+.. code-block:: python
+
+   self.raw_feed = feedparser.parse(document.data)
+    
+
+*document.data* enthält die heruntergeladenen Daten, die zu diesem Zeitpunkt
+noch unverarbeitet sind. In Anhang :ref:`document` ist der Inhalt von document.data am
+Beispiel des RSS 2.0 Feeds der Sueddeutschen Zeitung aufgeführt.
+
+Im Code-Beispiel enthält *raw_feed* die geparsten Daten in Form eines
+Dictionaries. Dieses Dictionary ist Bestandteil eines jeden Feedobjekts innerhalb von
+*gylfeed*. Der Inhalt des Dictionaries ist ebenfalls in Anhang :ref:`document`
+zu finden.
 
 
 Ablauf der Verarbeitung der Feed-Daten
@@ -434,12 +460,23 @@ sich um die URL der Nachricht.
 
 
 - kurz erläutern, was macht Feedhandler mit geparsten Daten
-- Speicherung der Daten mit pickle, nur erwähnen, anschließend in Bewertung der
-  Umsetzung kritisch betrachten
 
 
-Kritische Betrachtung/Bewertung der Umsetzung
----------------------------------------------
+Speicherung der Feed-Daten und Einstellungen
+--------------------------------------------
+
+Es müssen sämtliche Einstellungen, die der Benutzer getätigt hat
+und die Feed-Daten selbst gespeichert werden. Umgesetzt wird dies aktuell mit dem Python-Modul
+*pickle* (vgl. :cite:`pickle`).
+
+Das Python-Modul *pickle* speichert die Daten in einem Binärformat. 
+
+
+- Stellen an denen gespeichert wird nennen?
+
+  
+Bewertung der Umsetzung
+-----------------------
 
 Diskussionswürdig sind die zwei vorhandenen Stränge des Parsens. Sicherlich
 müssen beim initialen Parsen eines Feeds teils andere Aktionen ausgeführt
@@ -456,4 +493,3 @@ wie beispielsweise die Berechnung eines Hashwertes. Vorteil?
 
 
 - Prüfung auf fehlende Elemente noch unzureichend, bisher bozo?
-- Innerhalb gylfeed ist dieses Dictionary Teil eines jeden Feedobjekts.
