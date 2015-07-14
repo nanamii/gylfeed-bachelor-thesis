@@ -376,17 +376,19 @@ Folgende Code-Zeile führt das Parsen aus:
 
 .. code-block:: python
 
-   self.raw_feed = feedparser.parse(document.data)
+   raw_feed = feedparser.parse(document.data)
     
 
-*document.data* enthält die heruntergeladenen Daten, die zu diesem Zeitpunkt
-noch unverarbeitet sind. In Anhang :ref:`document` ist der Inhalt von document.data am
-Beispiel des RSS 2.0 Feeds der Sueddeutschen Zeitung aufgeführt.
+Mit *document.data* wird auf die heruntergeladenen Daten zugegriffen, die zu diesem Zeitpunkt
+noch unverarbeitet sind. In Anhang :ref:`document` ist der Inhalt von
+*document.data* am Beispiel des RSS 2.0 Feeds der Sueddeutschen Zeitung aufgeführt.
 
 Im Code-Beispiel enthält *raw_feed* die geparsten Daten in Form eines
 Dictionaries. Dieses Dictionary ist Bestandteil eines jeden Feedobjekts innerhalb von
 *gylfeed*. Der Inhalt des Dictionaries ist ebenfalls in Anhang :ref:`document`
 zu finden.
+
+- geparstet Dictionary in den Anhang
 
 
 Ablauf der Verarbeitung der Feed-Daten
@@ -469,10 +471,36 @@ Es müssen sämtliche Einstellungen, die der Benutzer getätigt hat
 und die Feed-Daten selbst gespeichert werden. Umgesetzt wird dies aktuell mit dem Python-Modul
 *pickle* (vgl. :cite:`pickle`).
 
-Das Python-Modul *pickle* speichert die Daten in einem Binärformat. 
+Das Python-Modul *pickle* speichert die Daten in einem Binärformat. Mark Pilgrim
+nennt in *Python 3 -- Intensivkurs* folgende Datentypen, die mit *pickle*
+gespeichert werden können:
 
 
-- Stellen an denen gespeichert wird nennen?
+    * Alle nativen Datentypen, die von Python unterstützt werden: Boolesche Werte, Ganzzahlen,
+      Fließkommazahlen, komplexe Zahlen, Strings, bytes-Objekte, Bytearrays und None.
+    * Listen, Tupel, Dictionarys und Sets, die eine Kombination der nativen Datentypen 
+      enthalten.
+    * Verschachtelung der genannten Datentypen.
+    * Funktionen, Klassen und Klasseninstanzen (mit Einschränkungen).
+
+ 
+Innerhalb von *gylfeed* wird für jeden Feed eine Liste gespeichert. Diese Liste
+enthält neben den reinen Feed-Daten ein Dictionary mit den Einstellungen und
+Eingaben des Benutzers.
+
+Folgender Code zeigt das Speichern der Daten mit *pickle*:
+      
+.. code-block:: python
+
+    def save_to_disk(self):
+        feeds = self.get_usual_feed_list()
+        try:
+            with open('feeds.pickle', 'wb') as fp:
+                pickle.dump([f.get_serializable_data() for f in feeds], fp)
+                print("Saving data to disk")
+        except IOError as ie:
+            print("Fail to save data {ie}".format(ie=ie))
+
 
   
 Bewertung der Umsetzung
@@ -489,6 +517,12 @@ Vorhandene und neue Nachrichten werden innerhalb der Funktion *compare_entries*
 anhand deren ID verglichen. Hier wären sicherlich noch andere Ansätze denkbar,
 wie beispielsweise die Berechnung eines Hashwertes. Vorteil?
 
+Die Speicherung der Daten mit dem Python-Modul *pickle* ist in der aktuellen
+Anwendung vertretbar. Wird in zukünftigen Versionen von *gylfeed* jedoch
+beabsichtigt, die gespeicherten Daten außerhalb von Python für andere
+Anwendugnen zur Verfügung zu stellen, wäre es beispielsweise sinnvoll eine
+Datenbank mit sqlite einzusetzen. Diese Umsetzung würde es auch
+ermöglichen, die Daten in menschenlesbarer Form zu speichern.
 
 
 

@@ -345,7 +345,7 @@ wird, werden die beteiligten Instanzen vorgestellt.
 
 .. figure:: ./figs/download.png
     :alt: Grundkonzept der Datenbeschaffung.
-    :width: 60%
+    :width: 80%
     :align: center
     
     Grundkonzept der Datenbeschaffung innerhalb von *gylfeed*. 
@@ -472,6 +472,9 @@ Header heruntergeladen und es wird eine Prüfung auf Übereinstimmung des bisher
 gespeicherten *last-modified* bzw. *ETag*-Wertes durchgeführt. Die Umstellung auf die
 komfortablere Variante, die Prüfung auf Seiten des Servers durchführen zu lassen, ist geplant.
 
+
+Bewertung der Umsetzung
+----------------------- 
 
 
 
