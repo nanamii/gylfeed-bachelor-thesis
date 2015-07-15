@@ -26,7 +26,7 @@ Verarbeitung der Feed-Daten und zieht dazu unter anderem Stichprobentests heran.
 
 
 Aufbau und Herangehensweise
-===========================
+=========================== 
 
 Anfangs wird ein kurzer Überblick zum Grundkonzepts des
 Feedreaders *gylfeed* gegeben, um die darauf folgenden tiefergehenden Erläuterungen
@@ -43,9 +43,9 @@ Attribute *ETag* und *last-modified* werden anhand einer Stichprobe auf die
 Häufigkeit ihres Vorkommens bei Feeds getestet.
 
 Das Kapitel *Verarbeitung der Feed-Daten* beginnt mit einer Analyse der
-Feed-Daten. Es wird anhand einer Stichprobe die Häufigkeit von verschiedenen
+Feed-Daten. Es wird anhand einer Stichprobe die Häufigkeit von ve rschiedenen
 Feedformaten untersucht. Eine weitere Untersuchung beschäftigt sich mit der
-Häufigkeit verschiedener Inhaltselemente der Feed-Daten. Der Unviersal
+Häufigkeit verschiedener Inhaltselemente der Feed-Daten. Der Universal
 Feedparser wird als Möglichkeit der Feed-Daten-Verarbeitung vorgestellt.
 Anschließend wird näher auf die Umsetzung innerhalb von *gylfeed* eingegangen,
 die abschließend bewertet wird.
