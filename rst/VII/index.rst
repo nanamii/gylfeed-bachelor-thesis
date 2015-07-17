@@ -74,7 +74,8 @@ schlechtesten Fall und eine zu erwartende Komplexität von :math:`O(n^{2})`.
 Alternativ soll der Damerau-Levenshtein Algorithmus betrachtet werden. Hierbei
 handelt es sich um ein Distanzmaß. Es werden die notwendigen Editiervorgänge
 gezählt, die es benötigt, um zwei übereinstimmende Zeichenketten zu erhalten.
-Editiervorgänge sind das Löschen, Ersetzen oder Einfügen von Zeichen.
+Editiervorgänge sind das Löschen, Ersetzen oder Einfügen von Zeichen (vgl.
+:cite:`bard2007spelling`).
 Zusätzlich erkennt der Algorithmus vertauschte Zeichen. Das unterscheidet den
 Damerau-Levenshtein Algorithmus vom reinen Levenshtein Algorithmus. Der
 Vergleich der Zeichenketten *grafik* und *graphik* ergibt eine Editierdistanz
@@ -136,7 +137,50 @@ Suche anzuraten.
 
 
 
-Einbindung von Datamining-Algorithmik
-=====================================
+Einbezug von Nutzer-Präferenzen
+===============================
 
+Anders als bei eMails kann der Empfänger von Feed-Nachrichten bestimmen,
+welche Feeds er lesen möchte. Trotzdem kann es ab einer relativ großen Menge an
+Feeds hilfreich sein, vorgeschlagen zu bekommen, welche Nachrichten von
+besonderem Interesse sein könnten.
+
+Es gibt verschiedene Möglichkeiten, die Präferenzen des Nutzers mit
+einzubeziehen. Der Nutzer könnte beispielsweise eine Stichwortliste mit
+bevorzugten Themen führen. Anhand dieser Liste würden neue Nachrichten als
+relevant oder weniger relevant eingestuft.
+
+Relevanz-Feedback durch den Nutzer ist eine weitere Möglichkeit, Informationen
+über die Präferenzen des Nutzers zu sammeln. Nach dem Lesen einer Nachricht
+würde der Nutzer seine persönliche Wertung abgeben. Das erfordert jedoch
+explizit Mitarbeit vom Nutzer und kann nicht implizit im Hintergrund ablaufen.
+
+Auch das bisherige Leseverhalten des Nutzers kann mit einbezogen werden. Aus den
+bisher gelesenen Nachrichten könnte ein Dokumenten-Korpus gebildet werden, der
+zum Vergleich mit neuen Nachrichten herangezogen wird.
+
+Um zu bewerten, ob der vorliegende Text dem bisherigen Leseverhalten und den
+Präferenzen des Nutzers entspricht, können sogenannte *Klassifikatoren* eingesetzt
+werden. Als Beispiel soll der *naive Bayes-Klassifikator*
+betrachtet werden. Dieser Klassifikator wird beispielsweise bei der
+Erkennung von *Spam* bei Emails eingesetzt. Thomas Runkler schreibt in *Data
+Mining: Methoden und Algorithmen intelligenter Datenanalyse*, ein naiver
+Bayes-Klassifikator ist ein wahrscheinlichkeitsbasiertes
+Klassifikationsverfahren, das auf dem Satz von Bayes basiert (vgl.
+:cite:`runkler2010data`). Der Satz von Bayes sieht wie folgt aus:
+
+.. math::
+
+    P(R|D) = \frac {P(D|R) * P(R)} {P(D)}
+
+
+In Python gibt es beispielsweise das Modul *TextBlob*, dass die Anwendung des
+naiven Bayes-Klassifikator unterstützt (vgl. :cite:`blob`).
+
+
+
+
+- zu beachten: Interessen können sich ändern, deshalb vielleicht wie im Paper
+  *A Hyprid User Model for News Story Classification* beschrieben, Hybrid aus Nearest Neighbor Algorithmus und
+  Bayes-Klassifikator
 
