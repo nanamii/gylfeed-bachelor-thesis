@@ -4,9 +4,8 @@ Weiterführende Konzepte
 
 Innerhalb der Projektarbeit *Entwurf und Implementierung eines Feedreaders*
 wurden bereits mögliche Verbesserungen und Erweiterungen für den Feedreader
-*gylfeed* vorgeschlagen. Im Folgenden wird die Suchfunktion, mögliche Einbidung
-von Datamining-Algorithmik und der automatische Namensvorschlag beim Hinzufügen
-eines neuen Feeds näher betrachtet.
+*gylfeed* vorgeschlagen. Im Folgenden wird die Suchfunktion und der Einbezug von
+Nutzer-Präferenzen näher betrachtet.
 
 
 
@@ -173,14 +172,90 @@ Klassifikationsverfahren, das auf dem Satz von Bayes basiert (vgl.
 
     P(R|D) = \frac {P(D|R) * P(R)} {P(D)}
 
+Es wird die Wahrscheinlichkeit *P* für die Relevanz *R* bezüglich eines
+gegebenen Dokuments *D* berechnet.
+
+Einen Klassifikator an sich beschreiben Dumais et. al. als Funktion, die einen
+gegebenen Vektor aus Attributen einer Wahrscheinlichekeit, dass diese Attribute
+zu einer bestimmten Klasse gehören, zuordnet (vgl. :cite:`dumais`). Attribute
+wären in diesem Fall die Worte innerhalb eines Dokuments, also einer
+Feed-Nachricht. Die Wahrscheinlichkeit, die ein Klassifakator berechnet, gibt
+demnach an, mit welcher Wahrscheinlichkeit das zu bewertende Dokument zu den
+Vergleichsdaten (einer Klasse) passt. Dazu benötigt es Trainingsdaten. Der
+Klassifikator lernt anhand dieser Trainigsdaten, welche Dokumente relavant und 
+welche weniger relevant sind. Im Fall von *gylfeed* könnten bereits gelesene
+Nachrichten als Trainigsdaten verwendet werden.
+
+Der Einsatz eines Klassifikators benötigt gerade bei der Auswahl der
+Trainigsdaten umfangreiche Tests und Anpassungen. Hier soll lediglich die
+grundsätzliche Idee dahinter vorgestellt werden.
 
 In Python gibt es beispielsweise das Modul *TextBlob*, dass die Anwendung des
-naiven Bayes-Klassifikator unterstützt (vgl. :cite:`blob`).
+naiven Bayes-Klassifikators unterstützt (vgl. :cite:`blob`). Folgender
+Beispiel-Code zeigt die Anwendung des Moduls.
+
+.. code-block:: python
+
+    from textblob.classifiers import NaiveBayesClassifier
+
+    train_data = [
+        ("Verschlüsselung, die neuen Trends","pos"),
+        ("Spionagesoftware: Hacking Team nutzt UEFI-Rootkit", "pos"),
+        ("Systemverschlüsselung: Yubikeys unter Linux nutzen", "pos"),
+        ("Aktuelles zu PGP Verschlüsselung", "pos"),
+        ("Festplatten-Verschlüsselung leicht gemacht", "pos"),
+        ("Frische Kuchen mit Früchten", "neg"),
+        ("Neueste Trends beim Backen", "neg"),
+        ("Backen als Hobby entdeckt", "neg"),
+        ("Kochen zur Entspannung", "neg"),
+    ]
+
+    test_data = [
+        ("Verschlüsselung für Anfänger"),
+        ("Entwicklung neuer Verschlüsselungs-Algorithmen"),
+        ("Linux-Community unterstützt Yubikey-Entwicklung"),
+        ("Die neuesten Kuchen des Sommers"),
+        ("Backen für jedermann"),
+        ("Kochen mit Begeisterung"),
+        ("Die besten Nudel-Rezepte"),
+    ]
+
+    nbc = NaiveBayesClassifier(train_data)
+
+    for data in test_data:
+        print(nbc.classify(data))
+
+    Ergebnis:
+    >> pos
+    >> pos
+    >> pos
+    >> neg
+    >> neg
+    >> neg
+    >> pos
+    
+
+Die Trainingsdaten werden im Code-Beispiel innerhalb der Liste *train_data*
+verwaltet. Dabei wird jedem Trainingsdatensatz eine Relevanz zugewiesen. Die
+Trainingsdatensätze sind in diesem Fall mögliche Beispiel-Nachrichten, die bei
+Relevanz mit *pos* und keiner Relevanz mit *neg* bewertet werden. Diese
+Trainingsdaten werden dem Modul *NaiveBayesClassifier* übergeben. Im nächsten
+Schritt werden dem Klassifikator Test-Nachrichten zum Klassifizieren übergeben.
+Anhand der Trainigsdaten könnte man unterstellen, dass eine gewisse Präferenz
+für Themen aus dem Bereich Verschlüsselung und kein Interesse für Kochen und Backen vorliegt.
+Betrachtet man das Ergebnis des Klassifikators, kann man feststellen, dass
+Themen betreffend Verschlüsselung als relevant und Themen, die Backen und Kochen
+betreffen, als nicht relevant klassifiziert wurden. Lediglich die letzte
+Test-Nachricht *Die besten Nudel-Rezepte* gehört zum Themenbereich Kochen und
+hätte somit als nicht relevant klassifiziert werden müssen. Anhand dem geringen
+Umfang der Testdaten konnte dies aber nicht erkannt werden.
 
 
+Die Präferenzen des Nutzers können sich im Laufe der Zeit ändern. Klassifikation
+mit dem naiven Bayes-Klassifikator benötigt viele Trainigsdaten und ist eher für eine
+längere Beobachtung der Nutzer-Präferenzen ausgelegt. Daniel Billsus und Michael
+J. Pazzani haben aus diesem Grund ein hybrides Modell aus Nearest Neighbor
+Algorithm für kurzzeitige Präferenzen und den naiven Bayes-Klassifikator für
+langfristige Präferenzen entwickelt (vgl. :cite:`hybrid`).
 
-
-- zu beachten: Interessen können sich ändern, deshalb vielleicht wie im Paper
-  *A Hyprid User Model for News Story Classification* beschrieben, Hybrid aus Nearest Neighbor Algorithmus und
-  Bayes-Klassifikator
 

@@ -43,18 +43,22 @@ Attribute *ETag* und *last-modified* werden anhand einer Stichprobe auf die
 Häufigkeit ihres Vorkommens bei Feeds getestet.
 
 Das Kapitel *Verarbeitung der Feed-Daten* beginnt mit einer Analyse der
-Feed-Daten. Es wird anhand einer Stichprobe die Häufigkeit von ve rschiedenen
+Feed-Daten. Es wird anhand einer Stichprobe die Häufigkeit von verschiedenen
 Feedformaten untersucht. Eine weitere Untersuchung beschäftigt sich mit der
 Häufigkeit verschiedener Inhaltselemente der Feed-Daten. Der Universal
-Feedparser wird als Möglichkeit der Feed-Daten-Verarbeitung vorgestellt.
-Anschließend wird näher auf die Umsetzung innerhalb von *gylfeed* eingegangen,
-die abschließend bewertet wird.
+Feedparser wird als Möglichkeit zur Feed-Daten-Verarbeitung vorgestellt.
+Anschließend wird näher auf die Umsetzung innerhalb von *gylfeed* eingegangen.
+Die Umsetzung wird abschließend bewertet.
+
+In Kapitel *Weiterführende Konzepte* wird der Ausbau der Suchfunktion und der
+Einbezug von Nutzer-Präferenzen betrachtet.
 
 
+Trivia
+======
+
+Der Performance-Test für die Download-Geschwindigkeit bei synchronem und
+asynchronem Download der Feed-Daten wurde auf folgendem System durchgeführt:
 
 
-
-
-Zielgruppe
-==========
 
