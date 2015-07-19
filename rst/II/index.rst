@@ -15,14 +15,15 @@ Entstehung und Motivation
 Der Feedreader *gylfeed* ist eine Desktopanwendung, die es ermöglicht, Newsfeeds
 zu abonnieren und zu verwalten. Entwickelt wurde dieser Feedreader
 innerhalb der Projektarbeit *Entwurf und Implementierung eines Feedreaders*
-(vgl. :cite:`SKP`). Innerhalb der Projektarbeit wurden die Anforderungen an den
+(vgl. :cite:`kiessling`). Innerhalb der Projektarbeit wurden die Anforderungen an den
 Feedreader definiert, ein Entwurf der Softwarearchitektur, sowie ein Entwurf der
 grafischen Benutzeroberfläche erstellt. Anschließend erfolgte die
 Implementierung der Entwürfe.
 
 Eine Analyse der bestehenden Feedreader hat ergeben, dass sich ein Großteil der
-Feedreader dem klassischen Design eines Mailclients bedienen (vgl. :cite:
-bestimmte Stelle). Die Motivation für den Entwurf und die Umsetzung von
+Feedreader dem klassischen Design eines Mailclients bedienen (vgl.
+:cite:`kiessling`
+S.9). Die Motivation für den Entwurf und die Umsetzung von
 *gylfeed* bestand darin, einerseits eine alternative Lösung für den
 Aufbau der grafischen Benutzeroberfläche zu entwickeln und andererseits eine
 komfortable Bedienung anzubieten.
@@ -33,7 +34,7 @@ Leistungsumfang
 
 Zusammengefasst bietet der Feedreader *gylfeed* folgende Funktionalitäten:
 
- * Verwaltung von Feeds: Hinzufügen, ändern, löschen eines Feeds.
+ * Verwaltung von Feeds: Hinzufügen, Ändern, Löschen eines Feeds.
  * Optionen für Feeds: Update-Intervall, Notifications, Automatisches Löschen
    von Entries nach X Tagen.
  * Update von Feeds: Manuelles Update, automatisches Update.
@@ -55,7 +56,7 @@ Für die grafische Benutzeroberfläche wurden folgende Anforderungen umgesetzt:
 
 Eine ausführlichere Beschreibung der Funktionalitäten und Anforderungen an die
 grafische Benutzeroberfläche ist in der
-Projektarbeit in Kapitel *Anforderungen an gylfeed* XXXX zu finden.
+Projektarbeit in Kapitel *4 -- Anforderungen an die Software* zu finden.
  
 Implementierung
 ===============
@@ -109,8 +110,8 @@ Dieser Auftrag wird an den Downloader weitergegeben. Dieser lädt die angefragte
 Daten über das Web herunter (2). An dieser Stelle ist anzumerken, dass hier nicht
 immer die kompletten Daten des Feeds heruntergeladen werden. Lässt es
 die Struktur des betreffenden Feeds zu, wird nur dann ein kompletter Download
-der Daten des Feeds durchgeführt, wenn sich dieser tatsächlich geändert hat.
-Näheres hierzu wird in Kapitel XX betrachtet.
+der Daten des Feeds durchgeführt, wenn sich diese tatsächlich geändert haben.
+Näheres hierzu wird in Abschnitt :ref:`etagtest` betrachtet.
 
 
 Im nächsten Schritt empfängt der Downloader die Daten aus dem Web (3). 
@@ -136,8 +137,8 @@ Daten beim Start der Software.
 
 Die Benutzeroberfläche kommuniziert Eingaben des Benutzers unter der Verwendung von
 Signalen an die jeweilige logische Einheit. Die Theoretischen Grundlagen zu
-Signalen und die Verwendung von Signalen innerhalb *gylfeed* wird in Kapitel XX
-betrachtet. 
+Signalen und die Verwendung von Signalen innerhalb *gylfeed* wird in Kapitel
+:ref:`signal_kommunikation`-- Kommunikation über Signale betrachtet. 
 
 
 Die grafische Benutzeroberfläche

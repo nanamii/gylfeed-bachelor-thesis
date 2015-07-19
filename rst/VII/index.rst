@@ -14,7 +14,7 @@ Ausbau der Suchfunktion
 
 In der aktuellen Version von *gylfeed* wird eine lineare Suche angewendet. Es
 ist möglich nach einem Feed oder dem Titel einer Nachricht zu suchen. Abbildung
-:cite:`suchleiste` zeigt die implementierte Suchfunktion. Der Suchbegriff
+:num:`suchleiste` zeigt die implementierte Suchfunktion. Der Suchbegriff
 *software* ist in drei der durchsuchten Nachrichten-Titeln enthalten. Wie die
 Suchergebnisse zeigen, wird der Suchbegriff sowohl in Groß- als auch in
 Kleinschreibung gefunden. Bevor zwischen Suchanfrage und Datenbestand aus
@@ -86,7 +86,7 @@ vergleichen zu können, gibt es die normalisierte Damerau-Levenshtein-Distanz.
 Der Damerau-Levenshtein Algorithmus hat eine Komplexität von :math:`O(nm)`, mit m und n
 als jeweilige Länge der Zeichenketten.
 
-Für beide Algorithmen gibt es eine Implementierung in python. Die folgende
+Für beide Algorithmen gibt es eine Implementierung in Python. Die folgende
 *bpython*-Sitzung zeigt die Ausfürhung der Algorithmen.
 
 .. code-block:: python
@@ -131,7 +131,7 @@ aufgrund der geringeren Laufzeit-Komplexität einen Performance-Vorteil.
 
 Bei relativ großen Datenmengen ist die Laufzeit-Komplexität des
 Damerau-Levenshtein Algorithmus von  :math:`O(nm)`, dennoch als problematisch
-anzusehen. Hier wären alternative Suchstrategien, wie beispielsweise die binäre
+anzusehen. Hier wären ergänzende Suchstrategien, wie beispielsweise die binäre
 Suche anzuraten.
 
 
@@ -139,7 +139,7 @@ Suche anzuraten.
 Einbezug von Nutzer-Präferenzen
 ===============================
 
-Anders als bei eMails kann der Empfänger von Feed-Nachrichten bestimmen,
+Anders als bei E-Mails kann der Empfänger von Feed-Nachrichten bestimmen,
 welche Feeds er lesen möchte. Trotzdem kann es ab einer relativ großen Menge an
 Feeds hilfreich sein, vorgeschlagen zu bekommen, welche Nachrichten von
 besonderem Interesse sein könnten.
@@ -155,14 +155,15 @@ würde der Nutzer seine persönliche Wertung abgeben. Das erfordert jedoch
 explizit Mitarbeit vom Nutzer und kann nicht implizit im Hintergrund ablaufen.
 
 Auch das bisherige Leseverhalten des Nutzers kann mit einbezogen werden. Aus den
-bisher gelesenen Nachrichten könnte ein Dokumenten-Korpus gebildet werden, der
+bisher gelesenen Nachrichten könnte eine Dokumenten-Kollektion gebildet werden,
+die
 zum Vergleich mit neuen Nachrichten herangezogen wird.
 
 Um zu bewerten, ob der vorliegende Text dem bisherigen Leseverhalten und den
 Präferenzen des Nutzers entspricht, können sogenannte *Klassifikatoren* eingesetzt
 werden. Als Beispiel soll der *naive Bayes-Klassifikator*
 betrachtet werden. Dieser Klassifikator wird beispielsweise bei der
-Erkennung von *Spam* bei Emails eingesetzt. Thomas Runkler schreibt in *Data
+Erkennung von *Spam* bMi E-Mails eingesetzt. Thomas Runkler schreibt in *Data
 Mining: Methoden und Algorithmen intelligenter Datenanalyse*, ein naiver
 Bayes-Klassifikator ist ein wahrscheinlichkeitsbasiertes
 Klassifikationsverfahren, das auf dem Satz von Bayes basiert (vgl.

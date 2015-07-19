@@ -25,9 +25,10 @@ führen. Auf diese Probleme wird an späterer Stelle eingegangen.
 
 Als Analysewerkzeug wurde der Universal Feedparser verwendet. In Abschnitt
 :ref:`feedparser` wird dieser Feedparser näher vorgestellt. Für beide Tests 
-wurde die bereits in KAPITEL IV verwendete Testmenge von 6.203 Feeds genutzt.
+wurde die bereits in Kapitel :ref:`beschaffung` verwendete Testmenge von 6.203 Feeds genutzt.
 
 
+.. _testfeedformate:
 
 Feedformate
 -----------
@@ -102,7 +103,7 @@ Elemente fehlen können.
 
 Als Beispiel soll das Format RSS 2.0 betrachtet werden.
 Für das in der Stichprobe am häufigsten vorkommende Format RSS 2.0 sind lediglich die
-Elemente *title*, *link* und *description* bezogen auf den Feed selbst(channel) zwingend
+Elemente *title*, *link* und *description* bezogen auf den Feed selbst (channel) zwingend
 erforderlich. Die Elemente der einzelnen Einträge (items) sind alle optional.
 In der Spezifikation wird darauf hingewiesen, dass für einen Eintrag 
 mindestens eines der Elemente *title* oder *description* vorhanden sein
@@ -137,34 +138,18 @@ muss (vgl. :cite:`rssrequests` -- Spezifikation von RSS 2.0).
     </rss>
 
 
-- nur ein Ausschnitt aller Elemente, vollständige Liste im Anhang?
-
-
-- Nicht alle Elemente sind Pflicht
-- Selbst die Pflicht-Attribute können fehlen.
-
-
--- Für die Verarbeitung dieser Daten durch den Feedreader bedeutet dies, dass
-  mit fehlenden Attributen gerechnet werden muss.
+Das Beispiel des RSS 2.0 Feeds stellt nur einen Ausschnitt der möglichen
+Elemente dar. Die vollständige Liste der Elemente ist in der Spezifikation von
+RSS 2.0 abrufbar (vgl. :cite:`rssrequests`).
 
 
 Inwiefern fehlende Elemente bei der Umsetzung eines Feedreaders von Bedeutung sind,
 soll anhand einer Stichprobe untersucht werden. Dabei wird davon ausgegangen,
-dass der *Titel*, der *Plot*, das *Datum* und der *Autor* eines Eintrags (items) vom
+dass der *Titel (title)*, der *Plot (description)*, das *Datum (date)* und der
+*Autor (author)* eines Eintrags (items) vom
 Feedreader benötigt werden. Die Stichprobe soll auf diese vier Elemente
 getestet werden.
 
-
-'id': 4345, 
-'title': 4478,
-'icon': 40, 
-'image': 1129, 
-'author': 3632, 
-'logo': 70, 
-'link': 4500, 
-'counter': 5092, 
-'summary': 4442,
-'updated_parsed': 4409
 
 .. figtable::
     :label: elemente-statistics
@@ -235,17 +220,20 @@ Der Universal Feedparser
 
 Innerhalb von *gylfeed* wird die Verarbeitung der Feed-Daten mit dem Universal
 Feedparser durchgeführt. Der Universal Feedparser ist ein Python-Modul zum
-Herunterladen, sowie Verarbeiten von Feed-Daten. Aufgrund der in Kapitel XX
+Herunterladen, sowie Verarbeiten von Feed-Daten. Aufgrund der in Abschnitt
+:ref:`performancetest`
 erläuterten Performance-Nachteile wird der Universal Feedparser lediglich zum
 Verarbeiten der Feed-Daten eingesetzt.
 
 Der Universal Feedparser liegt aktuell in der Version 5.2.0 vor und wird von
-Kurt McKee entwickelt (vgl. Github Repository). Es können sämtliche RSS 0.9x
-Formate, RSS 1.0, RSS 2.0, Atom 0.3 und Atom 1.0, sowie das Format CDF (...) 
+Kurt McKee entwickelt (vgl. :cite:`mckee` -- Github-Repository). Es können sämtliche RSS 0.9x
+Formate, RSS 1.0, RSS 2.0, Atom 0.3 und Atom 1.0, sowie das Format CDF (Common
+Data Format) 
 verarbeitet werden.
 
-Wie die Analyse zu den Häufigkeiten der Feedformate ergeben hat (siehe...),
-können mit dem Universal Feedparser die am häufigsten eingesetzten Feedformate
+Wie die Analyse zu den Häufigkeiten der Feedformate ergeben hat (siehe
+:ref:`testfeedformate`),
+können mit dem Universal Feedparser somit die am häufigsten eingesetzten Feedformate
 verarbeitet werden. Da der Feedreader *gylfeed* hinsichtlich der zu
 verarbeitenden Feedformate keine Vollständigkeit anstrebt, ist die Abdeckung
 durch den Universal Feedparser völlig ausreichend.

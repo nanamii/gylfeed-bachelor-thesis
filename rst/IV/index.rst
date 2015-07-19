@@ -6,9 +6,10 @@ Beschaffung der Feed-Daten
 **************************
 
 Bevor es zur Verarbeitung und der Anzeige der Feed-Daten kommt, müssen diese
-Daten beschafft werden. Worum es sich bei diesen Daten genauer handelt und auf
-welche Weise diese Daten beschafft werden können, wird innerhalb diese
-Kapitels näher betrachtet.
+Daten beschafft werden. Es werden daraus entstehende Problemstellungen
+vorgestellt und Lösungsvorschläge diskutiert. Stichprobentests sollen die
+theoretisch erläuterten Lösungen überprüfen. Die Umsetzung der
+Feed-Daten-Beschaffung innerhalb von *gylfeed* wird vorgestellt und bewertet.
 
 
 Ausgangssituation und Problemstellungen
@@ -52,7 +53,7 @@ Verarbeitung der nächsten Aufgabe begonnen. Bei einer großen Anzahl an Feeds,
 für die ein Download der Daten erfolgen soll, kann während der Beschaffung der
 Daten
 nichts anderes ausgeführt werden. Die Anwendung ist in diesem Moment
-aussschließlich mit dem Download der Feed-Daten beschäftigt. Das bedeutet, dass
+ausschließlich mit dem Download der Feed-Daten beschäftigt. Das bedeutet, dass
 sich in dieser Zeit weder die grafische Benutzeroberfläche aktualisieren kann,
 noch Benutzereingaben vorgenommen werden können. Für den Benutzer der Anwendung
 ist das wenig erfreulich, er bekommt den Eindruck, dass die Anwendung nicht
@@ -70,14 +71,6 @@ Clients würde eventuell festgestellt, dass keine Aktualisierung vorliegt. Diese
 beansprucht zusätzlich unnötige Rechenkapazität.
 
 
-Fehlerbehandlung
-----------------
-
-Beim Download der Feed-Daten können verschiedenste Fehler auftreten. Beispielsweise
-ist die URL nicht erreichbar oder der Download wird unterbrochen.
-
-
-
 
 Lösungsansätze
 ==============
@@ -85,6 +78,8 @@ Lösungsansätze
 Für die genannten Problemstellungen werden im Folgenden Lösungsanzätze
 diskutiert.
 
+
+.. _performancetest:
 
 Synchroner im Vergleich mit asynchronem Ansatz
 ----------------------------------------------
@@ -176,11 +171,13 @@ Ansatzes...
     jeweils 10 Durchfläufen gebildet.
 
 
+.. _etagtest:
+
 Prüfung auf Änderungen der Feed-Daten 
 -------------------------------------
 
 Um zu vermeiden, dass Feed-Daten heruntergeladen werden, die keine
-Aktualisierungen enthalten, sind die Attribute *etag* und *lastmodified*
+Aktualisierungen enthalten, sind die Attribute *ETag* und *last-modified*
 hilfreich. In diesem Zusammenhang soll vorerst der Hintergrund dieser Attribute
 geklärt werden. 
 
@@ -191,7 +188,7 @@ eine Antwort. Mit der Methode *GET* stellt der Client die Anfrage, die hinter
 der Quelle befindlichen Daten zu senden. Will man lediglich Informationen
 zur Quelle und nicht sofort die dazugehörigen Daten mitgeliefert bekommen, ist
 die Methode *HEAD* zu verwenden. In diesem Fall liefert der Server den *Header*
-der Quelle. Dieser sogenannte *Header* enthält die Attribute *etag* und
+der Quelle. Dieser sogenannte *Header* enthält die Attribute *ETag* und
 *last-modified*. Anhand dieser Attribute kann festgestellt werden, ob sich der Inhalt der Quelle
 aktualisiert hat.
 
@@ -216,9 +213,10 @@ Beispiel eines HTTP-Headers -- der Atom-Feed von *golem*:
 
 Der Header beginnt mit dem Status-Code 200. d.h. die Anfrage war erfolgreich.
 Neben Attributen, wie *date* und *content-type* enthält dieser Header auch die
-bereits erwähnten Attribute *last-modified* und *etag*.
+bereits erwähnten Attribute *last-modified* und *ETag*.
 
-**last-modified**: Gourley und Totty beschreiben in *HTTP -- The definite Guide* 
+**last-modified**: Gourley und Totty beschreiben in *HTTP -- The definite Guide*
+(vgl. :cite:`gourley`, S.73)
 *last-modified* als Attribut, das angibt, zu welchem Zeitpunkt die Entität das letzte Mal geändert wurde.
 Im Kontext von Feeds, ist unter Entität die XML-Datei auf dem Webserver zu
 verstehen. Bei einer erneuten Anfrage kann das Datum der letzten Änderung dazu
@@ -229,7 +227,8 @@ Server den Status-Code 304, liegt keine Änderung der Daten vor.
 
 
 **ETag**: Der *Entity Tag* ist ein eindeutiger Validator einer bestimmten
-Instanz einer Entität. So beschreiben Gourley und Totty das Attribut *ETag*.
+Instanz einer Entität. So beschreiben Gourley und Totty das Attribut *ETag*
+(vgl. :cite:`gourley`, S.367).
 Hinter dem ETag verbirgt sich ein Hashwert, der vom Server beliebig bestimmt
 werden kann. Ändern sich die Daten der Entität, muss ein anderer Hashwert
 bestimmt werden. Vergleichbar mit dem Vorgehen beim Attribut *last-modified*
@@ -313,7 +312,7 @@ Umsetzung in *gylfeed*
 
 Die Herausforderungen, die sich bei der Beschaffung der Feed-Daten ergeben, wurden
 erläutert und mögliche Lösungsansätze vorgestellt. Nun wird betrachtet, wie die
-Beschaffung der Feed-Daten in *gylfeed* umgestezt wurde.
+Beschaffung der Feed-Daten in *gylfeed* umgesetzt wurde.
 
 
 Asynchroner Download mit libsoup
@@ -328,10 +327,8 @@ erläuterten Performance-Problemen kam, wurde der Download daraufhin asynchron u
 Die Bibliothek *libsoup* wurde aufgrund folgender Eigenschaften gewählt:
 
  * bietet asynchrone API
- * zugeschnitten auf GNOME Anwendungen
-   Passend für *gylfeed*...
- * nutzt GObject und Glib-Main-Loop:
-   Basierend auf dem Glib-Main-Loop und der Verwendung von Callback-Methoden
+ * zugeschnitten auf GNOME Anwendungen, wie *gylfeed* eine ist
+ * nutzt GObject und GLib-Main-Loop, wie auch bereits *gylfeed*
 
 
 Ablauf des Downloads
@@ -348,7 +345,8 @@ wird, werden die beteiligten Instanzen vorgestellt.
     :width: 80%
     :align: center
     
-    Grundkonzept der Datenbeschaffung innerhalb von *gylfeed*. 
+    Grundkonzept der Datenbeschaffung innerhalb von *gylfeed*, farbig
+    dargestellt. 
 
 **Feed:** Die Klasse *Feed* beauftragt den Download und erwartet eine Instanz
 der Klasse *Document*. Dieses *Document* enthält die Feed-Daten, die
@@ -463,8 +461,7 @@ es liegt keine Änderung vor. In diesem Fall wird kein Inhalt gesendet.
 
 Für das Attribut *ETag* erfolgt der Vorgang in der gleichen Weise, mit dem
 Unterschied, dass der Anfrage-Header aus dem Attribut *if-none-match* und dem
-*ETag* als Wert besteht. Ein Beispiel für die Anwendung des Attributs *ETag* ist
-im Anhang XXXXXXXXX zu finden.
+*ETag* als Wert besteht. 
 
 In der aktuellen Version von *gylfeed* wird die Prüfung auf Änderung der
 Feed-Daten auf der Client-Seite ausgeführt. Für die entsprechende URL wird der

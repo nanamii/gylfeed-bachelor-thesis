@@ -1,15 +1,15 @@
-.. _signale:
+.. _signal_kommunikation:
 
 **************************
 Kommunikation über Signale
 **************************
 
+
 Signale werden innerhalb von *gylfeed* einerseits verwendet, um Interaktionen vom Benutzer
 zu erkennen und weiterzuleiten. Andererseits werden Signale für interne Abläufe
 verwendet. An dieser Stelle sollen die Hintergründe und theoretischen Grundlagen zu
 Signalen näher betrachtet und die Anwendung innerhalb von *gylfeed* erläutert
-werden. --Hier, weil später immer wieder Konstrukte auftauchen, in denen Signale
-involviert sind. --
+werden.
 
 
 GTK+ als Grundlage
@@ -41,19 +41,9 @@ Benutzeroberfläche, das die Interaktion zwischen Benutzer und Software ermögli
 beispielsweise Buttons, Eingabefelder, Fortschrittsbalken oder ein einfaches
 Label. Eine Übersicht dieser Widgets ist in der Online-Dokumentation von GTK+ zu
 finden (vgl. :cite:`widgets` -- Widget-Gallerie von GTK+). Diese Widgets sind in
-einer Hierarchie organisiert. In Abbildung :num:`widgethierarchie` ist
-beispielhaft die Hierarchie bis zum Widget *Button* dargestellt. Die Hierarchie
-aller Widgets ist unter :cite:`widgetsall` abrufbar. --> vl. in den Anhang?!!!???
+einer Hierarchie organisiert. Die Hierarchie
+aller Widgets ist unter :cite:`widgetsall` abrufbar.
 
-
-.. _widgethierarchie:
-
-.. figure:: ./figs/widgethierarchie.png
-    :alt: Die Hierarchie der Widgets innerhalb GTK+ am Beispiel von Gtk.Button.
-    :width: 50%
-    :align: center
-    
-    Die Hierarchie der Widgets innerhalb GTK+ am Beispiel von Gtk.Button.
 
 
 
@@ -100,9 +90,6 @@ es wird gewartet, bis das nächste Event auftritt.
 Signale verwenden
 =================
 
-Im Folgenden wird die Verwendung von Signalen anhand von Beispielen näher
-betrachet. 
-
 Widgets wie beispielsweise *Gtk.Button* bieten bereits Signale an, mit denen das
 jeweilige Widget verbunden werden kann. Außerdem bietet GTK+ die Möglichkeit,
 eigene Signale zu definieren. Beide Varianten werden nun näher betrachtet.
@@ -117,7 +104,7 @@ under anderem folgende Signale angeboten:
  * *activate*
  * *clicked*
 
-Folgendes Codebeispiel zeigt das Verbinden mit dem Signal *clicked* und die
+Folgendes Code-Beispiel zeigt das Verbinden mit dem Signal *clicked* und die
 Hinterlegung der Callback-Funktion:
 
 .. code-block:: python
@@ -139,6 +126,20 @@ Hinterlegung der Callback-Funktion:
     Gtk.main()                                  # Gtk Main-Loop
 
 
+Das Code-Beispiel zeigt, dass es nur wenige Code-Zeilen benötigt, die
+vorhandenen Signale
+von Widgets zu nutzen.
+
+.. _widgethierarchie:
+
+.. figure:: ./figs/widgethierarchie.png
+    :alt: Die Hierarchie von GObject bis GtkButton.
+    :width: 50%
+    :align: center
+    
+    Die Hierarchie von GObject bis GtkButton.
+
+
 
 Eigene Signale
 --------------
@@ -146,7 +147,7 @@ Eigene Signale
 
 Wie bereits erwähnt können nicht nur bereits vorhandene Signale verwendet werden. 
 Die Definition eigener Signale ist möglich. Hierzu ist es notwendig, dass die Instanz, die ein
-Signal anbieten möchte, von GObject.Object ableitet. Im Falle des *Gtk.Button*
+Signal anbieten möchte, von GObject.GObject ableitet. Im Falle des *Gtk.Button*
 ist dies bereits aufgrund der vorliegenden Hierarchie gegeben (siehe Abbildung
 :num:`widgethierarchie`). Für die Definition von eigenen Signalen muss die
 Ableitung von GObject.GObject nachgeholt werden.
@@ -185,7 +186,6 @@ wird und Definition der Callback-Funktion sieht folgendermaßen aus:
 
         def __init__(self):
             Gobject.GObject.__init__(self)
-
             self.sum = 0
 
     def update_sum(self, num):
@@ -240,8 +240,10 @@ Aktionen auszuführen.
  +  **created:** Wird emittiert, sobald eine Instanz von Feed erstellt wurde.
     Callback-Funktionen: self_create_feed_deferred() -- in Feedhandler 
  +  **updated:** Wird emittiert, sobald ein Update abgeschlossen ist.
-    Calback-Funktionen: self.sig_feed_updated() -- in Feedhandler
-                       self.redraw_num_labels() -- in FeedView
+    Calback-Funktionen: 
+    
+    - self.sig_feed_updated() -- in Feedhandler
+    - self.redraw_num_labels() -- in FeedView
 
 
 **Feedhandler**: Die Klasse *Feedhandler* bietet die Signale *feed-created*,
