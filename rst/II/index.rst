@@ -34,15 +34,13 @@ Leistungsumfang
 
 Zusammengefasst bietet der Feedreader *gylfeed* folgende Funktionalitäten:
 
- * Verwaltung von Feeds: Hinzufügen, Ändern, Löschen eines Feeds.
- * Optionen für Feeds: Update-Intervall, Notifications, Automatisches Löschen
+ * Verwaltung von Feeds: Hinzufügen, Ändern und Löschen eines Feeds.
+ * Optionen für Feeds: Update-Intervall, Notifications und automatisches Löschen
    von Entries nach X Tagen.
- * Update von Feeds: Manuelles Update, automatisches Update.
- * Suche nach Inhalten
+ * Update von Feeds: Manuelles und automatisches Update.
+ * Suche nach Feeds und Nachrichten-Titeln
  * Eingebetteter Webbrowser
- * Bedienkonzept: Navigation mit Tastatur, Einbindung von Shortcuts.
- * Bereitstellung sämtlicher Daten für die Darstellung auf der grafischen
-   Benutzeroberfläche.
+ * Bedienkonzept: Navigation mit Tastatur und Einbindung von Shortcuts.
 
 
 Für die grafische Benutzeroberfläche wurden folgende Anforderungen umgesetzt:
@@ -51,7 +49,7 @@ Für die grafische Benutzeroberfläche wurden folgende Anforderungen umgesetzt:
  * Minimalistisches Design
  * Kompaktheit
  * Innovatives Navigationskonzept
- * Ausreichend Feedback geben
+ * Ausreichend Feedback an den Nutzer geben
  * Darstellung der Funktionalitäten
 
 Eine ausführlichere Beschreibung der Funktionalitäten und Anforderungen an die
@@ -62,7 +60,7 @@ Implementierung
 ===============
 
 Die Umsetzung von *gylfeed* erfolgte mit der Programmiersprache Python in der
-Version 3.3. Die grafische Benutzeroberfläche wurde mit GTK3, dem Gimp Toolkit,
+Version 3.3. Die grafische Benutzeroberfläche wurde mit GTK3, dem GIMP Toolkit,
 umgesetzt.
 
 Es wurden die in Abbildung :num:`klassendiagramm` dargestellten Klassen
@@ -107,7 +105,7 @@ verwendet, um mit der Beschreibung des Diagramms zu beginnen.
 
 Es wird angenommen, im Objekt Feed wird gefordert ein Update durchzuführen (1).
 Dieser Auftrag wird an den Downloader weitergegeben. Dieser lädt die angefragten
-Daten über das Web herunter (2). An dieser Stelle ist anzumerken, dass hier nicht
+Daten aus dem Web herunter (2). An dieser Stelle ist anzumerken, dass hier nicht
 immer die kompletten Daten des Feeds heruntergeladen werden. Lässt es
 die Struktur des betreffenden Feeds zu, wird nur dann ein kompletter Download
 der Daten des Feeds durchgeführt, wenn sich diese tatsächlich geändert haben.
@@ -121,7 +119,6 @@ Verarbeitung gegeben (5). Das Weiterverarbeiten im Feed wird dadurch ausgelöst,
 indem sich der Feed auf ein Signal von der Instanz Document registriert. Sobald
 das Document komplett heruntergeladen ist, wird das entsprechende Signal
 ausgelöst und die im Document enthaltenen Daten werden im Feed geparst (6).
-Signale werden im Anschluss an die Beschreibung der Abbildung näher erläutert.
 
 Der Feed kommuniziert an den Feedhandler, dass er sich aktualisiert hat. Der
 Feedhandler reicht das Signal an die Benutzeroberfläche weiter. Die Änderungen
@@ -136,9 +133,9 @@ Feedhandlers ist die persistente Speicherung der Daten, sowie das Laden dieser
 Daten beim Start der Software.
 
 Die Benutzeroberfläche kommuniziert Eingaben des Benutzers unter der Verwendung von
-Signalen an die jeweilige logische Einheit. Die Theoretischen Grundlagen zu
+Signalen an die jeweilige logische Einheit. Die theoretischen Grundlagen zu
 Signalen und die Verwendung von Signalen innerhalb *gylfeed* wird in Kapitel
-:ref:`signal_kommunikation`-- Kommunikation über Signale betrachtet. 
+:ref:`signal_kommunikation` -- Kommunikation über Signale betrachtet. 
 
 
 Die grafische Benutzeroberfläche

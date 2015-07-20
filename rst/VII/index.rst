@@ -1,3 +1,5 @@
+.. _weiterfuehrendekonzepte:
+
 ***********************
 Weiterführende Konzepte
 ***********************
@@ -12,7 +14,7 @@ Nutzer-Präferenzen näher betrachtet.
 Ausbau der Suchfunktion
 =======================
 
-In der aktuellen Version von *gylfeed* wird eine lineare Suche angewendet. Es
+In der aktuellen Version von *gylfeed* wird eine lineare Suche angewandt. Es
 ist möglich nach einem Feed oder dem Titel einer Nachricht zu suchen. Abbildung
 :num:`suchleiste` zeigt die implementierte Suchfunktion. Der Suchbegriff
 *software* ist in drei der durchsuchten Nachrichten-Titeln enthalten. Wie die

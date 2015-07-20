@@ -5,9 +5,9 @@
     Abstract
     ========
 
-Die vorliegende Projektarbeit zeigt die Entwicklung und Implementierung
-eines Feedreaders als Desktoplösung. Der Feedreader strebt besonders in der
-Umsetzung der grafischen Benutzeroberfläche eine Alternative zu bestehenden 
-Feedreadern an. Es wird als Open-Source-Projekt in der Programmiersprache 
-Python umgesetzt. GTK wird für die Umsetzung der grafischen 
-Benutzeroberfläche verwendet.
+Die vorliegende Bachelorarbeit beschäftigt sich mit der Theorie zum Feedreader
+*gylfeed*, der innerhalb der Projektarbeit *Entwurf und Implementierung eines
+Feedreaders* entwickelt wurde. Es wird besonders auf die theoretischen
+Hintergründe in den Bereichen Beschaffung und Verarbeitung der Feed-Daten
+eingegangen. Um theoretische Ansätze zu validieren, werden Stichprobentests durchgeführt. Zu theoretisch erläuterten Themen werden die entsprechenden Umsetzungen im Feedreader *gylfeed* vorgestellt und bewertet.
+

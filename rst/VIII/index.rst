@@ -8,7 +8,7 @@ geben. Es wurden die theoretischen Hintergründe erläutert und
 Stichprobentests durchgeführt. Grundsätzliches zum Feedreader *gylfeed* hat es
 erleichtert, spätere detailliertere Betrachtungen
 nachvollziehen zu können. Die Grundlage und die Verwendung von Signalen
-innerhalb *gylfeed* wurde erläutert.
+innerhalb *gylfeed* wurden erläutert.
 
 
 Ergebnisse im Bereich der Feed-Daten-Beschaffung
@@ -18,7 +18,7 @@ Im Bereich der Feed-Daten-Beschaffung wurde die Performance der Anwendung im
 Hinblick auf den Download der Feed-Daten betrachtet. Die in der Theorie
 erläuterten Vorteile des asynchronen Downloads gegenüber dem synchronen Download
 konnte anhand einer Stichprobe bestätigt werden (vgl. :ref:`performancetest`).
-Dafür wurde für eine steigende Anzahl an URLs (5, 10, 20, 40, 50 ) der Inhalt der Webseiten
+Dafür wurde für eine steigende Anzahl an URLs (5, 10, 20, 30, 40, 50 ) der Inhalt der Webseiten
 heruntergeladen und die verbrauchte Zeit gemessen. Der Test konnte die Vorteile
 des asynchronen Ansatzes für die Performance der Andwendung bestätigen und wird
 in dieser Form im Feedreader *gylfeed* umgesetzt.
@@ -32,7 +32,7 @@ der Attribute geliefert wird (vgl. :ref:`etagtest`). Dieses Ergebnis unterstütz
 Prüfung auf die beiden Attribute im Feedreader *gylfeed* einzusetzen.
 
 Nach der theoretischen Betrachtung und Ausführung von Stichprobentests wurde die
-Umsetzung der Feed-Daten-Verarbeitung innerhalb von *gylfeed* vorgestellt.
+Umsetzung der Feed-Daten-Beschaffung innerhalb von *gylfeed* vorgestellt.
 Die abschließende Bewertung ergab, dass .....
 
 
@@ -59,7 +59,8 @@ eines der beiden geforderten Attribute vorhanden ist.
 
 Innerhalb von *gylfeed* wird der Universal Feedparser zur Verarbeitung der
 Feed-Daten benutzt. Dieser wurde vorgestellt. Die Umsetzung der
-Feed-Daten-Verarbeitung innerhalb von *gylfeed* wurde erläutert.
+Feed-Daten-Verarbeitung innerhalb von *gylfeed* wurde erläutert. Schwachstellen,
+die erkannt wurden, sind das Parsen der Daten ...
 
 Fazit & Ausblick
 ================
@@ -69,13 +70,14 @@ hat es ermöglich, noch vorhandene Schwachstellen zu erkennen und tiefer in die
 theoretischen Grundlagen einzusteigen, wofür während der Projektarbeit teilweise
 weniger Zeit übrig war.
 
-Die weiterführenden Konzepte in KAPITEL 6 haben im Ansatz gezeigt, welche
+Die weiterführenden Konzepte in Kapitel :ref:`weiterfuehrendekonzepte` 
+haben im Ansatz gezeigt, welche
 zükünftigen Erweiterungen denkbar sind. Der Feedreader *gylfeed* hat im
 aktuellen Entwicklungszustand noch einigen Entwicklungsbedarf, bietet aber
 eine solide Grundbasis. Gerade der Ausbau der Suchfunktion mit Hilfe der
 vorgestellten Algorithmen wäre für *gylfeed* ein Zugewinn an Funktionalität.
 Die Einbindung von Nutzer-Präferenzen ist nach Meinung der Autorin ein sehr
-interessantes Gebiet, dass es lohnt innerhalb der Weiterentwicklung von
+interessantes Gebiet, das es lohnt innerhalb der Weiterentwicklung von
 *gylfeed* mit einbezogen zu werden.
 
 Ziel ist es, die Entwicklung von *gylfeed* weiterzuführen. Es wird angestrebt,
@@ -85,4 +87,4 @@ den Feedreader auf der Plattform für Python Pakete, PyPI zu veröffentlichen
 
 
 
-
+ 

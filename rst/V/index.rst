@@ -85,11 +85,6 @@ Dateien, die entweder kein Feed oder fehlerhaft waren, betragen 483.
      |hline| **gesamte Dateien**                   5.092         100,00
     ============================================ ============  ==========
 
-- Evtl. darauf eingehen, warum es problematisch ist, dass es viele
-  unterschiedliche Formate gibt...Deshalb nutzt gylfeed den Universal
-  Feedparser...deckt Großteil der Formate ab...war keine Anforderung an gylfeed,
-  dass sämtliche Formate gelesen werden können, UFP reicht vorerst aus.
-
 
 XML-Elemente
 ------------
@@ -98,7 +93,7 @@ Nicht alle in den jeweiligen Spezifikationen der Feed-Formate definierten Elemen
 sind zwingend erforderlich. Das ist verständlich, weil nicht jeder Anbieter
 eines Feeds alle möglichen Elemente nutzen möchte. Für die Verarbeitung der Daten
 durch den Feedreader ist jedoch kritisch zu betrachten, dass die Anzahl der
-flicht-Elemente gering ist. Es muss damit gerechnet werden, dass erwartete
+Pflicht-Elemente gering ist. Es muss damit gerechnet werden, dass erwartete
 Elemente fehlen können. 
 
 Als Beispiel soll das Format RSS 2.0 betrachtet werden.
@@ -188,10 +183,10 @@ vorkommen.
 
 .. figtable::
     :label: title-description-statistics
-    :caption: Testergebnisse der Prüfung auf die XML-Elemente *title* 
-              und *description* bei RSS 2.0 Feeds.
-    :alt: Testergebnisse der Prüfung auf die XML-Elemente *title* und
-          *description* bei RSS 2.0 Feeds.
+    :caption: Testergebnisse der Prüfung auf die XML-Elemente title 
+              und description bei RSS 2.0 Feeds.
+    :alt: Testergebnisse der Prüfung auf die XML-Elemente title und
+          description bei RSS 2.0 Feeds.
     :spec: l l r
 
     =============================================== ============  ==========
@@ -256,7 +251,7 @@ oder die Feed-Daten als String.
 .. code-block:: python
 
     # Der Funktion *parse* wird die URL vom Feed der 
-    # Sueddeutschen Zeitung übergeben und der Variable *feed_dict* zugewiesen
+    # Sueddeutschen Zeitung übergeben und der Variable feed_dict zugewiesen
     >>> feed_dict = feedparser.parse("http://suche.sueddeutsche.de/?output=rss")
 
     # Parsen von einer lokalen Datei
@@ -282,10 +277,12 @@ die unterschiedliche Benennung der XML-Elemente und auf den unterschiedlichen
 Aufbau der ursprünglichen Feed-Daten genommen werden.
 
 Beispielhaft für ausgewählte Elemente der Formate RSS 2.0 und Atom 1.0 sieht die
-Normalisierung wie folgt aus:
+Normalisierung wie in Abbildung :num:`normalisierungtabelle` dargestellt aus.
+
+.. _normalisierungstabelle:
 
 .. figtable::
-    :label: normalisierung
+    :label: normalisierungtabelle
     :caption: Normalisierte Feed-Elemente auf Seiten des Universal Feedparsers
               mit den Entsprechungen für die Formate RSS 2.0 und Atom 1.0.
     :alt: Normalisierte Feed-Elemente.
@@ -307,7 +304,7 @@ Normalisierung wie folgt aus:
 Die normalisierten Feed-Daten werden als Dictionary, d.h. einer Datenstruktur bestehend 
 aus Schlüssel-Wert-Paaren, zur Verfügung gestellt.
 
-Folgendes Code-Beispiel einer bpython-Sitzung zeigt den Zugriff auf das Dictionary:
+Folgendes Code-Beispiel einer interaktiven Python-Sitzung zeigt den Zugriff auf das Dictionary:
   
 .. code-block:: python
 
@@ -417,11 +414,11 @@ Feed-Daten nicht verarbeiten, enthält das Dictionary keine Daten. Deshalb wird
 vor dem Zugriff auf das Dictionary geprüft, ob darin Einträge vorhanden sind.
 Aktuell wird dazu eine Abfrage des Wertes *bozo* durchgeführt. Dieser Wert gibt
 an, ob der zu verarbeitende Feed wohlgeformtes XML enthält. Konnte ein Feed
-nicht verarbeitet werden, ist das bozo-Bit auf den Wert 1 gesetzt, d.h. nicht
+nicht verarbeitet werden, ist das bozo-Flag auf den Wert 1 gesetzt, d.h. nicht
 wohlgeformt. Diese
 Umsetzung ist noch nicht hinreichend optimal, weil es laut Universal Feedparser
 auch möglich ist, nicht wohlgeformtes XML zu parsen. In zukünftigen Versionen
-von *gylfeed* sollte das anders umgesetzt werden. VORSCHLAG, wie?
+von *gylfeed* sollte das anders umgesetzt werden.
 Ergibt die Prüfung, dass das Parsen erfolgreich war, werden verschiedene
 initiale Werte für den betreffenden Feed gesetzt. Beispielsweise die Werte für
 gelesene bzw. ungelesene Nachrichten. Liefert ein Feed die Quelle für ein Icon, 
@@ -448,8 +445,6 @@ den vorhandenen hinzugefügt. Die zum Vergleich verwendete ID ist laut dem
 Unviversal Feedparser ein global einzigartiger Identifikator. Häufig handelt es
 sich um die URL der Nachricht.
 
-
-- kurz erläutern, was macht Feedhandler mit geparsten Daten
 
 
 Speicherung der Feed-Daten und Einstellungen

@@ -31,7 +31,7 @@ Python, Perl, JavaScript oder C++ (vgl.
 
 GTK+ basiert zu einem großen Teil auf der Bibliothek *GLib*. *GLib* stellt
 beispielsweise Datenstrukturen zur Verfügung oder bietet einen Eventloop an.
-Die Bibliothek *GObject* ist wiederum Teil von *GLib* und erleichtert innerhalb
+Die Bibliothek *GObject* ist wiederum Teil von *GLib* und ermöglicht innerhalb
 C die objektorientierte Programmierung. Außerdem ermöglicht *GLib* eine eventbasierte Programmierung,
 die beispielsweise für grafische Benutzeroberflächen eingesetzt wird.
 
@@ -77,7 +77,7 @@ Signalname,
 mit dem sich verbunden werden muss. Gleichzeitig muss beim Verbinden auf ein
 Signal eine Funktion angegeben werden, die beim Auslösen des Signals ausgeführt
 wird -- eine sogenannte Callback-Funktion. Zu einem beliebigen Zeitpunkt wird
-nun der Button angeklickt. Dies löst ein Event aus, dass von dem
+nun der Button angeklickt. Dies löst ein Event aus, das von dem
 *Main-Event-Loop* abgefangen wird und an das jeweilige Widget, hier der Button,
 weitergegeben wird. Empfängt der Button das Event, wird das Signal *clicked*
 ausgelöst (emittiert) und die hinterlegte Callback-Funktion ausgeführt. Ist die
@@ -87,8 +87,8 @@ es wird gewartet, bis das nächste Event auftritt.
 
 
 
-Signale verwenden
-=================
+Einsatz von Signalen
+====================
 
 Widgets wie beispielsweise *Gtk.Button* bieten bereits Signale an, mit denen das
 jeweilige Widget verbunden werden kann. Außerdem bietet GTK+ die Möglichkeit,
@@ -99,7 +99,7 @@ Widgets und Signale
 -------------------
 
 Als Beispiel soll weiterhin der *Gtk.Button* dienen. Für den *Gtk.Button* werden
-under anderem folgende Signale angeboten:
+unter anderem folgende Signale angeboten:
 
  * *activate*
  * *clicked*
@@ -111,7 +111,7 @@ Hinterlegung der Callback-Funktion:
 
     from gi.repository import Gtk
 
-    #Callback-Funktion  
+    # Callback-Funktion  
     def print_hello(button):
         print("Hello")
 
@@ -157,12 +157,9 @@ Ein neues Signal kann folgendermaßen definiert werden:
 
 .. code-block:: python
 
-        __gsignals__ = {
-                    'new-signal': (GObject.SIGNAL_RUN_FIRST, None,
-                    (int,))
-                }
+        __gsignals__ = {'new-signal': (GObject.SIGNAL_RUN_FIRST, None, (int,))}
 
-Es wird ein Dictionary mit dem Signalnamen *new-signal* als Schlüssel angelegt. Dem
+Es wird ein Python-Dictionary mit dem Signalnamen *new-signal* als Schlüssel angelegt. Dem
 zugeordnet sind folgende Werte: Der Zeitpunkt der Ausführung des Objekt-Handlers,
 ein möglicher Rückgabewert und Übergabeparameter. Im Codebeispiel ist als
 Zeitpunkt *GObject.SIGNAL_RUN_FIRST* angegeben, dies bedeutet, dass die
@@ -238,13 +235,11 @@ Der Feedhandler registriert sich auf diese Signale, um seinerseits weitere
 Aktionen auszuführen.
 
  +  **created:** Wird emittiert, sobald eine Instanz von Feed erstellt wurde.
-    Callback-Funktionen: self_create_feed_deferred() -- in Feedhandler 
+    Callback-Funktionen: Feedhandler.create_feed_deferred()
  +  **updated:** Wird emittiert, sobald ein Update abgeschlossen ist.
-    Calback-Funktionen: 
+    Calback-Funktionen: Feedhandler.sig_feed_updated(),
+    FeedView.redraw_num_labels()
     
-    - self.sig_feed_updated() -- in Feedhandler
-    - self.redraw_num_labels() -- in FeedView
-
 
 **Feedhandler**: Die Klasse *Feedhandler* bietet die Signale *feed-created*,
 *feed-updated* und *feed-add-exception* an. Es wird sich innerhalb der Klasse
@@ -252,15 +247,15 @@ Aktionen auszuführen.
 
  +  **feed-created:** Wird emittiert, sobald alle Prüfungen auf Ausnahmen
     bezüglich der Erstellung eines Feed-Objekts abgeschlossen sind.
-    Callback-Funktionen: self.on_feed_created() -- in MainWindow
+    Callback-Funktionen: MainWindow.on_feed_created()
 
  +  **feed-updated:** Wird emittiert, sobald das Update abgeschlossen ist.
-    Callback-Funktionen: self.update_entryview() -- in EntryListView
+    Callback-Funktionen: EntryListView.update_entryview()
 
  +  **feed-add-exception:** Wird emittiert, sobald bei der Erstellung
     eines Feed-Objekts eine Ausnahme erkannt wurde. Beim Auslösen des
     Signals wird der Hinweistext, der dem Benutzer angezeigt wird, übergeben.
-    Callback-Funktionen: self.exception_handling() -- in FeedOptionsView
+    Callback-Funktionen: FeedOptionsView.exception_handling()
 
 **FeedView**: Die Klasse *FeedView* bietet die Signale
 *preferences-clicked* und *ok-delete-clicked* an. Es wird sich innerhalb der
@@ -279,26 +274,19 @@ Klasse *MainWindow* auf die Signale registriert.
 **View**: Die Klasse *View* bietet die Signale *view-enter* und *view-leave* an.
 
  +  **view-enter:** Wird emittiert, sobald eine Ansicht angezeigt wird.
-    Callback-Funktionen: self._on_view_enter() -- in View, ruft on_view_enter()
+    Callback-Funktionen: View._on_view_enter(), ruft on_view_enter()
     der Unterklassen auf.
  
  +  **view-leave:** Wird emittiert, sobald eine Ansicht verlassen wird.
-    Callback-Funktioenen: self._on_view_leave() -- in View, ruft on_view_leave()
+    Callback-Funktioenen: View._on_view_leave(), ruft on_view_leave()
     der Unterklassen auf.
 
 **Document**: Die Klasse *Document* bietet das Signal *finish* an.
 Es wird sich innerhalb der Klasse Feed auf das Signal registriert. Das Signal
 wird emittiert, sobald der asynchrone Download beendet ist. Eine detaillierte
-Betrachtung vom Ablauf des asynchronen Downloads wird in Kapitel XX!!
+Betrachtung vom Ablauf des asynchronen Downloads wird in Kapitel
+:ref:`chapterbeschaffung`
 durchgeführt. Callback-Funktionen sind self._load_icon_deferred(), self._parse()
 und self._parse_update().
 
 
-Chancen und Risiken
-===================
-
-Signale sind eine elegante Lösung, um auf eintretende Events individuell
-reagieren zu können. Ein Risiko besteht jedoch darin, dass bei einer Vielzahl an
-definierten Signalen die Übersicht verloren geht. Außerdem ist es anzuraten,
-selbsterklärende Signalnamen zu wählen.
-                      

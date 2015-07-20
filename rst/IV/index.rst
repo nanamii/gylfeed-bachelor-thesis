@@ -1,5 +1,5 @@
 
-.. _beschaffung:
+.. _chapterbeschaffung:
 
 **************************
 Beschaffung der Feed-Daten 
@@ -46,8 +46,8 @@ Folgenden näher betrachtet werden.
 Performance der Anwendung
 -------------------------
 
-Der Main-Event-Loop, der in Kapitel :ref:`signale` vorgestellt wurde,
-verarbeitet Aufgaben grundsätzlich synchron. Bei einer synchronen Verarbeitung,
+Der Main-Event-Loop, der in Abschnitt :ref:`signale` vorgestellt wurde,
+verarbeitet Aufgaben grundsätzlich synchron. Bei einer synchronen Verarbeitung
 wird gewartet, bis eine Aufgabe abgeschlossen ist, erst dann wird mit der
 Verarbeitung der nächsten Aufgabe begonnen. Bei einer großen Anzahl an Feeds,
 für die ein Download der Daten erfolgen soll, kann während der Beschaffung der
@@ -55,7 +55,7 @@ Daten
 nichts anderes ausgeführt werden. Die Anwendung ist in diesem Moment
 ausschließlich mit dem Download der Feed-Daten beschäftigt. Das bedeutet, dass
 sich in dieser Zeit weder die grafische Benutzeroberfläche aktualisieren kann,
-noch Benutzereingaben vorgenommen werden können. Für den Benutzer der Anwendung
+noch Benutzereingaben entgegengenommen werden können. Für den Benutzer der Anwendung
 ist das wenig erfreulich, er bekommt den Eindruck, dass die Anwendung nicht
 ausreichend flüssig läuft.
 
@@ -63,11 +63,11 @@ ausreichend flüssig läuft.
 Bandbreite des Downloads
 ------------------------
 
-Werden bei jeder Aktualisierung, die vom Client angestossen wird, alle Feed-Daten
+Werden bei jeder Aktualisierung, die vom Client angestoßen wird, alle Feed-Daten
 der Feeds
 heruntergeladen, obwohl bei Teilen der Feeds keine Änderung vorliegt, 
 benötigt dies unnötige Download-Bandbreite. Auf Seiten des
-Clients würde eventuell festgestellt, dass keine Aktualisierung vorliegt. Diese Prüfung
+Clients wird eventuell festgestellt, dass keine Aktualisierung vorliegt. Diese Prüfung
 beansprucht zusätzlich unnötige Rechenkapazität.
 
 
@@ -103,10 +103,10 @@ asynchronen Ansatzes erläutert.
 Jeder Pfeil beschreibt den Ablauf folgender Aufgaben, die abgearbeitet werden
 sollen:
 
- * Klick auf einen Button, um Download auszulösen
- * Download von Daten
- * grafische Benutzeroberfläche: Daten aktualisieren, Benutzereingaben
-   entgegennehmen
+ * Klick auf einen Button, um Download auszulösen.
+ * Download von Daten.
+ * Grafische Benutzeroberfläche: Daten aktualisieren und Benutzereingaben
+   entgegennehmen.
     
 Der klassische synchrone Ansatz verarbeitet die drei Aufgaben nacheinander. Die
 nächste Aufgabe wird erst ausgeführt, sobald die aktuelle beendet ist. Als
@@ -131,7 +131,8 @@ Herangehensweise kommt jedoch ein anderer Nachteil hinzu. In der Abbildung wird
 bereits deutlich, dass dieser Ansatz, im Vergleich zum klassischen synchronen
 Ansatz, mehr Zeit in Aspruch nimmt. Nach der Abarbeitung von Aufgaben der
 grafischen Benutzeroberfläche kommt es zu Wartezeiten. Ein Grund dafür ist beispielsweise, dass
-der Download nicht sofort weitergeführt werden kann ... XX.
+der Download nicht sofort weitergeführt werden kann, weil eventuell erneut eine
+Verbindung aufgebaut werden muss.
 
 Genau an dieser Stelle setzt der asynchrone Ansatz an. Der grundsätzliche
 Unterschied zum synchronen Ansatz ist, dass der asynchrone Ansatz nicht wartet,
@@ -156,8 +157,6 @@ Beide Ansätze verzeichnen einen Anstieg der Downloaddauer bei steigender Anzahl
 an URLs. Beim asynchronen Ansatz fällt die Steigerung jedoch deutlich weniger
 stark aus.
 
-Das Ergebnis des Performance-Tests belegt den Vorteil des asynchronen
-Ansatzes...
 
 .. _plot:
 
@@ -181,7 +180,7 @@ Aktualisierungen enthalten, sind die Attribute *ETag* und *last-modified*
 hilfreich. In diesem Zusammenhang soll vorerst der Hintergrund dieser Attribute
 geklärt werden. 
 
-Das *Hypertext Transfer Protocol* (HTTP) stellt Methoden zur Verfügungen, die
+Das *Hypertext Transfer Protocol* (HTTP) stellt Methoden zur Verfügung, die
 für die Kommunikation zwischen Client und Server eingesetzt werden. Der Client
 sendet eine Anfrage unter Angabe einer dieser Methoden und der Server sendet
 eine Antwort. Mit der Methode *GET* stellt der Client die Anfrage, die hinter
@@ -242,14 +241,14 @@ ist für diesen Feed klar, dass keine Änderung vorliegt und deshalb kein Downlo
 erfolgen muss. Nicht jeder Server liefert die Attribute *last-modified* oder *ETag*. Ist keines
 der beiden vorhanden, müssen die Feed-Daten trotzdem heruntergeladen werden.
 
-**Stickproben-Test**:
+**Stichproben-Test**:
 
 Um eine Aussage treffen zu können, wie groß der Anteil der Feeds ist, die
 mindestens eines
 der beiden Attribute liefern, wurde eine Testmenge an Feeds einer Prüfung auf
-diese Attribute unterzogen. Die Testmenge umfasst nach Entfernung der Feeds, die
+diese Attribute unterzogen. Die Testmenge umfasst nach Entfernen der Feeds, die
 keinen validen Statuscode geliefert haben, 3.512 Feeds. Grundlage dafür
-sind 10 Feedlisten des Online-Anbieters für Feedlisten, *feedshare.net* (vgl.
+sind 10 Feedlisten (insgesamt 6.203 URLs) des Online-Anbieters für Feedlisten, *feedshare.net* (vgl.
 :cite:`feedshare`).
 Es wurde eine relativ große Testmenge gewählt, um ein aussagekräftiges Ergebnis
 zu erhalten. Für die 3.512 Feeds wurde jeweils der HTTP-Header angefordert und
@@ -286,7 +285,7 @@ Von 566 Feeds (16,12%) wurde keines der Attribute geliefert. Der bedeutenste
 Wert ist der Anteil der Feeds, die mindestens eines der beiden Attribute
 liefert (83,88%). Da es bei der Prüfung auf Änderung der Feed-Daten ausreichend
 ist, durch eines der Attribute validieren zu können, ob eine Änderung
-stattgefunden hat, ist dieser Wert entscheident.
+stattgefunden hat, ist dieser Wert entscheidend.
     
 Zusammenfassend hat der Test ergeben, dass ein Großteil der Webserver, auf denen die Feed-Daten lagern,
 mindestens eines der Attribute *last-modified* oder *ETag* liefern. Das spricht für das bereits beschriebene 
@@ -323,12 +322,12 @@ In *gylfeed* wird der Download der Feed-Daten mit der HTTP-Bibliothek *libsoup*
 umgesetzt. Zu Beginn der Entwicklung wurde der Download mit dem
 *Universal Feedparser* (vgl. :cite:`FPD`) durchgeführt. Dieser ist für die spätere Verarbeitung der Daten zuständig,
 bietet jedoch nur einen synchronen Download an. Da es mit dem *Universal Feedparser* zu den in Abschnitt :ref:`performance`
-erläuterten Performance-Problemen kam, wurde der Download daraufhin asynchron umgetzt.
+erläuterten Performance-Problemen kam, wurde der Download daraufhin asynchron umgesetzt.
 Die Bibliothek *libsoup* wurde aufgrund folgender Eigenschaften gewählt:
 
- * bietet asynchrone API
- * zugeschnitten auf GNOME Anwendungen, wie *gylfeed* eine ist
- * nutzt GObject und GLib-Main-Loop, wie auch bereits *gylfeed*
+ * Bietet asynchrone API.
+ * Zugeschnitten auf GNOME Anwendungen, wie *gylfeed*.
+ * Nutzt GObject und GLib-Main-Loop, wie auch bereits *gylfeed*.
 
 
 Ablauf des Downloads
@@ -403,7 +402,7 @@ Inputstreams durch *read_bytes_async()* veranlasst. Als Callback-Methode wird *f
 übergeben.
 
 **fill_document():** Diese Methode liest den Input-Stream solange, bis keine
-Daten mehr vorhanden sind. Bei jeder Interation werden die Daten, die von der
+Daten mehr vorhanden sind. Bei jeder Iteration werden die Daten, die von der
 Instanz *Document* gesammelt werden, um die neuen Daten erweitert. Sind alle
 Daten gelesen, wird das Signal *finish* ausgelöst.
 
@@ -416,7 +415,7 @@ Die im Ablauf des Downloads erwähnte Prüfung auf Aktualisierung der Feed-Daten
 wird an dieser Stelle separat betrachtet. Es wird kurz auf die Anwendung
 eingegangen und die entsprechende Antwort des Webservers gezeigt.
 
-Zur Demonstration wird eine Anfrage an den Servers des Atom-Feeds von *golem*
+Zur Demonstration wird eine Anfrage an den Servers des Atom-Feeds von *golem.de*
 gestellt. Folgendes Code-Snippet zeigt die Prüfung auf das Attribut
 *last-modified*:
 
@@ -463,16 +462,16 @@ Für das Attribut *ETag* erfolgt der Vorgang in der gleichen Weise, mit dem
 Unterschied, dass der Anfrage-Header aus dem Attribut *if-none-match* und dem
 *ETag* als Wert besteht. 
 
+
+Bewertung der Umsetzung
+----------------------- 
+
 In der aktuellen Version von *gylfeed* wird die Prüfung auf Änderung der
 Feed-Daten auf der Client-Seite ausgeführt. Für die entsprechende URL wird der
 Header heruntergeladen und es wird eine Prüfung auf Übereinstimmung des bisher
 gespeicherten *last-modified* bzw. *ETag*-Wertes durchgeführt. Die Umstellung auf die
 komfortablere Variante, die Prüfung auf Seiten des Servers durchführen zu lassen, ist geplant.
 
-
-Bewertung der Umsetzung
------------------------ 
-
-
+Evtl. noch was zum Download selbst?
 
 
