@@ -23,7 +23,6 @@ if __name__ == '__main__':
                      x_title='Anzahl der Downloads',
                      y_title='Dauer in Sekunden',
                      dots_size= 6)
-    chart.title = "Vergleich der Performance von synchronem und asynchronem Download"
     chart.add('Synchron', sync_data)
     chart.add('Asynchron', async_data)
     chart.render_to_file('chart.svg')

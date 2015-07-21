@@ -35,6 +35,10 @@ Zeichenketten mit der Funktion *lower()* in Kleinschreibung vereinheitlicht.
     *Golem*.
 
 
+.. raw:: Latex
+
+   \newpage
+    
 Code der implementierten Suchfunktion:
     
 .. code-block:: python
@@ -50,12 +54,12 @@ Das Problem dieser Implementierung ist, dass bereits bei einem abweichenden
 Zeichen keine Übereinstimmung gegeben ist und das Suchergebnis deshalb
 unvollständig oder die Suche komplett erfolglos bleibt. Aus diesem Grund ist es
 erstrebenswert, eine fehlertolerante Implementierung zu finden. Um trotz
-Tippfehler, Buchstabendreher, falscher Rechtschreibung und ähnlichem zum
+Tippfehler, Buchstabendreher, falscher Rechtschreibung und Ähnlichem zum
 gewünschten Suchergebnis zu kommen, gibt es entsprechende Algorithmen.
 
 Eine mögliche Lösung bietet das Modul *difflib* der Python Standardbibliothek
 (vgl. :cite:`difflib` -- Dokumentation von difflib). Dem liegt der
-Ratcliff-Obershelp Algorithmus zu Grunde. Der von John W. Ratcliff und D. E.
+Ratcliff-Obershelp Algorithmus zugrunde. Der von John W. Ratcliff und D. E.
 Metzener entwickelte Algorithmus sucht die größte übereinstimmende Sequenz
 zweier Zeichenketten. Das wird für alle übrigen Zeichen rechts und links der
 übereinstimmenden Sequenz durchgeführt, solange bis keine Zeichen mehr übrig
@@ -66,7 +70,7 @@ Algorithmus für die Zeichenketten *grafik* und *graphik*.
 
 .. math::
 
-    \frac {2*(3+2)}{(6+7)} = 0,77    (Übereinstimmende Sequenzen: *gra* und *ik*)
+    \frac {2\times(3+2)}{(6+7)} \approx 0,77 ~ (Übereinstimmende~Sequenzen: ~gra~ und ~ik~)
 
 Der Ratcliff-Obershelp Algorithmus hat eine Komplexität von :math:`O(n^{3})` im
 schlechtesten Fall und eine zu erwartende Komplexität von :math:`O(n^{2})`.
@@ -89,7 +93,7 @@ Der Damerau-Levenshtein Algorithmus hat eine Komplexität von :math:`O(nm)`, mit
 als jeweilige Länge der Zeichenketten.
 
 Für beide Algorithmen gibt es eine Implementierung in Python. Die folgende
-*bpython*-Sitzung zeigt die Ausfürhung der Algorithmen.
+interaktive Python-Sitzung zeigt die Ausführung der Algorithmen.
 
 .. code-block:: python
 
@@ -129,13 +133,19 @@ Benutzer demnach einen größeren Komfort.
 
 Welcher der beiden Algorithmen zu bevorzugen ist, darüber lässt sich nur
 schwierig eine allgemeine Aussage treffen. Damerau-Levenshtein hat zumindest
-aufgrund der geringeren Laufzeit-Komplexität einen Performance-Vorteil.
+aufgrund der geringeren Laufzeit-Komplexität einen Performance-Vorteil. 
 
 Bei relativ großen Datenmengen ist die Laufzeit-Komplexität des
 Damerau-Levenshtein Algorithmus von  :math:`O(nm)`, dennoch als problematisch
-anzusehen. Hier wären ergänzende Suchstrategien, wie beispielsweise die binäre
-Suche anzuraten.
+anzusehen. Hier wären ergänzende Suchstrategien anzuraten, die zu einer besseren
+Performance führen.
 
+Zur Demonstration der beiden Algorithmen wurde
+lediglich ein einfaches Beispiel gewählt. In der realen Anwendung ist der
+Sachverhalt wesentlich komplexer, da ganze Phrasen und nicht nur zwei Wörter
+verglichen werden müssen. Müsste beispielsweise das Wort *grafik* innerhalb der
+Phrase *Die Bevölkerungszahlen als Grafik* gesucht werden, wären mehrere
+Wörter zu vergleichen, bis die Übereinstimmung gefunden wird.
 
 
 Einbezug von Nutzer-Präferenzen
@@ -165,7 +175,7 @@ Um zu bewerten, ob der vorliegende Text dem bisherigen Leseverhalten und den
 Präferenzen des Nutzers entspricht, können sogenannte *Klassifikatoren* eingesetzt
 werden. Als Beispiel soll der *naive Bayes-Klassifikator*
 betrachtet werden. Dieser Klassifikator wird beispielsweise bei der
-Erkennung von *Spam* bMi E-Mails eingesetzt. Thomas Runkler schreibt in *Data
+Erkennung von *Spam*-E-Mails eingesetzt. Thomas Runkler schreibt in *Data
 Mining: Methoden und Algorithmen intelligenter Datenanalyse*, ein naiver
 Bayes-Klassifikator ist ein wahrscheinlichkeitsbasiertes
 Klassifikationsverfahren, das auf dem Satz von Bayes basiert (vgl.
@@ -173,7 +183,7 @@ Klassifikationsverfahren, das auf dem Satz von Bayes basiert (vgl.
 
 .. math::
 
-    P(R|D) = \frac {P(D|R) * P(R)} {P(D)}
+    P(R|D) = \frac {P(D|R) \cdot P(R)} {P(D)}
 
 Es wird die Wahrscheinlichkeit *P* für die Relevanz *R* bezüglich eines
 gegebenen Dokuments *D* berechnet.
@@ -193,9 +203,9 @@ Der Einsatz eines Klassifikators benötigt gerade bei der Auswahl der
 Trainigsdaten umfangreiche Tests und Anpassungen. Hier soll lediglich die
 grundsätzliche Idee dahinter vorgestellt werden.
 
-In Python gibt es beispielsweise das Modul *TextBlob*, dass die Anwendung des
+In Python gibt es beispielsweise das Modul *TextBlob*, das die Anwendung des
 naiven Bayes-Klassifikators unterstützt (vgl. :cite:`blob`). Folgender
-Beispiel-Code zeigt die Anwendung des Moduls.
+Beispiel-Code zeigt die Anwendung des Moduls:
 
 .. code-block:: python
 
@@ -226,16 +236,16 @@ Beispiel-Code zeigt die Anwendung des Moduls.
     nbc = NaiveBayesClassifier(train_data)
 
     for data in test_data:
-        print(nbc.classify(data))
+         print(data+" = "+nbc.classify(data))
 
     Ergebnis:
-    >> pos
-    >> pos
-    >> pos
-    >> neg
-    >> neg
-    >> neg
-    >> pos
+    Verschlüsselung für Anfänger = pos
+    Entwicklung neuer Verschlüsselungs-Algorithmen = pos
+    Linux-Community unterstützt Yubikey-Entwicklung = pos
+    Die neuesten Kuchen des Sommers = neg
+    Backen für jedermann = neg
+    Kochen mit Begeisterung = neg
+    Die besten Nudel-Rezepte = pos
     
 
 Die Trainingsdaten werden im Code-Beispiel innerhalb der Liste *train_data*

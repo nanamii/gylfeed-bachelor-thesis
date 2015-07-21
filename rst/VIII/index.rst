@@ -2,10 +2,10 @@
 Zusammenfassung
 ***************
 
-Die Bachelorarbeit konnte einen detaillierterer Einblick in die
+Die Bachelorarbeit konnte einen detaillierteren Einblick in die
 Beschaffung und Verarbeitung der Feed-Daten innerhalb des Feedreaders *gylfeed*
 geben. Es wurden die theoretischen Hintergründe erläutert und
-Stichprobentests durchgeführt. Grundsätzliches zum Feedreader *gylfeed* hat es
+Stichprobentests durchgeführt. Die Vorstellung des Feedreaders *gylfeed* hat es
 erleichtert, spätere detailliertere Betrachtungen
 nachvollziehen zu können. Die Grundlage und die Verwendung von Signalen
 innerhalb *gylfeed* wurden erläutert.
@@ -17,7 +17,7 @@ Ergebnisse im Bereich der Feed-Daten-Beschaffung
 Im Bereich der Feed-Daten-Beschaffung wurde die Performance der Anwendung im
 Hinblick auf den Download der Feed-Daten betrachtet. Die in der Theorie
 erläuterten Vorteile des asynchronen Downloads gegenüber dem synchronen Download
-konnte anhand einer Stichprobe bestätigt werden (vgl. :ref:`performancetest`).
+konnten anhand einer Stichprobe bestätigt werden (vgl. :ref:`performancetest`).
 Dafür wurde für eine steigende Anzahl an URLs (5, 10, 20, 30, 40, 50 ) der Inhalt der Webseiten
 heruntergeladen und die verbrauchte Zeit gemessen. Der Test konnte die Vorteile
 des asynchronen Ansatzes für die Performance der Andwendung bestätigen und wird
@@ -33,7 +33,11 @@ Prüfung auf die beiden Attribute im Feedreader *gylfeed* einzusetzen.
 
 Nach der theoretischen Betrachtung und Ausführung von Stichprobentests wurde die
 Umsetzung der Feed-Daten-Beschaffung innerhalb von *gylfeed* vorgestellt.
-Die abschließende Bewertung ergab, dass .....
+Die abschließende Bewertung ergab, dass es bei der Prüfung auf
+Aktualisierung mittels *ETag* und *last-modified* Verbesserungsbedarf gibt.
+Statt der Client-seitigen Prüfung, sollte die Prüfung durch den Server
+stattfinden, wie es zuvor theoretisch erläutert wurde. Die Umsetzung des asynchronen
+Downloads der Feed-Daten ist nicht zu bemängeln.
 
 
 Ergebnisse im Bereich der Feed-Daten-Verarbeitung
@@ -59,8 +63,14 @@ eines der beiden geforderten Attribute vorhanden ist.
 
 Innerhalb von *gylfeed* wird der Universal Feedparser zur Verarbeitung der
 Feed-Daten benutzt. Dieser wurde vorgestellt. Die Umsetzung der
-Feed-Daten-Verarbeitung innerhalb von *gylfeed* wurde erläutert. Schwachstellen,
-die erkannt wurden, sind das Parsen der Daten ...
+Feed-Daten-Verarbeitung innerhalb von *gylfeed* wurde erläutert. Die Bewertung
+der Umsetzung ergab, dass das Parsen der Feed-Daten, das an verschiedenen
+Stellen ausgeführt wird, aufgrund der Wartbarkeit zentral an einer Stelle
+ausgeführt werden sollte. Der Vergleich vorhandener Nachrichten mit den neu
+heruntergeladenen anhand deren ID, wäre beispielsweise auch mittels Bildung
+eines Hashwerts möglich. Aktuell ist die Speicherung der Daten mit dem
+Python-Modul *pickle* vertretbar. Sollen die Daten aber auch außerhalb von
+*gylfeed* nutzbar sein, wäre der Einsatz einer Datenbank sinnvoll.
 
 Fazit & Ausblick
 ================
@@ -72,7 +82,7 @@ weniger Zeit übrig war.
 
 Die weiterführenden Konzepte in Kapitel :ref:`weiterfuehrendekonzepte` 
 haben im Ansatz gezeigt, welche
-zükünftigen Erweiterungen denkbar sind. Der Feedreader *gylfeed* hat im
+zukünftigen Erweiterungen denkbar sind. Der Feedreader *gylfeed* hat im
 aktuellen Entwicklungszustand noch einigen Entwicklungsbedarf, bietet aber
 eine solide Grundbasis. Gerade der Ausbau der Suchfunktion mit Hilfe der
 vorgestellten Algorithmen wäre für *gylfeed* ein Zugewinn an Funktionalität.

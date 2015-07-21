@@ -126,9 +126,6 @@ Hinterlegung der Callback-Funktion:
     Gtk.main()                                  # Gtk Main-Loop
 
 
-Das Code-Beispiel zeigt, dass es nur wenige Code-Zeilen benötigt, die
-vorhandenen Signale
-von Widgets zu nutzen.
 
 .. _widgethierarchie:
 
@@ -162,12 +159,10 @@ Ein neues Signal kann folgendermaßen definiert werden:
 Es wird ein Python-Dictionary mit dem Signalnamen *new-signal* als Schlüssel angelegt. Dem
 zugeordnet sind folgende Werte: Der Zeitpunkt der Ausführung des Objekt-Handlers,
 ein möglicher Rückgabewert und Übergabeparameter. Im Codebeispiel ist als
-Zeitpunkt *GObject.SIGNAL_RUN_FIRST* angegeben, dies bedeutet, dass die
-Callback-Funktion in der ersten ??Runde?? ausgeführt wird. Als Rückgabewert ist
+Zeitpunkt der Ausführung *GObject.SIGNAL_RUN_FIRST* angegeben. Als Rückgabewert ist
 *None* angegeben, d.h. die Callback-Funktion hat keinen Rückgabewert. Als
 Übergabeparameter ist *int* angegeben, d.h. die Callback-Funktion erwartet einen
-Integer-Wert. Die Auflistung der Übergabeparameter muss mit einem Komma
-abgeschlossen werden.
+Integer-Wert. 
 
 Der gesamte Code mit Ableitung der Instanz, für die ein neues Signal erstellt
 wird und Definition der Callback-Funktion sieht folgendermaßen aus:
@@ -218,7 +213,7 @@ Innerhalb des Feedreaders *gylfeed* werden sowohl vorhandene Signale von
 Widgets, als auch eigens neu definierte Signale verwendet.
 
 Abbildung :num:`signale` zeigt die Übersicht der eigens erstellten Signale, die innerhalb von *gylfeed*
-eingesetzt werden. Für folgende Klassen wurden eigene Signale definiert
+eingesetzt werden. Für folgende Klassen wurden eigene Signale definiert:
 
 .. _signale:
 
@@ -249,7 +244,7 @@ Aktionen auszuführen.
     bezüglich der Erstellung eines Feed-Objekts abgeschlossen sind.
     Callback-Funktionen: MainWindow.on_feed_created()
 
- +  **feed-updated:** Wird emittiert, sobald das Update abgeschlossen ist.
+ +  **feed-updated:** Wird emittiert, sobald die Aktualisierung der Feed-Daten abgeschlossen ist.
     Callback-Funktionen: EntryListView.update_entryview()
 
  +  **feed-add-exception:** Wird emittiert, sobald bei der Erstellung
@@ -263,12 +258,11 @@ Klasse *MainWindow* auf die Signale registriert.
 
  +  **preferences-clicked:** Wird emittiert, sobald vom Benutzer die Optionen
     für einen bestimmten Feed abgefragt werden.
-    Callback-Funktionen: feed_options.show_options_filled()...zeigt die Ansicht
-    *FeedOptionsView* befüllt mit den Daten des jeweiligen Feeds...
+    Callback-Funktionen: FeedOptionsView.show_options_filled()
 
  +  **ok-delete-clicked:** Wird emittiert, sobald der Benutzer das Löschen eines
     Feeds bestätigt hat.
-    Callback-Funktioenen: self.delete_feed_actions() -- in MainWindow
+    Callback-Funktioenen: MainWindow.delete_feed_actions()
 
 
 **View**: Die Klasse *View* bietet die Signale *view-enter* und *view-leave* an.
@@ -286,7 +280,7 @@ Es wird sich innerhalb der Klasse Feed auf das Signal registriert. Das Signal
 wird emittiert, sobald der asynchrone Download beendet ist. Eine detaillierte
 Betrachtung vom Ablauf des asynchronen Downloads wird in Kapitel
 :ref:`chapterbeschaffung`
-durchgeführt. Callback-Funktionen sind self._load_icon_deferred(), self._parse()
-und self._parse_update().
+durchgeführt. Callback-Funktionen sind Document._load_icon_deferred(), Feed._parse()
+und Feed._parse_update().
 
 

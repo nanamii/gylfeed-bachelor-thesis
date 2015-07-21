@@ -1,4 +1,4 @@
-# usr/bin/env python3
+#!/usr/bin/env python3
 # encoding:utf8
 
 from gi.repository import Soup

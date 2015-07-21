@@ -1,0 +1,23 @@
+{'bozo': 0, 
+'namespaces': {'content': 'http://purl.org/rss/1.0/modules/content/'}, 
+'feed': {'author': 'wir@sueddeutsche.de (Süddeutsche Zeitung Digitale Medien GmbH)', 
+'authors': [{}], 
+'subtitle_detail': {'language': None, 'base': '', 'value': 'aktuelle Nachrichten, Kommentare und Huntergrundberichte online auf sueddeutsche.de', 'type': 'text/html'}, 
+'title_detail': {'language': None, 'base': '', 'value': 'Alle Artikel - Nachrichten aus Politik, Wirtschaft und Sport', 'type': 'text/plain'},
+'title': 'Alle Artikel - Nachrichten aus Politik, Wirtschaft und Sport', 'published': 'Tue, 21 Jul 2015 21:12:00 +0200', 
+'link': 'http://www.sueddeutsche.de', 
+'subtitle': 'aktuelle Nachrichten, Kommentare und Huntergrundberichte online auf sueddeutsche.de', 
+'links': [{'rel': 'alternate', 'href': 'http://www.sueddeutsche.de', 'type': 'text/html'}], 
+'published_parsed': time.struct_time(tm_year=2015, tm_mon=7, tm_mday=21, tm_hour=19, tm_min=12, tm_sec=0, tm_wday=1, tm_yday=202, tm_isdst=0), 'author_detail': {'name': 'Süddeutsche Zeitung Digitale Medien GmbH', 'email': 'wir@sueddeutsche.de'}, 
+'language': 'de', 'image': {'width': 144, 'link': 'http://www.sueddeutsche.de/', 'href': 'http://polpix.sueddeutsche.com/staticassets/img/siteheader/logo_rss.png', 
+'links': [{'rel': 'alternate', 'href': 'http://www.sueddeutsche.de/', 'type': 'text/html'}], 'height': 20, 'title_detail': {'language': None, 'base': '', 'value': 'Artikel / Süddeutsche.de', 'type': 'text/plain'}, 'title': 'Artikel / Süddeutsche.de'}}, 'version': 'rss20', 'encoding': 'utf-8', 
+
+'entries': [{'summary_detail': {'language': None, 'base': '', 'value': 'Alles so still. Gabriel von Seidls Büste wacht über die Ruhe. Vielleicht sollte er einmal einen kleinen weißen Ball auf die Nase bekommen...', 'type': 'text/html'}, 
+'link': 'http://sz.de/1.2576678', 
+'published_parsed': time.struct_time(tm_year=2015, tm_mon=7, tm_mday=21, tm_hour=19, tm_min=12, tm_sec=0, tm_wday=1, tm_yday=202, tm_isdst=0), 'guidislink': False, 
+'published': 'Tue, 21 Jul 2015 21:12:00 +0200', 
+'links': [{'rel': 'alternate', 'href': 'http://sz.de/1.2576678', 'type': 'text/html'}], 
+'summary': 'Alles so still. Gabriel von Seidls Büste wacht über die Ruhe. Vielleicht sollte er einmal einen kleinen weißen Ball auf die Nase bekommen...', 'id': 'http://sz.de/1.2576678', 
+'title_detail': {'language': None, 'base': '', 'value': 'Tölzer Prügel: M: 
+}]}
+

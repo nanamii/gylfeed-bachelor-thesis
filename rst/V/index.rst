@@ -143,7 +143,9 @@ soll anhand einer Stichprobe untersucht werden. Dabei wird davon ausgegangen,
 dass der *Titel (title)*, der *Plot (description)*, das *Datum (date)* und der
 *Autor (author)* eines Eintrags (items) vom
 Feedreader benötigt werden. Die Stichprobe soll auf diese vier Elemente
-getestet werden.
+getestet werden. Das Skript zur Ausführung des Tests ist in Anhang
+:ref:`testinhaltselemente` zu
+finden.
 
 
 .. figtable::
@@ -177,7 +179,8 @@ Spezifikation von RSS 2.0, dass es bei Items keine Pflicht-Elemente gibt, aber
 entweder *title* oder *description* vorhanden sein sollte. Deshalb soll eine
 separate Untersuchung durchgeführt werden, die betrachtet, wie häufig die
 Elemente *title* und *description* bei RSS 2.0 Feeds aus der Testmenge
-vorkommen.
+vorkommen. Das dafür verwendete Skript ist in Anhang :ref:`anforderungrss2` zu
+finden.
 
 
 
@@ -313,12 +316,12 @@ Folgendes Code-Beispiel einer interaktiven Python-Sitzung zeigt den Zugriff auf 
     # Ausgabe: Titel des Feeds der Sueddeutschen Zeitung
     "Alle Artikel - Nachrichten aus Politik, Wirtschaft und Sport"
 
-    #Zugriff auch über Punkt-Notation möglich
+    # Zugriff auch über Punkt-Notation möglich
     >>> feed_dict.entries[0].title
     # Ausgabe: Titel des Eintrags an Stelle O der Liste aus Einträgen
     "Trier: Tanja Gräff - keine Hinweise auf gewaltsamen Tod"
 
-Wie im Code-Beispiel zu sehen ist, kann beim Zugriff auf das Dictionary die komfortable 
+Wie im Code-Beispiel zu sehen ist, kann beim Zugriff auf das Dictionary eine komfortable 
 Punkt-Notation verwendet werden.
 
 
@@ -365,15 +368,13 @@ Folgende Code-Zeile führt das Parsen aus:
     
 
 Mit *document.data* wird auf die heruntergeladenen Daten zugegriffen, die zu diesem Zeitpunkt
-noch unverarbeitet sind. In Anhang :ref:`document` ist der Inhalt von
+noch unverarbeitet sind. In Anhang :ref:`heruntergeladenedatenanhang` ist der Inhalt von
 *document.data* am Beispiel des RSS 2.0 Feeds der Sueddeutschen Zeitung aufgeführt.
 
 Im Code-Beispiel enthält *raw_feed* die geparsten Daten in Form eines
 Dictionaries. Dieses Dictionary ist Bestandteil eines jeden Feedobjekts innerhalb von
-*gylfeed*. Der Inhalt des Dictionaries ist ebenfalls in Anhang :ref:`document`
+*gylfeed*. Der Inhalt des Dictionaries ist in Anhang :ref:`geparstedatenanhang`
 zu finden.
-
-- geparstet Dictionary in den Anhang
 
 
 Ablauf der Verarbeitung der Feed-Daten
@@ -441,7 +442,7 @@ geprüft werden, welche Nachrichten neu aufgenommen werden müssen. Das übernim
 die Funktion *compare_entries (feed_data)*. Dazu werden die Nachrichten der
 heruntergeladenen Feed-Daten anhand deren ID mit den bereits vorhandenen
 Nachrichten verglichen. Ist eine ID noch nicht vorhanden, wird die Nachricht zu
-den vorhandenen hinzugefügt. Die zum Vergleich verwendete ID ist laut dem
+den vorhandenen Nachrichten hinzugefügt. Die zum Vergleich verwendete ID ist laut dem
 Unviversal Feedparser ein global einzigartiger Identifikator. Häufig handelt es
 sich um die URL der Nachricht.
 
@@ -454,18 +455,9 @@ Es müssen sämtliche Einstellungen, die der Benutzer getätigt hat
 und die Feed-Daten selbst gespeichert werden. Umgesetzt wird dies aktuell mit dem Python-Modul
 *pickle* (vgl. :cite:`pickle`).
 
-Das Python-Modul *pickle* speichert die Daten in einem Binärformat. Mark Pilgrim
-nennt in *Python 3 -- Intensivkurs* folgende Datentypen, die mit *pickle*
-gespeichert werden können:
-
-
-    * Alle nativen Datentypen, die von Python unterstützt werden: Boolesche Werte, Ganzzahlen,
-      Fließkommazahlen, komplexe Zahlen, Strings, bytes-Objekte, Bytearrays und None.
-    * Listen, Tupel, Dictionarys und Sets, die eine Kombination der nativen Datentypen 
-      enthalten.
-    * Verschachtelung der genannten Datentypen.
-    * Funktionen, Klassen und Klasseninstanzen (mit Einschränkungen).
-
+Das Python-Modul *pickle* speichert die Daten in einem Binärformat. Es können
+alle von Python mitgelieferten nativen Datentypen gespeichert werden (vgl.
+:cite:`pilgrim`).
  
 Innerhalb von *gylfeed* wird für jeden Feed eine Liste gespeichert. Diese Liste
 enthält neben den reinen Feed-Daten ein Dictionary mit den Einstellungen und
@@ -498,15 +490,15 @@ lassen.
 
 Vorhandene und neue Nachrichten werden innerhalb der Funktion *compare_entries*
 anhand deren ID verglichen. Hier wären sicherlich noch andere Ansätze denkbar,
-wie beispielsweise die Berechnung eines Hashwertes. Vorteil?
+wie beispielsweise die Berechnung eines Hashwertes. Das würde den Vorteil
+bieten, dass man einen einheitlichen Vergleichswert hätte. Dieser könnte aus
+mehreren Attributen gebildet werden.
 
 Die Speicherung der Daten mit dem Python-Modul *pickle* ist in der aktuellen
 Anwendung vertretbar. Wird in zukünftigen Versionen von *gylfeed* jedoch
 beabsichtigt, die gespeicherten Daten außerhalb von Python für andere
-Anwendugnen zur Verfügung zu stellen, wäre es beispielsweise sinnvoll eine
-Datenbank mit sqlite einzusetzen. Diese Umsetzung würde es auch
-ermöglichen, die Daten in menschenlesbarer Form zu speichern.
+Anwendungen zur Verfügung zu stellen, wäre es beispielsweise sinnvoll, eine
+Datenbank mit SQLite einzusetzen. In diesem Fall wären die Daten für andere
+Anwendungen universell auslesbar.
 
 
-
-- Prüfung auf fehlende Elemente noch unzureichend, bisher bozo?

@@ -136,7 +136,8 @@ Verbindung aufgebaut werden muss.
 
 Genau an dieser Stelle setzt der asynchrone Ansatz an. Der grundsätzliche
 Unterschied zum synchronen Ansatz ist, dass der asynchrone Ansatz nicht wartet,
-bis eine Aufgabe abgearbeitet ist. Diese Unterscheidung kann genutzt werden, um
+bis eine Aufgabe abgearbeitet ist. Es gibt sozusagen keine blockierenden
+Operationen. Diese Unterscheidung kann genutzt werden, um
 in den Wartephasen andere Aufgaben abzuarbeiten. Das hat zur Folge, dass der
 asynchrone Ansatz nicht mehr Zeit in Anspruch nimmt, als der synchrone Ansatz
 und zudem den Vorteil bietet, dass verschiedene Aufgaben im Wechsel ausgeführt
@@ -222,7 +223,7 @@ verstehen. Bei einer erneuten Anfrage kann das Datum der letzten Änderung dazu
 verwendet werden, um beim Server nachzufragen, ob sich dieses Attribut bereits geändert hat
 und neue Daten verfügbar sind. Das geschieht mit dem Anfrage-Attribut
 *If-Modified-Since* und der Angabe des Datums der letzten Änderung. Liefert der
-Server den Status-Code 304, liegt keine Änderung der Daten vor.
+Server den Status-Code 304 (Not Modified), liegt keine Änderung der Daten vor.
 
 
 **ETag**: Der *Entity Tag* ist ein eindeutiger Validator einer bestimmten
@@ -232,7 +233,7 @@ Hinter dem ETag verbirgt sich ein Hashwert, der vom Server beliebig bestimmt
 werden kann. Ändern sich die Daten der Entität, muss ein anderer Hashwert
 bestimmt werden. Vergleichbar mit dem Vorgehen beim Attribut *last-modified*
 wird bei einer Anfrage an den Server der ETag mit dem Attribut *If-None-Match*
-der Anfrage angehängt. Liefert der Server den Status-Code 304, gilt auch hier,
+der Anfrage angehängt. Liefert der Server den Status-Code 304 (Not Modified), gilt auch hier,
 dass keine Änderung der Daten vorliegt.
 
 Beide Attribute stellen eine valide Möglichkeit dar, festzustellen, ob die Daten
@@ -253,7 +254,7 @@ sind 10 Feedlisten (insgesamt 6.203 URLs) des Online-Anbieters für Feedlisten, 
 Es wurde eine relativ große Testmenge gewählt, um ein aussagekräftiges Ergebnis
 zu erhalten. Für die 3.512 Feeds wurde jeweils der HTTP-Header angefordert und
 eine Prüfung auf die Attribute *last-modified* und *ETag* durchgeführt. Das
-dafür verwendete Skript ist in Anhang XXXX zu finden. Folgende Tabelle enthält
+dafür verwendete Skript ist in Anhang :ref:`etaglastmodi` zu finden. Folgende Tabelle enthält
 das Ergebnis des Tests.
 
 
@@ -263,7 +264,7 @@ das Ergebnis des Tests.
     :caption: Testergebnisse der Prüfung auf die Attribute ETag und
               last-modified bei 3.512 Feeds mit Status-Code 200. Für 83,88 % der
               3.512 Feeds wird eines der beiden Attribute geliefert.
-    :alt: Anzahl der vergebenen Genres pro Film.
+    :alt: Testergebnisse der Prüfung auf die Attribute ETag und last-modified.
     :spec: l l l
 
     ============================================ ============  ==========
@@ -283,7 +284,7 @@ die das Attribut *last-modified* liefern (80,10%) deutlich größer ist, als der
 der das Attribut *ETag* liefert (24,87%). Beide Attribute wurden von 741 (21,10%) geliefert.
 Von 566 Feeds (16,12%) wurde keines der Attribute geliefert. Der bedeutenste
 Wert ist der Anteil der Feeds, die mindestens eines der beiden Attribute
-liefert (83,88%). Da es bei der Prüfung auf Änderung der Feed-Daten ausreichend
+liefert (83,88% siehe Abbildung :num:`plot`). Da es bei der Prüfung auf Änderung der Feed-Daten ausreichend
 ist, durch eines der Attribute validieren zu können, ob eine Änderung
 stattgefunden hat, ist dieser Wert entscheidend.
     
@@ -296,7 +297,8 @@ prüfen, ob eine Änderung der Daten vorliegt.
 .. _plot:
 
 .. figure:: ./figs/piechart.png
-    :alt: Anteil von Feeds mit mindestens einem Attribut.
+    :alt: Anteil von Feeds mit mindestens einem der Attribute ETag oder
+          last-modified.
     :width: 80%
     :align: center
     
@@ -306,8 +308,8 @@ prüfen, ob eine Änderung der Daten vorliegt.
 
 
 
-Umsetzung in *gylfeed*
-======================
+Umsetzung innerhalb von *gylfeed*
+=================================
 
 Die Herausforderungen, die sich bei der Beschaffung der Feed-Daten ergeben, wurden
 erläutert und mögliche Lösungsansätze vorgestellt. Nun wird betrachtet, wie die
@@ -408,8 +410,8 @@ Daten gelesen, wird das Signal *finish* ausgelöst.
 
 
 
-Anwendung der Prüfung auf Aktualisierung
-----------------------------------------
+Prüfung auf Aktualisierung mittels *ETag* und *last-modified*
+-------------------------------------------------------------
 
 Die im Ablauf des Downloads erwähnte Prüfung auf Aktualisierung der Feed-Daten
 wird an dieser Stelle separat betrachtet. Es wird kurz auf die Anwendung
@@ -467,11 +469,12 @@ Bewertung der Umsetzung
 ----------------------- 
 
 In der aktuellen Version von *gylfeed* wird die Prüfung auf Änderung der
-Feed-Daten auf der Client-Seite ausgeführt. Für die entsprechende URL wird der
+Feed-Daten auf der Client-Seite ausgeführt. Dies ist noch suboptimal. 
+Für die entsprechende URL wird der
 Header heruntergeladen und es wird eine Prüfung auf Übereinstimmung des bisher
 gespeicherten *last-modified* bzw. *ETag*-Wertes durchgeführt. Die Umstellung auf die
 komfortablere Variante, die Prüfung auf Seiten des Servers durchführen zu lassen, ist geplant.
 
-Evtl. noch was zum Download selbst?
-
+Der Einsatz des asynchronen Downloads in der vorgestellten Form ist zum
+aktuellen Zeitpunkt eine gute Lösung.
 
