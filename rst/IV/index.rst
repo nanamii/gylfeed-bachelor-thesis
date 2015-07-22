@@ -75,7 +75,7 @@ beansprucht zusätzlich unnötige Rechenkapazität.
 Lösungsansätze
 ==============
 
-Für die genannten Problemstellungen werden im Folgenden Lösungsanzätze
+Für die genannten Problemstellungen werden im Folgenden Lösungsansätze
 diskutiert.
 
 
@@ -119,9 +119,10 @@ einfachen Operationen, wie beispielsweise den Klick auf einen Button, relativ
 viel Zeit in Anspruch nimmt, ist das für die Performance der Anwendung suboptimal.
 
 Aus diesem Grund wird der Download häufig manuell in Teilpakete aufgeteilt.
-Diese Herangehensweise stellt der zweite Pfeil dar. Hier erfolgt ebenso als
+Diese Herangehensweise stellt der mittlere Pfeil dar. Hier erfolgt ebenso als
 erstes der Klick auf den Button. Anschließend wird der Download, in der
-entsprechend angegebenen Größe abgearbeitet. Darauf folgt die Abarbeitung der
+entsprechend angegebenen Größe abgearbeitet. Es erfolgt sozusagen ein teilweises
+Herunterladen des Gesamtpakets. Darauf folgt die Abarbeitung der
 Anliegen der grafischen Benutzeroberfläche. Dieser Wechsel zwischen Download und
 grafischer Benutzeroberfläche wird bis zum Abschluss des Downloads durchgeführt.
 Auf diese Weise kann der Nachteil des klassischen synchronen Ansatzes umgangen
@@ -129,7 +130,7 @@ werden. Die grafische Benutzeroberfläche hat immer wieder Gelegenheit,
 Aktualisierungen durchzuführen und Benutzereingaben entgegenzunehmen. Bei dieser
 Herangehensweise kommt jedoch ein anderer Nachteil hinzu. In der Abbildung wird
 bereits deutlich, dass dieser Ansatz, im Vergleich zum klassischen synchronen
-Ansatz, mehr Zeit in Aspruch nimmt. Nach der Abarbeitung von Aufgaben der
+Ansatz, mehr Zeit in Anspruch nimmt. Nach der Abarbeitung von Aufgaben der
 grafischen Benutzeroberfläche kommt es zu Wartezeiten. Ein Grund dafür ist beispielsweise, dass
 der Download nicht sofort weitergeführt werden kann, weil eventuell erneut eine
 Verbindung aufgebaut werden muss.
@@ -145,20 +146,6 @@ werden können. Wie in der Abbildung zu sehen ist, nutzt der asynchrone Ansatz
 mögliche Wartezeiten beim Download, um Belange der grafischen Benutzeroberfläche
 abzuarbeiten.
 
-
-**Performance-Test**:
-Um den Vorteil des asynchronen Ansatzes in der Praxis zu testen, wurde für
-beide Ansätze ein Performancetest durchgeführt. Für eine steigende Menge an
-URLs (5, 10, 20, 30, 40, 50) wurde der Inhalt heruntergeladen. Um statistische
-Ausreißer abzumildern, wurde der Durchschnitt aus 10 Durchläufen gebildet.
-Die Messungen haben ergeben, dass der asynchrone Ansatz dem synchronen
-Ansatz bezüglich der Dauer des Downloads klar überlegen ist. 
-In Abbildung :num:`plot` ist das Ergebnis der Messung grafisch dargestellt.
-Beide Ansätze verzeichnen einen Anstieg der Downloaddauer bei steigender Anzahl
-an URLs. Beim asynchronen Ansatz fällt die Steigerung jedoch deutlich weniger
-stark aus.
-
-
 .. _plot:
 
 .. figure:: ./figs/plot.png
@@ -169,6 +156,37 @@ stark aus.
     Vergleich der Downloadgeschwindigkeit von synchroner und asynchroner
     Ausführung. Gemessen für 5, 10, 20, 30, 40 und 50 URLs. Durchschnitt aus
     jeweils 10 Durchfläufen gebildet.
+
+
+
+**Performance-Test**:
+
+
+Um den Vorteil des asynchronen Ansatzes in der Praxis zu testen, wurde für
+beide Ansätze ein Performancetest durchgeführt. Für eine steigende Menge an
+URLs (5, 10, 20, 30, 40, 50) wurde der Inhalt heruntergeladen. Um statistische
+Ausreißer abzumildern, wurde der Durchschnitt aus 10 Durchläufen gebildet.
+Die Messungen haben ergeben, dass der asynchrone Ansatz dem synchronen
+Ansatz bezüglich der Dauer des Downloads klar überlegen ist. 
+In Abbildung :num:`plot` ist das Ergebnis der Messung grafisch dargestellt.
+Beide Ansätze verzeichnen einen Anstieg der Downloaddauer bei steigender Anzahl
+an URLs. Beim asynchronen Ansatz fällt die Steigerung jedoch deutlich weniger
+stark aus. Beide Skripte zur Ausführung des Performance-Tests sind in Anhang A (:ref:`performancesync`)
+und Anhang B (:ref:`performanceasync`) zu finden.
+
+**Testumgebung**:
+
+Der Performance-Test für die Download-Geschwindigkeit bei synchronem und
+asynchronem Download der Feed-Daten wurde auf folgendem System durchgeführt:
+
+• OS: Fedora 21 (64 bit)
+• CPU: Intel Core i7 M620 @ 2,67GHz
+• RAM: 8 GB DDR2 RAM
+
+Die verwendete Internetanbindung ist eine DSL 16 Mbit Leitung der Telekom. Laut
+Internet–Messverfahren hat diese eine gemittelte Geschwindigkeit von ungefähr 13 Mbit/s
+(Download) und 2 Mbit/s (Upload).
+
 
 
 .. _etagtest:
@@ -254,7 +272,7 @@ sind 10 Feedlisten (insgesamt 6.203 URLs) des Online-Anbieters für Feedlisten, 
 Es wurde eine relativ große Testmenge gewählt, um ein aussagekräftiges Ergebnis
 zu erhalten. Für die 3.512 Feeds wurde jeweils der HTTP-Header angefordert und
 eine Prüfung auf die Attribute *last-modified* und *ETag* durchgeführt. Das
-dafür verwendete Skript ist in Anhang :ref:`etaglastmodi` zu finden. Folgende Tabelle enthält
+dafür verwendete Skript ist in Anhang C (:ref:`etaglastmodi`) zu finden. Folgende Tabelle enthält
 das Ergebnis des Tests.
 
 
@@ -444,11 +462,11 @@ gestellt. Folgendes Code-Snippet zeigt die Prüfung auf das Attribut
     >>> Status-Code: 304; Date: Wed, 17 Jun 2015 15:11:36 GMT
 
 
-Es wird mit Hilfe der Bibliothek libsoup eine Session erstellt. Anschließend
+Es wird mit Hilfe der Bibliothek *libsoup* eine Session erstellt. Anschließend
 wird eine sogenannte *Message* erstellt. Diese enthält die anzuwendende
 HTTP-Methode und die anzufragende URL. In diesem Fall wird *GET* als
 HTTP-Methode verwendet, weil bei der Übergabe des *if-modified-since* Attributs
-der Inhalt der Antwort nur gesendet wird, wenn tatsätlich eine Änderung seitens
+der Inhalt der Antwort nur gesendet wird, wenn tatsächlich eine Änderung seitens
 des Servers vorliegt. Im nächsten Schritt wird der *Message* ein Anfrage-Header
 angehängt, der das Attribut *if-modified-since* und den dazugehörigen Wert, ein
 *last-modified*, enthält. Zuletzt wird die Nachricht versendet. Im ersten

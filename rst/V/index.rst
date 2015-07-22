@@ -48,7 +48,8 @@ die von der gesamten Testmenge (6.203) heruntergeladen werden konnten, das Forma
 RSS in der Version 2.0 am häufigsten vorkommt. Atom in der Version 1.0 ist mit
 einem Vorkommen von 971 das zweithäufigste Format. Alle anderen erkannten
 Formate machen zusammen mit einem Wert von 79 einen geringen Anteil aus.
-Dateien, die entweder kein Feed oder fehlerhaft waren, betragen 483.
+Dateien, die entweder kein Feed oder fehlerhaft waren, betragen 483. Das Skript
+zur Ausführung des Tests ist in Anhang D (:ref:`feedtest`) zu finden.
 
 
 
@@ -143,8 +144,8 @@ soll anhand einer Stichprobe untersucht werden. Dabei wird davon ausgegangen,
 dass der *Titel (title)*, der *Plot (description)*, das *Datum (date)* und der
 *Autor (author)* eines Eintrags (items) vom
 Feedreader benötigt werden. Die Stichprobe soll auf diese vier Elemente
-getestet werden. Das Skript zur Ausführung des Tests ist in Anhang
-:ref:`testinhaltselemente` zu
+getestet werden. Das Skript zur Ausführung des Tests ist in Anhang E
+(:ref:`testinhaltselemente`) zu
 finden.
 
 
@@ -179,7 +180,7 @@ Spezifikation von RSS 2.0, dass es bei Items keine Pflicht-Elemente gibt, aber
 entweder *title* oder *description* vorhanden sein sollte. Deshalb soll eine
 separate Untersuchung durchgeführt werden, die betrachtet, wie häufig die
 Elemente *title* und *description* bei RSS 2.0 Feeds aus der Testmenge
-vorkommen. Das dafür verwendete Skript ist in Anhang :ref:`anforderungrss2` zu
+vorkommen. Das dafür verwendete Skript ist in Anhang F (:ref:`anforderungrss2`) zu
 finden.
 
 
@@ -249,7 +250,6 @@ Das Verarbeiten der Feed-Daten wird mit der Funktion *parse(source)* ausgeführt
 Die Funktion erwartet entweder die URL des Feeds, den Pfad einer lokalen Datei
 oder die Feed-Daten als String.
 
-- vl. geparstes Ergebnis in den Anhang
 
 .. code-block:: python
 
@@ -284,7 +284,7 @@ Normalisierung wie in Abbildung :num:`normalisierungtabelle` dargestellt aus.
 
 .. _normalisierungstabelle:
 
-.. figtable::
+.. figtable:: 
     :label: normalisierungtabelle
     :caption: Normalisierte Feed-Elemente auf Seiten des Universal Feedparsers
               mit den Entsprechungen für die Formate RSS 2.0 und Atom 1.0.
@@ -306,6 +306,8 @@ Normalisierung wie in Abbildung :num:`normalisierungtabelle` dargestellt aus.
 
 Die normalisierten Feed-Daten werden als Dictionary, d.h. einer Datenstruktur bestehend 
 aus Schlüssel-Wert-Paaren, zur Verfügung gestellt.
+
+
 
 Folgendes Code-Beispiel einer interaktiven Python-Sitzung zeigt den Zugriff auf das Dictionary:
   
@@ -368,12 +370,13 @@ Folgende Code-Zeile führt das Parsen aus:
     
 
 Mit *document.data* wird auf die heruntergeladenen Daten zugegriffen, die zu diesem Zeitpunkt
-noch unverarbeitet sind. In Anhang :ref:`heruntergeladenedatenanhang` ist der Inhalt von
+noch unverarbeitet sind. In Anhang G (:ref:`heruntergeladenedatenanhang`) ist der Inhalt von
 *document.data* am Beispiel des RSS 2.0 Feeds der Sueddeutschen Zeitung aufgeführt.
 
 Im Code-Beispiel enthält *raw_feed* die geparsten Daten in Form eines
 Dictionaries. Dieses Dictionary ist Bestandteil eines jeden Feedobjekts innerhalb von
-*gylfeed*. Der Inhalt des Dictionaries ist in Anhang :ref:`geparstedatenanhang`
+*gylfeed*. Der Inhalt des Dictionaries ist in Anhang H
+(:ref:`geparstedatenanhang`)
 zu finden.
 
 

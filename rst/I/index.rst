@@ -55,19 +55,4 @@ Im Kapitel *Weiterführende Konzepte* wird der Ausbau der Suchfunktion und der
 Einbezug von Nutzer-Präferenzen betrachtet.
 
 
-Testumgebung
-============
-
-Der Performance-Test für die Download-Geschwindigkeit bei synchronem und
-asynchronem Download der Feed-Daten wurde auf folgendem System durchgeführt:
-
-
-• OS: Fedora 21 (64 bit)
-• CPU: Intel Core i7 M620 @ 2,67GHz
-• RAM: 8 GB DDR2 RAM
-• HDD: Hitachi 120GB, 5400 upm
-
-Als Internetanbindung wurde eine VDSL 16 Mbit Leitung der Telekom verwendet. Diese hat laut
-Internet–Messverfahren eine gemittelte Geschwindigkeit von ungefähr 48 Mbit/s (downstream) und
-8 Mbit/s (upstream)
 

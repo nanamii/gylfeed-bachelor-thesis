@@ -8,16 +8,18 @@
 Performancetest, synchroner Ansatz
 ==================================
 
+Folgender Python-Code wurde zur Performance-Messung des synchronen Downloads
+eingesetzt.
+
 .. code-block:: python
+
+    #!/usr/bin/env python3
+    # encoding:utf8
 
     from gi.repository import Soup
     from gi.repository import GLib
     from gi.repository import GObject
-    import timeit
-    import time
-    import sys
-    import pygal
-
+    import timeit, time, sys
 
     class Downloader():
         def __init__(self):
@@ -49,12 +51,12 @@ Performancetest, synchroner Ansatz
         for x in range(int(sys.argv[1])):
             run_sum = 0
                 for url in url_list:
-                    t = timeit.Timer("loader.download_data('{}')".format(url), "from __main__ import Downloader; loader = Downloader()")
+                    t = timeit.Timer("loader.download_data('{}')".format(url),
+                    "from __main__ import Downloader; loader = Downloader()")
                     run_sum += t.timeit(number=1)
                 result_list.append(run_sum)
                 print(run_sum)
             print(result_list)
-
 
             sum = 0
             for y in result_list:
@@ -70,6 +72,9 @@ Performancetest, synchroner Ansatz
 Performancetest, asynchroner Ansatz
 ===================================
 
+Folgender Python-Code wurde zur Performance-Messsung des asynchronen Downloads
+eingesetzt.
+
 .. code-block:: python
 
     #!/usr/bin/env python3
@@ -78,9 +83,7 @@ Performancetest, asynchroner Ansatz
     from gi.repository import Soup
     from gi.repository import GLib
     from gi.repository import GObject
-    import timeit
-    import sys
-
+    import timeit, sys
 
     class Document(GObject.Object):
         __gsignals__ = {
@@ -109,7 +112,6 @@ Performancetest, asynchroner Ansatz
             self.counter = 0
             self.loop = GLib.MainLoop()
 
-
         def download_data(self, url):
             message = Soup.Message.new("GET", url)
             document = Document()
@@ -117,7 +119,6 @@ Performancetest, asynchroner Ansatz
                 message, callback=self._get_data_deferred, user_data=document
             )
             return document
-
 
         def _get_data_deferred(self, session, result, document):
             stream = session.send_finish(result)
@@ -142,7 +143,6 @@ Performancetest, asynchroner Ansatz
                 document = self.download_data(url)
                 document.connect("finish", self.do_counter)
             self.loop.run()
-
 
         def do_counter(self, document):
             self.counter += 1
@@ -169,7 +169,8 @@ Performancetest, asynchroner Ansatz
 
         result_list = []
         for y in range(run):
-            t = timeit.Timer("loader.init_download({})".format(url_list), "from __main__ import Downloader; loader = Downloader()")
+            t = timeit.Timer("loader.init_download({})".format(url_list),
+            "from __main__ import Downloader; loader = Downloader()")
             time = t.timeit(number=1)
             result_list.append(time)
 
@@ -183,8 +184,11 @@ Performancetest, asynchroner Ansatz
 
 .. _etaglastmodi:  
 
-Test auf ETag und last-modified
-===============================
+Stichprobentest: *ETag* und *last-modified*
+===========================================
+
+Das Vorkommen von *ETag* und *last-mofified* in HTTP-Headern wurde mit folgendem
+Python-Code getestet.
 
 .. code-block:: python
 
@@ -203,7 +207,6 @@ Test auf ETag und last-modified
              return fd.read().splitlines()
 
      url_list = read_urllist(sys.argv[1])
-
      cnt = {'lm': 0, 'etag': 0, 'both':0, 'all': 0}
 
      for n, url in enumerate(url_list):
@@ -229,8 +232,11 @@ Test auf ETag und last-modified
 
 .. _feedtest:
 
-Test auf Feedformate
-====================
+Stichprobentest: Feedformate
+============================
+
+Folgender Python-Code wurde zum Test auf die Häufigkeit der Feedformate
+verwendet.
 
 .. code-block:: python
 
@@ -257,8 +263,11 @@ Test auf Feedformate
 
 .. _testinhaltselemente:
 
-Test auf Inhaltselemente
-========================
+Stichprobentest: Inhaltselemente
+================================
+
+Mit folgendem Python-Code wurde der Test auf das Vorkommen verschiedener
+XML-Elemente durchgeführt.
 
 .. code-block:: python
 
@@ -328,6 +337,10 @@ Test auf Inhaltselemente
 
 Test: Anforderung RSS 2.0 Spezifikation
 =======================================
+
+Der folgende Python-Code wurde zur Prüfung der Anforderung aus der RSS 2.0
+Spezifikation verwendet. Diese fordert, dass mindestens eines der Attribute
+*title* oder *description* bezüglich einer Nachricht vorhanden sein sollte.
 
 .. code-block:: python
 
@@ -400,6 +413,10 @@ Test: Anforderung RSS 2.0 Spezifikation
 Heruntergeladene Feed-Daten
 ===========================
 
+Der folgende Byte-String enthält die XML-Daten zum Feed der Sueddeutschen
+Zeitung. Das sind die unbearbeiteten Daten, die das Objekt *Feed* zum Parsen
+erhält.
+
 .. code-block:: xml
 
    b'<?xml version="1.0" encoding="UTF-8" ?>\n
@@ -439,6 +456,9 @@ Heruntergeladene Feed-Daten
 
 Geparste Feed-Daten
 ===================
+
+Im Folgenden ist das Ergebnis der Funktion *parse* des Universal Feedparser zu
+sehen, ein Dictionary mit Feed-Daten zum Feed der Sueddeutschen Zeitung. 
 
 .. code-block:: xml
 

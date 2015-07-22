@@ -23,6 +23,7 @@
     Abkürzung                Bedeutung
     =======================  ==================================
     API                      *Application Programming Interface*
+    CDF                      *Common Data Format*    
     GTK                      *GIMP Toolkit*
     GUI                      *Graphical User Interface*
     HTML                     *Hypertext Markup Language*
