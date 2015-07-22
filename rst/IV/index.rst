@@ -46,7 +46,7 @@ Folgenden näher betrachtet werden.
 Performance der Anwendung
 -------------------------
 
-Der Main-Event-Loop, der in Abschnitt :ref:`signale` vorgestellt wurde,
+Der Main-Event-Loop, der in Abschnitt :ref:`maineventloop` vorgestellt wurde,
 verarbeitet Aufgaben grundsätzlich synchron. Bei einer synchronen Verarbeitung
 wird gewartet, bis eine Aufgabe abgeschlossen ist, erst dann wird mit der
 Verarbeitung der nächsten Aufgabe begonnen. Bei einer großen Anzahl an Feeds,
@@ -184,7 +184,7 @@ asynchronem Download der Feed-Daten wurde auf folgendem System durchgeführt:
 • RAM: 8 GB DDR2 RAM
 
 Die verwendete Internetanbindung ist eine DSL 16 Mbit Leitung der Telekom. Laut
-Internet–Messverfahren hat diese eine gemittelte Geschwindigkeit von ungefähr 13 Mbit/s
+Internet-Messverfahren hat diese eine gemittelte Geschwindigkeit von ungefähr 13 Mbit/s
 (Download) und 2 Mbit/s (Upload).
 
 
@@ -210,7 +210,7 @@ der Quelle. Dieser sogenannte *Header* enthält die Attribute *ETag* und
 *last-modified*. Anhand dieser Attribute kann festgestellt werden, ob sich der Inhalt der Quelle
 aktualisiert hat.
 
-Beispiel eines HTTP-Headers -- der Atom-Feed von *golem*:
+Beispiel eines HTTP-Headers -- der Atom-Feed von *golem.de*:
 
 
 .. code-block:: python
@@ -247,7 +247,7 @@ Server den Status-Code 304 (Not Modified), liegt keine Änderung der Daten vor.
 **ETag**: Der *Entity Tag* ist ein eindeutiger Validator einer bestimmten
 Instanz einer Entität. So beschreiben Gourley und Totty das Attribut *ETag*
 (vgl. :cite:`gourley`, S.367).
-Hinter dem ETag verbirgt sich ein Hashwert, der vom Server beliebig bestimmt
+Hinter dem *ETag* verbirgt sich ein Hashwert, der vom Server beliebig bestimmt
 werden kann. Ändern sich die Daten der Entität, muss ein anderer Hashwert
 bestimmt werden. Vergleichbar mit dem Vorgehen beim Attribut *last-modified*
 wird bei einer Anfrage an den Server der ETag mit dem Attribut *If-None-Match*
@@ -259,6 +259,7 @@ eines Feeds aktualisiert wurden. Sendet der Server auf eine Anfrage den Status-C
 ist für diesen Feed klar, dass keine Änderung vorliegt und deshalb kein Download
 erfolgen muss. Nicht jeder Server liefert die Attribute *last-modified* oder *ETag*. Ist keines
 der beiden vorhanden, müssen die Feed-Daten trotzdem heruntergeladen werden.
+
 
 **Stichproben-Test**:
 
@@ -272,11 +273,19 @@ sind 10 Feedlisten (insgesamt 6.203 URLs) des Online-Anbieters für Feedlisten, 
 Es wurde eine relativ große Testmenge gewählt, um ein aussagekräftiges Ergebnis
 zu erhalten. Für die 3.512 Feeds wurde jeweils der HTTP-Header angefordert und
 eine Prüfung auf die Attribute *last-modified* und *ETag* durchgeführt. Das
-dafür verwendete Skript ist in Anhang C (:ref:`etaglastmodi`) zu finden. Folgende Tabelle enthält
-das Ergebnis des Tests.
+dafür verwendete Skript ist in Anhang C (:ref:`etaglastmodi`) zu finden.
 
-
-
+Tabelle :num:`attribute-statistics` zeigt das Ergebnis des Tests.
+Die Ergebnisse beziehen sich auf 3.512 Feeds, deren Server eine valide Antwort
+(Status Code 200) geliefert hat. Es ist zu erkennen, dass der Anteil an Feeds, 
+die das Attribut *last-modified* liefern (80,10%) deutlich größer ist, als der Anteil, 
+der das Attribut *ETag* liefert (24,87%). Beide Attribute wurden von 741 (21,10%) geliefert.
+Von 566 Feeds (16,12%) wurde keines der Attribute geliefert. Der bedeutenste
+Wert ist der Anteil der Feeds, die mindestens eines der beiden Attribute
+liefert (83,88% siehe Abbildung :num:`piechart`). Da es bei der Prüfung auf Änderung der Feed-Daten ausreichend
+ist, durch eines der Attribute validieren zu können, ob eine Änderung
+stattgefunden hat, ist dieser Wert entscheidend.
+ 
 .. figtable::
     :label: attribute-statistics
     :caption: Testergebnisse der Prüfung auf die Attribute ETag und
@@ -296,23 +305,14 @@ das Ergebnis des Tests.
      |hline| **valide Feeds** (status code 200)   3.512         100,00
     ============================================ ============  ==========
 
-Die Ergebnisse beziehen sich auf 3.512 Feeds, deren Server eine valide Antwort
-(Status Code 200) geliefert hat. Es ist zu erkennen, dass der Anteil an Feeds, 
-die das Attribut *last-modified* liefern (80,10%) deutlich größer ist, als der Anteil, 
-der das Attribut *ETag* liefert (24,87%). Beide Attribute wurden von 741 (21,10%) geliefert.
-Von 566 Feeds (16,12%) wurde keines der Attribute geliefert. Der bedeutenste
-Wert ist der Anteil der Feeds, die mindestens eines der beiden Attribute
-liefert (83,88% siehe Abbildung :num:`plot`). Da es bei der Prüfung auf Änderung der Feed-Daten ausreichend
-ist, durch eines der Attribute validieren zu können, ob eine Änderung
-stattgefunden hat, ist dieser Wert entscheidend.
-    
+   
 Zusammenfassend hat der Test ergeben, dass ein Großteil der Webserver, auf denen die Feed-Daten lagern,
 mindestens eines der Attribute *last-modified* oder *ETag* liefern. Das spricht für das bereits beschriebene 
 Vorgehen, beim Download der Feed-Daten vorerst die Prüfung auf eine Änderung durchzuführen. Lediglich für 16,12 %
 der 3.512 Feeds müssten die kompletten Feed-Daten heruntergeladen werden, um zu
 prüfen, ob eine Änderung der Daten vorliegt.
 
-.. _plot:
+.. _piechart:
 
 .. figure:: ./figs/piechart.png
     :alt: Anteil von Feeds mit mindestens einem der Attribute ETag oder
@@ -334,8 +334,8 @@ erläutert und mögliche Lösungsansätze vorgestellt. Nun wird betrachtet, wie 
 Beschaffung der Feed-Daten in *gylfeed* umgesetzt wurde.
 
 
-Asynchroner Download mit libsoup
---------------------------------
+Asynchroner Download mit *libsoup*
+----------------------------------
 
 In *gylfeed* wird der Download der Feed-Daten mit der HTTP-Bibliothek *libsoup*
 (vgl. :cite:`libsoup`)

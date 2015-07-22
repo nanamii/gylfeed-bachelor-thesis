@@ -25,7 +25,8 @@ führen. Auf diese Probleme wird an späterer Stelle eingegangen.
 
 Als Analysewerkzeug wurde der Universal Feedparser verwendet. In Abschnitt
 :ref:`feedparser` wird dieser Feedparser näher vorgestellt. Für beide Tests 
-wurde die bereits in Kapitel :ref:`beschaffung` verwendete Testmenge von 6.203 Feeds genutzt.
+wurde die bereits in Kapitel :ref:`chapterbeschaffung` -- *Beschaffung der
+Feed-Daten* verwendete Testmenge von 6.203 Feeds genutzt.
 
 
 .. _testfeedformate:
@@ -36,7 +37,7 @@ Feedformate
 Wie bereits in der Projektarbeit *Entwicklung und Implementierung eines
 Feedreaders* (vgl. :cite:`kiessling`) erwähnt, gibt es eine Vielzahl an Feedformaten und diese in
 verschiedenen Versionen. Allein das Format RSS (Really Simple Syndication) 
-wurde in sechs verschiedenen Versionen veröffentlicht (vgl. :cite:`HU` - Historie der RSS-Versionen).
+wurde in sechs verschiedenen Versionen veröffentlicht (vgl. :cite:`HU` -- Historie der RSS-Versionen).
 
 Es soll nun anhand einer
 Stichprobe untersucht werden, wie häufig die verschiedenen Feedformate in der
@@ -49,22 +50,11 @@ RSS in der Version 2.0 am häufigsten vorkommt. Atom in der Version 1.0 ist mit
 einem Vorkommen von 971 das zweithäufigste Format. Alle anderen erkannten
 Formate machen zusammen mit einem Wert von 79 einen geringen Anteil aus.
 Dateien, die entweder kein Feed oder fehlerhaft waren, betragen 483. Das Skript
-zur Ausführung des Tests ist in Anhang D (:ref:`feedtest`) zu finden.
+zur Ausführung des Tests ist in Anhang D (:ref:`feedtest`) zu finden. In Abbildung
+:num:`plotfeedformate` ist die Summe an Feeds mit einem RSS oder Atom-Format,
+bzw. Feeds ohne Format bezogen auf die gesamt getesteten Feeds zu sehen.
 
 
-
-.. _plot:
-
-.. figure:: ./figs/plot_formate.png
-    :alt: Häufigkeit der verschiedenen Feedformate.
-    :width: 80%
-    :align: center
-    
-    Die Häufigkeit verschiedener Feedformate, untersucht anhand einer
-    Stichprobe von 6.203 Feeds.  
-
-
-    
 .. figtable::
     :label: format-statistics
     :caption: Testergebnisse der Prüfung auf Feedformat für 5.092
@@ -86,6 +76,18 @@ zur Ausführung des Tests ist in Anhang D (:ref:`feedtest`) zu finden.
      |hline| **gesamte Dateien**                   5.092         100,00
     ============================================ ============  ==========
 
+.. _plotfeedformate:
+
+.. figure:: ./figs/plot_formate.png
+    :alt: Häufigkeit der verschiedenen Feedformate.
+    :width: 80%
+    :align: center
+    
+    Die Häufigkeit verschiedener Feedformate, untersucht anhand einer
+    Stichprobe von 6.203 Feeds.  
+
+
+.. _testxmlelemente:
 
 XML-Elemente
 ------------
@@ -138,6 +140,8 @@ Das Beispiel des RSS 2.0 Feeds stellt nur einen Ausschnitt der möglichen
 Elemente dar. Die vollständige Liste der Elemente ist in der Spezifikation von
 RSS 2.0 abrufbar (vgl. :cite:`rssrequests`).
 
+
+**Stichprobentest:**
 
 Inwiefern fehlende Elemente bei der Umsetzung eines Feedreaders von Bedeutung sind,
 soll anhand einer Stichprobe untersucht werden. Dabei wird davon ausgegangen,
@@ -205,7 +209,7 @@ finden.
     =============================================== ============  ==========
 
 
-Das Testergebnis zeigt, dass die Forderung aus der Spezifikation von RSS 2.0
+Das Testergebnis in Tabelle :num:`title-description-statistics` zeigt, dass die Forderung aus der Spezifikation von RSS 2.0
 für 97,53 % der 3.559 getesteten RSS 2.0 Feeds erfüllt wird. Lediglich 2,47 % der
 Feeds liefern weder *title* noch *description*.
 

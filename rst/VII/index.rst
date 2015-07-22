@@ -5,6 +5,7 @@ Weiterführende Konzepte
 ***********************
 
 Innerhalb der Projektarbeit *Entwurf und Implementierung eines Feedreaders*
+(vgl. :cite:`kiessling`)
 wurden bereits mögliche Verbesserungen und Erweiterungen für den Feedreader
 *gylfeed* vorgeschlagen. Im Folgenden wird die Suchfunktion und der Einbezug von
 Nutzer-Präferenzen näher betrachtet.
@@ -188,7 +189,7 @@ Klassifikationsverfahren, das auf dem Satz von Bayes basiert (vgl.
 Es wird die Wahrscheinlichkeit *P* für die Relevanz *R* bezüglich eines
 gegebenen Dokuments *D* berechnet.
 
-Einen Klassifikator an sich beschreiben Dumais et. al. als Funktion, die einen
+Einen Klassifikator an sich beschreiben Dumais et al. als Funktion, die einen
 gegebenen Vektor aus Attributen einer Wahrscheinlichekeit, dass diese Attribute
 zu einer bestimmten Klasse gehören, zuordnet (vgl. :cite:`dumais`). Attribute
 wären in diesem Fall die Worte innerhalb eines Dokuments, also einer

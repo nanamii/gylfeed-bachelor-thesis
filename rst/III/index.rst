@@ -45,7 +45,7 @@ einer Hierarchie organisiert. Die Hierarchie
 aller Widgets ist unter :cite:`widgetsall` abrufbar.
 
 
-
+.. _maineventloop:
 
 Der Main-Event-Loop
 ===================
@@ -279,7 +279,7 @@ Klasse *MainWindow* auf die Signale registriert.
 Es wird sich innerhalb der Klasse Feed auf das Signal registriert. Das Signal
 wird emittiert, sobald der asynchrone Download beendet ist. Eine detaillierte
 Betrachtung vom Ablauf des asynchronen Downloads wird in Kapitel
-:ref:`chapterbeschaffung`
+:ref:`chapterbeschaffung` -- *Beschaffung der Feed-Daten*
 durchgeführt. Callback-Funktionen sind Document._load_icon_deferred(), Feed._parse()
 und Feed._parse_update().
 

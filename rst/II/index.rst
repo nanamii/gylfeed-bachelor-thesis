@@ -43,6 +43,11 @@ Zusammengefasst bietet der Feedreader *gylfeed* folgende Funktionalitäten:
  * Bedienkonzept: Navigation mit Tastatur und Einbindung von Shortcuts.
 
 
+
+.. raw:: Latex
+
+   \newpage
+
 Für die grafische Benutzeroberfläche wurden folgende Anforderungen umgesetzt:
  
  * Entwicklung nach GNOME Design-Richtlinien
@@ -135,7 +140,7 @@ Daten beim Start der Software.
 Die Benutzeroberfläche kommuniziert Eingaben des Benutzers unter der Verwendung von
 Signalen an die jeweilige logische Einheit. Die theoretischen Grundlagen zu
 Signalen und die Verwendung von Signalen innerhalb *gylfeed* wird in Kapitel
-:ref:`signal_kommunikation` -- Kommunikation über Signale betrachtet. 
+:ref:`signal_kommunikation` -- *Kommunikation über Signale* betrachtet. 
 
 
 Die grafische Benutzeroberfläche

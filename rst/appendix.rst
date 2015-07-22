@@ -187,19 +187,17 @@ eingesetzt.
 Stichprobentest: *ETag* und *last-modified*
 ===========================================
 
-Das Vorkommen von *ETag* und *last-mofified* in HTTP-Headern wurde mit folgendem
+Das Vorkommen von *ETag* und *last-modified* in HTTP-Headern wurde mit folgendem
 Python-Code getestet.
 
 .. code-block:: python
 
-    #!/usr/bin/env python3
+     #!/usr/bin/env python3
      # encoding:utf8
 
-     from gi.repository import Soup
      from gi.repository import GLib
      from gi.repository import GObject
-     import requests
-     import sys
+     import requests, sys
 
 
      def read_urllist(filename):
@@ -220,11 +218,11 @@ Python-Code getestet.
          if r.status_code == 200:
              cnt['all']+=1
              if 'last-modified' in r.headers:
-                 cnt['lm']+=1
+                 cnt['lm'] += 1
              if 'etag' in r.headers:
-                 cnt['etag']+=1
+                 cnt['etag'] += 1
              if 'last-modified' in r.headers and 'etag' in r.headers:
-                 cnt['both']+=1
+                 cnt['both'] += 1
 
      print(cnt)
 
@@ -244,9 +242,7 @@ verwendet.
     # encoding:utf8
 
     from collections import defaultdict
-    import os
-    import sys
-    import feedparser
+    import os, sys, feedparser
 
     absPath = os.path.abspath(sys.argv[1])
     files = os.listdir(sys.argv[1])
@@ -257,7 +253,7 @@ verwendet.
     for file_ in files:
         feed = feedparser.parse(os.path.join(absPath, file_))
         d[feed.version] += 1
-        d[counter] +=1
+        d[counter] += 1
         print(d)
 
 
@@ -275,10 +271,7 @@ XML-Elemente durchgeführt.
    # encoding:utf8
 
    from collections import defaultdict
-
-   import os
-   import sys
-   import feedparser
+   import os, sys, feedparser
 
    absPath = os.path.abspath(sys.argv[1])
    files = os.listdir(sys.argv[1])
@@ -288,13 +281,13 @@ XML-Elemente durchgeführt.
    def check_entries(feed, attr, d):
        try:
            if attr == "title" and feed.entries[0].title:
-               d["title"] +=1
+               d["title"] += 1
            if attr == "summary" and feed.entries[0].summary:
-               d["summary"] +=1
+               d["summary"] += 1
            if attr == "author" and feed.entries[0].author:
-               d["author"] +=1
+               d["author"] += 1
            if attr == "updated_parsed" and feed.entries[0].updated_parsed:
-               d["updated_parsed"] +=1
+               d["updated_parsed"] += 1
            if attr == "id" and feed.entries[0].id:
                d["id"] +=1
            if attr == "link" and feed.entries[0].link:
@@ -305,11 +298,11 @@ XML-Elemente durchgeführt.
    def check_feed(feed, attr, d):
        try:
            if attr == "icon" and feed.feed.icon:
-               d["icon"] +=1
+               d["icon"] += 1
            if attr == "image" and feed.feed.image:
-               d["image"] +=1
+               d["image"] += 1
            if attr == "logo" and feed.feed.logo:
-               d["logo"] +=1
+               d["logo"] += 1
        except Exception as e:
            print(e)
 
@@ -317,11 +310,8 @@ XML-Elemente durchgeführt.
        feed = feedparser.parse(os.path.join(absPath, file_))
        d["counter"] +=1
 
-       attr_entries = ["title", "summary", "author", "updated_parsed",
-                       "id", "link"]
-
+       attr_entries = ["title", "summary", "author", "updated_parsed", "id", "link"]
        attr_feed = ["icon", "image", "logo"]
-
 
        for attr in attr_entries:
            check_entries(feed, attr, d)
@@ -348,9 +338,7 @@ Spezifikation verwendet. Diese fordert, dass mindestens eines der Attribute
     # encoding:utf8
 
     from collections import defaultdict
-    import os
-    import sys
-    import feedparser
+    import os, sys, feedparser
 
     absPath = os.path.abspath(sys.argv[1])
     files = os.listdir(sys.argv[1])
@@ -360,44 +348,20 @@ Spezifikation verwendet. Diese fordert, dass mindestens eines der Attribute
     def check_entries(feed, attr, d):
         try:
             if attr == "title" and feed.entries[0].title:
-                d["title"] +=1
+                d["title"] += 1
                 if feed.entries[0].summary:
-                    d["title and summary"] +=1
+                    d["title and summary"] += 1
             if attr == "summary" and feed.entries[0].summary:
-                d["summary"] +=1
+                d["summary"] += 1
                 if feed.entries[0].title:
-                    d["title and summary, validation"] +=1
+                    d["title and summary, validation"] += 1
         except Exception as e:
             print(e)
-
-    def check_feed(feed, attr, d):
-        try:
-            if attr == "icon" and feed.feed.icon:
-                d["icon"] +=1
-            if attr == "image" and feed.feed.image:
-                d["image"] +=1
-            if attr == "logo" and feed.feed.logo:
-                d["logo"] +=1
-        except Exception as e:
-            print(e)
-
-    def save_to_disk(url):
-        try:
-            with open('url_missing_format.txt', 'a') as tf:
-                tf.write(url+"\n")
-                print("Saving data to disk, url:", url)
-        except IOError as ie:
-            print("Fail to save data {ie}".format(ie=ie))
-
-
 
     for file_ in files:
         feed = feedparser.parse(os.path.join(absPath, file_))
         d["counter"] +=1
-        if feed.version == '':
-            save_to_disk(file_)
         if feed.version == 'rss20':
-
             attr_entries = ["title", "summary"]
 
             for attr in attr_entries:
@@ -410,8 +374,8 @@ Spezifikation verwendet. Diese fordert, dass mindestens eines der Attribute
 
 .. _heruntergeladenedatenanhang:
     
-Heruntergeladene Feed-Daten
-===========================
+Unverarbeitete Feed-Daten
+=========================
 
 Der folgende Byte-String enthält die XML-Daten zum Feed der Sueddeutschen
 Zeitung. Das sind die unbearbeiteten Daten, die das Objekt *Feed* zum Parsen
@@ -435,19 +399,19 @@ erhält.
            </url>\n      
            <title>Artikel / S\xc3\xbcddeutsche.de</title>\n      
            <link>http://www.sueddeutsche.de/</link>\n      
-         <width>144</width>\n      
-         <height>20</height>\n    
-         </image>\n    
-         <item>\n      
-             <link>http://sz.de/1.2576678</link>\n      
-             <title><![CDATA[T\xc3\xb6lzer Pr\xc3\xbcgel: Minigolf im Kurpark]]></title>\n
-             <description><![CDATA[Alles so still. Gabriel von Seidls B\xc3\xbcste wacht 
-             \xc3\xbcber die Ruhe. Vielleicht sollte er einmal einen kleinen 
-             wei\xc3\x9fen Ball auf die Nase bekommen...]]></description>\n      
-             <guid isPermaLink="false">http://sz.de/1.2576678</guid>\n      
-             <pubDate>Tue, 21 Jul 2015 21:12:00 +0200</pubDate>\n\n    
-         </item>\n
-         <item> ... </item>
+           <width>144</width>\n      
+           <height>20</height>\n    
+       </image>\n    
+       <item>\n      
+            <link>http://sz.de/1.2576678</link>\n      
+            <title><![CDATA[T\xc3\xb6lzer Pr\xc3\xbcgel: Minigolf im Kurpark]]></title>\n
+            <description><![CDATA[Alles so still. Gabriel von Seidls B\xc3\xbcste wacht 
+            \xc3\xbcber die Ruhe. Vielleicht sollte er einmal einen kleinen 
+            wei\xc3\x9fen Ball auf die Nase bekommen...]]></description>\n      
+            <guid isPermaLink="false">http://sz.de/1.2576678</guid>\n      
+            <pubDate>Tue, 21 Jul 2015 21:12:00 +0200</pubDate>\n\n    
+       </item>\n
+       <item> ... </item>
    </channel>\n
    </rss>'
 
@@ -461,7 +425,6 @@ Im Folgenden ist das Ergebnis der Funktion *parse* des Universal Feedparser zu
 sehen, ein Dictionary mit Feed-Daten zum Feed der Sueddeutschen Zeitung. 
 
 .. code-block:: xml
-
 
    {'bozo': 0, 
    'namespaces': {'content': 'http://purl.org/rss/1.0/modules/content/'}, 
