@@ -25,7 +25,7 @@ dritte Version von GTK+ entwickelt. GTK+ ist plattformübergreifend und unter de
 LGPL (GNU Lesser General Public License) lizenziert (vgl. :cite:`lgpl`).
 
 Entwickelt wurde GTK+ in der Programmiersprache C. Language Bindings ermöglichen
-es jedoch auch in anderen Programmiersprachen mit GTK+ zu entwickeln. Dazu zählen bespielsweise
+es jedoch auch in anderen Programmiersprachen mit GTK+ zu entwickeln. Dazu zählen beispielsweise
 Python, Perl, JavaScript oder C++ (vgl.
 :cite:`language` -- Language Bindings für GTK+).
 
@@ -232,7 +232,7 @@ Aktionen auszuführen.
  +  **created:** Wird emittiert, sobald eine Instanz von Feed erstellt wurde.
     Callback-Funktionen: Feedhandler.create_feed_deferred()
  +  **updated:** Wird emittiert, sobald ein Update abgeschlossen ist.
-    Calback-Funktionen: Feedhandler.sig_feed_updated(),
+    Callback-Funktionen: Feedhandler.sig_feed_updated(),
     FeedView.redraw_num_labels()
     
 
@@ -262,7 +262,7 @@ Klasse *MainWindow* auf die Signale registriert.
 
  +  **ok-delete-clicked:** Wird emittiert, sobald der Benutzer das Löschen eines
     Feeds bestätigt hat.
-    Callback-Funktioenen: MainWindow.delete_feed_actions()
+    Callback-Funktionen: MainWindow.delete_feed_actions()
 
 
 **View**: Die Klasse *View* bietet die Signale *view-enter* und *view-leave* an.
@@ -272,7 +272,7 @@ Klasse *MainWindow* auf die Signale registriert.
     der Unterklassen auf.
  
  +  **view-leave:** Wird emittiert, sobald eine Ansicht verlassen wird.
-    Callback-Funktioenen: View._on_view_leave(), ruft on_view_leave()
+    Callback-Funktionen: View._on_view_leave(), ruft on_view_leave()
     der Unterklassen auf.
 
 **Document**: Die Klasse *Document* bietet das Signal *finish* an.

@@ -20,7 +20,7 @@ erläuterten Vorteile des asynchronen Downloads gegenüber dem synchronen Downlo
 konnten anhand einer Stichprobe bestätigt werden (vgl. :ref:`performancetest`).
 Dafür wurde für eine steigende Anzahl an URLs der Inhalt der Webseiten
 heruntergeladen und die verbrauchte Zeit gemessen. Der Test konnte die Vorteile
-des asynchronen Ansatzes für die Performance der Andwendung bestätigen und wird
+des asynchronen Ansatzes für die Performance der Anwendung bestätigen und wird
 in dieser Form im Feedreader *gylfeed* umgesetzt.
 
 Um die Problematik des erneuten Herunterladens aller Feed-Daten zu umgehen,
@@ -80,7 +80,7 @@ Fazit & Ausblick
 ================
 
 Die detailliertere Betrachtung der internen Abläufe des Feedreaders *gylfeed*
-hat es ermöglich, noch vorhandene Schwachstellen zu erkennen und tiefer in die
+hat es ermöglicht, noch vorhandene Schwachstellen zu erkennen und tiefer in die
 theoretischen Grundlagen einzusteigen, wofür während der Projektarbeit teilweise
 weniger Zeit übrig war.
 

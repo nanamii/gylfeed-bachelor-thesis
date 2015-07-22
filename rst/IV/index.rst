@@ -155,7 +155,7 @@ abzuarbeiten.
     
     Vergleich der Downloadgeschwindigkeit von synchroner und asynchroner
     Ausführung. Gemessen für 5, 10, 20, 30, 40 und 50 URLs. Durchschnitt aus
-    jeweils 10 Durchfläufen gebildet.
+    jeweils 10 Durchläufen gebildet.
 
 
 
@@ -280,7 +280,7 @@ Die Ergebnisse beziehen sich auf 3.512 Feeds, deren Server eine valide Antwort
 (Status Code 200) geliefert hat. Es ist zu erkennen, dass der Anteil an Feeds, 
 die das Attribut *last-modified* liefern (80,10%) deutlich größer ist, als der Anteil, 
 der das Attribut *ETag* liefert (24,87%). Beide Attribute wurden von 741 (21,10%) geliefert.
-Von 566 Feeds (16,12%) wurde keines der Attribute geliefert. Der bedeutenste
+Von 566 Feeds (16,12%) wurde keines der Attribute geliefert. Der bedeutendste
 Wert ist der Anteil der Feeds, die mindestens eines der beiden Attribute
 liefert (83,88% siehe Abbildung :num:`piechart`). Da es bei der Prüfung auf Änderung der Feed-Daten ausreichend
 ist, durch eines der Attribute validieren zu können, ob eine Änderung
@@ -378,7 +378,7 @@ innerhalb der Instanz *Feed* verarbeitet werden.
 *Downloader* als Platzhalter für das zu erwartende Ergebnis des asynchronen Downloads
 eingesetzt.
 
-**Web:** Das *Web* respräsentiert im vorliegenden Fall sämtliche Webserver, die
+**Web:** Das *Web* repräsentiert im vorliegenden Fall sämtliche Webserver, die
 eine Anfrage erhalten und daraufhin eine Antwort senden.
 
 .. _downloadsequenz:

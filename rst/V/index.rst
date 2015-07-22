@@ -157,7 +157,7 @@ finden.
     :label: elemente-statistics
     :caption: Testergebnisse der Prüfung auf XML-Elemente für 5.092
               heruntergeladene Dateien.
-    :alt: Testergebnisse der Prüfung auf vorhandede XML-Elemente.
+    :alt: Testergebnisse der Prüfung auf vorhandene XML-Elemente.
     :spec: l l r
 
     =============================================== ============  ==========
@@ -450,7 +450,7 @@ die Funktion *compare_entries (feed_data)*. Dazu werden die Nachrichten der
 heruntergeladenen Feed-Daten anhand deren ID mit den bereits vorhandenen
 Nachrichten verglichen. Ist eine ID noch nicht vorhanden, wird die Nachricht zu
 den vorhandenen Nachrichten hinzugefügt. Die zum Vergleich verwendete ID ist laut dem
-Unviversal Feedparser ein global einzigartiger Identifikator. Häufig handelt es
+Universal Feedparser ein global einzigartiger Identifikator. Häufig handelt es
 sich um die URL der Nachricht.
 
 
