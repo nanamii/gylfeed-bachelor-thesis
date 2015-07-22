@@ -87,6 +87,11 @@ bzw. Feeds ohne Format bezogen auf die gesamt getesteten Feeds zu sehen.
     Stichprobe von 6.203 Feeds.  
 
 
+.. raw:: Latex
+
+   \newpage
+ 
+    
 .. _testxmlelemente:
 
 XML-Elemente
@@ -139,6 +144,11 @@ muss (vgl. :cite:`rssrequests` -- Spezifikation von RSS 2.0).
 Das Beispiel des RSS 2.0 Feeds stellt nur einen Ausschnitt der möglichen
 Elemente dar. Die vollständige Liste der Elemente ist in der Spezifikation von
 RSS 2.0 abrufbar (vgl. :cite:`rssrequests`).
+
+
+.. raw:: Latex
+
+   \newpage
 
 
 **Stichprobentest:**
@@ -460,9 +470,7 @@ Speicherung der Feed-Daten und Einstellungen
 
 Es müssen sämtliche Einstellungen, die der Benutzer getätigt hat
 und die Feed-Daten selbst gespeichert werden. Umgesetzt wird dies aktuell mit dem Python-Modul
-*pickle* (vgl. :cite:`pickle`).
-
-Das Python-Modul *pickle* speichert die Daten in einem Binärformat. Es können
+*pickle* (vgl. :cite:`pickle`). Das Python-Modul *pickle* speichert die Daten in einem Binärformat. Es können
 alle von Python mitgelieferten nativen Datentypen gespeichert werden (vgl.
 :cite:`pilgrim`).
  
@@ -479,7 +487,6 @@ Folgender Code zeigt das Speichern der Daten mit *pickle*:
         try:
             with open('feeds.pickle', 'wb') as fp:
                 pickle.dump([f.get_serializable_data() for f in feeds], fp)
-                print("Saving data to disk")
         except IOError as ie:
             print("Fail to save data {ie}".format(ie=ie))
 

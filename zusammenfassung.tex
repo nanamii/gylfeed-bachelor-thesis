@@ -1,0 +1,71 @@
+\documentclass{scrartcl}
+\thispagestyle{empty}
+\usepackage{geometry}
+\geometry{top=20mm, left=30mm, right=30mm, bottom=20mm}
+\usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
+\usepackage[onehalfspacing]{setspace}
+\RequirePackage{garamondx}
+\begin{document}
+\begin{center}
+    \LARGE \textbf{Zusammenfassung} \\
+    \vspace{.1in}
+    \large der Bachelorarbeit \\
+    \vspace{.1in}
+    \small ,,Theorie und Evaluation des Feedreaders gylfeed" \\
+    \vspace{.1in}
+    \small \textit{Susanne Kießling, \today}
+    \vspace{.2in}
+\end{center}
+
+
+Innerhalb der Projektarbeit \cite{kiessling} fand der Entwurf und die
+Implementierung des Feedreaders \textit{gylfeed} statt. Es handelt sich um einen
+Desktop-Feedreader, der vorallem in der Bedienung und dem Aufbau der grafischen
+Benutzeroberfläche eine Alternative zu bestehenden Feedreadern anstrebt.
+Entwickelt wurde der Feedreader in der Programmiersprache Python und dem Tool
+zur Erstellung grafischer Benutzeroberflächen, GTK+.
+\\
+\\
+Die Bachelorarbeit betrachtet die theoretischen Grundlagen und Hintergründe 
+der Projektarbeit \cite{kiessling}. Statistische Auswertungen prüfen diese 
+theoretischen Ansätze. Die jeweilige Umsetzung innerhalb von \textit{}gylfeed 
+wird vorgestellt und bewertet.
+\\
+\\
+Anfangs wird die Verwendung von sogenannten Signalen betrachtet und ein
+Überblick zum Feedreader gylfeed gegeben. Der Hauptteil der Bachelorarbeit
+beschäftigt sich mit der Beschaffung und Verarbeitung der Feed-Daten. Bei der
+Beschaffung der Feed-Daten wird die Performance des Downloads thematisiert. Dazu
+werden der synchrone und der asynchrone Ansatz im Vergleich betrachtet und jeweils
+ein Performance-Test durchgeführt. Außerdem wird mit den Attributen ETag und
+last-modified eine Möglichkeit erläutert, festzustellen, ob sich die Feed-Daten
+geändert haben und ein Download notwendig ist. Dazu werden Stichprobentests
+durchgeführt. 
+\\
+\\
+Innerhalb der Verarbeitung der Feed-Daten wird anfangs anhand einer
+Stichprobe die Häufigkeit verschiedener Feedformate untersucht. Danach wird
+näher auf die Inhaltselemente der Feed-Daten eingegangen und untersucht, wie
+häufig die einzelnen Elemente vorkommen. In beiden Bereichen, sowohl Beschaffung
+als auch Verarbeitung der Feed-Daten wird die Umsetzung innerhalb \textit{gylfeed}
+vorgestellt und mögliche Verbesserungen aufgeführt.
+\\
+\\
+Auf weiterführende Konzepte wird im letzten Kapitel eingegangen. Die Erweiterung
+der Suche mittels verschiedener Algorithmen wird vorgestellt. Als zweite
+mögliche Erweiterung für \textit{gylfeed} wird der Einbezug von Nutzer-Präferenzen
+betrachtet.
+\\
+\\
+Abschließend erfolgt eine Zusammenfassung der behandelten Themen und gewonnenen
+Ergebnisse.
+\\
+\\
+\vspace*{-2em}\large\textbf{Literatur}
+\renewcommand*{\refname}{} 
+\vspace*{-1em}
+\small
+\bibliographystyle{unsrt}
+\bibliography{refs.bib}
+\end{document}
